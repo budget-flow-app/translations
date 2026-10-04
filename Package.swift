@@ -6,7 +6,7 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [.iOS(.v16), .macCatalyst(.v16), .macOS(.v13), .watchOS(.v9)],
     products: [
-        .library(name: "BudgetFlowTranslations", type: .dynamic, targets: ["BudgetFlowTranslations"])
+        .library(name: "BudgetFlowTranslations", targets: ["BudgetFlowTranslations"])
     ],
     dependencies: [
         .package(url: "https://github.com/skiptools/skip.git", from: "1.9.13"),
