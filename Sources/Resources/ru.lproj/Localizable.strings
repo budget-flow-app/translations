@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Спасибо за использование полной версии!";
-"support_setting_footer_title" = "Есть вопросы или идеи? Напишите сообщение или положительный отзыв в App Store! Ваш отзыв очень мотивирует и помогает улучшить приложение.";
+"support_setting_footer_title" = "Есть вопросы или идеи? Напишите сообщение или положительный отзыв в %@! Ваш отзыв очень мотивирует и помогает улучшить приложение.";
 
 /* Buttons */
 "share_budgetbook_button" = "Поделиться книгой бюджета";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nИнформация: если вы перейдете с подписки на разовую покупку, не забудьте впоследствии отменить предыдущую подписку.";
 
 "alert_upgrade_view_purchase_error_message" = "Ваша покупка не может быть успешно завершена";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Возникла проблема с App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Возникла проблема с %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nИнформация: иногда покупка может сработать только в том случае, если вы подтвердите свой пароль вместо Touch ID / Face ID.\n\nНапример, если вы используете Face ID, просто закройте переднюю камеру и попробуйте снова, чтобы увидеть диалоговое окно пароля.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Покупки на этом устройстве запрещены.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Проверьте способ оплаты и повторите попытку позже. Если ошибка повторится, обратитесь в службу поддержки.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Могу ли я использовать полную версию с несколькими людьми?";
 "upgrade_faq_multiple_people_value" = "Да, вы можете поделиться разовой покупкой, а также подпиской на полную версию с пятью людьми в семейной группе. Все, что вам нужно сделать, это включить семейный доступ в настройках системы и добавить другие люди в группу приглашают.";
 "upgrade_faq_cancel_subscription_title" = "Как отменить подписку?";
-"upgrade_faq_cancel_subscription_value" = "Вы можете отменить подписку в любое время, используя свою учетную запись Apple в Системных настройках.";
+"upgrade_faq_cancel_subscription_value" = "Вы можете отменить подписку в любое время, используя свою учетную запись %@ в Системных настройках.";
 "upgrade_faq_subscription_data_loss_title" = "Мои данные будут потеряны, если я отменю подписку?";
 "upgrade_faq_subscription_data_loss_value" = "Нет. Все, что вы создадите при подписке на полную версию, будет по-прежнему доступно, если вы вернетесь к бесплатной версии.";
 "upgrade_faq_refund_title" = "Как я могу получить возмещение?";
-"upgrade_faq_refund_value" = "Платежи, сделанные через App Store, подлежат возврату только Apple. Чтобы получить возмещение, вы должны обратиться в службу поддержки Apple в течение 14 дней с момента покупки.";
+"upgrade_faq_refund_value" = "Платежи, сделанные через %1$@, подлежат возврату только %2$@. Чтобы получить возмещение, вы должны обратиться в службу поддержки %2$@ в течение 14 дней с момента покупки.";
 "upgrade_faq_switch_plan_title" = "Можно ли перейти с подписки на разовую покупку позже?";
 "upgrade_faq_switch_plan_value" = "Да, вы можете перейти с активной подписки на разовую покупку в любое время, купив соответствующий продукт в приложении. Однако не забудьте отменить предыдущую подписку, чтобы не платить больше, чем один раз.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Вам нравится приложение?";
 
 "alert_user_feedback_like_title" = "Спасибо! 🎉";
-"alert_user_feedback_like_message" = "Если вам понравилось приложение, напишите положительный отзыв в App Store. Это действительно очень помогает и мотивирует постоянно улучшать приложение. 😊";
+"alert_user_feedback_like_message" = "Если вам понравилось приложение, напишите положительный отзыв в %@. Это действительно очень помогает и мотивирует постоянно улучшать приложение. 😊";
 "alert_user_feedback_rate_app_button" = "Оценить приложение";
 "alert_user_feedback_maybe_later_button" = "Может быть позже";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Валюта по умолчанию";
+"favorite_currencies_section_title" = "Избранное";
 "suggested_currencies_section_title" = "Предложения";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Поиск названия валюты или его аббревиатуры";
 
 /* Buttons */
+"add_favorite_currency_button" = "Добавить в избранное";
+"remove_favorite_currency_button" = "Удалить из избранного";
 "change_default_currency_button" = "Изменить валюту по умолчанию";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Terima kasih telah menggunakan versi lengkap!";
-"support_setting_footer_title" = "Ada pertanyaan atau ide? Tulis pesan atau ulasan positif di App Store! Umpan balik Anda sangat memotivasi dan membantu meningkatkan aplikasi.";
+"support_setting_footer_title" = "Ada pertanyaan atau ide? Tulis pesan atau ulasan positif di %@! Umpan balik Anda sangat memotivasi dan membantu meningkatkan aplikasi.";
 
 /* Buttons */
 "share_budgetbook_button" = "Bagikan Buku Anggaran";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Jika Anda beralih dari langganan ke pembelian satu kali, jangan lupa membatalkan langganan Anda yang masih aktif setelahnya.";
 
 "alert_upgrade_view_purchase_error_message" = "Pembelian Anda tidak berhasil diselesaikan.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Pembelian tidak diizinkan di perangkat ini.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Periksa metode pembayaran Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Dapatkah saya menggunakan versi lengkap dengan banyak orang?";
 "upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Hal yang harus Anda lakukan adalah mengaktifkan keluarga berbagi di pengaturan sistem dan menambahkan orang lain ke grup.";
 "upgrade_faq_cancel_subscription_title" = "Bagaimana cara membatalkan langganan saya?";
-"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Akun Apple Anda di Preferensi Sistem.";
+"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Akun %@ Anda di Preferensi Sistem.";
 "upgrade_faq_subscription_data_loss_title" = "Apakah data saya akan hilang jika saya membatalkan langganan?";
 "upgrade_faq_subscription_data_loss_value" = "Tidak. Apa pun yang Anda buat saat berlangganan versi lengkap akan tetap tersedia jika Anda beralih kembali ke versi gratis.";
 "upgrade_faq_refund_title" = "Bagaimana cara mendapatkan pengembalian dana saya?";
-"upgrade_faq_refund_value" = "Pembayaran yang dilakukan melalui App Store hanya dapat dikembalikan oleh Apple. Untuk menerima pengembalian dana, Anda harus menghubungi Dukungan Apple dalam waktu 14 hari setelah pembelian.";
+"upgrade_faq_refund_value" = "Pembayaran yang dilakukan melalui %1$@ hanya dapat dikembalikan oleh %2$@. Untuk menerima pengembalian dana, Anda harus menghubungi Dukungan %2$@ dalam waktu 14 hari setelah pembelian.";
 "upgrade_faq_switch_plan_title" = "Apakah mungkin untuk beralih dari langganan ke pembelian satu kali di kemudian hari?";
 "upgrade_faq_switch_plan_value" = "Ya, Anda dapat beralih dari langganan aktif ke pembelian satu kali kapan saja dengan membeli produk yang sesuai di aplikasi. Namun, jangan lupa untuk membatalkan langganan Anda sebelumnya agar Anda tidak membayar lebih dari sekali.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Apakah Anda menyukai aplikasi ini?";
 
 "alert_user_feedback_like_title" = "Terima kasih! 🎉";
-"alert_user_feedback_like_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di App Store. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
+"alert_user_feedback_like_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di %@. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
 "alert_user_feedback_rate_app_button" = "Nilai Aplikasi";
 "alert_user_feedback_maybe_later_button" = "Mungkin nanti";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Mata Uang Bawaan";
+"favorite_currencies_section_title" = "Favorit";
 "suggested_currencies_section_title" = "Saran";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Cari nama mata uang atau singkatannya";
 
 /* Buttons */
+"add_favorite_currency_button" = "Tambahkan ke favorit";
+"remove_favorite_currency_button" = "Hapus dari favorit";
 "change_default_currency_button" = "Ubah mata uang bawaan";
 
 /* Alert Views */

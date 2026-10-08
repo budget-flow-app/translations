@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Tack för att du använder den fullständiga versionen!";
-"support_setting_footer_title" = "Några frågor eller idéer? Skriv ett meddelande eller en positiv recension i App Store! Din feedback är mycket motiverande och hjälper till att förbättra appen.";
+"support_setting_footer_title" = "Några frågor eller idéer? Skriv ett meddelande eller en positiv recension i %@! Din feedback är mycket motiverande och hjälper till att förbättra appen.";
 
 /* Buttons */
 "share_budgetbook_button" = "Dela budgetbok";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformation: Om du byter från ett abonnemang till ett engångsköp, kom ihåg att avbryta din tidigare prenumeration i efterhand.";
 
 "alert_upgrade_view_purchase_error_message" = "Ditt köp kunde inte slutföras.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Det uppstod ett problem med App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Det uppstod ett problem med %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformation: Ibland kanske köpet bara fungerar om du bekräftar med ditt lösenord istället för Touch ID / Face ID.\n\nTill exempel, om du använder Face ID, täck bara över frontkameran och försök igen för att se lösenordsdialogrutan.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Köp är inte tillåtna på den här enheten.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Kontrollera din betalningsmetod och försök igen senare. Kontakta supporten om felet kvarstår.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Kan jag använda den fullständiga versionen med flera personer?";
 "upgrade_faq_multiple_people_value" = "Ja, du kan dela både engångsköpet och prenumerationen av den fullständiga versionen med upp till fem personer inom en familjegrupp. Allt du behöver göra är att aktivera familjedelning i systeminställningarna och lägga till de andra personerna i gruppen bjuder in.";
 "upgrade_faq_cancel_subscription_title" = "Hur avbryter jag min prenumeration?";
-"upgrade_faq_cancel_subscription_value" = "Du kan avbryta din prenumeration när som helst med ditt Apple-ID i Systeminställningar.";
+"upgrade_faq_cancel_subscription_value" = "Du kan avbryta din prenumeration när som helst med ditt %@-ID i Systeminställningar.";
 "upgrade_faq_subscription_data_loss_title" = "Kommer mina data att gå förlorade om jag avbryter min prenumeration?";
 "upgrade_faq_subscription_data_loss_value" = "Nej. Allt du skapar när du prenumererar på den fullständiga versionen kommer fortfarande att vara tillgängligt om du byter tillbaka till gratisversionen.";
 "upgrade_faq_refund_title" = "Hur kan jag få en återbetalning?";
-"upgrade_faq_refund_value" = "Betalningar gjorda via App Store återbetalas endast av Apple. För att få en återbetalning måste du kontakta Apple Support inom 14 dagar efter köpet.";
+"upgrade_faq_refund_value" = "Betalningar gjorda via %1$@ återbetalas endast av %2$@. För att få en återbetalning måste du kontakta %2$@ Support inom 14 dagar efter köpet.";
 "upgrade_faq_switch_plan_title" = "Är det möjligt att byta från ett abonnemang till ett engångsköp vid ett senare tillfälle?";
 "upgrade_faq_switch_plan_value" = "Ja, du kan när som helst byta från en aktiv prenumeration till engångsköpet genom att köpa motsvarande produkt i appen. Kom dock ihåg att säga upp din tidigare prenumeration så att du inte betalar mer än en gång.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Gillar du appen?";
 
 "alert_user_feedback_like_title" = "Tack! 🎉";
-"alert_user_feedback_like_message" = "Om du gillar appen, skriv en positiv recension i App Store. Den hjälper verkligen mycket och motiverar till att kontinuerligt förbättra appen. 😊";
+"alert_user_feedback_like_message" = "Om du gillar appen, skriv en positiv recension i %@. Den hjälper verkligen mycket och motiverar till att kontinuerligt förbättra appen. 😊";
 "alert_user_feedback_rate_app_button" = "Betygsätt app";
 "alert_user_feedback_maybe_later_button" = "Kanske senare";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Standardvaluta";
+"favorite_currencies_section_title" = "Favoriter";
 "suggested_currencies_section_title" = "Förslag";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Sök efter ett valutanamn eller dess förkortning";
 
 /* Buttons */
+"add_favorite_currency_button" = "Lägg till i favoriter";
+"remove_favorite_currency_button" = "Ta bort från favoriter";
 "change_default_currency_button" = "Ändra standardvaluta";
 
 /* Alert Views */

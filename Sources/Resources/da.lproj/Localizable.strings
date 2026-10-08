@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Tak, fordi du bruger den fulde version!";
-"support_setting_footer_title" = "Enhver spørgsmål eller idé? Skriv en besked eller en positiv anmeldelse i App Store! Din feedback er meget motiverende og hjælper med at forbedre appen.";
+"support_setting_footer_title" = "Enhver spørgsmål eller idé? Skriv en besked eller en positiv anmeldelse i %@! Din feedback er meget motiverende og hjælper med at forbedre appen.";
 
 /* Buttons */
 "share_budgetbook_button" = "Del budgetbog";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Hvis du skifter fra et abonnement til et engangskøb, så husk at opsige dit tidligere abonnement bagefter.";
 
 "alert_upgrade_view_purchase_error_message" = "Dit køb kunne ikke gennemføres.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Der var et problem med App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Der var et problem med %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Nogle gange fungerer købet muligvis kun, hvis du bekræfter med din adgangskode i stedet for Touch ID / Face ID.\n\nFor eksempel, hvis du bruger Face ID, skal du blot dække frontkameraet og prøve igen for at se adgangskodedialogen.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Køb er ikke tilladt på denne enhed.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Tjek din betalingsmetode og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Kan jeg bruge den fulde version med flere personer?";
 "upgrade_faq_multiple_people_value" = "Ja, du kan dele engangskøbet samt abonnementet på den fulde version med op til fem personer inden for en familiegruppe. Alt du skal gøre er at slå familiedeling til i systemindstillingerne og tilføje de andre personer i gruppen inviterer.";
 "upgrade_faq_cancel_subscription_title" = "Hvordan opsiger jeg mit abonnement?";
-"upgrade_faq_cancel_subscription_value" = "Du kan til enhver tid annullere dit abonnement ved hjælp af dit Apple-id i Systemindstillinger.";
+"upgrade_faq_cancel_subscription_value" = "Du kan til enhver tid annullere dit abonnement ved hjælp af dit %@-id i Systemindstillinger.";
 "upgrade_faq_subscription_data_loss_title" = "Vil mine data gå tabt, hvis jeg opsiger mit abonnement?";
 "upgrade_faq_subscription_data_loss_value" = "Nej. Alt, hvad du opretter, mens du abonnerer på den fulde version, vil stadig være tilgængeligt, hvis du skifter tilbage til den gratis version.";
 "upgrade_faq_refund_title" = "Hvordan kan jeg få en refusion?";
-"upgrade_faq_refund_value" = "Betalinger foretaget via App Store kan kun refunderes af Apple. For at modtage en refusion skal du kontakte Apple Support inden for 14 dage efter købet.";
+"upgrade_faq_refund_value" = "Betalinger foretaget via %1$@ kan kun refunderes af %2$@. For at modtage en refusion skal du kontakte %2$@ Support inden for 14 dage efter købet.";
 "upgrade_faq_switch_plan_title" = "Er det muligt at skifte fra et abonnement til et engangskøb på et senere tidspunkt?";
 "upgrade_faq_switch_plan_value" = "Ja, du kan til enhver tid skifte fra et aktivt abonnement til engangskøbet ved at købe det tilsvarende produkt i appen. Husk dog at opsige dit tidligere abonnement, så du ikke betaler mere end enkelt gang.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Kan du lide appen?";
 
 "alert_user_feedback_like_title" = "Tak! 🎉";
-"alert_user_feedback_like_message" = "Hvis du kan lide appen, så skriv en positiv anmeldelse i App Store. Det hjælper virkelig meget og motiverer til løbende at forbedre appen. 😊";
+"alert_user_feedback_like_message" = "Hvis du kan lide appen, så skriv en positiv anmeldelse i %@. Det hjælper virkelig meget og motiverer til løbende at forbedre appen. 😊";
 "alert_user_feedback_rate_app_button" = "Vurder app";
 "alert_user_feedback_maybe_later_button" = "Måske senere";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Standardvaluta";
+"favorite_currencies_section_title" = "Favoritter";
 "suggested_currencies_section_title" = "Forslag";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Søg efter et valutanavn eller dets forkortelse";
 
 /* Buttons */
+"add_favorite_currency_button" = "Føj til favoritter";
+"remove_favorite_currency_button" = "Fjern fra favoritter";
 "change_default_currency_button" = "Skift standardvaluta";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "شكرًا لك على استخدام الإصدار الكامل!";
-"support_setting_footer_title" = "هل لديك أسئلة أو أفكار؟ اكتب رسالة أو تعليقًا إيجابيًا في App Store! تعليقاتك محفزة للغاية وتساعد في تحسين التطبيق.";
+"support_setting_footer_title" = "هل لديك أسئلة أو أفكار؟ اكتب رسالة أو تعليقًا إيجابيًا في %@! تعليقاتك محفزة للغاية وتساعد في تحسين التطبيق.";
 
 /* Buttons */
 "share_budgetbook_button" = "مشاركة دفتر الميزانية";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nمعلومات: إذا قمت بالترقية من اشتراك إلى شراء لمرة واحدة، فتأكد من إلغاء اشتراكك السابق لاحقًا.";
 
 "alert_upgrade_view_purchase_error_message" = "تعذر إكمال عملية الشراء بنجاح";
-"alert_upgrade_view_purchase_error_store_problem_message" = "توجد مشكلة في App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "توجد مشكلة في %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nمعلومات: في بعض الأحيان قد تعمل عملية الشراء فقط إذا قمت بالتحقق من كلمة المرور الخاصة بك بدلاً من Touch ID/Face ID.\n\nعلى سبيل المثال، إذا كنت تستخدم Face ID، فقط غطِ الكاميرا الأمامية وحاول مرة أخرى لرؤية مربع الحوار الخاص بكلمة المرور.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "عمليات الشراء غير مسموح بها على هذا الجهاز.";
 "alert_upgrade_view_purchase_error_invalid_message" = "تحقق من طريقة الدفع الخاصة بك وحاول مرة أخرى لاحقًا. إذا استمر الخطأ، يرجى الاتصال بالدعم.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "هل يمكنني استخدام الإصدار الكامل مع عدة أشخاص؟";
 "upgrade_faq_multiple_people_value" = "نعم، يمكنك مشاركة عملية شراء لمرة واحدة بالإضافة إلى اشتراك الإصدار الكامل مع ما يصل إلى خمسة أشخاص في مجموعة عائلية. كل ما عليك فعله هو تشغيل مشاركة العائلة في إعدادات النظام لديك وإضافة أشخاص آخرين إلى المجموعة دعوة.";
 "upgrade_faq_cancel_subscription_title" = "كيفية إلغاء الاشتراك؟";
-"upgrade_faq_cancel_subscription_value" = "يمكنك إلغاء اشتراكك في أي وقت باستخدام معرف Apple الخاص بك في تفضيلات النظام.";
+"upgrade_faq_cancel_subscription_value" = "يمكنك إلغاء اشتراكك في أي وقت باستخدام معرف %@ الخاص بك في تفضيلات النظام.";
 "upgrade_faq_subscription_data_loss_title" = "هل سيتم فقدان بياناتي إذا قمت بإلغاء اشتراكي؟";
 "upgrade_faq_subscription_data_loss_value" = "لا. أي شيء تقوم بإنشائه أثناء الاشتراك في الإصدار الكامل سيظل متاحًا إذا قمت بالتبديل مرة أخرى إلى الإصدار المجاني.";
 "upgrade_faq_refund_title" = "كيف يمكنني استرداد أموالي؟";
-"upgrade_faq_refund_value" = "المدفوعات التي تتم من خلال App Store قابلة للاسترداد إلى Apple فقط. لاسترداد المبلغ المدفوع، يجب عليك الاتصال بدعم Apple خلال 14 يومًا من تاريخ الشراء.";
+"upgrade_faq_refund_value" = "المدفوعات التي تتم من خلال %1$@ قابلة للاسترداد إلى %2$@ فقط. لاسترداد المبلغ المدفوع، يجب عليك الاتصال بدعم %2$@ خلال 14 يومًا من تاريخ الشراء.";
 "upgrade_faq_switch_plan_title" = "هل يمكنني التبديل من الاشتراك إلى الشراء لمرة واحدة لاحقًا؟";
 "upgrade_faq_switch_plan_value" = "نعم، يمكنك التبديل من اشتراك نشط إلى شراء لمرة واحدة في أي وقت عن طريق شراء المنتج المقابل في التطبيق. ومع ذلك، تأكد من إلغاء اشتراكك السابق لتجنب الدفع أكثر من مرة.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "هل أعجبك التطبيق؟";
 
 "alert_user_feedback_like_title" = "شكرًا لك! 🎉";
-"alert_user_feedback_like_message" = "إذا أعجبك التطبيق، فاكتب تقييمًا إيجابيًا في App Store. إنه يساعدنا كثيرًا حقًا ويحفزنا على تحسين التطبيق باستمرار. 😊";
+"alert_user_feedback_like_message" = "إذا أعجبك التطبيق، فاكتب تقييمًا إيجابيًا في %@. إنه يساعدنا كثيرًا حقًا ويحفزنا على تحسين التطبيق باستمرار. 😊";
 "alert_user_feedback_rate_app_button" = "تقييم التطبيق";
 "alert_user_feedback_maybe_later_button" = "ربما لاحقًا";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "العملة الافتراضية";
+"favorite_currencies_section_title" = "المفضلة";
 "suggested_currencies_section_title" = "الاقتراحات";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "ابحث عن اسم العملة أو اختصارها";
 
 /* Buttons */
+"add_favorite_currency_button" = "إضافة إلى المفضلة";
+"remove_favorite_currency_button" = "إزالة من المفضلة";
 "change_default_currency_button" = "تغيير العملة الافتراضية";
 
 /* Alert Views */

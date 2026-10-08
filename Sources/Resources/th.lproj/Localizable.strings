@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "ขอบคุณที่ใช้เวอร์ชันเต็ม!";
-"support_setting_footer_title" = "คำถามหรือแนวคิดใดๆ เขียนข้อความหรือวิจารณ์ในเชิงบวกใน App Store! คำติชมของคุณสร้างแรงจูงใจและช่วยปรับปรุงแอป";
+"support_setting_footer_title" = "คำถามหรือแนวคิดใดๆ เขียนข้อความหรือวิจารณ์ในเชิงบวกใน %@! คำติชมของคุณสร้างแรงจูงใจและช่วยปรับปรุงแอป";
 
 /* Buttons */
 "share_budgetbook_button" = "แบ่งปันสมุดงบประมาณ";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nข้อมูล: หากคุณเปลี่ยนจากการสมัครสมาชิกเป็นการซื้อครั้งเดียว อย่าลืมยกเลิกการสมัครสมาชิกก่อนหน้าของคุณในภายหลัง";
 
 "alert_upgrade_view_purchase_error_message" = "การสั่งซื้อของคุณไม่เสร็จสมบูรณ์";
-"alert_upgrade_view_purchase_error_store_problem_message" = "มีปัญหากับ App Store";
+"alert_upgrade_view_purchase_error_store_problem_message" = "มีปัญหากับ %@";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nข้อมูล: บางครั้งการซื้ออาจใช้งานได้ก็ต่อเมื่อคุณยืนยันด้วยรหัสผ่านของคุณแทน Touch ID / Face ID\n\nตัวอย่างเช่น หากคุณใช้ Face ID ให้ปิดกล้องหน้าจากนั้นลองอีกครั้งเพื่อดูหน้าต่างการใส่รหัสผ่าน";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "ไม่อนุญาตให้ซื้อบนอุปกรณ์นี้";
 "alert_upgrade_view_purchase_error_invalid_message" = "ตรวจสอบวิธีการชำระเงินของคุณแล้วลองอีกครั้งในภายหลัง หากข้อผิดพลาดยังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "ฉันสามารถใช้เวอร์ชันเต็มกับหลายคนได้หรือไม่";
 "upgrade_faq_multiple_people_value" = "ใช่ คุณสามารถแชร์การซื้อครั้งเดียวและการสมัครรับข้อมูลเวอร์ชันเต็มกับสมาชิกในครอบครัวได้สูงสุดห้าคน สิ่งที่คุณต้องทำคือเปิดใช้การแชร์กันในครอบครัวในการตั้งค่าระบบและเพิ่ม คนอื่นเชิญเข้ากลุ่ม";
 "upgrade_faq_cancel_subscription_title" = "ฉันจะยกเลิกการสมัครของฉันได้อย่างไร";
-"upgrade_faq_cancel_subscription_value" = "คุณสามารถยกเลิกการสมัครรับข้อมูลของคุณได้ตลอดเวลาโดยใช้ บัญชี Apple ของคุณในการตั้งค่าระบบ";
+"upgrade_faq_cancel_subscription_value" = "คุณสามารถยกเลิกการสมัครรับข้อมูลของคุณได้ตลอดเวลาโดยใช้ บัญชี %@ ของคุณในการตั้งค่าระบบ";
 "upgrade_faq_subscription_data_loss_title" = "ข้อมูลของฉันจะสูญหายหรือไม่หากฉันยกเลิกการสมัคร";
 "upgrade_faq_subscription_data_loss_value" = "ไม่ ทุกสิ่งที่คุณสร้างในขณะที่สมัครรับเวอร์ชันเต็มจะยังคงใช้งานได้ หากคุณเปลี่ยนกลับไปเป็นเวอร์ชันฟรี";
 "upgrade_faq_refund_title" = "ฉันจะได้รับเงินคืนได้อย่างไร";
-"upgrade_faq_refund_value" = "การชำระเงินผ่าน App Store สามารถขอคืนได้โดย Apple เท่านั้น ในการรับเงินคืน คุณต้องติดต่อฝ่ายสนับสนุนของ Apple ภายใน 14 วันนับจากวันที่ซื้อ";
+"upgrade_faq_refund_value" = "การชำระเงินผ่าน %1$@ สามารถขอคืนได้โดย %2$@ เท่านั้น ในการรับเงินคืน คุณต้องติดต่อฝ่ายสนับสนุนของ %2$@ ภายใน 14 วันนับจากวันที่ซื้อ";
 "upgrade_faq_switch_plan_title" = "เป็นไปได้หรือไม่ที่จะสลับจากการสมัครสมาชิกไปเป็นการซื้อครั้งเดียวในภายหลัง";
 "upgrade_faq_switch_plan_value" = "ใช่ คุณสามารถเปลี่ยนจากการสมัครสมาชิกที่ใช้งานอยู่ไปเป็นการซื้อครั้งเดียวได้ตลอดเวลาโดยการซื้อผลิตภัณฑ์ที่เกี่ยวข้องในแอป อย่างไรก็ตาม โปรดอย่าลืมยกเลิกการสมัครสมาชิกครั้งก่อนของคุณ เพื่อที่คุณจะได้ไม่ต้องชำระเงินเกินกว่านั้น ครั้งหนึ่ง.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "คุณชอบแอปนี้หรือไม่";
 
 "alert_user_feedback_like_title" = "ขอบคุณ! 🎉";
-"alert_user_feedback_like_message" = "หากคุณชอบแอปนี้ โปรดเขียนรีวิวเชิงบวกใน App Store มันช่วยได้มากจริงๆ และกระตุ้นให้ปรับปรุงแอปอย่างต่อเนื่อง 😊";
+"alert_user_feedback_like_message" = "หากคุณชอบแอปนี้ โปรดเขียนรีวิวเชิงบวกใน %@ มันช่วยได้มากจริงๆ และกระตุ้นให้ปรับปรุงแอปอย่างต่อเนื่อง 😊";
 "alert_user_feedback_rate_app_button" = "ให้คะแนนแอป";
 "alert_user_feedback_maybe_later_button" = "อาจจะภายหลัง";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "สกุลเงินเริ่มต้น";
+"favorite_currencies_section_title" = "รายการโปรด";
 "suggested_currencies_section_title" = "คำแนะนำ";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "ค้นหาชื่อสกุลเงินหรือตัวย่อ";
 
 /* Buttons */
+"add_favorite_currency_button" = "เพิ่มในรายการโปรด";
+"remove_favorite_currency_button" = "นำออกจากรายการโปรด";
 "change_default_currency_button" = "เปลี่ยนสกุลเงินเริ่มต้น";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Ďakujeme, že používate plnú verziu!";
-"support_setting_footer_title" = "Máte nejaké otázky alebo nápady? Napíšte správu alebo pozitívnu recenziu v App Store! Vaša spätná väzba je veľmi motivujúca a pomáha zlepšovať aplikáciu.";
+"support_setting_footer_title" = "Máte nejaké otázky alebo nápady? Napíšte správu alebo pozitívnu recenziu v %@! Vaša spätná väzba je veľmi motivujúca a pomáha zlepšovať aplikáciu.";
 
 /* Buttons */
 "share_budgetbook_button" = "Zdieľať knihu rozpočtu";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformácie: Ak prejdete z predplatného na jednorazový nákup, nezabudnite potom zrušiť svoje predchádzajúce predplatné.";
 
 "alert_upgrade_view_purchase_error_message" = "Váš nákup sa nepodarilo úspešne dokončiť.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Vyskytol sa problém s App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Vyskytol sa problém s %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformácia: Niekedy môže nákup fungovať iba vtedy, ak potvrdíte heslom namiesto Touch ID / Face ID.\n\nNapríklad, ak používate Face ID, jednoducho zakryte prednú kameru a skúste to znova, aby ste videli dialógové okno pre heslo.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Na tomto zariadení nie sú povolené nákupy.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Skontrolujte spôsob platby a skúste to znova neskôr. Ak chyba pretrváva, kontaktujte podporu.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Môžem použiť plnú verziu s viacerými ľuďmi?";
 "upgrade_faq_multiple_people_value" = "Áno, jednorazový nákup, ako aj predplatné plnej verzie môžete zdieľať až s piatimi ľuďmi v rámci rodinnej skupiny. Stačí zapnúť rodinné zdieľanie v systémových nastaveniach a pridať pozvať ostatných ľudí do skupiny.";
 "upgrade_faq_cancel_subscription_title" = "Ako zruším svoje predplatné?";
-"upgrade_faq_cancel_subscription_value" = "Svoje predplatné môžete kedykoľvek zrušiť pomocou svojho účtu Apple v Predvoľbách systému.";
+"upgrade_faq_cancel_subscription_value" = "Svoje predplatné môžete kedykoľvek zrušiť pomocou svojho účtu %@ v Predvoľbách systému.";
 "upgrade_faq_subscription_data_loss_title" = "Ak zruším svoje predplatné, stratia sa moje údaje?";
 "upgrade_faq_subscription_data_loss_value" = "Nie. Všetko, čo vytvoríte počas prihlásenia na odber plnej verzie, bude stále dostupné, ak prejdete späť na bezplatnú verziu.";
 "upgrade_faq_refund_title" = "Ako získam vrátenie peňazí?";
-"upgrade_faq_refund_value" = "Platby uskutočnené prostredníctvom obchodu App Store môže refundovať iba spoločnosť Apple. Ak chcete získať vrátenie peňazí, musíte kontaktovať podporu spoločnosti Apple do 14 dní od nákupu.";
+"upgrade_faq_refund_value" = "Platby uskutočnené prostredníctvom obchodu %1$@ môže refundovať iba spoločnosť %2$@. Ak chcete získať vrátenie peňazí, musíte kontaktovať podporu spoločnosti %2$@ do 14 dní od nákupu.";
 "upgrade_faq_switch_plan_title" = "Je možné prejsť z predplatného na jednorazový nákup neskôr?";
 "upgrade_faq_switch_plan_value" = "Áno, z aktívneho predplatného môžete kedykoľvek prejsť na jednorazový nákup zakúpením príslušného produktu v aplikácii. Nezabudnite však zrušiť svoje predchádzajúce predplatné, aby ste nezaplatili viac ako raz.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Páči sa vám aplikácia?";
 
 "alert_user_feedback_like_title" = "Ďakujem! 🎉";
-"alert_user_feedback_like_message" = "Ak sa vám aplikácia páči, napíšte kladnú recenziu do App Store. Naozaj to veľmi pomáha a motivuje k neustálemu zlepšovaniu aplikácie. 😊";
+"alert_user_feedback_like_message" = "Ak sa vám aplikácia páči, napíšte kladnú recenziu do %@. Naozaj to veľmi pomáha a motivuje k neustálemu zlepšovaniu aplikácie. 😊";
 "alert_user_feedback_rate_app_button" = "Ohodnotiť aplikáciu";
 "alert_user_feedback_maybe_later_button" = "Možno neskôr";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Predvolená mena";
+"favorite_currencies_section_title" = "Obľúbené";
 "suggested_currencies_section_title" = "Návrhy";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Hľadajte názov meny alebo jej skratku";
 
 /* Buttons */
+"add_favorite_currency_button" = "Pridať medzi obľúbené";
+"remove_favorite_currency_button" = "Odstrániť z obľúbených";
 "change_default_currency_button" = "Zmeniť predvolenú menu";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Tam sürümü kullandığınız için teşekkür ederiz!";
-"support_setting_footer_title" = "Sorularınız veya fikirleriniz mi var? App Store'da bir mesaj veya olumlu bir eleştiri yazın! Geri bildiriminiz çok motive edici ve uygulamayı geliştirmeye yardımcı oluyor.";
+"support_setting_footer_title" = "Sorularınız veya fikirleriniz mi var? %@'da bir mesaj veya olumlu bir eleştiri yazın! Geri bildiriminiz çok motive edici ve uygulamayı geliştirmeye yardımcı oluyor.";
 
 /* Buttons */
 "share_budgetbook_button" = "Bütçe Defterini Paylaş";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nBilgi: Abonelikten tek seferlik satın almaya geçerseniz, daha sonra önceki aboneliğinizi iptal etmeyi unutmayın.";
 
 "alert_upgrade_view_purchase_error_message" = "Satın alma işleminiz başarıyla tamamlanamadı.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store'da bir sorun oluştu.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@'da bir sorun oluştu.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nBilgi: Bazen satın alma işlemi yalnızca Touch ID / Face ID yerine şifrenizle onaylamanız durumunda işe yarayabilir.\n\nÖrneğin, Face ID kullanıyorsanız, ön kamerayı kapatın ve şifre penceresini görmek için tekrar deneyin.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Bu cihazda satın alma işlemlerine izin verilmez.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ödeme yönteminizi kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Tam sürümü birden fazla kişiyle kullanabilir miyim?";
 "upgrade_faq_multiple_people_value" = "Evet, tek seferlik satın almanın yanı sıra tam sürüm aboneliğini bir aile grubunda en fazla beş kişiyle paylaşabilirsiniz. Tek yapmanız gereken sistem ayarlarında aile paylaşımını açmak ve eklemek diğer kişileri gruba davet edin.";
 "upgrade_faq_cancel_subscription_title" = "Aboneliğimi nasıl iptal edebilirim?";
-"upgrade_faq_cancel_subscription_value" = "Sistem Tercihlerinde Apple Kimliğinizi kullanarak aboneliğinizi istediğiniz zaman iptal edebilirsiniz.";
+"upgrade_faq_cancel_subscription_value" = "Sistem Tercihlerinde %@ Kimliğinizi kullanarak aboneliğinizi istediğiniz zaman iptal edebilirsiniz.";
 "upgrade_faq_subscription_data_loss_title" = "Aboneliğimi iptal edersem verilerim kaybolur mu?";
 "upgrade_faq_subscription_data_loss_value" = "Hayır. Tam sürüme abone olurken oluşturduğunuz her şey, ücretsiz sürüme geri dönerseniz yine kullanılabilir olacaktır.";
 "upgrade_faq_refund_title" = "Nasıl geri ödeme alabilirim?";
-"upgrade_faq_refund_value" = "App Store üzerinden yapılan ödemeler yalnızca Apple tarafından iade edilebilir. Para iadesi almak için satın alma tarihinden itibaren 14 gün içinde Apple Destek ile iletişime geçmelisiniz.";
+"upgrade_faq_refund_value" = "%1$@ üzerinden yapılan ödemeler yalnızca %2$@ tarafından iade edilebilir. Para iadesi almak için satın alma tarihinden itibaren 14 gün içinde %2$@ Destek ile iletişime geçmelisiniz.";
 "upgrade_faq_switch_plan_title" = "Daha sonraki bir tarihte abonelikten tek seferlik satın alma moduna geçmek mümkün müdür?";
 "upgrade_faq_switch_plan_value" = "Evet, uygulamada ilgili ürünü satın alarak istediğiniz zaman aktif abonelikten tek seferlik satın alma işlemine geçiş yapabilirsiniz. Ancak, şu miktardan daha fazla ödememek için lütfen önceki aboneliğinizi iptal etmeyi unutmayın: bir kere.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Uygulamayı beğendiniz mi?";
 
 "alert_user_feedback_like_title" = "Teşekkürler! 🎉";
-"alert_user_feedback_like_message" = "Uygulamayı beğendiyseniz, lütfen App Store'da olumlu bir eleştiri yazın. Bu gerçekten çok yardımcı oluyor ve uygulamayı sürekli geliştirmek için motive ediyor. 😊";
+"alert_user_feedback_like_message" = "Uygulamayı beğendiyseniz, lütfen %@'da olumlu bir eleştiri yazın. Bu gerçekten çok yardımcı oluyor ve uygulamayı sürekli geliştirmek için motive ediyor. 😊";
 "alert_user_feedback_rate_app_button" = "Uygulamayı Derecelendir";
 "alert_user_feedback_maybe_later_button" = "Belki daha sonra";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Varsayılan Para Birimi";
+"favorite_currencies_section_title" = "Favoriler";
 "suggested_currencies_section_title" = "Öneriler";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Para birimi adını veya kısaltmasını arayın";
 
 /* Buttons */
+"add_favorite_currency_button" = "Favorilere ekle";
+"remove_favorite_currency_button" = "Favorilerden kaldır";
 "change_default_currency_button" = "Varsayılan para birimini değiştir";
 
 /* Alert Views */

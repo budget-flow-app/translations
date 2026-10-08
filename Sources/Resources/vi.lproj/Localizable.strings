@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Cảm ơn bạn đã sử dụng Tài khoản Premium!";
-"support_setting_footer_title" = "Bạn có thắc mắc hoặc ý tưởng nào mới? Để lại bình luận và cho chúng tôi một đánh giá trong App Store. Phản hồi của bạn sẽ tạo thêm động lực và giúp chúng tôi cải thiện ứng dụng.";
+"support_setting_footer_title" = "Bạn có thắc mắc hoặc ý tưởng nào mới? Để lại bình luận và cho chúng tôi một đánh giá trong %@. Phản hồi của bạn sẽ tạo thêm động lực và giúp chúng tôi cải thiện ứng dụng.";
 
 /* Buttons */
 "share_budgetbook_button" = "Chia sẻ Sổ ngân sách";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nLưu ý: Nếu bạn muốn chuyển sang bản vĩnh viễn, hãy nhớ huỷ đăng ký trước đó.";
 
 "alert_upgrade_view_purchase_error_message" = "Đăng ký không thành công.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nĐôi khi đăng ký chỉ có thể thành công bằng mật khẩu thay vì Touch ID/Face ID.\n\nVí dụ, nếu bạn đang sử dụng Face ID, chỉ cần che camera trước và thử lại để xem hộp thoại mật khẩu.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Đăng ký không được phép trên thiết bị này.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Hãy kiểm tra phương thức thanh toán của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Tôi có thể sử dụng phiên bản Premium với nhiều người không?";
 "upgrade_faq_multiple_people_value" = "Có, bạn có thể chia sẻ giao dịch mua một lần cũng như đăng ký phiên bản Premium với tối đa năm người trong một nhóm gia đình. Tất cả những gì bạn phải làm là bật tính năng chia sẻ gia đình trong cài đặt hệ thống và thêm những người khác vào nhóm.";
 "upgrade_faq_cancel_subscription_title" = "Làm cách nào để hủy đăng ký của tôi?";
-"upgrade_faq_cancel_subscription_value" = "Bạn có thể hủy đăng ký của mình bất kỳ lúc nào bằng cách sử dụng ID Apple trong ứng dụng Cài đặt của thiết bị Apple.";
+"upgrade_faq_cancel_subscription_value" = "Bạn có thể hủy đăng ký của mình bất kỳ lúc nào bằng cách sử dụng ID %1$@ trong ứng dụng Cài đặt của thiết bị %1$@.";
 "upgrade_faq_subscription_data_loss_title" = "Dữ liệu của tôi có bị mất nếu tôi hủy đăng ký không?";
 "upgrade_faq_subscription_data_loss_value" = "Không. Mọi thứ bạn tạo khi sử dụng phiên bản Premium sẽ vẫn còn lại nếu bạn chuyển về phiên bản miễn phí.";
 "upgrade_faq_refund_title" = "Làm thế nào tôi có thể hoàn tiền sau khi đăng ký?";
-"upgrade_faq_refund_value" = "Các khoản thanh toán được thực hiện thông qua App Store chỉ được Apple hoàn lại. Để được hoàn tiền, bạn phải liên hệ với bộ phận Hỗ trợ của Apple trong vòng 14 ngày sau khi mua hàng.";
+"upgrade_faq_refund_value" = "Các khoản thanh toán được thực hiện thông qua %1$@ chỉ được %2$@ hoàn lại. Để được hoàn tiền, bạn phải liên hệ với bộ phận Hỗ trợ của %2$@ trong vòng 14 ngày sau khi mua hàng.";
 "upgrade_faq_switch_plan_title" = "Có thể chuyển từ đăng ký hàng tháng sang mua một lần sau này không?";
 "upgrade_faq_switch_plan_value" = "Có, bạn có thể chuyển từ đăng ký hàng tháng đang hoạt động sang mua một lần bất kỳ lúc nào bằng cách mua sản phẩm tương ứng trong ứng dụng. Tuy nhiên, hãy nhớ hủy đăng ký để không phải trả tiền nhiều lần sau này.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Bạn có thích ứng dụng này không?";
 
 "alert_user_feedback_like_title" = "Cảm ơn! 🎉";
-"alert_user_feedback_like_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong App Store. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
+"alert_user_feedback_like_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong %@. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
 "alert_user_feedback_rate_app_button" = "Đánh giá";
 "alert_user_feedback_maybe_later_button" = "Để sau";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Đơn vị tiền mặc định";
+"favorite_currencies_section_title" = "Yêu thích";
 "suggested_currencies_section_title" = "Đề xuất";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Tìm kiếm tên đơn vị tiền tệ hoặc tên viết tắt của nó";
 
 /* Buttons */
+"add_favorite_currency_button" = "Thêm vào yêu thích";
+"remove_favorite_currency_button" = "Xóa khỏi yêu thích";
 "change_default_currency_button" = "Thay đổi đơn vị tiền mặc định";
 
 /* Alert Views */

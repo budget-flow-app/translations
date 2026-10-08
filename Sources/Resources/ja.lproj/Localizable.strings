@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "製品版をご利用いただきありがとうございます!";
-"support_setting_footer_title" = "ご質問やアイデアはありますか? App Store にメッセージまたは肯定的なレビューを書いてください。フィードバックは非常にモチベーションが高く、アプリの改善に役立ちます。";
+"support_setting_footer_title" = "ご質問やアイデアはありますか? %@ にメッセージまたは肯定的なレビューを書いてください。フィードバックは非常にモチベーションが高く、アプリの改善に役立ちます。";
 
 /* Buttons */
 "share_budgetbook_button" = "帳簿を共有する";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\n注意事項: サブスクリプションから 1 回限りの購入に切り替える場合は、後で以前のサブスクリプションを忘れずにキャンセルしてください。";
 
 "alert_upgrade_view_purchase_error_message" = "購入は正常に完了しませんでした。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@ に問題が発生しました。";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "このデバイスでは購入が許可されていません。";
 "alert_upgrade_view_purchase_error_invalid_message" = "お支払い方法を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "フルバージョンを複数人で使用できますか?";
 "upgrade_faq_multiple_people_value" = "はい、一度限りの購入と完全版のサブスクリプションをファミリー グループ内の最大 5 人と共有できます。システム設定でファミリー共有をオンにして追加するだけです。他の人をグループに招待します。";
 "upgrade_faq_cancel_subscription_title" = "サブスクリプションをキャンセルするにはどうすればよいですか?";
-"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple Account を使用していつでもサブスクリプションをキャンセルできます。";
+"upgrade_faq_cancel_subscription_value" = "システム環境設定で %@ Account を使用していつでもサブスクリプションをキャンセルできます。";
 "upgrade_faq_subscription_data_loss_title" = "サブスクリプションをキャンセルするとデータは失われますか?";
 "upgrade_faq_subscription_data_loss_value" = "いいえ。完全版の購読中に作成したものは、無料版に戻っても引き続き利用できます。";
 "upgrade_faq_refund_title" = "返金を受けるにはどうすればよいですか?";
-"upgrade_faq_refund_value" = "App Store を通じて行われた支払いは、Apple によってのみ返金可能です。返金を受けるには、購入後 14 日以内に Apple サポートに連絡する必要があります。";
+"upgrade_faq_refund_value" = "%1$@ を通じて行われた支払いは、%2$@ によってのみ返金可能です。返金を受けるには、購入後 14 日以内に %2$@ サポートに連絡する必要があります。";
 "upgrade_faq_switch_plan_title" = "後日、サブスクリプションから使い切り購入に切り替えることはできますか?";
 "upgrade_faq_switch_plan_value" = "はい、アプリで対応する製品を購入することで、いつでもアクティブなサブスクリプションから 1 回限りの購入に切り替えることができます。ただし、支払額を超えないようにするために、一度、前のサブスクリプションを忘れずにキャンセルしてください。";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "このアプリは気に入っていますか?";
 
 "alert_user_feedback_like_title" = "ありがとうございます! 🎉";
-"alert_user_feedback_like_message" = "アプリが気に入ったら、App Store にポジティブなレビューを書いてください。本当に役立ちますし、アプリを継続的に改善するモチベーションになります。😊";
+"alert_user_feedback_like_message" = "アプリが気に入ったら、%@ にポジティブなレビューを書いてください。本当に役立ちますし、アプリを継続的に改善するモチベーションになります。😊";
 "alert_user_feedback_rate_app_button" = "アプリを評価する";
 "alert_user_feedback_maybe_later_button" = "また後で";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "デフォルトの通貨";
+"favorite_currencies_section_title" = "お気に入り";
 "suggested_currencies_section_title" = "提案";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "通貨名またはその略語を検索します";
 
 /* Buttons */
+"add_favorite_currency_button" = "お気に入りに追加";
+"remove_favorite_currency_button" = "お気に入りから削除";
 "change_default_currency_button" = "デフォルトの通貨を変更する";
 
 /* Alert Views */

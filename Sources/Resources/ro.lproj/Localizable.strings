@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Vă mulțumim că ați folosit versiunea completă!";
-"support_setting_footer_title" = "Orice întrebări sau idei? Scrieți un mesaj sau o recenzie pozitivă în App Store! Feedback-ul dvs. este foarte motivant și ajută la îmbunătățirea aplicației.";
+"support_setting_footer_title" = "Orice întrebări sau idei? Scrieți un mesaj sau o recenzie pozitivă în %@! Feedback-ul dvs. este foarte motivant și ajută la îmbunătățirea aplicației.";
 
 /* Buttons */
 "share_budgetbook_button" = "Partajați cartea bugetului";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformații: Dacă treceți de la un abonament la achiziția unică, nu uitați să anulați abonamentul anterior ulterior.";
 
 "alert_upgrade_view_purchase_error_message" = "Achiziția dvs. nu a putut fi finalizată cu succes.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Achizițiile nu sunt permise pe acest dispozitiv.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Verificați metoda de plată și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Pot folosi versiunea completă cu mai multe persoane?";
 "upgrade_faq_multiple_people_value" = "Da, puteți partaja achiziția unică, precum și abonamentul versiunii complete cu până la cinci persoane dintr-un grup de familie. Tot ce trebuie să faceți este să activați partajarea în familie în setările sistemului și să adăugați invitați celelalte persoane din grup.";
 "upgrade_faq_cancel_subscription_title" = "Cum îmi anulez abonamentul?";
-"upgrade_faq_cancel_subscription_value" = "Puteți anula oricând abonamentul folosind ID-ul Apple din Preferințe de sistem.";
+"upgrade_faq_cancel_subscription_value" = "Puteți anula oricând abonamentul folosind ID-ul %@ din Preferințe de sistem.";
 "upgrade_faq_subscription_data_loss_title" = "Se vor pierde datele mele dacă îmi anulez abonamentul?";
 "upgrade_faq_subscription_data_loss_value" = "Nu. Orice creați în timp ce vă abonați la versiunea completă va fi în continuare disponibil dacă reveniți la versiunea gratuită.";
 "upgrade_faq_refund_title" = "Cum pot obține o rambursare?";
-"upgrade_faq_refund_value" = "Plățile efectuate prin App Store sunt rambursabile numai de către Apple. Pentru a primi o rambursare, trebuie să contactați asistența Apple în termen de 14 zile de la cumpărare.";
+"upgrade_faq_refund_value" = "Plățile efectuate prin %1$@ sunt rambursabile numai de către %2$@. Pentru a primi o rambursare, trebuie să contactați asistența %2$@ în termen de 14 zile de la cumpărare.";
 "upgrade_faq_switch_plan_title" = "Este posibil să treceți de la un abonament la achiziția unică la o dată ulterioară?";
 "upgrade_faq_switch_plan_value" = "Da, puteți trece de la un abonament activ la achiziția unică în orice moment, cumpărând produsul corespunzător din aplicație. Totuși, vă rugăm să nu uitați să anulați abonamentul anterior, astfel încât să nu plătiți mai mult de o singura data.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Îți place aplicația?";
 
 "alert_user_feedback_like_title" = "Mulțumesc! 🎉";
-"alert_user_feedback_like_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în App Store. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
+"alert_user_feedback_like_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în %@. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
 "alert_user_feedback_rate_app_button" = "Evaluați aplicația";
 "alert_user_feedback_maybe_later_button" = "Poate mai târziu";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Moneda implicită";
+"favorite_currencies_section_title" = "Favorite";
 "suggested_currencies_section_title" = "Sugestii";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Căutați numele unei monede sau abrevierea acesteia";
 
 /* Buttons */
+"add_favorite_currency_button" = "Adaugă la favorite";
+"remove_favorite_currency_button" = "Elimină din favorite";
 "change_default_currency_button" = "Schimbați moneda implicită";
 
 /* Alert Views */

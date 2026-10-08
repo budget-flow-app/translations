@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Hvala, ker uporabljate polno različico!";
-"support_setting_footer_title" = "Imate vprašanja ali ideje? Napišite sporočilo ali pozitivno oceno v App Store! Vaše povratne informacije so zelo motivirajoče in pomagajo izboljšati aplikacijo.";
+"support_setting_footer_title" = "Imate vprašanja ali ideje? Napišite sporočilo ali pozitivno oceno v %@! Vaše povratne informacije so zelo motivirajoče in pomagajo izboljšati aplikacijo.";
 
 /* Buttons */
 "share_budgetbook_button" = "Deli denarnico";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Če preklopite z naročnine na enkratni nakup, ne pozabite preklicati prejšnje naročnine.";
 
 "alert_upgrade_view_purchase_error_message" = "Vašega nakupa ni bilo mogoče uspešno dokončati.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Prišlo je do težave z App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Prišlo je do težave z %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Včasih lahko nakup deluje samo, če potrdite s svojim geslom namesto Touch ID / Face ID.\n\nNa primer, če uporabljate Face ID, preprosto pokrijte sprednjo kamero in poskusite znova, da vidite pogovorno okno z geslom.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Nakupi na tej napravi niso dovoljeni.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Preverite svoj način plačila in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Ali lahko uporabljam polno različico z več ljudmi?";
 "upgrade_faq_multiple_people_value" = "Da, lahko delite enkratni nakup kot tudi naročnino polne različice z do petimi ljudmi znotraj družinske skupine. Vse kar morate storiti je, da vklopite družinsko skupno rabo v sistemskih nastavitvah in dodate druge ljudi v skupino.";
 "upgrade_faq_cancel_subscription_title" = "Kako prekličem svojo naročnino?";
-"upgrade_faq_cancel_subscription_value" = "Svojo naročnino lahko kadarkoli prekličete z uporabo svojega računa Apple v sistemskih nastavitvah.";
+"upgrade_faq_cancel_subscription_value" = "Svojo naročnino lahko kadarkoli prekličete z uporabo svojega računa %@ v sistemskih nastavitvah.";
 "upgrade_faq_subscription_data_loss_title" = "Ali bodo moji podatki izgubljeni, če prekličem naročnino?";
 "upgrade_faq_subscription_data_loss_value" = "Ne. Vse, kar ustvarite med naročnino na polno različico, bo še vedno na voljo, če se vrnete na brezplačno različico.";
 "upgrade_faq_refund_title" = "Kako lahko dobim povrnjen denar?";
-"upgrade_faq_refund_value" = "Plačila, opravljena prek App Store, lahko vrne samo Apple. Če želite povrnitev, se morate obrniti na Apple podporo v 14 dneh po nakupu.";
+"upgrade_faq_refund_value" = "Plačila, opravljena prek %1$@, lahko vrne samo %2$@. Če želite povrnitev, se morate obrniti na %2$@ podporo v 14 dneh po nakupu.";
 "upgrade_faq_switch_plan_title" = "Ali je mogoče kasneje preklopiti z naročnine na enkratni nakup?";
 "upgrade_faq_switch_plan_value" = "Da, z aktivne naročnine lahko kadarkoli preklopite na enkratni nakup z nakupom ustreznega izdelka v aplikaciji. Vendar ne pozabite preklicati svoje prejšnje naročnine, da ne boste plačali več kot enkrat.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Vam je aplikacija všeč?";
 
 "alert_user_feedback_like_title" = "Hvala! 🎉";
-"alert_user_feedback_like_message" = "Če vam je aplikacija všeč, prosimo, napišite pozitivno oceno v App Store. Res veliko pomaga in motivira za nenehno izboljševanje aplikacije. 😊";
+"alert_user_feedback_like_message" = "Če vam je aplikacija všeč, prosimo, napišite pozitivno oceno v %@. Res veliko pomaga in motivira za nenehno izboljševanje aplikacije. 😊";
 "alert_user_feedback_rate_app_button" = "Oceni aplikacijo";
 "alert_user_feedback_maybe_later_button" = "Mogoče kasneje";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Privzeta valuta";
+"favorite_currencies_section_title" = "Priljubljene";
 "suggested_currencies_section_title" = "Predlogi";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Iščite po imenu valute ali njeni kratici";
 
 /* Buttons */
+"add_favorite_currency_button" = "Dodaj med priljubljene";
+"remove_favorite_currency_button" = "Odstrani iz priljubljenih";
 "change_default_currency_button" = "Spremeni privzeto valuto";
 
 /* Alert Views */

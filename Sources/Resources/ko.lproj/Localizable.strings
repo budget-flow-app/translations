@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "정식 버전을 사용해 주셔서 감사합니다!";
-"support_setting_footer_title" = "질문이나 아이디어가 있나요?\nApp Store에 리뷰 작성을 부탁드려요! 피드백은 큰 동기를 부여하고 앱을 개선하는 데 도움이 됩니다.";
+"support_setting_footer_title" = "질문이나 아이디어가 있나요?\n%@에 리뷰 작성을 부탁드려요! 피드백은 큰 동기를 부여하고 앱을 개선하는 데 도움이 됩니다.";
 
 /* Buttons */
 "share_budgetbook_button" = "예산 장부 공유";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\n정보: 구독에서 일회성 구매로 전환하는 경우, 이전 구독을 취소하는 것을 잊지 마세요.";
 
 "alert_upgrade_view_purchase_error_message" = "구매를 성공적으로 완료할 수 없습니다.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store에 문제가 발생했습니다.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@에 문제가 발생했습니다.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n정보: 간혹 Touch ID / Face ID 대신 비밀번호로 확인해야 구매가 작동하는 경우가 있습니다.\n\n예를 들어, Face ID를 사용하는 경우 전면 카메라를 가리고 다시 시도하여 비밀번호 대화 상자를 확인하세요.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "이 장치에서는 구매가 허용되지 않습니다.";
 "alert_upgrade_view_purchase_error_invalid_message" = "결제 방법을 확인하고 나중에 다시 시도하십시오. 오류가 지속되면 지원팀에 문의하십시오.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "정식 버전을 여러 사람과 함께 사용할 수 있나요?";
 "upgrade_faq_multiple_people_value" = "예, 가족 그룹 내에서 최대 5명까지 정식 버전 구독뿐만 아니라 평생소장 구매를 공유할 수 있습니다. 시스템 설정에서 가족 공유를 켜고 추가하기만 하면 됩니다. 다른 사람들을 그룹에 초대합니다.";
 "upgrade_faq_cancel_subscription_title" = "내 구독을 어떻게 취소합니까?";
-"upgrade_faq_cancel_subscription_value" = "시스템 환경설정에서 Apple 계정을 사용하여 언제든지 구독을 취소할 수 있습니다.";
+"upgrade_faq_cancel_subscription_value" = "시스템 환경설정에서 %@ 계정을 사용하여 언제든지 구독을 취소할 수 있습니다.";
 "upgrade_faq_subscription_data_loss_title" = "구독을 취소하면 데이터가 손실되나요?";
 "upgrade_faq_subscription_data_loss_value" = "아니요. 정식 버전을 구독하는 동안 생성한 모든 항목은 무료 버전으로 다시 전환해도 계속 사용할 수 있습니다.";
 "upgrade_faq_refund_title" = "어떻게 환불받을 수 있나요?";
-"upgrade_faq_refund_value" = "App Store를 통한 결제는 Apple에서만 환불 가능합니다. 환불을 받으려면 구매 후 14일 이내에 Apple 지원팀에 문의해야 합니다.";
+"upgrade_faq_refund_value" = "%1$@를 통한 결제는 %2$@에서만 환불 가능합니다. 환불을 받으려면 구매 후 14일 이내에 %2$@ 지원팀에 문의해야 합니다.";
 "upgrade_faq_switch_plan_title" = "나중에 구독에서 평생소장 구매로 전환할 수 있습니까?";
 "upgrade_faq_switch_plan_value" = "예, 앱에서 해당 제품을 구매하면 언제든지 활성 구독에서 평생소장 구매로 전환할 수 있습니다. 중복결제가 발생하지 않도록 이전 구독 취소하는 것을 기억하세요.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "앱이 마음에 드십니까?";
 
 "alert_user_feedback_like_title" = "감사합니다! 🎉";
-"alert_user_feedback_like_message" = "앱이 마음에 들면 App Store에서 리뷰를 작성해 주세요. 정말 많은 도움이 되며 앱을 지속적으로 개선하는 데 동기를 부여합니다. 😊";
+"alert_user_feedback_like_message" = "앱이 마음에 들면 %@에서 리뷰를 작성해 주세요. 정말 많은 도움이 되며 앱을 지속적으로 개선하는 데 동기를 부여합니다. 😊";
 "alert_user_feedback_rate_app_button" = "앱 평가";
 "alert_user_feedback_maybe_later_button" = "나중에";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "기본 통화";
+"favorite_currencies_section_title" = "즐겨찾기";
 "suggested_currencies_section_title" = "제안";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "통화 이름 또는 약어 검색";
 
 /* Buttons */
+"add_favorite_currency_button" = "즐겨찾기에 추가";
+"remove_favorite_currency_button" = "즐겨찾기에서 제거";
 "change_default_currency_button" = "기본 통화 변경";
 
 /* Alert Views */

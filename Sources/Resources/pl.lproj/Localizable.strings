@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Dziękujemy za skorzystanie z pełnej wersji!";
-"support_setting_footer_title" = "Masz pytania lub pomysły? Napisz wiadomość lub pozytywną recenzję w App Store! Twoja opinia jest bardzo motywująca i pomaga ulepszyć aplikację.";
+"support_setting_footer_title" = "Masz pytania lub pomysły? Napisz wiadomość lub pozytywną recenzję w %@! Twoja opinia jest bardzo motywująca i pomaga ulepszyć aplikację.";
 
 /* Buttons */
 "share_budgetbook_button" = "Udostępnij książkę budżetową";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformacja: Jeśli przejdziesz z subskrypcji na zakup jednorazowy, pamiętaj, aby później anulować poprzednią subskrypcję.";
 
 "alert_upgrade_view_purchase_error_message" = "Twój zakup nie mógł zostać pomyślnie zrealizowany.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformacja: Czasami zakup może się udać tylko wtedy, gdy potwierdzisz hasłem zamiast Touch ID / Face ID.\n\nNa przykład, jeśli używasz Face ID, po prostu zakryj przednią kamerę i spróbuj ponownie, aby zobaczyć okno dialogowe hasła.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Zakupy na tym urządzeniu są niedozwolone.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Sprawdź metodę płatności i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Czy mogę używać pełnej wersji z wieloma osobami?";
 "upgrade_faq_multiple_people_value" = "Tak, jednorazowy zakup oraz subskrypcję pełnej wersji możesz udostępnić maksymalnie pięciu osobom w grupie rodzinnej. Wystarczy włączyć udostępnianie rodziny w ustawieniach systemu i dodać inne osoby zapraszając je do grupy.";
 "upgrade_faq_cancel_subscription_title" = "Jak anulować subskrypcję?";
-"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego konta Apple w Preferencjach systemowych.";
+"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego konta %@ w Preferencjach systemowych.";
 "upgrade_faq_subscription_data_loss_title" = "Czy moje dane zostaną utracone, jeśli anuluję subskrypcję?";
 "upgrade_faq_subscription_data_loss_value" = "Nie. Wszystko, co utworzysz podczas subskrypcji pełnej wersji, będzie nadal dostępne, jeśli wrócisz do wersji darmowej.";
 "upgrade_faq_refund_title" = "Jak mogę otrzymać zwrot pieniędzy?";
-"upgrade_faq_refund_value" = "Płatności dokonane za pośrednictwem App Store są zwracane tylko przez Apple. Aby otrzymać zwrot, musisz skontaktować się z pomocą techniczną Apple w ciągu 14 dni od zakupu.";
+"upgrade_faq_refund_value" = "Płatności dokonane za pośrednictwem %1$@ są zwracane tylko przez %2$@. Aby otrzymać zwrot, musisz skontaktować się z pomocą techniczną %2$@ w ciągu 14 dni od zakupu.";
 "upgrade_faq_switch_plan_title" = "Czy można w późniejszym terminie przejść z subskrypcji na jednorazowy zakup?";
 "upgrade_faq_switch_plan_value" = "Tak, w każdej chwili możesz przejść z aktywnej subskrypcji na jednorazowy zakup, kupując odpowiedni produkt w aplikacji. Pamiętaj jednak, aby anulować poprzednią subskrypcję, aby nie zapłacić więcej niż raz.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Czy podoba Ci się ta aplikacja?";
 
 "alert_user_feedback_like_title" = "Dziękujemy! 🎉";
-"alert_user_feedback_like_message" = "Jeśli podoba Ci się aplikacja, napisz pozytywną recenzję w App Store. To naprawdę bardzo pomaga i motywuje do ciągłego ulepszania aplikacji. 😊";
+"alert_user_feedback_like_message" = "Jeśli podoba Ci się aplikacja, napisz pozytywną recenzję w %@. To naprawdę bardzo pomaga i motywuje do ciągłego ulepszania aplikacji. 😊";
 "alert_user_feedback_rate_app_button" = "Oceń aplikację";
 "alert_user_feedback_maybe_later_button" = "Może później";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Domyślna waluta";
+"favorite_currencies_section_title" = "Ulubione";
 "suggested_currencies_section_title" = "Sugestie";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Wyszukaj nazwę waluty lub jej skrót";
 
 /* Buttons */
+"add_favorite_currency_button" = "Dodaj do ulubionych";
+"remove_favorite_currency_button" = "Usuń z ulubionych";
 "change_default_currency_button" = "Zmień domyślną walutę";
 
 /* Alert Views */

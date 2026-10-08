@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Grazie per aver utilizzato la versione completa!";
-"support_setting_footer_title" = "Hai domande o suggerimenti? Lascia un messaggio o una recensione positiva sull'App Store! Il tuo feedback è molto motivante e contribuisce al miglioramento dell'app.";
+"support_setting_footer_title" = "Hai domande o suggerimenti? Lascia un messaggio o una recensione positiva sull'%@! Il tuo feedback è molto motivante e contribuisce al miglioramento dell'app.";
 
 /* Buttons */
 "share_budgetbook_button" = "Condividi registro contabile";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformazioni: se passi da un abbonamento all'acquisto una tantum, ricordati di annullare l'abbonamento precedente in seguito.";
 
 "alert_upgrade_view_purchase_error_message" = "Il tuo acquisto non può essere completato con successo.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Si è verificato un problema con l'App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Si è verificato un problema con l'%@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformazioni: A volte l'acquisto potrebbe funzionare solo se confermi con la password anziché con Touch ID / Face ID.\n\nAd esempio, se stai utilizzando Face ID, copri semplicemente la fotocamera frontale e riprova per vedere la finestra di dialogo della password.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Gli acquisti non sono consentiti su questo dispositivo.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Controlla il tuo metodo di pagamento e riprova più tardi. Se l'errore persiste, contatta l'assistenza.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Posso utilizzare la versione completa con più persone?";
 "upgrade_faq_multiple_people_value" = "Sì, puoi condividere l'acquisto una tantum e l'abbonamento alla versione completa con un massimo di cinque persone all'interno di un gruppo famiglia. Tutto quello che devi fare è attivare la condivisione famiglia nelle impostazioni di sistema e aggiungere altre persone al gruppo.";
 "upgrade_faq_cancel_subscription_title" = "Come posso cancellare il mio abbonamento?";
-"upgrade_faq_cancel_subscription_value" = "Puoi disdire l'abbonamento in qualsiasi momento utilizzando il tuo ID Apple in Preferenze di Sistema.\n\nSe desideri annullare l'abbonamento perché hai trovato un bug nell'app, contattaci via email all'interno dell'app. Nella maggior parte dei casi, i problemi riscontrati potranno essere risolti rapidamente affinché tu possa continuare a essere soddisfatto di Budget Flow.";
+"upgrade_faq_cancel_subscription_value" = "Puoi disdire l'abbonamento in qualsiasi momento utilizzando il tuo ID %@ in Preferenze di Sistema.\n\nSe desideri annullare l'abbonamento perché hai trovato un bug nell'app, contattaci via email all'interno dell'app. Nella maggior parte dei casi, i problemi riscontrati potranno essere risolti rapidamente affinché tu possa continuare a essere soddisfatto di Budget Flow.";
 "upgrade_faq_subscription_data_loss_title" = "I miei dati andranno persi se annullo il mio abbonamento?";
 "upgrade_faq_subscription_data_loss_value" = "No. Tutto ciò che crei mentre sei abbonato alla versione completa sarà ancora disponibile se torni alla versione gratuita.";
 "upgrade_faq_refund_title" = "Come posso ottenere un rimborso?";
-"upgrade_faq_refund_value" = "I pagamenti effettuati tramite l'App Store sono rimborsabili solo da Apple. Per ricevere un rimborso, devi contattare l'assistenza Apple entro 14 giorni dall'acquisto.";
+"upgrade_faq_refund_value" = "I pagamenti effettuati tramite l'%1$@ sono rimborsabili solo da %2$@. Per ricevere un rimborso, devi contattare l'assistenza %2$@ entro 14 giorni dall'acquisto.";
 "upgrade_faq_switch_plan_title" = "È possibile passare da un abbonamento all'acquisto una tantum in un secondo momento?";
 "upgrade_faq_switch_plan_value" = "Sì, puoi passare da un abbonamento attivo all'acquisto una tantum in qualsiasi momento acquistando il prodotto corrispondente nell'app. Ricordati tuttavia di annullare l'abbonamento precedente per non pagare più di una volta.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Cosa ne pensi dell'app?";
 
 "alert_user_feedback_like_title" = "Grazie! 🎉";
-"alert_user_feedback_like_message" = "Se ti piace l'app, sarebbe fantastico se potessi lasciare una recensione positiva nell'App Store. Il tuo feedback è prezioso e ci motiva a continuare a migliorare l'app. 😊";
+"alert_user_feedback_like_message" = "Se ti piace l'app, sarebbe fantastico se potessi lasciare una recensione positiva nell'%@. Il tuo feedback è prezioso e ci motiva a continuare a migliorare l'app. 😊";
 "alert_user_feedback_rate_app_button" = "Valuta l'app";
 "alert_user_feedback_maybe_later_button" = "Forse più tardi";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Valuta predefinita";
+"favorite_currencies_section_title" = "Preferite";
 "suggested_currencies_section_title" = "Suggerimenti";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Cerca il nome di una valuta o la sua abbreviazione";
 
 /* Buttons */
+"add_favorite_currency_button" = "Aggiungi alle preferite";
+"remove_favorite_currency_button" = "Rimuovi dalle preferite";
 "change_default_currency_button" = "Cambia valuta predefinita";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Gràcies per utilitzar la versió completa!";
-"support_setting_footer_title" = "Tens alguna pregunta o idea? Escriu un missatge o deixa una ressenya positiva a l'App Store! Els teus comentaris són molt motivadors i ajuden a millorar l'app.";
+"support_setting_footer_title" = "Tens alguna pregunta o idea? Escriu un missatge o deixa una ressenya positiva a l'%@! Els teus comentaris són molt motivadors i ajuden a millorar l'app.";
 
 /* Buttons */
 "share_budgetbook_button" = "Comparteix el teu pressupost";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformació: Si canvies d'una subscripció a una compra única, recorda cancel·lar la teva subscripció anterior després.";
 
 "alert_upgrade_view_purchase_error_message" = "La teva compra no es va poder completar amb èxit.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hi ha hagut un problema amb l'App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hi ha hagut un problema amb l'%@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformació: De vegades, la compra només funciona si confirmes amb la teva contrasenya en lloc de Touch ID / Face ID.\n\nPer exemple, si estàs utilitzant Face ID, només cobreix la càmera frontal; torna-ho a intentar per veure el quadre de diàleg de la contrasenya.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "No es permeten compres en aquest dispositiu.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Comprova el teu mètode de pagament i torna-ho a intentar més tard. Si l'error persisteix, contacta amb el servei d'assistència.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Puc utilitzar la versió completa amb diverses persones?";
 "upgrade_faq_multiple_people_value" = "Sí, pots compartir la compra única, així com la subscripció de la versió completa amb fins a cinc persones dins d'un grup familiar. Tot el que has de fer és activar el compartir en família a la configuració del sistema i afegir les altres persones al grup.";
 "upgrade_faq_cancel_subscription_title" = "Com cancel·lo la meva subscripció?";
-"upgrade_faq_cancel_subscription_value" = "Pots cancel·lar la teva subscripció en qualsevol moment utilitzant el teu ID d'Apple a les preferències del sistema.";
+"upgrade_faq_cancel_subscription_value" = "Pots cancel·lar la teva subscripció en qualsevol moment utilitzant el teu ID d'%@ a les preferències del sistema.";
 "upgrade_faq_subscription_data_loss_title" = "Perdré les meves dades si cancel·lo la subscripció?";
 "upgrade_faq_subscription_data_loss_value" = "No. Tot el que creïs mentre estàs subscrit a la versió completa seguirà disponible si tornes a la versió gratuïta.";
 "upgrade_faq_refund_title" = "Com puc obtenir un reemborsament?";
-"upgrade_faq_refund_value" = "Els pagaments realitzats a través de l'App Store només són reemborsables per Apple. Per rebre un reemborsament, has de contactar amb el Suport tècnic d'Apple dins dels 14 dies posteriors a la compra.";
+"upgrade_faq_refund_value" = "Els pagaments realitzats a través de l'%1$@ només són reemborsables per %2$@. Per rebre un reemborsament, has de contactar amb el Suport tècnic d'%2$@ dins dels 14 dies posteriors a la compra.";
 "upgrade_faq_switch_plan_title" = "És possible canviar d'una subscripció a una compra única en una data posterior?";
 "upgrade_faq_switch_plan_value" = "Sí, pots canviar d'una subscripció activa a la compra única en qualsevol moment comprant el producte corresponent a l'app. No obstant això, recorda cancel·lar la teva subscripció anterior per no pagar més d'una vegada.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "T'agrada l'app?";
 
 "alert_user_feedback_like_title" = "Gràcies! 🎉";
-"alert_user_feedback_like_message" = "Si t'agrada l'app, escriu una ressenya positiva a l'App Store. Realment ajuda molt i motiva a millorar contínuament l'app. 😊";
+"alert_user_feedback_like_message" = "Si t'agrada l'app, escriu una ressenya positiva a l'%@. Realment ajuda molt i motiva a millorar contínuament l'app. 😊";
 "alert_user_feedback_rate_app_button" = "Qualificar app";
 "alert_user_feedback_maybe_later_button" = "Potser més tard";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Moneda predeterminada";
+"favorite_currencies_section_title" = "Preferides";
 "suggested_currencies_section_title" = "Suggeriments";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Cerca el nom d’una moneda o la seva abreviatura";
 
 /* Buttons */
+"add_favorite_currency_button" = "Afegeix a les preferides";
+"remove_favorite_currency_button" = "Elimina de les preferides";
 "change_default_currency_button" = "Canviar la moneda predeterminada";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Köszönjük, hogy a teljes verziót használja!";
-"support_setting_footer_title" = "Bármilyen kérdése vagy ötlete van? Írjon üzenetet vagy pozitív véleményt az App Store-ban! Visszajelzése nagyon motiváló, és segít az alkalmazás fejlesztésében.";
+"support_setting_footer_title" = "Bármilyen kérdése vagy ötlete van? Írjon üzenetet vagy pozitív véleményt az %@-ban! Visszajelzése nagyon motiváló, és segít az alkalmazás fejlesztésében.";
 
 /* Buttons */
 "share_budgetbook_button" = "Költségvetési könyv megosztása";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformáció: Ha előfizetésről egyszeri vásárlásra vált át, ne felejtse el lemondani az előző előfizetést ezt követően.";
 
 "alert_upgrade_view_purchase_error_message" = "Vásárlása nem fejeződött be sikeresen.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az App Store-ral.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az %@-ral.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformáció: Előfordulhat, hogy a vásárlás csak akkor működik, ha a Touch ID / Face ID helyett a jelszavával erősíti meg.\n\nPéldául, ha a Face ID-t használod, egyszerűen takard le az elülső kamerát, és próbáld újra, hogy lásd a jelszó párbeszédablakot.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "A vásárlás nem engedélyezett ezen az eszközön.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ellenőrizze fizetési módját, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon az ügyfélszolgálathoz.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Használhatom a teljes verziót több személlyel?";
 "upgrade_faq_multiple_people_value" = "Igen, az egyszeri vásárlást, valamint a teljes verzió előfizetését egy családi csoporton belül legfeljebb öt személlyel megoszthatja. Csak annyit kell tennie, hogy bekapcsolja a családi megosztást a rendszerbeállításokban, és hozzáadja a többi ember meghívja a csoportba.";
 "upgrade_faq_cancel_subscription_title" = "Hogyan mondhatom le az előfizetésemet?";
-"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az Apple-fiókja használatával a Rendszerbeállításokban.";
+"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az %@-fiókja használatával a Rendszerbeállításokban.";
 "upgrade_faq_subscription_data_loss_title" = "Elvesznek az adataim, ha lemondok előfizetésemről?";
 "upgrade_faq_subscription_data_loss_value" = "Nem. Bármi, amit a teljes verzióra való előfizetés során hozott létre, továbbra is elérhető lesz, ha visszavált az ingyenes verzióra.";
 "upgrade_faq_refund_title" = "Hogyan kaphatok visszatérítést?";
-"upgrade_faq_refund_value" = "Az App Store-on keresztül végrehajtott fizetéseket csak az Apple téríti vissza. A visszatérítéshez a vásárlástól számított 14 napon belül kapcsolatba kell lépnie az Apple ügyfélszolgálatával.";
+"upgrade_faq_refund_value" = "Az %1$@-on keresztül végrehajtott fizetéseket csak az %2$@ téríti vissza. A visszatérítéshez a vásárlástól számított 14 napon belül kapcsolatba kell lépnie az %2$@ ügyfélszolgálatával.";
 "upgrade_faq_switch_plan_title" = "Lehetőség van egy későbbi időpontban az előfizetésről az egyszeri vásárlásra váltani?";
 "upgrade_faq_switch_plan_value" = "Igen, bármikor átválthat az aktív előfizetésről az egyszeri vásárlásra, ha megvásárolja a megfelelő terméket az alkalmazásban. Ne felejtse el lemondani korábbi előfizetését, hogy ne fizessen többet, mint egyszer.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Tetszik az alkalmazás?";
 
 "alert_user_feedback_like_title" = "Köszönjük! 🎉";
-"alert_user_feedback_like_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az App Store-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
+"alert_user_feedback_like_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az %@-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
 "alert_user_feedback_rate_app_button" = "Alkalmazás értékelése";
 "alert_user_feedback_maybe_later_button" = "Talán később";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Alapértelmezett pénznem";
+"favorite_currencies_section_title" = "Kedvencek";
 "suggested_currencies_section_title" = "Javaslatok";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Pénznemnév vagy annak rövidítése keresése";
 
 /* Buttons */
+"add_favorite_currency_button" = "Hozzáadás a kedvencekhez";
+"remove_favorite_currency_button" = "Eltávolítás a kedvencek közül";
 "change_default_currency_button" = "Alapértelmezett pénznem módosítása";
 
 /* Alert Views */

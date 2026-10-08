@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Thank you for using the full version!";
-"support_setting_footer_title" = "Any questions or ideas? Write a message or a positive review in the App Store! Your feedback is very motivating and helps to improve the app.";
+"support_setting_footer_title" = "Any questions or ideas? Write a message or a positive review in the %@! Your feedback is very motivating and helps to improve the app.";
 
 /* Buttons */
 "share_budgetbook_button" = "Share Budget Book";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: If you switch from a subscription to the one-time purchase, remember to cancel your previous subscription afterwards.";
 
 "alert_upgrade_view_purchase_error_message" = "Your purchase could not be completed successfully.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "There was a problem with the App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "There was a problem with the %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Sometimes the purchase may only work if you confirm with your password instead of Touch ID / Face ID.\n\nFor example, if you are using Face ID, just cover the front camera and try again to see the password dialog.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Purchases are not allowed on this device.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Check your payment method and try again later. If the error persists, please contact support.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Can I use the full version with multiple people?";
 "upgrade_faq_multiple_people_value" = "Yes, you can share the one-time purchase as well as the subscription of the full version with up to five people within a family group. All you have to do is turn on family sharing in the system settings and add the other people to the group.";
 "upgrade_faq_cancel_subscription_title" = "How do I cancel my subscription?";
-"upgrade_faq_cancel_subscription_value" = "You can cancel your subscription at any time using your Apple Account in system preferences.";
+"upgrade_faq_cancel_subscription_value" = "You can cancel your subscription at any time using your %@ Account in system preferences.";
 "upgrade_faq_subscription_data_loss_title" = "Will my data be lost if I cancel my subscription?";
 "upgrade_faq_subscription_data_loss_value" = "No. Anything you create while subscribing to the full version will still be available if you switch back to the free version.";
 "upgrade_faq_refund_title" = "How can I get a refund?";
-"upgrade_faq_refund_value" = "Payments made through the App Store are refundable only by Apple. To receive a refund, you must contact Apple Support within 14 days after your purchase.";
+"upgrade_faq_refund_value" = "Payments made through the %1$@ are refundable only by %2$@. To receive a refund, you must contact %2$@ Support within 14 days after your purchase.";
 "upgrade_faq_switch_plan_title" = "Is it possible to switch from a subscription to the one-time purchase at a later date?";
 "upgrade_faq_switch_plan_value" = "Yes, you can switch from an active subscription to the one-time purchase at any time by purchasing the corresponding product in the app. However, please remember to cancel your previous subscription so that you don't pay more than once.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Do you like the app?";
 
 "alert_user_feedback_like_title" = "Thank you! 🎉";
-"alert_user_feedback_like_message" = "If you like the app, please write a positive review in the App Store. It really helps a lot and motivates to continuously improve the app. 😊";
+"alert_user_feedback_like_message" = "If you like the app, please write a positive review in the %@. It really helps a lot and motivates to continuously improve the app. 😊";
 "alert_user_feedback_rate_app_button" = "Rate App";
 "alert_user_feedback_maybe_later_button" = "Maybe later";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Default Currency";
+"favorite_currencies_section_title" = "Favourites";
 "suggested_currencies_section_title" = "Suggestions";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Search for a currency name or its abbreviation";
 
 /* Buttons */
+"add_favorite_currency_button" = "Add to favourites";
+"remove_favorite_currency_button" = "Remove from favourites";
 "change_default_currency_button" = "Change default currency";
 
 /* Alert Views */

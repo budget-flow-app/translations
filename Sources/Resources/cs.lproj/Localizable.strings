@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Děkujeme, že používáte plnou verzi!";
-"support_setting_footer_title" = "Nějaké dotazy nebo nápady? Napište zprávu nebo kladnou recenzi v App Store! Vaše zpětná vazba je velmi motivující a pomáhá aplikaci vylepšovat.";
+"support_setting_footer_title" = "Nějaké dotazy nebo nápady? Napište zprávu nebo kladnou recenzi v %@! Vaše zpětná vazba je velmi motivující a pomáhá aplikaci vylepšovat.";
 
 /* Buttons */
 "share_budgetbook_button" = "Sdílet knihu rozpočtu";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformace: Pokud přejdete z předplatného na jednorázový nákup, nezapomeňte poté zrušit své předchozí předplatné.";
 
 "alert_upgrade_view_purchase_error_message" = "Váš nákup nelze úspěšně dokončit.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Došlo k problému s App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Došlo k problému s %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformace: Někdy může nákup fungovat pouze tehdy, když místo Touch ID / Face ID potvrdíte heslo.\n\nNapříklad, pokud používáte Face ID, stačí zakrýt přední kameru a zkusit to znovu, abyste viděli dialog pro zadání hesla.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Na tomto zařízení nejsou povoleny nákupy.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Zkontrolujte způsob platby a zkuste to znovu později. Pokud chyba přetrvává, kontaktujte podporu.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Mohu používat plnou verzi pro více lidí?";
 "upgrade_faq_multiple_people_value" = "Ano, jednorázový nákup i předplatné plné verze můžete sdílet až s pěti lidmi v rámci rodinné skupiny. Jediné, co musíte udělat, je zapnout rodinné sdílení v nastavení systému a přidat ostatní lidé do skupiny pozvou.";
 "upgrade_faq_cancel_subscription_title" = "Jak zruším své předplatné?";
-"upgrade_faq_cancel_subscription_value" = "Své předplatné můžete kdykoli zrušit pomocí svého účtu Apple v Předvolbách systému.";
+"upgrade_faq_cancel_subscription_value" = "Své předplatné můžete kdykoli zrušit pomocí svého účtu %@ v Předvolbách systému.";
 "upgrade_faq_subscription_data_loss_title" = "Budou při zrušení předplatného ztracena má data?";
 "upgrade_faq_subscription_data_loss_value" = "Ne. Vše, co vytvoříte při přihlášení k odběru plné verze, bude stále dostupné, pokud přejdete zpět na bezplatnou verzi.";
 "upgrade_faq_refund_title" = "Jak mohu získat náhradu?";
-"upgrade_faq_refund_value" = "Platby provedené prostřednictvím App Store vrací pouze Apple. Chcete-li získat refundaci, musíte kontaktovat podporu Apple do 14 dnů od nákupu.";
+"upgrade_faq_refund_value" = "Platby provedené prostřednictvím %1$@ vrací pouze %2$@. Chcete-li získat refundaci, musíte kontaktovat podporu %2$@ do 14 dnů od nákupu.";
 "upgrade_faq_switch_plan_title" = "Je možné přejít z předplatného na jednorázový nákup později?";
 "upgrade_faq_switch_plan_value" = "Ano, z aktivního předplatného můžete kdykoli přejít na jednorázový nákup zakoupením odpovídajícího produktu v aplikaci. Nezapomeňte však zrušit své předchozí předplatné, abyste nezaplatili více než jednou.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Líbí se vám aplikace?";
 
 "alert_user_feedback_like_title" = "Děkuji! 🎉";
-"alert_user_feedback_like_message" = "Pokud se vám aplikace líbí, napište prosím kladnou recenzi do App Store. Opravdu to hodně pomáhá a motivuje aplikaci neustále vylepšovat. 😊";
+"alert_user_feedback_like_message" = "Pokud se vám aplikace líbí, napište prosím kladnou recenzi do %@. Opravdu to hodně pomáhá a motivuje aplikaci neustále vylepšovat. 😊";
 "alert_user_feedback_rate_app_button" = "Hodnocení aplikace";
 "alert_user_feedback_maybe_later_button" = "Možná později";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Výchozí měna";
+"favorite_currencies_section_title" = "Oblíbené";
 "suggested_currencies_section_title" = "Návrhy";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Vyhledat název měny nebo její zkratku";
 
 /* Buttons */
+"add_favorite_currency_button" = "Přidat do oblíbených";
+"remove_favorite_currency_button" = "Odebrat z oblíbených";
 "change_default_currency_button" = "Změnit výchozí měnu";
 
 /* Alert Views */

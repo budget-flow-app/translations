@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Obrigado por usares a versão completa!";
-"support_setting_footer_title" = "Alguma dúvida ou ideia? Escreve uma mensagem ou uma avaliação positiva na App Store! O teu feedback é muito motivador e ajuda a melhorar a aplicação.";
+"support_setting_footer_title" = "Alguma dúvida ou ideia? Escreve uma mensagem ou uma avaliação positiva na %@! O teu feedback é muito motivador e ajuda a melhorar a aplicação.";
 
 /* Buttons */
 "share_budgetbook_button" = "Partilhar Caderno de Orçamento";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nNota: Se mudares de uma subscrição para uma compra única, lembra-te de cancelar a tua subscrição anterior posteriormente.";
 
 "alert_upgrade_view_purchase_error_message" = "A tua compra não pôde ser concluída.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Houve um problema com a App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Houve um problema com a %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nNota: Às vezes a compra só funciona se confirmares com a tua palavra-passe em vez do Touch ID / Face ID.\n\nPor exemplo, se estiveres a usar o Face ID, basta cobrires a câmara frontal e tentares novamente para veres a caixa de diálogo da palavra-passe.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Não são permitidas compras neste dispositivo.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Verifica o teu método de pagamento e tenta novamente mais tarde. Se o erro persistir, contacta o suporte.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Posso usar a versão completa com várias pessoas?";
 "upgrade_faq_multiple_people_value" = "Sim, podes partilhar a compra única, bem como a subscrição da versão completa com até cinco pessoas dentro de um grupo familiar. Tudo o que tens de fazer é ativar a partilha familiar nas configurações do sistema e adicionar as outras pessoas ao grupo.";
 "upgrade_faq_cancel_subscription_title" = "Como posso cancelar a minha subscrição?";
-"upgrade_faq_cancel_subscription_value" = "Podes cancelar a tua subscrição a qualquer momento utilizando o teu ID Apple nas preferências do sistema.";
+"upgrade_faq_cancel_subscription_value" = "Podes cancelar a tua subscrição a qualquer momento utilizando o teu ID %@ nas preferências do sistema.";
 "upgrade_faq_subscription_data_loss_title" = "Os meus dados serão perdidos se eu cancelar a minha subscrição?";
 "upgrade_faq_subscription_data_loss_value" = "Não. Qualquer coisa que cries ao subscrever a versão completa ainda estará disponível se voltares para a versão gratuita.";
 "upgrade_faq_refund_title" = "Como posso obter um reembolso?";
-"upgrade_faq_refund_value" = "Pagamentos feitos através da App Store são reembolsáveis apenas pela Apple. Para receber um reembolso, tens de contactar o Suporte Apple no prazo de 14 dias após a compra.";
+"upgrade_faq_refund_value" = "Pagamentos feitos através da %1$@ são reembolsáveis apenas pela %2$@. Para receber um reembolso, tens de contactar o Suporte %2$@ no prazo de 14 dias após a compra.";
 "upgrade_faq_switch_plan_title" = "É possível mudar de uma subscrição para uma compra única posteriormente?";
 "upgrade_faq_switch_plan_value" = "Sim, podes mudar de uma subscrição ativa para uma compra única a qualquer momento, comprando o produto correspondente na aplicação. No entanto, lembra-te de cancelar a tua subscrição anterior para não pagares mais do que uma vez.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Gostas da aplicação?";
 
 "alert_user_feedback_like_title" = "Obrigado! 🎉";
-"alert_user_feedback_like_message" = "Se gostas da aplicação, por favor, escreve uma avaliação positiva na App Store. Isso realmente ajuda muito e motiva a melhorar continuamente a aplicação. 😊";
+"alert_user_feedback_like_message" = "Se gostas da aplicação, por favor, escreve uma avaliação positiva na %@. Isso realmente ajuda muito e motiva a melhorar continuamente a aplicação. 😊";
 "alert_user_feedback_rate_app_button" = "Avaliar a aplicação";
 "alert_user_feedback_maybe_later_button" = "Talvez mais tarde";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Moeda padrão";
+"favorite_currencies_section_title" = "Favoritas";
 "suggested_currencies_section_title" = "Sugestões";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Procurar um nome de moeda ou a tua abreviação";
 
 /* Buttons */
+"add_favorite_currency_button" = "Adicionar às favoritas";
+"remove_favorite_currency_button" = "Remover das favoritas";
 "change_default_currency_button" = "Alterar moeda padrão";
 
 /* Alert Views */

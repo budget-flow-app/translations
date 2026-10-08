@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Vielen Dank, dass du die Vollversion nutzt!";
-"support_setting_footer_title" = "Fragen oder Verbesserungsvorschläge? Schreibe eine Nachricht oder hinterlasse eine positive Bewertung im App Store! Dein Feedback motiviert sehr und trägt zur Verbesserung der App bei.";
+"support_setting_footer_title" = "Fragen oder Verbesserungsvorschläge? Schreibe eine Nachricht oder hinterlasse eine positive Bewertung im %@! Dein Feedback motiviert sehr und trägt zur Verbesserung der App bei.";
 
 /* Buttons */
 "share_budgetbook_button" = "Haushaltsbuch teilen";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nHinweis: Wenn du von einem Abonnement zum Einmalkauf wechselst, vergiss nicht, dein vorheriges Abonnement anschließend zu kündigen.";
 
 "alert_upgrade_view_purchase_error_message" = "Dein Kauf konnte nicht erfolgreich durchgeführt werden.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Es ist ein Problem mit dem App Store aufgetreten.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Es ist ein Problem mit dem %@ aufgetreten.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nHinweis: Gelegentlich funktioniert der Kauf nur, wenn du statt Touch ID / Face ID dein Passwort zur Bestätigung verwendest.\n\nZum Beispiel, wenn du Face ID verwendest, decke einfach die Frontkamera ab und versuche es erneut, um den Passwortdialog zu sehen.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Käufe sind auf diesem Gerät nicht erlaubt.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Überprüfe deine Zahlungsmethode und versuche es später noch einmal. Wenn der Fehler weiterhin auftritt, wende dich bitte an den Support.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Kann ich die Vollversion mit mehreren Personen nutzen?";
 "upgrade_faq_multiple_people_value" = "Ja, du kannst sowohl den Einmalkauf als auch das Abonnement der Vollversion mit bis zu fünf Personen innerhalb einer Familiengruppe teilen. Dafür musst du nur die Familienfreigabe in den Systemeinstellungen aktivieren und die anderen Personen zu der Gruppe einladen.";
 "upgrade_faq_cancel_subscription_title" = "Wie kann ich mein Abonnement kündigen?";
-"upgrade_faq_cancel_subscription_value" = "Du kannst dein Abonnement jederzeit über deinen Apple Account in den Systemeinstellungen kündigen.";
+"upgrade_faq_cancel_subscription_value" = "Du kannst dein Abonnement jederzeit über deinen %@ Account in den Systemeinstellungen kündigen.";
 "upgrade_faq_subscription_data_loss_title" = "Gehen meine Daten verloren, wenn ich mein Abonnement kündige?";
 "upgrade_faq_subscription_data_loss_value" = "Nein. Alles, was du während deiner Vollversion-Nutzung erstellt hast, bleibt erhalten, wenn du zur kostenlosen Variante zurückkehrst.";
 "upgrade_faq_refund_title" = "Wie kann ich eine Rückerstattung erhalten?";
-"upgrade_faq_refund_value" = "Über den App Store getätigte Zahlungen können nur von Apple zurückerstattet werden. Um eine Rückerstattung zu erhalten, musst du dich innerhalb von 14 Tagen nach dem Kauf an den Apple Support wenden.";
+"upgrade_faq_refund_value" = "Über den %1$@ getätigte Zahlungen können nur von %2$@ zurückerstattet werden. Um eine Rückerstattung zu erhalten, musst du dich innerhalb von 14 Tagen nach dem Kauf an den %2$@ Support wenden.";
 "upgrade_faq_switch_plan_title" = "Ist es möglich, nachträglich von einem Abonnement auf den Einmalkauf umzusteigen?";
 "upgrade_faq_switch_plan_value" = "Ja, du kannst jederzeit von einem aktiven Abonnement zu dem Einmalkauf wechseln, indem du das entsprechende Produkt in der App erwirbst. Vergiss aber bitte nicht, dein vorheriges Abonnement danach zu kündigen, damit du nicht mehrfach bezahlst.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Gefällt dir die App?";
 
 "alert_user_feedback_like_title" = "Vielen Dank! 🎉";
-"alert_user_feedback_like_message" = "Wenn dir die App gefällt, schreibe doch gerne eine positive Bewertung im App Store. Das hilft wirklich sehr und motiviert die App kontinuierlich weiter zu verbessern. 😊";
+"alert_user_feedback_like_message" = "Wenn dir die App gefällt, schreibe doch gerne eine positive Bewertung im %@. Das hilft wirklich sehr und motiviert die App kontinuierlich weiter zu verbessern. 😊";
 "alert_user_feedback_rate_app_button" = "App bewerten";
 "alert_user_feedback_maybe_later_button" = "Vielleicht später";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Standardwährung";
+"favorite_currencies_section_title" = "Favoriten";
 "suggested_currencies_section_title" = "Vorschläge";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Suche nach dem Namen einer Währung oder dessen Abkürzung";
 
 /* Buttons */
+"add_favorite_currency_button" = "Zu Favoriten hinzufügen";
+"remove_favorite_currency_button" = "Aus Favoriten entfernen";
 "change_default_currency_button" = "Standardwährung ändern";
 
 /* Alert Views */

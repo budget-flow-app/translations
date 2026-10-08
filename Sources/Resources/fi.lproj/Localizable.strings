@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Kiitos, että käytit täysversiota!";
-"support_setting_footer_title" = "Onko sinulla kysyttävää tai ideoita? Kirjoita viesti tai positiivinen arvostelu App Storessa! Palautteesi on erittäin motivoivaa ja auttaa parantamaan sovellusta.";
+"support_setting_footer_title" = "Onko sinulla kysyttävää tai ideoita? Kirjoita viesti tai positiivinen arvostelu %@ssa! Palautteesi on erittäin motivoivaa ja auttaa parantamaan sovellusta.";
 
 /* Buttons */
 "share_budgetbook_button" = "Jaa budjettikirja";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nTiedot: Jos vaihdat tilauksesta kertaostokseen, muista peruuttaa edellinen tilauksesi jälkeenpäin.";
 
 "alert_upgrade_view_purchase_error_message" = "Ostostasi ei voitu suorittaa onnistuneesti.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Storessa oli ongelma.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@ssa oli ongelma.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nTiedot: Joskus osto voi toimia vain, jos vahvistat salasanallasi Touch ID / Face ID sijaan.\n\nEsimerkiksi, jos käytät Face ID:tä, peitä vain etukamera ja yritä uudelleen nähdäksesi salasanan syöttöikkunan.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Ostokset eivät ole sallittuja tällä laitteella.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Tarkista maksutapasi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Voinko käyttää täyttä versiota useiden ihmisten kanssa?";
 "upgrade_faq_multiple_people_value" = "Kyllä, voit jakaa kertaostoksen sekä täysversion tilauksen jopa viiden henkilön kanssa perheryhmässä. Sinun tarvitsee vain ottaa perhejako käyttöön järjestelmäasetuksista ja lisätä muut ryhmän ihmiset kutsuvat.";
 "upgrade_faq_cancel_subscription_title" = "Kuinka peruutan tilaukseni?";
-"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä Apple-tiliäsi Järjestelmäasetuksissa.";
+"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä %@-tiliäsi Järjestelmäasetuksissa.";
 "upgrade_faq_subscription_data_loss_title" = "Menevätkö tietoni, jos peruutan tilaukseni?";
 "upgrade_faq_subscription_data_loss_value" = "Ei. Kaikki, mitä luot tilattaessa täysversiota, on edelleen saatavilla, jos vaihdat takaisin ilmaiseen versioon.";
 "upgrade_faq_refund_title" = "Kuinka saan hyvityksen?";
-"upgrade_faq_refund_value" = "Ainoastaan ​​Apple hyvittää App Storen kautta tehdyt maksut. Saadaksesi hyvityksen, sinun on otettava yhteyttä Applen tukeen 14 päivän kuluessa ostosta.";
+"upgrade_faq_refund_value" = "Ainoastaan ​​%2$@ hyvittää %1$@n kautta tehdyt maksut. Saadaksesi hyvityksen, sinun on otettava yhteyttä %2$@n tukeen 14 päivän kuluessa ostosta.";
 "upgrade_faq_switch_plan_title" = "Onko mahdollista vaihtaa tilauksesta kertaostokseen myöhemmin?";
 "upgrade_faq_switch_plan_value" = "Kyllä, voit vaihtaa aktiivisesta tilauksesta kertaostokseen milloin tahansa ostamalla vastaavan tuotteen sovelluksesta. Muista kuitenkin peruuttaa edellinen tilauksesi, jotta et maksa enempää kuin kerran.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Pidätkö sovelluksesta?";
 
 "alert_user_feedback_like_title" = "Kiitos! 🎉";
-"alert_user_feedback_like_message" = "Jos pidät sovelluksesta, kirjoita positiivinen arvostelu App Storeen. Se auttaa todella paljon ja motivoi sovelluksen jatkuvaan parantamiseen. 😊";
+"alert_user_feedback_like_message" = "Jos pidät sovelluksesta, kirjoita positiivinen arvostelu %@en. Se auttaa todella paljon ja motivoi sovelluksen jatkuvaan parantamiseen. 😊";
 "alert_user_feedback_rate_app_button" = "Arvioi sovellus";
 "alert_user_feedback_maybe_later_button" = "Ehkä myöhemmin";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Oletusvaluutta";
+"favorite_currencies_section_title" = "Suosikit";
 "suggested_currencies_section_title" = "Ehdotuksia";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Hae valuutan nimeä tai sen lyhennettä";
 
 /* Buttons */
+"add_favorite_currency_button" = "Lisää suosikkeihin";
+"remove_favorite_currency_button" = "Poista suosikeista";
 "change_default_currency_button" = "Vaihda oletusvaluutta";
 
 /* Alert Views */

@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "感謝您使用完整版本！";
-"support_setting_footer_title" = "有任何問題或想法嗎？在 App Store 中回饋或好評！您的回饋非常激勵並有助於改進應用程式。";
+"support_setting_footer_title" = "有任何問題或想法嗎？在 %@ 中回饋或好評！您的回饋非常激勵並有助於改進應用程式。";
 
 /* Buttons */
 "share_budgetbook_button" = "分享預算帳本";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\n提示：如果您從訂閱轉為一次性購買，請記得之後取消先前的訂閱";
 
 "alert_upgrade_view_purchase_error_message" = "您的購買未能成功完成。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出現問題。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@ 出現問題。";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n資訊：有時如果您用密碼確認而非 Touch ID / Face ID，購買可能才會成功\n\n例如，如果您使用 Face ID，只需遮住前置攝像頭並重新嘗試，即可看到密碼對話框。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "此裝置不允許購買";
 "alert_upgrade_view_purchase_error_invalid_message" = "檢查您的付款方式並稍後重試。如果問題仍然存在，請聯絡支援人員。";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "我可以與其他人一起使用完整版嗎？";
 "upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中與最多五人共享一次性購買和完整版的訂閱。您所需要做的就是在系統設定中打開家庭共享，並將其他人 添加進其中";
 "upgrade_faq_cancel_subscription_title" = "我如何取消我的訂閱？";
-"upgrade_faq_cancel_subscription_value" = "您可以隨時使用您的 Apple 帳號 在系統首選項中取消您的訂閱。";
+"upgrade_faq_cancel_subscription_value" = "您可以隨時使用您的 %@ 帳號 在系統首選項中取消您的訂閱。";
 "upgrade_faq_subscription_data_loss_title" = "如果我取消我的訂閱，我的資料會遺失嗎？";
 "upgrade_faq_subscription_data_loss_value" = "不會。在訂閱完整版期間建立的任何內容在您回到免費版時仍然可用。";
 "upgrade_faq_refund_title" = "我如何退款？";
-"upgrade_faq_refund_value" = "透過 App Store 進行的付款只能由 Apple 退款。若要退款，您必須在購買後 14 天內聯絡 Apple 支援。";
+"upgrade_faq_refund_value" = "透過 %1$@ 進行的付款只能由 %2$@ 退款。若要退款，您必須在購買後 14 天內聯絡 %2$@ 支援。";
 "upgrade_faq_switch_plan_title" = "之後從訂閱轉為一次性購買？";
 "upgrade_faq_switch_plan_value" = "是的，您可以隨時透過在應用程式中購買對應產品從活躍訂閱轉為一次性購買。然而，請記得取消您先前的訂閱，以免多次付款。";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "您喜歡這款應用程式嗎？";
 
 "alert_user_feedback_like_title" = "謝謝！🎉";
-"alert_user_feedback_like_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進該應用程序 😊";
+"alert_user_feedback_like_message" = "如果您喜歡這款應用，拜託在 %@ 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進該應用程序 😊";
 "alert_user_feedback_rate_app_button" = "評價應用";
 "alert_user_feedback_maybe_later_button" = "稍後";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "預設貨幣";
+"favorite_currencies_section_title" = "收藏";
 "suggested_currencies_section_title" = "建議";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "搜尋貨幣名稱或其縮寫";
 
 /* Buttons */
+"add_favorite_currency_button" = "加入收藏";
+"remove_favorite_currency_button" = "從收藏中移除";
 "change_default_currency_button" = "更改預設貨幣";
 
 /* Alert Views */

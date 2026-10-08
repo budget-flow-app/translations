@@ -547,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Bedankt voor het gebruik van de volledige versie!";
-"support_setting_footer_title" = "Vragen of ideeën? Schrijf een bericht of een positieve recensie in de App Store! Je feedback is erg motiverend en helpt om de app te verbeteren.";
+"support_setting_footer_title" = "Vragen of ideeën? Schrijf een bericht of een positieve recensie in de %@! Je feedback is erg motiverend en helpt om de app te verbeteren.";
 
 /* Buttons */
 "share_budgetbook_button" = "Deel budgetboek";
@@ -1067,7 +1067,7 @@
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Als je overstapt van een abonnement naar een eenmalige aankoop, vergeet dan niet om je vorige abonnement daarna op te zeggen.";
 
 "alert_upgrade_view_purchase_error_message" = "Je aankoop kon niet succesvol worden afgerond.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de %@.";
 "alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Soms werkt de aankoop alleen als je bevestigt met je wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Aankopen zijn niet toegestaan ​​op dit apparaat.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Controleer je betaalmethode en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
@@ -1106,11 +1106,11 @@
 "upgrade_faq_multiple_people_title" = "Kan ik de volledige versie met meerdere mensen gebruiken?";
 "upgrade_faq_multiple_people_value" = "Ja, je kunt zowel de eenmalige aankoop als het abonnement op de volledige versie delen met maximaal vijf personen binnen een gezinsgroep. Het enige wat je hoeft te doen is delen met gezin inschakelen in de systeeminstellingen en toevoegen de andere mensen voor de groep uitnodigen.";
 "upgrade_faq_cancel_subscription_title" = "Hoe zeg ik mijn abonnement op?";
-"upgrade_faq_cancel_subscription_value" = "Je kunt je abonnement op elk moment annuleren via je Apple account in de systeeminstellingen.";
+"upgrade_faq_cancel_subscription_value" = "Je kunt je abonnement op elk moment annuleren via je %@ account in de systeeminstellingen.";
 "upgrade_faq_subscription_data_loss_title" = "Gaan mijn gegevens verloren als ik mijn abonnement opzeg?";
 "upgrade_faq_subscription_data_loss_value" = "Nee. Alles wat je aanmaakt terwijl je het volledige abonnement hebt, blijft beschikbaar als je teruggaat naar de gratis versie.";
 "upgrade_faq_refund_title" = "Hoe kan ik mijn geld terugkrijgen?";
-"upgrade_faq_refund_value" = "Betalingen die via de App Store zijn gedaan, worden alleen door Apple terugbetaald. Om een ​​terugbetaling te ontvangen, moet je binnen 14 dagen na aankoop contact opnemen met Apple Support.";
+"upgrade_faq_refund_value" = "Betalingen die via de %1$@ zijn gedaan, worden alleen door %2$@ terugbetaald. Om een ​​terugbetaling te ontvangen, moet je binnen 14 dagen na aankoop contact opnemen met %2$@ Support.";
 "upgrade_faq_switch_plan_title" = "Is het mogelijk om op een later tijdstip over te stappen van een abonnement naar een eenmalige aankoop?";
 "upgrade_faq_switch_plan_value" = "Ja, je kunt op elk moment overstappen van een actief abonnement naar de eenmalige aankoop door het bijbehorende product in de app aan te schaffen. Vergeet echter niet je eerdere abonnement te annuleren, zodat je niet dubbel betaalt.";
 
@@ -1125,7 +1125,7 @@
 "alert_user_feedback_title" = "Vind je de app leuk?";
 
 "alert_user_feedback_like_title" = "Bedankt! 🎉";
-"alert_user_feedback_like_message" = "Als de app je bevalt, schrijf dan een positieve recensie in de App Store. Dat helpt enorm en motiveert om de app continu te verbeteren. 😊";
+"alert_user_feedback_like_message" = "Als de app je bevalt, schrijf dan een positieve recensie in de %@. Dat helpt enorm en motiveert om de app continu te verbeteren. 😊";
 "alert_user_feedback_rate_app_button" = "Beoordeel app";
 "alert_user_feedback_maybe_later_button" = "Misschien later";
 
@@ -1281,6 +1281,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Standaardvaluta";
+"favorite_currencies_section_title" = "Favorieten";
 "suggested_currencies_section_title" = "Suggesties";
 
 /* Messages */
@@ -1288,6 +1289,8 @@
 "currency_selection_search_placeholder_message" = "Zoek naar een valutanaam of de afkorting ervan";
 
 /* Buttons */
+"add_favorite_currency_button" = "Toevoegen aan favorieten";
+"remove_favorite_currency_button" = "Verwijderen uit favorieten";
 "change_default_currency_button" = "Standaardvaluta wijzigen";
 
 /* Alert Views */
