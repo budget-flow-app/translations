@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "导出成功 🎉";
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
 
+"alert_reset_app_title" = "重置应用";
+"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久删除所有数据。";
+
 /* Progress */
 "alert_csv_export_progress_title" = "导出";
 "csv_export_progress_preparing" = "正在准备导出";
 "csv_export_progress_transactions" = "交易";
 "csv_export_progress_finishing" = "正在完成导出";
+
+"alert_app_reset_progress_title" = "重置应用";
+"app_reset_progress_preparing" = "正在准备重置应用";
+"app_reset_progress_deleting_existing_notifications" = "正在删除现有通知";
+"app_reset_progress_deleting_existing_data" = "正在删除现有数据";
+"app_reset_progress_deleting_transactions" = "正在删除交易";
+"app_reset_progress_deleting_transaction_groups" = "正在删除交易组";
+"app_reset_progress_deleting_reminders" = "正在删除提醒";
+"app_reset_progress_deleting_budgets" = "正在删除预算";
+"app_reset_progress_deleting_tags" = "正在删除标签";
+"app_reset_progress_deleting_payees" = "正在删除收款人";
+"app_reset_progress_deleting_categories" = "正在删除类别";
+"app_reset_progress_deleting_category_groups" = "正在删除文件夹";
+"app_reset_progress_deleting_accounts" = "正在删除账户";
+"app_reset_progress_deleting_budget_books" = "正在删除预算账本";
+"app_reset_progress_deleting_existing_settings" = "正在删除现有设置";
+"app_reset_progress_finishing" = "正在完成应用重置";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "您想要分享什么？";
 "alert_share_app_type_selection_link_button" = "链接";
 "alert_share_app_type_selection_qrcode_button" = "二维码";
-
-"alert_reset_app_title" = "重置应用";
-"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久删除所有数据。";
-
-/* Progress */
-"alert_app_reset_progress_title" = "重置应用";
-"app_reset_progress_preparing" = "正在准备重置应用";
-"app_reset_progress_deleting_existing_notifications" = "正在删除现有通知";
-"app_reset_progress_deleting_existing_data" = "正在删除现有数据";
-"app_reset_progress_deleting_existing_settings" = "正在删除现有设置";
-"app_reset_progress_finishing" = "正在完成重置应用";
 
 "alert_error_title" = "发生错误 😢";
 

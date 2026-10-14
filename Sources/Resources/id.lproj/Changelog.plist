@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-				<string>Pintasan yang ditingkatkan</string>
-			<key>Description</key>
-				<string>Pintasan baru dan yang ditingkatkan membuat otomatisasi Budget Flow lebih mudah dari sebelumnya, termasuk menambahkan transaksi secara otomatis dari notifikasi aplikasi perbankan di iOS dan iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-				<string>Kategorisasi otomatis</string>
-			<key>Description</key>
-				<string>Di perangkat yang didukung, Budget Flow kini dapat menggunakan Apple Intelligence untuk menentukan kategori dan penerima pembayaran saat membuat transaksi otomatis menggunakan pintasan.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-				<string>Dukungan untuk iOS, iPadOS, dan macOS 27</string>
-			<key>Description</key>
-				<string>Penyempurnaan desain dan pembaruan kompatibilitas menjaga Budget Flow tetap berjalan lancar di sistem operasi Apple terbaru.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Nikmati aplikasi yang dimodernisasi secara menyeluruh dengan performa lebih baik dan fitur baru untuk pencadangan, pengembalian dana, serta pengelolaan transaksi Anda.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Aplikasi yang dimodernisasi</string>
+				<key>Description</key>
+				<string>Aplikasi kini menggunakan arsitektur yang sepenuhnya baru, sehingga menawarkan performa lebih baik dan animasi baru.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Pencadangan yang disempurnakan</string>
+				<key>Description</key>
+				<string>Mekanisme pencadangan telah dirancang ulang sepenuhnya. Di perangkat Apple, Anda kini juga dapat memilih untuk mencadangkan data ke iCloud Drive.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Dukungan untuk iPhone Duo telah ditambahkan, lengkap dengan desain yang sepenuhnya dioptimalkan untuk tata letaknya.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Pengembalian dana</string>
+				<key>Description</key>
+				<string>Pengembalian dana kini dapat dibuat langsung dari transaksi yang sudah ada, baik dengan gerakan usap maupun melalui menu konteks.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Mata uang favorit</string>
+				<key>Description</key>
+				<string>Mata uang kini dapat ditandai sebagai favorit agar lebih cepat ditemukan dalam daftar mata uang.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Pengeditan massal</string>
+				<key>Description</key>
+				<string>Saat mengedit beberapa transaksi, Anda dapat dengan mudah memilih atau membatalkan pilihan semua transaksi sekaligus. Dalam buku anggaran bersama, Anda juga dapat mengubah orang yang ditetapkan untuk beberapa transaksi sekaligus.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Opsi filter baru</string>
+				<key>Description</key>
+				<string>Tampilan filter kini memudahkan pencarian kategori dan entri lainnya, serta memungkinkan Anda menemukan transaksi berulang secara khusus melalui pencarian global.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Peningkatan lainnya</string>
+				<key>Description</key>
+				<string>Nominal yang lebih mudah dibaca, ikon kategori pada diagram lingkaran, pencarian emoji, opsi tampilan baru untuk kategori dan tag, serta proses penyiapan awal yang lebih sederhana.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

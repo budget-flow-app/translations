@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Xuất dữ liệu thành công 🎉";
 "alert_csv_export_successful_message" = "Dữ liệu của bạn đã được xuất thành công sang \"%@\".";
 
+"alert_reset_app_title" = "Đặt lại ứng dụng";
+"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Xuất dữ liệu";
 "csv_export_progress_preparing" = "Đang chuẩn bị xuất";
 "csv_export_progress_transactions" = "Giao dịch";
 "csv_export_progress_finishing" = "Đang hoàn tất xuất";
+
+"alert_app_reset_progress_title" = "Đặt lại dữ liệu";
+"app_reset_progress_preparing" = "Đang chuẩn bị đặt lại ứng dụng";
+"app_reset_progress_deleting_existing_notifications" = "Đang xóa thông báo hiện có";
+"app_reset_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
+"app_reset_progress_deleting_transactions" = "Đang xóa giao dịch";
+"app_reset_progress_deleting_transaction_groups" = "Đang xóa nhóm giao dịch";
+"app_reset_progress_deleting_reminders" = "Đang xóa lời nhắc";
+"app_reset_progress_deleting_budgets" = "Đang xóa ngân sách";
+"app_reset_progress_deleting_tags" = "Đang xóa thẻ";
+"app_reset_progress_deleting_payees" = "Đang xóa người nhận thanh toán";
+"app_reset_progress_deleting_categories" = "Đang xóa danh mục";
+"app_reset_progress_deleting_category_groups" = "Đang xóa thư mục";
+"app_reset_progress_deleting_accounts" = "Đang xóa tài khoản";
+"app_reset_progress_deleting_budget_books" = "Đang xóa sổ ngân sách";
+"app_reset_progress_deleting_existing_settings" = "Đang xóa cài đặt hiện có";
+"app_reset_progress_finishing" = "Đang hoàn tất đặt lại ứng dụng";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Bạn muốn chia sẻ ứng dụng bằng?";
 "alert_share_app_type_selection_link_button" = "Liên kết";
 "alert_share_app_type_selection_qrcode_button" = "Mã QR";
-
-"alert_reset_app_title" = "Đặt lại ứng dụng";
-"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Đặt lại dữ liệu";
-"app_reset_progress_preparing" = "Đang chuẩn bị đặt lại ứng dụng";
-"app_reset_progress_deleting_existing_notifications" = "Đang xóa thông báo hiện có";
-"app_reset_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
-"app_reset_progress_deleting_existing_settings" = "Đang xóa cài đặt hiện có";
-"app_reset_progress_finishing" = "Đang hoàn tất đặt lại ứng dụng";
 
 "alert_error_title" = "Đã xảy ra lỗi 😢";
 

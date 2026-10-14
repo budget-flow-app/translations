@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Exportação bem-sucedida 🎉";
 "alert_csv_export_successful_message" = "Seus dados foram exportados com êxito para \"%@\".";
 
+"alert_reset_app_title" = "Redefinir aplicativo";
+"alert_reset_app_message" = "Tem certeza de que deseja redefinir o aplicativo para as configurações padrão? Isso excluirá permanentemente todos os seus dados.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Exportar";
 "csv_export_progress_preparing" = "Preparando exportação";
 "csv_export_progress_transactions" = "Transações";
 "csv_export_progress_finishing" = "Finalizando exportação";
+
+"alert_app_reset_progress_title" = "Redefinir aplicativo";
+"app_reset_progress_preparing" = "Preparando redefinição do aplicativo";
+"app_reset_progress_deleting_existing_notifications" = "Excluindo notificações existentes";
+"app_reset_progress_deleting_existing_data" = "Excluindo dados existentes";
+"app_reset_progress_deleting_transactions" = "Excluindo transações";
+"app_reset_progress_deleting_transaction_groups" = "Excluindo grupos de transações";
+"app_reset_progress_deleting_reminders" = "Excluindo lembretes";
+"app_reset_progress_deleting_budgets" = "Excluindo orçamentos";
+"app_reset_progress_deleting_tags" = "Excluindo tags";
+"app_reset_progress_deleting_payees" = "Excluindo beneficiários";
+"app_reset_progress_deleting_categories" = "Excluindo categorias";
+"app_reset_progress_deleting_category_groups" = "Excluindo pastas";
+"app_reset_progress_deleting_accounts" = "Excluindo contas";
+"app_reset_progress_deleting_budget_books" = "Excluindo livros de orçamento";
+"app_reset_progress_deleting_existing_settings" = "Excluindo configurações existentes";
+"app_reset_progress_finishing" = "Finalizando redefinição do aplicativo";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "O que gostaria de compartilhar?";
 "alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "Código QR";
-
-"alert_reset_app_title" = "Redefinir aplicativo";
-"alert_reset_app_message" = "Tem certeza de que deseja redefinir o aplicativo para as configurações padrão? Isso excluirá permanentemente todos os seus dados.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Redefinir aplicativo";
-"app_reset_progress_preparing" = "Preparando redefinição do aplicativo";
-"app_reset_progress_deleting_existing_notifications" = "Excluindo notificações existentes";
-"app_reset_progress_deleting_existing_data" = "Excluindo dados existentes";
-"app_reset_progress_deleting_existing_settings" = "Excluindo configurações existentes";
-"app_reset_progress_finishing" = "Finalizando redefinição do aplicativo";
 
 "alert_error_title" = "Ocorreu um erro 😢";
 

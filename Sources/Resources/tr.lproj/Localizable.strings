@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Dışa aktarma başarılı 🎉";
 "alert_csv_export_successful_message" = "Verileriniz başarıyla \"%@\" konumuna aktarıldı.";
 
+"alert_reset_app_title" = "Uygulamayı Sıfırla";
+"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, tüm verilerinizi kalıcı olarak silecektir.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Dışa Aktar";
 "csv_export_progress_preparing" = "Dışa aktarma hazırlanıyor";
 "csv_export_progress_transactions" = "İşlemler";
 "csv_export_progress_finishing" = "Dışa aktarma tamamlanıyor";
+
+"alert_app_reset_progress_title" = "Uygulamayı Sıfırla";
+"app_reset_progress_preparing" = "Uygulama sıfırlama işlemi hazırlanıyor";
+"app_reset_progress_deleting_existing_notifications" = "Mevcut bildirimler siliniyor";
+"app_reset_progress_deleting_existing_data" = "Mevcut veriler siliniyor";
+"app_reset_progress_deleting_transactions" = "İşlemler siliniyor";
+"app_reset_progress_deleting_transaction_groups" = "İşlem grupları siliniyor";
+"app_reset_progress_deleting_reminders" = "Hatırlatıcılar siliniyor";
+"app_reset_progress_deleting_budgets" = "Bütçeler siliniyor";
+"app_reset_progress_deleting_tags" = "Etiketler siliniyor";
+"app_reset_progress_deleting_payees" = "Alacaklılar siliniyor";
+"app_reset_progress_deleting_categories" = "Kategoriler siliniyor";
+"app_reset_progress_deleting_category_groups" = "Klasörler siliniyor";
+"app_reset_progress_deleting_accounts" = "Hesaplar siliniyor";
+"app_reset_progress_deleting_budget_books" = "Bütçe defterleri siliniyor";
+"app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
+"app_reset_progress_finishing" = "Uygulama sıfırlama işlemi tamamlanıyor";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Ne paylaşmak istersiniz?";
 "alert_share_app_type_selection_link_button" = "Bağlantı";
 "alert_share_app_type_selection_qrcode_button" = "QR Kodu";
-
-"alert_reset_app_title" = "Uygulamayı Sıfırla";
-"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, tüm verilerinizi kalıcı olarak silecektir.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Uygulamayı Sıfırla";
-"app_reset_progress_preparing" = "Uygulama sıfırlama hazırlanıyor";
-"app_reset_progress_deleting_existing_notifications" = "Mevcut bildirimler siliniyor";
-"app_reset_progress_deleting_existing_data" = "Mevcut veriler siliniyor";
-"app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
-"app_reset_progress_finishing" = "Uygulama sıfırlama tamamlanıyor";
 
 "alert_error_title" = "Bir hata oluştu 😢";
 

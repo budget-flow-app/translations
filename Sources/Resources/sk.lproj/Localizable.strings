@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Export bol úspešný 🎉";
 "alert_csv_export_successful_message" = "Vaše údaje boli úspešne exportované do \"%@\".";
 
+"alert_reset_app_title" = "Resetovať aplikáciu";
+"alert_reset_app_message" = "Naozaj chcete obnoviť predvolené nastavenia aplikácie? Týmto sa natrvalo vymažú všetky vaše dáta.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Export";
 "csv_export_progress_preparing" = "Príprava exportu";
 "csv_export_progress_transactions" = "Transakcie";
 "csv_export_progress_finishing" = "Dokončovanie exportu";
+
+"alert_app_reset_progress_title" = "Resetovať aplikáciu";
+"app_reset_progress_preparing" = "Príprava resetovania aplikácie";
+"app_reset_progress_deleting_existing_notifications" = "Odstraňovanie existujúcich oznámení";
+"app_reset_progress_deleting_existing_data" = "Odstraňovanie existujúcich údajov";
+"app_reset_progress_deleting_transactions" = "Odstraňovanie transakcií";
+"app_reset_progress_deleting_transaction_groups" = "Odstraňovanie skupín transakcií";
+"app_reset_progress_deleting_reminders" = "Odstraňovanie pripomienok";
+"app_reset_progress_deleting_budgets" = "Odstraňovanie rozpočtov";
+"app_reset_progress_deleting_tags" = "Odstraňovanie značiek";
+"app_reset_progress_deleting_payees" = "Odstraňovanie príjemcov platieb";
+"app_reset_progress_deleting_categories" = "Odstraňovanie kategórií";
+"app_reset_progress_deleting_category_groups" = "Odstraňovanie priečinkov";
+"app_reset_progress_deleting_accounts" = "Odstraňovanie účtov";
+"app_reset_progress_deleting_budget_books" = "Odstraňovanie rozpočtových kníh";
+"app_reset_progress_deleting_existing_settings" = "Odstraňovanie existujúcich nastavení";
+"app_reset_progress_finishing" = "Dokončovanie resetovania aplikácie";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Čo by ste chceli zdieľať?";
 "alert_share_app_type_selection_link_button" = "Odkaz";
 "alert_share_app_type_selection_qrcode_button" = "QR kód";
-
-"alert_reset_app_title" = "Resetovať aplikáciu";
-"alert_reset_app_message" = "Naozaj chcete obnoviť predvolené nastavenia aplikácie? Týmto sa natrvalo vymažú všetky vaše dáta.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Resetovať aplikáciu";
-"app_reset_progress_preparing" = "Príprava resetovania aplikácie";
-"app_reset_progress_deleting_existing_notifications" = "Odstraňovanie existujúcich oznámení";
-"app_reset_progress_deleting_existing_data" = "Odstraňovanie existujúcich údajov";
-"app_reset_progress_deleting_existing_settings" = "Odstraňovanie existujúcich nastavení";
-"app_reset_progress_finishing" = "Dokončovanie resetovania aplikácie";
 
 "alert_error_title" = "Vyskytla sa chyba 😢";
 

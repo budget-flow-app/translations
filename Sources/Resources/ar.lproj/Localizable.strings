@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "تم التصدير بنجاح 🎉";
 "alert_csv_export_successful_message" = "تم تصدير بياناتك بنجاح إلى \"%@\".";
 
+"alert_reset_app_title" = "إعادة تعيين التطبيق";
+"alert_reset_app_message" = "هل أنت متأكد من رغبتك في إعادة تعيين التطبيق إلى الإعدادات الافتراضية؟ سيؤدي هذا إلى حذف جميع بياناتك نهائيًا.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "تصدير";
 "csv_export_progress_preparing" = "جارٍ تحضير التصدير";
 "csv_export_progress_transactions" = "المعاملات";
 "csv_export_progress_finishing" = "جارٍ إنهاء التصدير";
+
+"alert_app_reset_progress_title" = "إعادة تعيين التطبيق";
+"app_reset_progress_preparing" = "جارٍ تحضير إعادة تعيين التطبيق";
+"app_reset_progress_deleting_existing_notifications" = "جارٍ حذف الإشعارات الموجودة";
+"app_reset_progress_deleting_existing_data" = "جارٍ حذف البيانات الموجودة";
+"app_reset_progress_deleting_transactions" = "جارٍ حذف المعاملات";
+"app_reset_progress_deleting_transaction_groups" = "جارٍ حذف مجموعات المعاملات";
+"app_reset_progress_deleting_reminders" = "جارٍ حذف التذكيرات";
+"app_reset_progress_deleting_budgets" = "جارٍ حذف الميزانيات";
+"app_reset_progress_deleting_tags" = "جارٍ حذف الوسوم";
+"app_reset_progress_deleting_payees" = "جارٍ حذف المستفيدين";
+"app_reset_progress_deleting_categories" = "جارٍ حذف الفئات";
+"app_reset_progress_deleting_category_groups" = "جارٍ حذف المجلدات";
+"app_reset_progress_deleting_accounts" = "جارٍ حذف الحسابات";
+"app_reset_progress_deleting_budget_books" = "جارٍ حذف دفاتر الميزانية";
+"app_reset_progress_deleting_existing_settings" = "جارٍ حذف الإعدادات الموجودة";
+"app_reset_progress_finishing" = "جارٍ إنهاء إعادة تعيين التطبيق";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "ما الذي ترغب في مشاركته؟";
 "alert_share_app_type_selection_link_button" = "رابط";
 "alert_share_app_type_selection_qrcode_button" = "رمز QR";
-
-"alert_reset_app_title" = "إعادة تعيين التطبيق";
-"alert_reset_app_message" = "هل أنت متأكد من رغبتك في إعادة تعيين التطبيق إلى الإعدادات الافتراضية؟ سيؤدي هذا إلى حذف جميع بياناتك نهائيًا.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "إعادة تعيين التطبيق";
-"app_reset_progress_preparing" = "جارٍ تحضير إعادة تعيين التطبيق";
-"app_reset_progress_deleting_existing_notifications" = "جارٍ حذف الإشعارات الموجودة";
-"app_reset_progress_deleting_existing_data" = "جارٍ حذف البيانات الموجودة";
-"app_reset_progress_deleting_existing_settings" = "جارٍ حذف الإعدادات الموجودة";
-"app_reset_progress_finishing" = "جارٍ إنهاء إعادة تعيين التطبيق";
 
 "alert_error_title" = "حدث خطأ 😢";
 

@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Экспорт выполнен успешно 🎉";
 "alert_csv_export_successful_message" = "Ваши данные успешно экспортированы в \"%@\".";
 
+"alert_reset_app_title" = "Сбросить приложение";
+"alert_reset_app_message" = "Вы действительно хотите сбросить приложение до настроек по умолчанию? Это безвозвратно удалит все ваши данные.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Экспорт";
 "csv_export_progress_preparing" = "Подготовка экспорта";
 "csv_export_progress_transactions" = "Транзакции";
 "csv_export_progress_finishing" = "Завершение экспорта";
+
+"alert_app_reset_progress_title" = "Сбросить приложение";
+"app_reset_progress_preparing" = "Подготовка сброса приложения";
+"app_reset_progress_deleting_existing_notifications" = "Удаление существующих уведомлений";
+"app_reset_progress_deleting_existing_data" = "Удаление существующих данных";
+"app_reset_progress_deleting_transactions" = "Удаление транзакций";
+"app_reset_progress_deleting_transaction_groups" = "Удаление групп транзакций";
+"app_reset_progress_deleting_reminders" = "Удаление напоминаний";
+"app_reset_progress_deleting_budgets" = "Удаление бюджетов";
+"app_reset_progress_deleting_tags" = "Удаление тегов";
+"app_reset_progress_deleting_payees" = "Удаление получателей платежей";
+"app_reset_progress_deleting_categories" = "Удаление категорий";
+"app_reset_progress_deleting_category_groups" = "Удаление папок";
+"app_reset_progress_deleting_accounts" = "Удаление счетов";
+"app_reset_progress_deleting_budget_books" = "Удаление бюджетных книг";
+"app_reset_progress_deleting_existing_settings" = "Удаление существующих настроек";
+"app_reset_progress_finishing" = "Завершение сброса приложения";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Чем бы вы хотели поделиться?";
 "alert_share_app_type_selection_link_button" = "Ссылка";
 "alert_share_app_type_selection_qrcode_button" = "QR-код";
-
-"alert_reset_app_title" = "Сбросить приложение";
-"alert_reset_app_message" = "Вы действительно хотите сбросить приложение до настроек по умолчанию? Это безвозвратно удалит все ваши данные.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Сбросить приложение";
-"app_reset_progress_preparing" = "Подготовка сброса приложения";
-"app_reset_progress_deleting_existing_notifications" = "Удаление существующих уведомлений";
-"app_reset_progress_deleting_existing_data" = "Удаление существующих данных";
-"app_reset_progress_deleting_existing_settings" = "Удаление существующих настроек";
-"app_reset_progress_finishing" = "Завершение сброса приложения";
 
 "alert_error_title" = "Произошла ошибка 😢";
 

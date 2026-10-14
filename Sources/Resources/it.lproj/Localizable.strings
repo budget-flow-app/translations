@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Esportazione riuscita 🎉";
 "alert_csv_export_successful_message" = "I tuoi dati sono stati esportati con successo in \"%@\".";
 
+"alert_reset_app_title" = "Ripristina app";
+"alert_reset_app_message" = "Confermi il ripristino delle impostazioni predefinite dell'app? Questa operazione eliminerà definitivamente tutti i dati.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Esporta";
 "csv_export_progress_preparing" = "Preparazione esportazione";
 "csv_export_progress_transactions" = "Transazioni";
 "csv_export_progress_finishing" = "Finalizzazione esportazione";
+
+"alert_app_reset_progress_title" = "Ripristina app";
+"app_reset_progress_preparing" = "Preparazione ripristino app";
+"app_reset_progress_deleting_existing_notifications" = "Eliminazione notifiche esistenti";
+"app_reset_progress_deleting_existing_data" = "Eliminazione dati esistenti";
+"app_reset_progress_deleting_transactions" = "Eliminazione transazioni";
+"app_reset_progress_deleting_transaction_groups" = "Eliminazione gruppi di transazioni";
+"app_reset_progress_deleting_reminders" = "Eliminazione promemoria";
+"app_reset_progress_deleting_budgets" = "Eliminazione budget";
+"app_reset_progress_deleting_tags" = "Eliminazione tag";
+"app_reset_progress_deleting_payees" = "Eliminazione beneficiari";
+"app_reset_progress_deleting_categories" = "Eliminazione categorie";
+"app_reset_progress_deleting_category_groups" = "Eliminazione cartelle";
+"app_reset_progress_deleting_accounts" = "Eliminazione conti";
+"app_reset_progress_deleting_budget_books" = "Eliminazione libri di budget";
+"app_reset_progress_deleting_existing_settings" = "Eliminazione impostazioni esistenti";
+"app_reset_progress_finishing" = "Finalizzazione ripristino app";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Cosa desideri condividere?";
 "alert_share_app_type_selection_link_button" = "Collegamento";
 "alert_share_app_type_selection_qrcode_button" = "Codice QR";
-
-"alert_reset_app_title" = "Ripristina app";
-"alert_reset_app_message" = "Confermi il ripristino delle impostazioni predefinite dell'app? Questa operazione eliminerà definitivamente tutti i dati.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Ripristina app";
-"app_reset_progress_preparing" = "Preparazione ripristino app";
-"app_reset_progress_deleting_existing_notifications" = "Eliminazione notifiche esistenti";
-"app_reset_progress_deleting_existing_data" = "Eliminazione dati esistenti";
-"app_reset_progress_deleting_existing_settings" = "Eliminazione impostazioni esistenti";
-"app_reset_progress_finishing" = "Finalizzazione ripristino app";
 
 "alert_error_title" = "Si è verificato un errore 😢";
 

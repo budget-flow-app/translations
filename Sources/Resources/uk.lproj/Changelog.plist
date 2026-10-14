@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Покращені команди</string>
-			<key>Description</key>
-			<string>Нові й покращені команди роблять автоматизацію Budget Flow простішою, ніж будь-коли, зокрема автоматичне додавання транзакцій із сповіщень банківських застосунків на iOS та iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Автоматична категоризація</string>
-			<key>Description</key>
-			<string>На підтримуваних пристроях Budget Flow тепер може використовувати Apple Intelligence, щоб визначати категорію й отримувача під час автоматичного створення транзакцій за допомогою команд.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Підтримка iOS, iPadOS і macOS 27</string>
-			<key>Description</key>
-			<string>Доопрацювання дизайну й оновлення сумісності забезпечують плавну роботу Budget Flow у найновіших операційних системах Apple.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Відкрийте для себе докорінно оновлений застосунок із кращою продуктивністю та новими функціями резервного копіювання, повернення коштів і керування транзакціями.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Оновлений застосунок</string>
+				<key>Description</key>
+				<string>Застосунок побудовано на цілком новій архітектурі, що забезпечує кращу продуктивність і нові анімації.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Покращене резервне копіювання</string>
+				<key>Description</key>
+				<string>Механізм резервного копіювання повністю перероблено. На пристроях Apple тепер можна за бажанням зберігати дані також в iCloud Drive.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Додано підтримку iPhone Duo з інтерфейсом, повністю пристосованим до особливостей його екрана.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Повернення коштів</string>
+				<key>Description</key>
+				<string>Тепер можна створювати повернення коштів безпосередньо на основі наявних транзакцій за допомогою змахування або контекстного меню.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Улюблені валюти</string>
+				<key>Description</key>
+				<string>Тепер валюти можна позначати як улюблені, щоб ще швидше знаходити їх у списку валют.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Масове редагування</string>
+				<key>Description</key>
+				<string>Під час масового редагування можна зручно вибрати всі транзакції або скасувати їх вибір одним рухом. Крім того, у спільних бюджетних книгах можна одночасно змінити призначену особу для кількох транзакцій.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Нові параметри фільтрування</string>
+				<key>Description</key>
+				<string>У вікні фільтрів тепер можна легко шукати категорії та інші елементи, а глобальний пошук дає змогу знаходити саме повторювані транзакції.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Інші покращення</string>
+				<key>Description</key>
+				<string>Зручніше відображення сум, іконки категорій на круговій діаграмі, пошук емодзі, нові параметри відображення категорій і тегів, а також спрощене початкове налаштування.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

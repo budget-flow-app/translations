@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Ulepszone skróty</string>
-			<key>Description</key>
-			<string>Nowe i ulepszone skróty sprawiają, że automatyzowanie Budget Flow jest łatwiejsze niż kiedykolwiek, w tym automatyczne dodawanie transakcji z powiadomień aplikacji bankowych w iOS i iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Automatyczna kategoryzacja</string>
-			<key>Description</key>
-			<string>Na obsługiwanych urządzeniach Budget Flow może teraz używać Apple Intelligence, aby określać kategorię i odbiorcę podczas automatycznego tworzenia transakcji za pomocą skrótów.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Obsługa iOS, iPadOS i macOS 27</string>
-			<key>Description</key>
-			<string>Udoskonalenia wyglądu i aktualizacje zgodności zapewniają płynne działanie Budget Flow w najnowszych systemach operacyjnych Apple.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Poznaj gruntownie unowocześnioną aplikację o lepszej wydajności, z nowymi funkcjami tworzenia kopii zapasowych, zwrotów i zarządzania transakcjami.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Unowocześniona aplikacja</string>
+				<key>Description</key>
+				<string>Aplikacja korzysta z zupełnie nowej architektury, która zapewnia lepszą wydajność i nowe animacje.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Ulepszone kopie zapasowe</string>
+				<key>Description</key>
+				<string>Mechanizm tworzenia kopii zapasowych został całkowicie przebudowany. Na urządzeniach Apple można teraz opcjonalnie zapisywać dane również w iCloud Drive.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Dodano obsługę urządzenia iPhone Duo wraz z interfejsem w pełni dostosowanym do układu jego ekranu.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Zwroty</string>
+				<key>Description</key>
+				<string>Zwroty można teraz tworzyć bezpośrednio na podstawie istniejących transakcji, przesuwając palcem lub korzystając z menu kontekstowego.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Ulubione waluty</string>
+				<key>Description</key>
+				<string>Waluty można teraz oznaczać jako ulubione, aby jeszcze szybciej znajdować je na liście walut.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Edycja zbiorcza</string>
+				<key>Description</key>
+				<string>Podczas edycji zbiorczej można wygodnie zaznaczyć wszystkie transakcje lub usunąć ich zaznaczenie jednym ruchem. We współdzielonych księgach budżetowych można też zmienić przypisaną osobę dla wielu transakcji jednocześnie.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Nowe opcje filtrowania</string>
+				<key>Description</key>
+				<string>Widok filtrów umożliwia teraz łatwe wyszukiwanie kategorii i innych pozycji, a także wyszukiwanie konkretnie transakcji cyklicznych za pomocą wyszukiwania globalnego.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Pozostałe ulepszenia</string>
+				<key>Description</key>
+				<string>Czytelniejsze kwoty, ikony kategorii na wykresie kołowym, wyszukiwanie emoji, nowe opcje wyświetlania kategorii i tagów oraz uproszczona konfiguracja początkowa.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

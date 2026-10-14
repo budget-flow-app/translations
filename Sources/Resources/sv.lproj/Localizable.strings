@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Exporten lyckades 🎉";
 "alert_csv_export_successful_message" = "Din data exporterades framgångsrikt till \"%@\".";
 
+"alert_reset_app_title" = "Återställ appen";
+"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta raderar permanent alla dina data.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Exportera";
 "csv_export_progress_preparing" = "Förbereder export";
 "csv_export_progress_transactions" = "Transaktioner";
 "csv_export_progress_finishing" = "Slutför export";
+
+"alert_app_reset_progress_title" = "Återställ appen";
+"app_reset_progress_preparing" = "Förbereder återställning av appen";
+"app_reset_progress_deleting_existing_notifications" = "Tar bort befintliga aviseringar";
+"app_reset_progress_deleting_existing_data" = "Tar bort befintlig data";
+"app_reset_progress_deleting_transactions" = "Tar bort transaktioner";
+"app_reset_progress_deleting_transaction_groups" = "Tar bort transaktionsgrupper";
+"app_reset_progress_deleting_reminders" = "Tar bort påminnelser";
+"app_reset_progress_deleting_budgets" = "Tar bort budgetar";
+"app_reset_progress_deleting_tags" = "Tar bort taggar";
+"app_reset_progress_deleting_payees" = "Tar bort betalningsmottagare";
+"app_reset_progress_deleting_categories" = "Tar bort kategorier";
+"app_reset_progress_deleting_category_groups" = "Tar bort mappar";
+"app_reset_progress_deleting_accounts" = "Tar bort konton";
+"app_reset_progress_deleting_budget_books" = "Tar bort budgetböcker";
+"app_reset_progress_deleting_existing_settings" = "Tar bort befintliga inställningar";
+"app_reset_progress_finishing" = "Slutför återställning av appen";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Vad skulle du vilja dela?";
 "alert_share_app_type_selection_link_button" = "Länk";
 "alert_share_app_type_selection_qrcode_button" = "QR-kod";
-
-"alert_reset_app_title" = "Återställ appen";
-"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta raderar permanent alla dina data.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Återställ appen";
-"app_reset_progress_preparing" = "Förbereder återställning av appen";
-"app_reset_progress_deleting_existing_notifications" = "Tar bort befintliga aviseringar";
-"app_reset_progress_deleting_existing_data" = "Tar bort befintlig data";
-"app_reset_progress_deleting_existing_settings" = "Tar bort befintliga inställningar";
-"app_reset_progress_finishing" = "Slutför återställning av appen";
 
 "alert_error_title" = "Ett fel uppstod 😢";
 

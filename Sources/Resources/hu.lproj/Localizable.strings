@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Az exportálás sikeres 🎉";
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
+"alert_reset_app_title" = "Alkalmazás visszaállítása";
+"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az összes adatát.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Exportálás";
 "csv_export_progress_preparing" = "Exportálás előkészítése";
 "csv_export_progress_transactions" = "Tranzakciók";
 "csv_export_progress_finishing" = "Exportálás befejezése";
+
+"alert_app_reset_progress_title" = "Alkalmazás visszaállítása";
+"app_reset_progress_preparing" = "Alkalmazás visszaállításának előkészítése";
+"app_reset_progress_deleting_existing_notifications" = "Meglévő értesítések törlése";
+"app_reset_progress_deleting_existing_data" = "Meglévő adatok törlése";
+"app_reset_progress_deleting_transactions" = "Tranzakciók törlése";
+"app_reset_progress_deleting_transaction_groups" = "Tranzakciócsoportok törlése";
+"app_reset_progress_deleting_reminders" = "Emlékeztetők törlése";
+"app_reset_progress_deleting_budgets" = "Költségvetések törlése";
+"app_reset_progress_deleting_tags" = "Címkék törlése";
+"app_reset_progress_deleting_payees" = "Kedvezményezettek törlése";
+"app_reset_progress_deleting_categories" = "Kategóriák törlése";
+"app_reset_progress_deleting_category_groups" = "Mappák törlése";
+"app_reset_progress_deleting_accounts" = "Számlák törlése";
+"app_reset_progress_deleting_budget_books" = "Költségvetési könyvek törlése";
+"app_reset_progress_deleting_existing_settings" = "Meglévő beállítások törlése";
+"app_reset_progress_finishing" = "Alkalmazás visszaállításának befejezése";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Mit szeretne megosztani?";
 "alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "QR-kód";
-
-"alert_reset_app_title" = "Alkalmazás visszaállítása";
-"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az összes adatát.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Alkalmazás visszaállítása";
-"app_reset_progress_preparing" = "Alkalmazás visszaállításának előkészítése";
-"app_reset_progress_deleting_existing_notifications" = "Meglévő értesítések törlése";
-"app_reset_progress_deleting_existing_data" = "Meglévő adatok törlése";
-"app_reset_progress_deleting_existing_settings" = "Meglévő beállítások törlése";
-"app_reset_progress_finishing" = "Alkalmazás visszaállításának befejezése";
 
 "alert_error_title" = "Hiba történt 😢";
 

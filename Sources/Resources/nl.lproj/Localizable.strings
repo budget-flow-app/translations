@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Export succesvol 🎉";
 "alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
+"alert_reset_app_title" = "App resetten";
+"alert_reset_app_message" = "Weet je zeker dat je de app wilt herstellen naar de standaardinstellingen? Hierdoor worden al je gegevens permanent gewist.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Exporteren";
 "csv_export_progress_preparing" = "Export voorbereiden";
 "csv_export_progress_transactions" = "Transacties";
 "csv_export_progress_finishing" = "Export afronden";
+
+"alert_app_reset_progress_title" = "App resetten";
+"app_reset_progress_preparing" = "Resetten van de app voorbereiden";
+"app_reset_progress_deleting_existing_notifications" = "Bestaande meldingen verwijderen";
+"app_reset_progress_deleting_existing_data" = "Bestaande gegevens verwijderen";
+"app_reset_progress_deleting_transactions" = "Transacties verwijderen";
+"app_reset_progress_deleting_transaction_groups" = "Transactiegroepen verwijderen";
+"app_reset_progress_deleting_reminders" = "Herinneringen verwijderen";
+"app_reset_progress_deleting_budgets" = "Budgetten verwijderen";
+"app_reset_progress_deleting_tags" = "Tags verwijderen";
+"app_reset_progress_deleting_payees" = "Begunstigden verwijderen";
+"app_reset_progress_deleting_categories" = "Categorieën verwijderen";
+"app_reset_progress_deleting_category_groups" = "Mappen verwijderen";
+"app_reset_progress_deleting_accounts" = "Rekeningen verwijderen";
+"app_reset_progress_deleting_budget_books" = "Budgetboeken verwijderen";
+"app_reset_progress_deleting_existing_settings" = "Bestaande instellingen verwijderen";
+"app_reset_progress_finishing" = "Resetten van de app afronden";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Wat wil je delen?";
 "alert_share_app_type_selection_link_button" = "Koppelen";
 "alert_share_app_type_selection_qrcode_button" = "QR-code";
-
-"alert_reset_app_title" = "App resetten";
-"alert_reset_app_message" = "Weet je zeker dat je de app wilt herstellen naar de standaardinstellingen? Hierdoor worden al je gegevens permanent gewist.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "App resetten";
-"app_reset_progress_preparing" = "App-reset voorbereiden";
-"app_reset_progress_deleting_existing_notifications" = "Bestaande meldingen verwijderen";
-"app_reset_progress_deleting_existing_data" = "Bestaande gegevens verwijderen";
-"app_reset_progress_deleting_existing_settings" = "Bestaande instellingen verwijderen";
-"app_reset_progress_finishing" = "App-reset afronden";
 
 "alert_error_title" = "Er is een fout opgetreden 😢";
 

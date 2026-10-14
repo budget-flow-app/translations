@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Vienti onnistui 🎉";
 "alert_csv_export_successful_message" = "Tietosi vietiin osoitteeseen \"%@\".";
 
+"alert_reset_app_title" = "Nollaa sovellus";
+"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tietosi.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Vienti";
 "csv_export_progress_preparing" = "Valmistellaan vientiä";
 "csv_export_progress_transactions" = "Tapahtumat";
 "csv_export_progress_finishing" = "Viimeistellään vientiä";
+
+"alert_app_reset_progress_title" = "Nollaa sovellus";
+"app_reset_progress_preparing" = "Valmistellaan sovelluksen nollausta";
+"app_reset_progress_deleting_existing_notifications" = "Poistetaan olemassa olevia ilmoituksia";
+"app_reset_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
+"app_reset_progress_deleting_transactions" = "Poistetaan tapahtumia";
+"app_reset_progress_deleting_transaction_groups" = "Poistetaan tapahtumaryhmiä";
+"app_reset_progress_deleting_reminders" = "Poistetaan muistutuksia";
+"app_reset_progress_deleting_budgets" = "Poistetaan budjetteja";
+"app_reset_progress_deleting_tags" = "Poistetaan tunnisteita";
+"app_reset_progress_deleting_payees" = "Poistetaan maksunsaajia";
+"app_reset_progress_deleting_categories" = "Poistetaan kategorioita";
+"app_reset_progress_deleting_category_groups" = "Poistetaan kansioita";
+"app_reset_progress_deleting_accounts" = "Poistetaan tilejä";
+"app_reset_progress_deleting_budget_books" = "Poistetaan budjettikirjoja";
+"app_reset_progress_deleting_existing_settings" = "Poistetaan olemassa olevia asetuksia";
+"app_reset_progress_finishing" = "Viimeistellään sovelluksen nollaus";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Mitä haluaisit jakaa?";
 "alert_share_app_type_selection_link_button" = "Linkki";
 "alert_share_app_type_selection_qrcode_button" = "QR-koodi";
-
-"alert_reset_app_title" = "Nollaa sovellus";
-"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tietosi.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Nollaa sovellus";
-"app_reset_progress_preparing" = "Valmistellaan sovelluksen nollausta";
-"app_reset_progress_deleting_existing_notifications" = "Poistetaan olemassa olevia ilmoituksia";
-"app_reset_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
-"app_reset_progress_deleting_existing_settings" = "Poistetaan olemassa olevia asetuksia";
-"app_reset_progress_finishing" = "Viimeistellään sovelluksen nollaus";
 
 "alert_error_title" = "Tapahtui virhe 😢";
 

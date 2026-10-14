@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Izvoz uspješan 🎉";
 "alert_csv_export_successful_message" = "Vaši podaci su uspješno izvezeni u \"%@\".";
 
+"alert_reset_app_title" = "Resetuj aplikaciju";
+"alert_reset_app_message" = "Jeste li sigurni da želite vratiti aplikaciju na zadane postavke? Ovo će trajno izbrisati sve vaše podatke.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Izvoz";
 "csv_export_progress_preparing" = "Priprema izvoza";
 "csv_export_progress_transactions" = "Transakcije";
 "csv_export_progress_finishing" = "Dovršavanje izvoza";
+
+"alert_app_reset_progress_title" = "Resetuj aplikaciju";
+"app_reset_progress_preparing" = "Priprema resetiranja aplikacije";
+"app_reset_progress_deleting_existing_notifications" = "Brisanje postojećih obavijesti";
+"app_reset_progress_deleting_existing_data" = "Brisanje postojećih podataka";
+"app_reset_progress_deleting_transactions" = "Brisanje transakcija";
+"app_reset_progress_deleting_transaction_groups" = "Brisanje grupa transakcija";
+"app_reset_progress_deleting_reminders" = "Brisanje podsjetnika";
+"app_reset_progress_deleting_budgets" = "Brisanje proračuna";
+"app_reset_progress_deleting_tags" = "Brisanje oznaka";
+"app_reset_progress_deleting_payees" = "Brisanje primatelja plaćanja";
+"app_reset_progress_deleting_categories" = "Brisanje kategorija";
+"app_reset_progress_deleting_category_groups" = "Brisanje mapa";
+"app_reset_progress_deleting_accounts" = "Brisanje računa";
+"app_reset_progress_deleting_budget_books" = "Brisanje proračunskih knjiga";
+"app_reset_progress_deleting_existing_settings" = "Brisanje postojećih postavki";
+"app_reset_progress_finishing" = "Dovršavanje resetiranja aplikacije";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Što želite podijeliti?";
 "alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "QR kod";
-
-"alert_reset_app_title" = "Resetuj aplikaciju";
-"alert_reset_app_message" = "Jeste li sigurni da želite vratiti aplikaciju na zadane postavke? Ovo će trajno izbrisati sve vaše podatke.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Resetuj aplikaciju";
-"app_reset_progress_preparing" = "Priprema resetiranja aplikacije";
-"app_reset_progress_deleting_existing_notifications" = "Brisanje postojećih obavijesti";
-"app_reset_progress_deleting_existing_data" = "Brisanje postojećih podataka";
-"app_reset_progress_deleting_existing_settings" = "Brisanje postojećih postavki";
-"app_reset_progress_finishing" = "Dovršavanje resetiranja aplikacije";
 
 "alert_error_title" = "Došlo je do greške 😢";
 

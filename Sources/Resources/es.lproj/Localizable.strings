@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Exportación exitosa 🎉";
 "alert_csv_export_successful_message" = "Sus datos se han exportado correctamente a \"%@\".";
 
+"alert_reset_app_title" = "Restablecer app";
+"alert_reset_app_message" = "¿Seguro que quieres restablecer la app a la configuración predeterminada? Esto borrará permanentemente todos tus datos.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Exportación";
 "csv_export_progress_preparing" = "Preparando exportación";
 "csv_export_progress_transactions" = "Transacciones";
 "csv_export_progress_finishing" = "Finalizando exportación";
+
+"alert_app_reset_progress_title" = "Restablecer app";
+"app_reset_progress_preparing" = "Preparando restablecimiento de la app";
+"app_reset_progress_deleting_existing_notifications" = "Eliminando notificaciones existentes";
+"app_reset_progress_deleting_existing_data" = "Eliminando datos existentes";
+"app_reset_progress_deleting_transactions" = "Eliminando transacciones";
+"app_reset_progress_deleting_transaction_groups" = "Eliminando grupos de transacciones";
+"app_reset_progress_deleting_reminders" = "Eliminando recordatorios";
+"app_reset_progress_deleting_budgets" = "Eliminando presupuestos";
+"app_reset_progress_deleting_tags" = "Eliminando etiquetas";
+"app_reset_progress_deleting_payees" = "Eliminando beneficiarios";
+"app_reset_progress_deleting_categories" = "Eliminando categorías";
+"app_reset_progress_deleting_category_groups" = "Eliminando carpetas";
+"app_reset_progress_deleting_accounts" = "Eliminando cuentas";
+"app_reset_progress_deleting_budget_books" = "Eliminando libros de presupuesto";
+"app_reset_progress_deleting_existing_settings" = "Eliminando ajustes existentes";
+"app_reset_progress_finishing" = "Finalizando restablecimiento de la app";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "¿Qué te gustaría compartir?";
 "alert_share_app_type_selection_link_button" = "Enlace";
 "alert_share_app_type_selection_qrcode_button" = "Código QR";
-
-"alert_reset_app_title" = "Restablecer app";
-"alert_reset_app_message" = "¿Seguro que quieres restablecer la app a la configuración predeterminada? Esto borrará permanentemente todos tus datos.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Restablecer app";
-"app_reset_progress_preparing" = "Preparando restablecimiento de la app";
-"app_reset_progress_deleting_existing_notifications" = "Eliminando notificaciones existentes";
-"app_reset_progress_deleting_existing_data" = "Eliminando datos existentes";
-"app_reset_progress_deleting_existing_settings" = "Eliminando ajustes existentes";
-"app_reset_progress_finishing" = "Finalizando restablecimiento de la app";
 
 "alert_error_title" = "Se ha producido un error 😢";
 

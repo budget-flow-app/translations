@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
 
+"alert_reset_app_title" = "アプリをリセット";
+"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、すべてのデータが完全に消去されます。";
+
 /* Progress */
 "alert_csv_export_progress_title" = "エクスポート";
 "csv_export_progress_preparing" = "エクスポートを準備中";
 "csv_export_progress_transactions" = "取引";
 "csv_export_progress_finishing" = "エクスポートを完了中";
+
+"alert_app_reset_progress_title" = "アプリをリセット";
+"app_reset_progress_preparing" = "アプリのリセットを準備中";
+"app_reset_progress_deleting_existing_notifications" = "既存の通知を削除中";
+"app_reset_progress_deleting_existing_data" = "既存のデータを削除中";
+"app_reset_progress_deleting_transactions" = "取引を削除中";
+"app_reset_progress_deleting_transaction_groups" = "取引グループを削除中";
+"app_reset_progress_deleting_reminders" = "リマインダーを削除中";
+"app_reset_progress_deleting_budgets" = "予算を削除中";
+"app_reset_progress_deleting_tags" = "タグを削除中";
+"app_reset_progress_deleting_payees" = "支払先を削除中";
+"app_reset_progress_deleting_categories" = "カテゴリを削除中";
+"app_reset_progress_deleting_category_groups" = "フォルダーを削除中";
+"app_reset_progress_deleting_accounts" = "口座を削除中";
+"app_reset_progress_deleting_budget_books" = "予算ブックを削除中";
+"app_reset_progress_deleting_existing_settings" = "既存の設定を削除中";
+"app_reset_progress_finishing" = "アプリのリセットの最終処理中";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "何で共有しますか?";
 "alert_share_app_type_selection_link_button" = "リンク";
 "alert_share_app_type_selection_qrcode_button" = "QRコード";
-
-"alert_reset_app_title" = "アプリをリセット";
-"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、すべてのデータが完全に消去されます。";
-
-/* Progress */
-"alert_app_reset_progress_title" = "アプリをリセット";
-"app_reset_progress_preparing" = "アプリのリセットを準備中";
-"app_reset_progress_deleting_existing_notifications" = "既存の通知を削除中";
-"app_reset_progress_deleting_existing_data" = "既存のデータを削除中";
-"app_reset_progress_deleting_existing_settings" = "既存の設定を削除中";
-"app_reset_progress_finishing" = "アプリのリセットを完了中";
 
 "alert_error_title" = "エラーが発生しました 😢";
 

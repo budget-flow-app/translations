@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
 "alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
 
+"alert_reset_app_title" = "Atur Ulang Aplikasi";
+"alert_reset_app_message" = "Apakah Anda yakin ingin mengatur ulang aplikasi ke pengaturan bawaan? Ini akan menghapus semua data Anda secara permanen.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Ekspor";
 "csv_export_progress_preparing" = "Menyiapkan ekspor";
 "csv_export_progress_transactions" = "Transaksi";
 "csv_export_progress_finishing" = "Menyelesaikan ekspor";
+
+"alert_app_reset_progress_title" = "Atur Ulang Aplikasi";
+"app_reset_progress_preparing" = "Menyiapkan pengaturan ulang aplikasi";
+"app_reset_progress_deleting_existing_notifications" = "Menghapus notifikasi yang ada";
+"app_reset_progress_deleting_existing_data" = "Menghapus data yang ada";
+"app_reset_progress_deleting_transactions" = "Menghapus transaksi";
+"app_reset_progress_deleting_transaction_groups" = "Menghapus grup transaksi";
+"app_reset_progress_deleting_reminders" = "Menghapus pengingat";
+"app_reset_progress_deleting_budgets" = "Menghapus anggaran";
+"app_reset_progress_deleting_tags" = "Menghapus tag";
+"app_reset_progress_deleting_payees" = "Menghapus penerima pembayaran";
+"app_reset_progress_deleting_categories" = "Menghapus kategori";
+"app_reset_progress_deleting_category_groups" = "Menghapus folder";
+"app_reset_progress_deleting_accounts" = "Menghapus akun";
+"app_reset_progress_deleting_budget_books" = "Menghapus buku anggaran";
+"app_reset_progress_deleting_existing_settings" = "Menghapus pengaturan yang ada";
+"app_reset_progress_finishing" = "Menyelesaikan pengaturan ulang aplikasi";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Apa yang ingin Anda bagikan?";
 "alert_share_app_type_selection_link_button" = "Tautan";
 "alert_share_app_type_selection_qrcode_button" = "Kode QR";
-
-"alert_reset_app_title" = "Atur Ulang Aplikasi";
-"alert_reset_app_message" = "Apakah Anda yakin ingin mengatur ulang aplikasi ke pengaturan bawaan? Ini akan menghapus semua data Anda secara permanen.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Atur Ulang Aplikasi";
-"app_reset_progress_preparing" = "Menyiapkan pengaturan ulang aplikasi";
-"app_reset_progress_deleting_existing_notifications" = "Menghapus notifikasi yang ada";
-"app_reset_progress_deleting_existing_data" = "Menghapus data yang ada";
-"app_reset_progress_deleting_existing_settings" = "Menghapus pengaturan yang ada";
-"app_reset_progress_finishing" = "Menyelesaikan pengaturan ulang aplikasi";
 
 "alert_error_title" = "Terjadi kesalahan 😢";
 

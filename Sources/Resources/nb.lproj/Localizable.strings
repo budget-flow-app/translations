@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Eksporten var vellykket 🎉";
 "alert_csv_export_successful_message" = "Dataene dine ble eksportert til \"%@\".";
 
+"alert_reset_app_title" = "Tilbakestill appen";
+"alert_reset_app_message" = "Er du sikker på at du vil tilbakestille appen til standardinnstillingene? Dette vil slette alle dataene dine permanent.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Eksport";
 "csv_export_progress_preparing" = "Forbereder eksport";
 "csv_export_progress_transactions" = "Transaksjoner";
 "csv_export_progress_finishing" = "Fullfører eksport";
+
+"alert_app_reset_progress_title" = "Tilbakestill appen";
+"app_reset_progress_preparing" = "Forbereder tilbakestilling av appen";
+"app_reset_progress_deleting_existing_notifications" = "Sletter eksisterende varsler";
+"app_reset_progress_deleting_existing_data" = "Sletter eksisterende data";
+"app_reset_progress_deleting_transactions" = "Sletter transaksjoner";
+"app_reset_progress_deleting_transaction_groups" = "Sletter transaksjonsgrupper";
+"app_reset_progress_deleting_reminders" = "Sletter påminnelser";
+"app_reset_progress_deleting_budgets" = "Sletter budsjetter";
+"app_reset_progress_deleting_tags" = "Sletter tagger";
+"app_reset_progress_deleting_payees" = "Sletter betalingsmottakere";
+"app_reset_progress_deleting_categories" = "Sletter kategorier";
+"app_reset_progress_deleting_category_groups" = "Sletter mapper";
+"app_reset_progress_deleting_accounts" = "Sletter kontoer";
+"app_reset_progress_deleting_budget_books" = "Sletter budsjettbøker";
+"app_reset_progress_deleting_existing_settings" = "Sletter eksisterende innstillinger";
+"app_reset_progress_finishing" = "Fullfører tilbakestilling av appen";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "Hva vil du dele?";
 "alert_share_app_type_selection_link_button" = "Kobling";
 "alert_share_app_type_selection_qrcode_button" = "QR-kode";
-
-"alert_reset_app_title" = "Tilbakestill appen";
-"alert_reset_app_message" = "Er du sikker på at du vil tilbakestille appen til standardinnstillingene? Dette vil slette alle dataene dine permanent.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Tilbakestill appen";
-"app_reset_progress_preparing" = "Forbereder tilbakestilling av appen";
-"app_reset_progress_deleting_existing_notifications" = "Sletter eksisterende varsler";
-"app_reset_progress_deleting_existing_data" = "Sletter eksisterende data";
-"app_reset_progress_deleting_existing_settings" = "Sletter eksisterende innstillinger";
-"app_reset_progress_finishing" = "Fullfører tilbakestilling av appen";
 
 "alert_error_title" = "Det oppsto en feil 😢";
 

@@ -672,11 +672,31 @@
 "alert_csv_export_successful_title" = "Export successful 🎉";
 "alert_csv_export_successful_message" = "Your data was successfully exported to \"%@\".";
 
+"alert_reset_app_title" = "Reset App";
+"alert_reset_app_message" = "Are you sure you want to reset the app to default settings? This will permanently erase all your data.";
+
 /* Progress */
 "alert_csv_export_progress_title" = "Export";
 "csv_export_progress_preparing" = "Preparing Export";
 "csv_export_progress_transactions" = "Transactions";
 "csv_export_progress_finishing" = "Finishing Export";
+
+"alert_app_reset_progress_title" = "Reset App";
+"app_reset_progress_preparing" = "Preparing App Reset";
+"app_reset_progress_deleting_existing_notifications" = "Deleting Existing Notifications";
+"app_reset_progress_deleting_existing_data" = "Deleting Existing Data";
+"app_reset_progress_deleting_transactions" = "Deleting Transactions";
+"app_reset_progress_deleting_transaction_groups" = "Deleting Transaction Groups";
+"app_reset_progress_deleting_reminders" = "Deleting Reminders";
+"app_reset_progress_deleting_budgets" = "Deleting Budgets";
+"app_reset_progress_deleting_tags" = "Deleting Tags";
+"app_reset_progress_deleting_payees" = "Deleting Payees";
+"app_reset_progress_deleting_categories" = "Deleting Categories";
+"app_reset_progress_deleting_category_groups" = "Deleting Folders";
+"app_reset_progress_deleting_accounts" = "Deleting Accounts";
+"app_reset_progress_deleting_budget_books" = "Deleting Budget Books";
+"app_reset_progress_deleting_existing_settings" = "Deleting Existing Settings";
+"app_reset_progress_finishing" = "Finishing App Reset";
 
 
 /* MARK: - Cloud Settings View */
@@ -867,17 +887,6 @@
 "alert_share_app_type_selection_title" = "What would you like to share?";
 "alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "QR Code";
-
-"alert_reset_app_title" = "Reset App";
-"alert_reset_app_message" = "Are you sure you want to reset the app to default settings? This will permanently erase all your data.";
-
-/* Progress */
-"alert_app_reset_progress_title" = "Reset App";
-"app_reset_progress_preparing" = "Preparing App Reset";
-"app_reset_progress_deleting_existing_notifications" = "Deleting Existing Notifications";
-"app_reset_progress_deleting_existing_data" = "Deleting Existing Data";
-"app_reset_progress_deleting_existing_settings" = "Deleting Existing Settings";
-"app_reset_progress_finishing" = "Finishing App Reset";
 
 "alert_error_title" = "An error occurred 😢";
 
