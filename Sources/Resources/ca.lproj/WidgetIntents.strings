@@ -58,58 +58,58 @@
 "Lvj3sF" = "Balanç";
 "9mfrfk-3GCjUk" = "Només per confirmar, volies 'balanç'?";
 "MkDC8c-Lvj3sF" = "Només per confirmar, volies 'balanç'?";
-"5xfjRl-Lvj3sF" = "Hi ha opcions ${count} que coincideixen amb 'balanç'.";
-"jlSssx-3GCjUk" = "Hi ha opcions ${count} que coincideixen amb 'balanç'.";
+"5xfjRl-Lvj3sF" = "Hi ha ${count} opcions que coincideixen amb 'balanç'.";
+"jlSssx-3GCjUk" = "Hi ha ${count} opcions que coincideixen amb 'balanç'.";
 
 "nXqb0W" = "Ingressos totals";
 "wXUvBH" = "Ingressos totals";
 "MkDC8c-nXqb0W" = "Només per confirmar, volies 'ingressos totals'?";
 "9mfrfk-wXUvBH" = "Només per confirmar, volies 'ingressos totals'?";
-"jlSssx-wXUvBH" = "Hi ha opcions de ${count} que coincideixen amb 'ingressos totals'.";
-"5xfjRl-nXqb0W" = "Hi ha opcions de ${count} que coincideixen amb 'ingressos totals'.";
+"jlSssx-wXUvBH" = "Hi ha ${count} opcions que coincideixen amb 'ingressos totals'.";
+"5xfjRl-nXqb0W" = "Hi ha ${count} opcions que coincideixen amb 'ingressos totals'.";
 
 "4CQ3jz" = "Despeses totals";
 "LTGP2N" = "Despeses totals";
 "MkDC8c-LTGP2N" = "Només per confirmar, volies 'despeses totals'?";
 "9mfrfk-4CQ3jz" = "Només per confirmar, volies 'despeses totals'?";
-"jlSssx-4CQ3jz" = "Hi ha opcions ${count} que coincideixen amb 'despeses totals'.";
-"5xfjRl-LTGP2N" = "Hi ha opcions ${count} que coincideixen amb 'despeses totals'";
+"jlSssx-4CQ3jz" = "Hi ha ${count} opcions que coincideixen amb 'despeses totals'.";
+"5xfjRl-LTGP2N" = "Hi ha ${count} opcions que coincideixen amb 'despeses totals'";
 
 "967MIQ" = "Despeses fixes";
 "G7YBAE" = "Despeses fixes";
 "9mfrfk-G7YBAE" = "Només per confirmar, volies 'despeses fixes'?";
 "MkDC8c-967MIQ" = "Només per confirmar, volies 'despeses fixes'?";
-"5xfjRl-967MIQ" = "Hi ha opcions ${count} que coincideixen amb 'despeses fixes'.";
-"jlSssx-G7YBAE" = "Hi ha opcions ${count} que coincideixen amb 'despeses fixes'.";
+"5xfjRl-967MIQ" = "Hi ha ${count} opcions que coincideixen amb 'despeses fixes'.";
+"jlSssx-G7YBAE" = "Hi ha ${count} opcions que coincideixen amb 'despeses fixes'.";
 
 "R35A16" = "Despeses variables";
 "Xq1BNs" = "Despeses variables";
 "MkDC8c-R35A16" = "Només per confirmar, volies 'despeses variables'?";
 "9mfrfk-Xq1BNs" = "Només per confirmar, volies 'despeses variables'?";
-"5xfjRl-R35A16" = "Hi ha opcions ${count} que coincideixen amb 'despeses variables'.";
-"jlSssx-Xq1BNs" = "Hi ha opcions ${count} que coincideixen amb 'despeses variables'.";
+"5xfjRl-R35A16" = "Hi ha ${count} opcions que coincideixen amb 'despeses variables'.";
+"jlSssx-Xq1BNs" = "Hi ha ${count} opcions que coincideixen amb 'despeses variables'.";
 
 "PhqijR" = "Saldos de comptes";
 "VhlRFH" = "Saldos de comptes";
 "MkDC8c-PhqijR" = "Només per confirmar, volies 'saldos de comptes'?";
 "9mfrfk-VhlRFH" = "Només per confirmar, volies 'saldos de comptes'?";
-"5xfjRl-PhqijR" = "Hi ha opcions de ${count} que coincideixen amb els 'saldos dels comptes'.";
-"jlSssx-VhlRFH" = "Hi ha opcions de ${count} que coincideixen amb els 'saldos dels comptes'.";
+"5xfjRl-PhqijR" = "Hi ha ${count} opcions que coincideixen amb els 'saldos dels comptes'.";
+"jlSssx-VhlRFH" = "Hi ha ${count} opcions que coincideixen amb els 'saldos dels comptes'.";
 
 /* Action Types */
 "CVbmHD" = "Acció";
 "WjgQ3F" = "Nous ingressos";
 "6vnhNE-WjgQ3F" = "Només per confirmar, volies 'nous ingressos'?";
-"SiRH8S-WjgQ3F" = "Hi ha opcions de ${count} que coincideixen amb 'nous ingressos'.";
+"SiRH8S-WjgQ3F" = "Hi ha ${count} opcions que coincideixen amb 'nous ingressos'.";
 "Frl0u1" = "Nova despesa";
 "6vnhNE-Frl0u1" = "Només per confirmar, volies 'nova despesa'?";
-"SiRH8S-Frl0u1" = "Hi ha opcions ${count} que coincideixen amb 'nova despesa'.";
+"SiRH8S-Frl0u1" = "Hi ha ${count} opcions que coincideixen amb 'nova despesa'.";
 "89P1cU" = "Nova transferència";
 "6vnhNE-89P1cU" = "Només per confirmar, volies 'nova transferència'?";
-"SiRH8S-89P1cU" = "Hi ha opcions ${count} que coincideixen amb 'nova transferència'.";
+"SiRH8S-89P1cU" = "Hi ha ${count} opcions que coincideixen amb 'nova transferència'.";
 "sEOquD" = "Recurrent";
 "6vnhNE-sEOquD" = "Només per confirmar, volies 'recurrent'?";
-"SiRH8S-sEOquD" = "Hi ha opcions ${count} que coincideixen amb 'recurrent'.";
+"SiRH8S-sEOquD" = "Hi ha ${count} opcions que coincideixen amb 'recurrent'.";
 
 /* Period Types */
 "W8Xs6i" = "Dia actual";
@@ -122,9 +122,9 @@
 "BgXL00-0uJvbe" = "Només per confirmar, volies 'mes actual'?";
 "EqxQCI-0uJvbe" = "Només per confirmar, volies 'mes actual'?";
 "uJZrBb-0uJvbe" = "Només per confirmar, volies 'mes actual'?";
-"Iw8VwE-0uJvbe" = "Hi ha opcions ${count} que coincideixen amb 'mes actual'.";
-"ujLY0p-0uJvbe" = "Hi ha opcions ${count} que coincideixen amb 'mes actual'.";
-"2bSbou-0uJvbe" = "Hi ha opcions ${count} que coincideixen amb 'mes actual'.";
+"Iw8VwE-0uJvbe" = "Hi ha ${count} opcions que coincideixen amb 'mes actual'.";
+"ujLY0p-0uJvbe" = "Hi ha ${count} opcions que coincideixen amb 'mes actual'.";
+"2bSbou-0uJvbe" = "Hi ha ${count} opcions que coincideixen amb 'mes actual'.";
 
 "XLsrlR" = "Any actual";
 "OjUmV9" = "Any actual";
@@ -132,9 +132,9 @@
 "BgXL00-OjUmV9" = "Només per confirmar, volies 'any actual'?";
 "EqxQCI-OjUmV9" = "Només per confirmar, volies 'any actual'?";
 "uJZrBb-OjUmV9" = "Només per confirmar, volies 'any actual'?";
-"Iw8VwE-OjUmV9" = "Hi ha opcions ${count} que coincideixen amb 'any actual'.";
-"ujLY0p-OjUmV9" = "Hi ha opcions ${count} que coincideixen amb 'any actual'.";
-"2bSbou-OjUmV9" = "Hi ha opcions ${count} que coincideixen amb 'any actual'.";
+"Iw8VwE-OjUmV9" = "Hi ha ${count} opcions que coincideixen amb 'any actual'.";
+"ujLY0p-OjUmV9" = "Hi ha ${count} opcions que coincideixen amb 'any actual'.";
+"2bSbou-OjUmV9" = "Hi ha ${count} opcions que coincideixen amb 'any actual'.";
 
 /* MARK: - Siri Intents */
 /* Types */
@@ -174,7 +174,7 @@
 "zDQBnU" = "Tipus";
 "BCP2vE" = "Import";
 "xB1kqh" = "Pendent";
-"gNilw1" = "Evaluat";
+"gNilw1" = "Avaluat";
 "iRwipD" = "Data";
 "Qi16cy" = "Hora";
 "v08W8X" = "Repetir";

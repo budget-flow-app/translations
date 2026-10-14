@@ -35,7 +35,7 @@
 "account_type_savings" = "Libretto di risparmio";
 "account_type_credit_card" = "Carta di credito";
 "account_type_investment" = "Conto di investimento";
-"account_type_precaution" = "Fondo emergenze";
+"account_type_long_term_savings" = "Fondo emergenze";
 "account_type_liability" = "Conto passività";
 "account_type_business" = "Conto aziendale";
 
@@ -43,9 +43,9 @@
 "account_type_savings_plural" = "Libretti di risparmio";
 "account_type_credit_card_plural" = "Carte di credito";
 "account_type_investment_plural" = "Conti di investimento";
-"account_type_precaution_plural" = "Fondi emergenze";
+"account_type_long_term_savings_plural" = "Fondi emergenze";
 "account_type_liability_plural" = "Conti passività";
-"account_type_business_plural" = "Conti di aziendali";
+"account_type_business_plural" = "Conti aziendali";
 
 "transaction_type_income" = "Ingresso";
 "transaction_type_expense" = "Uscita";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Non mostrare più";
 "mark_as_paid_button" = "Pagamento completato";
 "mark_as_pending_button" = "Pagamento in sospeso";
-"show_contra_entry_button" = "Voce del contatore";
+"show_contra_entry_button" = "Mostra contropartita";
 
 "save_changes_button" = "Salva modifiche";
 "discard_changes_button" = "Scarta modifiche";
@@ -402,13 +402,13 @@
 "inactive_widgets_section_title" = "Altri widget";
 
 /* Footer */
-"participants_widget_footer_title" = "Nota: il widget \"partecipanti\" appare solo per i budget condivisi.";
+"participants_widget_footer_title" = "Nota: il widget \"partecipanti\" appare solo per i registri contabili condivisi.";
 
 /* Messages */
 "no_widgets_title" = "Nessun widget aggiunto";
 "no_widgets_message" = "Fai clic sul pulsante \"penna\" per configurare la visualizzazione.";
 "no_suggestions_title" = "Nessun suggerimento";
-"not_shared_title" = "Budget non condiviso";
+"not_shared_title" = "Registro contabile non condiviso";
 
 /* Widgets */
 "net_worth_widget_title" = "Patrimonio netto";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Salva automaticamente le foto catturate nella libreria fotografica.";
 "advanced_setting_suggested_notes_title" = "Note suggerite";
 "advanced_setting_suggested_notes_description" = "Ricevi suggerimenti basati sulle tue transazioni precedenti mentre scrivi nel campo delle note.";
-"advanced_setting_consider_pending_items_title" = "Considera tutte le transazioni";
+"advanced_setting_consider_pending_items_title" = "Includi le transazioni in sospeso";
 "advanced_setting_consider_pending_items_description" = "Includi le transazioni in sospeso nel calcolo del riepilogo transazioni, dei saldi, dei totali, ecc.";
 
 /* Sidebar */
@@ -891,7 +891,7 @@
 "alert_error_title" = "Si è verificato un errore 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Segui \"%@\" sui social media";
 
 /* Copyright */
 "version" = "Versione";
@@ -931,7 +931,7 @@
 
 /* Footer */
 "privacy_policy_title" = "Informativa sulla privacy";
-"onboarding_welcome_view_agreement_description" = "Cliccando su \"Accetta\" acconsenti al %@.";
+"onboarding_welcome_view_agreement_description" = "Cliccando su \"Accetta\" accetti la %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1045,7 +1045,7 @@
 "user_review_title_ch" = "Ottimo supporto";
 "user_review_description_ch" = "Ottimo supporto: risoluzione dei problemi rapida e semplice. Mi sento considerato seriamente come utente.";
 "user_review_title_pl" = "Molto piacevole da usare";
-"user_review_description_pl" = "L'app rappresenta un eccellente strumento per monitorare e pianificare il budget, diventando un compagno quotidiano imprescindibile. Inoltre, l'attenzione del suo sviluppatore verso la comunità è notevole, anche se si tratta di un team di dimensioni contenute.";
+"user_review_description_pl" = "L'app rappresenta un eccellente strumento per monitorare e pianificare il budget, diventando un compagno quotidiano imprescindibile. Inoltre, l'attenzione del suo sviluppatore verso la comunità è notevole, nonostante le dimensioni contenute della comunità.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1056,7 +1056,7 @@
 "yearly_subscription_subtitle" = "Mesi";
 "lifetime_purchase_subtitle" = "Illimitato";
 
-"product_discount_header_title" = "Salva %@";
+"product_discount_header_title" = "Risparmia %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Attivo";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "Le tue finanze sono private e dovrebbero restare tali. Ecco perché i tuoi dati sono archiviati esclusivamente sul tuo dispositivo.";
 "upgrade_faq_security_value_icloud_suffix" = " o (facoltativamente) sul tuo iCloud personale.";
 "upgrade_faq_why_subscription_title" = "Perché la versione completa è offerta come abbonamento?";
-"upgrade_faq_why_subscription_value" = "Il nostro obiettivo è sviluppare un'app di alta qualità che offra all'utente nuove funzionalità e miglioramenti su base regolare. Tuttavia, per raggiungere questo obiettivo, l'app ha bisogno di entrate continue per finanziarsi ed essere economicamente sostenibile.\n\nQuello che molti non sanno è che sviluppare e mantenere un'app richiede molto tempo. Nel caso di Budget Flow, ad esempio, ci sono voluti quasi due anni e diverse migliaia di ore di lavoro dall'idea allo sviluppo e ai test, prima che la prima versione potesse essere rilasciata.\n\nIn qualità di cliente, beneficerai in particolare di aggiornamenti e miglioramenti regolari attraverso il modello in abbonamento, nonché di un buon supporto per assicurarti di continuare a essere soddisfatto. Hai anche l'opportunità di provare l'app gratuitamente in anticipo per assicurarti che soddisfi le tue esigenze e puoi modificare o annullare l'abbonamento in qualsiasi momento se cambi idea.\n\nNel complesso, un modello in abbonamento offre molti vantaggi a te come cliente e una migliore esperienza utente attraverso continui aggiornamenti e supporto rispetto a un acquisto una tantum. A lungo termine, un acquisto unico purtroppo non sarebbe sostenibile, poiché questo modello di business richiederebbe ai nuovi utenti di effettuare acquisti ripetuti per garantire lo sviluppo continuo.\n\nQuindi, se ti piace l'app, saremmo molto felici se sostenessi il nostro lavoro in modo da poter continuare a offrirti funzionalità ancora più fantastiche in futuro! ❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow viene sviluppata e migliorata costantemente e adattata alle nuove versioni dei sistemi operativi. Un abbonamento aiuta a finanziare questo lavoro a lungo termine e a offrirti aggiornamenti regolari, nuove funzioni e un buon supporto.\n\nSe non ti piacciono gli abbonamenti, puoi anche acquistare la versione completa con un pagamento unico. Il prezzo dell’acquisto una tantum è volutamente più alto perché copre tutti gli aggiornamenti futuri e il supporto senza ulteriori pagamenti.\n\nPuoi provare gratuitamente la versione completa prima dell’acquisto e annullare l’abbonamento in qualsiasi momento. Se ti piace Budget Flow, con il tuo acquisto sostieni lo sviluppo indipendente dell’app.";
 "upgrade_faq_multiple_devices_title" = "Posso utilizzare la versione completa su più dispositivi?";
 "upgrade_faq_multiple_devices_value" = "Sì, puoi utilizzare la versione completa di Budget Flow su tutti i tuoi dispositivi Apple con lo stesso ID Apple. Poiché l'app è sincronizzata tramite iCloud, puoi passare facilmente da un dispositivo all'altro e avere sempre accesso ai tuoi movimenti finanziari e impostazioni.";
 "upgrade_faq_multiple_people_title" = "Posso utilizzare la versione completa con più persone?";
@@ -1148,7 +1148,7 @@
 "progress_view_load_images_subtitle" = "Nota: se usi la libreria foto di iCloud, il download delle foto potrebbe richiedere del tempo.";
 
 "progress_view_load_documents_title" = "Caricamento documenti...";
-"progress_view_load_documents_subtitle" = "Nota: se utilizzi iCloud Drive, il download delle documenti potrebbe richiedere del tempo.";
+"progress_view_load_documents_subtitle" = "Nota: se utilizzi iCloud Drive, il download dei documenti potrebbe richiedere del tempo.";
 
 "progress_view_import_csv_title" = "Importazione dati...";
 "progress_view_import_csv_subtitle" = "Attendere...";
@@ -1304,7 +1304,7 @@
 
 /* Alert Views */
 "alert_confirm_change_default_currency_title" = "Confermi la modifica della tua valuta predefinita? Questa scelta convertirà tutte le transazioni esistenti nella nuova valuta (%@).";
-"alert_confirm_change_default_account_currency_title" = "Confermi la modifica della tua valuta predefinita? Questa scelta convertirà tutte le transazioni esistenti di questo conto nella nuova valuta (%@).";
+"alert_confirm_change_default_account_currency_title" = "Confermi la modifica della valuta di questo conto? Questa scelta convertirà tutte le transazioni esistenti di questo conto nella nuova valuta (%@).";
 
 
 /* MARK: - Currency Conversion View */
@@ -1729,7 +1729,7 @@
 "default_category_name_restaurant" = "Ristorante";
 "default_category_name_fast_food" = "Fast food";
 
-"default_category_group_name_living" = "Spese quotidiane";
+"default_category_group_name_living" = "Abitazione";
 "default_category_name_rent" = "Affitto";
 
 "default_category_group_name_miscellaneous" = "Varie";
@@ -1859,7 +1859,7 @@
 "icon_keyword_car" = "Auto";
 "icon_keyword_electric_car" = "Auto elettrica";
 "icon_keyword_charging_station" = "Stazione di ricarica";
-"icon_keyword_car_pool" = "Parco auto";
+"icon_keyword_car_pool" = "Car pooling";
 "icon_keyword_bus" = "Autobus";
 "icon_keyword_tram" = "Treno";
 "icon_keyword_railroad" = "Ferrovia";
@@ -1881,7 +1881,7 @@
 "icon_keyword_badminton" = "Badminton";
 "icon_keyword_tennis" = "Tennis";
 "icon_keyword_dancing" = "Ballo";
-"icon_keyword_skiing" = "Scii";
+"icon_keyword_skiing" = "Sci";
 "icon_keyword_swimming" = "Nuoto";
 "icon_keyword_skating" = "Pattinaggio";
 "icon_keyword_strengthtraining" = "Allenamento muscolare";
@@ -1929,7 +1929,7 @@
 "icon_keyword_photography" = "Fotografia";
 "icon_keyword_photo" = "Foto";
 "icon_keyword_world" = "Mondo";
-"icon_keyword_globe" = "Globo Terraqueo";
+"icon_keyword_globe" = "Mappamondo";
 "icon_keyword_sun" = "Sole";
 "icon_keyword_summer" = "Estate";
 "icon_keyword_moon" = "Luna";
@@ -2110,7 +2110,7 @@
 "icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Moto";
 "icon_keyword_tire" = "Pneumatico";
-"icon_keyword_oilcan" = "Oilcan";
+"icon_keyword_oilcan" = "Oliatore";
 "icon_keyword_keys" = "Chiavi";
 "icon_keyword_fire_extinguisher" = "Estintore";
 "icon_keyword_hockey" = "Hockey";
@@ -2169,7 +2169,7 @@
 "search_account_title" = "Cerca conto";
 "search_account_description" = "Cerca un conto specifico per nome.";
 "search_account_parameter_summary" = "Cerca il conto con ${name} in ${budgetBook}";
-"search_category_group_title" = "Cerca nella cartella";
+"search_category_group_title" = "Cerca cartella";
 "search_category_group_description" = "Cerca una cartella specifica per nome.";
 "search_category_group_parameter_summary" = "Cerca la cartella con ${name} in ${budgetBook}";
 "search_category_title" = "Cerca categoria";

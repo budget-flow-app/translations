@@ -15,6 +15,10 @@
 			<key>one</key>
 			<string>minuta</string>
 			<key>other</key>
+			<string>minut</string>
+			<key>two</key>
+			<string>minuti</string>
+			<key>few</key>
 			<string>minute</string>
 		</dict>
 	</dict>
@@ -31,6 +35,10 @@
 			<key>one</key>
 			<string>ura</string>
 			<key>other</key>
+			<string>ur</string>
+			<key>two</key>
+			<string>uri</string>
+			<key>few</key>
 			<string>ure</string>
 		</dict>
 	</dict>
@@ -48,6 +56,10 @@
 			<string>dan</string>
 			<key>other</key>
 			<string>dni</string>
+			<key>two</key>
+			<string>dneva</string>
+			<key>few</key>
+			<string>dnevi</string>
 		</dict>
 	</dict>
 	<key>week</key>
@@ -63,6 +75,10 @@
 			<key>one</key>
 			<string>teden</string>
 			<key>other</key>
+			<string>tednov</string>
+			<key>two</key>
+			<string>tedna</string>
+			<key>few</key>
 			<string>tedni</string>
 		</dict>
 	</dict>
@@ -79,6 +95,10 @@
 			<key>one</key>
 			<string>mesec</string>
 			<key>other</key>
+			<string>mesecev</string>
+			<key>two</key>
+			<string>meseca</string>
+			<key>few</key>
 			<string>meseci</string>
 		</dict>
 	</dict>
@@ -95,6 +115,10 @@
 			<key>one</key>
 			<string>leto</string>
 			<key>other</key>
+			<string>let</string>
+			<key>two</key>
+			<string>leti</string>
+			<key>few</key>
 			<string>leta</string>
 		</dict>
 	</dict>
@@ -111,6 +135,10 @@
 			<key>one</key>
 			<string>%1$d transakcija</string>
 			<key>other</key>
+			<string>%1$d transakcij</string>
+			<key>two</key>
+			<string>%1$d transakciji</string>
+			<key>few</key>
 			<string>%1$d transakcije</string>
 		</dict>
 	</dict>
@@ -127,6 +155,10 @@
 			<key>one</key>
 			<string>%1$d načrtovana transakcija</string>
 			<key>other</key>
+			<string>%1$d načrtovanih transakcij</string>
+			<key>two</key>
+			<string>%1$d načrtovani transakciji</string>
+			<key>few</key>
 			<string>%1$d načrtovane transakcije</string>
 		</dict>
 	</dict>
@@ -143,7 +175,11 @@
 			<key>one</key>
 			<string>%1$d transakcija z opomnikom</string>
 			<key>other</key>
-			<string>%1$d transakcije z opomniki</string>
+			<string>%1$d transakcij z opomnikom</string>
+			<key>two</key>
+			<string>%1$d transakciji z opomnikom</string>
+			<key>few</key>
+			<string>%1$d transakcije z opomnikom</string>
 		</dict>
 	</dict>
 	<key>number_of_budgets</key>
@@ -159,6 +195,10 @@
 			<key>one</key>
 			<string>%1$d proračun</string>
 			<key>other</key>
+			<string>%1$d proračunov</string>
+			<key>two</key>
+			<string>%1$d proračuna</string>
+			<key>few</key>
 			<string>%1$d proračuni</string>
 		</dict>
 	</dict>
@@ -175,6 +215,10 @@
 			<key>one</key>
 			<string>%1$d kategorija</string>
 			<key>other</key>
+			<string>%1$d kategorij</string>
+			<key>two</key>
+			<string>%1$d kategoriji</string>
+			<key>few</key>
 			<string>%1$d kategorije</string>
 		</dict>
 	</dict>
@@ -191,6 +235,10 @@
 			<key>one</key>
 			<string>%1$d priponka</string>
 			<key>other</key>
+			<string>%1$d priponk</string>
+			<key>two</key>
+			<string>%1$d priponki</string>
+			<key>few</key>
 			<string>%1$d priponke</string>
 		</dict>
 	</dict>

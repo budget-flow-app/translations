@@ -19,7 +19,7 @@
 "optional" = "İsteğe bağlı";
 
 "before" = "önce";
-"uncategorized" = "Uncategorized";
+"uncategorized" = "Kategorisiz";
 "account_reconcilation" = "Hesap mutabakatı";
 
 "evaluated" = "Değerlendirildi";
@@ -35,15 +35,15 @@
 "account_type_savings" = "Birikim Hesabı";
 "account_type_credit_card" = "Kredi Kartı";
 "account_type_investment" = "Yatırım";
-"account_type_precaution" = "Önlem";
-"account_type_liability" = "Sorumluluk";
+"account_type_long_term_savings" = "Birikim";
+"account_type_liability" = "Borç";
 "account_type_business" = "İşletme Hesabı";
 
 "account_type_payment_plural" = "Ödeme Hesapları";
 "account_type_savings_plural" = "Birikim Hesapları";
 "account_type_credit_card_plural" = "Kredi Kartları";
 "account_type_investment_plural" = "Yatırımlar";
-"account_type_precaution_plural" = "Önlem";
+"account_type_long_term_savings_plural" = "Birikim";
 "account_type_liability_plural" = "Yükümlülükler";
 "account_type_business_plural" = "İşletme Hesapları";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "Öneriler";
 "widget_type_distribution" = "Dağıtım";
 "widget_type_balance" = "Bakiye";
-"widget_type_savings_rate" = "Kaydedildi";
+"widget_type_savings_rate" = "Tasarruf";
 "widget_type_upcoming_transactions" = "Planlanan";
 "widget_type_participants" = "Kişiler";
 "widget_type_budget" = "Bütçe";
@@ -159,7 +159,7 @@
 "suggestion_type_add_expense_transaction" = "Yeni Gider";
 
 "user_interface_style_system" = "Sistem";
-"user_interface_style_light" = "Işık";
+"user_interface_style_light" = "Açık";
 "user_interface_style_dark" = "Koyu";
 
 "transaction_title_type_category" = "Kategori";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Tekrar gösterme";
 "mark_as_paid_button" = "Ödeme Tamamlandı";
 "mark_as_pending_button" = "Ödeme Bekleniyor";
-"show_contra_entry_button" = "Sayaç girişini göster";
+"show_contra_entry_button" = "Karşı kaydı göster";
 
 "save_changes_button" = "Değişiklikleri Kaydet";
 "discard_changes_button" = "Değişiklikleri Sil";
@@ -377,8 +377,8 @@
 "period_selection_current_month_title" = "Geçerli Ay";
 
 /* Items */
-"from_title" = "Kimden";
-"to_title" = "Kime";
+"from_title" = "Başlangıç";
+"to_title" = "Bitiş";
 
 
 /* MARK: - Dashboard View */
@@ -478,7 +478,7 @@
 "user_has_no_budgets_title" = "Bütçeniz yok.";
 "user_is_within_budget_title" = "Bütçenizi aşmadınız! 🎉";
 "user_was_within_budget_title" = "Bütçenizi aşmamıştınız! 🎉";
-"user_is_not_within_budget_title" = "Bütçeyi %d aştınız 😢";
+"user_is_not_within_budget_title" = "%d bütçeyi aştınız 😢";
 "user_is_not_within_budgets_title" = "%d bütçeyi aştınız 😢";
 
 /* Messages */
@@ -611,7 +611,7 @@
 "alert_translate_app_email" = "📬 E-Mail ile";
 
 "alert_contact_developer_title" = "İsteğiniz neyle ilgili?";
-"alert_contact_developer_feature_request" = "💡 Önerme özelliği";
+"alert_contact_developer_feature_request" = "💡 Özellik Önerisi";
 "alert_contact_developer_bug_report" = "🐞 Hata raporu";
 "alert_contact_developer_other" = "📬 Diğer (E-Mail)";
 
@@ -665,9 +665,9 @@
 
 /* Alert Views */
 "alert_csv_import_successful_title" = "İçe aktarma başarılı 🎉";
-"alert_csv_import_successful_message" = "Toplamda, %d işlemden %d tanesi içe aktarıldı.%@";
+"alert_csv_import_successful_message" = "Toplam %2$d işlemden %1$d tanesi içe aktarıldı.%3$@";
 "alert_csv_import_skipped_message" = " Bu nedenle %d işlem atlandı.";
-"alert_csv_import_error_message" = "%d işlemden %d tanesi başarıyla içe aktarılamadı.\n\n%@";
+"alert_csv_import_error_message" = "%2$d işlemden %1$d tanesi içe aktarılamadı.\n\n%3$@";
 "alert_csv_import_error_reason_field_message" = "Lütfen CSV dosyanızda şu alanları kontrol edin: %@.";
 "alert_csv_export_successful_title" = "Dışa aktarma başarılı 🎉";
 "alert_csv_export_successful_message" = "Verileriniz başarıyla \"%@\" konumuna aktarıldı.";
@@ -731,7 +731,7 @@
 /* MARK: - Backup Settings View */
 /* Info */
 "backup_setting_info_title" = "Açıklama";
-"backup_setting_info_description" = "Bütçe Akışı etkinleştirildiğinde verilerinizi düzenli olarak yedekler, böylece uygulamayı istediğiniz zaman önceki durumuna geri yükleyebilirsiniz.";
+"backup_setting_info_description" = "Bu özellik etkinleştirildiğinde Budget Flow verilerinizi düzenli olarak yedekler, böylece uygulamayı istediğiniz zaman önceki durumuna geri yükleyebilirsiniz.";
 
 /* Sections */
 "backup_setting_general_section_title" = "Genel";
@@ -809,7 +809,7 @@
 /* Security */
 "advanced_setting_use_passcode_title" = "Parola Kullan";
 "advanced_setting_use_title" = "%@ Kullan";
-"advanced_setting_auto_lock_title" = "İstek Kodu";
+"advanced_setting_auto_lock_title" = "Parola İste";
 
 /* View */
 "advanced_setting_chart_type_title" = "Grafik türü";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Yakalanan fotoğrafları otomatik olarak fotoğraf kitaplığına kaydedin.";
 "advanced_setting_suggested_notes_title" = "Önerilen notlar";
 "advanced_setting_suggested_notes_description" = "Not alanına yazarken önceki işlemlerinize göre öneriler alın.";
-"advanced_setting_consider_pending_items_title" = "Tüm işlemleri ayırtın";
+"advanced_setting_consider_pending_items_title" = "Tüm işlemleri hesaba kat";
 "advanced_setting_consider_pending_items_description" = "Hesap bakiyelerini, bakiyeleri, toplamları vb. hesaplarken bekleyen işlemleri dahil edin.";
 
 /* Sidebar */
@@ -891,7 +891,7 @@
 "alert_error_title" = "Bir hata oluştu 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Sosyal Medyada \"%@\" Hesabını Takip Edin";
 
 /* Copyright */
 "version" = "Sürüm";
@@ -958,11 +958,11 @@
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Yeni Özellikler";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "Uygulamayı Değerlendir";
+"new_features_view_close_button" = "Daha sonra";
 
 
 /* MARK: - Upgrade View */
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Genç bir geliştiriciyi ve dolayısıyla uygulamanın sürekli gelişimini destekliyorsunuz! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Harika uygulama";
+"user_review_description_de" = "Uygulama çok düzenli ve işlevsel. Tüm ihtiyaçlarımı karşılıyor, destek de çok hızlı ve yardımcı. Kesinlikle tavsiye ederim.";
+"user_review_title_hr" = "Güzel uygulama";
+"user_review_description_hr" = "Kullanımı kolay bir arayüze sahip, zengin özellikli bir uygulama. iOS'ta birçok alternatif denedim ama hiçbiri ihtiyaçlarımı bu uygulama kadar iyi karşılamadı. Verilen paraya değer.";
+"user_review_title_bg" = "Mükemmel destek";
+"user_review_description_bg" = "Mükemmel müşteri desteği sunan harika bir uygulama. Yazılımın kalitesi düşünüldüğünde fiyatı da çok makul.";
+"user_review_title_us" = "Şimdiye kadar harika bir uygulama";
+"user_review_description_us" = "iOS, iPad ve macOS'ta kullanılabilmesini çok seviyorum; böylece her yerde kullanabiliyorum. Ayrıca hesap açmayı veya kayıt olmayı gerektirmemesi de çok iyi. Ne yazık ki günümüzde bu pek yaygın değil, ancak bence bir finans uygulaması için vazgeçilmez.";
+"user_review_title_uk" = "İşte aradığım uygulama!";
+"user_review_description_uk" = "İki yılı aşkın süredir böyle bir uygulama arıyordum. Çekici bir tasarıma sahip, yeni verileri kolayca girebileceğim ve gerektiğinde daha fazla bilgiye ulaşabileceğim bir mobil finans yöneticisi istiyordum. Mutlaka deneyin.";
+"user_review_title_es" = "En iyi bütçe defteri uygulaması";
+"user_review_description_es" = "Denediğim uygulamaların açık ara en iyisi. Sanırım henüz oldukça yeni bir uygulama, ama şu anda sahip olduğu ve gelecekte ulaşabileceği potansiyeli kesinlikle görebiliyorsunuz.";
+"user_review_title_fr" = "Harika, çok kapsamlı bir uygulama";
+"user_review_description_fr" = "Uygulamayı birkaç aydır kullanıyorum ve gerçekten çok başarılı buluyorum. Birkaç ay sonra nasıl görüneceğini şimdiden merakla bekliyorum :)";
+"user_review_title_it" = "Tek kelimeyle müthiş";
+"user_review_description_it" = "Sonunda! Yıllardır böyle bir çözüm arıyordum. Kestirmeler uygulamasıyla birlikte kullanıyorum ve tasarımına bayılıyorum. Tek seferlik satın alma seçeneğini de seviyorum. Böyle devam!";
+"user_review_title_ch" = "Harika destek";
+"user_review_description_ch" = "Harika destek — sorunlar hızlı ve zahmetsizce çözülüyor. Kullanıcı olarak ciddiye alındığımı hissediyorum.";
+"user_review_title_pl" = "Kullanımı çok keyifli";
+"user_review_description_pl" = "Bu uygulama her gün kullandığım mükemmel bir bütçe defteri. Ayrıca küçük ölçekli olmasına rağmen geliştirici, kullanıcılarının ihtiyaçlarıyla çok ilgileniyor.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1067,7 +1067,7 @@
 "upgrade_restore_in_progress_button" = "Lütfen bekleyin...";
 
 "subscription_button_info_text" = "Herhangi bir zamanda iptal edilebilir.";
-"subscription_trial_button_info_text" = "%d %@ ücretsiz deneme. Daha sonra %@ başına %@.";
+"subscription_trial_button_info_text" = "%1$d %2$@ ücretsiz deneme. Ardından %4$@ başına %3$@.";
 "lifetime_purchase_button_info_text" = "Tam sürümün kilidini bir kez açar (abonelik olmadan).";
 
 /* Alert Views */
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda saklanır.";
 "upgrade_faq_security_value_icloud_suffix" = " veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
 "upgrade_faq_why_subscription_title" = "Tam sürüm neden abonelik olarak sunuluyor?";
-"upgrade_faq_why_subscription_value" = "Hedefimiz, bir kullanıcı olarak size düzenli olarak yeni özellikler ve iyileştirmeler sunan yüksek kaliteli bir uygulama geliştirmektir. Ancak, bu hedefe ulaşmak için, uygulamanın kendi kendini finanse etmesi ve ekonomik olarak sürdürülebilir.\n\nBir uygulamanın geliştirilmesi ve sürdürülmesi çok zaman alır. Örneğin, Budget Flow söz konusu olduğunda, fikirden geliştirme aşamasına kadar neredeyse iki yıl ve birkaç bin saat çalışma sürdü. ve ilk sürüm yayınlanmadan önce test etme.\n\nBir müşteri olarak, özellikle abonelik modeli aracılığıyla yapılan düzenli güncellemeler ve iyileştirmelerden ve ayrıca memnun kalmaya devam etmenizi sağlamak için iyi bir destekten yararlanırsınız. Ayrıca, uygulamayı ihtiyaçlarınıza uygun olduğundan emin olmak için önceden ücretsiz olarak deneme fırsatına da sahipsiniz. Fikrinizi değiştirirseniz, aboneliği istediğiniz zaman değiştirebilir veya iptal edebilirsiniz.\n\nGenel olarak, bir abonelik modeli, bir kullanıcı olarak size birçok avantaj sunar. Bir kerelik satın almaya kıyasla sürekli güncellemeler ve destek sayesinde müşteri ve daha iyi bir kullanıcı deneyimi. Uzun vadede, tek seferlik bir satın alma maalesef sürdürülebilir olmayacaktır çünkü bu iş modeli, geliştirmenin devam etmesini sağlamak için yeni kullanıcıların uygulamayı satın almaya devam etmesini gerektirir.\n\nBu nedenle, uygulamayı beğenirseniz çok mutlu oluruz. gelecekte size daha da harika özellikler sunmaya devam edebilmemiz için çalışmalarımızı desteklerseniz!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow sürekli geliştiriliyor, iyileştiriliyor ve yeni işletim sistemi sürümlerine uyarlanıyor. Abonelik, bu çalışmaların uzun vadede finanse edilmesine ve size düzenli güncellemeler, yeni özellikler ve iyi bir destek sunulmasına yardımcı oluyor.\n\nAbonelikleri tercih etmiyorsanız tam sürümü tek seferlik ödeme ile de satın alabilirsiniz. Tek seferlik satın alma fiyatı, ek ödeme gerektirmeden gelecekteki tüm güncellemeleri ve desteği kapsadığı için daha yüksek tutulmuştur.\n\nTam sürümü önce ücretsiz deneyebilir ve aboneliğinizi istediğiniz zaman iptal edebilirsiniz. Budget Flow'u beğendiyseniz satın alarak uygulamanın bağımsız geliştirilmesini destekleyebilirsiniz.";
 "upgrade_faq_multiple_devices_title" = "Tam sürümü birden fazla cihazda kullanabilir miyim?";
 "upgrade_faq_multiple_devices_value" = "Evet, aynı Apple kimliğine sahip tüm Apple aygıtlarınızda Budget Flow'un tam sürümünü kullanabilirsiniz. Uygulama iCloud üzerinden eşzamanlandığı için, aygıtlarınız arasında sorunsuz bir şekilde geçiş yapabilir ve mali verilerinize her zaman erişebilirsiniz ve ayarlar.";
 "upgrade_faq_multiple_people_title" = "Tam sürümü birden fazla kişiyle kullanabilir miyim?";
@@ -1121,7 +1121,7 @@
 "upgrade_faq_refund_title" = "Nasıl geri ödeme alabilirim?";
 "upgrade_faq_refund_value" = "%1$@ üzerinden yapılan ödemeler yalnızca %2$@ tarafından iade edilebilir. Para iadesi almak için satın alma tarihinden itibaren 14 gün içinde %2$@ Destek ile iletişime geçmelisiniz.";
 "upgrade_faq_switch_plan_title" = "Daha sonraki bir tarihte abonelikten tek seferlik satın alma moduna geçmek mümkün müdür?";
-"upgrade_faq_switch_plan_value" = "Evet, uygulamada ilgili ürünü satın alarak istediğiniz zaman aktif abonelikten tek seferlik satın alma işlemine geçiş yapabilirsiniz. Ancak, şu miktardan daha fazla ödememek için lütfen önceki aboneliğinizi iptal etmeyi unutmayın: bir kere.";
+"upgrade_faq_switch_plan_value" = "Evet, uygulamada ilgili ürünü satın alarak etkin abonelikten tek seferlik satın almaya istediğiniz zaman geçebilirsiniz. Ancak birden fazla ödeme yapmamak için önceki aboneliğinizi iptal etmeyi unutmayın.";
 
 
 /* MARK: - User Feedback */
@@ -1315,8 +1315,8 @@
 "currency_conversion_synchronization_failed_no_internet_title" = "İnternet bağlantısı yok";
 
 /* Sections */
-"source_currency_section_title" = "Kimden";
-"target_currency_section_title" = "Kime";
+"source_currency_section_title" = "Kaynak para birimi";
+"target_currency_section_title" = "Hedef para birimi";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1435,7 +1435,7 @@
 "form_account_balance_section_title" = "Hesap Bakiyesi";
 
 /* Footer */
-"form_billing_footer_title" = "Bu kredi kartına ayın belirli bir gününde (gerekirse) otomatik olarak bakiye yüklemek için bu özelliği etkinleştirin.";
+"form_billing_footer_title" = "Bu kredi kartı borcunu ayın belirli bir gününde otomatik olarak kapatmak için bu özelliği etkinleştirin.";
 "form_transactions_footer_title" = "Bu hesap için yeni işlemleri otomatik olarak \"beklemede\" olarak işaretlemek için bu özelliği etkinleştirin.";
 "form_account_balance_footer_title" = "Hesap bakiyenizi manuel olarak uzlaştırmak için başlangıç/toplam bakiyeyi değiştirin.";
 
@@ -1532,8 +1532,8 @@
 
 /* Items */
 "form_account_title" = "Hesap";
-"form_from_account_title" = "Kimden";
-"form_to_account_title" = "Kime";
+"form_from_account_title" = "Kaynak hesap";
+"form_to_account_title" = "Hedef hesap";
 "form_account_none_type_value" = "Yok";
 "form_category_title" = "Kategori";
 "form_categories_title" = "Kategoriler";
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Cihazınızda kurulu bir e-posta hesabınız yok gibi görünüyor. Ancak, bu özelliği kullanmak için bu zorunludur.";
 
 "alert_no_camera_title" = "Kullanılabilir kamera yok";
-"alert_no_camera_message" = "Kameranız yok gibi görünüyor. Ancak bu özelliği kullanmak zorunludur.";
+"alert_no_camera_message" = "Kamera bulunamadı. Bu özelliği kullanmak için kamera gereklidir.";
 
 "alert_permissions_title" = "Neredeyse var!";
 "alert_permissions_activate_button" = "Şimdi etkinleştir";
@@ -1729,7 +1729,7 @@
 "default_category_name_restaurant" = "Restoran";
 "default_category_name_fast_food" = "Fast Food";
 
-"default_category_group_name_living" = "Yaşayan";
+"default_category_group_name_living" = "Konut";
 "default_category_name_rent" = "Kira";
 
 "default_category_group_name_miscellaneous" = "Çeşitli";
@@ -1794,7 +1794,7 @@
 "icon_keyword_building" = "Bina";
 "icon_keyword_house" = "Ev";
 "icon_keyword_lightbulb" = "Ampul";
-"icon_keyword_fan" = "Hayran";
+"icon_keyword_fan" = "Vantilatör";
 "icon_keyword_lamp" = "Lamba";
 "icon_keyword_alarm_system" = "Alarm Sistemi";
 "icon_keyword_webcam" = "Web kamerası";
@@ -1847,7 +1847,7 @@
 "icon_keyword_stove" = "Soba";
 "icon_keyword_microwave" = "Mikrodalga";
 "icon_keyword_refrigerator" = "buzdolabı";
-"icon_keyword_sink" = "Yıkım";
+"icon_keyword_sink" = "Lavabo";
 "icon_keyword_toilet" = "Tuvalet";
 "icon_keyword_bathroom" = "Banyo";
 "icon_keyword_tv_remote" = "Uzaktan Kumanda";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "Yakıt ikmali";
 "icon_keyword_gas_station" = "Benzin İstasyonu";
 "icon_keyword_walking" = "Yürüyüş";
-"icon_keyword_running" = "Çalışıyor";
+"icon_keyword_running" = "Koşu";
 "icon_keyword_rugby" = "Rugby";
 "icon_keyword_badminton" = "Badminton";
 "icon_keyword_tennis" = "Tenis";
@@ -1904,7 +1904,7 @@
 "icon_keyword_gaming" = "Oyun";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "Nintendo Anahtarı";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
 "icon_keyword_book" = "Kitap";
 "icon_keyword_books" = "Kitaplar";
 "icon_keyword_magazine" = "Dergi";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "Kertenkele";
 "icon_keyword_bird" = "Kuş";
 "icon_keyword_ant" = "Karınca";
-"icon_keyword_ladybug" = "Hata";
+"icon_keyword_ladybug" = "Böcek";
 "icon_keyword_fish" = "Balık";
 "icon_keyword_pet" = "Evcil Hayvan";
 "icon_keyword_cat" = "Kedi";
@@ -1990,14 +1990,14 @@
 "icon_keyword_internet" = "İnternet";
 "icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Paket";
-"icon_keyword_apple" = "Elma";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "Banknot";
 "icon_keyword_refund" = "Geri Ödeme";
 "icon_keyword_dollar" = "Dolar";
 "icon_keyword_cent" = "Sent";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
-"icon_keyword_franc" = "Franconia";
+"icon_keyword_franc" = "Frank";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Ruble";
 "icon_keyword_euro" = "Euro";
@@ -2026,7 +2026,7 @@
 "icon_keyword_shield" = "Kalkan";
 "icon_keyword_insurance" = "Sigorta";
 "icon_keyword_video_conference" = "Görüntülü Konferans";
-"icon_keyword_facetime" = "Yüz Zamanı";
+"icon_keyword_facetime" = "FaceTime";
 "icon_keyword_phone" = "Telefon";
 "icon_keyword_mobilephone" = "Mobil";
 "icon_keyword_iphone" = "iPhone";
@@ -2042,13 +2042,13 @@
 "icon_keyword_mail" = "Posta";
 "icon_keyword_email" = "E-posta";
 "icon_keyword_chart" = "Tablo";
-"icon_keyword_stocks" = "Stoklar";
+"icon_keyword_stocks" = "Hisse senetleri";
 "icon_keyword_investment" = "Yatırım";
 "icon_keyword_signature" = "İmza";
 "icon_keyword_contract" = "Sözleşme";
 "icon_keyword_computer" = "Bilgisayar";
 "icon_keyword_pc" = "PC";
-"icon_keyword_display" = "İzleme";
+"icon_keyword_display" = "Monitör";
 "icon_keyword_mouse" = "Fare";
 "icon_keyword_keyboard" = "Klavye";
 "icon_keyword_printer" = "Yazıcı";
@@ -2060,14 +2060,14 @@
 "icon_keyword_server" = "Sunucu";
 "icon_keyword_simcard" = "Sim kart";
 "icon_keyword_bank" = "Banka";
-"icon_keyword_apple_watch" = "Elma İzleme";
+"icon_keyword_apple_watch" = "Apple Watch";
 "icon_keyword_clock" = "Saat";
 "icon_keyword_alarm" = "Alarm";
 "icon_keyword_box" = "Kutu";
 "icon_keyword_wand" = "Sihirli Değnek";
 "icon_keyword_hourglass" = "Kum saati";
 "icon_keyword_newspaper" = "Gazete";
-"icon_keyword_wrench" = "Pense";
+"icon_keyword_wrench" = "İngiliz anahtarı";
 "icon_keyword_screwdriver" = "Tornavida";
 "icon_keyword_hammer" = "Çekiç";
 "icon_keyword_craftsman" = "Zanaatkar";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Laboratuvar";
 "icon_keyword_calendar" = "Takvim";
 "icon_keyword_rent" = "Kira";
-"icon_keyword_flat" = "Düz";
+"icon_keyword_flat" = "Daire";
 "icon_keyword_work" = "İş";
 "icon_keyword_salary" = "Maaş";
 "icon_keyword_corona" = "Korona";
@@ -2106,8 +2106,8 @@
 "icon_keyword_discount" = "İndirim";
 "icon_keyword_percent" = "Yüzde";
 "icon_keyword_wallet" = "Cüzdan";
-"icon_keyword_convertible" = "Dönüştürülebilir";
-"icon_keyword_drone" = "Uçak";
+"icon_keyword_convertible" = "Üstü açık araba";
+"icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Motosiklet";
 "icon_keyword_tire" = "Lastik";
 "icon_keyword_oilcan" = "Yağdanlık";
@@ -2215,7 +2215,7 @@
 "chart_type_fixed_expenses_title" = "Sabit Giderler";
 "chart_type_variable_expenses_title" = "Değişken Giderler";
 
-"chart_period_type_parameter_title" = "Nokta";
+"chart_period_type_parameter_title" = "Dönem";
 "chart_period_type_dialog" = "Hangi döneme bakmak istiyorsunuz?";
 "chart_type_current_month_title" = "Geçerli Ay";
 "chart_type_current_year_title" = "Geçerli Yıl";

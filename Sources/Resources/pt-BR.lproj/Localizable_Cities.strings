@@ -139,7 +139,7 @@
 	<key>Freetown</key>
 	<string>Freetown</string>
 	<key>Geneva</key>
-	<string>Gênova</string>
+	<string>Genebra</string>
 	<key>Georgetown</key>
 	<string>Georgetown</string>
 	<key>Grytviken</key>
@@ -287,7 +287,7 @@
 	<key>Ottawa</key>
 	<string>Ottawa</string>
 	<key>Ougadougou</key>
-	<string>Ougadougou</string>
+	<string>Ouagadougou</string>
 	<key>Pago Pago</key>
 	<string>Pago Pago</string>
 	<key>Panama</key>
@@ -393,7 +393,7 @@
 	<key>Tripoli</key>
 	<string>Trípoli</string>
 	<key>Tunis</key>
-	<string>Tunísia</string>
+	<string>Túnis</string>
 	<key>UTC</key>
 	<string>UTC</string>
 	<key>Ulaanbaatar</key>
@@ -409,7 +409,7 @@
 	<key>Volgograd</key>
 	<string>Volgograd</string>
 	<key>Warsaw</key>
-	<string>Warsaw</string>
+	<string>Varsóvia</string>
 	<key>Washington, D.C.</key>
 	<string>Washington, D.C.</string>
 	<key>Wellington</key>

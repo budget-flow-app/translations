@@ -67,7 +67,7 @@
 	<key>Dominican Republic</key>
 	<string>República Dominicana</string>
 	<key>Ecuador</key>
-	<string>Ecuador</string>
+	<string>Equador</string>
 	<key>Egypt</key>
 	<string>Egipte</string>
 	<key>El Salvador</key>
@@ -135,7 +135,7 @@
 	<key>Lebanon</key>
 	<string>Líban</string>
 	<key>Liberia</key>
-	<string>Liberia</string>
+	<string>Libèria</string>
 	<key>Libya</key>
 	<string>Líbia</string>
 	<key>Madagascar</key>
@@ -143,7 +143,7 @@
 	<key>Malaysia</key>
 	<string>Malàisia</string>
 	<key>Maldives</key>
-	<string>Maldive</string>
+	<string>Maldives</string>
 	<key>Mali</key>
 	<string>Mali</string>
 	<key>Mauritania</key>
@@ -169,7 +169,7 @@
 	<key>Nicaragua</key>
 	<string>Nicaragua</string>
 	<key>Nigeria</key>
-	<string>Nígeria</string>
+	<string>Nigèria</string>
 	<key>North Korea</key>
 	<string>Corea del Nord</string>
 	<key>Norway</key>
@@ -233,7 +233,7 @@
 	<key>Surinam</key>
 	<string>Surinam</string>
 	<key>Sweden</key>
-	<string>Suecia</string>
+	<string>Suècia</string>
 	<key>Switzerland</key>
 	<string>Suïssa</string>
 	<key>Syria</key>
@@ -243,7 +243,7 @@
 	<key>Tanzania</key>
 	<string>Tanzània</string>
 	<key>Thailand</key>
-	<string>Tailandia</string>
+	<string>Tailàndia</string>
 	<key>Tunisia</key>
 	<string>Tunísia</string>
 	<key>Turkey</key>

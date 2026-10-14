@@ -31,20 +31,20 @@
 
 /* MARK: - Enums */
 "account_type_cash" = "نقدًا";
-"account_type_payment" = "الحساب الحالي";
+"account_type_payment" = "الحساب الجاري";
 "account_type_savings" = "حساب التوفير";
 "account_type_credit_card" = "بطاقة الائتمان";
 "account_type_investment" = "حساب الاستثمار";
-"account_type_precaution" = "الاحتياط";
-"account_type_liability" = "حساب المسؤولية";
+"account_type_long_term_savings" = "الاحتياط";
+"account_type_liability" = "حساب الالتزامات";
 "account_type_business" = "حساب الأعمال";
 
 "account_type_payment_plural" = "الحسابات الجارية";
 "account_type_savings_plural" = "حسابات التوفير";
 "account_type_credit_card_plural" = "بطاقات الائتمان";
 "account_type_investment_plural" = "حسابات الاستثمار";
-"account_type_precaution_plural" = "الحساب الاحتياطي";
-"account_type_liability_plural" = "حسابات المسؤولية";
+"account_type_long_term_savings_plural" = "الحساب الاحتياطي";
+"account_type_liability_plural" = "حسابات الالتزامات";
 "account_type_business_plural" = "حسابات الأعمال";
 
 "transaction_type_income" = "الدخل";
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "اقتراحات";
 "widget_type_distribution" = "التوزيع";
 "widget_type_balance" = "الرصيد";
-"widget_type_savings_rate" = "تم الحفظ";
+"widget_type_savings_rate" = "المدخرات";
 "widget_type_upcoming_transactions" = "مجدول";
 "widget_type_participants" = "المشاركين";
 "widget_type_budget" = "الميزانية";
@@ -199,12 +199,12 @@
 "monthly" = "شهري";
 "yearly" = "سنوي";
 
-"first" = "1";
-"second" = "2";
-"third" = "3";
-"fourth" = "4";
-"fifth" = "5";
-"last" = "أخير";
+"first" = "الأول";
+"second" = "الثاني";
+"third" = "الثالث";
+"fourth" = "الرابع";
+"fifth" = "الخامس";
+"last" = "الأخير";
 
 
 /* MARK: - Menu Bar */
@@ -248,7 +248,7 @@
 "done_button" = "تم";
 "save_button" = "حفظ";
 "import_button" = "استيراد";
-"unlock_button" = "Unlock";
+"unlock_button" = "فتح القفل";
 "cancel_button" = "إلغاء";
 "close_button" = "إغلاق";
 "delete_button" = "حذف";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "عدم العرض مرة أخرى";
 "mark_as_paid_button" = "اكتمل الدفع";
 "mark_as_pending_button" = "في انتظار الدفع";
-"show_contra_entry_button" = "الإدخال عن طريق العداد";
+"show_contra_entry_button" = "إظهار القيد المقابل";
 
 "save_changes_button" = "حفظ التغييرات";
 "discard_changes_button" = "تجاهل التغييرات";
@@ -287,7 +287,7 @@
 "take_photo_button" = "التقاط صورة";
 "select_photos_button" = "اختر صورة";
 "select_documents_button" = "حدد المستندات";
-"scan_receipt_button" = "إيصال المسح الضوئي";
+"scan_receipt_button" = "مسح الإيصال ضوئيًا";
 "select_receipt_button" = "اختر الإيصال";
 "select_from_files_button" = "الملفات";
 "select_from_library_button" = "مكتبة الصور";
@@ -378,7 +378,7 @@
 
 /* Items */
 "from_title" = "من";
-"to_title" = "قبل";
+"to_title" = "إلى";
 
 
 /* MARK: - Dashboard View */
@@ -390,7 +390,7 @@
 "savings_rate_widget_percentual_title" = "النسبة المئوية";
 "budget_widget_planned_title" = "مخطط";
 "budget_widget_remaining_title" = "متاح";
-"total_assets_widget_absolute_title" = "بالتأكيد";
+"total_assets_widget_absolute_title" = "المبلغ";
 "total_assets_widget_trend_title" = "الاتجاه";
 "forecast_widget_upcoming_title" = "مجدول";
 "forecast_widget_pending_title" = "معلق";
@@ -408,7 +408,7 @@
 "no_widgets_title" = "لم تتم إضافة عناصر واجهة المستخدم";
 "no_widgets_message" = "انقر فوق \"تخصيص\" لتخصيص العرض.";
 "no_suggestions_title" = "لا توجد اقتراحات";
-"not_shared_title" = "دفتر الميزانية غير متوفر";
+"not_shared_title" = "دفتر الميزانية غير مشارك";
 
 /* Widgets */
 "net_worth_widget_title" = "صافي القيمة";
@@ -434,7 +434,7 @@
 "total_sum_title" = "المجموع الإجمالي";
 "recurring_transactions_title" = "متكرر";
 "upcoming_transactions_title" = "مجدول";
-"reminded_transactions_title" = "تم التذكير";
+"reminded_transactions_title" = "مع تذكير";
 
 /* Info */
 "recurring_transactions_info_title" = "الوصف";
@@ -463,7 +463,7 @@
 "alert_confirm_add_next_upcoming_transaction_message" = "هل أنت متأكد من رغبتك في إضافة هذه المعاملة المجدولة الآن؟";
 
 /* Miscellaneous */
-"payed_by_and_modified_at" = "تم الدفع بواسطة %@\nتم التعديل بواسطة %@";
+"payed_by_and_modified_at" = "تم الدفع بواسطة %@\nآخر تعديل في %@";
 "modified_at" = "تم التعديل: %@";
 "average_per_transaction" = "Ø لكل معاملة";
 "average_per_day" = "Ø في اليوم";
@@ -520,7 +520,7 @@
 /* Widgets */
 "trend_widget_title" = "الاتجاه";
 "total_balance_widget_title" = "الرصيد";
-"savings_rate_widget_title" = "مبلغ التوفير";
+"savings_rate_widget_title" = "معدل التوفير";
 
 
 /* MARK: - Account Forecast View */
@@ -731,7 +731,7 @@
 /* MARK: - Backup Settings View */
 /* Info */
 "backup_setting_info_title" = "الوصف";
-"backup_setting_info_description" = "ي حالة تمكينها، ستقوم Budget Flow بنسخ بياناتك احتياطيًا بانتظام حتى تتمكن من استعادة التطبيق إلى حالته السابقة في أي وقت.";
+"backup_setting_info_description" = "في حالة تمكينها، ستقوم Budget Flow بنسخ بياناتك احتياطيًا بانتظام حتى تتمكن من استعادة التطبيق إلى حالته السابقة في أي وقت.";
 
 /* Sections */
 "backup_setting_general_section_title" = "عام";
@@ -894,7 +894,7 @@
 "follow_on_social_media" = "تابع \"%@\" على وسائل التواصل الاجتماعي";
 
 /* Copyright */
-"version" = "Version";
+"version" = "الإصدار";
 "developed_by" = "تم التطوير بواسطة %@ 👨🏻‍💻";
 
 
@@ -1017,7 +1017,7 @@
 "upgrade_feature_widgets_title" = "أدوات الشاشة الرئيسية وشاشة القفل";
 "upgrade_feature_widgets_description" = "باستخدام الأدوات، يمكنك رؤية دخلك ونفقاتك الحالية، ورصيد حسابك، والمزيد في لمحة سريعة دون فتح التطبيق. لمعاينة الأدوات، قم بتحرير شاشتك الرئيسية أو شاشة القفل، افتح \"إضافة أداة\" و ثم حدد هذا التطبيق.";
 "upgrade_feature_reminders_title" = "إنشاء تذكيرات";
-"upgrade_feature_reminders_description" = "قم بإنشاء تذكيرات للعمليات الجراحية المجدولة لتلقي الإشعارات (بما في ذلك دون الاتصال بالإنترنت).";
+"upgrade_feature_reminders_description" = "أنشئ تذكيرات لمعاملاتك المخطط لها لتلقي الإشعارات حتى دون اتصال بالإنترنت.";
 "upgrade_feature_csv_title" = "استيراد وتصدير ملف CSV";
 "upgrade_feature_csv_description" = "قم باستيراد وتصدير معاملاتك باستخدام ملف CSV لنقل البيانات من البنك الذي تتعامل معه أو من التطبيقات الأخرى.";
 "upgrade_feature_remove_ads_title" = "لا توجد إعلانات";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك.";
 "upgrade_faq_security_value_icloud_suffix" = " أو (اختياريًا) في iCloud الشخصي الخاص بك.";
 "upgrade_faq_why_subscription_title" = "لماذا يتم تقديم الإصدار الكامل عن طريق الاشتراك؟";
-"upgrade_faq_why_subscription_value" = "هدفنا هو تطوير تطبيق عالي الجودة يقدم لك بانتظام كمستخدم ميزات وتحسينات جديدة. ومع ذلك، لتحقيق هذا الهدف، يتطلب التطبيق دخلًا منتظمًا لتمويل نفسه ويكون مستدامًا اقتصاديًا.\n\ ما لا يعرفه الكثير من الأشخاص يستغرق تطوير التطبيق وصيانته وقتًا طويلاً، على سبيل المثال، في حالة Budget Flow، استغرق الأمر عامين تقريبًا من الفكرة إلى التطوير وعدة آلاف من ساعات العمل والاختبار قبل إصدار الإصدار الأول في عام.\n\nباعتبارك عميلاً، فإنك تستفيد بشكل خاص من التحديثات والتحسينات المنتظمة لنموذج الاشتراك، بالإضافة إلى الدعم الجيد لضمان استمرار رضاك، كما تتاح لك الفرصة لتجربة التطبيق مجانًا. مقدمًا للتأكد من أنه يناسب احتياجاتك. يمكنك تغيير اشتراكك أو إلغاؤه في أي وقت إذا غيرت رأيك.\n\nبشكل عام، يمنحك نموذج الاشتراك العديد من المزايا كعميل وتجربة مستخدم أفضل مع التحديثات المستمرة. الدعم مقارنة بعملية شراء لمرة واحدة. على المدى الطويل، من المؤسف أن الشراء لمرة واحدة غير مستدام لأن نموذج الأعمال هذا يتطلب من المستخدمين الجدد مواصلة شراء التطبيق لضمان التطوير المستمر.\n\nلذلك، إذا أعجبك التطبيق، سنكون سعداء جدًا. إذا كنت ستدعم عملنا حتى نتمكن من الاستمرار في تقديم المزيد من الميزات الرائعة لك في المستقبل! ❤️";
+"upgrade_faq_why_subscription_value" = "يستمر تطوير Budget Flow وتحسينه وتحديثه ليتوافق مع الإصدارات الجديدة من أنظمة التشغيل. يساعد الاشتراك في تمويل هذا العمل على المدى الطويل وتوفير تحديثات منتظمة وميزات جديدة ودعم جيد لك.\n\nإذا كنت لا تفضّل الاشتراكات، يمكنك بدلًا من ذلك شراء النسخة الكاملة مرة واحدة. سعر الشراء لمرة واحدة أعلى عن قصد، لأنه يشمل جميع التحديثات المستقبلية والدعم دون أي دفعات إضافية.\n\nيمكنك تجربة النسخة الكاملة مجانًا قبل الشراء وإلغاء اشتراكك في أي وقت. إذا أعجبك Budget Flow، فإن شراءك يدعم استمرار تطوير التطبيق بشكل مستقل.";
 "upgrade_faq_multiple_devices_title" = "هل يمكنني استخدام الإصدار الكامل على أجهزة متعددة؟";
 "upgrade_faq_multiple_devices_value" = "نعم، يمكنك استخدام الإصدار الكامل من Budget Flow على جميع أجهزة Apple الخاصة بك باستخدام نفس حساب Apple. ونظرًا لأن التطبيق تتم مزامنته عبر iCloud، يمكنك التبديل بسهولة بين أجهزتك وستتمكن دائمًا من الوصول إلى بياناتك المالية. والإعدادات.";
 "upgrade_faq_multiple_people_title" = "هل يمكنني استخدام الإصدار الكامل مع عدة أشخاص؟";
@@ -1119,7 +1119,7 @@
 "upgrade_faq_subscription_data_loss_title" = "هل سيتم فقدان بياناتي إذا قمت بإلغاء اشتراكي؟";
 "upgrade_faq_subscription_data_loss_value" = "لا. أي شيء تقوم بإنشائه أثناء الاشتراك في الإصدار الكامل سيظل متاحًا إذا قمت بالتبديل مرة أخرى إلى الإصدار المجاني.";
 "upgrade_faq_refund_title" = "كيف يمكنني استرداد أموالي؟";
-"upgrade_faq_refund_value" = "المدفوعات التي تتم من خلال %1$@ قابلة للاسترداد إلى %2$@ فقط. لاسترداد المبلغ المدفوع، يجب عليك الاتصال بدعم %2$@ خلال 14 يومًا من تاريخ الشراء.";
+"upgrade_faq_refund_value" = "المدفوعات التي تتم من خلال %1$@ لا يمكن استردادها إلا بواسطة %2$@. لاسترداد المبلغ المدفوع، يجب عليك الاتصال بدعم %2$@ خلال 14 يومًا من تاريخ الشراء.";
 "upgrade_faq_switch_plan_title" = "هل يمكنني التبديل من الاشتراك إلى الشراء لمرة واحدة لاحقًا؟";
 "upgrade_faq_switch_plan_value" = "نعم، يمكنك التبديل من اشتراك نشط إلى شراء لمرة واحدة في أي وقت عن طريق شراء المنتج المقابل في التطبيق. ومع ذلك، تأكد من إلغاء اشتراكك السابق لتجنب الدفع أكثر من مرة.";
 
@@ -1266,7 +1266,7 @@
 "alert_confirm_update_contra_entry_title" = "هذه المعاملة عبارة عن تحويل. هل ترغب أيضًا في تحديث إدخال الكونترا؟";
 "alert_confirm_update_transaction_multiple_title" = "هذه المعاملة تنتمي إلى مجموعة. ما الذي تريد حفظه بالضبط؟";
 "alert_confirm_update_transaction_single_button" = "احفظ هذا فقط";
-"alert_confirm_update_transaction_all_button" = "حفظ الكل";
+"alert_confirm_update_transaction_all_button" = "حفظ هذه المعاملة والمعاملات المستقبلية";
 
 /* End Repetition */
 "alert_confirm_end_repetition_for_transaction_title" = "هل أنت متأكد من رغبتك في إيقاف تكرار هذه المعاملة؟";
@@ -1407,7 +1407,7 @@
 "form_title_section_title" = "العنوان";
 "form_color_section_title" = "اللون";
 "form_icon_section_title" = "أيقونة";
-"form_assignment_section_title" = "مهمة";
+"form_assignment_section_title" = "التعيين";
 "form_miscellaneous_section_title" = "أخرى";
 
 /* Miscellaneous */
@@ -1450,7 +1450,7 @@
 "form_account_currency_title" = "العملة";
 
 /* Buttons */
-"form_button_archive_account" = "حساب الأرشيف";
+"form_button_archive_account" = "أرشفة الحساب";
 "form_button_unarchive_account" = "إلغاء أرشفة الحساب";
 "form_button_delete_account" = "حذف الحساب";
 
@@ -1517,7 +1517,7 @@
 /* Titles */
 "form_title_new_income" = "الدخل الجديد";
 "form_title_new_expense" = "مصروفات جديدة";
-"form_title_new_transfer" = "ترجمة جديدة";
+"form_title_new_transfer" = "تحويل جديد";
 
 /* Sections */
 "form_date_section_title" = "تاريخ الاستحقاق";
@@ -1555,7 +1555,7 @@
 "form_location_none_type_value_long" = "لا يوجد موقع";
 "form_original_amount_title" = "المبلغ الأصلي";
 "form_exchange_rate_title" = "سعر الصرف";
-"form_is_selected_title" = "المكان";
+"form_is_selected_title" = "محدد";
 "form_is_pending_title" = "معلق";
 "form_payed_by_title" = "مدفوع";
 "form_payed_by_none_type_value" = "لا شيء";
@@ -1717,7 +1717,7 @@
 "default_category_group_name_income" = "الدخل";
 "default_category_name_salary" = "الراتب";
 
-"default_category_group_name_free_time" = "الفصول";
+"default_category_group_name_free_time" = "وقت الفراغ";
 "default_category_name_shopping" = "التسوق";
 "default_category_name_vacation" = "إجازة";
 
@@ -1771,7 +1771,7 @@
 "icon_section_general_title" = "عام";
 "icon_section_mobility_title" = "النقل";
 "icon_section_household_title" = "المنزل";
-"icon_section_freetime_title" = "الفصول الدراسية";
+"icon_section_freetime_title" = "وقت الفراغ";
 "icon_section_nature_title" = "الطبيعة";
 "icon_section_food_and_drinks_title" = "الأطعمة والمشروبات";
 "icon_section_shopping_title" = "التسوق";
@@ -1812,13 +1812,13 @@
 "icon_keyword_air_conditioner" = "مكيف الهواء";
 "icon_keyword_sprinkler" = "المرش";
 "icon_keyword_trash" = "سلة المهملات";
-"icon_keyword_spigot" = "اضغط";
+"icon_keyword_spigot" = "صنبور";
 "icon_keyword_shower" = "دش";
 "icon_keyword_bathtub" = "حوض الاستحمام";
 "icon_keyword_pipe" = "السباكة";
 "icon_keyword_hifi_reveiver" = "نظام الصوت";
 "icon_keyword_video_projector" = "جهاز العرض";
-"icon_keyword_beamer" = "المنور";
+"icon_keyword_beamer" = "جهاز عرض";
 "icon_keyword_wifi_router" = "جهاز توجيه Wi-Fi";
 "icon_keyword_internet" = "الإنترنت";
 "icon_keyword_party" = "حفلة";
@@ -1871,12 +1871,12 @@
 "icon_keyword_bicycle" = "دراجة";
 "icon_keyword_sport" = "رياضة";
 "icon_keyword_scooter" = "سكوتر";
-"icon_keyword_sailboat" = "Sailboat";
+"icon_keyword_sailboat" = "قارب شراعي";
 "icon_keyword_fuel" = "وقود";
 "icon_keyword_refuel" = "تزود بالوقود";
 "icon_keyword_gas_station" = "محطة بنزين";
 "icon_keyword_walking" = "المشي";
-"icon_keyword_running" = "قيد التشغيل";
+"icon_keyword_running" = "الجري";
 "icon_keyword_rugby" = "رياضة الركبي";
 "icon_keyword_badminton" = "كرة الريشة";
 "icon_keyword_tennis" = "تنس";
@@ -1920,7 +1920,7 @@
 "icon_keyword_piano" = "بيانو";
 "icon_keyword_guitar" = "جيتار";
 "icon_keyword_rockband" = "فرقة روك";
-"icon_keyword_festival" = "Festival";
+"icon_keyword_festival" = "مهرجان";
 "icon_keyword_tent" = "خيمة";
 "icon_keyword_dice" = "نرد";
 "icon_keyword_boardgames" = "ألعاب الطاولة";
@@ -1937,7 +1937,7 @@
 "icon_keyword_cloud" = "السحب";
 "icon_keyword_icloud" = "iCloud";
 "icon_keyword_rain" = "مطر";
-"icon_keyword_flame" = "Flame";
+"icon_keyword_flame" = "لهب";
 "icon_keyword_fire" = "حريق";
 "icon_keyword_snow" = "ثلج";
 "icon_keyword_winter" = "الشتاء";
@@ -1954,7 +1954,7 @@
 "icon_keyword_tortoise" = "سلحفاة";
 "icon_keyword_lizard" = "سحلية";
 "icon_keyword_bird" = "طائر";
-"icon_keyword_ant" = "Ant";
+"icon_keyword_ant" = "نملة";
 "icon_keyword_ladybug" = "الدعسوقة";
 "icon_keyword_fish" = "سمك";
 "icon_keyword_pet" = "حيوان أليف";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "سنت";
 "icon_keyword_yen" = "ين";
 "icon_keyword_pound" = "باوند";
-"icon_keyword_franc" = "فرانكونيا";
+"icon_keyword_franc" = "فرنك";
 "icon_keyword_lira" = "ليرة";
 "icon_keyword_ruble" = "روبل";
 "icon_keyword_euro" = "يورو";
@@ -2015,15 +2015,15 @@
 "icon_keyword_drug" = "الطب";
 "icon_keyword_facemask" = "قناع الوجه";
 "icon_keyword_pills" = "حبوب";
-"icon_keyword_cross" = "Cross";
+"icon_keyword_cross" = "صليب";
 "icon_keyword_hospital" = "مستشفى";
 "icon_keyword_ivfluid" = "قطارة";
 "icon_keyword_eye" = "عين";
-"icon_keyword_brain" = "Brain";
+"icon_keyword_brain" = "دماغ";
 "icon_keyword_ear" = "الأذن";
 "icon_keyword_mouth" = "فم";
 "icon_keyword_ecg" = "ECG";
-"icon_keyword_shield" = "Shield";
+"icon_keyword_shield" = "درع";
 "icon_keyword_insurance" = "التأمين";
 "icon_keyword_video_conference" = "مؤتمر فيديو";
 "icon_keyword_facetime" = "Facetime";
@@ -2067,13 +2067,13 @@
 "icon_keyword_wand" = "العصا السحرية";
 "icon_keyword_hourglass" = "الساعة الرملية";
 "icon_keyword_newspaper" = "صحيفة";
-"icon_keyword_wrench" = "كماشة";
+"icon_keyword_wrench" = "مفتاح ربط قابل للتعديل";
 "icon_keyword_screwdriver" = "مفك البراغي";
 "icon_keyword_hammer" = "المطرقة";
-"icon_keyword_craftsman" = "الرئيسي";
+"icon_keyword_craftsman" = "حرفي";
 "icon_keyword_tools" = "الأداة";
 "icon_keyword_plumber" = "سباك";
-"icon_keyword_construction_market" = "المطرقة";
+"icon_keyword_construction_market" = "متجر مواد البناء";
 "icon_keyword_scissors" = "مقص";
 "icon_keyword_hairdresser" = "مصفف الشعر";
 "icon_keyword_key" = "المفتاح";
@@ -2096,17 +2096,17 @@
 "icon_keyword_lab" = "المختبر";
 "icon_keyword_calendar" = "التقويم";
 "icon_keyword_rent" = "إيجار";
-"icon_keyword_flat" = "مسطح";
+"icon_keyword_flat" = "شقة";
 "icon_keyword_work" = "العمل";
 "icon_keyword_salary" = "الراتب";
-"icon_keyword_corona" = "تاج";
+"icon_keyword_corona" = "فيروس كورونا";
 "icon_keyword_rainbow" = "قوس قزح";
 "icon_keyword_glasses" = "نظارات";
 "icon_keyword_sunglasses" = "نظارة شمسية";
 "icon_keyword_discount" = "الخصم";
 "icon_keyword_percent" = "نسبة مئوية";
 "icon_keyword_wallet" = "المحفظة";
-"icon_keyword_convertible" = "قابل للتحويل";
+"icon_keyword_convertible" = "سيارة مكشوفة";
 "icon_keyword_drone" = "طائرة بدون طيار";
 "icon_keyword_motorcycle" = "دراجة نارية";
 "icon_keyword_tire" = "إطار";

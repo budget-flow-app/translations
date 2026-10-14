@@ -35,7 +35,7 @@
 "account_type_savings" = "저축";
 "account_type_credit_card" = "신용카드";
 "account_type_investment" = "투자";
-"account_type_precaution" = "금고";
+"account_type_long_term_savings" = "금고";
 "account_type_liability" = "부채";
 "account_type_business" = "사업자 계좌";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "저축 계좌";
 "account_type_credit_card_plural" = "신용카드";
 "account_type_investment_plural" = "투자";
-"account_type_precaution_plural" = "금고";
+"account_type_long_term_savings_plural" = "금고";
 "account_type_liability_plural" = "부채";
 "account_type_business_plural" = "사업자 계좌";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "제안";
 "widget_type_distribution" = "현황";
 "widget_type_balance" = "잔고";
-"widget_type_savings_rate" = "저장됨";
+"widget_type_savings_rate" = "저축";
 "widget_type_upcoming_transactions" = "계획됨";
 "widget_type_participants" = "사람";
 "widget_type_budget" = "예산";
@@ -199,11 +199,11 @@
 "monthly" = "매월";
 "yearly" = "매년";
 
-"first" = "1.";
-"second" = "2.";
-"third" = "3.";
-"fourth" = "4.";
-"fifth" = "5.";
+"first" = "첫 번째";
+"second" = "두 번째";
+"third" = "세 번째";
+"fourth" = "네 번째";
+"fifth" = "다섯 번째";
 "last" = "마지막";
 
 
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "다시 표시하지 않음";
 "mark_as_paid_button" = "결제 완료";
 "mark_as_pending_button" = "결제 대기 중";
-"show_contra_entry_button" = "카운터 항목 표시";
+"show_contra_entry_button" = "상대 거래 보기";
 
 "save_changes_button" = "변경 사항 저장";
 "discard_changes_button" = "변경 사항 취소";
@@ -424,7 +424,7 @@
 "balance_distribution_widget_title" = "잔액";
 "total_income_distribution_widget_title" = "총 수입";
 "total_expenses_distribution_widget_title" = "총 지출";
-"fixed_expenses_distribution_widget_title" = "고정 비출";
+"fixed_expenses_distribution_widget_title" = "고정 지출";
 "variable_expenses_distribution_widget_title" = "변동 지출";
 
 
@@ -463,7 +463,7 @@
 "alert_confirm_add_next_upcoming_transaction_message" = "이 계획된 거래를 지금 추가하시겠습니까?";
 
 /* Miscellaneous */
-"payed_by_and_modified_at" = "%@를 통한 결제\n%@가 마지막으로 수정됨";
+"payed_by_and_modified_at" = "%@님이 결제\n마지막 수정: %@";
 "modified_at" = "%@에 마지막으로 수정됨";
 "average_per_transaction" = "거래당 평균";
 "average_per_day" = "Ø 일일";
@@ -665,9 +665,9 @@
 
 /* Alert Views */
 "alert_csv_import_successful_title" = "가져오기 성공 🎉";
-"alert_csv_import_successful_message" = "총 %d개 거래 중 %d개 거래를 가져왔습니다.%@";
+"alert_csv_import_successful_message" = "총 %2$d개 거래 중 %1$d개 거래를 가져왔습니다.%3$@";
 "alert_csv_import_skipped_message" = " %d개의 거래를 건너뛰었습니다.";
-"alert_csv_import_error_message" = "%d개 중 %d개의 거래를 가져오는데 실패했습니다.\n\n%@";
+"alert_csv_import_error_message" = "총 %2$d개 거래 중 %1$d개 거래를 가져오지 못했습니다.\n\n%3$@";
 "alert_csv_import_error_reason_field_message" = "CSV 파일에서 다음 필드를 확인하십시오: %@.";
 "alert_csv_export_successful_title" = "내보내기 성공 🎉";
 "alert_csv_export_successful_message" = "데이터를 성공적으로 \"%@\"로 내보냈습니다.";
@@ -833,8 +833,8 @@
 "advanced_setting_select_location_automatically_description" = "새 거래의 현재 위치를 자동으로 선택합니다.";
 "advanced_setting_save_photos_in_library_title" = "사진앱에 사진 저장";
 "advanced_setting_save_photos_description" = "캡처한 사진을 사진앱에 자동으로 저장합니다.";
-"advanced_setting_suggested_notes_title" = "提案されたメモ";
-"advanced_setting_suggested_notes_description" = "メモ欄に入力する際、過去の取引に基づいた候補が表示されます。";
+"advanced_setting_suggested_notes_title" = "추천 메모";
+"advanced_setting_suggested_notes_description" = "메모 필드에 입력할 때 이전 거래를 기반으로 추천을 받습니다.";
 "advanced_setting_consider_pending_items_title" = "예약 거래 계산";
 "advanced_setting_consider_pending_items_description" = "계좌 잔액, 총액 등을 계산할 때 대기 중인 거래를 계산하여 표시합니다";
 
@@ -891,7 +891,7 @@
 "alert_error_title" = "오류가 발생했습니다 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "소셜 미디어에서 \"%@\" 팔로우";
 
 /* Copyright */
 "version" = "버전";
@@ -1067,7 +1067,7 @@
 "upgrade_restore_in_progress_button" = "기다려주세요...";
 
 "subscription_button_info_text" = "언제든지 취소할 수 있습니다.";
-"subscription_trial_button_info_text" = "%d %@ 무료 체험. 이후 %@당 %@";
+"subscription_trial_button_info_text" = "%1$d %2$@ 무료 체험. 이후 %4$@당 %3$@.";
 "lifetime_purchase_button_info_text" = "정식 버전 구입 시 영구 사용 가능(구독없음).";
 
 /* Alert Views */
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "귀하의 재정은 비공개이며, 그대로 유지되어야 합니다. 따라서 귀하의 데이터는 귀하의 기기에만 저장됩니다.";
 "upgrade_faq_security_value_icloud_suffix" = " 또는 (선택적으로) 귀하의 개인 iCloud에 저장됩니다.";
 "upgrade_faq_why_subscription_title" = "정식 버전이 구독으로 제공되는 이유는 무엇입니까?";
-"upgrade_faq_why_subscription_value" = "우리의 목표는 정기적으로 사용자에게 새로운 기능과 개선 사항을 제공하는 고품질 앱을 개발하는 것입니다. 그러나 이 목표를 달성하려면 앱 자체에 자금을 조달하고 경제적으로 지속 가능해야 합니다.\n\n앱을 개발하고 유지 관리하는 데 많은 시간이 걸립니다. 예를 들어 Budget Flow의 경우 아이디어에서 개발까지 거의 2년, 수천 시간이 걸렸습니다. 첫 번째 버전이 출시되기 전에 테스트합니다.\n\n고객으로서 특히 구독 모델을 통해 정기적인 업데이트 및 개선 사항을 누릴 수 있을 뿐만 아니라 계속해서 만족할 수 있도록 훌륭한 지원을 받을 수 있습니다. 또한 사전에 앱을 무료로 사용해 볼 수 있는 기회가 있어 필요에 맞는지 확인할 수 있습니다. 마음이 바뀌면 언제든지 구독을 변경하거나 취소할 수 있습니다.\n\n전반적으로 구독 모델은 다음과 같은 많은 이점을 제공합니다. 일회성 구매에 비해 지속적인 업데이트와 지원을 통해 고객과 더 나은 사용자 경험을 제공합니다. 장기적으로 평생소장 구매는 업데이트가 불가할 수 있습니다. 이 비즈니스 모델에서는 개발의 지속을 위해 신규 사용자가 앱을 계속 구매해야 하기 때문입니다.\n\n그래서 앱이 마음에 든다면 매우 기쁠 것입니다. 앞으로도 더 좋은 기능을 계속 제공할 수 있도록 지원해 주시면 감사하겠습니다!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow는 지속적으로 개발과 개선을 진행하며 새로운 운영체제 버전에 맞춰 업데이트됩니다. 구독은 이러한 작업에 필요한 비용을 장기적으로 충당하고, 정기적인 업데이트와 새로운 기능, 좋은 지원을 제공하는 데 도움이 됩니다.\n\n구독을 원하지 않는다면 일회성 구매로 전체 버전을 이용할 수도 있습니다. 일회성 구매 가격은 추가 결제 없이 향후 모든 업데이트와 지원을 포함하므로 더 높게 책정되었습니다.\n\n전체 버전을 먼저 무료로 체험할 수 있으며, 구독은 언제든지 취소할 수 있습니다. Budget Flow가 마음에 드신다면 구매를 통해 앱의 독립적인 개발을 지원해 주세요.";
 "upgrade_faq_multiple_devices_title" = "여러 기기에서 정식 버전을 사용할 수 있나요?";
 "upgrade_faq_multiple_devices_value" = "예, 동일한 Apple 계정으로 모든 Apple 기기에서 전체 버전의 Budget Flow를 사용할 수 있습니다. 앱이 iCloud를 통해 동기화되기 때문에 기기 간에 원활하게 전환하고 항상 재무 데이터와 설정에 액세스할 수 있습니다.";
 "upgrade_faq_multiple_people_title" = "정식 버전을 여러 사람과 함께 사용할 수 있나요?";
@@ -1216,7 +1216,7 @@
 "alert_confirm_delete_categorygroup_multiple_title" = "선택한 모든 카테고리 그룹을 삭제하시겠습니까? 모든 관련 범주, 거래 및 예산도 삭제됩니다.";
 "alert_confirm_delete_categorygroup_multiple_button" = "카테고리 그룹 삭제";
 
-"alert_confirm_delete_category_title" = "정말로 이 카테고리를 삭제하시겠습니까? 관련된 모든 거래 및 예산도 삭제됩니다.";
+"alert_confirm_delete_category_title" = "이 카테고리를 삭제하시겠습니까? 필요한 경우 관련 예산도 삭제됩니다.";
 "alert_confirm_delete_category_button" = "카테고리 삭제";
 "alert_confirm_delete_category_multiple_title" = "선택한 카테고리를 모두 삭제하시겠습니까? 관련된 모든 거래 및 예산도 삭제됩니다.";
 "alert_confirm_delete_category_multiple_button" = "카테고리 삭제";
@@ -1315,8 +1315,8 @@
 "currency_conversion_synchronization_failed_no_internet_title" = "인터넷 연결 없음";
 
 /* Sections */
-"source_currency_section_title" = "보낸 사람";
-"target_currency_section_title" = "받는 사람";
+"source_currency_section_title" = "변환할 통화";
+"target_currency_section_title" = "변환된 통화";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1362,7 +1362,7 @@
 "no_accounts_title" = "계좌 없음";
 "no_accounts_found_title" = "찾을 수 있는 계좌 없음";
 "no_account_found_title" = "계좌를 찾을 수 없음";
-"no_accounts_found_message" = "새 계좌을 추가하려면 \"+\" 버튼을 클릭하십시오.";
+"no_accounts_found_message" = "새 계좌를 추가하려면 \"+\" 버튼을 클릭하십시오.";
 "no_accounts_found_button_title" = "새 계좌";
 "accounts_search_placeholder_message" = "계좌 이름 또는 계좌 유형으로 검색";
 
@@ -1376,7 +1376,7 @@
 "no_category_group_found_title" = "폴더를 찾을 수 없음";
 "no_category_groups_found_message" = "새 카테고리 그룹을 추가하려면 \"+\" 버튼을 클릭하십시오.";
 "no_category_groups_found_button_title" = "새 카테고리 그룹";
-"category_groups_search_placeholder_message" = "카레고리 그룹이름으로 검색";
+"category_groups_search_placeholder_message" = "폴더 이름으로 검색";
 
 "no_payees_found_title" = "수취인을 찾을 수 없습니다";
 "no_payee_found_title" = "수취인을 찾을 수 없음";
@@ -1532,8 +1532,8 @@
 
 /* Items */
 "form_account_title" = "계좌";
-"form_from_account_title" = "보낸 사람";
-"form_to_account_title" = "받는 사람";
+"form_from_account_title" = "출금 계좌";
+"form_to_account_title" = "입금 계좌";
 "form_account_none_type_value" = "없음";
 "form_category_title" = "카테고리";
 "form_categories_title" = "카테고리";
@@ -1585,19 +1585,19 @@
 
 /* MARK: - Add Budget Form View */
 /* Titles */
-"form_title_new_budget" = "새 가계부";
+"form_title_new_budget" = "새 예산";
 
 /* Sections */
 "form_interval_section_title" = "간격";
 
 /* Footer */
-"form_budget_amount_calculation_footer_title" = "기간은 예의이 반복을 결정하며, 표시되는 사용 가능한 금액은 선택한 기간에 맞게 자동으로 조정됩니다.";
+"form_budget_amount_calculation_footer_title" = "반복 간격은 예산이 반복되는 주기를 결정하며, 표시되는 사용 가능 금액은 선택한 기간에 맞게 자동으로 조정됩니다.";
 
 /* Items */
 "form_is_cumulative_title" = "누적";
 
 /* Buttons */
-"form_button_delete_budget" = "가계부 삭제";
+"form_button_delete_budget" = "예산 삭제";
 
 
 /* MARK: - Assign CSV Fields Form View */
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "기기에 이메일 계정이 설정되어 있지 않은 것 같습니다. 이 기능을 사용하려면 필수입니다.";
 
 "alert_no_camera_title" = "사용 가능한 카메라 없음";
-"alert_no_camera_message" = "카메라가 없는 것 같습니다. 이 기능은 필수로 사용해야 합니다.";
+"alert_no_camera_message" = "카메라가 없는 것 같습니다. 이 기능을 사용하려면 카메라가 필요합니다.";
 
 "alert_permissions_title" = "거의 다 왔습니다!";
 "alert_permissions_activate_button" = "지금 활성화";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "충전";
 "icon_keyword_gas_station" = "주유소";
 "icon_keyword_walking" = "걷기";
-"icon_keyword_running" = "실행 중";
+"icon_keyword_running" = "달리기";
 "icon_keyword_rugby" = "럭비";
 "icon_keyword_badminton" = "배드민턴";
 "icon_keyword_tennis" = "테니스";
@@ -1930,7 +1930,7 @@
 "icon_keyword_photo" = "사진";
 "icon_keyword_world" = "세계";
 "icon_keyword_globe" = "지구본";
-"icon_keyword_sun" = "일";
+"icon_keyword_sun" = "태양";
 "icon_keyword_summer" = "여름";
 "icon_keyword_moon" = "달";
 "icon_keyword_stars" = "별";
@@ -1938,7 +1938,7 @@
 "icon_keyword_icloud" = "아이클라우드";
 "icon_keyword_rain" = "비";
 "icon_keyword_flame" = "불꽃";
-"icon_keyword_fire" = "발사";
+"icon_keyword_fire" = "불";
 "icon_keyword_snow" = "눈";
 "icon_keyword_winter" = "겨울";
 "icon_keyword_bolt" = "번개";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "도마뱀";
 "icon_keyword_bird" = "새";
 "icon_keyword_ant" = "개미";
-"icon_keyword_ladybug" = "버그";
+"icon_keyword_ladybug" = "벌레";
 "icon_keyword_fish" = "물고기";
 "icon_keyword_pet" = "펫";
 "icon_keyword_cat" = "고양이";
@@ -1990,14 +1990,14 @@
 "icon_keyword_internet" = "인터넷";
 "icon_keyword_amazon" = "아마존";
 "icon_keyword_package" = "패키지";
-"icon_keyword_apple" = "사과";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "지폐";
 "icon_keyword_refund" = "환불";
 "icon_keyword_dollar" = "달러";
 "icon_keyword_cent" = "센트";
 "icon_keyword_yen" = "엔";
 "icon_keyword_pound" = "파운드";
-"icon_keyword_franc" = "프랑코니아";
+"icon_keyword_franc" = "프랑";
 "icon_keyword_lira" = "리라";
 "icon_keyword_ruble" = "루블";
 "icon_keyword_euro" = "유로";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "요술봉";
 "icon_keyword_hourglass" = "모래시계";
 "icon_keyword_newspaper" = "신문";
-"icon_keyword_wrench" = "펜치";
+"icon_keyword_wrench" = "몽키 스패너";
 "icon_keyword_screwdriver" = "드라이버";
 "icon_keyword_hammer" = "망치";
 "icon_keyword_craftsman" = "장인";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "실험실";
 "icon_keyword_calendar" = "달력";
 "icon_keyword_rent" = "대여";
-"icon_keyword_flat" = "플랫";
+"icon_keyword_flat" = "아파트";
 "icon_keyword_work" = "일";
 "icon_keyword_salary" = "급여";
 "icon_keyword_corona" = "코로나";
@@ -2106,7 +2106,7 @@
 "icon_keyword_discount" = "할인";
 "icon_keyword_percent" = "퍼센트";
 "icon_keyword_wallet" = "지갑";
-"icon_keyword_convertible" = "변환 가능";
+"icon_keyword_convertible" = "컨버터블";
 "icon_keyword_drone" = "드론";
 "icon_keyword_motorcycle" = "오토바이";
 "icon_keyword_tire" = "타이어";
@@ -2135,7 +2135,7 @@
 
 /* Categories */
 "add_category_name" = "추가";
-"open_category_name" = "카테고리 추가";
+"open_category_name" = "열기";
 "show_category_name" = "카테고리 보기";
 "search_category_name" = "카테고리 찾기";
 "create_category_name" = "생성";
@@ -2191,15 +2191,15 @@
 
 /* Open */
 "open_add_new_income_view_title" = "새로운 수입 추가";
-"open_add_new_income_view_description" = "앱에서 새로운 수입을 추가 합니다.";
+"open_add_new_income_view_description" = "앱에서 새로운 수입을 추가하는 화면을 엽니다.";
 "open_add_new_expense_view_title" = "새로운 지출 추가";
-"open_add_new_expense_view_description" = "앱에서 새로운 지출을 추가 합니다.";
+"open_add_new_expense_view_description" = "앱에서 새로운 지출을 추가하는 화면을 엽니다.";
 "open_add_new_transfer_view_title" = "새로운 이체 추가";
-"open_add_new_transfer_view_description" = "앱에서 새로운 이체를 추가 합니다.";
+"open_add_new_transfer_view_description" = "앱에서 새로운 이체를 추가하는 화면을 엽니다.";
 "open_add_new_recurring_view_title" = "새로운 반복거래 추가";
-"open_add_new_recurring_view_description" = "앱에서 새로운 반복거래를 추가합니다.";
+"open_add_new_recurring_view_description" = "앱에서 새로운 반복 거래를 추가하는 화면을 엽니다.";
 "open_upcoming_transactions_view_title" = "예정된 거래";
-"open_upcoming_transactions_view_description" = "새로운 예정된 거래를 추가합니다.";
+"open_upcoming_transactions_view_description" = "앱에서 예정된 거래 화면을 엽니다.";
 
 /* Show */
 "show_chart_title" = "차트 표시";

@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repetă în fiecare an, în ziua %2$@.</string>
+			<string>Se repetă în fiecare an, în lunile: %2$@.</string>
 			<key>other</key>
-			<string>Se repetă la fiecare %1$d ani, în ziua %2$@.</string>
+			<string>Se repetă la fiecare %1$d ani, în lunile: %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>

@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>每月 %2$@ 第 %3$@ 天重複。</string>
+			<string>每月%2$@個%3$@重複。</string>
 			<key>other</key>
-			<string>每 %1$d 月 %2$@ 第 %3$@ 天重複。</string>
+			<string>每%1$d個月的%2$@個%3$@重複。</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>

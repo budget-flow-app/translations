@@ -207,7 +207,7 @@
 			<key>one</key>
 			<string>ทำซ้ำทุกวัน</string>
 			<key>other</key>
-			<string>%1$d วันทำซ้ำ</string>
+			<string>ทำซ้ำทุก %1$d วัน</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -221,9 +221,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>ทำซ้ำทุกสัปดาห์ในวัน%2$@</string>
+			<string>ทำซ้ำทุกสัปดาห์ใน%2$@</string>
 			<key>other</key>
-			<string>%1$d สัปดาห์ทำซ้ำในวัน%2$@</string>
+			<string>ทำซ้ำทุก %1$d สัปดาห์ใน%2$@</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -239,7 +239,7 @@
 			<key>one</key>
 			<string>ทำซ้ำทุกเดือน</string>
 			<key>other</key>
-			<string>%1$d เดือนทำซ้ำ</string>
+			<string>ทำซ้ำทุก %1$d เดือน</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>ทำซ้ำทุกเดือนในวันที่%2$@</string>
+			<string>ทำซ้ำทุกเดือนในวันที่ %2$@</string>
 			<key>other</key>
-			<string>%1$d เดือนทำซ้ำในวันที่%2$@</string>
+			<string>ทำซ้ำทุก %1$d เดือนในวันที่ %2$@</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>ทำซ้ำทุกเดือนในวันที่%2$@ %3$@</string>
+			<string>ทำซ้ำทุกเดือนใน%3$@%2$@ของเดือน</string>
 			<key>other</key>
-			<string>%1$d เดือนทำซ้ำในวันที่%2$@ %3$@</string>
+			<string>ทำซ้ำทุก %1$d เดือนใน%3$@%2$@ของเดือน</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>ทำซ้ำทุกปีในวันที่%2$@</string>
+			<string>ทำซ้ำทุกปีในเดือน%2$@</string>
 			<key>other</key>
-			<string>%1$d ปีทำซ้ำในวันที่%2$@</string>
+			<string>ทำซ้ำทุก %1$d ปีในเดือน%2$@</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>ทำซ้ำทุกปีในวันที่%2$@ %3$@ %4$@</string>
+			<string>ทำซ้ำทุกปีใน%3$@%2$@ของเดือน%4$@</string>
 			<key>other</key>
-			<string>%1$d ปีทำซ้ำในวันที่%2$@ %3$@ %4$@</string>
+			<string>ทำซ้ำทุก %1$d ปีใน%3$@%2$@ของเดือน%4$@</string>
 		</dict>
 	</dict>
 </dict>

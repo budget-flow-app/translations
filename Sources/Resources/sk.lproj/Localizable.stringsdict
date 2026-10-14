@@ -249,9 +249,9 @@
 			<key>one</key>
 			<string>Opakuje sa každý týždeň v %2$@.</string>
 			<key>few</key>
-			<string>Opakuje sa každé %1$d týždňov v %2$@.</string>
+			<string>Opakuje sa každé %1$d týždne v %2$@.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d týždňov v %2$@.</string>
+			<string>Opakuje sa každých %1$d týždňov v %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -269,7 +269,7 @@
 			<key>few</key>
 			<string>Opakuje sa každé %1$d mesiace.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d mesiacov.</string>
+			<string>Opakuje sa každých %1$d mesiacov.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -287,7 +287,7 @@
 			<key>few</key>
 			<string>Opakuje sa každé %1$d mesiace v %2$@.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d mesiacov v %2$@.</string>
+			<string>Opakuje sa každých %1$d mesiacov v %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -305,7 +305,7 @@
 			<key>few</key>
 			<string>Opakuje sa každé %1$d mesiace v %2$@ %3$@.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d mesiacov v %2$@ %3$@.</string>
+			<string>Opakuje sa každých %1$d mesiacov v %2$@ %3$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -323,7 +323,7 @@
 			<key>few</key>
 			<string>Opakuje sa každé %1$d roky v %2$@.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d rokov v %2$@.</string>
+			<string>Opakuje sa každých %1$d rokov v %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -341,7 +341,7 @@
 			<key>few</key>
 			<string>Opakuje sa každé %1$d roky v %2$@ %3$@ %4$@.</string>
 			<key>other</key>
-			<string>Opakuje sa každé %1$d rokov v %2$@ %3$@ %4$@.</string>
+			<string>Opakuje sa každých %1$d rokov v %2$@ %3$@ %4$@.</string>
 		</dict>
 	</dict>
 </dict>

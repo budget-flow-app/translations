@@ -8,7 +8,7 @@
 
 /* MARK: - Widget Intents */
 /* General */
-"xOcSma" = "Ketik";
+"xOcSma" = "Jenis";
 "pELoxA" = "Jenis";
 "eyacbM" = "Jenis";
 "K76l0O" = "Tipe";
@@ -56,8 +56,8 @@
 
 "3GCjUk" = "Saldo";
 "Lvj3sF" = "Saldo";
-"9mfrfk-3GCjUk" = "Hanya untuk mengonfirmasi, Anda menginginkan 'keseimbangan'?";
-"MkDC8c-Lvj3sF" = "Hanya untuk mengonfirmasi, Anda menginginkan 'keseimbangan'?";
+"9mfrfk-3GCjUk" = "Hanya untuk mengonfirmasi, Anda menginginkan 'saldo'?";
+"MkDC8c-Lvj3sF" = "Hanya untuk mengonfirmasi, Anda menginginkan 'saldo'?";
 "5xfjRl-Lvj3sF" = "Ada ${count} opsi yang cocok dengan 'saldo'.";
 "jlSssx-3GCjUk" = "Ada ${count} opsi yang cocok dengan 'saldo'.";
 

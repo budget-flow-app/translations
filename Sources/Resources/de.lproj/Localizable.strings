@@ -35,7 +35,7 @@
 "account_type_savings" = "Sparkonto";
 "account_type_credit_card" = "Kreditkarte";
 "account_type_investment" = "Investition";
-"account_type_precaution" = "Vorsorge";
+"account_type_long_term_savings" = "Vorsorge";
 "account_type_liability" = "Verbindlichkeit";
 "account_type_business" = "Geschäftskonto";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Sparkonten";
 "account_type_credit_card_plural" = "Kreditkarten";
 "account_type_investment_plural" = "Investitionen";
-"account_type_precaution_plural" = "Vorsorge";
+"account_type_long_term_savings_plural" = "Vorsorge";
 "account_type_liability_plural" = "Verbindlichkeiten";
 "account_type_business_plural" = "Geschäftskonten";
 
@@ -565,7 +565,7 @@
 
 /* Upgrade Settings */
 "upgrade_setting_title" = "Vollversion freischalten 🚀";
-"upgrade_setting_description" = "Schalte jetzt die Vollversion frei und profitiere von weiteren zusätzlichen Funktionen!";
+"upgrade_setting_description" = "Schalte jetzt die Vollversion frei und profitiere von zusätzlichen Funktionen!";
 
 /* Support Settings */
 "share_app_setting_title" = "Freunde informieren";
@@ -665,7 +665,7 @@
 
 /* Alert Views */
 "alert_csv_import_successful_title" = "Import erfolgreich 🎉";
-"alert_csv_import_successful_message" = "Ingesamt wurden %d von %d Transaktionen importiert.%@";
+"alert_csv_import_successful_message" = "Insgesamt wurden %d von %d Transaktionen importiert.%@";
 "alert_csv_import_skipped_message" = " Dabei sind %d Transaktionen übersprungen worden.";
 "alert_csv_import_error_message" = "Es konnten %d von %d Transaktionen nicht erfolgreich importiert werden.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Bitte überprüfe folgende Felder in deiner CSV-Datei: %@.";
@@ -835,8 +835,8 @@
 "advanced_setting_save_photos_description" = "Speichere aufgenommene Fotos automatisch in der Foto-Mediathek.";
 "advanced_setting_suggested_notes_title" = "Vorgeschlagene Notizen";
 "advanced_setting_suggested_notes_description" = "Erhalte Vorschläge basierend auf deinen bisherigen Transaktionen, während du im Notizfeld etwas eingibst.";
-"advanced_setting_consider_pending_items_title" = "Alle Transaktionen verbuchen";
-"advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen, etc. auch alle vorgemerkten Transaktionen.";
+"advanced_setting_consider_pending_items_title" = "Vorgemerkte Transaktionen berücksichtigen";
+"advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen etc. auch alle vorgemerkten Transaktionen.";
 
 /* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Konten in Seitenleiste anzeigen";
@@ -868,7 +868,7 @@
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";
 "advanced_setting_enable_live_activities_description" = "Zeig deine aktuelle Bilanz und mehr auf der Dynamic Island sowie dem Lockscreen an.";
 "advanced_setting_ask_for_feedback_title" = "Nach Feedback fragen";
-"advanced_setting_ask_for_feedback_description" = "Erlaube der App dich gelegentlich nach Feedback zu fragen.";
+"advanced_setting_ask_for_feedback_description" = "Erlaube der App, dich gelegentlich nach Feedback zu fragen.";
 
 /* Cloud Sync Status */
 "cloud_sync_status_not_logged_in" = "Nicht bei iCloud angemeldet";
@@ -920,7 +920,7 @@
 /* Overview */
 "privacy_overview_datastorage_title" = "Sichere Datenspeicherung";
 "privacy_overview_datastorage_description" = "Deine Finanzen sind privat, und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
-"privacy_overview_datastorage_description_icloud_suffix" = " oder in deiner persönlichen iCloud gespeichert.";
+"privacy_overview_datastorage_description_icloud_suffix" = " oder in deiner persönlichen iCloud.";
 
 "privacy_overview_privacy_control_title" = "Du hast die Kontrolle";
 "privacy_overview_privacy_control_description" = "Du kannst deine Daten jederzeit löschen und Berechtigungen wie Standort, Kamera oder Benachrichtigungen in den Systemeinstellungen anpassen.";
@@ -1004,7 +1004,7 @@
 "upgrade_feature_unlimited_budgetbooks_description" = "Lege mehrere Haushaltsbücher an, sodass beispielsweise verschiedene Personen jeweils ihr eigenes auf einem Gerät nutzen können, oder falls du ein separates Haushaltsbuch teilen möchtest (etwa für einen Urlaub).";
 "upgrade_feature_security_title" = "Daten schützen";
 "upgrade_feature_security_description" = "Schütze deine Daten mit %@.";
-"upgrade_feature_security_description_passcode" = "Schütze deine Daten indem du einen Code erstellst";
+"upgrade_feature_security_description_passcode" = "Schütze deine Daten, indem du einen Code erstellst";
 "upgrade_feature_security_description_biometric" = " oder %@ verwendest";
 "upgrade_feature_currency_converter_title" = "Währungsumrechner";
 "upgrade_feature_currency_converter_description" = "Nutze den integrierten Währungsumrechner, um Beträge automatisch in eine von über 150 Fremdwährungen umzurechnen.";
@@ -1107,7 +1107,7 @@
 "upgrade_faq_free_use_value" = "Ja, du kannst die grundlegenden Funktionen der App, wie das Anlegen von Transaktionen, völlig kostenlos nutzen.\n\nZusätzlich bietet die App eine Testphase für die Vollversion an, damit du sie im Vorfeld ausprobieren kannst, bevor du dich für den Kauf oder ein Abonnement der Vollversion entscheidest.";
 "upgrade_faq_security_title" = "Sind meine Daten geschützt?";
 "upgrade_faq_security_value" = "Deine Finanzen sind privat, und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
-"upgrade_faq_security_value_icloud_suffix" = " oder (optional) in deiner persönlichen iCloud gespeichert.";
+"upgrade_faq_security_value_icloud_suffix" = " oder (optional) in deiner persönlichen iCloud.";
 "upgrade_faq_why_subscription_title" = "Warum wird die Vollversion primär als ein Abonnement angeboten?";
 "upgrade_faq_why_subscription_value" = "Budget Flow wird laufend weiterentwickelt, verbessert und an neue Betriebssystemversionen angepasst. Ein Abo hilft dabei, diese Arbeit langfristig zu finanzieren und dir regelmäßig Updates, neue Funktionen und guten Support zu bieten.\n\nWenn du keine Abos magst, kannst du die Vollversion alternativ auch einmalig kaufen. Der Einmalkauf ist bewusst höher angesetzt, weil er alle zukünftigen Updates und Support ohne weitere Zahlungen abdeckt.\n\nDu kannst die Vollversion vorher kostenlos testen und dein Abo jederzeit kündigen. Wenn dir Budget Flow gefällt, unterstützt du mit deinem Kauf die unabhängige Weiterentwicklung der App.";
 "upgrade_faq_multiple_devices_title" = "Kann ich die Vollversion auf mehreren Geräten verwenden?";
@@ -1145,10 +1145,10 @@
 
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Fotos laden...";
-"progress_view_load_images_subtitle" = "Hinweis: Wenn du die iCloud-Fotomediathek verwendest, kann es eine Weile dauern bis deine Fotos heruntergeladen wurden.";
+"progress_view_load_images_subtitle" = "Hinweis: Wenn du die iCloud-Fotomediathek verwendest, kann es eine Weile dauern, bis deine Fotos heruntergeladen wurden.";
 
 "progress_view_load_documents_title" = "Dokumente laden...";
-"progress_view_load_documents_subtitle" = "Info: Wenn du iCloud Drive verwendest, kann es eine Weile dauern bis deine Dokumente heruntergeladen wurden.";
+"progress_view_load_documents_subtitle" = "Info: Wenn du iCloud Drive verwendest, kann es eine Weile dauern, bis deine Dokumente heruntergeladen wurden.";
 
 "progress_view_import_csv_title" = "Daten importieren...";
 "progress_view_import_csv_subtitle" = "Bitte warten...";
@@ -1160,14 +1160,14 @@
 
 /* MARK: - Widgets */
 "chart_widget_title" = "Diagramm";
-"chart_widget_description" = "Dieses Widget zeigt ein Diagramm deiner Kontostände, deine aktulle Bilanz oder eine Aufschlüsselung deiner Ein- und Ausgaben für den ausgewählten Zeitraum an.";
+"chart_widget_description" = "Dieses Widget zeigt ein Diagramm deiner Kontostände, deine aktuelle Bilanz oder eine Aufschlüsselung deiner Ein- und Ausgaben für den ausgewählten Zeitraum an.";
 
 "account_widget_title" = "Konto";
 "account_widget_description" = "Dieses Widget zeigt ein Diagramm deines Kontostands für ein spezifisches Konto und den ausgewählten Zeitraum an.";
 "account_widget_no_account_title" = "Kein Konto gewählt";
 
 "overview_widget_title" = "Übersicht";
-"overview_widget_description" = "Dieses Widget zeigt eine Übersicht deiner Kontostände, deine aktulle Bilanz oder eine Summe der Ein- und Ausgaben für den ausgewählten Zeitraum an.";
+"overview_widget_description" = "Dieses Widget zeigt eine Übersicht deiner Kontostände, deine aktuelle Bilanz oder eine Summe der Ein- und Ausgaben für den ausgewählten Zeitraum an.";
 
 "upcoming_transactions_widget_title" = "Geplant";
 "upcoming_transactions_widget_description" = "Dieses Widget zeigt dir deine nächste geplante Transaktion an.";
@@ -1180,7 +1180,7 @@
 "suggestion_widget_description" = "Dieses Widget zeigt dir eine vorgeschlagene Kategorie basierend auf dem aktuellen Datum an, für die du eine neue Transaktion erstellen kannst.";
 
 "quick_actions_widget_title" = "Schnelleingabe";
-"quick_actions_widget_description" = "Dieses Widget ermöglicht es dir schnell neue Transaktionen hinzuzufügen.";
+"quick_actions_widget_description" = "Dieses Widget ermöglicht es dir, schnell neue Transaktionen hinzuzufügen.";
 "quick_actions_widget_new_title" = "Neu";
 
 "widget_upgrade_locked_title" = "Gesperrt";
@@ -1295,7 +1295,7 @@
 
 /* Messages */
 "no_currencies_found_title" = "Keine Währungen gefunden";
-"currency_selection_search_placeholder_message" = "Suche nach dem Namen einer Währung oder dessen Abkürzung";
+"currency_selection_search_placeholder_message" = "Suche nach dem Namen einer Währung oder ihrer Abkürzung";
 
 /* Buttons */
 "add_favorite_currency_button" = "Zu Favoriten hinzufügen";
@@ -1374,7 +1374,7 @@
 
 "no_category_groups_found_title" = "Keine Ordner gefunden";
 "no_category_group_found_title" = "Kein Ordner gefunden";
-"no_category_groups_found_message" = "Klicke auf den \"+\"-Button, um einen neue Ordner hinzuzufügen.";
+"no_category_groups_found_message" = "Klicke auf den \"+\"-Button, um einen neuen Ordner hinzuzufügen.";
 "no_category_groups_found_button_title" = "Neuer Ordner";
 "category_groups_search_placeholder_message" = "Suche nach dem Namen eines Ordners";
 
@@ -1576,7 +1576,7 @@
 /* Miscellaneous */
 "receipt_total" = "Summe";
 "receipt_amount" = "Betrag";
-"receipt_to_pay" = "Zu Zahlen";
+"receipt_to_pay" = "Zu zahlen";
 
 /* Notifications */
 "transaction_notification_body" = "Betrag: %@\nDatum: %@";
@@ -1672,7 +1672,7 @@
 "alert_selected_period_changed_new_month" = "neuer Monat";
 "alert_selected_period_changed_new_year" = "neues Jahr";
 
-"alert_no_mail_initialized_title" = "Kein E-Mail Konto vorhanden";
+"alert_no_mail_initialized_title" = "Kein E-Mail-Konto vorhanden";
 "alert_no_mail_initialized_message" = "Es sieht so aus, als hättest du kein E-Mail-Konto auf deinem Gerät eingerichtet. Um diese Funktion zu nutzen, ist dies jedoch zwingend erforderlich.";
 
 "alert_no_camera_title" = "Keine Kamera vorhanden";
@@ -1712,7 +1712,7 @@
 
 
 /* MARK: - Default Data */
-"default_account_name" = "Standard Konto";
+"default_account_name" = "Standardkonto";
 
 "default_category_group_name_income" = "Einnahmen";
 "default_category_name_salary" = "Gehalt";
@@ -1762,7 +1762,7 @@
 "color_keyword_brown" = "Braun";
 "color_keyword_mint" = "Minze";
 "color_keyword_cyan" = "Türkis";
-"color_keyword_violet" = "Violet";
+"color_keyword_violet" = "Violett";
 "color_keyword_gray" = "Grau";
 
 
@@ -1796,7 +1796,7 @@
 "icon_keyword_lightbulb" = "Glühbirne";
 "icon_keyword_fan" = "Ventilator";
 "icon_keyword_lamp" = "Lampe";
-"icon_keyword_alarm_system" = "Alarmanalage";
+"icon_keyword_alarm_system" = "Alarmanlage";
 "icon_keyword_webcam" = "Webcam";
 "icon_keyword_camera" = "Kamera";
 "icon_keyword_door" = "Tür";
@@ -2026,14 +2026,14 @@
 "icon_keyword_shield" = "Schild";
 "icon_keyword_insurance" = "Versicherung";
 "icon_keyword_video_conference" = "Videokonferenz";
-"icon_keyword_facetime" = "Facetime";
+"icon_keyword_facetime" = "FaceTime";
 "icon_keyword_phone" = "Telefon";
 "icon_keyword_mobilephone" = "Handy";
 "icon_keyword_iphone" = "iPhone";
 "icon_keyword_tablet" = "Tablet";
 "icon_keyword_ipad" = "iPad";
 "icon_keyword_macintosh" = "Macintosh";
-"icon_keyword_macbook" = "Macbook";
+"icon_keyword_macbook" = "MacBook";
 "icon_keyword_imac" = "iMac";
 "icon_keyword_smartphone" = "Smartphone";
 "icon_keyword_calling" = "Telefonieren";
@@ -2055,10 +2055,10 @@
 "icon_keyword_scanner" = "Scanner";
 "icon_keyword_pin" = "Stecknadel";
 "icon_keyword_paperclip" = "Büroklammer";
-"icon_keyword_clipboard" = "Clipboard";
+"icon_keyword_clipboard" = "Klemmbrett";
 "icon_keyword_list" = "Liste";
 "icon_keyword_server" = "Server";
-"icon_keyword_simcard" = "Simkarte";
+"icon_keyword_simcard" = "SIM-Karte";
 "icon_keyword_bank" = "Bank";
 "icon_keyword_apple_watch" = "Apple Watch";
 "icon_keyword_clock" = "Uhr";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "Zauberstab";
 "icon_keyword_hourglass" = "Sanduhr";
 "icon_keyword_newspaper" = "Zeitung";
-"icon_keyword_wrench" = "Zange";
+"icon_keyword_wrench" = "Schraubenschlüssel";
 "icon_keyword_screwdriver" = "Schraubendreher";
 "icon_keyword_hammer" = "Hammer";
 "icon_keyword_craftsman" = "Handwerker";
@@ -2223,9 +2223,9 @@
 
 /* Parse */
 "parse_category_name" = "Auslesen";
-"parse_notification_transaction_title" = "Transaktions Infos auslesen";
-"parse_notification_transaction_description" = "Liest Transaktions Infos aus einer Mitteilung aus.";
-"parse_notification_transaction_parameter_summary" = "Transaktions Infos aus Mitteilung auslesen.";
+"parse_notification_transaction_title" = "Transaktionsinfos auslesen";
+"parse_notification_transaction_description" = "Liest Transaktionsinfos aus einer Mitteilung aus.";
+"parse_notification_transaction_parameter_summary" = "Transaktionsinfos aus Mitteilung auslesen.";
 
 "notification_title_parameter_title" = "Titel";
 "notification_title_parameter_description" = "Der Titel der Mitteilung.";
@@ -2237,7 +2237,7 @@
 "notification_date_parameter_title" = "Datum";
 "notification_date_parameter_description" = "Das Datum der Mitteilung.";
 
-"transaction_info_entity_name" = "Transaktions Infos";
+"transaction_info_entity_name" = "Transaktionsinfos";
 "amount_property_title" = "Betrag";
 "currency_code_property_title" = "Währung";
 "date_property_title" = "Datum";
@@ -2247,7 +2247,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Mein Haushaltsbuch";
-"family_budget_book_name" = "Familien Haushaltsbuch";
+"family_budget_book_name" = "Familien-Haushaltsbuch";
 "shared_budget_book_name" = "Geteiltes Haushaltsbuch";
 "default_credit_card_name" = "Kreditkarte";
 "default_location_address" = "Fürstenberg";

@@ -35,7 +35,7 @@
 "account_type_savings" = "บัญชีออมทรัพย์";
 "account_type_credit_card" = "บัตรเครดิต";
 "account_type_investment" = "การลงทุน";
-"account_type_precaution" = "ข้อควรระวัง";
+"account_type_long_term_savings" = "เงินสำรอง";
 "account_type_liability" = "หนี้สิน";
 "account_type_business" = "บัญชีธุรกิจ";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "บัญชีออมทรัพย์";
 "account_type_credit_card_plural" = "บัตรเครดิต";
 "account_type_investment_plural" = "การลงทุน";
-"account_type_precaution_plural" = "ข้อควรระวัง";
+"account_type_long_term_savings_plural" = "เงินสำรอง";
 "account_type_liability_plural" = "หนี้สิน";
 "account_type_business_plural" = "บัญชีธุรกิจ";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "คำแนะนำ";
 "widget_type_distribution" = "การกระจาย";
 "widget_type_balance" = "ยอดคงเหลือ";
-"widget_type_savings_rate" = "บันทึกแล้ว";
+"widget_type_savings_rate" = "เงินออม";
 "widget_type_upcoming_transactions" = "วางแผนแล้ว";
 "widget_type_participants" = "บุคคล";
 "widget_type_budget" = "งบประมาณ";
@@ -199,12 +199,12 @@
 "monthly" = "รายเดือน";
 "yearly" = "รายปี";
 
-"first" = "1.";
-"second" = "2.";
-"third" = "3.";
-"fourth" = "4.";
-"fifth" = "5.";
-"last" = "อันดับสุดท้าย";
+"first" = "แรก";
+"second" = "ที่สอง";
+"third" = "ที่สาม";
+"fourth" = "ที่สี่";
+"fifth" = "ที่ห้า";
+"last" = "สุดท้าย";
 
 
 /* MARK: - Menu Bar */
@@ -254,7 +254,7 @@
 "delete_button" = "ลบ";
 "end_repetition_button" = "สิ้นสุดการทำซ้ำ";
 "reset_button" = "รีเซ็ต";
-"apply_button" = "สมัคร";
+"apply_button" = "นำไปใช้";
 "yes_button" = "ใช่";
 "no_button" = "ไม่";
 "ok_button" = "ตกลง";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "ไม่ต้องแสดงอีก";
 "mark_as_paid_button" = "การชำระเงินเสร็จสิ้น";
 "mark_as_pending_button" = "การชำระเงินที่รอดำเนินการ";
-"show_contra_entry_button" = "แสดงรายการตัวนับ";
+"show_contra_entry_button" = "แสดงรายการคู่โอน";
 
 "save_changes_button" = "บันทึกการเปลี่ยนแปลง";
 "discard_changes_button" = "ยกเลิกการเปลี่ยนแปลง";
@@ -478,8 +478,8 @@
 "user_has_no_budgets_title" = "คุณไม่มีงบประมาณ";
 "user_is_within_budget_title" = "คุณอยู่ในงบประมาณของคุณแล้ว! 🎉";
 "user_was_within_budget_title" = "คุณอยู่ในงบประมาณของคุณแล้ว! 🎉";
-"user_is_not_within_budget_title" = "คุณมี %d เกินงบประมาณ 😢";
-"user_is_not_within_budgets_title" = "คุณมีงบประมาณเกิน %d รายการ 😢";
+"user_is_not_within_budget_title" = "คุณใช้จ่ายเกินงบประมาณ %d รายการ 😢";
+"user_is_not_within_budgets_title" = "คุณใช้จ่ายเกินงบประมาณ %d รายการ 😢";
 
 /* Messages */
 "no_budgets_title" = "ไม่มีงบประมาณ";
@@ -571,14 +571,14 @@
 "share_app_setting_title" = "แจ้งเพื่อน";
 "translate_app_setting_title" = "ช่วยแปล";
 "help_center_setting_title" = "ศูนย์ช่วยเหลือ (🇬🇧)";
-"feature_roadmap_setting_title" = "แนะนำสถานที่";
+"feature_roadmap_setting_title" = "เสนอฟีเจอร์";
 "rate_app_setting_title" = "ให้คะแนนแอป";
 
 /* Legal Settings */
-"imprint_setting" = "ประทับ";
+"imprint_setting" = "ข้อมูลผู้จัดทำ";
 "privacy_setting" = "นโยบายความเป็นส่วนตัว";
 "terms_of_use_setting" = "ข้อกำหนดการใช้งาน";
-"acknowledgements_setting" = "รับทราบ";
+"acknowledgements_setting" = "คำขอบคุณ";
 "licenses_setting" = "ใบอนุญาต";
 
 "acknowledgements_setting_info_title" = "คำอธิบาย";
@@ -731,7 +731,7 @@
 /* MARK: - Backup Settings View */
 /* Info */
 "backup_setting_info_title" = "คำอธิบาย";
-"backup_setting_info_description" = "เมื่อเปิดใช้งาน โฟลว์งบประมาณจะสำรองข้อมูลของคุณเป็นประจำ เพื่อให้คุณสามารถคืนค่าแอปให้อยู่ในสถานะก่อนหน้าได้ตลอดเวลา";
+"backup_setting_info_description" = "เมื่อเปิดใช้งาน Budget Flow จะสำรองข้อมูลของคุณเป็นประจำ เพื่อให้คุณสามารถกู้คืนแอปกลับสู่สถานะก่อนหน้าได้ทุกเมื่อ";
 
 /* Sections */
 "backup_setting_general_section_title" = "ทั่วไป";
@@ -809,7 +809,7 @@
 /* Security */
 "advanced_setting_use_passcode_title" = "ใช้รหัสผ่าน";
 "advanced_setting_use_title" = "ใช้ %@";
-"advanced_setting_auto_lock_title" = "รหัสคำขอ";
+"advanced_setting_auto_lock_title" = "ขอรหัสผ่าน";
 
 /* View */
 "advanced_setting_chart_type_title" = "ประเภทแผนภูมิ";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "บันทึกรูปภาพที่ถ่ายไปยังคลังรูปภาพโดยอัตโนมัติ";
 "advanced_setting_suggested_notes_title" = "โน้ตที่แนะนำ";
 "advanced_setting_suggested_notes_description" = "รับคำแนะนำตามธุรกรรมก่อนหน้าของคุณขณะพิมพ์ในช่องโน้ต";
-"advanced_setting_consider_pending_items_title" = "จองธุรกรรมทั้งหมด";
+"advanced_setting_consider_pending_items_title" = "รวมธุรกรรมทั้งหมดในการคำนวณ";
 "advanced_setting_consider_pending_items_description" = "รวมธุรกรรมที่รอดำเนินการเมื่อคำนวณยอดคงเหลือในบัญชี ยอดคงเหลือ ยอดรวม ฯลฯ";
 
 /* Sidebar */
@@ -876,7 +876,7 @@
 "cloud_sync_status_no_network" = "ไม่มีการเชื่อมต่ออินเทอร์เน็ต";
 "cloud_sync_status_in_progress" = "กำลังซิงค์...";
 "cloud_sync_status_succeeded" = "ซิงค์โดยสมบูรณ์";
-"cloud_sync_status_quota_exceeded" = "ที่เก็บข้อมูล iCloud ของคุณเต็มแล้ว กรุณาวางบางพื้นที่และลองใหม่อีกครั้ง";
+"cloud_sync_status_quota_exceeded" = "พื้นที่จัดเก็บข้อมูล iCloud ของคุณเต็มแล้ว โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง";
 "cloud_sync_status_limit_exceeded" = "คุณถึงขีดจำกัดการอัปโหลด/ดาวน์โหลดของ iCloud แล้ว กรุณารอและลองใหม่อีกครั้ง";
 "cloud_sync_status_network_failure" = "เกิดข้อผิดพลาดเครือข่าย กรุณาลองใหม่อีกครั้ง";
 "cloud_sync_status_service_unavailable" = "iCloud ชั่วคราวไม่สามารถใช้ได้ กรุณาลองใหม่อีกครั้ง";
@@ -891,7 +891,7 @@
 "alert_error_title" = "เกิดข้อผิดพลาด 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "ติดตาม \"%@\" บนโซเชียลมีเดีย";
 
 /* Copyright */
 "version" = "รุ่น";
@@ -958,11 +958,11 @@
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "คุณสมบัติใหม่";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "ให้คะแนนแอป";
+"new_features_view_close_button" = "ไว้ภายหลัง";
 
 
 /* MARK: - Upgrade View */
@@ -1022,30 +1022,30 @@
 "upgrade_feature_csv_description" = "นำเข้าและส่งออกธุรกรรมของคุณโดยใช้ไฟล์ CSV เพื่อถ่ายโอนข้อมูลจากธนาคารหรือแอปพลิเคชันอื่นๆ ของคุณ";
 "upgrade_feature_remove_ads_title" = "ไม่มีโฆษณา";
 "upgrade_feature_remove_ads_description" = "คุณจะไม่เห็นโฆษณาสำหรับเวอร์ชันเต็มภายในแอปอีกต่อไป";
-"upgrade_feature_support_title" = "การพัฒนาการสนับสนุน";
+"upgrade_feature_support_title" = "สนับสนุนการพัฒนา";
 "upgrade_feature_support_description" = "คุณกำลังสนับสนุนนักพัฒนารุ่นใหม่และด้วยเหตุนี้จึงมีการพัฒนาแอปอย่างต่อเนื่อง! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "แอปยอดเยี่ยม";
+"user_review_description_de" = "แอปนี้จัดวางได้ชัดเจนและใช้งานได้ดีมาก ตอบโจทย์ทุกอย่างที่ฉันต้องการ และทีมช่วยเหลือก็ตอบกลับรวดเร็วและช่วยได้มาก ขอแนะนำเลย";
+"user_review_title_hr" = "แอปดี";
+"user_review_description_hr" = "แอปมีฟีเจอร์มากมายพร้อมหน้าตาที่ใช้งานง่าย ฉันลองแอปอื่นบน iOS มาหลายตัวแล้ว แต่ไม่มีตัวไหนตอบโจทย์ได้ดีเท่าแอปนี้ คุ้มค่ากับเงินที่จ่าย";
+"user_review_title_bg" = "บริการช่วยเหลือยอดเยี่ยม";
+"user_review_description_bg" = "แอปยอดเยี่ยมพร้อมบริการช่วยเหลือลูกค้าที่ดีมาก และราคาก็สมเหตุสมผลมากเมื่อเทียบกับคุณภาพของซอฟต์แวร์";
+"user_review_title_us" = "จนถึงตอนนี้เป็นแอปที่ยอดเยี่ยม";
+"user_review_description_us" = "ฉันชอบมากที่แอปนี้ใช้ได้ทั้งบน iOS, iPad และ macOS ทำให้ใช้งานได้ทุกที่ อีกอย่างที่ดีมากคือไม่ต้องมีบัญชีหรือลงทะเบียน ซึ่งน่าเสียดายที่หาได้ยากในทุกวันนี้ แต่ฉันคิดว่าเป็นสิ่งจำเป็นสำหรับแอปการเงิน";
+"user_review_title_uk" = "แอปนี้แหละใช่เลย!";
+"user_review_description_uk" = "ฉันตามหาแอปแบบนี้มานานกว่าสองปีแล้ว ฉันต้องการแอปจัดการการเงินบนมือถือที่ออกแบบสวยงาม เพิ่มข้อมูลใหม่ได้ง่าย และเปิดดูข้อมูลเพิ่มเติมได้เมื่อต้องการ ต้องลองเลย";
+"user_review_title_es" = "แอปบันทึกรายรับรายจ่ายที่ดีที่สุด";
+"user_review_description_es" = "ดีที่สุดในบรรดาทุกแอปที่ฉันเคยลอง ฉันคิดว่ายังเป็นแอปที่ค่อนข้างใหม่ แต่เห็นได้ชัดถึงศักยภาพที่มีอยู่แล้วและในอนาคต";
+"user_review_title_fr" = "แอปยอดเยี่ยมและครบครันมาก";
+"user_review_description_fr" = "ฉันใช้แอปนี้มาสองสามเดือนแล้ว และคิดว่าทำออกมาได้ดีมากจริง ๆ ตั้งตารอดูว่าอีกสองสามเดือนแอปจะพัฒนาไปอย่างไร :)";
+"user_review_title_it" = "ยอดเยี่ยมจริง ๆ";
+"user_review_description_it" = "ในที่สุดก็เจอ ฉันตามหาเครื่องมือแบบนี้มาหลายปีแล้ว ฉันใช้ร่วมกับแอปคำสั่งลัดและชอบดีไซน์มาก นอกจากนี้ยังชอบที่มีตัวเลือกซื้อแบบชำระครั้งเดียวด้วย ทำต่อไปนะ!";
+"user_review_title_ch" = "บริการช่วยเหลือดีมาก";
+"user_review_description_ch" = "บริการช่วยเหลือดีมาก แก้ปัญหาได้รวดเร็วและไม่ยุ่งยาก รู้สึกว่าผู้ใช้ได้รับความใส่ใจอย่างจริงจัง";
+"user_review_title_pl" = "ใช้งานสะดวกมาก";
+"user_review_description_pl" = "แอปนี้เป็นสมุดบันทึกรายรับรายจ่ายที่ยอดเยี่ยมซึ่งฉันใช้ทุกวัน ถึงแม้จะมีขนาดเล็ก แต่ผู้พัฒนาก็ใส่ใจความต้องการของผู้ใช้มาก";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "การเงินของคุณเป็นส่วนตัวและควรเป็นแบบนั้นต่อไป นั่นเป็นเหตุผลว่าทำไมข้อมูลของคุณจึงถูกเก็บไว้บนอุปกรณ์ของคุณโดยเฉพาะ";
 "upgrade_faq_security_value_icloud_suffix" = " หรือ (ทางเลือก) ใน iCloud ส่วนตัวของคุณ";
 "upgrade_faq_why_subscription_title" = "ทำไมเวอร์ชันเต็มจึงเสนอเป็นการสมัครรับข้อมูล";
-"upgrade_faq_why_subscription_value" = "เป้าหมายของเราคือการพัฒนาแอปคุณภาพสูงที่มอบคุณลักษณะใหม่และการปรับปรุงเป็นประจำให้กับคุณในฐานะผู้ใช้ อย่างไรก็ตาม เพื่อให้บรรลุเป้าหมายนี้ แอปต้องการรายได้อย่างต่อเนื่องเพื่อเป็นเงินทุนสำหรับตัวเองและ มีความยั่งยืนทางเศรษฐกิจ\n\nสิ่งที่หลายคนไม่รู้ การพัฒนาและบำรุงรักษาแอปต้องใช้เวลามาก ตัวอย่างเช่น ในกรณีของ Budget Flow ต้องใช้เวลาเกือบสองปีและหลายพันชั่วโมงในการทำงานตั้งแต่แนวคิดไปจนถึงการพัฒนา และทำการทดสอบก่อนที่จะเผยแพร่เวอร์ชันแรกได้\n\nในฐานะลูกค้า คุณจะได้รับประโยชน์เป็นพิเศษจากการอัปเดตและการปรับปรุงอย่างสม่ำเสมอผ่านรูปแบบการสมัครรับข้อมูล ตลอดจนการสนับสนุนที่ดีเพื่อให้แน่ใจว่าคุณจะพึงพอใจต่อไป ยังมีโอกาสที่จะทดลองใช้แอปฟรีล่วงหน้าเพื่อให้แน่ใจว่าแอปนั้นเหมาะสมกับความต้องการของคุณ คุณสามารถเปลี่ยนหรือยกเลิกการสมัครได้ตลอดเวลาหากคุณเปลี่ยนใจ\n\nโดยรวมแล้ว รูปแบบการสมัครสมาชิกให้ประโยชน์มากมายแก่คุณในฐานะ ลูกค้าและประสบการณ์ผู้ใช้ที่ดีขึ้นผ่านการอัปเดตและการสนับสนุนอย่างต่อเนื่องเมื่อเทียบกับการซื้อครั้งเดียว ในระยะยาว การซื้อเพียงครั้งเดียวอาจไม่ยั่งยืน เนื่องจากรูปแบบธุรกิจนี้กำหนดให้ผู้ใช้ใหม่ซื้อแอปต่อไปเพื่อให้แน่ใจว่าการพัฒนาจะดำเนินต่อไป\n\nดังนั้นหากคุณชอบแอป เรายินดีเป็นอย่างยิ่ง หากคุณสนับสนุนงานของเรา เพื่อที่เราจะได้นำเสนอฟีเจอร์ที่ยอดเยี่ยมยิ่งขึ้นไปอีกในอนาคต!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow ได้รับการพัฒนา ปรับปรุง และปรับให้รองรับระบบปฏิบัติการเวอร์ชันใหม่อย่างต่อเนื่อง การสมัครสมาชิกช่วยสนับสนุนค่าใช้จ่ายในการทำงานนี้ในระยะยาว เพื่อให้คุณได้รับการอัปเดตอย่างสม่ำเสมอ ฟีเจอร์ใหม่ และบริการช่วยเหลือที่ดี\n\nหากคุณไม่ต้องการสมัครสมาชิก คุณสามารถซื้อเวอร์ชันเต็มแบบชำระครั้งเดียวได้ ราคาซื้อแบบชำระครั้งเดียวตั้งไว้สูงกว่า เนื่องจากครอบคลุมการอัปเดตทั้งหมดในอนาคตและบริการช่วยเหลือโดยไม่ต้องชำระเงินเพิ่มเติม\n\nคุณสามารถทดลองใช้เวอร์ชันเต็มได้ฟรีก่อนตัดสินใจ และยกเลิกการสมัครสมาชิกได้ทุกเมื่อ หากคุณชื่นชอบ Budget Flow การซื้อของคุณจะช่วยสนับสนุนการพัฒนาแอปอย่างอิสระต่อไป";
 "upgrade_faq_multiple_devices_title" = "ฉันสามารถใช้เวอร์ชันเต็มบนอุปกรณ์หลายเครื่องได้หรือไม่";
 "upgrade_faq_multiple_devices_value" = "ใช่ คุณสามารถใช้ Budget Flow เวอร์ชันเต็มบนอุปกรณ์ Apple ทั้งหมดของคุณด้วย บัญชี Apple เดียวกันได้ เนื่องจากแอปเชื่อมข้อมูลผ่าน iCloud คุณจึงสามารถสลับไปมาระหว่างอุปกรณ์ของคุณได้อย่างราบรื่นและเข้าถึงข้อมูลทางการเงินของคุณได้ตลอดเวลา และการตั้งค่า";
 "upgrade_faq_multiple_people_title" = "ฉันสามารถใช้เวอร์ชันเต็มกับหลายคนได้หรือไม่";
@@ -1121,7 +1121,7 @@
 "upgrade_faq_refund_title" = "ฉันจะได้รับเงินคืนได้อย่างไร";
 "upgrade_faq_refund_value" = "การชำระเงินผ่าน %1$@ สามารถขอคืนได้โดย %2$@ เท่านั้น ในการรับเงินคืน คุณต้องติดต่อฝ่ายสนับสนุนของ %2$@ ภายใน 14 วันนับจากวันที่ซื้อ";
 "upgrade_faq_switch_plan_title" = "เป็นไปได้หรือไม่ที่จะสลับจากการสมัครสมาชิกไปเป็นการซื้อครั้งเดียวในภายหลัง";
-"upgrade_faq_switch_plan_value" = "ใช่ คุณสามารถเปลี่ยนจากการสมัครสมาชิกที่ใช้งานอยู่ไปเป็นการซื้อครั้งเดียวได้ตลอดเวลาโดยการซื้อผลิตภัณฑ์ที่เกี่ยวข้องในแอป อย่างไรก็ตาม โปรดอย่าลืมยกเลิกการสมัครสมาชิกครั้งก่อนของคุณ เพื่อที่คุณจะได้ไม่ต้องชำระเงินเกินกว่านั้น ครั้งหนึ่ง.";
+"upgrade_faq_switch_plan_value" = "ได้ คุณสามารถเปลี่ยนจากการสมัครสมาชิกที่ใช้งานอยู่เป็นการซื้อครั้งเดียวได้ทุกเมื่อโดยซื้อผลิตภัณฑ์ที่เกี่ยวข้องในแอป แต่อย่าลืมยกเลิกการสมัครสมาชิกเดิมเพื่อไม่ให้ชำระเงินซ้ำ";
 
 
 /* MARK: - User Feedback */
@@ -1265,7 +1265,7 @@
 /* Update */
 "alert_confirm_update_contra_entry_title" = "ธุรกรรมนี้เป็นการโอน คุณต้องการอัปเดตรายการตรงกันข้ามด้วยหรือไม่";
 "alert_confirm_update_transaction_multiple_title" = "ธุรกรรมนี้เป็นของกลุ่ม คุณต้องการบันทึกอะไรกันแน่";
-"alert_confirm_update_transaction_single_button" = "บันทึกเฉพาะปุ่มนี้";
+"alert_confirm_update_transaction_single_button" = "บันทึกเฉพาะรายการนี้";
 "alert_confirm_update_transaction_all_button" = "บันทึกสิ่งนี้และในอนาคต";
 
 /* End Repetition */
@@ -1357,7 +1357,7 @@
 "no_budget_books_found_button_title" = "สมุดงบประมาณใหม่";
 "no_budget_books_found_cloud_sync_message" = "กำลังโหลดข้อมูลที่มีอยู่จาก iCloud โปรดรอสักครู่...\n\nอีกทางหนึ่ง คลิกปุ่ม \"+\" เพื่อเพิ่มสมุดงบประมาณใหม่";
 "no_budget_books_found_cloud_sync_message_short" = "กำลังโหลดข้อมูลที่มีอยู่จาก iCloud โปรดรอสักครู่...";
-"budget_books_search_placeholder_message" = "ค้นหาชื่อผู้จองงบประมาณ";
+"budget_books_search_placeholder_message" = "ค้นหาตามชื่อสมุดงบประมาณ";
 
 "no_accounts_title" = "ไม่มีบัญชี";
 "no_accounts_found_title" = "ไม่พบบัญชี";
@@ -1395,7 +1395,7 @@
 "reminders_search_placeholder_message" = "ค้นหาตามชื่อเรื่องเตือนความจำ";
 
 /* Values */
-"balance" = "สมดุล";
+"balance" = "ยอดคงเหลือ";
 
 
 /* MARK: - Add Item Form View */
@@ -1515,9 +1515,9 @@
 
 /* MARK: - Add Transaction Form View */
 /* Titles */
-"form_title_new_income" = "새 소득";
-"form_title_new_expense" = "새 비용";
-"form_title_new_transfer" = "새 전송";
+"form_title_new_income" = "รายได้ใหม่";
+"form_title_new_expense" = "ค่าใช้จ่ายใหม่";
+"form_title_new_transfer" = "การโอนใหม่";
 
 /* Sections */
 "form_date_section_title" = "ครบกำหนด";
@@ -1865,7 +1865,7 @@
 "icon_keyword_railroad" = "ทางรถไฟ";
 "icon_keyword_cablecar" = "รถราง";
 "icon_keyword_ferry" = "เรือข้ามฟาก";
-"icon_keyword_ship" = "จัดส่ง";
+"icon_keyword_ship" = "เรือ";
 "icon_keyword_truck" = "รถบรรทุก";
 "icon_keyword_relocation" = "ย้ายตำแหน่ง";
 "icon_keyword_bicycle" = "จักรยาน";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "เติมน้ำมัน";
 "icon_keyword_gas_station" = "ปั๊มน้ำมัน";
 "icon_keyword_walking" = "กำลังเดิน";
-"icon_keyword_running" = "กำลังทำงาน";
+"icon_keyword_running" = "วิ่ง";
 "icon_keyword_rugby" = "รักบี้";
 "icon_keyword_badminton" = "แบดมินตัน";
 "icon_keyword_tennis" = "เทนนิส";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "เซ็นต์";
 "icon_keyword_yen" = "เยน";
 "icon_keyword_pound" = "ปอนด์";
-"icon_keyword_franc" = "ฟรังโกเนีย";
+"icon_keyword_franc" = "ฟรังก์";
 "icon_keyword_lira" = "ลีร่า";
 "icon_keyword_ruble" = "รูเบิล";
 "icon_keyword_euro" = "ยูโร";
@@ -2017,7 +2017,7 @@
 "icon_keyword_pills" = "ยาเม็ด";
 "icon_keyword_cross" = "ข้าม";
 "icon_keyword_hospital" = "โรงพยาบาล";
-"icon_keyword_ivfluid" = "การแช่";
+"icon_keyword_ivfluid" = "การให้สารน้ำทางหลอดเลือดดำ";
 "icon_keyword_eye" = "ตา";
 "icon_keyword_brain" = "สมอง";
 "icon_keyword_ear" = "หู";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "ไม้กายสิทธิ์";
 "icon_keyword_hourglass" = "นาฬิกาทราย";
 "icon_keyword_newspaper" = "หนังสือพิมพ์";
-"icon_keyword_wrench" = "คีม";
+"icon_keyword_wrench" = "ประแจเลื่อน";
 "icon_keyword_screwdriver" = "ไขควง";
 "icon_keyword_hammer" = "ค้อน";
 "icon_keyword_craftsman" = "ช่างฝีมือ";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "ห้องทดลอง";
 "icon_keyword_calendar" = "ปฏิทิน";
 "icon_keyword_rent" = "เช่า";
-"icon_keyword_flat" = "แบน";
+"icon_keyword_flat" = "อพาร์ตเมนต์";
 "icon_keyword_work" = "งาน";
 "icon_keyword_salary" = "เงินเดือน";
 "icon_keyword_corona" = "โคโรนา";
@@ -2106,7 +2106,7 @@
 "icon_keyword_discount" = "ส่วนลด";
 "icon_keyword_percent" = "เปอร์เซ็นต์";
 "icon_keyword_wallet" = "กระเป๋าเงิน";
-"icon_keyword_convertible" = "สามารถแปลงสภาพได้";
+"icon_keyword_convertible" = "รถเปิดประทุน";
 "icon_keyword_drone" = "โดรน";
 "icon_keyword_motorcycle" = "รถจักรยานยนต์";
 "icon_keyword_tire" = "ยางรถ";
@@ -2127,17 +2127,17 @@
 
 /* MARK: - App Intents */
 /* Entities */
-"budget_book_entity_name" = "예산 장부";
-"account_entity_name" = "계정";
-"category_group_entity_name" = "폴더";
-"category_entity_name" = "범주";
-"payee_entity_name" = "수취인";
+"budget_book_entity_name" = "สมุดงบประมาณ";
+"account_entity_name" = "บัญชี";
+"category_group_entity_name" = "โฟลเดอร์";
+"category_entity_name" = "หมวดหมู่";
+"payee_entity_name" = "ผู้รับเงิน";
 
 /* Categories */
-"add_category_name" = "추가";
-"open_category_name" = "열기";
-"show_category_name" = "표시";
-"search_category_name" = "검색";
+"add_category_name" = "เพิ่ม";
+"open_category_name" = "เปิด";
+"show_category_name" = "แสดง";
+"search_category_name" = "ค้นหา";
 "create_category_name" = "สร้าง";
 
 /* Create */
@@ -2163,62 +2163,62 @@
 "create_payee_failed_title" = "ไม่สามารถสร้างผู้รับเงินได้";
 
 /* Search */
-"search_budget_book_title" = "예산장 검색";
-"search_budget_book_description" = "특정 예산 장부를 이름으로 검색합니다.";
-"search_budget_book_parameter_summary" = "${name}이(가) 포함된 예산 장부 검색";
-"search_account_title" = "계정 검색";
-"search_account_description" = "특정 계정을 이름으로 검색하세요.";
-"search_account_parameter_summary" = "${budgetBook}에서 ${name} 계정 검색";
-"search_category_group_title" = "검색 폴더";
-"search_category_group_description" = "특정 폴더를 이름으로 검색하세요.";
-"search_category_group_parameter_summary" = "${budgetBook}에서 ${name}이(가) 포함된 폴더 검색";
-"search_category_title" = "카테고리 검색";
-"search_category_description" = "특정 카테고리를 이름으로 검색하세요.";
-"search_category_parameter_summary" = "${budgetBook}의 ${categoryGroup}에서 ${name}이(가) 포함된 카테고리 검색";
-"search_payee_title" = "수취인 검색";
-"search_payee_description" = "특정 수취인을 이름으로 검색하세요.";
-"search_payee_parameter_summary" = "${budgetBook}에서 ${name}의 수취인 검색";
+"search_budget_book_title" = "ค้นหาสมุดงบประมาณ";
+"search_budget_book_description" = "ค้นหาสมุดงบประมาณที่ต้องการตามชื่อ";
+"search_budget_book_parameter_summary" = "ค้นหาสมุดงบประมาณชื่อ ${name}";
+"search_account_title" = "ค้นหาบัญชี";
+"search_account_description" = "ค้นหาบัญชีที่ต้องการตามชื่อ";
+"search_account_parameter_summary" = "ค้นหาบัญชีชื่อ ${name} ใน ${budgetBook}";
+"search_category_group_title" = "ค้นหาโฟลเดอร์";
+"search_category_group_description" = "ค้นหาโฟลเดอร์ที่ต้องการตามชื่อ";
+"search_category_group_parameter_summary" = "ค้นหาโฟลเดอร์ชื่อ ${name} ใน ${budgetBook}";
+"search_category_title" = "ค้นหาหมวดหมู่";
+"search_category_description" = "ค้นหาหมวดหมู่ที่ต้องการตามชื่อ";
+"search_category_parameter_summary" = "ค้นหาหมวดหมู่ชื่อ ${name} ใน ${categoryGroup} ของ ${budgetBook}";
+"search_payee_title" = "ค้นหาผู้รับเงิน";
+"search_payee_description" = "ค้นหาผู้รับเงินที่ต้องการตามชื่อ";
+"search_payee_parameter_summary" = "ค้นหาผู้รับเงินชื่อ ${name} ใน ${budgetBook}";
 
-"name_parameter_title" = "이름";
-"name_parameter_dialog" = "이름이 무엇입니까?";
+"name_parameter_title" = "ชื่อ";
+"name_parameter_dialog" = "ชื่ออะไร?";
 
-"budget_book_parameter_title" = "예산 장부";
-"budget_book_parameter_description" = "관련 예산 장부입니다.";
-"budget_book_parameter_dialog" = "관련 예산 장부는 무엇입니까?";
-"category_group_parameter_title" = "폴더";
-"category_group_parameter_description" = "관련 폴더입니다.";
-"category_group_parameter_dialog" = "관련 폴더는 무엇입니까?";
+"budget_book_parameter_title" = "สมุดงบประมาณ";
+"budget_book_parameter_description" = "สมุดงบประมาณที่เกี่ยวข้อง";
+"budget_book_parameter_dialog" = "สมุดงบประมาณที่เกี่ยวข้องคือเล่มใด?";
+"category_group_parameter_title" = "โฟลเดอร์";
+"category_group_parameter_description" = "โฟลเดอร์ที่เกี่ยวข้อง";
+"category_group_parameter_dialog" = "โฟลเดอร์ที่เกี่ยวข้องคือโฟลเดอร์ใด?";
 
 /* Open */
-"open_add_new_income_view_title" = "새 수입 추가";
-"open_add_new_income_view_description" = "앱 내에서 새로운 수입 추가 보기를 엽니다.";
-"open_add_new_expense_view_title" = "새 비용 추가";
-"open_add_new_expense_view_description" = "앱 내에서 새 비용 추가 보기를 엽니다.";
-"open_add_new_transfer_view_title" = "새 전송 추가";
-"open_add_new_transfer_view_description" = "앱 내에서 새 전송 추가 보기를 엽니다.";
-"open_add_new_recurring_view_title" = "새 반복 거래 추가";
-"open_add_new_recurring_view_description" = "앱 내에서 새 반복 거래 추가 보기를 엽니다.";
-"open_upcoming_transactions_view_title" = "계획된 거래";
-"open_upcoming_transactions_view_description" = "앱 내에서 계획된 거래 보기를 엽니다.";
+"open_add_new_income_view_title" = "เพิ่มรายได้";
+"open_add_new_income_view_description" = "เปิดหน้าจอสำหรับเพิ่มรายได้ใหม่ในแอป";
+"open_add_new_expense_view_title" = "เพิ่มค่าใช้จ่าย";
+"open_add_new_expense_view_description" = "เปิดหน้าจอสำหรับเพิ่มค่าใช้จ่ายใหม่ในแอป";
+"open_add_new_transfer_view_title" = "เพิ่มการโอน";
+"open_add_new_transfer_view_description" = "เปิดหน้าจอสำหรับเพิ่มการโอนใหม่ในแอป";
+"open_add_new_recurring_view_title" = "ธุรกรรมที่เกิดซ้ำ";
+"open_add_new_recurring_view_description" = "เปิดหน้าจอสำหรับเพิ่มธุรกรรมที่เกิดซ้ำใหม่ในแอป";
+"open_upcoming_transactions_view_title" = "ธุรกรรมที่วางแผนไว้";
+"open_upcoming_transactions_view_description" = "เปิดหน้าจอธุรกรรมที่วางแผนไว้ในแอป";
 
 /* Show */
-"show_chart_title" = "차트 보기";
+"show_chart_title" = "แสดงแผนภูมิ";
 "show_chart_description" = "แสดงแผนภูมิยอดคงเหลือในบัญชีของคุณ รายได้ หรือค่าใช้จ่ายในช่วงเวลาที่ระบุ";
-"show_chart_parameter_summary" = "${periodType}에 대한 ${type} 차트 표시";
+"show_chart_parameter_summary" = "แสดงแผนภูมิ ${type} สำหรับ ${periodType}";
 
-"chart_type_parameter_title" = "유형";
-"chart_type_dialog" = "어떤 종류의 차트를 원하시나요?";
-"chart_type_account_balances_title" = "계정 잔액";
-"chart_type_balance_title" = "잔액";
-"chart_type_total_income_title" = "총 수입";
-"chart_type_total_expenses_title" = "총 비용";
-"chart_type_fixed_expenses_title" = "고정 비용";
-"chart_type_variable_expenses_title" = "가변 비용";
+"chart_type_parameter_title" = "ประเภท";
+"chart_type_dialog" = "คุณต้องการดูแผนภูมิประเภทใด?";
+"chart_type_account_balances_title" = "ยอดคงเหลือในบัญชี";
+"chart_type_balance_title" = "ยอดคงเหลือ";
+"chart_type_total_income_title" = "รายได้รวม";
+"chart_type_total_expenses_title" = "ค่าใช้จ่ายรวม";
+"chart_type_fixed_expenses_title" = "ค่าใช้จ่ายคงที่";
+"chart_type_variable_expenses_title" = "ค่าใช้จ่ายผันแปร";
 
-"chart_period_type_parameter_title" = "기간";
-"chart_period_type_dialog" = "어떤 기간을 확인하시겠습니까?";
-"chart_type_current_month_title" = "이번 달";
-"chart_type_current_year_title" = "현재 연도";
+"chart_period_type_parameter_title" = "ช่วงเวลา";
+"chart_period_type_dialog" = "คุณต้องการดูช่วงเวลาใด?";
+"chart_type_current_month_title" = "เดือนปัจจุบัน";
+"chart_type_current_year_title" = "ปีปัจจุบัน";
 
 
 /* Parse */

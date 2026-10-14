@@ -37,9 +37,9 @@
 "z0ovGL" = "Configura budget";
 
 /* Descriptions */
-"pFbMvr" = "Questo widget mostra l'andamento dei movimenti del tuo conto, il tuo saldo attuale o una ripartizione delle tue entrate e uscite per il periodo selezionato.";
+"pFbMvr" = "Questo widget mostra l'andamento dei saldi dei tuoi conti, il tuo saldo attuale o una ripartizione delle tue entrate e uscite per il periodo selezionato.";
 "lMVOAh" = "Questo widget mostra un grafico del saldo del tuo conto per un conto specifico e per il periodo selezionato.";
-"S2zZlu" = "Questo widget mostra un riepilogo dei movimenti del tuo conto, del tuo saldo attuale o del totale delle tue entrate e uscite per il periodo selezionato.";
+"S2zZlu" = "Questo widget mostra un riepilogo dei saldi dei tuoi conti, del tuo saldo attuale o del totale delle tue entrate e uscite per il periodo selezionato.";
 "ju8eTZ" = "Questo widget mostra un budget specifico per il periodo selezionato.";
 "c79LHS" = "Questo widget ti consente di aggiungere rapidamente nuove transazioni.";
 
@@ -89,12 +89,12 @@
 "5xfjRl-R35A16" = "Ci sono ${count} opzioni corrispondenti a 'spese variabili'.";
 "jlSssx-Xq1BNs" = "Ci sono ${count} opzioni corrispondenti a 'spese variabili'.";
 
-"PhqijR" = "Movimenti del conto";
-"VhlRFH" = "Movimenti del conto";
-"MkDC8c-PhqijR" = "Solo per conferma, desideri i 'movimenti del conto'?";
-"9mfrfk-VhlRFH" = "Solo per conferma, desideri i 'movimenti del conto'?";
-"5xfjRl-PhqijR" = "Ci sono ${count} opzioni corrispondenti a 'movimenti del conto'.";
-"jlSssx-VhlRFH" = "Ci sono ${count} opzioni corrispondenti a 'movimenti del conto'.";
+"PhqijR" = "Saldi dei conti";
+"VhlRFH" = "Saldi dei conti";
+"MkDC8c-PhqijR" = "Solo per conferma, desideri i 'saldi dei conti'?";
+"9mfrfk-VhlRFH" = "Solo per conferma, desideri i 'saldi dei conti'?";
+"5xfjRl-PhqijR" = "Ci sono ${count} opzioni corrispondenti a 'saldi dei conti'.";
+"jlSssx-VhlRFH" = "Ci sono ${count} opzioni corrispondenti a 'saldi dei conti'.";
 
 /* Action Types */
 "CVbmHD" = "Azione";
@@ -138,7 +138,7 @@
 
 /* MARK: - Siri Intents */
 /* Types */
-"PrcHew" = "Selezionato";
+"PrcHew" = "Registro contabile";
 "RfTeQa" = "Conto";
 "lhsAlw" = "Categoria";
 "7K8wsp" = "Cartella";

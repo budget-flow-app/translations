@@ -35,7 +35,7 @@
 "account_type_savings" = "Rekening Tabungan";
 "account_type_credit_card" = "Kartu Kredit";
 "account_type_investment" = "Investasi";
-"account_type_precaution" = "Dana Darurat";
+"account_type_long_term_savings" = "Dana Darurat";
 "account_type_liability" = "Kewajiban";
 "account_type_business" = "Akun Bisnis";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Rekening Tabungan";
 "account_type_credit_card_plural" = "Kartu Kredit";
 "account_type_investment_plural" = "Investasi";
-"account_type_precaution_plural" = "Dana Darurat";
+"account_type_long_term_savings_plural" = "Dana Darurat";
 "account_type_liability_plural" = "Kewajiban";
 "account_type_business_plural" = "Akun Bisnis";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "Saran";
 "widget_type_distribution" = "Distribusi";
 "widget_type_balance" = "Saldo";
-"widget_type_savings_rate" = "Disimpan";
+"widget_type_savings_rate" = "Tabungan";
 "widget_type_upcoming_transactions" = "Terencana";
 "widget_type_participants" = "Orang";
 "widget_type_budget" = "Anggaran";
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Anda mendukung pengembang muda dan dengan demikian terus mengembangkan aplikasi! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Aplikasi yang hebat";
+"user_review_description_de" = "Aplikasi ini sangat rapi dan fungsional. Semua kebutuhan saya terpenuhi, dan dukungannya juga sangat cepat serta membantu. Sangat saya rekomendasikan.";
+"user_review_title_hr" = "Aplikasi yang bagus";
+"user_review_description_hr" = "Aplikasi kaya fitur dengan antarmuka yang mudah digunakan. Saya sudah mencoba banyak alternatif di iOS, tetapi tidak ada yang memenuhi kebutuhan saya sebaik aplikasi ini. Sepadan dengan harganya.";
+"user_review_title_bg" = "Dukungan yang luar biasa";
+"user_review_description_bg" = "Aplikasi hebat dengan dukungan pelanggan yang luar biasa. Harganya juga sangat wajar untuk kualitas perangkat lunak seperti ini.";
+"user_review_title_us" = "Sejauh ini, aplikasi yang hebat";
+"user_review_description_us" = "Saya sangat suka aplikasi ini tersedia untuk iOS, iPad, dan macOS, sehingga bisa digunakan di mana saja. Bagus juga karena tidak memerlukan akun atau pendaftaran. Sayangnya, hal itu jarang ditemukan sekarang, padahal menurut saya penting untuk aplikasi keuangan.";
+"user_review_title_uk" = "Inilah aplikasi yang tepat!";
+"user_review_description_uk" = "Saya sudah mencari aplikasi seperti ini selama lebih dari dua tahun. Saya menginginkan pengelola keuangan seluler dengan desain menarik, input data baru yang mudah, dan kemampuan melihat informasi lebih lanjut saat diperlukan. Wajib dicoba.";
+"user_review_title_es" = "Aplikasi pencatatan keuangan terbaik";
+"user_review_description_es" = "Benar-benar yang terbaik dari semua aplikasi yang pernah saya coba. Sepertinya aplikasi ini masih cukup baru, tetapi potensinya sekarang dan untuk masa depan sudah jelas terlihat.";
+"user_review_title_fr" = "Aplikasi hebat dan sangat lengkap";
+"user_review_description_fr" = "Saya sudah menggunakan aplikasi ini selama beberapa bulan dan menurut saya hasilnya sangat bagus. Saya tidak sabar melihat perkembangannya beberapa bulan lagi :)";
+"user_review_title_it" = "Benar-benar luar biasa";
+"user_review_description_it" = "Akhirnya. Saya sudah bertahun-tahun mencari solusi seperti ini. Saya menggunakannya dengan app Pintasan dan menyukai desainnya. Saya juga senang tersedia pilihan pembelian satu kali bayar. Teruskan!";
+"user_review_title_ch" = "Dukungan yang hebat";
+"user_review_description_ch" = "Dukungan yang hebat — penyelesaian masalah cepat dan tanpa kerumitan. Saya merasa diperhatikan sebagai pengguna.";
+"user_review_title_pl" = "Sangat nyaman digunakan";
+"user_review_description_pl" = "Aplikasi ini adalah buku keuangan yang sangat bagus dan saya gunakan setiap hari. Meskipun skalanya kecil, pengembangnya juga sangat memperhatikan kebutuhan pengguna.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda.";
 "upgrade_faq_security_value_icloud_suffix" = " atau (opsional) di iCloud pribadi Anda.";
 "upgrade_faq_why_subscription_title" = "Mengapa versi lengkap utamanya ditawarkan sebagai langganan?";
-"upgrade_faq_why_subscription_value" = "Tujuan saya adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membayar biaya yang ada dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang: Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis.\n\nDengan model langganan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa aplikasi sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nNamun, karena sebagian pengguna tidak menyukai langganan, tersedia juga opsi pembelian satu kali bayar dengan harga sedikit lebih mahal. Harga pembelian satu kali bayar ini mencerminkan customer lifetime value (CLV) dan kira-kira sekitar 2,5 kali dari harga langganan tahunan. Dengan demikian, semua biaya di masa depan untuk pembaruan dan dukungan sudah tercakup selama masa pakai aplikasi, yang sebaliknya biasanya ditanggung melalui pembayaran berulang dalam bentuk langganan.\n\nSecara keseluruhan, model bisnis ini memberikan kepada Anda sebagai pengguna banyak manfaat dan pengalaman yang lebih baik melalui pembaruan dan dukungan berkelanjutan. Dalam jangka panjang, pembelian satu kali dengan harga murah sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan pengembangan berkelanjutan.\n\nJadi, jika Anda menyukai aplikasi ini, saya akan sangat senang jika Anda mendukung pekerjaan saya sehingga saya dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa yang akan datang!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow terus dikembangkan, ditingkatkan, dan disesuaikan dengan versi sistem operasi baru. Langganan membantu mendanai pekerjaan ini dalam jangka panjang agar Anda bisa mendapatkan pembaruan rutin, fitur baru, dan dukungan yang baik.\n\nJika Anda tidak menyukai langganan, Anda juga bisa membeli versi lengkap dengan pembayaran satu kali. Harganya sengaja ditetapkan lebih tinggi karena sudah mencakup semua pembaruan dan dukungan di masa mendatang tanpa pembayaran tambahan.\n\nAnda bisa mencoba versi lengkap secara gratis terlebih dahulu dan membatalkan langganan kapan saja. Jika Anda menyukai Budget Flow, pembelian Anda membantu mendukung pengembangan aplikasi ini secara independen.";
 "upgrade_faq_multiple_devices_title" = "Dapatkah saya menggunakan versi lengkap di beberapa perangkat?";
 "upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Akun Apple yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
 "upgrade_faq_multiple_people_title" = "Dapatkah saya menggunakan versi lengkap dengan banyak orang?";

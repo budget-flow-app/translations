@@ -13,7 +13,7 @@
 	<key>Adelaide</key>
 	<string>애들레이드</string>
 	<key>Algiers</key>
-	<string>알제리</string>
+	<string>알제</string>
 	<key>Amman</key>
 	<string>암만</string>
 	<key>Amsterdam</key>
@@ -33,7 +33,7 @@
 	<key>Asuncion</key>
 	<string>아순시온</string>
 	<key>Athens</key>
-	<string>애선스</string>
+	<string>아테네</string>
 	<key>Atlanta</key>
 	<string>애틀랜타</string>
 	<key>Austin</key>
@@ -205,7 +205,7 @@
 	<key>Lagos</key>
 	<string>라고스</string>
 	<key>Lima</key>
-	<string>라마</string>
+	<string>리마</string>
 	<key>Lisbon</key>
 	<string>리스본</string>
 	<key>Ljubljana</key>
@@ -273,7 +273,7 @@
 	<key>Nouakchott</key>
 	<string>누악쇼트</string>
 	<key>Noumea</key>
-	<string>Nouméa</string>
+	<string>누메아</string>
 	<key>Novosibirsk</key>
 	<string>노보시비르스크</string>
 	<key>Nuuk</key>
@@ -327,7 +327,7 @@
 	<key>Regina</key>
 	<string>리자이나</string>
 	<key>Reykjavik</key>
-	<string>레이캬비트</string>
+	<string>레이캬비크</string>
 	<key>Rio de Janeiro</key>
 	<string>리우데자네이루</string>
 	<key>Riyadh</key>

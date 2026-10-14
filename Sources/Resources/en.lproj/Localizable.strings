@@ -20,7 +20,7 @@
 
 "before" = "before";
 "uncategorized" = "Uncategorized";
-"account_reconcilation" = "Account Reconcilation";
+"account_reconcilation" = "Account Reconciliation";
 
 "evaluated" = "Evaluated";
 "not_evaluated" = "Not Evaluated";
@@ -35,7 +35,7 @@
 "account_type_savings" = "Savings Account";
 "account_type_credit_card" = "Credit Card";
 "account_type_investment" = "Investment";
-"account_type_precaution" = "Precaution";
+"account_type_long_term_savings" = "Long-Term Savings";
 "account_type_liability" = "Liability";
 "account_type_business" = "Business Account";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Savings Accounts";
 "account_type_credit_card_plural" = "Credit Cards";
 "account_type_investment_plural" = "Investments";
-"account_type_precaution_plural" = "Precaution";
+"account_type_long_term_savings_plural" = "Long-Term Savings";
 "account_type_liability_plural" = "Liabilities";
 "account_type_business_plural" = "Business Accounts";
 
@@ -262,8 +262,8 @@
 "create_reminder_button" = "Create Reminder";
 "remove_reminder_button" = "Remove Reminder";
 "do_not_show_again_button" = "Do not show again";
-"mark_as_paid_button" = "Payment Completed";
-"mark_as_pending_button" = "Payment Pending";
+"mark_as_paid_button" = "Mark as Completed";
+"mark_as_pending_button" = "Mark as Pending";
 "show_contra_entry_button" = "Show Contra Entry";
 
 "save_changes_button" = "Save Changes";
@@ -565,17 +565,17 @@
 
 /* Upgrade Settings */
 "upgrade_setting_title" = "Unlock full version 🚀";
-"upgrade_setting_description" = "Unlock the full version now and benefit from more additional features!";
+"upgrade_setting_description" = "Unlock the full version to access additional features!";
 
 /* Support Settings */
-"share_app_setting_title" = "Inform Friends";
-"translate_app_setting_title" = "Help Translating";
+"share_app_setting_title" = "Tell Your Friends";
+"translate_app_setting_title" = "Help Translate";
 "help_center_setting_title" = "Help Center";
 "feature_roadmap_setting_title" = "Suggest Feature";
 "rate_app_setting_title" = "Rate App";
 
 /* Legal Settings */
-"imprint_setting" = "Imprint";
+"imprint_setting" = "Legal Notice";
 "privacy_setting" = "Privacy Policy";
 "terms_of_use_setting" = "Terms Of Use";
 "acknowledgements_setting" = "Acknowledgements";
@@ -645,7 +645,7 @@
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
 "backup_setting_section_title" = "Backups";
-"sync_and_data_csv_setting_section_title" = "CSV-Data";
+"sync_and_data_csv_setting_section_title" = "CSV Data";
 
 /* Titles */
 "sync_and_data_setting_cloud_sync_status_title" = "Sync Status";
@@ -666,7 +666,7 @@
 /* Alert Views */
 "alert_csv_import_successful_title" = "Import successful 🎉";
 "alert_csv_import_successful_message" = "In total, %d of %d transactions were imported.%@";
-"alert_csv_import_skipped_message" = " Thereby %d transactions have been skipped.";
+"alert_csv_import_skipped_message" = " %d transactions were skipped.";
 "alert_csv_import_error_message" = "Failed to import %d of %d transactions successfully.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Please check the following fields in your CSV file: %@.";
 "alert_csv_export_successful_title" = "Export successful 🎉";
@@ -725,7 +725,7 @@
 "import_from_cloud_button" = "Download from iCloud";
 
 /* Footer */
-"manual_sync_cloud_setting_footer_title" = "If your data has not or not fully synced with iCloud, you can manually trigger the synchronization here.";
+"manual_sync_cloud_setting_footer_title" = "If your data has not synced with iCloud, or has only partially synced, you can manually start synchronization here.";
 
 
 /* MARK: - Backup Settings View */
@@ -782,7 +782,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Budget Books";
 "backup_restore_progress_accounts" = "Accounts";
-"backup_restore_progress_category_groups" = "Folder";
+"backup_restore_progress_category_groups" = "Folders";
 "backup_restore_progress_categories" = "Categories";
 "backup_restore_progress_payees" = "Payees";
 "backup_restore_progress_tags" = "Tags";
@@ -795,7 +795,7 @@
 /* MARK: - Advanced Settings View */
 /* Info */
 "advanced_setting_info_title" = "Description";
-"advanced_setting_info_description" = "Make further settings to configure the app.";
+"advanced_setting_info_description" = "Adjust additional settings to configure the app.";
 
 /* Sections */
 "advanced_security_setting_section_title" = "Security";
@@ -820,7 +820,7 @@
 "advanced_setting_show_notes_in_title_title" = "Show notes instead of category";
 "advanced_setting_show_notes_in_title_description" = "Show the contents of the notes instead of the category name for transactions.";
 "advanced_setting_start_day_of_month_title" = "Start day of month";
-"advanced_setting_start_day_of_month_description" = "Specify the start day of each month so that reports, transactions and budgets are calculated appropriately.";
+"advanced_setting_start_day_of_month_description" = "Specify the start day of each month so that reports, charts and budgets are calculated correctly.";
 "advanced_setting_configure_transaction_title_title" = "Transaction Title";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaction Subtitle";
 "advanced_setting_configure_transaction_title_info_title" = "Description";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Automatically save captured photos to the photo library.";
 "advanced_setting_suggested_notes_title" = "Suggested notes";
 "advanced_setting_suggested_notes_description" = "Get suggestions based on your previous transactions as you type in the note field.";
-"advanced_setting_consider_pending_items_title" = "Book all transactions";
+"advanced_setting_consider_pending_items_title" = "Include Pending Transactions";
 "advanced_setting_consider_pending_items_description" = "Include pending transactions when calculating account balances, balances, totals, etc.";
 
 /* Sidebar */
@@ -865,10 +865,10 @@
 /* Other */
 "advanced_setting_language_title" = "Language";
 "advanced_setting_time_zone_title" = "Timezone";
-"advanced_setting_enable_live_activities_title" = "Live-Activities";
-"advanced_setting_enable_live_activities_description" = "See your current balance and more on the dynamic island as well as the lock screen.";
+"advanced_setting_enable_live_activities_title" = "Live Activities";
+"advanced_setting_enable_live_activities_description" = "See your current balance and more on the Dynamic Island and the Lock Screen.";
 "advanced_setting_ask_for_feedback_title" = "Ask for Feedback";
-"advanced_setting_ask_for_feedback_description" = "Allow the app occasionally ask you for feedback.";
+"advanced_setting_ask_for_feedback_description" = "Allow the app to occasionally ask you for feedback.";
 
 /* Cloud Sync Status */
 "cloud_sync_status_not_logged_in" = "Not signed in to iCloud";
@@ -1005,7 +1005,7 @@
 "upgrade_feature_security_title" = "Secure Data";
 "upgrade_feature_security_description" = "Protect your data with %@.";
 "upgrade_feature_security_description_passcode" = "Protect your data by creating a passcode";
-"upgrade_feature_security_description_biometric" = " or use %@";
+"upgrade_feature_security_description_biometric" = " or using %@";
 "upgrade_feature_currency_converter_title" = "Currency Converter";
 "upgrade_feature_currency_converter_description" = "Use the built-in currency converter to automatically convert amounts into one of over 150 foreign currencies.";
 "upgrade_feature_customization" = "Personalization";
@@ -1031,17 +1031,17 @@
 "user_review_title_hr" = "Beautiful app";
 "user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
 "user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_description_bg" = "Great app with outstanding customer support. And it’s very reasonably priced for the quality of the software.";
 "user_review_title_us" = "Great app so far";
 "user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
 "user_review_title_uk" = "This is the one!";
 "user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
 "user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but definitely you can see the potential it has.";
 "user_review_title_fr" = "Superb, feature-rich app";
 "user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
 "user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_description_it" = "Finally. I was looking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the one-time purchase option. Keep up the great work!";
 "user_review_title_ch" = "Great support";
 "user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
 "user_review_title_pl" = "Very pleasant to use";
@@ -1104,14 +1104,14 @@
 "upgrade_faq_developer_title" = "Who developed the app?";
 "upgrade_faq_developer_value" = "Budget Flow is an indie app, fully designed, developed, and maintained by me, Fabian Hasse. I am a software developer with over 10 years of experience, and I work with a lot of passion to build the best budgeting app for you.";
 "upgrade_faq_free_use_title" = "Can the app also be used for free?";
-"upgrade_faq_free_use_value" = "Yes, you can use the app's basic functions, such as creating transactions, completely free of charge.\n\nIn addition, the app offers a trial period for the full version so that you can try it out in advance before you decide to purchase or subscribe the full version.";
+"upgrade_faq_free_use_value" = "Yes, you can use the app's basic functions, such as creating transactions, completely free of charge.\n\nIn addition, the app offers a trial period for the full version so that you can try it out in advance before you decide to purchase or subscribe to the full version.";
 "upgrade_faq_security_title" = "Is my data secure?";
 "upgrade_faq_security_value" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device.";
 "upgrade_faq_security_value_icloud_suffix" = " or (optionally) in your personal iCloud.";
 "upgrade_faq_why_subscription_title" = "Why is the full version primarily offered as a subscription?";
-"upgrade_faq_why_subscription_value" = "My goal is to develop a high-quality app that offers you as a user new features and improvements on a regular basis. However, in order to achieve this goal, the app needs continuous revenue in order to finance itself and be economically sustainable.\n\nWhat many don't know: Developing and maintaining an app takes a lot of time. In the case of Budget Flow, for example, it took almost two years and several thousand hours of work from the idea to development and testing before the first version could be released.\n\nThrough the subscription model, you benefit from regular updates and enhancements, as well as support to ensure your continued satisfaction. You also have the opportunity to try the app for free in advance to ensure that it suits your needs you can change or cancel the subscription at any time if you change your mind.\n\nHowever, since some users do not like subscriptions, a slightly more expensive one-time purchase is also available. The price of the one-time purchase represents the customer lifetime value (CLV) and is approximately 2.5 times the annual subscription price. As a result, all future costs for updates and support are covered for the entire lifetime of the app, which would otherwise have been covered by recurring payments as part of a subscription.\n\nOverall, this business model provides you, the user, with many benefits and a better experience through continuous updates and support. In the long run, a low priced one-time purchase would unfortunately not be sustainable, as this business model requires new users to keep buying the app to ensure its continuous development.\n\nSo if you like the app, I would be very happy if you support my work so that I can offer you even more great features in the future!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow is continuously developed, improved and adapted to new operating system versions. A subscription helps fund this work over the long term and provides you with regular updates, new features and good support.\n\nIf you prefer not to subscribe, you can also unlock the full version with a one-time purchase. The one-time price is deliberately higher because it covers all future updates and support without any further payments.\n\nYou can try the full version for free before purchasing and cancel your subscription at any time. If you enjoy Budget Flow, your purchase supports the app’s continued independent development.";
 "upgrade_faq_multiple_devices_title" = "Can I use the full version on multiple devices?";
-"upgrade_faq_multiple_devices_value" = "Yes, you can use the full version of Budget Flow on all your Apple devices with the same Apple Account. Because the app is synced via iCloud, you can seamlessly switch between your devices and have always access to your financial data and settings.";
+"upgrade_faq_multiple_devices_value" = "Yes, you can use the full version of Budget Flow on all your Apple devices with the same Apple Account. Because the app is synced via iCloud, you can seamlessly switch between your devices and always have access to your financial data and settings.";
 "upgrade_faq_multiple_people_title" = "Can I use the full version with multiple people?";
 "upgrade_faq_multiple_people_value" = "Yes, you can share the one-time purchase as well as the subscription of the full version with up to five people within a family group. All you have to do is turn on family sharing in the system settings and add the other people to the group.";
 "upgrade_faq_cancel_subscription_title" = "How do I cancel my subscription?";
@@ -1134,7 +1134,7 @@
 "alert_user_feedback_title" = "Do you like the app?";
 
 "alert_user_feedback_like_title" = "Thank you! 🎉";
-"alert_user_feedback_like_message" = "If you like the app, please write a positive review in the %@. It really helps a lot and motivates to continuously improve the app. 😊";
+"alert_user_feedback_like_message" = "If you like the app, please write a positive review in the %@. It really helps a lot and motivates me to continuously improve the app. 😊";
 "alert_user_feedback_rate_app_button" = "Rate App";
 "alert_user_feedback_maybe_later_button" = "Maybe later";
 
@@ -1214,7 +1214,7 @@
 "alert_confirm_delete_categorygroup_title" = "Are you sure you want to delete this folder? All associated categories, transactions, and budgets will also be deleted (if necessary).";
 "alert_confirm_delete_categorygroup_button" = "Delete Folder";
 "alert_confirm_delete_categorygroup_multiple_title" = "Are you sure you want to delete all selected folders? All associated categories, transactions and budgets will also be deleted (if necessary).";
-"alert_confirm_delete_categorygroup_multiple_button" = "Delete Folder";
+"alert_confirm_delete_categorygroup_multiple_button" = "Delete Folders";
 
 "alert_confirm_delete_category_title" = "Are you sure you want to delete this category? All associated budgets will also be deleted (if necessary).";
 "alert_confirm_delete_category_button" = "Delete Category";
@@ -1551,7 +1551,7 @@
 "form_reminder_title" = "Active";
 "form_reminder_none_type_value" = "None";
 "form_reminder_none_type_value_long" = "No reminder";
-"form_reminder_on_due_value" = "On Due";
+"form_reminder_on_due_value" = "When Due";
 "form_location_none_type_value_long" = "No location";
 "form_original_amount_title" = "Original Amount";
 "form_exchange_rate_title" = "Exchange Rate";
@@ -1803,7 +1803,7 @@
 "icon_keyword_garage" = "Garage";
 "icon_keyword_window" = "Window";
 "icon_keyword_blinds" = "Blinds";
-"icon_keyword_roller" = "Roller";
+"icon_keyword_roller" = "Roller Blind";
 "icon_keyword_curtains" = "Curtains";
 "icon_keyword_air_purifier" = "Air Purifier";
 "icon_keyword_dehumidifier" = "Dehumidifier";
@@ -1818,7 +1818,7 @@
 "icon_keyword_pipe" = "Water Pipe";
 "icon_keyword_hifi_reveiver" = "Hifi System";
 "icon_keyword_video_projector" = "Video Projector";
-"icon_keyword_beamer" = "Beamer";
+"icon_keyword_beamer" = "Projector";
 "icon_keyword_wifi_router" = "Wifi Router";
 "icon_keyword_internet" = "Internet";
 "icon_keyword_party" = "Party";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "Cents";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
-"icon_keyword_franc" = "Franconia";
+"icon_keyword_franc" = "Franc";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Ruble";
 "icon_keyword_euro" = "Euro";
@@ -2026,14 +2026,14 @@
 "icon_keyword_shield" = "Shield";
 "icon_keyword_insurance" = "Insurance";
 "icon_keyword_video_conference" = "Video Conference";
-"icon_keyword_facetime" = "Facetime";
+"icon_keyword_facetime" = "FaceTime";
 "icon_keyword_phone" = "Phone";
 "icon_keyword_mobilephone" = "Mobile";
 "icon_keyword_iphone" = "iPhone";
 "icon_keyword_tablet" = "Tablet";
 "icon_keyword_ipad" = "iPad";
 "icon_keyword_macintosh" = "Macintosh";
-"icon_keyword_macbook" = "Macbook";
+"icon_keyword_macbook" = "MacBook";
 "icon_keyword_imac" = "iMac";
 "icon_keyword_smartphone" = "Smartphone";
 "icon_keyword_calling" = "Calling";
@@ -2067,13 +2067,13 @@
 "icon_keyword_wand" = "Magic Wand";
 "icon_keyword_hourglass" = "Hourglass";
 "icon_keyword_newspaper" = "Newspaper";
-"icon_keyword_wrench" = "Pliers";
+"icon_keyword_wrench" = "Wrench";
 "icon_keyword_screwdriver" = "Screwdriver";
 "icon_keyword_hammer" = "Hammer";
 "icon_keyword_craftsman" = "Craftsman";
 "icon_keyword_tools" = "Tool";
 "icon_keyword_plumber" = "Plumber";
-"icon_keyword_construction_market" = "Construction Market";
+"icon_keyword_construction_market" = "Hardware Store";
 "icon_keyword_scissors" = "Scissors";
 "icon_keyword_hairdresser" = "Hairdresser";
 "icon_keyword_key" = "Key";

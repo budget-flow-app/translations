@@ -189,9 +189,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tệp đính kèm %1$d lần</string>
+			<string>%1$d tệp đính kèm</string>
 			<key>other</key>
-			<string>Tệp đính kèm %1$d lần</string>
+			<string>%1$d tệp đính kèm</string>
 		</dict>
 	</dict>
 	<key>repeats_every_day</key>

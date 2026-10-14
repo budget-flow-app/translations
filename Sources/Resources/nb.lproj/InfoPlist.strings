@@ -9,9 +9,9 @@
 "CFBundleName" = "Budget Flow";
 "CFBundleDisplayName" = "Budget Flow";
 
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "Posisjonstilgang brukes for legge til din nåværende posisjon i transaksjoner automatisk.";
-"NSLocationUsageDescription" = "Posisjonstilgang brukes for legge til din nåværende posisjon i transaksjoner automatisk.";
-"NSLocationWhenInUseUsageDescription" = "Posisjonstilgang brukes for legge til din nåværende posisjon i transaksjoner automatisk.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Posisjonstilgang brukes for å legge til din nåværende posisjon i transaksjoner automatisk.";
+"NSLocationUsageDescription" = "Posisjonstilgang brukes for å legge til din nåværende posisjon i transaksjoner automatisk.";
+"NSLocationWhenInUseUsageDescription" = "Posisjonstilgang brukes for å legge til din nåværende posisjon i transaksjoner automatisk.";
 "NSCameraUsageDescription" = "Kameratilgang brukes for å legge til bilder i transaksjoner.";
 "NSPhotoLibraryUsageDescription" = "Tilgang til bildebiblioteket ditt brukes for å lagre bilder du har tatt.";
 "NSPhotoLibraryAddUsageDescription" = "Tilgang til bildebiblioteket ditt brukes for å lagre bilder du har tatt.";

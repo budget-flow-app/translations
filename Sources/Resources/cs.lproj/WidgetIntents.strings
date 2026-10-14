@@ -33,7 +33,7 @@
 /* Configuration */
 "prSCwi" = "Konfigurovat graf";
 "ioernk" = "Nastavit účet";
-"LM22qM" = "Přehled konfigurace";
+"LM22qM" = "Nastavit přehled";
 "z0ovGL" = "Konfigurovat rozpočet";
 
 /* Descriptions */
@@ -58,8 +58,8 @@
 "Lvj3sF" = "Zůstatek";
 "9mfrfk-3GCjUk" = "Jen pro potvrzení, chtěli jste 'zůstatek'?";
 "MkDC8c-Lvj3sF" = "Jen pro potvrzení, chtěli jste 'zůstatek'?";
-"5xfjRl-Lvj3sF" = "Existuje ${count} možností odpovídajících 'balance'.";
-"jlSssx-3GCjUk" = "Existuje ${count} možností odpovídajících 'balance'.";
+"5xfjRl-Lvj3sF" = "Existuje ${count} možností odpovídajících 'zůstatku'.";
+"jlSssx-3GCjUk" = "Existuje ${count} možností odpovídajících 'zůstatku'.";
 
 "nXqb0W" = "Celkový příjem";
 "wXUvBH" = "Celkový příjem";
@@ -109,7 +109,7 @@
 "SiRH8S-89P1cU" = "Existuje ${count} možností odpovídajících 'novému převodu'.";
 "sEOquD" = "Opakující se";
 "6vnhNE-sEOquD" = "Jen pro potvrzení, chcete 'opakované'?";
-"SiRH8S-sEOquD" = "Existuje ${count} možností odpovídajících 'recurring'.";
+"SiRH8S-sEOquD" = "Existuje ${count} možností odpovídajících 'opakující se'.";
 
 /* Period Types */
 "W8Xs6i" = "Aktuální den";
@@ -155,7 +155,7 @@
 
 "c4H0S5" = "Jaký je typ transakce?";
 "112aEi" = "Jaká je částka transakce?";
-"qnGAXN" = "Probíhá platba transakce?";
+"qnGAXN" = "Je platba transakce nevyřízená?";
 "lTy5qN" = "Má být transakce zahrnuta do statistik?";
 "zZSQvt" = "Která rozpočtová kniha se má použít?";
 "Y5Nex5" = "Který účet má být použit?";

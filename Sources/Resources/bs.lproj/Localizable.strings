@@ -35,7 +35,7 @@
 "account_type_savings" = "Štedni račun";
 "account_type_credit_card" = "Kreditna kartica";
 "account_type_investment" = "Ulozi";
-"account_type_precaution" = "Mjera opreza";
+"account_type_long_term_savings" = "Mjera opreza";
 "account_type_liability" = "Obveza";
 "account_type_business" = "Poslovni račun";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Štedni računi";
 "account_type_credit_card_plural" = "Kreditne kartice";
 "account_type_investment_plural" = "Ulozi";
-"account_type_precaution_plural" = "Mjere opreza";
+"account_type_long_term_savings_plural" = "Mjere opreza";
 "account_type_liability_plural" = "Obveze";
 "account_type_business_plural" = "Poslovni računi";
 
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Ne prikazuj ponovno";
 "mark_as_paid_button" = "Plaćanje dovršeno";
 "mark_as_pending_button" = "Plaćanje u tijeku";
-"show_contra_entry_button" = "Prikaži unos brojača";
+"show_contra_entry_button" = "Prikaži protustavku";
 
 "save_changes_button" = "Spremi promjene";
 "discard_changes_button" = "Odbaci promjene";
@@ -575,7 +575,7 @@
 "rate_app_setting_title" = "Ocijenite aplikaciju";
 
 /* Legal Settings */
-"imprint_setting" = "Otisak";
+"imprint_setting" = "Pravne informacije";
 "privacy_setting" = "Pravila privatnosti";
 "terms_of_use_setting" = "Uvjeti korištenja";
 "acknowledgements_setting" = "Priznanja";
@@ -610,7 +610,7 @@
 "alert_translate_app_github" = "👨🏻‍💻 Putem GitHub-a";
 "alert_translate_app_email" = "📬 Putem E-Maila";
 
-"alert_contact_developer_title" = "O čemu se odnosi vaš zahtjev?";
+"alert_contact_developer_title" = "Na šta se odnosi vaš zahtjev?";
 "alert_contact_developer_feature_request" = "💡 Predloži funkciju";
 "alert_contact_developer_bug_report" = "🐞 Izvještaj o grešci";
 "alert_contact_developer_other" = "📬 Ostalo (E-Mail)";
@@ -835,14 +835,14 @@
 "advanced_setting_save_photos_description" = "Automatski sačuvaj snimljene fotografije u biblioteku fotografija.";
 "advanced_setting_suggested_notes_title" = "Predložene bilješke";
 "advanced_setting_suggested_notes_description" = "Dobijte prijedloge na osnovu svojih prethodnih transakcija dok unosite tekst u polje za bilješke.";
-"advanced_setting_consider_pending_items_title" = "Rezerviraj sve transakcije";
+"advanced_setting_consider_pending_items_title" = "Uključi transakcije na čekanju";
 "advanced_setting_consider_pending_items_description" = "Uključi transakcije na čekanju prilikom izračunavanja stanja računa, stanja, ukupnih iznosa, itd.";
 
 /* Sidebar */
-"advanced_setting_show_accounts_in_sidebar_title" = "Prikaži naloge u bočnoj traci";
-"advanced_setting_show_accounts_in_sidebar_description" = "Prikaži listu vaših naloga na bočnoj traci.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Grupirajte naloge u bočnoj traci";
-"advanced_setting_group_accounts_in_sidebar_description" = "Grupirajte svoje naloge na bočnoj traci prema tipu.";
+"advanced_setting_show_accounts_in_sidebar_title" = "Prikaži račune u bočnoj traci";
+"advanced_setting_show_accounts_in_sidebar_description" = "Prikaži listu vaših računa na bočnoj traci.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Grupirajte račune u bočnoj traci";
+"advanced_setting_group_accounts_in_sidebar_description" = "Grupirajte svoje račune na bočnoj traci prema tipu.";
 "advanced_setting_show_categories_in_sidebar_title" = "Prikaži kategorije u bočnoj traci";
 "advanced_setting_show_categories_in_sidebar_description" = "Prikaži listu vaših kategorija na bočnoj traci.";
 "advanced_setting_group_categories_in_sidebar_title" = "Grupirajte kategorije u bočnoj traci";
@@ -891,7 +891,7 @@
 "alert_error_title" = "Došlo je do greške 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Pratite „%@“ na društvenim mrežama";
 
 /* Copyright */
 "version" = "Verzija";
@@ -958,11 +958,11 @@
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Nove funkcije";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "Ocijeni aplikaciju";
+"new_features_view_close_button" = "Možda kasnije";
 
 
 /* MARK: - Upgrade View */
@@ -996,8 +996,8 @@
 "upgrade_features_description" = "Sljedeće su sve značajke koje će se otključati kupnjom pune verzije:";
 "upgrade_feature_unlimited_accounts_title" = "Dodatni računi";
 "upgrade_feature_unlimited_accounts_description" = "Stvorite dodatne račune i dodijelite im transakcije za još bolji pregled vaših prihoda i rashoda.";
-"upgrade_feature_unlimited_categories_and_tags_title" = "Neograničeno kategorija";
-"upgrade_feature_unlimited_categories_and_tags_description" = "Stvorite neograničeno kategorija koje možete personalizirati bojama, ikonama i emotikonima.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Neograničeno kategorija i oznaka";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Stvorite neograničen broj kategorija i oznaka koje možete dodati transakcijama radi bolje organizacije.";
 "upgrade_feature_extended_analyses_title" = "Proširena analitika";
 "upgrade_feature_extended_analyses_description" = "Iskoristite prednosti dodatne analitike i proširene prognoze vaših budućih stanja i transakcija na vašem računu.";
 "upgrade_feature_unlimited_budgetbooks_title" = "Više budžetskih knjiga";
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Podržavate mladog programera, a time i kontinuirani razvoj aplikacije! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Odlična aplikacija";
+"user_review_description_de" = "Aplikacija je vrlo dobro osmišljena i funkcionalna. Zadovoljava sve moje potrebe, a podrška je vrlo brza i korisna. Mogu je samo preporučiti.";
+"user_review_title_hr" = "Prelijepa aplikacija";
+"user_review_description_hr" = "Aplikacija bogata funkcijama, s korisničkim interfejsom jednostavnim za upotrebu. Isprobao sam mnoge alternative na iOS-u, ali nijedna nije zadovoljila moje potrebe kao ova aplikacija. Vrijedi svog novca.";
+"user_review_title_bg" = "Izvanredna podrška";
+"user_review_description_bg" = "Odlična aplikacija s izvanrednom korisničkom podrškom. A cijena je vrlo povoljna s obzirom na kvalitet softvera.";
+"user_review_title_us" = "Zasad odlična aplikacija";
+"user_review_description_us" = "Veoma mi se sviđa što je aplikacija dostupna na iOS-u, iPadu i macOS-u, pa mogu ažurirati podatke bilo gdje. Također je lijepo vidjeti da nije potreban korisnički račun i da se podaci ne prikupljaju, što se danas čini rijetkim, ali mi je važno kod finansijskih aplikacija.";
+"user_review_title_uk" = "To je ta!";
+"user_review_description_uk" = "Ovakvu aplikaciju tražim više od dvije godine. Želio sam alat za upravljanje finansijama na telefonu, osmišljen oko lijepog ekrana s pregledom, koji omogućava jednostavan unos novih podataka i uvid u detalje kada zatrebaju! Isprobajte je.";
+"user_review_title_es" = "Najbolja aplikacija za budžet";
+"user_review_description_es" = "Jednostavno najbolja koju sam isprobao. Mislim da je aplikacija još nova, ali njen potencijal se svakako vidi.";
+"user_review_title_fr" = "Izvrsna aplikacija bogata funkcijama";
+"user_review_description_fr" = "Aplikaciju koristim već nekoliko mjeseci i zaista mi se sviđa. Čestitam na vašem radu i jedva čekam vidjeti kako će aplikacija izgledati za nekoliko mjeseci :)";
+"user_review_title_it" = "Jednostavno odlična";
+"user_review_description_it" = "Napokon. Godinama sam tražio ovakvo rješenje. Koristim ga s okidačem transakcija u iOS prečicama i sviđa mi se dizajn. Sviđa mi se i mogućnost da platim samo jednom. Nastavite s odličnim radom!";
+"user_review_title_ch" = "Odlična podrška";
+"user_review_description_ch" = "Odlična podrška – brzo i jednostavno rješavanje problema. Osjećam da me kao korisnika shvataju ozbiljno.";
+"user_review_title_pl" = "Veoma ugodna za korištenje";
+"user_review_description_pl" = "Aplikacija je odličan alat za praćenje i planiranje budžeta koji koristim svaki dan. Osim toga, razvojni programer veoma pažljivo sluša svoju zajednicu, iako je mala.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,11 +1109,11 @@
 "upgrade_faq_security_value" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju.";
 "upgrade_faq_security_value_icloud_suffix" = " ili (opcionalno) u vašem ličnom iCloudu.";
 "upgrade_faq_why_subscription_title" = "Zašto se puna verzija nudi kao pretplata?";
-"upgrade_faq_why_subscription_value" = "Naš cilj je razviti visokokvalitetnu aplikaciju koja vam kao korisniku redovito nudi nove značajke i poboljšanja. Međutim, kako bi se postigao ovaj cilj, aplikaciji su potrebni stalni prihodi kako bi se financirao kontinuirani razvoj.\n\nOno što mnogi ne znaju jeste da razvoj i održavanje aplikacija zahtijeva puno vremena. U slučaju Budget Flow, na primjer, od ideje do razvoja bile su potrebne gotovo dvije godine i nekoliko tisuća sati rada i testiranje prije nego što se prva verzija mogla objaviti.\n\nKao kupac, posebno imate koristi od redovitih ažuriranja i poboljšanja putem modela pretplate, kao i dobre podrške kako biste bili sigurni da ćete i dalje biti zadovoljni. Također imate priliku isprobati aplikaciju besplatno unaprijed kako biste bili sigurni da odgovara vašim potrebama. Možete promijeniti ili otkazati pretplatu u bilo kojem trenutku ako se predomislite.\n\nSve u svemu, model pretplate nudi mnoge pogodnosti za vas kao kupca i bolje korisničko iskustvo kroz stalna ažuriranja i podršku u usporedbi s jednokratnom kupnjom. Dugoročno gledano, jednokratna kupnja nažalost ne bi bila održiva jer ovaj poslovni model zahtijeva da novi korisnici nastave kupovati aplikaciju kako bi se osigurao nastavak razvoja.\n\nDakle, ako vam se aplikacija sviđa, bili bi mnogo zahvalni kada biste podržavali naš rad, jer bi vam mogli nastaviti nuditi još sjajnijih značajki u budućnosti!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow se stalno razvija, poboljšava i prilagođava novim verzijama operativnih sistema. Pretplata pomaže da se taj rad dugoročno finansira i da redovno dobivate ažuriranja, nove funkcije i kvalitetnu podršku.\n\nAko ne volite pretplate, punu verziju možete kupiti i jednokratno. Cijena jednokratne kupovine namjerno je viša jer pokriva sva buduća ažuriranja i podršku bez dodatnih plaćanja.\n\nPunu verziju možete prethodno besplatno isprobati, a pretplatu otkazati u bilo kojem trenutku. Ako vam se Budget Flow sviđa, svojom kupovinom podržavate daljnji nezavisni razvoj aplikacije.";
 "upgrade_faq_multiple_devices_title" = "Mogu li koristiti punu verziju na više uređaja?";
-"upgrade_faq_multiple_devices_value" = "Da, možete koristiti punu verziju Budget Flow-a na svim svojim Apple uređajima s istim Apple računom. Budući da je aplikacija sinkronizirana putem iClouda, možete se neprimjetno prebacivati ​​između svojih uređaja i uvijek imati pristup svojim financijskim podacima i postavke.";
+"upgrade_faq_multiple_devices_value" = "Da, možete koristiti punu verziju Budget Flow-a na svim svojim Apple uređajima s istim Apple računom. Budući da je aplikacija sinkronizirana putem iClouda, možete se neprimjetno prebacivati između svojih uređaja i uvijek imati pristup svojim financijskim podacima i postavkama.";
 "upgrade_faq_multiple_people_title" = "Mogu li koristiti punu verziju s više osoba?";
-"upgrade_faq_multiple_people_value" = "Da, možete podijeliti jednokratnu kupnju kao i pretplatu na punu verziju s do pet osoba unutar obiteljske grupe. Sve što trebate učiniti je uključiti obiteljsko dijeljenje u postavkama sustava i dodati druge osobe u grupi pozivaju.";
+"upgrade_faq_multiple_people_value" = "Da, možete podijeliti jednokratnu kupnju kao i pretplatu na punu verziju s do pet osoba unutar obiteljske grupe. Sve što trebate učiniti je uključiti obiteljsko dijeljenje u postavkama sustava i pozvati druge osobe u grupu.";
 "upgrade_faq_cancel_subscription_title" = "Kako mogu otkazati svoju pretplatu?";
 "upgrade_faq_cancel_subscription_value" = "Možete otkazati svoju pretplatu u bilo kojem trenutku koristeći svoj %@ račun u postavkama sustava.";
 "upgrade_faq_subscription_data_loss_title" = "Hoće li moji podaci biti izgubljeni ako otkažem svoju pretplatu?";
@@ -1211,12 +1211,12 @@
 "alert_confirm_delete_account_multiple_title" = "Jeste li sigurni da želite izbrisati sve odabrane račune? Sve povezane transakcije također će biti izbrisane.";
 "alert_confirm_delete_account_multiple_button" = "Izbriši račune";
 
-"alert_confirm_delete_categorygroup_title" = "Jeste li ste sigurni da želite da izbrišete ovu fasciklu? Sve povezane kategorije, transakcije i budžeti će takođe biti izbrisani (ako je potrebno).";
+"alert_confirm_delete_categorygroup_title" = "Jeste li sigurni da želite da izbrišete ovu fasciklu? Sve povezane kategorije, transakcije i budžeti će takođe biti izbrisani (ako je potrebno).";
 "alert_confirm_delete_categorygroup_button" = "Izbriši fasciklu";
-"alert_confirm_delete_categorygroup_multiple_title" = "Jeste li ste sigurni da želite da izbrišete sve izabrane fascikle? Sve povezane kategorije, transakcije i budžeti će takođe biti izbrisani (ako je potrebno).";
+"alert_confirm_delete_categorygroup_multiple_title" = "Jeste li sigurni da želite da izbrišete sve izabrane fascikle? Sve povezane kategorije, transakcije i budžeti će takođe biti izbrisani (ako je potrebno).";
 "alert_confirm_delete_categorygroup_multiple_button" = "Izbriši fasciklu";
 
-"alert_confirm_delete_category_title" = "Jeste li ste sigurni da želite da izbrišete ovu kategoriju? Svi povezani budžeti će takođe biti izbrisani (ako je potrebno).";
+"alert_confirm_delete_category_title" = "Jeste li sigurni da želite da izbrišete ovu kategoriju? Svi povezani budžeti će takođe biti izbrisani (ako je potrebno).";
 "alert_confirm_delete_category_button" = "Izbriši kategoriju";
 "alert_confirm_delete_category_multiple_title" = "Jeste li sigurni da želite izbrisati sve odabrane kategorije? Sve povezane transakcije i proračuni će također biti izbrisani.";
 "alert_confirm_delete_category_multiple_button" = "Brisanje kategorija";
@@ -1354,12 +1354,12 @@
 "no_budget_books_found_title" = "Nisu pronađene budžetske knjige";
 "no_budget_book_found_title" = "Budžetska knjiga nije pronađena";
 "no_budget_books_found_message" = "Kliknite gumb \"+\" za dodavanje nove budžetske knjige.";
-"no_budget_books_found_button_title" = "Nova budžetske knjiga";
+"no_budget_books_found_button_title" = "Nova budžetska knjiga";
 "no_budget_books_found_cloud_sync_message" = "Postojeći podaci se učitavaju iz iClouda. Pričekajte trenutak...\n\nAlternativno, kliknite na gumb \"+\" za dodavanje nove budžetske knjige.";
 "no_budget_books_found_cloud_sync_message_short" = "Postojeći podaci se učitavaju s iClouda. Pričekajte trenutak...";
-"budget_books_search_placeholder_message" = "Traži ime vlasnika budžeta";
+"budget_books_search_placeholder_message" = "Traži po nazivu budžetske knjige";
 
-"no_accounts_title" = "Nema naloga";
+"no_accounts_title" = "Nema računa";
 "no_accounts_found_title" = "Nisu pronađeni računi";
 "no_account_found_title" = "Račun nije pronađen";
 "no_accounts_found_message" = "Kliknite gumb \"+\" za dodavanje novog računa.";
@@ -1407,7 +1407,7 @@
 "form_title_section_title" = "Naslov";
 "form_color_section_title" = "Boja";
 "form_icon_section_title" = "Ikona";
-"form_assignment_section_title" = "Zadatak";
+"form_assignment_section_title" = "Dodjela";
 "form_miscellaneous_section_title" = "Razno";
 
 /* Miscellaneous */
@@ -1450,8 +1450,8 @@
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */
-"form_button_archive_account" = "Arhiviraj nalog";
-"form_button_unarchive_account" = "Poništi arhiviranje naloga";
+"form_button_archive_account" = "Arhiviraj račun";
+"form_button_unarchive_account" = "Poništi arhiviranje računa";
 "form_button_delete_account" = "Izbriši račun";
 
 
@@ -1668,7 +1668,7 @@
 
 /* MARK: - Other Alert Views */
 "alert_selected_period_changed_title" = "%@ odabrano";
-"alert_selected_period_changed_message" = "Budući da je %@ započeo, trenutno razdoblje je automatski prilagođeno.\n\nZa prebacivanje između razdoblja i pregled prošlih transakcija, jednostavno kliknite gumb \"%@\" u gornjem lijevom kutu ekrana, zatim odaberite željeno vremensko razdoblje.";
+"alert_selected_period_changed_message" = "Počeo je novi period (%@), pa je prikazani period automatski prilagođen.\n\nZa prebacivanje između razdoblja i pregled prošlih transakcija, jednostavno kliknite gumb \"%@\" u gornjem lijevom kutu ekrana, zatim odaberite željeno vremensko razdoblje.";
 "alert_selected_period_changed_new_month" = "novi mjesec";
 "alert_selected_period_changed_new_year" = "nova godina";
 
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Čini se da nemate postavljen račun e-pošte na svom uređaju. Međutim, ovo je obavezno za korištenje ove značajke.";
 
 "alert_no_camera_title" = "Nema dostupne kamere";
-"alert_no_camera_message" = "Izgleda da nemate kameru. Međutim, korištenje ove značajke je obavezno.";
+"alert_no_camera_message" = "Izgleda da nemate kameru. Kamera je obavezna za korištenje ove značajke.";
 
 "alert_permissions_title" = "Još malo!";
 "alert_permissions_activate_button" = "Aktiviraj sada";
@@ -1688,10 +1688,10 @@
 
 
 /* MARK: - Tips */
-"period_selection_tip_title" = "Period promjene";
+"period_selection_tip_title" = "Promijeni period";
 "period_selection_tip_message" = "Kliknite ovdje da promijenite prikazani period. Ovo utiče na sve prikaze (pregled, transakcije i budžete).";
-"interactive_charts_tip_title" = "Interaktivne karte";
-"interactive_charts_tip_message" = "Prevucite nalevo ili udesno da promenite aktivni grafikon ili dugo pritisnite grafikon da vidite vrednosti za određeni datum.";
+"interactive_charts_tip_title" = "Interaktivni grafikoni";
+"interactive_charts_tip_message" = "Prevucite ulijevo ili udesno da promijenite aktivni grafikon ili dugo pritisnite grafikon da vidite vrijednosti za određeni datum.";
 "switch_budget_books_tip_title" = "Zameni knjige budžeta";
 "switch_budget_books_tip_message" = "Dugo pritisnite karticu sa pregledom da brzo prelazite sa jedne na drugu knjigu budžeta.";
 
@@ -1729,7 +1729,7 @@
 "default_category_name_restaurant" = "Restoran";
 "default_category_name_fast_food" = "Brza hrana";
 
-"default_category_group_name_living" = "Život";
+"default_category_group_name_living" = "Stanovanje";
 "default_category_name_rent" = "Zakup";
 
 "default_category_group_name_miscellaneous" = "Razno";
@@ -1760,7 +1760,7 @@
 "color_keyword_purple" = "Ljubičasta";
 "color_keyword_pink" = "Ružičasta";
 "color_keyword_brown" = "Smeđa";
-"color_keyword_mint" = "Kovnica";
+"color_keyword_mint" = "Menta";
 "color_keyword_cyan" = "Cijan";
 "color_keyword_violet" = "Ljubičasta";
 "color_keyword_gray" = "Siva";
@@ -1794,7 +1794,7 @@
 "icon_keyword_building" = "Zgrada";
 "icon_keyword_house" = "Kuća";
 "icon_keyword_lightbulb" = "Žarulja";
-"icon_keyword_fan" = "Obožavatelj";
+"icon_keyword_fan" = "Ventilator";
 "icon_keyword_lamp" = "Lampa";
 "icon_keyword_alarm_system" = "Alarmni sustav";
 "icon_keyword_webcam" = "Web kamera";
@@ -1803,7 +1803,7 @@
 "icon_keyword_garage" = "Garaža";
 "icon_keyword_window" = "Prozor";
 "icon_keyword_blinds" = "Sjenila";
-"icon_keyword_roller" = "Valjak";
+"icon_keyword_roller" = "Rolo zavjesa";
 "icon_keyword_curtains" = "Zavjese";
 "icon_keyword_air_purifier" = "Pročišćivač zraka";
 "icon_keyword_dehumidifier" = "Odvlaživač";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "Gušter";
 "icon_keyword_bird" = "Ptica";
 "icon_keyword_ant" = "Mrav";
-"icon_keyword_ladybug" = "Greška";
+"icon_keyword_ladybug" = "Buba";
 "icon_keyword_fish" = "Riba";
 "icon_keyword_pet" = "Kućni ljubimac";
 "icon_keyword_cat" = "Mačka";
@@ -1990,14 +1990,14 @@
 "icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Paket";
-"icon_keyword_apple" = "Jabuka";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "Novčanica";
 "icon_keyword_refund" = "Povrat novca";
 "icon_keyword_dollar" = "Dolari";
 "icon_keyword_cent" = "Centi";
 "icon_keyword_yen" = "Jen";
 "icon_keyword_pound" = "Funta";
-"icon_keyword_franc" = "Frankonska";
+"icon_keyword_franc" = "Franak";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Rublja";
 "icon_keyword_euro" = "Euro";
@@ -2026,7 +2026,7 @@
 "icon_keyword_shield" = "Štit";
 "icon_keyword_insurance" = "Osiguranje";
 "icon_keyword_video_conference" = "Video konferencija";
-"icon_keyword_facetime" = "Vrijeme lica";
+"icon_keyword_facetime" = "FaceTime";
 "icon_keyword_phone" = "Telefon";
 "icon_keyword_mobilephone" = "Mobilni";
 "icon_keyword_iphone" = "iPhone";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "Čarobni štapić";
 "icon_keyword_hourglass" = "Pješčani sat";
 "icon_keyword_newspaper" = "Novine";
-"icon_keyword_wrench" = "Kliješta";
+"icon_keyword_wrench" = "Podesivi ključ";
 "icon_keyword_screwdriver" = "Odvijač";
 "icon_keyword_hammer" = "Čekić";
 "icon_keyword_craftsman" = "Obrtnik";
@@ -2079,7 +2079,7 @@
 "icon_keyword_key" = "Ključ";
 "icon_keyword_school" = "Škola";
 "icon_keyword_university" = "Sveučilište";
-"icon_keyword_study" = "Studija";
+"icon_keyword_study" = "Studiranje";
 "icon_keyword_tuition_fees" = "Školarine";
 "icon_keyword_flashlight" = "Baterijska svjetiljka";
 "icon_keyword_bell" = "Zvono";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Laboratorij";
 "icon_keyword_calendar" = "Kalendar";
 "icon_keyword_rent" = "Najam";
-"icon_keyword_flat" = "Ravno";
+"icon_keyword_flat" = "Stan";
 "icon_keyword_work" = "Posao";
 "icon_keyword_salary" = "Plaća";
 "icon_keyword_corona" = "Korona";
@@ -2110,7 +2110,7 @@
 "icon_keyword_drone" = "Dron";
 "icon_keyword_motorcycle" = "Motocikl";
 "icon_keyword_tire" = "Guma";
-"icon_keyword_oilcan" = "Kamen za ulje";
+"icon_keyword_oilcan" = "Kantica za ulje";
 "icon_keyword_keys" = "Ključevi";
 "icon_keyword_fire_extinguisher" = "Aparat za gašenje požara";
 "icon_keyword_hockey" = "Hokej";
@@ -2135,7 +2135,7 @@
 
 /* Categories */
 "add_category_name" = "Dodaj";
-"open_category_name" = "Otvoreno";
+"open_category_name" = "Otvori";
 "show_category_name" = "Prikaži";
 "search_category_name" = "Traži";
 "create_category_name" = "Stvori";
@@ -2166,13 +2166,13 @@
 "search_budget_book_title" = "Pretraži knjigu budžeta";
 "search_budget_book_description" = "Tražite određenu knjigu budžeta po imenu.";
 "search_budget_book_parameter_summary" = "Pretraži knjigu budžeta sa ${name}";
-"search_account_title" = "Pretraži nalog";
-"search_account_description" = "Traži određeni nalog po imenu.";
+"search_account_title" = "Pretraži račun";
+"search_account_description" = "Traži određeni račun po imenu.";
 "search_account_parameter_summary" = "Pretražite račun sa ${name} u ${budgetBook}";
 "search_category_group_title" = "Pretraži folder";
 "search_category_group_description" = "Traži određeni folder po imenu.";
 "search_category_group_parameter_summary" = "Pretraži folder sa ${name} u ${budgetBook}";
-"search_category_title" = "Kategorija pretraživanja";
+"search_category_title" = "Traži kategoriju";
 "search_category_description" = "Traži određenu kategoriju po imenu.";
 "search_category_parameter_summary" = "Pretražite kategoriju sa ${name} u ${categoryGroup} od ${budgetBook}";
 "search_payee_title" = "Traži primaoca uplate";

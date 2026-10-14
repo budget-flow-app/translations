@@ -35,7 +35,7 @@
 "account_type_savings" = "Накопительный счет";
 "account_type_credit_card" = "Кредитная карта";
 "account_type_investment" = "Инвестиционный счет";
-"account_type_precaution" = "Меры предосторожности";
+"account_type_long_term_savings" = "Меры предосторожности";
 "account_type_liability" = "Счет обязательств";
 "account_type_business" = "Бизнес-счет";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Накопительные счета";
 "account_type_credit_card_plural" = "Кредитные карты";
 "account_type_investment_plural" = "Инвестиционные счета";
-"account_type_precaution_plural" = "Меры предосторожности";
+"account_type_long_term_savings_plural" = "Меры предосторожности";
 "account_type_liability_plural" = "Счета обязательств";
 "account_type_business_plural" = "Бизнес-счета";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "Предложения";
 "widget_type_distribution" = "Распределение";
 "widget_type_balance" = "Баланс";
-"widget_type_savings_rate" = "Сохранено";
+"widget_type_savings_rate" = "Сэкономлено";
 "widget_type_upcoming_transactions" = "Запланировано";
 "widget_type_participants" = "Участники";
 "widget_type_budget" = "Бюджет";
@@ -215,14 +215,14 @@
 "transactions_menu_title" = "Операции";
 "show_all_transactions_menu_title" = "Показать все операции";
 "show_recurring_transactions_menu_title" = "Показать повторяющиеся операции";
-"show_upcoming_transactions_menu_title" = "Показать Планируется операции";
+"show_upcoming_transactions_menu_title" = "Показать запланированные операции";
 
 
 /* MARK: - Sidebar Menu */
 "menu" = "Меню";
 "menu_accounts_section" = "Счета";
 "menu_categories_section" = "Категории";
-"menu_selected_budget_book_title" = "Книга бюджета";
+"menu_selected_budget_book_title" = "Выбрано";
 
 
 /* MARK: - Tabs */
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Больше не показывать";
 "mark_as_paid_button" = "Платеж завершен";
 "mark_as_pending_button" = "Ожидание платежа";
-"show_contra_entry_button" = "Вход по счетчику";
+"show_contra_entry_button" = "Показать встречную проводку";
 
 "save_changes_button" = "Сохранить изменения";
 "discard_changes_button" = "Отменить изменения";
@@ -408,7 +408,7 @@
 "no_widgets_title" = "Нет добавленных виджетов";
 "no_widgets_message" = "Нажмите \"Настроить\", чтобы настроить вид.";
 "no_suggestions_title" = "Нет предложений";
-"not_shared_title" = "Книга бюджета недоступна";
+"not_shared_title" = "Книга бюджета не предоставлена в общий доступ";
 
 /* Widgets */
 "net_worth_widget_title" = "Чистая стоимость";
@@ -520,7 +520,7 @@
 /* Widgets */
 "trend_widget_title" = "Тенденция";
 "total_balance_widget_title" = "Баланс";
-"savings_rate_widget_title" = "Сумма сбережений";
+"savings_rate_widget_title" = "Норма сбережений";
 
 
 /* MARK: - Account Forecast View */
@@ -714,7 +714,7 @@
 "cloud_setting_low_power_mode_status_title" = "Режим энергосбережения";
 "cloud_setting_low_power_mode_status_enabled_value" = "Включено (синхронизация может быть приостановлена)";
 "cloud_setting_low_power_mode_status_disabled_value" = "Отключено";
-"cloud_setting_upload_status_title" = "Последняя загрузка";
+"cloud_setting_upload_status_title" = "Последняя выгрузка";
 "cloud_setting_download_status_title" = "Последняя загрузка";
 "cloud_setting_number_of_transactions_title" = "Транзакции";
 "cloud_setting_number_of_transactions_value" = "На устройстве: %d\nВ iCloud: %d";
@@ -731,7 +731,7 @@
 /* MARK: - Backup Settings View */
 /* Info */
 "backup_setting_info_title" = "Описание";
-"backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
+"backup_setting_info_description" = "Если функция включена, Budget Flow регулярно создаёт резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
 
 /* Sections */
 "backup_setting_general_section_title" = "Общие";
@@ -841,8 +841,8 @@
 /* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Показывать счета в боковом меню";
 "advanced_setting_show_accounts_in_sidebar_description" = "Показывать список счетов в боковом меню.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Группируйте учетные записи на боковой панели";
-"advanced_setting_group_accounts_in_sidebar_description" = "Группируйте учетные записи на боковой панели по типу.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Группируйте счета на боковой панели";
+"advanced_setting_group_accounts_in_sidebar_description" = "Группируйте счета на боковой панели по типу.";
 "advanced_setting_show_categories_in_sidebar_title" = "Показывать категории на боковой панели";
 "advanced_setting_show_categories_in_sidebar_description" = "Показывать список категорий на боковой панели.";
 "advanced_setting_group_categories_in_sidebar_title" = "Группируйте категории на боковой панели";
@@ -891,10 +891,10 @@
 "alert_error_title" = "Произошла ошибка 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Подпишитесь на «%@» в социальных сетях";
 
 /* Copyright */
-"version" = "Bерсия";
+"version" = "Версия";
 "developed_by" = "Разработано %@ 👨🏻‍💻";
 
 
@@ -1015,7 +1015,7 @@
 "upgrade_feature_receipt_scanner_title" = "Сканер чеков";
 "upgrade_feature_receipt_scanner_description" = "Используйте сканер для оцифровки чеков и автоматического распознавания суммы и имени продавца.";
 "upgrade_feature_widgets_title" = "Виджеты главного экрана и экрана блокировки";
-"upgrade_feature_widgets_description" = "С помощью виджетов вы можете сразу увидеть свои текущие доходы и расходы, остаток на счете и многое другое, не открывая приложение. Чтобы предварительно просмотреть виджеты, отредактировать домашний экран или экран блокировки, откройте \"Добавить виджет\", а затем выберите это приложение.";
+"upgrade_feature_widgets_description" = "С помощью виджетов вы можете сразу увидеть свои текущие доходы и расходы, остаток на счете и многое другое, не открывая приложение. Чтобы предварительно просмотреть виджеты, отредактируйте домашний экран или экран блокировки, откройте \"Добавить виджет\", а затем выберите это приложение.";
 "upgrade_feature_reminders_title" = "Создать напоминания";
 "upgrade_feature_reminders_description" = "Создавайте напоминания о запланированных операциях, чтобы получать push-уведомления (в том числе в автономном режиме).";
 "upgrade_feature_csv_title" = "Импорт и экспорт CSV";
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Вы поддерживаете молодого разработчика и тем самым постоянное развитие приложения! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Отличное приложение";
+"user_review_description_de" = "Приложение очень хорошо продумано и функционально. Оно отвечает всем моим потребностям, а поддержка очень быстрая и полезная. Могу только рекомендовать.";
+"user_review_title_hr" = "Красивое приложение";
+"user_review_description_hr" = "Многофункциональное приложение с удобным интерфейсом. Пробовал множество альтернатив на iOS, но ни одна не отвечала моим потребностям так, как это приложение. Стоит своих денег.";
+"user_review_title_bg" = "Превосходная поддержка";
+"user_review_description_bg" = "Отличное приложение с превосходной поддержкой пользователей. И цена очень разумная для такого качества программы.";
+"user_review_title_us" = "Пока всё отлично";
+"user_review_description_us" = "Очень нравится, что приложение доступно на iOS, iPad и macOS, поэтому я могу обновлять данные где угодно. Также приятно, что не требуется учётная запись и нет сбора данных. Сейчас это кажется редкостью, но для меня это важно в финансовых приложениях.";
+"user_review_title_uk" = "Вот оно!";
+"user_review_description_uk" = "Я искал такое приложение больше двух лет. Хотелось управлять финансами на телефоне с красивым обзорным экраном, простым вводом новых данных и возможностью при необходимости посмотреть подробности! Попробуйте.";
+"user_review_title_es" = "Лучшее приложение для бюджета";
+"user_review_description_es" = "Просто лучшее из тех, что я пробовал. Думаю, приложение ещё новое, но его потенциал определённо виден.";
+"user_review_title_fr" = "Превосходное приложение с множеством функций";
+"user_review_description_fr" = "Пользуюсь приложением уже несколько месяцев, и оно мне очень нравится. Поздравляю с проделанной работой и с нетерпением жду, каким приложение станет через несколько месяцев :)";
+"user_review_title_it" = "Просто отлично";
+"user_review_description_it" = "Наконец-то. Я годами искал такое решение. Использую его с триггером транзакций в «Командах» на iOS, очень нравится дизайн. И нравится возможность заплатить один раз. Продолжайте в том же духе!";
+"user_review_title_ch" = "Отличная поддержка";
+"user_review_description_ch" = "Отличная поддержка — быстрое и простое решение проблем. Чувствую, что ко мне как к пользователю относятся серьёзно.";
+"user_review_title_pl" = "Очень приятно пользоваться";
+"user_review_description_pl" = "Приложение — отличный инструмент для учёта и планирования бюджета, которым я пользуюсь каждый день. Кроме того, разработчик очень внимательно относится к своему сообществу, несмотря на его небольшой размер.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,11 +1109,11 @@
 "upgrade_faq_security_value" = "Ваши финансы конфиденциальны — и должны оставаться таковыми. Вот почему ваши данные хранятся исключительно на вашем устройстве.";
 "upgrade_faq_security_value_icloud_suffix" = " или (опционально) в вашем личном iCloud.";
 "upgrade_faq_why_subscription_title" = "Почему полная версия предлагается по подписке?";
-"upgrade_faq_why_subscription_value" = "Наша цель — разработать высококачественное приложение, которое регулярно предлагает вам как пользователю новые функции и улучшения. Однако для достижения этой цели приложению требуется постоянный доход, чтобы финансировать себя и быть экономически устойчивым.\n\nО чем многие не знают Разработка и поддержка приложения занимает много времени. Например, в случае с Budget Flow от идеи до разработки прошло почти два года и несколько тысяч часов работы и тестирование перед выпуском первой версии.\n\nКак клиент, вы, в частности, получаете выгоду от регулярных обновлений и улучшений по модели подписки, а также хорошую поддержку, чтобы гарантировать, что вы и дальше будете довольны. также у вас есть возможность заранее попробовать приложение бесплатно, чтобы убедиться, что оно соответствует вашим потребностям. Вы можете изменить или отменить подписку в любое время, если передумаете.\n\nВ целом, модель подписки дает вам много преимуществ как клиент и лучший пользовательский опыт благодаря постоянным обновлениям и поддержке по сравнению с разовой покупкой. В долгосрочной перспективе разовая покупка, к сожалению, не будет устойчивой, поскольку эта бизнес-модель требует, чтобы новые пользователи продолжали покупать приложение, чтобы обеспечить продолжение разработки.\n\nПоэтому, если вам нравится приложение, мы будем очень рады. если вы поддержите нашу работу, чтобы мы могли продолжать предлагать вам еще больше замечательных функций в будущем!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow постоянно развивается, улучшается и адаптируется к новым версиям операционных систем. Подписка помогает финансировать эту работу в долгосрочной перспективе, чтобы вы регулярно получали обновления, новые функции и качественную поддержку.\n\nЕсли вы не любите подписки, полную версию можно приобрести единоразово. Цена разовой покупки намеренно выше, поскольку она покрывает все будущие обновления и поддержку без дополнительных платежей.\n\nВы можете предварительно бесплатно попробовать полную версию и отменить подписку в любой момент. Если вам нравится Budget Flow, своей покупкой вы поддерживаете дальнейшую независимую разработку приложения.";
 "upgrade_faq_multiple_devices_title" = "Могу ли я использовать полную версию на нескольких устройствах?";
-"upgrade_faq_multiple_devices_value" = "Да, вы можете использовать полную версию Budget Flow на всех своих устройствах Apple с одним и той же учетной записью Apple. Поскольку приложение синхронизируется через iCloud, вы можете легко переключаться между своими устройствами и всегда иметь доступ к своим финансовым данным. и настройки.";
+"upgrade_faq_multiple_devices_value" = "Да, вы можете использовать полную версию Budget Flow на всех своих устройствах Apple с одной и той же учетной записью Apple. Поскольку приложение синхронизируется через iCloud, вы можете легко переключаться между своими устройствами и всегда иметь доступ к своим финансовым данным и настройкам.";
 "upgrade_faq_multiple_people_title" = "Могу ли я использовать полную версию с несколькими людьми?";
-"upgrade_faq_multiple_people_value" = "Да, вы можете поделиться разовой покупкой, а также подпиской на полную версию с пятью людьми в семейной группе. Все, что вам нужно сделать, это включить семейный доступ в настройках системы и добавить другие люди в группу приглашают.";
+"upgrade_faq_multiple_people_value" = "Да, вы можете поделиться разовой покупкой, а также подпиской на полную версию с пятью людьми в семейной группе. Все, что вам нужно сделать, это включить семейный доступ в настройках системы и пригласить других людей в группу.";
 "upgrade_faq_cancel_subscription_title" = "Как отменить подписку?";
 "upgrade_faq_cancel_subscription_value" = "Вы можете отменить подписку в любое время, используя свою учетную запись %@ в Системных настройках.";
 "upgrade_faq_subscription_data_loss_title" = "Мои данные будут потеряны, если я отменю подписку?";
@@ -1128,7 +1128,7 @@
 "user_feedback" = "отзыв";
 
 /* Buttons */
-"user_feedback_message_title" = "Привет, это Фабиан, разработчик Budget Flow. Y вас есть минутка, чтобы оставить отзыв о приложении? 😊";
+"user_feedback_message_title" = "Привет, это Фабиан, разработчик Budget Flow. У вас есть минутка, чтобы оставить отзыв о приложении? 😊";
 
 /* Alert Views */
 "alert_user_feedback_title" = "Вам нравится приложение?";
@@ -1186,7 +1186,7 @@
 "widget_upgrade_locked_title" = "Заблокировано";
 "widget_upgrade_necessary_title" = "Полная версия";
 "widget_upgrade_necessary_title_long" = "Требуется полная версия";
-"widget_upgrade_necessary_description" = "Для использования этого виджета требуется полное версии обновление.";
+"widget_upgrade_necessary_description" = "Для использования этого виджета требуется полная версия.";
 "widget_upgrade_necessary_highlighted_text" = "полная версия";
 
 
@@ -1266,7 +1266,7 @@
 "alert_confirm_update_contra_entry_title" = "Эта транзакция является переводом. Хотите также обновить контр-запись?";
 "alert_confirm_update_transaction_multiple_title" = "Эта операция принадлежит группе. Что именно вы хотите сохранить?";
 "alert_confirm_update_transaction_single_button" = "Сохранить только это";
-"alert_confirm_update_transaction_all_button" = "Сохранить все";
+"alert_confirm_update_transaction_all_button" = "Сохранить эту и будущие";
 
 /* End Repetition */
 "alert_confirm_end_repetition_for_transaction_title" = "Вы уверены, что хотите прекратить повторение этой операции?";
@@ -1316,7 +1316,7 @@
 
 /* Sections */
 "source_currency_section_title" = "От";
-"target_currency_section_title" = "Кому";
+"target_currency_section_title" = "В";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1450,9 +1450,9 @@
 "form_account_currency_title" = "Валюта";
 
 /* Buttons */
-"form_button_archive_account" = "Архивировать аккаунт";
-"form_button_unarchive_account" = "Разархивировать аккаунт";
-"form_button_delete_account" = "Удалить аккаунт";
+"form_button_archive_account" = "Архивировать счёт";
+"form_button_unarchive_account" = "Разархивировать счёт";
+"form_button_delete_account" = "Удалить счёт";
 
 
 /* MARK: - Add Category Group Form View */
@@ -1555,9 +1555,9 @@
 "form_location_none_type_value_long" = "Нет местоположения";
 "form_original_amount_title" = "Исходная сумма";
 "form_exchange_rate_title" = "Курс обмена";
-"form_is_selected_title" = "Место";
+"form_is_selected_title" = "Выбрано";
 "form_is_pending_title" = "В ожидании";
-"form_payed_by_title" = "Оплаченно";
+"form_payed_by_title" = "Назначено";
 "form_payed_by_none_type_value" = "Никто";
 "form_include_in_statistics_title" = "Статистика";
 "form_include_in_budgets_title" = "Бюджеты";
@@ -1616,8 +1616,8 @@
 /* Footer */
 "form_invalid_footer_title" = "Ошибка:";
 "form_invalid_amount_footer_title" = "Значения для \"%@\" не являются действительными денежными суммами.";
-"form_invalid_currency_footer_title" = "Значения для \"%@\" не являются допустимыми валютами,";
-"form_invalid_exchange_rate_footer_title" = "Значения для \"%@\" не являются допустимыми числовыми значениями,";
+"form_invalid_currency_footer_title" = "Значения для \"%@\" не являются допустимыми валютами.";
+"form_invalid_exchange_rate_footer_title" = "Значения для \"%@\" не являются допустимыми числовыми значениями.";
 "form_invalid_date_format_footer_title" = "Выбранная дата и/или формат недействительны.";
 "form_type_footer_title" = "Информация: выберите \"%@\", чтобы рассчитать тип транзакции на основе знака значения суммы.";
 "form_date_format_footer_title" = "Пример: %@";
@@ -1691,7 +1691,7 @@
 "period_selection_tip_title" = "Изменить период";
 "period_selection_tip_message" = "Нажмите здесь, чтобы изменить отображаемый период. Это влияет на все представления (обзор, операции и бюджеты).";
 "interactive_charts_tip_title" = "Интерактивные графики";
-"interactive_charts_tip_message" = "Проведите пальцем влево или вправо, чтобы изменить активную график, или нажмите и удерживайте график, чтобы просмотреть значения на определенную дату.";
+"interactive_charts_tip_message" = "Проведите пальцем влево или вправо, чтобы изменить активный график, или нажмите и удерживайте график, чтобы просмотреть значения на определенную дату.";
 "switch_budget_books_tip_title" = "Переключить книги бюджета";
 "switch_budget_books_tip_message" = "Длительно нажмите вкладку обзора, чтобы быстро переключаться между книгами бюджета.";
 
@@ -1818,7 +1818,7 @@
 "icon_keyword_pipe" = "Водопровод";
 "icon_keyword_hifi_reveiver" = "Звуковая система";
 "icon_keyword_video_projector" = "Проектор";
-"icon_keyword_beamer" = "Просветитель";
+"icon_keyword_beamer" = "Проектор";
 "icon_keyword_wifi_router" = "Wi-Fi роутер";
 "icon_keyword_internet" = "Интернет";
 "icon_keyword_party" = "Вечеринка";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "Заправиться";
 "icon_keyword_gas_station" = "АЗС";
 "icon_keyword_walking" = "Ходьба";
-"icon_keyword_running" = "Выполняется";
+"icon_keyword_running" = "Бег";
 "icon_keyword_rugby" = "Регби";
 "icon_keyword_badminton" = "Бадминтон";
 "icon_keyword_tennis" = "Теннис";
@@ -1897,7 +1897,7 @@
 "icon_keyword_volleyball" = "Волейбол";
 "icon_keyword_trophy" = "Трофей";
 "icon_keyword_medal" = "Медаль";
-"icon_keyword_flag" = "Пометить";
+"icon_keyword_flag" = "Флаг";
 "icon_keyword_race" = "Автогонки";
 "icon_keyword_gamecontroller" = "Игровой контроллер";
 "icon_keyword_videogames" = "Видеоигры";
@@ -1916,7 +1916,7 @@
 "icon_keyword_karaoke" = "Караоке";
 "icon_keyword_music" = "Музыка";
 "icon_keyword_spotify" = "Spotify";
-"icon_keyword_apple_music" = "Музыка Apple";
+"icon_keyword_apple_music" = "Apple Music";
 "icon_keyword_piano" = "Фортепиано";
 "icon_keyword_guitar" = "Гитара";
 "icon_keyword_rockband" = "Рок-группа";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "Центы";
 "icon_keyword_yen" = "Иена";
 "icon_keyword_pound" = "Фунт";
-"icon_keyword_franc" = "Франкония";
+"icon_keyword_franc" = "Франк";
 "icon_keyword_lira" = "Лира";
 "icon_keyword_ruble" = "Рубль";
 "icon_keyword_euro" = "Евро";
@@ -2067,13 +2067,13 @@
 "icon_keyword_wand" = "Волшебная палочка";
 "icon_keyword_hourglass" = "Песочные часы";
 "icon_keyword_newspaper" = "Газета";
-"icon_keyword_wrench" = "Плоскогубцы";
+"icon_keyword_wrench" = "Разводной ключ";
 "icon_keyword_screwdriver" = "Отвертка";
 "icon_keyword_hammer" = "Молоток";
 "icon_keyword_craftsman" = "Мастер";
 "icon_keyword_tools" = "Инструмент";
 "icon_keyword_plumber" = "Сантехник";
-"icon_keyword_construction_market" = "Молоток";
+"icon_keyword_construction_market" = "Строительный магазин";
 "icon_keyword_scissors" = "Ножницы";
 "icon_keyword_hairdresser" = "Парикмахерская";
 "icon_keyword_key" = "Ключ";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Лаборатория";
 "icon_keyword_calendar" = "Календарь";
 "icon_keyword_rent" = "Аренда";
-"icon_keyword_flat" = "Плоский";
+"icon_keyword_flat" = "Квартира";
 "icon_keyword_work" = "Работа";
 "icon_keyword_salary" = "Зарплата";
 "icon_keyword_corona" = "Корона";
@@ -2168,7 +2168,7 @@
 "search_budget_book_parameter_summary" = "Поиск книги бюджета с помощью ${name}";
 "search_account_title" = "Поиск счета";
 "search_account_description" = "Поиск определенного счета по имени";
-"search_account_parameter_summary" = "Найти аккаунт с ${name} в ${budgetBook}";
+"search_account_parameter_summary" = "Найти счёт с ${name} в ${budgetBook}";
 "search_category_group_title" = "Поиск группы";
 "search_category_group_description" = "Поиск определенной группы по имени";
 "search_category_group_parameter_summary" = "Найти папку с ${name} в ${budgetBook}";
@@ -2198,20 +2198,20 @@
 "open_add_new_transfer_view_description" = "Открывает окно добавления нового перевода в приложении.";
 "open_add_new_recurring_view_title" = "Добавить новую повторяющуюся операцию";
 "open_add_new_recurring_view_description" = "Открывает окно добавления новой повторяющейся операции в приложении.";
-"open_upcoming_transactions_view_title" = "Планируется операции";
+"open_upcoming_transactions_view_title" = "Запланированные операции";
 "open_upcoming_transactions_view_description" = "Открывает просмотр запланированных операций в приложении.";
 
 /* Show */
 "show_chart_title" = "Показать график";
 "show_chart_description" = "Отображает график остатков вашего счета, доходов или расходов за указанный период.";
-"show_chart_parameter_summary" = "Показать диаграмму ${type} для ${ periodType}";
+"show_chart_parameter_summary" = "Показать диаграмму ${type} для ${periodType}";
 
 "chart_type_parameter_title" = "Тип";
 "chart_type_dialog" = "Какой тип графика вам нужен?";
 "chart_type_account_balances_title" = "Остатки на счетах";
 "chart_type_balance_title" = "Баланс";
 "chart_type_total_income_title" = "Общие доходы";
-"chart_type_total_expenses_title" = "Общая расходы";
+"chart_type_total_expenses_title" = "Общие расходы";
 "chart_type_fixed_expenses_title" = "Постоянные расходы";
 "chart_type_variable_expenses_title" = "Переменные расходы";
 

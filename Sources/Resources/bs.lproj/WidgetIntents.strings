@@ -13,7 +13,7 @@
 "eyacbM" = "Tip";
 "K76l0O" = "Tip";
 
-"ktfUSN" = "Proračun";
+"ktfUSN" = "Budžet";
 "jfTgFR" = "Proračun";
 
 "skIWPc" = "Račun";
@@ -33,7 +33,7 @@
 /* Configuration */
 "prSCwi" = "Konfiguriraj grafikon";
 "ioernk" = "Konfiguriši račun";
-"LM22qM" = "Konfiguracije regled";
+"LM22qM" = "Konfiguriši pregled";
 "z0ovGL" = "Konfiguriraj proračun";
 
 /* Descriptions */
@@ -158,7 +158,7 @@
 "qnGAXN" = "Da li je plaćanje transakcije na čekanju?";
 "lTy5qN" = "Da li transakcija treba da bude uključena u statistiku?";
 "zZSQvt" = "Koju knjigu budžeta treba koristiti?";
-"Y5Nex5" = "Koji nalog treba koristiti?";
+"Y5Nex5" = "Koji račun treba koristiti?";
 "0HLNLH" = "Koju kategoriju treba koristiti?";
 "wqsAJE" = "Koji primalac plaćanja treba biti dodijeljen?";
 "X8ocGF" = "Koje oznake treba koristiti?";
@@ -198,7 +198,7 @@
 
 "EmPlTq" = "Nikad";
 "yNgckQ" = "Dnevno";
-"1vBp0l" = "Nedeljno";
+"1vBp0l" = "Sedmično";
 "YugMLR" = "Svake 2 sedmice";
 "BPTs4x" = "Svake 3 sedmice";
 "yVd6fu" = "Svake 4 sedmice";

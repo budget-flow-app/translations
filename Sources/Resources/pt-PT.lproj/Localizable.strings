@@ -35,7 +35,7 @@
 "account_type_savings" = "Conta poupança";
 "account_type_credit_card" = "Cartão de crédito";
 "account_type_investment" = "Investimento";
-"account_type_precaution" = "Reserva de emergência";
+"account_type_long_term_savings" = "Reserva de emergência";
 "account_type_liability" = "Passivo";
 "account_type_business" = "Conta empresarial";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Contas de poupança";
 "account_type_credit_card_plural" = "Cartões de crédito";
 "account_type_investment_plural" = "Investimentos";
-"account_type_precaution_plural" = "Reservas de emergência";
+"account_type_long_term_savings_plural" = "Reservas de emergência";
 "account_type_liability_plural" = "Passivos";
 "account_type_business_plural" = "Contas empresariais";
 
@@ -824,7 +824,7 @@
 "advanced_setting_configure_transaction_title_title" = "Título da transação";
 "advanced_setting_configure_transaction_subtitle_title" = "Subtítulo da transação";
 "advanced_setting_configure_transaction_title_info_title" = "Descrição";
-"advanced_setting_configure_transaction_title_info_description" = "Configura a ordem do título da transação. Por padrão, o nome da categoria será apresentado primeiro. Se faltar a categoria, o nome do beneficiário será utilizado. Se não for atribuído nenhum beneficiário, as notas serão apresentadas.";
+"advanced_setting_configure_transaction_title_info_description" = "Define a ordem dos campos apresentados no título da transação. Se um campo estiver vazio, é utilizado automaticamente o próximo campo disponível nessa ordem.";
 
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Seleção automática de horário";
@@ -1045,7 +1045,7 @@
 "user_review_title_ch" = "Grande suporte";
 "user_review_description_ch" = "Grande suporte - resolução de problemas rápida e descomplicada. Sinto-me levado a sério como utilizador.";
 "user_review_title_pl" = "Muito agradável de usar";
-"user_review_description_pl" = "A aplicação é um excelente rastreador e planeador de orçamento que uso diariamente. Além disso, o programador está muito atento à tua comunidade, apesar do teu pequeno tamanho.";
+"user_review_description_pl" = "A aplicação é um excelente rastreador e planeador de orçamento que uso diariamente. Além disso, o programador está muito atento à sua comunidade, apesar do pequeno tamanho desta.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1100,7 +1100,7 @@
 
 /* Items */
 "upgrade_faq_about_title" = "O que é o Budget Flow?";
-"upgrade_faq_about_value" = "Budget Flow é uma aplicação de rastreamento de orçamento moderna e fácil de usar para todos que querem acompanhar as tuas finanças e gerir as tuas despesas de forma eficaz.";
+"upgrade_faq_about_value" = "Budget Flow é uma aplicação de gestão de orçamento moderna e fácil de usar para quem quer acompanhar as suas finanças e gerir as suas despesas de forma eficaz.";
 "upgrade_faq_developer_title" = "Quem desenvolveu a aplicação?";
 "upgrade_faq_developer_value" = "O Budget Flow é uma aplicação indie, totalmente concebida, desenvolvida e mantida por mim, Fabian Hasse. Sou programador de software com mais de 10 anos de experiência e trabalho com muita paixão para criar a melhor aplicação de orçamento para ti.";
 "upgrade_faq_free_use_title" = "A aplicação também pode ser usada gratuitamente?";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo.";
 "upgrade_faq_security_value_icloud_suffix" = " ou (opcionalmente) no teu iCloud pessoal.";
 "upgrade_faq_why_subscription_title" = "Por que a versão completa é oferecida como uma subscrição?";
-"upgrade_faq_why_subscription_value" = "O meu objetivo é desenvolver uma aplicação de alta qualidade que te ofereça como utilizador novos recursos e melhorias regularmente. No entanto, para atingir esse objetivo, a aplicação precisa de receita contínua para se financiar e ser economicamente sustentável.\n\nO que muitos não sabem: desenvolver e manter uma aplicação leva muito tempo. No caso do Budget Flow, por exemplo, foram necessários quase dois anos e milhares de horas de trabalho desde a ideia até o desenvolvimento e testes até que a primeira versão pudesse ser lançada.\n\nComo cliente, beneficias em particular de atualizações e melhorias regulares através do modelo de subscrição, bem como um bom suporte para garantir que continues satisfeito. Também tens a oportunidade de experimentar a aplicação gratuitamente com antecedência para garantir que ela atende às tuas necessidades, podes alterar ou cancelar a subscrição a qualquer momento se mudares de ideias.\n\nNo geral, um modelo de subscrição oferece muitos benefícios para ti como cliente e uma melhor experiência do utilizador por meio de atualizações contínuas e suporte em comparação com uma compra única. A longo prazo, uma compra única infelizmente não seria sustentável, pois esse modelo de negócio exige que novos utilizadores continuem a comprar a aplicação para garantir a continuação do desenvolvimento.\n\nEntão, se gostas da aplicação, ficaria muito feliz se apoiasses o meu trabalho para que eu possa continuar a oferecer ainda mais recursos excelentes no futuro!❤️";
+"upgrade_faq_why_subscription_value" = "O Budget Flow é continuamente desenvolvido, melhorado e adaptado às novas versões dos sistemas operativos. Uma subscrição ajuda a financiar este trabalho a longo prazo e a oferecer-te atualizações regulares, novas funcionalidades e um bom apoio.\n\nSe não gostas de subscrições, também podes adquirir a versão completa através de uma compra única. O preço desta compra é intencionalmente mais elevado porque cobre todas as atualizações futuras e o apoio sem pagamentos adicionais.\n\nPodes experimentar a versão completa gratuitamente antes de comprar e cancelar a tua subscrição a qualquer momento. Se gostas do Budget Flow, a tua compra apoia o desenvolvimento independente da app.";
 "upgrade_faq_multiple_devices_title" = "Posso usar a versão completa em vários dispositivos?";
 "upgrade_faq_multiple_devices_value" = "Sim, podes usar a versão completa do Budget Flow em todos os teus dispositivos Apple com o mesmo ID Apple. Uma vez que a aplicação é sincronizada através do iCloud, podes alternar facilmente entre os teus dispositivos e ter sempre acesso aos teus dados financeiros e configurações.";
 "upgrade_faq_multiple_people_title" = "Posso usar a versão completa com várias pessoas?";
@@ -1295,7 +1295,7 @@
 
 /* Messages */
 "no_currencies_found_title" = "Nenhuma moeda encontrada";
-"currency_selection_search_placeholder_message" = "Procurar um nome de moeda ou a tua abreviação";
+"currency_selection_search_placeholder_message" = "Procurar um nome de moeda ou a respetiva abreviação";
 
 /* Buttons */
 "add_favorite_currency_button" = "Adicionar às favoritas";

@@ -35,15 +35,15 @@
 "account_type_savings" = "普通預金口座";
 "account_type_credit_card" = "クレジットカード";
 "account_type_investment" = "投資";
-"account_type_precaution" = "注意事項";
-"account_type_liability" = "責任";
+"account_type_long_term_savings" = "備え";
+"account_type_liability" = "負債";
 "account_type_business" = "ビジネスアカウント";
 
 "account_type_payment_plural" = "支払い口座";
 "account_type_savings_plural" = "普通預金口座";
 "account_type_credit_card_plural" = "クレジットカード";
 "account_type_investment_plural" = "投資";
-"account_type_precaution_plural" = "注意事項";
+"account_type_long_term_savings_plural" = "備え";
 "account_type_liability_plural" = "負債";
 "account_type_business_plural" = "ビジネスアカウント";
 
@@ -121,7 +121,7 @@
 "widget_type_suggestions" = "提案";
 "widget_type_distribution" = "収支分布";
 "widget_type_balance" = "残高";
-"widget_type_savings_rate" = "保存済み";
+"widget_type_savings_rate" = "貯蓄";
 "widget_type_upcoming_transactions" = "計画中";
 "widget_type_participants" = "ピープル";
 "widget_type_budget" = "予算";
@@ -405,7 +405,7 @@
 "participants_widget_footer_title" = "注: \"ピープル\"ウィジェットは共有帳簿にのみ表示されます。";
 
 /* Messages */
-"no_widgets_title" = "ウィジェットは追加されません";
+"no_widgets_title" = "ウィジェットが追加されていません";
 "no_widgets_message" = "ビューを設定するには、\"ペン\"ボタンをクリックしてください。";
 "no_suggestions_title" = "提案はありません";
 "not_shared_title" = "帳簿は共有されていません";
@@ -463,7 +463,7 @@
 "alert_confirm_add_next_upcoming_transaction_message" = "この計画されたトランザクションを今すぐ追加してもよろしいですか?";
 
 /* Miscellaneous */
-"payed_by_and_modified_at" = "によって支払われました %@\n最終更新日: %@";
+"payed_by_and_modified_at" = "支払者: %@\n最終更新日: %@";
 "modified_at" = "最終更新日: %@";
 "average_per_transaction" = "トランザクションあたりの平均";
 "average_per_day" = "Ø 1日あたり";
@@ -478,8 +478,8 @@
 "user_has_no_budgets_title" = "予算がありません。";
 "user_is_within_budget_title" = "予算内です! 🎉";
 "user_was_within_budget_title" = "予算内でした! 🎉";
-"user_is_not_within_budget_title" = "予算を %d オーバーしています 😢";
-"user_is_not_within_budgets_title" = "予算 %d を超えました 😢";
+"user_is_not_within_budget_title" = "%d件の予算を超過しています 😢";
+"user_is_not_within_budgets_title" = "%d件の予算を超過しています 😢";
 
 /* Messages */
 "no_budgets_title" = "予算なし";
@@ -665,9 +665,9 @@
 
 /* Alert Views */
 "alert_csv_import_successful_title" = "インポートは成功しました 🎉";
-"alert_csv_import_successful_message" = "合計、%d 件中 %d 件のトランザクションがインポートされました。%@";
+"alert_csv_import_successful_message" = "合計、%2$d件中%1$d件のトランザクションがインポートされました。%3$@";
 "alert_csv_import_skipped_message" = " これにより、%d 個のトランザクションがスキップされました。";
-"alert_csv_import_error_message" = "%d 件中 %d 件のトランザクションを正常にインポートできませんでした。\n\n%@";
+"alert_csv_import_error_message" = "%2$d件中%1$d件のトランザクションをインポートできませんでした。\n\n%3$@";
 "alert_csv_import_error_reason_field_message" = "CSV ファイル内の次のフィールドを確認してください: %@。";
 "alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
@@ -809,7 +809,7 @@
 /* Security */
 "advanced_setting_use_passcode_title" = "パスコードを使用";
 "advanced_setting_use_title" = "%@ を使用";
-"advanced_setting_auto_lock_title" = "リクエストコード";
+"advanced_setting_auto_lock_title" = "パスコードを要求";
 
 /* View */
 "advanced_setting_chart_type_title" = "グラフの種類";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "撮影した写真をフォト ライブラリに自動的に保存するには、この機能をオンにします。";
 "advanced_setting_suggested_notes_title" = "提案されたメモ";
 "advanced_setting_suggested_notes_description" = "メモ欄に入力する際、過去の取引に基づいた候補が表示されます。";
-"advanced_setting_consider_pending_items_title" = "すべてのトランザクションを予約";
+"advanced_setting_consider_pending_items_title" = "すべての取引を計算に含める";
 "advanced_setting_consider_pending_items_description" = "口座残高、残高、合計などを計算するときに保留中のトランザクションを含めるには、この機能を有効にします。";
 
 /* Sidebar */
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "あなたは若い開発者をサポートしており、それによってアプリの継続的な開発をサポートしています! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "素晴らしいアプリ";
+"user_review_description_de" = "とても見やすく、機能的なアプリです。必要なことがすべてでき、サポートの対応も非常に迅速で助かります。ぜひおすすめしたいです。";
+"user_review_title_hr" = "いいアプリ";
+"user_review_description_hr" = "機能が豊富で、使いやすいインターフェイスです。iOS で多くの類似アプリを試しましたが、これほど自分のニーズに合うものはありませんでした。お金を払う価値があります。";
+"user_review_title_bg" = "素晴らしいサポート";
+"user_review_description_bg" = "アプリも素晴らしく、カスタマーサポートも抜群です。ソフトウェアの品質を考えると、価格も非常に良心的だと思います。";
+"user_review_title_us" = "今のところ素晴らしいアプリ";
+"user_review_description_us" = "iOS、iPad、macOS で使えるので、どこでも利用できる点がとても気に入っています。アカウントも登録も不要なのもいいですね。最近では残念ながら珍しいことですが、金融アプリには欠かせない条件だと思います。";
+"user_review_title_uk" = "探していたのはこのアプリ！";
+"user_review_description_uk" = "こんなアプリを2年以上探していました。魅力的なデザインで、新しいデータを簡単に入力でき、必要に応じて詳しい情報も確認できるモバイルの家計管理アプリを求めていました。ぜひ試してみてください。";
+"user_review_title_es" = "最高の家計簿アプリ";
+"user_review_description_es" = "これまで試した中で、文句なしに一番です。まだ比較的新しいアプリだと思いますが、すでに備えている力と今後の可能性がはっきり感じられます。";
+"user_review_title_fr" = "とても充実した素晴らしいアプリ";
+"user_review_description_fr" = "数か月使っていますが、本当によくできたアプリだと思います。数か月後にどのようになっているか、今から楽しみです :)";
+"user_review_title_it" = "とにかく最高";
+"user_review_description_it" = "ついに出会えました。こんなものを何年も探していました。「ショートカット」アプリと一緒に使っていて、デザインも大好きです。買い切りで購入できる点も気に入っています。これからも頑張ってください！";
+"user_review_title_ch" = "素晴らしいサポート";
+"user_review_description_ch" = "サポートが素晴らしく、問題を迅速かつ手間なく解決してくれます。ユーザーを大切にしてくれていると感じます。";
+"user_review_title_pl" = "とても使い心地がいい";
+"user_review_description_pl" = "毎日使っている、とても優れた家計簿アプリです。規模は小さくても、開発者がユーザーの要望にとても熱心に対応してくれます。";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1067,7 +1067,7 @@
 "upgrade_restore_in_progress_button" = "お待ちください...";
 
 "subscription_button_info_text" = "いつでもキャンセル可能。";
-"subscription_trial_button_info_text" = "%d %@ 無料トライアル。その後、%@ ごとに %@";
+"subscription_trial_button_info_text" = "%1$d %2$@ 無料トライアル。その後、%4$@ごとに%3$@。";
 "lifetime_purchase_button_info_text" = "一度の購入でフルバージョンをアンロック (サブスクリプションなし)";
 
 /* Alert Views */
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上にのみ保存されます。";
 "upgrade_faq_security_value_icloud_suffix" = "または（任意で）個人の iCloud 上に保存されます。";
 "upgrade_faq_why_subscription_title" = "フルバージョンがサブスクリプションとして提供されるのはなぜですか?";
-"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが リリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow は継続的に開発・改善を行い、新しい OS バージョンにも対応しています。サブスクリプションは、この取り組みを長期的に支え、定期的なアップデート、新機能、充実したサポートをお届けするための資金となります。\n\nサブスクリプションをご希望でない場合は、完全版を買い切りで購入することもできます。買い切り価格は、追加のお支払いなしで今後のすべてのアップデートとサポートを含むため、高めに設定しています。\n\n完全版は事前に無料でお試しいただけます。サブスクリプションはいつでも解約できます。Budget Flow を気に入っていただけましたら、ご購入を通じてアプリの独立した開発を支えていただけます。";
 "upgrade_faq_multiple_devices_title" = "複数のデバイスでフルバージョンを使用できますか?";
 "upgrade_faq_multiple_devices_value" = "はい、同じ Apple Account を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
 "upgrade_faq_multiple_people_title" = "フルバージョンを複数人で使用できますか?";
@@ -1120,8 +1120,8 @@
 "upgrade_faq_subscription_data_loss_value" = "いいえ。完全版の購読中に作成したものは、無料版に戻っても引き続き利用できます。";
 "upgrade_faq_refund_title" = "返金を受けるにはどうすればよいですか?";
 "upgrade_faq_refund_value" = "%1$@ を通じて行われた支払いは、%2$@ によってのみ返金可能です。返金を受けるには、購入後 14 日以内に %2$@ サポートに連絡する必要があります。";
-"upgrade_faq_switch_plan_title" = "後日、サブスクリプションから使い切り購入に切り替えることはできますか?";
-"upgrade_faq_switch_plan_value" = "はい、アプリで対応する製品を購入することで、いつでもアクティブなサブスクリプションから 1 回限りの購入に切り替えることができます。ただし、支払額を超えないようにするために、一度、前のサブスクリプションを忘れずにキャンセルしてください。";
+"upgrade_faq_switch_plan_title" = "後日、サブスクリプションから買い切り購入に切り替えることはできますか?";
+"upgrade_faq_switch_plan_value" = "はい、アプリ内で対応する製品を購入すると、いつでもサブスクリプションから買い切り購入に切り替えられます。二重に支払わないよう、以前のサブスクリプションの解約を忘れないでください。";
 
 
 /* MARK: - User Feedback */
@@ -1315,8 +1315,8 @@
 "currency_conversion_synchronization_failed_no_internet_title" = "インターネット接続がありません";
 
 /* Sections */
-"source_currency_section_title" = "From";
-"target_currency_section_title" = "宛先";
+"source_currency_section_title" = "変換元";
+"target_currency_section_title" = "変換先";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1395,7 +1395,7 @@
 "reminders_search_placeholder_message" = "リマインダーのタイトルで検索";
 
 /* Values */
-"balance" = "バランス";
+"balance" = "残高";
 
 
 /* MARK: - Add Item Form View */
@@ -1532,8 +1532,8 @@
 
 /* Items */
 "form_account_title" = "口座";
-"form_from_account_title" = "差出人";
-"form_to_account_title" = "宛先";
+"form_from_account_title" = "振替元";
+"form_to_account_title" = "振替先";
 "form_account_none_type_value" = "なし";
 "form_category_title" = "カテゴリ";
 "form_categories_title" = "カテゴリ";
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "デバイスに電子メール アカウントが設定されていないようです。ただし、この機能を使用するにはこれが必須です。";
 
 "alert_no_camera_title" = "使用可能なカメラがありません";
-"alert_no_camera_message" = "カメラをお持ちではないようです。ただし、この機能を使用することは必須です。";
+"alert_no_camera_message" = "カメラがないようです。この機能を使用するにはカメラが必要です。";
 
 "alert_permissions_title" = "もうすぐです!";
 "alert_permissions_activate_button" = "今すぐ有効化";
@@ -1844,7 +1844,7 @@
 "icon_keyword_dryer" = "乾燥機";
 "icon_keyword_dishwasher" = "食洗機";
 "icon_keyword_oven" = "オーブン";
-"icon_keyword_stove" = "トースター";
+"icon_keyword_stove" = "コンロ";
 "icon_keyword_microwave" = "電子レンジ";
 "icon_keyword_refrigerator" = "冷蔵庫";
 "icon_keyword_sink" = "シンク";
@@ -1859,7 +1859,7 @@
 "icon_keyword_car" = "車";
 "icon_keyword_electric_car" = "電気自動車";
 "icon_keyword_charging_station" = "充電ステーション";
-"icon_keyword_car_pool" = "駐車場";
+"icon_keyword_car_pool" = "相乗り";
 "icon_keyword_bus" = "バス";
 "icon_keyword_tram" = "電車";
 "icon_keyword_railroad" = "鉄道";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "給油";
 "icon_keyword_gas_station" = "ガソリンスタンド";
 "icon_keyword_walking" = "ウォーキング";
-"icon_keyword_running" = "実行中";
+"icon_keyword_running" = "ランニング";
 "icon_keyword_rugby" = "ラグビー";
 "icon_keyword_badminton" = "バドミントン";
 "icon_keyword_tennis" = "テニス";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "トカゲ";
 "icon_keyword_bird" = "鳥";
 "icon_keyword_ant" = "アリ";
-"icon_keyword_ladybug" = "バグ";
+"icon_keyword_ladybug" = "虫";
 "icon_keyword_fish" = "魚";
 "icon_keyword_pet" = "ペット";
 "icon_keyword_cat" = "猫";
@@ -1990,14 +1990,14 @@
 "icon_keyword_internet" = "インターネット";
 "icon_keyword_amazon" = "アマゾン";
 "icon_keyword_package" = "パッケージ";
-"icon_keyword_apple" = "リンゴ";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "紙幣";
 "icon_keyword_refund" = "払い戻し";
 "icon_keyword_dollar" = "ドル";
 "icon_keyword_cent" = "セント";
 "icon_keyword_yen" = "円";
 "icon_keyword_pound" = "ポンド";
-"icon_keyword_franc" = "フランコニア";
+"icon_keyword_franc" = "フラン";
 "icon_keyword_lira" = "リラ";
 "icon_keyword_ruble" = "ルーブル";
 "icon_keyword_euro" = "ユーロ";
@@ -2195,7 +2195,7 @@
 "open_add_new_expense_view_title" = "新しい支出を追加";
 "open_add_new_expense_view_description" = "アプリ内で新しい支出の追加ビューを開きます。";
 "open_add_new_transfer_view_title" = "新しい振替を追加";
-"open_add_new_transfer_view_description" = "アプリ内で新しいビューの追加を開きます。";
+"open_add_new_transfer_view_description" = "アプリ内で新しい振替を追加する画面を開きます。";
 "open_add_new_recurring_view_title" = "新しい定期的なトランザクションを追加";
 "open_add_new_recurring_view_description" = "アプリ内で新しい定期トランザクションの追加ビューを開きます。";
 "open_upcoming_transactions_view_title" = "計画されたトランザクション";

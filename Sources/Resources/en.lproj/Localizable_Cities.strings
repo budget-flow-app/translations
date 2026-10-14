@@ -247,7 +247,7 @@
 	<key>Minneapolis</key>
 	<string>Minneapolis</string>
 	<key>Mogadisho</key>
-	<string>Mogadisho</string>
+	<string>Mogadishu</string>
 	<key>Monrovia</key>
 	<string>Monrovia</string>
 	<key>Montevideo</key>
@@ -287,7 +287,7 @@
 	<key>Ottawa</key>
 	<string>Ottawa</string>
 	<key>Ougadougou</key>
-	<string>Ougadougou</string>
+	<string>Ouagadougou</string>
 	<key>Pago Pago</key>
 	<string>Pago Pago</string>
 	<key>Panama</key>
@@ -383,7 +383,7 @@
 	<key>Tehran</key>
 	<string>Tehran</string>
 	<key>Thanh Pho Ho Chi Minh</key>
-	<string>Thanh Pho Ho Chi Minh</string>
+	<string>Ho Chi Minh City</string>
 	<key>Tientsin</key>
 	<string>Tientsin</string>
 	<key>Tokyo</key>

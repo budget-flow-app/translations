@@ -35,7 +35,7 @@
 "account_type_savings" = "储蓄账户";
 "account_type_credit_card" = "信用卡";
 "account_type_investment" = "投资";
-"account_type_precaution" = "储备金";
+"account_type_long_term_savings" = "储备金";
 "account_type_liability" = "负债";
 "account_type_business" = "企业账户";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "储蓄账户";
 "account_type_credit_card_plural" = "信用卡";
 "account_type_investment_plural" = "投资";
-"account_type_precaution_plural" = "储备金";
+"account_type_long_term_savings_plural" = "储备金";
 "account_type_liability_plural" = "负债";
 "account_type_business_plural" = "企业账户";
 
@@ -73,7 +73,7 @@
 
 "sort_type_alphabetically" = "按字母顺序";
 "sort_type_date" = "按日期";
-"sort_type_amount" = "按数量";
+"sort_type_amount" = "按金额";
 "sort_type_type" = "按类型";
 
 "sort_option_ascending" = "升序";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "不再显示";
 "mark_as_paid_button" = "标记为已付款";
 "mark_as_pending_button" = "标记为待付款";
-"show_contra_entry_button" = "显示计数器条目";
+"show_contra_entry_button" = "显示对应交易";
 
 "save_changes_button" = "保存更改";
 "discard_changes_button" = "放弃更改";
@@ -434,7 +434,7 @@
 "total_sum_title" = "总和";
 "recurring_transactions_title" = "定期";
 "upcoming_transactions_title" = "计划中";
-"reminded_transactions_title" = "已提醒";
+"reminded_transactions_title" = "带提醒";
 
 /* Info */
 "recurring_transactions_info_title" = "描述";
@@ -665,9 +665,9 @@
 
 /* Alert Views */
 "alert_csv_import_successful_title" = "导入成功 🎉";
-"alert_csv_import_successful_message" = "总共导入了 %d 条交易中的 %d 条。%@";
+"alert_csv_import_successful_message" = "总共 %2$d 条交易，成功导入 %1$d 条。%3$@";
 "alert_csv_import_skipped_message" = " 其中 %d 条交易被跳过。";
-"alert_csv_import_error_message" = "无法成功导入 %d 条交易中的 %d 条。\n\n%@";
+"alert_csv_import_error_message" = "%2$d 条交易中有 %1$d 条未能成功导入。\n\n%3$@";
 "alert_csv_import_error_reason_field_message" = "请检查您 CSV 文件中的以下字段：%@";
 "alert_csv_export_successful_title" = "导出成功 🎉";
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "启用此功能以自动将拍摄的照片保存到照片库";
 "advanced_setting_suggested_notes_title" = "建议备注";
 "advanced_setting_suggested_notes_description" = "在备注字段中输入时，根据您之前的交易提供建议。";
-"advanced_setting_consider_pending_items_title" = "预订所有交易";
+"advanced_setting_consider_pending_items_title" = "计入所有交易";
 "advanced_setting_consider_pending_items_description" = "启用此功能以在计算账户余额、余额、总额等时包括待处理的交易";
 
 /* Sidebar */
@@ -891,7 +891,7 @@
 "alert_error_title" = "发生错误 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "在社交媒体上关注“%@”";
 
 /* Copyright */
 "version" = "版本";
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "您正在支持一名年轻开发者，从而持续发展该应用！😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "很棒的 App";
+"user_review_description_de" = "界面清晰，功能实用，满足了我的所有需求。支持服务也非常迅速，帮了很大忙。非常推荐。";
+"user_review_title_hr" = "不错的 App";
+"user_review_description_hr" = "功能丰富，界面易于使用。我试过很多 iOS 上的同类 App，但没有哪款能像它这样满足我的需求。物有所值。";
+"user_review_title_bg" = "出色的支持服务";
+"user_review_description_bg" = "很棒的 App，客户支持也非常出色。考虑到软件的质量，价格也很合理。";
+"user_review_title_us" = "目前用起来很棒";
+"user_review_description_us" = "我非常喜欢它能在 iOS、iPad 和 macOS 上使用，这样我就能随处使用了。另外，不需要账户，也不用注册，这点也很好。可惜现在这样的 App 很少见，但我认为这对财务 App 来说必不可少。";
+"user_review_title_uk" = "这就是我要找的 App！";
+"user_review_description_uk" = "我找这样的 App 已经两年多了。我想要一个设计美观、方便录入新数据，并且能在需要时查看更多信息的移动财务管理工具。一定要试试。";
+"user_review_title_es" = "最好的记账 App";
+"user_review_description_es" = "在我试过的所有 App 中，它就是最好的。我想它还算是比较新的 App，但已经能清楚看到它现在具备的潜力和未来的发展空间。";
+"user_review_title_fr" = "很棒，功能非常全面";
+"user_review_description_fr" = "我已经用了几个月，觉得真的做得很好。很期待看到几个月后这款 App 会变成什么样 :)";
+"user_review_title_it" = "简直太棒了";
+"user_review_description_it" = "终于找到了。我找这样的解决方案已经很多年了。我把它和快捷指令 App 一起使用，很喜欢它的设计。我也喜欢可以一次性购买这一点。继续加油！";
+"user_review_title_ch" = "很棒的支持服务";
+"user_review_description_ch" = "支持服务很棒，解决问题迅速又省心。作为用户，我感觉自己受到了重视。";
+"user_review_title_pl" = "用起来非常舒服";
+"user_review_description_pl" = "这是一款出色的记账 App，我每天都在用。虽然规模不大，但开发者非常关心用户的需求。";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1059,7 +1059,7 @@
 "product_discount_header_title" = "- %@";
 
 /* Buttons */
-"upgrade_is_active_button" = "激活";
+"upgrade_is_active_button" = "已激活";
 "upgrade_purchase_button" = "购买";
 "upgrade_subscribe_button" = "订阅";
 "upgrade_free_trial_button" = "免费试用";
@@ -1067,7 +1067,7 @@
 "upgrade_restore_in_progress_button" = "请稍候...";
 
 "subscription_button_info_text" = "随时可以取消";
-"subscription_trial_button_info_text" = "%d %@ 免费试用。然后每 %@ 收费 %@";
+"subscription_trial_button_info_text" = "%1$d %2$@免费试用。之后每%4$@收费%3$@。";
 "lifetime_purchase_button_info_text" = "一次性解锁完整版（无需订阅）";
 
 /* Alert Views */
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上。";
 "upgrade_faq_security_value_icloud_suffix" = "或（可选）存储在您的个人 iCloud 中。";
 "upgrade_faq_why_subscription_title" = "为什么完整版以订阅形式提供？";
-"upgrade_faq_why_subscription_value" = "我的目标是开发一款高质量的应用，为用户定期提供新功能和改进。然而，为了实现这一目标，应用需要持续的收入以自我融资并保持经济可持续性。\n\n许多人不知道：开发和维护一个应用需要很多时间。例如，Budget Flow从构思到开发和测试发布第一个版本，几乎花了两年时间和数千小时的工作。\n\n作为客户，您特别受益于订阅模式下的定期更新和改进，以及良好的支持，以确保您继续满意。您还可以提前免费试用该应用，以确保它符合您的需求，并且随时可以更改或取消订阅。\n\n总的来说，订阅模式为您作为客户提供了许多好处，并通过持续更新和支持带来了比一次性购买更好的用户体验。从长远来看，一次性购买不幸地是不可持续的，因为这种商业模式需要新用户持续购买应用以确保开发的延续。\n\n所以如果您喜欢该应用，我将非常高兴您支持我的工作，以便我将来能够为您提供更多出色的功能！❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow 会持续开发、改进，并适配新的操作系统版本。订阅有助于长期支持这项工作，让我们能够定期为您提供更新、新功能和良好的支持。\n\n如果您不喜欢订阅，也可以选择一次性购买完整版。一次性购买的价格设得较高，是因为其中已包含今后的所有更新和支持，无需再付费。\n\n您可以先免费试用完整版，并随时取消订阅。如果您喜欢 Budget Flow，购买即可支持这款 App 继续独立开发。";
 "upgrade_faq_multiple_devices_title" = "我可以在多个设备上使用完整版吗？";
 "upgrade_faq_multiple_devices_value" = "是的，您可以在所有登录相同 Apple 账户 的 Apple 设备上使用 Budget Flow 的完整版。因为该应用通过 iCloud 同步，您可以在您的设备之间无缝切换，并随时访问您的财务数据和设置。";
 "upgrade_faq_multiple_people_title" = "我可以与其他人一起使用完整版吗？";
@@ -1673,10 +1673,10 @@
 "alert_selected_period_changed_new_year" = "新年";
 
 "alert_no_mail_initialized_title" = "没有电子邮件账户";
-"alert_no_mail_initialized_message" = "看起来您的设备上没有设置电子邮件账户。然而，使用此功能是必须的";
+"alert_no_mail_initialized_message" = "您的设备上似乎未设置电子邮件账户。使用此功能需要先设置账户。";
 
 "alert_no_camera_title" = "没有可用的摄像头";
-"alert_no_camera_message" = "看起来您没有摄像头。然而，使用此功能是必须的";
+"alert_no_camera_message" = "似乎没有可用的摄像头。使用此功能需要摄像头。";
 
 "alert_permissions_title" = "快完成了！";
 "alert_permissions_activate_button" = "立即激活";
@@ -1788,13 +1788,13 @@
 "icon_keyword_emoji" = "表情符号";
 "icon_keyword_tag" = "标签";
 "icon_keyword_heart" = "心";
-"icon_keyword_star" = "明星";
+"icon_keyword_star" = "星星";
 "icon_keyword_folder" = "文件夹";
 "icon_keyword_bookmark" = "书签";
 "icon_keyword_building" = "建筑";
 "icon_keyword_house" = "房子";
 "icon_keyword_lightbulb" = "灯泡";
-"icon_keyword_fan" = "粉丝";
+"icon_keyword_fan" = "风扇";
 "icon_keyword_lamp" = "灯";
 "icon_keyword_alarm_system" = "报警系统";
 "icon_keyword_webcam" = "网络摄像头";
@@ -1840,14 +1840,14 @@
 "icon_keyword_armchair" = "扶手椅";
 "icon_keyword_cabinet" = "壁橱";
 "icon_keyword_fireplace" = "壁炉";
-"icon_keyword_washer" = "垫圈";
+"icon_keyword_washer" = "洗衣机";
 "icon_keyword_dryer" = "滚筒烘干机";
 "icon_keyword_dishwasher" = "洗碗机";
 "icon_keyword_oven" = "烤箱";
 "icon_keyword_stove" = "炉子";
 "icon_keyword_microwave" = "微波炉";
 "icon_keyword_refrigerator" = "冰箱";
-"icon_keyword_sink" = "下沉";
+"icon_keyword_sink" = "水槽";
 "icon_keyword_toilet" = "厕所";
 "icon_keyword_bathroom" = "浴室";
 "icon_keyword_tv_remote" = "遥控器";
@@ -1904,7 +1904,7 @@
 "icon_keyword_gaming" = "游戏";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "任天堂开关";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
 "icon_keyword_book" = "书籍";
 "icon_keyword_books" = "书籍";
 "icon_keyword_magazine" = "杂志";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "美分";
 "icon_keyword_yen" = "日元";
 "icon_keyword_pound" = "磅";
-"icon_keyword_franc" = "法兰克尼亚";
+"icon_keyword_franc" = "法郎";
 "icon_keyword_lira" = "里拉";
 "icon_keyword_ruble" = "卢布";
 "icon_keyword_euro" = "欧元";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "魔术棒";
 "icon_keyword_hourglass" = "沙漏";
 "icon_keyword_newspaper" = "报纸";
-"icon_keyword_wrench" = "钳子";
+"icon_keyword_wrench" = "活动扳手";
 "icon_keyword_screwdriver" = "螺丝刀";
 "icon_keyword_hammer" = "锤子";
 "icon_keyword_craftsman" = "工匠";
@@ -2096,10 +2096,10 @@
 "icon_keyword_lab" = "实验室";
 "icon_keyword_calendar" = "日历";
 "icon_keyword_rent" = "出租";
-"icon_keyword_flat" = "平面";
+"icon_keyword_flat" = "公寓";
 "icon_keyword_work" = "工作";
 "icon_keyword_salary" = "工资";
-"icon_keyword_corona" = "电晕";
+"icon_keyword_corona" = "冠状病毒";
 "icon_keyword_rainbow" = "彩虹";
 "icon_keyword_glasses" = "眼镜";
 "icon_keyword_sunglasses" = "太阳镜";

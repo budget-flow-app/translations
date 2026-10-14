@@ -35,17 +35,17 @@
 "account_type_savings" = "Ощадний рахунок";
 "account_type_credit_card" = "Кредитна картка";
 "account_type_investment" = "Інвестиції";
-"account_type_precaution" = "Застереження";
+"account_type_long_term_savings" = "Застереження";
 "account_type_liability" = "Зобов'язання";
-"account_type_business" = "Бізнес-акаунт";
+"account_type_business" = "Бізнес-рахунок";
 
 "account_type_payment_plural" = "Платіжні рахунки";
 "account_type_savings_plural" = "Ощадні рахунки";
 "account_type_credit_card_plural" = "Кредитні картки";
 "account_type_investment_plural" = "Інвестиції";
-"account_type_precaution_plural" = "Застереження";
+"account_type_long_term_savings_plural" = "Застереження";
 "account_type_liability_plural" = "Зобов'язання";
-"account_type_business_plural" = "Бізнес-акаунти";
+"account_type_business_plural" = "Бізнес-рахунки";
 
 "transaction_type_income" = "Дохід";
 "transaction_type_expense" = "Витрати";
@@ -81,7 +81,7 @@
 
 "group_option_day" = "День";
 "group_option_month" = "Місяць";
-"group_option_account" = "Обліковий запис";
+"group_option_account" = "Рахунок";
 "group_option_category" = "Категорія";
 "group_option_category_group" = "Папка";
 "group_option_type" = "Тип";
@@ -119,9 +119,9 @@
 
 "widget_type_chart_stack" = "Діаграми";
 "widget_type_suggestions" = "Пропозиції";
-"widget_type_distribution" = "Розповсюдження";
+"widget_type_distribution" = "Розподіл";
 "widget_type_balance" = "Баланс";
-"widget_type_savings_rate" = "Збережено";
+"widget_type_savings_rate" = "Заощаджено";
 "widget_type_upcoming_transactions" = "Заплановано";
 "widget_type_participants" = "Люди";
 "widget_type_budget" = "Бюджет";
@@ -204,7 +204,7 @@
 "third" = "3-й";
 "fourth" = "4-й";
 "fifth" = "5-й";
-"last" = "oстанній";
+"last" = "останній";
 
 
 /* MARK: - Menu Bar */
@@ -237,7 +237,7 @@
 "edit_button" = "Редагувати";
 "copy_button" = "Копіювати";
 "refund_button" = "Відшкодування";
-"edit_account_button" = "Редагувати обліковий запис";
+"edit_account_button" = "Редагувати рахунок";
 "edit_category_button" = "Редагувати категорію";
 "edit_categorygroup_button" = "Редагувати папку";
 "edit_payee_button" = "Редагувати одержувача";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Не показувати знову";
 "mark_as_paid_button" = "Платіж завершено";
 "mark_as_pending_button" = "Очікування платежу";
-"show_contra_entry_button" = "Лічильник входу";
+"show_contra_entry_button" = "Показати зустрічний запис";
 
 "save_changes_button" = "Зберегти зміни";
 "discard_changes_button" = "Скасувати зміни";
@@ -408,11 +408,11 @@
 "no_widgets_title" = "Немає доданих віджетів";
 "no_widgets_message" = "Натисніть кнопку \"перо\", щоб налаштувати перегляд.";
 "no_suggestions_title" = "Немає пропозицій";
-"not_shared_title" = "Книга бюджету не надіслана";
+"not_shared_title" = "Спільний доступ до бюджетної книги не надано";
 
 /* Widgets */
 "net_worth_widget_title" = "Чиста вартість";
-"account_balances_widget_title" = "Баланси облікового запису";
+"account_balances_widget_title" = "Залишки на рахунках";
 "balance_widget_title" = "Баланс";
 "total_income_widget_title" = "Загальний дохід";
 "total_expenses_widget_title" = "Загальні витрати";
@@ -420,7 +420,7 @@
 "variable_expenses_widget_title" = "Змінні витрати";
 
 "net_worth_distribution_widget_title" = "Розподіл";
-"account_balances_distribution_widget_title" = "Баланси облікового запису";
+"account_balances_distribution_widget_title" = "Залишки на рахунках";
 "balance_distribution_widget_title" = "Баланс";
 "total_income_distribution_widget_title" = "Загальний дохід";
 "total_expenses_distribution_widget_title" = "Загальні витрати";
@@ -557,7 +557,7 @@
 "reset_app_button" = "Скинути додаток";
 
 /* General Settings */
-"accounts_setting_title" = "Керувати обліковими записами";
+"accounts_setting_title" = "Керувати рахунками";
 "categories_setting_title" = "Керувати категоріями";
 "payees_setting_title" = "Керувати одержувачами";
 "tags_setting_title" = "Керувати тегами";
@@ -575,7 +575,7 @@
 "rate_app_setting_title" = "Оцінити додаток";
 
 /* Legal Settings */
-"imprint_setting" = "Відбиток";
+"imprint_setting" = "Юридична інформація";
 "privacy_setting" = "Політика конфіденційності";
 "terms_of_use_setting" = "Умови використання";
 "acknowledgements_setting" = "Подяки";
@@ -595,7 +595,7 @@
 /* Miscellaneous Settings */
 "new_features_setting" = "Нові функції";
 "testflight_beta_setting" = "TestFlight beta";
-"apple_pay_setting" = " Pay iнтеграція";
+"apple_pay_setting" = " Pay інтеграція";
 "appearance_setting" = "Персоналізація";
 "advanced_setting" = "Додаткові налаштування";
 
@@ -714,7 +714,7 @@
 "cloud_setting_low_power_mode_status_title" = "Режим енергозбереження";
 "cloud_setting_low_power_mode_status_enabled_value" = "Увімкнено (синхронізація може бути призупинена)";
 "cloud_setting_low_power_mode_status_disabled_value" = "Вимкнено";
-"cloud_setting_upload_status_title" = "Останнє завантаження";
+"cloud_setting_upload_status_title" = "Останнє вивантаження";
 "cloud_setting_download_status_title" = "Останнє завантаження";
 "cloud_setting_number_of_transactions_title" = "Трансакції";
 "cloud_setting_number_of_transactions_value" = "На пристрої: %d\nВ iCloud: %d";
@@ -809,7 +809,7 @@
 /* Security */
 "advanced_setting_use_passcode_title" = "Використовувати пароль";
 "advanced_setting_use_title" = "Використовувати %@";
-"advanced_setting_auto_lock_title" = "Код запиту";
+"advanced_setting_auto_lock_title" = "Запитувати код";
 
 /* View */
 "advanced_setting_chart_type_title" = "Тип діаграми";
@@ -835,12 +835,12 @@
 "advanced_setting_save_photos_description" = "Автоматично зберігати зроблені фотографії до бібліотеки фотографій.";
 "advanced_setting_suggested_notes_title" = "Запропоновані нотатки";
 "advanced_setting_suggested_notes_description" = "Отримуйте підказки на основі попередніх транзакцій під час введення в полі нотаток.";
-"advanced_setting_consider_pending_items_title" = "Забронювати всі транзакції";
+"advanced_setting_consider_pending_items_title" = "Враховувати транзакції в очікуванні";
 "advanced_setting_consider_pending_items_description" = "Включати транзакції, що очікують на розгляд, під час розрахунку залишків на рахунку, сальдо, підсумків тощо";
 
 /* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Показати рахунки на бічній панелі";
-"advanced_setting_show_accounts_in_sidebar_description" = "Показати список ваших облікових записів на бічній панелі.";
+"advanced_setting_show_accounts_in_sidebar_description" = "Показати список ваших рахунків на бічній панелі.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Групувати рахунки на бічній панелі";
 "advanced_setting_group_accounts_in_sidebar_description" = "Згрупуйте свої рахунки на бічній панелі за типом.";
 "advanced_setting_show_categories_in_sidebar_title" = "Показати категорії на бічній панелі";
@@ -859,7 +859,7 @@
 "advanced_setting_enable_exact_times_description" = "Виберіть точний час за допомогою лічильника хвилин для транзакцій (наприклад, 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Перевернута клавіатура";
 "advanced_setting_reverse_keyboard_description" = "Перевертає розкладку числової клавіатури вертикально, щоб відповідати традиційному стилю калькулятора.";
-"advanced_setting_enable_haptic_keyboard_title" = "Відгук про клавіатуру";
+"advanced_setting_enable_haptic_keyboard_title" = "Тактильний відгук клавіатури";
 "advanced_setting_enable_haptic_keyboard_description" = "Отримувати тактильний відгук під час введення грошових сум за допомогою клавіатури.";
 
 /* Other */
@@ -891,7 +891,7 @@
 "alert_error_title" = "Сталася помилка😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Стежте за «%@» у соціальних мережах";
 
 /* Copyright */
 "version" = "Версія";
@@ -999,7 +999,7 @@
 "upgrade_feature_unlimited_categories_and_tags_title" = "Необмежена кількість категорій і тегів";
 "upgrade_feature_unlimited_categories_and_tags_description" = "Створіть необмежену кількість категорій і тегів, які ви можете додати до транзакцій, щоб краще їх упорядкувати.";
 "upgrade_feature_extended_analyses_title" = "Розширена аналітика";
-"upgrade_feature_extended_analyses_description" = "Отримайте переваги додаткової аналітики та розширеного прогнозу майбутніх балансів і транзакцій вашого облікового запису.";
+"upgrade_feature_extended_analyses_description" = "Отримайте переваги додаткової аналітики та розширеного прогнозу майбутніх балансів і транзакцій вашого рахунку.";
 "upgrade_feature_unlimited_budgetbooks_title" = "Кілька бюджетних книг";
 "upgrade_feature_unlimited_budgetbooks_description" = "Створіть кілька бюджетних книг, щоб, наприклад, кілька людей могли використовувати свою власну на одному пристрої, або якщо ви хочете поділитися окремою бюджетною книгою (наприклад, для відпустки).";
 "upgrade_feature_security_title" = "Захищені дані";
@@ -1011,41 +1011,41 @@
 "upgrade_feature_customization" = "Персоналізація";
 "upgrade_feature_customization_description" = "Виберіть із кількох акцентних кольорів і значків, щоб персоналізувати програму на свій смак.";
 "upgrade_feature_sharedbudget_books_title" = "Поділитися бюджетними книгами";
-"upgrade_feature_sharedbudget_books_description" = "Поділіться своїми бюджетними книгами, включно з обліковими записами, категоріями, транзакціями та бюджетами, щоб співпрацювати з одним або кількома людьми.";
+"upgrade_feature_sharedbudget_books_description" = "Поділіться своїми бюджетними книгами, включно з рахунками, категоріями, транзакціями та бюджетами, щоб співпрацювати з одним або кількома людьми.";
 "upgrade_feature_receipt_scanner_title" = "Сканувати квитанції";
 "upgrade_feature_receipt_scanner_description" = "Використовуйте вбудований сканер для оцифрування квитанцій і автоматичного розпізнавання суми та імені продавця.";
 "upgrade_feature_widgets_title" = "Віджети головного екрана та екрана блокування";
-"upgrade_feature_widgets_description" = "За допомогою віджетів ви можете миттєво переглянути ваші поточні доходи та витрати, баланс на рахунку та багато іншого, не відкриваючи програму. Щоб переглянути віджети, відредагувати домашній або заблокований екран, відкрийте Перегляд \"Додати віджет\", а потім виберіть цю програму.";
+"upgrade_feature_widgets_description" = "За допомогою віджетів ви можете миттєво переглянути ваші поточні доходи та витрати, баланс на рахунку та багато іншого, не відкриваючи програму. Щоб переглянути віджети, відредагуйте домашній або заблокований екран, відкрийте Перегляд \"Додати віджет\", а потім виберіть цю програму.";
 "upgrade_feature_reminders_title" = "Створити нагадування";
 "upgrade_feature_reminders_description" = "Створюйте нагадування для запланованих транзакцій, щоб отримувати push-сповіщення (також офлайн).";
 "upgrade_feature_csv_title" = "Імпорт та експорт CSV";
 "upgrade_feature_csv_description" = "Імпортуйте та експортуйте свої транзакції за допомогою файлу CSV для передачі даних із вашого банку чи інших програм.";
 "upgrade_feature_remove_ads_title" = "Без реклами";
 "upgrade_feature_remove_ads_description" = "Ви більше не бачитимете рекламу повної версії програми.";
-"upgrade_feature_support_title" = "Розробка підтримки";
+"upgrade_feature_support_title" = "Підтримка розробки";
 "upgrade_feature_support_description" = "Ви підтримуєте молодого розробника і тим самим безперервний розвиток програми! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Чудовий застосунок";
+"user_review_description_de" = "Застосунок дуже добре продуманий і функціональний. Він відповідає всім моїм потребам, а підтримка дуже швидка й корисна. Можу лише рекомендувати.";
+"user_review_title_hr" = "Гарний застосунок";
+"user_review_description_hr" = "Багатофункціональний застосунок зі зручним інтерфейсом. Спробував багато альтернатив на iOS, але жодна не задовольнила мої потреби так, як цей застосунок. Вартий своїх грошей.";
+"user_review_title_bg" = "Виняткова підтримка";
+"user_review_description_bg" = "Чудовий застосунок із винятковою підтримкою користувачів. А ціна дуже помірна з огляду на якість програми.";
+"user_review_title_us" = "Поки що все чудово";
+"user_review_description_us" = "Дуже подобається, що застосунок доступний на iOS, iPad і macOS, тож я можу оновлювати дані будь-де. Також приємно, що не потрібен обліковий запис і немає збору даних. Сьогодні це здається рідкістю, але для мене це важливо у фінансових застосунках.";
+"user_review_title_uk" = "Ось він!";
+"user_review_description_uk" = "Я шукав такий застосунок понад два роки. Хотілося мати на телефоні інструмент для керування фінансами з гарним оглядовим екраном, простим введенням нових даних і можливістю за потреби переглянути подробиці! Спробуйте.";
+"user_review_title_es" = "Найкращий застосунок для бюджету";
+"user_review_description_es" = "Просто найкращий із тих, що я пробував. Думаю, застосунок ще новий, але його потенціал уже добре видно.";
+"user_review_title_fr" = "Чудовий застосунок із багатьма функціями";
+"user_review_description_fr" = "Користуюся застосунком уже кілька місяців, і він мені дуже подобається. Вітаю з виконаною роботою й не можу дочекатися, яким застосунок стане за кілька місяців :)";
+"user_review_title_it" = "Просто чудово";
+"user_review_description_it" = "Нарешті. Я роками шукав таке рішення. Використовую його з тригером транзакцій у «Швидких командах» на iOS, дуже подобається дизайн. І подобається можливість заплатити лише раз. Продовжуйте в тому ж дусі!";
+"user_review_title_ch" = "Чудова підтримка";
+"user_review_description_ch" = "Чудова підтримка — швидке й просте розв’язання проблем. Відчуваю, що до мене як до користувача ставляться серйозно.";
+"user_review_title_pl" = "Дуже приємно користуватися";
+"user_review_description_pl" = "Застосунок — чудовий інструмент для обліку й планування бюджету, яким я користуюся щодня. Крім того, розробник дуже уважно ставиться до своєї спільноти, попри її невеликий розмір.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,11 +1109,11 @@
 "upgrade_faq_security_value" = "Ваші фінанси є приватними – і вони повинні залишатися такими. Ось чому ваші дані зберігаються виключно на вашому пристрої.";
 "upgrade_faq_security_value_icloud_suffix" = " або (необов’язково) у вашому особистому iCloud.";
 "upgrade_faq_why_subscription_title" = "Чому повна версія пропонується як підписка?";
-"upgrade_faq_why_subscription_value" = "Наша мета - розробити високоякісну програму, яка регулярно пропонує вам як користувачу нові функції та вдосконалення. Однак для досягнення цієї мети програмі потрібен постійний дохід, щоб фінансувати себе та бути економічно стійким.\n\nПро що багато хто не знає. Розробка та підтримка програми займає багато часу. Наприклад, у випадку з Budget Flow від ідеї до розробки знадобилося майже два роки та кілька тисяч годин роботи і тестування, перш ніж першу версію можна буде випустити.\n\nЯк клієнт, ви, зокрема, отримуєте переваги від регулярних оновлень і вдосконалень через модель підписки, а також хорошу підтримку, щоб гарантувати, що ви й надалі будете задоволені. також мати можливість заздалегідь спробувати програму безкоштовно, щоб переконатися, що вона відповідає вашим потребам. Ви можете будь-коли змінити або скасувати підписку, якщо передумаєте.\n\nЗагалом, модель підписки пропонує багато переваг для вас як клієнт і кращий досвід користувача завдяки постійним оновленням і підтримці порівняно з одноразовою покупкою. У довгостроковій перспективі одноразова покупка, на жаль, не буде прийнятною, оскільки ця бізнес-модель вимагає від нових користувачів продовжувати купувати програму, щоб забезпечити продовження розробки.\n\nТож якщо вам сподобається програма, ми будемо дуже раді якщо ви підтримуєте нашу роботу, щоб ми могли продовжувати пропонувати вам ще більше чудових функцій у майбутньому!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow постійно розвивається, вдосконалюється й адаптується до нових версій операційних систем. Підписка допомагає фінансувати цю роботу в довгостроковій перспективі, щоб ви регулярно отримували оновлення, нові функції та якісну підтримку.\n\nЯкщо ви не любите підписки, повну версію можна також придбати одноразово. Ціна одноразової покупки свідомо вища, адже вона покриває всі майбутні оновлення й підтримку без додаткових платежів.\n\nВи можете заздалегідь безкоштовно спробувати повну версію та скасувати підписку будь-коли. Якщо вам подобається Budget Flow, своєю покупкою ви підтримуєте подальшу незалежну розробку застосунку.";
 "upgrade_faq_multiple_devices_title" = "Чи можу я використовувати повну версію на кількох пристроях?";
-"upgrade_faq_multiple_devices_value" = "Так, ви можете використовувати повну версію Budget Flow на всіх своїх пристроях Apple з однаковим обліковим записом Apple. Оскільки програма синхронізується через iCloud, ви можете легко перемикатися між своїми пристроями та завжди мати доступ до своїх фінансових даних і налаштування.";
+"upgrade_faq_multiple_devices_value" = "Так, ви можете використовувати повну версію Budget Flow на всіх своїх пристроях Apple з однаковим обліковим записом Apple. Оскільки програма синхронізується через iCloud, ви можете легко перемикатися між своїми пристроями та завжди мати доступ до своїх фінансових даних і налаштувань.";
 "upgrade_faq_multiple_people_title" = "Чи можу я використовувати повну версію з кількома людьми?";
-"upgrade_faq_multiple_people_value" = "Так, ви можете поділитися одноразовою покупкою, а також підпискою на повну версію з п'ятьма людьми в сімейній групі. Все, що вам потрібно зробити, це ввімкнути спільний доступ до сім'ї в налаштуваннях системи та додати інші учасники групи запрошують.";
+"upgrade_faq_multiple_people_value" = "Так, ви можете поділитися одноразовою покупкою, а також підпискою на повну версію з п'ятьма людьми в сімейній групі. Все, що вам потрібно зробити, це ввімкнути спільний доступ до сім'ї в налаштуваннях системи та запросити інших людей до групи.";
 "upgrade_faq_cancel_subscription_title" = "Як мені скасувати підписку?";
 "upgrade_faq_cancel_subscription_value" = "Ви можете будь-коли скасувати свою підписку, використовуючи свій обліковий запис %@ у системних налаштуваннях.";
 "upgrade_faq_subscription_data_loss_title" = "Чи будуть мої дані втрачені, якщо я скасую свою підписку?";
@@ -1128,7 +1128,7 @@
 "user_feedback" = "залишити відгук";
 
 /* Buttons */
-"user_feedback_message_title" = "Привіт, це Фабіан, розробник Budget Flow. Y вас є час, щоб залишити відгук про програму? 😊";
+"user_feedback_message_title" = "Привіт, це Фабіан, розробник Budget Flow. У вас є час, щоб залишити відгук про програму? 😊";
 
 /* Alert Views */
 "alert_user_feedback_title" = "Вам подобається програма?";
@@ -1179,15 +1179,15 @@
 "suggestion_widget_title" = "Запропоновано";
 "suggestion_widget_description" = "Цей віджет показує запропоновану категорію на основі поточної дати, для якої ви можете створити нову транзакцію.";
 
-"quick_actions_widget_title" = "Швидкий вхід";
+"quick_actions_widget_title" = "Швидке введення";
 "quick_actions_widget_description" = "Цей віджет дозволяє швидко додавати нові транзакції.";
 "quick_actions_widget_new_title" = "Новий";
 
 "widget_upgrade_locked_title" = "Заблоковано";
 "widget_upgrade_necessary_title" = "Повна версія";
 "widget_upgrade_necessary_title_long" = "Потрібна повна версія";
-"widget_upgrade_necessary_description" = "Для використання цього віджета потрібне повне версія оновлення.";
-"widget_upgrade_necessary_highlighted_text" = "повне версія";
+"widget_upgrade_necessary_description" = "Для використання цього віджета потрібна повна версія.";
+"widget_upgrade_necessary_highlighted_text" = "повна версія";
 
 
 /* MARK: - Add Item Form View */
@@ -1206,8 +1206,8 @@
 "alert_confirm_delete_budgetbook_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані бюджетні книги? Усі пов'язані рахунки, категорії, транзакції та бюджети також будуть видалені.";
 "alert_confirm_delete_budgetbook_multiple_button" = "Видалити бюджетні книги";
 
-"alert_confirm_delete_account_title" = "Ви впевнені, що хочете видалити цей обліковий запис? Усі пов'язані транзакції також будуть видалені.";
-"alert_confirm_delete_account_button" = "Видалити обліковий запис";
+"alert_confirm_delete_account_title" = "Ви впевнені, що хочете видалити цей рахунок? Усі пов'язані транзакції також будуть видалені.";
+"alert_confirm_delete_account_button" = "Видалити рахунок";
 "alert_confirm_delete_account_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані рахунки? Усі пов'язані транзакції також будуть видалені.";
 "alert_confirm_delete_account_multiple_button" = "Видалити рахунки";
 
@@ -1304,7 +1304,7 @@
 
 /* Alert Views */
 "alert_confirm_change_default_currency_title" = "Ви впевнені, що хочете змінити валюту за замовчуванням? Це призведе до конвертації всіх існуючих транзакцій у нову валюту (%@).";
-"alert_confirm_change_default_account_currency_title" = "Ви впевнені, що хочете змінити валюту? Це призведе до конвертації всіх існуючих транзакцій цього облікового запису в нову валюту (%@).";
+"alert_confirm_change_default_account_currency_title" = "Ви впевнені, що хочете змінити валюту? Це призведе до конвертації всіх існуючих транзакцій цього рахунку в нову валюту (%@).";
 
 
 /* MARK: - Currency Conversion View */
@@ -1316,7 +1316,7 @@
 
 /* Sections */
 "source_currency_section_title" = "Від";
-"target_currency_section_title" = "Кому";
+"target_currency_section_title" = "У";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1330,7 +1330,7 @@
 
 /* MARK: - Manage Item View */
 /* Titles */
-"manage_budgetbooks_title" = "Книги про бюджет";
+"manage_budgetbooks_title" = "Бюджетні книги";
 "manage_accounts_title" = "Рахунки";
 "manage_categories_title" = "Категорії";
 "manage_category_groups_title" = "Папки";
@@ -1343,7 +1343,7 @@
 "manage_reminders_info_description" = "Створюйте власні нагадування або додавайте їх до майбутніх транзакцій, щоб програма сповіщала вас.";
 
 /* Sections */
-"shared_by_you_budgetbooks_section_title" = "Поділився вами";
+"shared_by_you_budgetbooks_section_title" = "Ви надали спільний доступ";
 "shared_with_you_budgetbooks_section_title" = "Спільно з вами";
 "not_shared_budgetbooks_section_title" = "Не ділиться";
 "most_used_items_section_title" = "Найчастіше використовувані";
@@ -1357,14 +1357,14 @@
 "no_budget_books_found_button_title" = "Нова бюджетна книга";
 "no_budget_books_found_cloud_sync_message" = "Існуючі дані завантажуються з iCloud. Зачекайте хвилинку...\n\nАбо натисніть кнопку \"+\", щоб додати нову бюджетну книгу.";
 "no_budget_books_found_cloud_sync_message_short" = "Існуючі дані завантажуються з iCloud. Зачекайте хвилинку...";
-"budget_books_search_placeholder_message" = "Шукати назву бюджетника";
+"budget_books_search_placeholder_message" = "Пошук за назвою бюджетної книги";
 
-"no_accounts_title" = "Немає облікових записів";
+"no_accounts_title" = "Немає рахунків";
 "no_accounts_found_title" = "Рахунки не знайдено";
 "no_account_found_title" = "Рахунок не знайдено";
-"no_accounts_found_message" = "Натисніть кнопку \"+\", щоб додати новий обліковий запис.";
-"no_accounts_found_button_title" = "Новий обліковий запис";
-"accounts_search_placeholder_message" = "Пошук за назвою або типом облікового запису";
+"no_accounts_found_message" = "Натисніть кнопку \"+\", щоб додати новий рахунок.";
+"no_accounts_found_button_title" = "Новий рахунок";
+"accounts_search_placeholder_message" = "Пошук за назвою або типом рахунку";
 
 "no_categories_found_title" = "Категорії не знайдено";
 "no_category_found_title" = "Категорію не знайдено";
@@ -1427,7 +1427,7 @@
 
 /* MARK: - Add Account Form View */
 /* Titles */
-"form_title_new_account" = "Новий обліковий запис";
+"form_title_new_account" = "Новий рахунок";
 
 /* Sections */
 "form_billing_section_title" = "Автоматичне виставлення рахунків";
@@ -1435,24 +1435,24 @@
 "form_account_balance_section_title" = "Баланс рахунку";
 
 /* Footer */
-"form_billing_footer_title" = "Увімкніть цю функцію, щоб автоматично балансувати на цій кредитній картці в певний день місяця (якщо необхідно).";
-"form_transactions_footer_title" = "Увімкніть цю функцію, щоб автоматично позначати нові транзакції для цього облікового запису як \"очікуючі\".";
+"form_billing_footer_title" = "Увімкніть цю функцію, щоб автоматично погашати заборгованість за цією кредитною карткою в певний день місяця.";
+"form_transactions_footer_title" = "Увімкніть цю функцію, щоб автоматично позначати нові транзакції для цього рахунку як \"очікуючі\".";
 "form_account_balance_footer_title" = "Змініть початковий/загальний баланс, щоб вручну звірити баланс вашого рахунку.";
 
 /* Items */
 "form_enable_automatic_billing_title" = "Увімкнено";
 "form_billing_day_title" = "День виставлення рахунку";
 "form_mark_transactions_as_pending_title" = "Позначити як очікувані";
-"form_account_type_title" = "Тип облікового запису";
+"form_account_type_title" = "Тип рахунку";
 "form_initial_balance_title" = "Початковий баланс";
 "form_total_balance_title" = "Загальний баланс";
-"form_use_as_default_account_title" = "Обліковий запис за умовчанням";
+"form_use_as_default_account_title" = "Рахунок за умовчанням";
 "form_account_currency_title" = "Валюта";
 
 /* Buttons */
-"form_button_archive_account" = "Архівувати обліковий запис";
-"form_button_unarchive_account" = "Розархівувати обліковий запис";
-"form_button_delete_account" = "Видалити обліковий запис";
+"form_button_archive_account" = "Архівувати рахунок";
+"form_button_unarchive_account" = "Розархівувати рахунок";
+"form_button_delete_account" = "Видалити рахунок";
 
 
 /* MARK: - Add Category Group Form View */
@@ -1531,7 +1531,7 @@
 "form_tags_section_title" = "Теги";
 
 /* Items */
-"form_account_title" = "Обліковий запис";
+"form_account_title" = "Рахунок";
 "form_from_account_title" = "Від";
 "form_to_account_title" = "Кому";
 "form_account_none_type_value" = "Немає";
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Схоже, що у вас не налаштовано обліковий запис електронної пошти на вашому пристрої. Однак це є обов'язковим для використання цієї функції.";
 
 "alert_no_camera_title" = "Немає камери";
-"alert_no_camera_message" = "Схоже, у вас немає камери. Однак використання цієї функції є обов'язковим.";
+"alert_no_camera_message" = "Схоже, у вас немає камери. Однак для використання цієї функції потрібна камера.";
 
 "alert_permissions_title" = "Майже готово!";
 "alert_permissions_activate_button" = "Активувати зараз";
@@ -1712,7 +1712,7 @@
 
 
 /* MARK: - Default Data */
-"default_account_name" = "Обліковий запис";
+"default_account_name" = "Типовий рахунок";
 
 "default_category_group_name_income" = "Дохід";
 "default_category_name_salary" = "Зарплата";
@@ -1729,7 +1729,7 @@
 "default_category_name_restaurant" = "Ресторан";
 "default_category_name_fast_food" = "Фастфуд";
 
-"default_category_group_name_living" = "Життя";
+"default_category_group_name_living" = "Житло";
 "default_category_name_rent" = "Оренда";
 
 "default_category_group_name_miscellaneous" = "Різне";
@@ -1760,7 +1760,7 @@
 "color_keyword_purple" = "Фіолетовий";
 "color_keyword_pink" = "Рожевий";
 "color_keyword_brown" = "Коричневий";
-"color_keyword_mint" = "Монетний двір";
+"color_keyword_mint" = "М’ятний";
 "color_keyword_cyan" = "Блакитний";
 "color_keyword_violet" = "Фіолетовий";
 "color_keyword_gray" = "Сірий";
@@ -1794,7 +1794,7 @@
 "icon_keyword_building" = "Будівля";
 "icon_keyword_house" = "Будинок";
 "icon_keyword_lightbulb" = "Лампочка";
-"icon_keyword_fan" = "Шанувальник";
+"icon_keyword_fan" = "Вентилятор";
 "icon_keyword_lamp" = "Лампа";
 "icon_keyword_alarm_system" = "Система сигналізації";
 "icon_keyword_webcam" = "Веб-камера";
@@ -1803,7 +1803,7 @@
 "icon_keyword_garage" = "Гараж";
 "icon_keyword_window" = "Вікно";
 "icon_keyword_blinds" = "Жалюзі";
-"icon_keyword_roller" = "Ролик";
+"icon_keyword_roller" = "Рулонна штора";
 "icon_keyword_curtains" = "Штори";
 "icon_keyword_air_purifier" = "Очищувач повітря";
 "icon_keyword_dehumidifier" = "Осушувач повітря";
@@ -1844,7 +1844,7 @@
 "icon_keyword_dryer" = "Сушильна машина";
 "icon_keyword_dishwasher" = "Посудомийна машина";
 "icon_keyword_oven" = "Піч";
-"icon_keyword_stove" = "Пича";
+"icon_keyword_stove" = "Плита";
 "icon_keyword_microwave" = "Мікрохвильова піч";
 "icon_keyword_refrigerator" = "холодильник";
 "icon_keyword_sink" = "Раковина";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "Заправити";
 "icon_keyword_gas_station" = "АЗС";
 "icon_keyword_walking" = "Прогулянка";
-"icon_keyword_running" = "Запущено";
+"icon_keyword_running" = "Біг";
 "icon_keyword_rugby" = "Регбі";
 "icon_keyword_badminton" = "Бадмінтон";
 "icon_keyword_tennis" = "Теніс";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "Ящірка";
 "icon_keyword_bird" = "Птах";
 "icon_keyword_ant" = "Мураха";
-"icon_keyword_ladybug" = "Помилка";
+"icon_keyword_ladybug" = "Жук";
 "icon_keyword_fish" = "Риба";
 "icon_keyword_pet" = "Домашня тварина";
 "icon_keyword_cat" = "Кіт";
@@ -1965,7 +1965,7 @@
 "icon_keyword_flower" = "Квітка";
 "icon_keyword_eating" = "Їсти";
 "icon_keyword_restaurant" = "Ресторан";
-"icon_keyword_drinking" = "Пияння";
+"icon_keyword_drinking" = "Пиття";
 "icon_keyword_cafe" = "Кафе";
 "icon_keyword_coffee" = "Кава";
 "icon_keyword_fastfood" = "Фастфуд";
@@ -1988,16 +1988,16 @@
 "icon_keyword_globe" = "Глобус";
 "icon_keyword_online" = "Онлайн";
 "icon_keyword_internet" = "Інтернет";
-"icon_keyword_amazon" = "Амазонка";
+"icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Пакет";
-"icon_keyword_apple" = "Яблуко";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "Банкнота";
 "icon_keyword_refund" = "Відшкодування";
 "icon_keyword_dollar" = "Долари";
 "icon_keyword_cent" = "Центи";
 "icon_keyword_yen" = "Єна";
 "icon_keyword_pound" = "Фунт";
-"icon_keyword_franc" = "Франконія";
+"icon_keyword_franc" = "Франк";
 "icon_keyword_lira" = "Ліра";
 "icon_keyword_ruble" = "Рубль";
 "icon_keyword_euro" = "Євро";
@@ -2009,10 +2009,10 @@
 "icon_keyword_lungs" = "Легені";
 "icon_keyword_allergens" = "Алергія";
 "icon_keyword_thermometer" = "Термометр";
-"icon_keyword_bandage" = "Плейстири";
+"icon_keyword_bandage" = "Пластирі";
 "icon_keyword_syringe" = "Шприц";
 "icon_keyword_medicine" = "Ліки";
-"icon_keyword_drug" = "Наркотик";
+"icon_keyword_drug" = "Лікарський засіб";
 "icon_keyword_facemask" = "Маска для обличчя";
 "icon_keyword_pills" = "Таблетки";
 "icon_keyword_cross" = "Хрестик";
@@ -2067,7 +2067,7 @@
 "icon_keyword_wand" = "Чарівна паличка";
 "icon_keyword_hourglass" = "Пісочний годинник";
 "icon_keyword_newspaper" = "Газета";
-"icon_keyword_wrench" = "Плоскогубці";
+"icon_keyword_wrench" = "Розвідний ключ";
 "icon_keyword_screwdriver" = "Викрутка";
 "icon_keyword_hammer" = "Молоток";
 "icon_keyword_craftsman" = "Майстер";
@@ -2079,7 +2079,7 @@
 "icon_keyword_key" = "Ключ";
 "icon_keyword_school" = "Школа";
 "icon_keyword_university" = "Університет";
-"icon_keyword_study" = "Дослідження";
+"icon_keyword_study" = "Навчання";
 "icon_keyword_tuition_fees" = "Плата за навчання";
 "icon_keyword_flashlight" = "Ліхтарик";
 "icon_keyword_bell" = "Дзвіночок";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Лабораторія";
 "icon_keyword_calendar" = "Календар";
 "icon_keyword_rent" = "Оренда";
-"icon_keyword_flat" = "Плоский";
+"icon_keyword_flat" = "Квартира";
 "icon_keyword_work" = "Робота";
 "icon_keyword_salary" = "Зарплата";
 "icon_keyword_corona" = "Корона";
@@ -2128,7 +2128,7 @@
 /* MARK: - App Intents */
 /* Entities */
 "budget_book_entity_name" = "Бюджетна книга";
-"account_entity_name" = "Обліковий запис";
+"account_entity_name" = "Рахунок";
 "category_group_entity_name" = "Папка";
 "category_entity_name" = "Категорія";
 "payee_entity_name" = "Одержувач платежу";
@@ -2166,13 +2166,13 @@
 "search_budget_book_title" = "Шукати бюджетну книгу";
 "search_budget_book_description" = "Шукати конкретну бюджетну книгу за назвою.";
 "search_budget_book_parameter_summary" = "Шукати бюджетну книгу за ${name}";
-"search_account_title" = "Шукати обліковий запис";
-"search_account_description" = "Шукати певний обліковий запис за назвою.";
-"search_account_parameter_summary" = "Шукати обліковий запис ${name} у ${budgetBook}";
+"search_account_title" = "Шукати рахунок";
+"search_account_description" = "Шукати певний рахунок за назвою.";
+"search_account_parameter_summary" = "Шукати рахунок ${name} у ${budgetBook}";
 "search_category_group_title" = "Пошук папки";
 "search_category_group_description" = "Шукати певну папку за назвою.";
 "search_category_group_parameter_summary" = "Шукати папку з ${name} в ${budgetBook}";
-"search_category_title" = "Категорія пошуку";
+"search_category_title" = "Шукати категорію";
 "search_category_description" = "Шукати певну категорію за назвою.";
 "search_category_parameter_summary" = "Шукати категорію з ${name} у ${categoryGroup} ${budgetBook}";
 "search_payee_title" = "Шукати одержувача";
@@ -2192,9 +2192,9 @@
 /* Open */
 "open_add_new_income_view_title" = "Додати новий дохід";
 "open_add_new_income_view_description" = "Відкриває вікно додавання нового доходу в програмі.";
-"open_add_new_expense_view_title" = "Додати новий витрата";
+"open_add_new_expense_view_title" = "Додати нову витрату";
 "open_add_new_expense_view_description" = "Відкриває вікно додавання нових витрат у програмі.";
-"open_add_new_transfer_view_title" = "Додати нову передачу";
+"open_add_new_transfer_view_title" = "Додати новий переказ";
 "open_add_new_transfer_view_description" = "Відкриває вікно додавання нового переказу в програмі.";
 "open_add_new_recurring_view_title" = "Додати нову повторювану транзакцію";
 "open_add_new_recurring_view_description" = "Відкриває вікно додавання нових повторюваних транзакцій у програмі.";
@@ -2208,7 +2208,7 @@
 
 "chart_type_parameter_title" = "Тип";
 "chart_type_dialog" = "Який тип діаграми вам потрібен?";
-"chart_type_account_balances_title" = "Баланси облікового запису";
+"chart_type_account_balances_title" = "Баланси рахунків";
 "chart_type_balance_title" = "Баланс";
 "chart_type_total_income_title" = "Загальний дохід";
 "chart_type_total_expenses_title" = "Загальні витрати";

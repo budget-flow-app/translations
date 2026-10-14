@@ -35,7 +35,7 @@
 "account_type_savings" = "Compte d'estalvi";
 "account_type_credit_card" = "Targeta de crèdit";
 "account_type_investment" = "Inversió";
-"account_type_precaution" = "Precaució";
+"account_type_long_term_savings" = "Precaució";
 "account_type_liability" = "Passiu";
 "account_type_business" = "Compte de negocis";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Comptes d'estalvi";
 "account_type_credit_card_plural" = "Targetes de crèdit";
 "account_type_investment_plural" = "Inversions";
-"account_type_precaution_plural" = "Precaucions";
+"account_type_long_term_savings_plural" = "Precaucions";
 "account_type_liability_plural" = "Passius";
 "account_type_business_plural" = "Comptes de negocis";
 
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "No tornar a mostrar";
 "mark_as_paid_button" = "Pagament completat";
 "mark_as_pending_button" = "Pagament pendent";
-"show_contra_entry_button" = "Entrada del comptable";
+"show_contra_entry_button" = "Mostra la contrapartida";
 
 "save_changes_button" = "Desar canvis";
 "discard_changes_button" = "Descartar canvis";
@@ -305,7 +305,7 @@
 "add_category_group_button" = "Nova carpeta";
 
 "add_income_transaction_button" = "Nou ingrés";
-"add_expense_transaction_button" = "Nou gasto";
+"add_expense_transaction_button" = "Nova despesa";
 "add_transfer_transaction_button" = "Nova transferència";
 
 "manage_budget_books_button" = "Gestionar llibres de pressupost";
@@ -331,8 +331,8 @@
 /* Alert Views */
 "alert_sync_shares_in_progress_title" = "Sincronitzant...";
 "alert_sync_shares_in_progress_message" = "Els teus llibres de pressupost s'estan sincronitzant amb iCloud perquè puguis accedir al contingut compartit. Tingues paciència...";
-"alert_cloud_share_quota_exceeded_error_message" = "No s'ha pogut completar el compartiment perquè no hi ha prou espai a iCloud. Allibera espai i torna-ho a provar.";
-"alert_cloud_share_unknown_error_message" = "No s'ha pogut completar el compartiment perquè s'ha produït un error. Probablement no hi ha prou espai disponible a iCloud. Allibera espai i torna-ho a provar.";
+"alert_cloud_share_quota_exceeded_error_message" = "No s'ha pogut completar l’acció de compartir perquè no hi ha prou espai a iCloud. Allibera espai i torna-ho a provar.";
+"alert_cloud_share_unknown_error_message" = "No s'ha pogut completar l’acció de compartir perquè s'ha produït un error. Probablement no hi ha prou espai disponible a iCloud. Allibera espai i torna-ho a provar.";
 
 
 /* MARK: - Transaction Search View */
@@ -413,7 +413,7 @@
 /* Widgets */
 "net_worth_widget_title" = "Patrimoni net";
 "account_balances_widget_title" = "Saldos de comptes";
-"balance_widget_title" = "Balance";
+"balance_widget_title" = "Balanç";
 "total_income_widget_title" = "Ingressos totals";
 "total_expenses_widget_title" = "Despeses totals";
 "fixed_expenses_widget_title" = "Despeses fixes";
@@ -421,7 +421,7 @@
 
 "net_worth_distribution_widget_title" = "Distribució";
 "account_balances_distribution_widget_title" = "Saldos de comptes";
-"balance_distribution_widget_title" = "Balance";
+"balance_distribution_widget_title" = "Balanç";
 "total_income_distribution_widget_title" = "Ingressos totals";
 "total_expenses_distribution_widget_title" = "Despeses totals";
 "fixed_expenses_distribution_widget_title" = "Despeses fixes";
@@ -478,7 +478,7 @@
 "user_has_no_budgets_title" = "No tens pressupostos.";
 "user_is_within_budget_title" = "Estàs dins del teu pressupost! 🎉";
 "user_was_within_budget_title" = "Estaves dins del teu pressupost! 🎉";
-"user_is_not_within_budget_title" = "Has excedit el %d del pressupost 😢";
+"user_is_not_within_budget_title" = "Has excedit %d pressupost 😢";
 "user_is_not_within_budgets_title" = "Has excedit %d pressupostos 😢";
 
 /* Messages */
@@ -492,7 +492,7 @@
 /* MARK: - Analysis View */
 /* Titles */
 "analysis_title" = "Anàlisi";
-"trend_widget_average_title" = "Promig";
+"trend_widget_average_title" = "Mitjana";
 "trend_widget_current_year_title" = "Aquest any";
 "trend_widget_current_month_title" = "Aquest mes";
 
@@ -550,7 +550,7 @@
 "support_setting_footer_title" = "Tens alguna pregunta o idea? Escriu un missatge o deixa una ressenya positiva a l'%@! Els teus comentaris són molt motivadors i ajuden a millorar l'app.";
 
 /* Buttons */
-"share_budgetbook_button" = "Comparteix el teu pressupost";
+"share_budgetbook_button" = "Comparteix el teu llibre de pressupost";
 "show_participants_button" = "Mostra participants";
 "cloud_not_available_button" = "iCloud no disponible";
 "upgrade_show_all_features_button" = "Mostra totes les funcions";
@@ -630,8 +630,8 @@
 "appearance_app_icon_setting_section_title" = "Icona de l'app";
 
 /* Options */
-"appearance_ui_style_apply_to_icons_title" = "Aplica als icones";
-"appearance_ui_style_apply_to_icons_description" = "Aplica també l'aparença seleccionada a tots els icones de l'app.";
+"appearance_ui_style_apply_to_icons_title" = "Aplica a les icones";
+"appearance_ui_style_apply_to_icons_description" = "Aplica també l'aparença seleccionada a totes les icones de l'app.";
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Canvia el color dels botons i altres controls dins de l'app.";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Guardar automàticament les fotos capturades a la biblioteca de fotos.";
 "advanced_setting_suggested_notes_title" = "Notes suggerides";
 "advanced_setting_suggested_notes_description" = "Rep suggeriments basats en les teves transaccions anteriors mentre escrius al camp de notes.";
-"advanced_setting_consider_pending_items_title" = "Incluir totes les transaccions";
+"advanced_setting_consider_pending_items_title" = "Incloure les transaccions pendents";
 "advanced_setting_consider_pending_items_description" = "Incloure transaccions pendents al calcular saldos de comptes, saldos, totals, etc.";
 
 /* Sidebar */
@@ -931,7 +931,7 @@
 
 /* Footer */
 "privacy_policy_title" = "Política de privacitat";
-"onboarding_welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes el %@.";
+"onboarding_welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes la %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1011,7 +1011,7 @@
 "upgrade_feature_customization" = "Personalització";
 "upgrade_feature_customization_description" = "Tria entre múltiples colors d'accent i icones per personalitzar l'app al teu gust.";
 "upgrade_feature_sharedbudget_books_title" = "Llibres de pressupost compartits";
-"upgrade_feature_sharedbudget_books_description" = "Comparteix els teus llibres de pressupost, incloses les comptes, categories, transaccions i pressupostos, per col·laborar amb una o més persones.";
+"upgrade_feature_sharedbudget_books_description" = "Comparteix els teus llibres de pressupost, inclosos els comptes, categories, transaccions i pressupostos, per col·laborar amb una o més persones.";
 "upgrade_feature_receipt_scanner_title" = "Escanejar rebuts";
 "upgrade_feature_receipt_scanner_description" = "Utilitza l'escàner incorporat per digitalitzar els rebuts i reconèixer automàticament l'import i el nom del comerciant.";
 "upgrade_feature_widgets_title" = "Widgets per a la pantalla d'inici i bloqueig";
@@ -1035,7 +1035,7 @@
 "user_review_title_us" = "Gran app fins ara";
 "user_review_description_us" = "Sóc un gran fan que aquesta sigui una app disponible a iOS, iPad i macOS per poder actualitzar-la a qualsevol lloc. També és molt agradable veure que no es requereix cap compte ni recopilació de dades, cosa que sembla estranya avui dia, però és important per a mi en aplicacions financeres.";
 "user_review_title_uk" = "Aquesta és la bona!";
-"user_review_description_uk" = "He estat buscant aquesta app durant més de dos anys. Volia un gestor de finances basat en el telèfon dissenyat al voltant d'una pantalla d'aperitiu atractiva, que permetés una fàcil introducció de nous dades i la possibilitat d'explorar més informació quan fos necessari.";
+"user_review_description_uk" = "He estat buscant aquesta app durant més de dos anys. Volia un gestor de finances basat en el telèfon dissenyat al voltant d'una pantalla de resum atractiva, que permetés una fàcil introducció de noves dades i la possibilitat d'explorar més informació quan fos necessari.";
 "user_review_title_es" = "Millor app de pressupost";
 "user_review_description_es" = "Simplement el millor que he provat. Crec que encara és una app nova, però definitivament es pot veure el potencial que té.";
 "user_review_title_fr" = "Excel·lent app";
@@ -1045,7 +1045,7 @@
 "user_review_title_ch" = "Gran suport";
 "user_review_description_ch" = "Gran suport: resolució ràpida i sense complicacions dels problemes. Em sento escoltat com a usuari.";
 "user_review_title_pl" = "Molt agradable d'utilitzar";
-"user_review_description_pl" = "L'app és un excel·lent planificador i rastrejador de pressupost que faig servir diàriament. A més, el desenvolupador està molt atent a la seva comunitat, tot i ser petit.";
+"user_review_description_pl" = "L'app és un excel·lent planificador i rastrejador de pressupost que faig servir diàriament. A més, el desenvolupador està molt atent a la seva comunitat, tot i que aquesta és petita.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1105,11 +1105,11 @@
 "upgrade_faq_developer_value" = "Budget Flow és una app indie, dissenyada, desenvolupada i mantinguda completament per mi, Fabian Hasse. Sóc desenvolupador de programari amb més de 10 anys d'experiència i treballo amb molta passió per crear la millor app de pressupost per a tu.";
 "upgrade_faq_free_use_title" = "Es pot utilitzar l'app també de forma gratuïta?";
 "upgrade_faq_free_use_value" = "Sí, pots utilitzar les funcions bàsiques de l'app, com la creació de transaccions, de manera totalment gratuïta.\n\nA més, l'app ofereix un període de prova per a la versió completa perquè puguis provar-la abans de decidir-te a comprar-la o subscriure't a la versió completa.";
-"upgrade_faq_security_title" = "Són segurs les meves dades?";
+"upgrade_faq_security_title" = "Són segures les meves dades?";
 "upgrade_faq_security_value" = "Les teves finances són privades i així han de seguir sent. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu.";
 "upgrade_faq_security_value_icloud_suffix" = " o (opcionalment) al teu iCloud personal.";
 "upgrade_faq_why_subscription_title" = "Per què la versió completa s'ofereix com a subscripció?";
-"upgrade_faq_why_subscription_value" = "El meu objectiu és desenvolupar una app d'alta qualitat que t'ofereixi, com a usuari, noves funcions i millores de forma regular. No obstant això, per aconseguir aquest objectiu, l'app necessita ingressos continus per finançar-se i ser econòmicament sostenible.\n\nEl que molts no saben: Desenvolupar i mantenir una app requereix molt de temps. En el cas de Budget Flow, per exemple, van ser necessaris gairebé dos anys i diversos milers d'hores de treball des de la idea fins al desenvolupament i les proves abans que la primera versió es pogués llançar.\n\nCom a client, et beneficies especialment d'actualitzacions i millores periòdiques a través del model de subscripció, així com d'un bon suport per garantir que estiguis satisfet. També tens l'oportunitat de provar l'app gratuïtament per endavant per assegurar-te que s'adapti a les teves necessitats, i pots canviar o cancel·lar la subscripció en qualsevol moment si canvies d'opinió.\n\nEn general, un model de subscripció t'ofereix molts beneficis com a client i una millor experiència d'usuari mitjançant actualitzacions i suport continu, en comparació amb una compra única. A llarg termini, una compra única desafortunadament no seria sostenible, ja que aquest model de negoci requereix que els nous usuaris continuïn comprant l'app per garantir la continuïtat del desenvolupament.\n\nAixí que si t'agrada l'app, estaria molt feliç si recolzes el meu treball perquè pugui continuar oferint-te encara més funcions excel·lents en el futur! ❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow es desenvolupa i millora contínuament i s’adapta a les noves versions dels sistemes operatius. Una subscripció ajuda a finançar aquesta feina a llarg termini i a oferir-te actualitzacions periòdiques, noves funcions i un bon suport.\n\nSi no t’agraden les subscripcions, també pots comprar la versió completa amb un pagament únic. El preu d’aquesta compra és més alt perquè cobreix totes les actualitzacions futures i el suport sense pagaments addicionals.\n\nPots provar la versió completa gratuïtament abans de comprar-la i cancel·lar la subscripció en qualsevol moment. Si t’agrada Budget Flow, la teva compra dona suport al desenvolupament independent de l’app.";
 "upgrade_faq_multiple_devices_title" = "Puc utilitzar la versió completa en diversos dispositius?";
 "upgrade_faq_multiple_devices_value" = "Sí, pots utilitzar la versió completa de Budget Flow a tots els teus dispositius Apple amb el mateix ID d'Apple. Com que l'app es sincronitza a través d'iCloud, pots canviar sense problemes entre els teus dispositius i tenir sempre accés a les teves dades i configuracions financeres.";
 "upgrade_faq_multiple_people_title" = "Puc utilitzar la versió completa amb diverses persones?";
@@ -1128,7 +1128,7 @@
 "user_feedback" = "opinió";
 
 /* Buttons */
-"user_feedback_message_title" = "Hola, sóc Fabián, el desenvolupador de Budget Flow. Tens un moment per donar la teva opinió sobre l'app? 😊";
+"user_feedback_message_title" = "Hola, sóc Fabian, el desenvolupador de Budget Flow. Tens un moment per donar la teva opinió sobre l'app? 😊";
 
 /* Alert Views */
 "alert_user_feedback_title" = "T'agrada l'app?";
@@ -1263,10 +1263,10 @@
 "alert_confirm_delete_contra_entry_title" = "Aquesta transacció és una transferència. Vols eliminar també l’entrada contrària?";
 
 /* Update */
-"alert_confirm_update_contra_entry_title" = "Esta transacción es una transferencia. ¿También desea actualizar la contraentrada?";
-"alert_confirm_update_transaction_multiple_title" = "Esta transacción pertenece a un grupo. ¿Qué es exactamente lo que quieres ahorrar?";
-"alert_confirm_update_transaction_single_button" = "Salva solo a este";
-"alert_confirm_update_transaction_all_button" = "Salva esta y las futuras";
+"alert_confirm_update_contra_entry_title" = "Aquesta transacció és una transferència. Vols actualitzar també la contrapartida?";
+"alert_confirm_update_transaction_multiple_title" = "Aquesta transacció pertany a un grup. Què vols desar exactament?";
+"alert_confirm_update_transaction_single_button" = "Desa només aquesta";
+"alert_confirm_update_transaction_all_button" = "Desa aquesta i les futures";
 
 /* End Repetition */
 "alert_confirm_end_repetition_for_transaction_title" = "Estàs segur que vols deixar de repetir aquesta transacció?";
@@ -1516,7 +1516,7 @@
 /* MARK: - Add Transaction Form View */
 /* Titles */
 "form_title_new_income" = "Nou ingrés";
-"form_title_new_expense" = "Nou despesa";
+"form_title_new_expense" = "Nova despesa";
 "form_title_new_transfer" = "Nova transferència";
 
 /* Sections */
@@ -1732,7 +1732,7 @@
 "default_category_group_name_living" = "Habitatge";
 "default_category_name_rent" = "Lloguer";
 
-"default_category_group_name_miscellaneous" = "Varios";
+"default_category_group_name_miscellaneous" = "Diversos";
 
 "default_reminder_expense_check_title" = "Ja ho has registrat tot? Dedica un moment a les teves últimes despeses 📝";
 "default_reminder_weekly_review_title" = "Com ha anat la setmana? Mira cap a on han anat els teus diners 📊";
@@ -1745,7 +1745,7 @@
 "color_section_afterglow_title" = "Resplendor";
 "color_section_ocean_title" = "Oceà";
 "color_section_nightsky_title" = "Cel nocturn";
-"color_section_pastel_title" = "Pastís";
+"color_section_pastel_title" = "Pastel";
 "color_section_apple_title" = "Apple";
 "color_section_google_title" = "Google";
 
@@ -1763,7 +1763,7 @@
 "color_keyword_mint" = "Menta";
 "color_keyword_cyan" = "Cian";
 "color_keyword_violet" = "Violeta";
-"color_keyword_gray" = "Groc";
+"color_keyword_gray" = "Gris";
 
 
 /* MARK: - Icon Sections */
@@ -1850,7 +1850,7 @@
 "icon_keyword_sink" = "Pica";
 "icon_keyword_toilet" = "Inodor";
 "icon_keyword_bathroom" = "Bany";
-"icon_keyword_tv_remote" = "Mando a distància";
+"icon_keyword_tv_remote" = "Comandament a distància";
 "icon_keyword_tv" = "TV";
 "icon_keyword_person" = "Persona";
 "icon_keyword_human" = "Humà";
@@ -1925,11 +1925,11 @@
 "icon_keyword_dice" = "Daus";
 "icon_keyword_boardgames" = "Jocs de taula";
 "icon_keyword_gambling" = "Jocs d’atzar";
-"icon_keyword_camera" = "Cámara";
+"icon_keyword_camera" = "Càmera";
 "icon_keyword_photography" = "Fotografia";
 "icon_keyword_photo" = "Foto";
 "icon_keyword_world" = "Món";
-"icon_keyword_globe" = "Globi";
+"icon_keyword_globe" = "Globus terraqüi";
 "icon_keyword_sun" = "Sol";
 "icon_keyword_summer" = "Estiu";
 "icon_keyword_moon" = "Lluna";
@@ -1976,7 +1976,7 @@
 "icon_keyword_carrot" = "Pastanaga";
 "icon_keyword_vegetables" = "Verdures";
 "icon_keyword_bag" = "Bossa";
-"icon_keyword_cone" = "Con";
+"icon_keyword_cone" = "Bossa";
 "icon_keyword_shopping" = "Compres";
 "icon_keyword_supermarket" = "Supermercat";
 "icon_keyword_groceries" = "Aliments";
@@ -1985,7 +1985,7 @@
 "icon_keyword_gift" = "Regal";
 "icon_keyword_clothes" = "Roba";
 "icon_keyword_clothing" = "Robes";
-"icon_keyword_globe" = "Globo";
+"icon_keyword_globe" = "Globus terraqüi";
 "icon_keyword_online" = "En línia";
 "icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
@@ -1999,7 +1999,7 @@
 "icon_keyword_pound" = "Lliura";
 "icon_keyword_franc" = "Franc";
 "icon_keyword_lira" = "Lira";
-"icon_keyword_ruble" = "Rublo";
+"icon_keyword_ruble" = "Ruble";
 "icon_keyword_euro" = "Euro";
 "icon_keyword_rupee" = "Rupia";
 "icon_keyword_peso" = "Peso";
@@ -2064,7 +2064,7 @@
 "icon_keyword_clock" = "Rellotge";
 "icon_keyword_alarm" = "Alarma";
 "icon_keyword_box" = "Caixa";
-"icon_keyword_wand" = "Barreta màgica";
+"icon_keyword_wand" = "Vareta màgica";
 "icon_keyword_hourglass" = "Rellotge de sorra";
 "icon_keyword_newspaper" = "Diari";
 "icon_keyword_wrench" = "Clau anglesa";
@@ -2192,7 +2192,7 @@
 /* Open */
 "open_add_new_income_view_title" = "Afegir nous ingressos";
 "open_add_new_income_view_description" = "Obre la vista per afegir nous ingressos dins de l’aplicació.";
-"open_add_new_expense_view_title" = "Afegir nou despesa";
+"open_add_new_expense_view_title" = "Afegir nova despesa";
 "open_add_new_expense_view_description" = "Obre la vista per afegir noves despeses dins de l’aplicació.";
 "open_add_new_transfer_view_title" = "Afegir nova transferència";
 "open_add_new_transfer_view_description" = "Obre la vista per afegir nova transferència dins de l’aplicació.";
@@ -2215,7 +2215,7 @@
 "chart_type_fixed_expenses_title" = "Despeses fixes";
 "chart_type_variable_expenses_title" = "Despeses variables";
 
-"chart_period_type_parameter_title" = "Punt";
+"chart_period_type_parameter_title" = "Període";
 "chart_period_type_dialog" = "Quin període vols veure?";
 "chart_type_current_month_title" = "Mes actual";
 "chart_type_current_year_title" = "Any actual";

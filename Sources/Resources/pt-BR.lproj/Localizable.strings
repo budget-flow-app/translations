@@ -35,7 +35,7 @@
 "account_type_savings" = "Conta poupança";
 "account_type_credit_card" = "Cartão de crédito";
 "account_type_investment" = "Investimento";
-"account_type_precaution" = "Reserva de emergência";
+"account_type_long_term_savings" = "Reserva de emergência";
 "account_type_liability" = "Passivo";
 "account_type_business" = "Conta empresarial";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Contas de poupança";
 "account_type_credit_card_plural" = "Cartões de crédito";
 "account_type_investment_plural" = "Investimentos";
-"account_type_precaution_plural" = "Reservas de emergência";
+"account_type_long_term_savings_plural" = "Reservas de emergência";
 "account_type_liability_plural" = "Passivos";
 "account_type_business_plural" = "Contas empresariais";
 
@@ -824,7 +824,7 @@
 "advanced_setting_configure_transaction_title_title" = "Título da transação";
 "advanced_setting_configure_transaction_subtitle_title" = "Subtítulo da transação";
 "advanced_setting_configure_transaction_title_info_title" = "Descrição";
-"advanced_setting_configure_transaction_title_info_description" = "Configure a ordem do título da transação. Por padrão, o nome da categoria será apresentado primeiro. Se faltar a categoria, o nome do destinatário será utilizado. Se não for atribuído nenhum destinatário, as notas serão apresentadas.";
+"advanced_setting_configure_transaction_title_info_description" = "Defina a ordem dos campos exibidos no título da transação. Se um campo estiver vazio, o próximo campo disponível nessa ordem será usado automaticamente.";
 
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Seleção automática de horário";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "As suas finanças são privadas – e devem permanecer assim. É por isso que os seus dados são armazenados exclusivamente no seu dispositivo.";
 "upgrade_faq_security_value_icloud_suffix" = " ou (opcionalmente) no seu iCloud pessoal.";
 "upgrade_faq_why_subscription_title" = "Por que a versão completa é oferecida como uma assinatura?";
-"upgrade_faq_why_subscription_value" = "Meu objetivo é desenvolver um aplicativo de alta qualidade que ofereça a você como usuário novos recursos e melhorias regularmente. No entanto, para atingir esse objetivo, o aplicativo precisa de receita contínua para se financiar e ser economicamente sustentável.\n\nO que muitos não sabem: desenvolver e manter um aplicativo leva muito tempo. No caso do Budget Flow, por exemplo, foram necessários quase dois anos e milhares de horas de trabalho desde a ideia até o desenvolvimento e testes até que a primeira versão pudesse ser lançada.\n\nComo cliente, você se beneficia em particular de atualizações e melhorias regulares através do modelo de assinatura, bem como um bom suporte para garantir que você continue satisfeito. Você também tem a oportunidade de experimentar o aplicativo gratuitamente com antecedência para garantir que ele atenda às suas necessidades, você pode alterar ou cancelar a assinatura a qualquer momento se mudar de ideia.\n\nNo geral, um modelo de assinatura oferece muitos benefícios para você como cliente e uma melhor experiência do usuário por meio de atualizações contínuas e suporte em comparação com uma compra única. A longo prazo, uma compra única infelizmente não seria sustentável, pois esse modelo de negócio exige que novos usuários continuem comprando o aplicativo para garantir a continuação do desenvolvimento.\n\nEntão, se você gosta do aplicativo, eu ficaria muito feliz if você apoiasse meu trabalho para que eu possa continuar a oferecer ainda mais recursos excelentes no futuro!❤️";
+"upgrade_faq_why_subscription_value" = "O Budget Flow é continuamente desenvolvido, aprimorado e adaptado às novas versões dos sistemas operacionais. Uma assinatura ajuda a financiar esse trabalho a longo prazo e a oferecer atualizações regulares, novos recursos e um bom suporte.\n\nSe você não gosta de assinaturas, também pode adquirir a versão completa com uma compra única. O preço dessa compra é intencionalmente mais alto porque cobre todas as atualizações futuras e o suporte sem pagamentos adicionais.\n\nVocê pode testar a versão completa gratuitamente antes de comprar e cancelar sua assinatura a qualquer momento. Se você gosta do Budget Flow, sua compra apoia o desenvolvimento independente do app.";
 "upgrade_faq_multiple_devices_title" = "Posso usar a versão completa em vários dispositivos?";
 "upgrade_faq_multiple_devices_value" = "Sim, você pode usar a versão completa do Budget Flow em todos os seus dispositivos Apple com o mesmo ID Apple. Uma vez que o aplicativo é sincronizado através do iCloud, pode alternar facilmente entre os seus dispositivos e ter sempre acesso aos seus dados financeiros e configurações.";
 "upgrade_faq_multiple_people_title" = "Posso usar a versão completa com várias pessoas?";
@@ -1117,7 +1117,7 @@
 "upgrade_faq_cancel_subscription_title" = "Como posso cancelar a minha assinatura?";
 "upgrade_faq_cancel_subscription_value" = "Você pode cancelar a sua assinatura a qualquer momento utilizando o seu ID %@ nas preferências do sistema.";
 "upgrade_faq_subscription_data_loss_title" = "Os meus dados serão perdidos se eu cancelar a minha assinatura?";
-"upgrade_faq_subscription_data_loss_value" = "Não. Qualquer coisa que você criar ao assinar a versão completa ainda estará disponível if você voltar para a versão gratuita.";
+"upgrade_faq_subscription_data_loss_value" = "Não. Qualquer coisa que você criar ao assinar a versão completa ainda estará disponível se você voltar para a versão gratuita.";
 "upgrade_faq_refund_title" = "Como posso obter um reembolso?";
 "upgrade_faq_refund_value" = "Pagamentos feitos através da %1$@ são reembolsáveis apenas pela %2$@. Para receber um reembolso, você tem de contatar o Suporte %2$@ no prazo de 14 dias após a compra.";
 "upgrade_faq_switch_plan_title" = "É possível mudar de uma assinatura para uma compra única posteriormente?";
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Parece que você não tem uma conta de e-mail configurada no seu dispositivo. No entanto, isso é obrigatório para usar esse recurso.";
 
 "alert_no_camera_title" = "Nenhuma câmera disponível";
-"alert_no_camera_message" = "Parece que você não tem uma câmera. No entanto, é obrigatório utilizar este recurso.";
+"alert_no_camera_message" = "Parece que seu dispositivo não tem uma câmera. No entanto, uma câmera é necessária para usar este recurso.";
 
 "alert_permissions_title" = "Quase lá!";
 "alert_permissions_activate_button" = "Ativar agora";
@@ -1925,7 +1925,7 @@
 "icon_keyword_dice" = "Dados";
 "icon_keyword_boardgames" = "Jogos de Tabuleiro";
 "icon_keyword_gambling" = "Apostas";
-"icon_keyword_camera" = "Câmara";
+"icon_keyword_camera" = "Câmera";
 "icon_keyword_photography" = "Fotografia";
 "icon_keyword_photo" = "Foto";
 "icon_keyword_world" = "Mundo";
@@ -1976,7 +1976,7 @@
 "icon_keyword_carrot" = "Cenoura";
 "icon_keyword_vegetables" = "Legumes";
 "icon_keyword_bag" = "Sacola";
-"icon_keyword_cone" = "Cone";
+"icon_keyword_cone" = "Saco";
 "icon_keyword_shopping" = "Compras";
 "icon_keyword_supermarket" = "Supermercado";
 "icon_keyword_groceries" = "Mantimentos";

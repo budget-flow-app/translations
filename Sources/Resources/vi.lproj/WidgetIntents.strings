@@ -43,11 +43,11 @@
 "ju8eTZ" = "Hiển thị cho bạn ngân sách cụ thể cho khoảng thời gian đã chọn.";
 "c79LHS" = "Tiện ích này cho phép bạn nhanh chóng thêm các giao dịch mới.";
 
-"dDaQZs" = "Thêm khoản thu mới trong ứng dụng.";
-"p9tWSU" = "Thêm khoản chi mới trong ứng dụng.";
-"UCPXGi" = "Thêm chuyển khoản trong ứng dụng.";
-"yC8ys5" = "Thêm giao dịch định kỳ trong ứng dụng.";
-"sqTaTl" = "Thêm kế hoạch giao dịch trong ứng dụng.";
+"dDaQZs" = "Mở màn hình thêm khoản thu mới trong ứng dụng.";
+"p9tWSU" = "Mở màn hình thêm khoản chi mới trong ứng dụng.";
+"UCPXGi" = "Mở màn hình thêm chuyển khoản mới trong ứng dụng.";
+"yC8ys5" = "Mở màn hình thêm giao dịch định kỳ mới trong ứng dụng.";
+"sqTaTl" = "Mở màn hình giao dịch theo kế hoạch trong ứng dụng.";
 
 /* Overview Types */
 "hVyAjR" = "Giá trị ròng";
@@ -159,10 +159,10 @@
 "lTy5qN" = "Giao dịch có nên được đưa vào thống kê không?";
 "zZSQvt" = "Bạn muốn sử dụng Sổ ngân sách nào?";
 "Y5Nex5" = "Bạn đã sử dụng Ví nào?";
-"0HLNLH" = "Bạn đã chi tiêu vào Danh mục nào?";
+"0HLNLH" = "Bạn muốn sử dụng danh mục nào?";
 "wqsAJE" = "Nên chỉ định người nhận thanh toán nào?";
 "X8ocGF" = "Nên sử dụng thẻ nào?";
-"AHmcT3" = "Bạn đã chi tiêu vào lúc nào?";
+"AHmcT3" = "Bạn muốn sử dụng ngày nào?";
 "P32rK5" = "Giao dịch này nên lặp lại với tần suất như thế nào?";
 
 "aweDKY" = "Xác nhận, bạn muốn là '${type}'?";
@@ -204,7 +204,7 @@
 "yVd6fu" = "Mỗi 4 tuần";
 "bJHfBW" = "Hằng tháng";
 "hcXxle" = "Mỗi 2 tháng";
-"JFZtOn" = "Mỗi 4 tháng";
+"JFZtOn" = "Mỗi 3 tháng";
 "v02Q1j" = "Mỗi 6 tháng";
 "GB1jzm" = "Hằng năm";
 

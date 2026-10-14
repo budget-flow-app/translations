@@ -56,59 +56,59 @@
 
 "3GCjUk" = "Saldo";
 "Lvj3sF" = "Saldo";
-"9mfrfk-3GCjUk" = "Vahvistaaksesi, halusit 'tasapainon'?";
-"MkDC8c-Lvj3sF" = "Vahvistaaksesi, halusit 'tasapainon'?";
+"9mfrfk-3GCjUk" = "Varmistuksena: halusitko 'saldon'?";
+"MkDC8c-Lvj3sF" = "Varmistuksena: halusitko 'saldon'?";
 "5xfjRl-Lvj3sF" = "On ${count} vaihtoehtoa, jotka vastaavat 'saldoa'.";
 "jlSssx-3GCjUk" = "On ${count} vaihtoehtoa, jotka vastaavat 'saldoa'.";
 
-"nXqb0W" = "Tuot yhteensä";
-"wXUvBH" = "Tuot yhteensä";
-"MkDC8c-nXqb0W" = "Vahvistuksena, halusit 'kokonaistulot'?";
-"9mfrfk-wXUvBH" = "Vahvistuksena, halusit 'kokonaistulot'?";
+"nXqb0W" = "Tulot yhteensä";
+"wXUvBH" = "Tulot yhteensä";
+"MkDC8c-nXqb0W" = "Varmistuksena: halusitko 'kokonaistulot'?";
+"9mfrfk-wXUvBH" = "Varmistuksena: halusitko 'kokonaistulot'?";
 "jlSssx-wXUvBH" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaistuloa'.";
 "5xfjRl-nXqb0W" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaistuloa'.";
 
 "4CQ3jz" = "Kokonaiskulut";
 "LTGP2N" = "Kokonaiskulut";
-"MkDC8c-LTGP2N" = "Vahvistuksena, halusit 'kokonaiskulut'?";
-"9mfrfk-4CQ3jz" = "Vahvistuksena, halusit 'kokonaiskulut'?";
+"MkDC8c-LTGP2N" = "Varmistuksena: halusitko 'kokonaiskulut'?";
+"9mfrfk-4CQ3jz" = "Varmistuksena: halusitko 'kokonaiskulut'?";
 "jlSssx-4CQ3jz" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaiskuluja'.";
 "5xfjRl-LTGP2N" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaiskuluja'";
 
 "967MIQ" = "Kiinteät kulut";
 "G7YBAE" = "Kiinteät kulut";
-"9mfrfk-G7YBAE" = "Vahvistaaksesi, halusit 'kiinteitä kuluja'?";
-"MkDC8c-967MIQ" = "Vahvistaaksesi, halusit 'kiinteitä kuluja'?";
+"9mfrfk-G7YBAE" = "Varmistuksena: halusitko 'kiinteitä kuluja'?";
+"MkDC8c-967MIQ" = "Varmistuksena: halusitko 'kiinteitä kuluja'?";
 "5xfjRl-967MIQ" = "On ${count} vaihtoehtoa, jotka vastaavat 'kiinteitä kuluja'.";
 "jlSssx-G7YBAE" = "On ${count} vaihtoehtoa, jotka vastaavat 'kiinteitä kuluja'.";
 
 "R35A16" = "Muuttuvat kulut";
 "Xq1BNs" = "Muuttuvat kulut";
-"MkDC8c-R35A16" = "Vahvistuksena, halusit 'muuttuvia kuluja'?";
-"9mfrfk-Xq1BNs" = "Vahvistuksena, halusit 'muuttuvia kuluja'?";
+"MkDC8c-R35A16" = "Varmistuksena: halusitko 'muuttuvia kuluja'?";
+"9mfrfk-Xq1BNs" = "Varmistuksena: halusitko 'muuttuvia kuluja'?";
 "5xfjRl-R35A16" = "On ${count} vaihtoehtoa, jotka vastaavat 'muuttuvia kuluja'.";
 "jlSssx-Xq1BNs" = "On ${count} vaihtoehtoa, jotka vastaavat 'muuttuvia kuluja'.";
 
 "PhqijR" = "Tilien saldot";
 "VhlRFH" = "Tilien saldot";
-"MkDC8c-PhqijR" = "Vahvistaaksesi, halusit 'tilin saldot'?";
-"9mfrfk-VhlRFH" = "Vahvistaaksesi, halusit 'tilin saldot'?";
+"MkDC8c-PhqijR" = "Varmistuksena: halusitko 'tilin saldot'?";
+"9mfrfk-VhlRFH" = "Varmistuksena: halusitko 'tilin saldot'?";
 "5xfjRl-PhqijR" = "On ${count} vaihtoehtoa, jotka vastaavat 'tilin saldoa'.";
 "jlSssx-VhlRFH" = "On ${count} vaihtoehtoa, jotka vastaavat 'tilin saldot'.";
 
 /* Action Types */
 "CVbmHD" = "Toiminto";
 "WjgQ3F" = "Uusi tulo";
-"6vnhNE-WjgQ3F" = "Vahvistuksena, halusit 'uutta tuloa'?";
+"6vnhNE-WjgQ3F" = "Varmistuksena: halusitko 'uutta tuloa'?";
 "SiRH8S-WjgQ3F" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta tuloa'.";
 "Frl0u1" = "Uusi kulu";
-"6vnhNE-Frl0u1" = "Vahvistuksena, halusit 'uuden kulun'?";
+"6vnhNE-Frl0u1" = "Varmistuksena: halusitko 'uuden kulun'?";
 "SiRH8S-Frl0u1" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta kulua'.";
 "89P1cU" = "Uusi siirto";
-"6vnhNE-89P1cU" = "Vahvistaaksesi, halusit 'uuden siirron'?";
+"6vnhNE-89P1cU" = "Varmistuksena: halusitko 'uuden siirron'?";
 "SiRH8S-89P1cU" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta siirtoa'.";
 "sEOquD" = "Toistuva";
-"6vnhNE-sEOquD" = "Vahvistaaksesi, halusit 'toistuvan'?";
+"6vnhNE-sEOquD" = "Varmistuksena: halusitko 'toistuvan'?";
 "SiRH8S-sEOquD" = "On ${count} vaihtoehtoa, jotka vastaavat sanaa 'toistuva'.";
 
 /* Period Types */
@@ -119,19 +119,19 @@
 "0uJvbe" = "Nykyinen kuukausi";
 "9M6g0C" = "Nykyinen kuukausi";
 "5k1p3H" = "Nykyinen kuukausi";
-"BgXL00-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
-"EqxQCI-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
-"uJZrBb-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
-"Iw8VwE-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
-"ujLY0p-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
-"2bSbou-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
+"BgXL00-0uJvbe" = "Varmistuksena: halusitko 'kuluvan kuukauden'?";
+"EqxQCI-0uJvbe" = "Varmistuksena: halusitko 'kuluvan kuukauden'?";
+"uJZrBb-0uJvbe" = "Varmistuksena: halusitko 'kuluvan kuukauden'?";
+"Iw8VwE-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa kuukautta'.";
+"ujLY0p-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa kuukautta'.";
+"2bSbou-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa kuukautta'.";
 
 "XLsrlR" = "Kuluva vuosi";
 "OjUmV9" = "Kuluva vuosi";
 "PSloJn" = "Kuluva vuosi";
-"BgXL00-OjUmV9" = "Vahvistaaksesi, halusit 'kuluvan vuoden'?";
-"EqxQCI-OjUmV9" = "Vahvistaaksesi, halusit 'kuluvan vuoden'?";
-"uJZrBb-OjUmV9" = "Vahvistuksena, halusit 'kuluvan vuoden'?";
+"BgXL00-OjUmV9" = "Varmistuksena: halusitko 'kuluvan vuoden'?";
+"EqxQCI-OjUmV9" = "Varmistuksena: halusitko 'kuluvan vuoden'?";
+"uJZrBb-OjUmV9" = "Varmistuksena: halusitko 'kuluvan vuoden'?";
 "Iw8VwE-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
 "ujLY0p-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
 "2bSbou-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
@@ -165,8 +165,8 @@
 "AHmcT3" = "Mitä päivämäärää tulisi käyttää?";
 "P32rK5" = "Kuinka usein tapahtuma tulee toistaa?";
 
-"aweDKY" = "Vahvistaaksesi, halusit '${type}'?";
-"f00iD1" = "Vahvistaaksesi, halusit '${repetitionFrequency}'?";
+"aweDKY" = "Varmistuksena: halusitko '${type}'?";
+"f00iD1" = "Varmistuksena: halusitko '${repetitionFrequency}'?";
 "LsIZmT" = "${displayName} ei voi olla negatiivinen.";
 "aMDTJp" = "${displayName} ei voi olla pienempi kuin ${minimumValue}.";
 "awYsJs" = "${displayName} ei voi olla suurempi kuin ${maximumValue}.";

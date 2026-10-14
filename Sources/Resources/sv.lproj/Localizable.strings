@@ -20,7 +20,7 @@
 
 "before" = "före";
 "uncategorized" = "Okategoriserad";
-"account_reconcilation" = "Kontavstämning";
+"account_reconcilation" = "Kontoavstämning";
 
 "evaluated" = "Utvärderad";
 "not_evaluated" = "Ej utvärderad";
@@ -32,18 +32,18 @@
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
 "account_type_payment" = "Betalningskonto";
-"account_type_savings" = "Sparakonto";
+"account_type_savings" = "Sparkonto";
 "account_type_credit_card" = "Kreditkort";
 "account_type_investment" = "Investering";
-"account_type_precaution" = "Försiktighetsåtgärd";
-"account_type_liability" = "Ansvar";
+"account_type_long_term_savings" = "Försiktighetsåtgärd";
+"account_type_liability" = "Skuld";
 "account_type_business" = "Företagskonto";
 
 "account_type_payment_plural" = "Betalningskonton";
-"account_type_savings_plural" = "Sparakonton";
+"account_type_savings_plural" = "Sparkonton";
 "account_type_credit_card_plural" = "Kreditkort";
 "account_type_investment_plural" = "Investeringar";
-"account_type_precaution_plural" = "Försiktighetsåtgärd";
+"account_type_long_term_savings_plural" = "Försiktighetsåtgärd";
 "account_type_liability_plural" = "Skulder";
 "account_type_business_plural" = "Företagskonton";
 
@@ -105,8 +105,8 @@
 "csv_transaction_type_income" = "Inkomst";
 "csv_transaction_type_expenses" = "Utgifter";
 
-"passcode_type_four_digits" = "Fyrsiffrig numerisk lösenord";
-"passcode_type_six_digits" = "Sexsiffrig numerisk lösenord";
+"passcode_type_four_digits" = "Fyrsiffrig numerisk kod";
+"passcode_type_six_digits" = "Sexsiffrig numerisk kod";
 "passcode_type_custom_numeric" = "Anpassad numerisk kod";
 "passcode_type_custom_alphanumeric" = "Anpassad alfanumerisk kod";
 
@@ -142,7 +142,7 @@
 "subscription_period_days" = "dagar";
 "subscription_period_month" = "Månad";
 "subscription_period_months" = "Månader";
-"subscription_period_year" = "ar";
+"subscription_period_year" = "år";
 "subscription_period_years" = "År";
 
 "overview_period_type_current_week" = "Denna vecka";
@@ -254,7 +254,7 @@
 "delete_button" = "Ta bort";
 "end_repetition_button" = "Avsluta upprepning";
 "reset_button" = "Återställ";
-"apply_button" = "Ansök";
+"apply_button" = "Tillämpa";
 "yes_button" = "Ja";
 "no_button" = "Nej";
 "ok_button" = "OK";
@@ -578,7 +578,7 @@
 "imprint_setting" = "Imprint";
 "privacy_setting" = "Sekretesspolicy";
 "terms_of_use_setting" = "Användarvillkor";
-"acknowledgements_setting" = "Bekräftelser";
+"acknowledgements_setting" = "Tack till";
 "licenses_setting" = "Licenser";
 
 "acknowledgements_setting_info_title" = "Beskrivning";
@@ -824,7 +824,7 @@
 "advanced_setting_configure_transaction_title_title" = "Transaktionens titel";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaktionens undertitel";
 "advanced_setting_configure_transaction_title_info_title" = "Beskrivning";
-"advanced_setting_configure_transaction_title_info_description" = "Ställ in ordningen på objekten som ska visas i transaktionstiteln. Om en artikel saknas, används nästa i beställningen automatiskt.";
+"advanced_setting_configure_transaction_title_info_description" = "Ställ in ordningen på objekten som ska visas i transaktionstiteln. Om ett objekt saknas används nästa i ordningen automatiskt.";
 
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Automatiskt val av tid";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Spara tagna bilder automatiskt i fotobiblioteket.";
 "advanced_setting_suggested_notes_title" = "Föreslagna anteckningar";
 "advanced_setting_suggested_notes_description" = "Få förslag baserat på dina tidigare transaktioner när du skriver i anteckningsfältet.";
-"advanced_setting_consider_pending_items_title" = "Boka alla transaktioner";
+"advanced_setting_consider_pending_items_title" = "Räkna med väntande transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkludera väntande transaktioner vid beräkning av kontosaldon, saldon, summor etc.";
 
 /* Sidebar */
@@ -891,7 +891,7 @@
 "alert_error_title" = "Ett fel uppstod 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Följ \"%@\" på sociala medier";
 
 /* Copyright */
 "version" = "Version";
@@ -958,11 +958,11 @@
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Nya funktioner";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "Betygsätt app";
+"new_features_view_close_button" = "Kanske senare";
 
 
 /* MARK: - Upgrade View */
@@ -1022,30 +1022,30 @@
 "upgrade_feature_csv_description" = "Importera och exportera dina transaktioner med en CSV-fil för att överföra data från din bank eller andra applikationer.";
 "upgrade_feature_remove_ads_title" = "Inga annonser";
 "upgrade_feature_remove_ads_description" = "Du kommer inte längre att se annonser för den fullständiga versionen i appen.";
-"upgrade_feature_support_title" = "Supportutveckling";
+"upgrade_feature_support_title" = "Stöd utvecklingen";
 "upgrade_feature_support_description" = "Du stödjer en ung utvecklare och därmed den kontinuerliga utvecklingen av appen! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Fantastisk app";
+"user_review_description_de" = "Appen är väldigt väl utformad och funktionell. Den uppfyller alla mina behov och supporten är mycket snabb och hjälpsam. Jag kan bara rekommendera den.";
+"user_review_title_hr" = "Snygg app";
+"user_review_description_hr" = "En app med många funktioner och ett lättanvänt gränssnitt. Jag har provat många alternativ på iOS, men inget av dem har uppfyllt mina behov lika bra som den här appen. Värd pengarna.";
+"user_review_title_bg" = "Enastående support";
+"user_review_description_bg" = "En fantastisk app med enastående kundsupport. Priset är också mycket rimligt med tanke på programvarans kvalitet.";
+"user_review_title_us" = "En fantastisk app hittills";
+"user_review_description_us" = "Jag gillar verkligen att appen finns på iOS, iPad och macOS, så att jag kan uppdatera mina uppgifter var som helst. Det är också väldigt skönt att inget konto krävs och att inga data samlas in. Det verkar ovanligt nuförtiden, men är viktigt för mig när det gäller ekonomiappar.";
+"user_review_title_uk" = "Det här är den rätta!";
+"user_review_description_uk" = "Jag har letat efter den här appen i över två år. Jag ville ha en ekonomiapp för telefonen med en snygg översikt, enkel inmatning av nya uppgifter och möjlighet att se fler detaljer vid behov. Prova den!";
+"user_review_title_es" = "Den bästa budgetappen";
+"user_review_description_es" = "Helt enkelt den bästa jag har provat. Jag tror att det fortfarande är en ganska ny app, men det är tydligt vilken potential den har.";
+"user_review_title_fr" = "Utmärkt app med många funktioner";
+"user_review_description_fr" = "Jag har använt appen i några månader nu och gillar den verkligen. Grattis till ditt arbete, och jag ser fram emot att se hur appen ser ut om några månader :)";
+"user_review_title_it" = "Helt enkelt fantastisk";
+"user_review_description_it" = "Äntligen. Jag har letat efter en sådan lösning i flera år. Jag använder den med transaktionsutlösaren i Genvägar på iOS och älskar designen. Jag gillar också möjligheten att betala en enda gång. Fortsätt med det fina arbetet!";
+"user_review_title_ch" = "Fantastisk support";
+"user_review_description_ch" = "Fantastisk support – snabb och okomplicerad problemlösning. Jag känner mig tagen på allvar som användare.";
+"user_review_title_pl" = "Väldigt trevlig att använda";
+"user_review_description_pl" = "Appen är ett utmärkt verktyg för att följa och planera sin budget som jag använder dagligen. Dessutom är utvecklaren mycket uppmärksam på användargemenskapen, trots att den är liten.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1066,7 +1066,7 @@
 "upgrade_restore_button" = "Återställ köp";
 "upgrade_restore_in_progress_button" = "Vänta...";
 
-"subscription_button_info_text" = "Kan kan avbrytas när som helst.";
+"subscription_button_info_text" = "Kan avbrytas när som helst.";
 "subscription_trial_button_info_text" = "%d %@ gratis provperiod. Sedan %@ per %@.";
 "lifetime_purchase_button_info_text" = "Låser upp den fullständiga versionen en gång (utan prenumeration).";
 
@@ -1104,16 +1104,16 @@
 "upgrade_faq_developer_title" = "Vem har utvecklat appen?";
 "upgrade_faq_developer_value" = "Budget Flow är en indie-app som helt designas, utvecklas och underhålls av mig, Fabian Hasse. Jag är mjukvaruutvecklare med över 10 års erfarenhet och arbetar med stor passion för att skapa den bästa budgetappen för dig.";
 "upgrade_faq_free_use_title" = "Kan appen också användas gratis?";
-"upgrade_faq_free_use_value" = "Ja, du kan använda appens grundläggande funktioner, som att skapa transaktioner, helt kostnadsfritt.\n\nDessutom erbjuder appen en provperiod för den fullständiga versionen så att du kan prova den i förväg. innan du bestämmer dig för att köpa eller prenumerera på den fullständiga versionen.";
+"upgrade_faq_free_use_value" = "Ja, du kan använda appens grundläggande funktioner, som att skapa transaktioner, helt kostnadsfritt.\n\nDessutom erbjuder appen en provperiod för den fullständiga versionen så att du kan prova den i förväg innan du bestämmer dig för att köpa eller prenumerera på den fullständiga versionen.";
 "upgrade_faq_security_title" = "Är mina data säkra?";
 "upgrade_faq_security_value" = "Din ekonomi är privat – och den bör förbli så. Det är därför din data lagras exklusivt på din enhet.";
 "upgrade_faq_security_value_icloud_suffix" = " eller (valfritt) i din personliga iCloud.";
 "upgrade_faq_why_subscription_title" = "Varför erbjuds den fullständiga versionen som en prenumeration?";
-"upgrade_faq_why_subscription_value" = "Vårt mål är att utveckla en högkvalitativ app som erbjuder dig som användare nya funktioner och förbättringar på en regelbunden basis. Men för att uppnå detta mål behöver appen kontinuerliga intäkter för att kunna finansiera sig själv och vara ekonomiskt hållbar.\n\nVad många inte vet Att utveckla och underhålla en app tar mycket tid. I fallet med Budget Flow tog det till exempel nästan två år och flera tusen timmars arbete från idé till utveckling och testning innan den första versionen kunde släppas.\n\nSom kund drar du särskilt nytta av regelbundna uppdateringar och förbättringar genom prenumerationsmodellen, samt bra support för att säkerställa att du fortsätter att vara nöjd. har även möjlighet att prova appen gratis i förväg för att säkerställa att den passar dina behov. Du kan ändra eller säga upp prenumerationen när som helst om du ändrar dig.\n\nSammantaget erbjuder en prenumerationsmodell många fördelar för dig som en kund och en bättre användarupplevelse genom kontinuerliga uppdateringar och support jämfört med ett engångsköp. I det långa loppet skulle ett engångsköp tyvärr inte vara hållbart, eftersom denna affärsmodell kräver att nya användare fortsätter köpa appen för att säkerställa fortsatt utveckling.\n\nSå om du gillar appen skulle vi bli väldigt glada om du stödjer vårt arbete så att vi kan fortsätta att erbjuda dig ännu fler fantastiska funktioner i framtiden!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow utvecklas och förbättras löpande och anpassas till nya versioner av operativsystemen. En prenumeration hjälper till att finansiera arbetet på lång sikt och ge dig regelbundna uppdateringar, nya funktioner och bra support.\n\nOm du inte gillar prenumerationer kan du i stället köpa fullversionen med en engångsbetalning. Priset för engångsköpet är avsiktligt högre eftersom det täcker alla framtida uppdateringar och support utan ytterligare betalningar.\n\nDu kan prova fullversionen gratis i förväg och säga upp din prenumeration när som helst. Om du gillar Budget Flow stöder ditt köp den oberoende vidareutvecklingen av appen.";
 "upgrade_faq_multiple_devices_title" = "Kan jag använda den fullständiga versionen på flera enheter?";
 "upgrade_faq_multiple_devices_value" = "Ja, du kan använda den fullständiga versionen av Budget Flow på alla dina Apple-enheter med samma Apple-ID. Eftersom appen synkroniseras via iCloud kan du sömlöst växla mellan dina enheter och alltid ha tillgång till din ekonomiska data och inställningar.";
 "upgrade_faq_multiple_people_title" = "Kan jag använda den fullständiga versionen med flera personer?";
-"upgrade_faq_multiple_people_value" = "Ja, du kan dela både engångsköpet och prenumerationen av den fullständiga versionen med upp till fem personer inom en familjegrupp. Allt du behöver göra är att aktivera familjedelning i systeminställningarna och lägga till de andra personerna i gruppen bjuder in.";
+"upgrade_faq_multiple_people_value" = "Ja, du kan dela både engångsköpet och prenumerationen av den fullständiga versionen med upp till fem personer i en familjegrupp. Aktivera Familjedelning i systeminställningarna och bjud in de andra personerna till gruppen.";
 "upgrade_faq_cancel_subscription_title" = "Hur avbryter jag min prenumeration?";
 "upgrade_faq_cancel_subscription_value" = "Du kan avbryta din prenumeration när som helst med ditt %@-ID i Systeminställningar.";
 "upgrade_faq_subscription_data_loss_title" = "Kommer mina data att gå förlorade om jag avbryter min prenumeration?";
@@ -1179,7 +1179,7 @@
 "suggestion_widget_title" = "Föreslagen";
 "suggestion_widget_description" = "Denna widget visar dig en föreslagen kategori baserat på det aktuella datumet för vilket du kan skapa en ny transaktion.";
 
-"quick_actions_widget_title" = "Snabbinträde";
+"quick_actions_widget_title" = "Snabbinmatning";
 "quick_actions_widget_description" = "Denna widget låter dig snabbt lägga till nya transaktioner.";
 "quick_actions_widget_new_title" = "Ny";
 
@@ -1357,7 +1357,7 @@
 "no_budget_books_found_button_title" = "Ny budgetbok";
 "no_budget_books_found_cloud_sync_message" = "Befintlig data laddas från iCloud. Vänta ett ögonblick...\n\nAlternativt kan du klicka på knappen \"+\" för att lägga till en ny budgetbok.";
 "no_budget_books_found_cloud_sync_message_short" = "Befintlig data laddas från iCloud. Vänta ett ögonblick...";
-"budget_books_search_placeholder_message" = "Sök efter ett budgetbokarnamn";
+"budget_books_search_placeholder_message" = "Sök efter namnet på en budgetbok";
 
 "no_accounts_title" = "Inga konton";
 "no_accounts_found_title" = "Inga konton hittades";
@@ -1407,7 +1407,7 @@
 "form_title_section_title" = "Titel";
 "form_color_section_title" = "Färg";
 "form_icon_section_title" = "Ikon";
-"form_assignment_section_title" = "Uppgift";
+"form_assignment_section_title" = "Tilldelning";
 "form_miscellaneous_section_title" = "Övrigt";
 
 /* Miscellaneous */
@@ -1444,13 +1444,13 @@
 "form_billing_day_title" = "Faktureringsdag";
 "form_mark_transactions_as_pending_title" = "Markera som väntande";
 "form_account_type_title" = "Kontotyp";
-"form_initial_balance_title" = "Urgångssaldo";
+"form_initial_balance_title" = "Ingående saldo";
 "form_total_balance_title" = "Totalt saldo";
 "form_use_as_default_account_title" = "Standardkonto";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */
-"form_button_archive_account" = "Arkiv konto";
+"form_button_archive_account" = "Arkivera konto";
 "form_button_unarchive_account" = "Hämta konto från arkiv";
 "form_button_delete_account" = "Ta bort konto";
 
@@ -1698,7 +1698,7 @@
 
 /* MARK: - Watch App */
 /* Titles */
-"cloud_sync_status_section_title" = "iCloud Sync Status";
+"cloud_sync_status_section_title" = "Synkroniseringsstatus för iCloud";
 "cloud_sync_status_footer_title" = "Info: Du måste vara inloggad på iCloud för att synkronisera data från din iPhone.";
 
 
@@ -1729,8 +1729,8 @@
 "default_category_name_restaurant" = "Restaurang";
 "default_category_name_fast_food" = "Snabbmat";
 
-"default_category_group_name_living" = "Lever";
-"default_category_name_rent" = "Hyr";
+"default_category_group_name_living" = "Boende";
+"default_category_name_rent" = "Hyra";
 
 "default_category_group_name_miscellaneous" = "Övrigt";
 
@@ -1838,16 +1838,16 @@
 "icon_keyword_livingroom" = "Vardagsrum";
 "icon_keyword_chair" = "Stol";
 "icon_keyword_armchair" = "Fåtölj";
-"icon_keyword_cabinet" = "Gerob";
+"icon_keyword_cabinet" = "Garderob";
 "icon_keyword_fireplace" = "Öppen spis";
-"icon_keyword_washer" = "Bricka";
+"icon_keyword_washer" = "Tvättmaskin";
 "icon_keyword_dryer" = "Torktumlare";
 "icon_keyword_dishwasher" = "Diskmaskin";
 "icon_keyword_oven" = "Ugn";
 "icon_keyword_stove" = "Spis";
 "icon_keyword_microwave" = "Mikrovågsugn";
 "icon_keyword_refrigerator" = "kylskåp";
-"icon_keyword_sink" = "Sänka";
+"icon_keyword_sink" = "Handfat";
 "icon_keyword_toilet" = "Toalett";
 "icon_keyword_bathroom" = "Badrum";
 "icon_keyword_tv_remote" = "Fjärrkontroll";
@@ -1859,9 +1859,9 @@
 "icon_keyword_car" = "Bil";
 "icon_keyword_electric_car" = "Elbil";
 "icon_keyword_charging_station" = "Laddstation";
-"icon_keyword_car_pool" = "Campool";
+"icon_keyword_car_pool" = "Samåkning";
 "icon_keyword_bus" = "Buss";
-"icon_keyword_tram" = "Träna";
+"icon_keyword_tram" = "Tåg";
 "icon_keyword_railroad" = "Järnväg";
 "icon_keyword_cablecar" = "Spårvagn";
 "icon_keyword_ferry" = "Färja";
@@ -1873,23 +1873,23 @@
 "icon_keyword_scooter" = "Scooter";
 "icon_keyword_sailboat" = "Segelbåt";
 "icon_keyword_fuel" = "Bränsle";
-"icon_keyword_refuel" = "Bänsle";
+"icon_keyword_refuel" = "Bränsle";
 "icon_keyword_gas_station" = "Bensinstation";
 "icon_keyword_walking" = "Gå";
-"icon_keyword_running" = "Körs";
+"icon_keyword_running" = "Löpning";
 "icon_keyword_rugby" = "Rugby";
 "icon_keyword_badminton" = "Badminton";
 "icon_keyword_tennis" = "Tennis";
 "icon_keyword_dancing" = "Dansar";
 "icon_keyword_skiing" = "Skidåkning";
 "icon_keyword_swimming" = "Simning";
-"icon_keyword_skating" = "Skidåkning";
+"icon_keyword_skating" = "Skridskoåkning";
 "icon_keyword_strengthtraining" = "Styrketräning";
 "icon_keyword_gym" = "Gym";
 "icon_keyword_yoga" = "Yoga";
 "icon_keyword_bowling" = "Bowling";
-"icon_keyword_sportscourt" = "Sportdomstol";
-"icon_keyword_stadium" = "Astadion";
+"icon_keyword_sportscourt" = "Idrottsplan";
+"icon_keyword_stadium" = "Stadion";
 "icon_keyword_soccer" = "Fotboll";
 "icon_keyword_golf" = "Golf";
 "icon_keyword_baseball" = "Baseboll";
@@ -1924,7 +1924,7 @@
 "icon_keyword_tent" = "Tält";
 "icon_keyword_dice" = "Tärning";
 "icon_keyword_boardgames" = "Brädspel";
-"icon_keyword_gambling" = "Hardspel";
+"icon_keyword_gambling" = "Hasardspel";
 "icon_keyword_camera" = "Kamera";
 "icon_keyword_photography" = "Fotografi";
 "icon_keyword_photo" = "Foto";
@@ -1942,7 +1942,7 @@
 "icon_keyword_snow" = "Snö";
 "icon_keyword_winter" = "Vinter";
 "icon_keyword_bolt" = "Blixt";
-"icon_keyword_plug" = "Plugga";
+"icon_keyword_plug" = "Stickpropp";
 "icon_keyword_electric" = "Elektrisk";
 "icon_keyword_electrics" = "El";
 "icon_keyword_electricity" = "El";
@@ -1955,13 +1955,13 @@
 "icon_keyword_lizard" = "Ödla";
 "icon_keyword_bird" = "Fågel";
 "icon_keyword_ant" = "Myra";
-"icon_keyword_ladybug" = "Bug";
+"icon_keyword_ladybug" = "Insekt";
 "icon_keyword_fish" = "Fisk";
 "icon_keyword_pet" = "Husdjur";
 "icon_keyword_cat" = "Katt";
 "icon_keyword_dog" = "Hund";
 "icon_keyword_leaf" = "Löv";
-"icon_keyword_plant" = "Anläggning";
+"icon_keyword_plant" = "Växt";
 "icon_keyword_flower" = "Blomma";
 "icon_keyword_eating" = "Äter";
 "icon_keyword_restaurant" = "Restaurang";
@@ -1997,7 +1997,7 @@
 "icon_keyword_cent" = "Cents";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pund";
-"icon_keyword_franc" = "Frankrike";
+"icon_keyword_franc" = "Franc";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Rubel";
 "icon_keyword_euro" = "Euro";
@@ -2048,13 +2048,13 @@
 "icon_keyword_contract" = "Kontrakt";
 "icon_keyword_computer" = "Dator";
 "icon_keyword_pc" = "PC";
-"icon_keyword_display" = "Övervaka";
+"icon_keyword_display" = "Bildskärm";
 "icon_keyword_mouse" = "Mus";
 "icon_keyword_keyboard" = "Tangentbord";
 "icon_keyword_printer" = "Skrivare";
 "icon_keyword_scanner" = "Skanner";
 "icon_keyword_pin" = "Fäst";
-"icon_keyword_paperclip" = "Geme";
+"icon_keyword_paperclip" = "Gem";
 "icon_keyword_clipboard" = "Urklipp";
 "icon_keyword_list" = "Lista";
 "icon_keyword_server" = "Server";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Labb";
 "icon_keyword_calendar" = "Kalender";
 "icon_keyword_rent" = "Hyr";
-"icon_keyword_flat" = "Platt";
+"icon_keyword_flat" = "Lägenhet";
 "icon_keyword_work" = "Arbete";
 "icon_keyword_salary" = "Lön";
 "icon_keyword_corona" = "Corona";
@@ -2106,11 +2106,11 @@
 "icon_keyword_discount" = "Rabatt";
 "icon_keyword_percent" = "Procent";
 "icon_keyword_wallet" = "Plånbok";
-"icon_keyword_convertible" = "Konvertibel";
+"icon_keyword_convertible" = "Cabriolet";
 "icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Motorcykel";
 "icon_keyword_tire" = "Däck";
-"icon_keyword_oilcan" = "Oljekan";
+"icon_keyword_oilcan" = "Oljekanna";
 "icon_keyword_keys" = "Nycklar";
 "icon_keyword_fire_extinguisher" = "Brandsläckare";
 "icon_keyword_hockey" = "Hockey";

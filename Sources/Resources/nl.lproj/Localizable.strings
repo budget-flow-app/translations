@@ -35,7 +35,7 @@
 "account_type_savings" = "Spaarrekening";
 "account_type_credit_card" = "Creditcard";
 "account_type_investment" = "Investering";
-"account_type_precaution" = "Voorzorg";
+"account_type_long_term_savings" = "Voorzorg";
 "account_type_liability" = "Verplichtingen";
 "account_type_business" = "Zakelijke rekening";
 
@@ -43,7 +43,7 @@
 "account_type_savings_plural" = "Spaarrekeningen";
 "account_type_credit_card_plural" = "Creditcards";
 "account_type_investment_plural" = "Investeringen";
-"account_type_precaution_plural" = "Voorzorg";
+"account_type_long_term_savings_plural" = "Voorzorg";
 "account_type_liability_plural" = "Verplichtingen";
 "account_type_business_plural" = "Zakelijke accounts";
 
@@ -121,12 +121,12 @@
 "widget_type_suggestions" = "Suggesties";
 "widget_type_distribution" = "Distributie";
 "widget_type_balance" = "Saldo";
-"widget_type_savings_rate" = "Opgeslagen";
+"widget_type_savings_rate" = "Gespaard";
 "widget_type_upcoming_transactions" = "Gepland";
 "widget_type_participants" = "Mensen";
 "widget_type_budget" = "Budget";
 "widget_type_pending_transactions" = "In behandeling";
-"widget_type_total_assets" = "Activiteiten";
+"widget_type_total_assets" = "Vermogen";
 "widget_type_forecast" = "Voorspelling";
 
 "chart_type_bar" = "Staafdiagram";
@@ -152,7 +152,7 @@
 
 "quick_action_type_new_income" = "Nieuw inkomen";
 "quick_action_type_new_expense" = "Nieuwe uitgave";
-"quick_action_type_new_transfer" = "Nieuwe overdracht";
+"quick_action_type_new_transfer" = "Nieuwe overboeking";
 "quick_action_type_new_recurring" = "Terugkerend";
 
 "suggestion_type_add_income_transaction" = "Nieuw inkomen";
@@ -171,8 +171,8 @@
 "transaction_subtitle_type_payee" = "Begunstigde";
 "transaction_subtitle_type_notes" = "Notities";
 
-"time_zone_type_floating" = "Vast";
-"time_zone_type_floating_title" = "Vaste tijdzone";
+"time_zone_type_floating" = "Dynamisch";
+"time_zone_type_floating_title" = "Dynamische tijdzone";
 "time_zone_type_floating_subtitle" = "Past zich aan jouw lokale tijdzone aan";
 
 
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Niet meer tonen";
 "mark_as_paid_button" = "Betaling voltooid";
 "mark_as_pending_button" = "Betaling in behandeling";
-"show_contra_entry_button" = "Toon tellerinvoer";
+"show_contra_entry_button" = "Toon tegenboeking";
 
 "save_changes_button" = "Wijzigingen opslaan";
 "discard_changes_button" = "Wijzigingen negeren";
@@ -287,13 +287,13 @@
 "take_photo_button" = "Foto maken";
 "select_photos_button" = "Selecteer foto's";
 "select_documents_button" = "Selecteer documenten";
-"scan_receipt_button" = "Scanbon";
+"scan_receipt_button" = "Scan bon";
 "select_receipt_button" = "Selecteer bon";
 "select_from_files_button" = "Bestanden";
 "select_from_library_button" = "Fotobibliotheek";
 
 "open_button" = "Openen";
-"open_folder_button" = "Openen map";
+"open_folder_button" = "Map openen";
 "local_folder_button" = "Lokale map";
 "icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Openen in browser";
@@ -364,7 +364,7 @@
 "transaction_filter_people_title" = "Personen";
 
 "transaction_filter_all_title" = "Alles";
-"transaction_filter_any_title" = "Willekeurig";
+"transaction_filter_any_title" = "Elk";
 
 /* Formats */
 "transaction_filter_range_format" = "%@ tot %@";
@@ -575,7 +575,7 @@
 "rate_app_setting_title" = "Beoordeel app";
 
 /* Legal Settings */
-"imprint_setting" = "Afdruk";
+"imprint_setting" = "Colofon";
 "privacy_setting" = "Privacybeleid";
 "terms_of_use_setting" = "Gebruiksvoorwaarden";
 "acknowledgements_setting" = "Erkenningen";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in je fotobibliotheek.";
 "advanced_setting_suggested_notes_title" = "Voorgestelde notities";
 "advanced_setting_suggested_notes_description" = "Ontvang suggesties op basis van je eerdere transacties terwijl je in het notitieveld typt.";
-"advanced_setting_consider_pending_items_title" = "Boek alle transacties";
+"advanced_setting_consider_pending_items_title" = "Openstaande transacties meetellen";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
 
 /* Sidebar */
@@ -885,13 +885,13 @@
 
 /* Alert Views */
 "alert_share_app_type_selection_title" = "Wat wil je delen?";
-"alert_share_app_type_selection_link_button" = "Koppelen";
+"alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "QR-code";
 
 "alert_error_title" = "Er is een fout opgetreden 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Volg \"%@\" op sociale media";
 
 /* Copyright */
 "version" = "Versie";
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Je ondersteunt een jonge ontwikkelaar en daarmee de continue ontwikkeling van de app! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Geweldige app";
+"user_review_description_de" = "De app is heel goed ontworpen en functioneel. Hij voldoet aan al mijn wensen en de ondersteuning is erg snel en behulpzaam. Ik kan hem alleen maar aanbevelen.";
+"user_review_title_hr" = "Mooie app";
+"user_review_description_hr" = "Een app met veel functies en een gebruiksvriendelijke interface. Ik heb veel alternatieven op iOS geprobeerd, maar geen enkele voldeed zo goed aan mijn wensen als deze app. Het geld waard.";
+"user_review_title_bg" = "Uitstekende ondersteuning";
+"user_review_description_bg" = "Een geweldige app met uitstekende klantenservice. Ook de prijs is heel redelijk gezien de kwaliteit van de software.";
+"user_review_title_us" = "Tot nu toe een geweldige app";
+"user_review_description_us" = "Ik ben erg blij dat de app beschikbaar is op iOS, iPad en macOS, zodat ik mijn gegevens overal kan bijwerken. Het is ook erg fijn dat er geen account nodig is en geen gegevens worden verzameld. Dat lijkt tegenwoordig zeldzaam, maar is voor mij belangrijk bij financiële apps.";
+"user_review_title_uk" = "Dit is hem!";
+"user_review_description_uk" = "Ik ben al meer dan twee jaar op zoek naar deze app. Ik wilde een app voor financieel beheer op mijn telefoon met een mooi overzichtsscherm, eenvoudige invoer van nieuwe gegevens en de mogelijkheid om zo nodig meer details te bekijken. Probeer hem eens!";
+"user_review_title_es" = "De beste budgetapp";
+"user_review_description_es" = "Gewoon de beste die ik heb geprobeerd. Volgens mij is het nog een vrij nieuwe app, maar het potentieel is duidelijk te zien.";
+"user_review_title_fr" = "Uitstekende app met veel functies";
+"user_review_description_fr" = "Ik gebruik de app nu een paar maanden en ben er erg blij mee. Complimenten voor je werk. Ik ben benieuwd hoe de app er over een paar maanden uit zal zien :)";
+"user_review_title_it" = "Gewoon geweldig";
+"user_review_description_it" = "Eindelijk. Ik was al jaren op zoek naar zo’n oplossing. Ik gebruik de app met de transactietrigger in Opdrachten op iOS en vind het ontwerp geweldig. Ook de mogelijkheid om eenmalig te betalen bevalt me. Ga zo door!";
+"user_review_title_ch" = "Geweldige ondersteuning";
+"user_review_description_ch" = "Geweldige ondersteuning – problemen worden snel en zonder gedoe opgelost. Ik voel me serieus genomen als gebruiker.";
+"user_review_title_pl" = "Erg prettig in gebruik";
+"user_review_description_pl" = "De app is een uitstekend hulpmiddel om mijn budget bij te houden en te plannen, dat ik dagelijks gebruik. Bovendien heeft de ontwikkelaar veel aandacht voor de gebruikersgemeenschap, ook al is die klein.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1109,7 +1109,7 @@
 "upgrade_faq_security_value" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat opgeslagen.";
 "upgrade_faq_security_value_icloud_suffix" = " of (optioneel) in je persoonlijke iCloud opgeslagen.";
 "upgrade_faq_why_subscription_title" = "Waarom wordt de volledige versie als abonnement aangeboden?";
-"upgrade_faq_why_subscription_value" = "Mijn doel is om een hoogwaardige app te ontwikkelen die jou als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit te kunnen realiseren, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam te blijven.\n\nWat veel mensen niet weten: het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow duurde het bijvoorbeeld bijna twee jaar en werden er enkele duizenden uren besteed aan het uitwerken van het idee, de ontwikkeling en het testen, voordat de eerste versie kon worden uitgebracht.\n\nVia het abonnementsmodel profiteer je van regelmatige updates en verbeteringen, evenals ondersteuning om je tevredenheid te waarborgen. Je hebt ook de mogelijkheid om de app vooraf gratis uit te proberen om te zien of deze bij je past, en je kunt het abonnement op elk moment wijzigen of annuleren als je van gedachten verandert.\n\nOmdat sommige gebruikers echter geen abonnementen prettig vinden, is er ook een iets duurdere eenmalige aankoop beschikbaar. De prijs van deze eenmalige aankoop weerspiegelt de customer lifetime value (CLV) en is ongeveer 2,5 keer de jaarlijkse abonnementsprijs. Op deze manier zijn alle toekomstige kosten voor updates en ondersteuning voor de gehele levensduur van de app gedekt, kosten die anders via terugkerende betalingen in een abonnement zouden worden gefinancierd.\n\nAl met al biedt dit businessmodel jou als gebruiker veel voordelen en een betere ervaring door voortdurende updates en ondersteuning. Op de lange termijn zou een eenmalige aankoop tegen een lage prijs helaas niet duurzaam zijn, omdat dit model nieuwe gebruikers nodig heeft die de app blijven kopen om de doorlopende ontwikkeling te waarborgen.\n\nDus, als je de app leuk vindt, zou ik het ontzettend waarderen als je mijn werk steunt, zodat ik je in de toekomst nog meer geweldige functies kan bieden! ❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow wordt voortdurend verder ontwikkeld, verbeterd en aangepast aan nieuwe versies van besturingssystemen. Een abonnement helpt dit werk op lange termijn te financieren en je regelmatig updates, nieuwe functies en goede ondersteuning te bieden.\n\nAls je niet van abonnementen houdt, kun je de volledige versie ook eenmalig kopen. De prijs van de eenmalige aankoop is bewust hoger, omdat deze alle toekomstige updates en ondersteuning zonder verdere betalingen dekt.\n\nJe kunt de volledige versie vooraf gratis proberen en je abonnement op elk moment opzeggen. Als Budget Flow je bevalt, steun je met je aankoop de onafhankelijke verdere ontwikkeling van de app.";
 "upgrade_faq_multiple_devices_title" = "Kan ik de volledige versie op meerdere apparaten gebruiken?";
 "upgrade_faq_multiple_devices_value" = "Ja, je kunt de volledige versie van Budget Flow gebruiken op al je Apple-apparaten met dezelfde Apple account. Omdat de app via iCloud wordt gesynchroniseerd, kun je naadloos schakelen tussen je apparaten en heb je altijd toegang tot je financiële gegevens en instellingen.";
 "upgrade_faq_multiple_people_title" = "Kan ik de volledige versie met meerdere mensen gebruiken?";
@@ -1357,7 +1357,7 @@
 "no_budget_books_found_button_title" = "Nieuw budgetboek";
 "no_budget_books_found_cloud_sync_message" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld...\n\nJe kunt ook op de knop \"+\" klikken om een ​​nieuw budgetboek toe te voegen.";
 "no_budget_books_found_cloud_sync_message_short" = "Bestaande gegevens worden geladen vanuit iCloud. Een moment geduld alsjeblieft...";
-"budget_books_search_placeholder_message" = "Zoek naar de naam van een budgetboeker";
+"budget_books_search_placeholder_message" = "Zoek naar de naam van een budgetboek";
 
 "no_accounts_title" = "Geen accounts";
 "no_accounts_found_title" = "Geen accounts gevonden";
@@ -1407,7 +1407,7 @@
 "form_title_section_title" = "Titel";
 "form_color_section_title" = "Kleur";
 "form_icon_section_title" = "Pictogram";
-"form_assignment_section_title" = "Opdracht";
+"form_assignment_section_title" = "Toewijzing";
 "form_miscellaneous_section_title" = "Diversen";
 
 /* Miscellaneous */
@@ -1551,7 +1551,7 @@
 "form_reminder_title" = "Actief";
 "form_reminder_none_type_value" = "Geen";
 "form_reminder_none_type_value_long" = "Geen herinnering";
-"form_reminder_on_due_value" = "Op tijd";
+"form_reminder_on_due_value" = "Op de vervaldatum";
 "form_location_none_type_value_long" = "Geen locatie";
 "form_original_amount_title" = "Oorspronkelijk bedrag";
 "form_exchange_rate_title" = "Wisselkoers";
@@ -1823,7 +1823,7 @@
 "icon_keyword_internet" = "Internet";
 "icon_keyword_party" = "Feest";
 "icon_keyword_balloon" = "Ballon";
-"icon_keyword_pan" = "Kokenpan";
+"icon_keyword_pan" = "Koekenpan";
 "icon_keyword_cooking" = "Koken";
 "icon_keyword_kitchen" = "Keuken";
 "icon_keyword_popcorn" = "Popcorn";
@@ -1847,7 +1847,7 @@
 "icon_keyword_stove" = "Kachel";
 "icon_keyword_microwave" = "Microgolf";
 "icon_keyword_refrigerator" = "koelkast";
-"icon_keyword_sink" = "Zinken";
+"icon_keyword_sink" = "Wastafel";
 "icon_keyword_toilet" = "Toilet";
 "icon_keyword_bathroom" = "Badkamer";
 "icon_keyword_tv_remote" = "Afstandsbediening";
@@ -1904,7 +1904,7 @@
 "icon_keyword_gaming" = "Gamen";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "Nintendo-schakelaar";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
 "icon_keyword_book" = "Boek";
 "icon_keyword_books" = "Boeken";
 "icon_keyword_magazine" = "Tijdschrift";
@@ -1916,7 +1916,7 @@
 "icon_keyword_karaoke" = "Karaoke";
 "icon_keyword_music" = "Muziek";
 "icon_keyword_spotify" = "Spotify";
-"icon_keyword_apple_music" = "Apple Muziek";
+"icon_keyword_apple_music" = "Apple Music";
 "icon_keyword_piano" = "Piano";
 "icon_keyword_guitar" = "Gitaar";
 "icon_keyword_rockband" = "Rockband";
@@ -1954,8 +1954,8 @@
 "icon_keyword_tortoise" = "Schildpad";
 "icon_keyword_lizard" = "Hagedis";
 "icon_keyword_bird" = "Vogel";
-"icon_keyword_ant" = "Ant";
-"icon_keyword_ladybug" = "Bug";
+"icon_keyword_ant" = "Mier";
+"icon_keyword_ladybug" = "Insect";
 "icon_keyword_fish" = "Vis";
 "icon_keyword_pet" = "Huisdier";
 "icon_keyword_cat" = "Kat";
@@ -1988,7 +1988,7 @@
 "icon_keyword_globe" = "Globe";
 "icon_keyword_online" = "Online";
 "icon_keyword_internet" = "Internet";
-"icon_keyword_amazon" = "Amazone";
+"icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Pakket";
 "icon_keyword_apple" = "Appel";
 "icon_keyword_banknote" = "Bankbiljet";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Laboratorium";
 "icon_keyword_calendar" = "Kalender";
 "icon_keyword_rent" = "Huren";
-"icon_keyword_flat" = "Plat";
+"icon_keyword_flat" = "Appartement";
 "icon_keyword_work" = "Werk";
 "icon_keyword_salary" = "Salaris";
 "icon_keyword_corona" = "Corona";
@@ -2106,7 +2106,7 @@
 "icon_keyword_discount" = "Korting";
 "icon_keyword_percent" = "Procent";
 "icon_keyword_wallet" = "Portefeuille";
-"icon_keyword_convertible" = "Converteerbaar";
+"icon_keyword_convertible" = "Cabriolet";
 "icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Motorfiets";
 "icon_keyword_tire" = "Band";
@@ -2172,7 +2172,7 @@
 "search_category_group_title" = "Zoek map";
 "search_category_group_description" = "Zoek een specifieke map op naam.";
 "search_category_group_parameter_summary" = "Zoek map met ${name} in ${budgetBook}";
-"search_category_title" = "Zoekcategorie";
+"search_category_title" = "Zoek categorie";
 "search_category_description" = "Zoek naar een specifieke categorie op naam.";
 "search_category_parameter_summary" = "Zoek categorie met ${name} in ${categoryGroup} van ${budgetBook}";
 "search_payee_title" = "Zoek begunstigde";

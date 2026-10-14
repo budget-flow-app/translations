@@ -13,9 +13,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>minuto</string>
+			<string>minut</string>
 			<key>other</key>
-			<string>minutos</string>
+			<string>minuts</string>
 		</dict>
 	</dict>
 	<key>hour</key>
@@ -31,7 +31,7 @@
 			<key>one</key>
 			<string>hora</string>
 			<key>other</key>
-			<string>horas</string>
+			<string>hores</string>
 		</dict>
 	</dict>
 	<key>day</key>
@@ -45,9 +45,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>día</string>
+			<string>dia</string>
 			<key>other</key>
-			<string>días</string>
+			<string>dies</string>
 		</dict>
 	</dict>
 	<key>week</key>
@@ -61,9 +61,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>semana</string>
+			<string>setmana</string>
 			<key>other</key>
-			<string>semanas</string>
+			<string>setmanes</string>
 		</dict>
 	</dict>
 	<key>month</key>
@@ -79,7 +79,7 @@
 			<key>one</key>
 			<string>mes</string>
 			<key>other</key>
-			<string>meses</string>
+			<string>mesos</string>
 		</dict>
 	</dict>
 	<key>year</key>
@@ -93,9 +93,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>año</string>
+			<string>any</string>
 			<key>other</key>
-			<string>años</string>
+			<string>anys</string>
 		</dict>
 	</dict>
 	<key>number_of_transactions</key>
@@ -109,9 +109,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d transacción</string>
+			<string>%1$d transacció</string>
 			<key>other</key>
-			<string>%1$d transacciones</string>
+			<string>%1$d transaccions</string>
 		</dict>
 	</dict>
 	<key>number_of_upcoming_transactions</key>
@@ -125,9 +125,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d transacción planificada</string>
+			<string>%1$d transacció planificada</string>
 			<key>other</key>
-			<string>%1$d transacciones planificadas</string>
+			<string>%1$d transaccions planificades</string>
 		</dict>
 	</dict>
 	<key>number_of_reminded_transactions</key>
@@ -141,9 +141,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d transacción con recordatorio</string>
+			<string>%1$d transacció amb recordatori</string>
 			<key>other</key>
-			<string>%1$d transacciones con recordatorio</string>
+			<string>%1$d transaccions amb recordatori</string>
 		</dict>
 	</dict>
 	<key>number_of_budgets</key>
@@ -157,9 +157,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d presupuesto</string>
+			<string>%1$d pressupost</string>
 			<key>other</key>
-			<string>%1$d presupuestos</string>
+			<string>%1$d pressupostos</string>
 		</dict>
 	</dict>
 	<key>number_of_categories</key>
@@ -173,9 +173,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d categoría</string>
+			<string>%1$d categoria</string>
 			<key>other</key>
-			<string>%1$d categorías</string>
+			<string>%1$d categories</string>
 		</dict>
 	</dict>
 	<key>number_of_attachments</key>
@@ -189,9 +189,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d adjunto</string>
+			<string>%1$d adjunt</string>
 			<key>other</key>
-			<string>%1$d adjuntos</string>
+			<string>%1$d adjunts</string>
 		</dict>
 	</dict>
 	<key>repeats_every_day</key>
@@ -205,9 +205,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite diariamente.</string>
+			<string>Es repeteix diàriament.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d días.</string>
+			<string>Es repeteix cada %1$d dies.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -221,9 +221,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite semanalmente el %2$@.</string>
+			<string>Es repeteix setmanalment el %2$@.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d semanas el %2$@.</string>
+			<string>Es repeteix cada %1$d setmanes el %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -237,9 +237,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite mensualmente.</string>
+			<string>Es repeteix mensualment.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d meses.</string>
+			<string>Es repeteix cada %1$d mesos.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite mensualmente el %2$@.</string>
+			<string>Es repeteix mensualment el %2$@.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d meses el %2$@.</string>
+			<string>Es repeteix cada %1$d mesos el %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite mensualmente el %2$@ %3$@.</string>
+			<string>Es repeteix mensualment el %2$@ %3$@.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d meses el %2$@ %3$@.</string>
+			<string>Es repeteix cada %1$d mesos el %2$@ %3$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite anualmente en %2$@.</string>
+			<string>Es repeteix anualment al mes de %2$@.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d años en %2$@.</string>
+			<string>Es repeteix cada %1$d anys al mes de %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Se repite anualmente el %2$@ %3$@ de %4$@.</string>
+			<string>Es repeteix anualment el %2$@ %3$@ del mes de %4$@.</string>
 			<key>other</key>
-			<string>Se repite cada %1$d años el %2$@ %3$@ de %4$@.</string>
+			<string>Es repeteix cada %1$d anys el %2$@ %3$@ del mes de %4$@.</string>
 		</dict>
 	</dict>
 </dict>

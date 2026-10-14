@@ -19,7 +19,7 @@
 "optional" = "Valinnainen";
 
 "before" = "ennen";
-"uncategorized" = "Uncategorized";
+"uncategorized" = "Luokittelematon";
 "account_reconcilation" = "Tilin täsmäytys";
 
 "evaluated" = "Arvioitu";
@@ -35,16 +35,16 @@
 "account_type_savings" = "Säästötili";
 "account_type_credit_card" = "Luottokortti";
 "account_type_investment" = "Sijoitus";
-"account_type_precaution" = "Varotoimet";
-"account_type_liability" = "Vastuu";
+"account_type_long_term_savings" = "Varotoimet";
+"account_type_liability" = "Velka";
 "account_type_business" = "Yritystili";
 
 "account_type_payment_plural" = "Maksutilit";
 "account_type_savings_plural" = "Säästötilit";
 "account_type_credit_card_plural" = "Luottokortit";
 "account_type_investment_plural" = "Sijoitukset";
-"account_type_precaution_plural" = "Varo";
-"account_type_liability_plural" = "Vasteet";
+"account_type_long_term_savings_plural" = "Varautuminen";
+"account_type_liability_plural" = "Velat";
 "account_type_business_plural" = "Yritystilit";
 
 "transaction_type_income" = "Tulot";
@@ -119,9 +119,9 @@
 
 "widget_type_chart_stack" = "Kaaviot";
 "widget_type_suggestions" = "Ehdotuksia";
-"widget_type_distribution" = "Jakelu";
+"widget_type_distribution" = "Jakauma";
 "widget_type_balance" = "Saldo";
-"widget_type_savings_rate" = "Tallennettu";
+"widget_type_savings_rate" = "Säästetty";
 "widget_type_upcoming_transactions" = "Suunniteltu";
 "widget_type_participants" = "Ihmiset";
 "widget_type_budget" = "Budjetti";
@@ -159,7 +159,7 @@
 "suggestion_type_add_expense_transaction" = "Uusi kulu";
 
 "user_interface_style_system" = "Järjestelmä";
-"user_interface_style_light" = "Kevyt";
+"user_interface_style_light" = "Vaalea";
 "user_interface_style_dark" = "Tumma";
 
 "transaction_title_type_category" = "Luokka";
@@ -264,7 +264,7 @@
 "do_not_show_again_button" = "Älä näytä uudelleen";
 "mark_as_paid_button" = "Maksu suoritettu";
 "mark_as_pending_button" = "Maksu odottaa";
-"show_contra_entry_button" = "Näytä laskurimerkintä";
+"show_contra_entry_button" = "Näytä vastakirjaus";
 
 "save_changes_button" = "Tallenna muutokset";
 "discard_changes_button" = "Hylkää muutokset";
@@ -477,7 +477,7 @@
 "exceeded_title" = "Ylitetty";
 "user_has_no_budgets_title" = "Sinulla ei ole budjetteja.";
 "user_is_within_budget_title" = "Olet budjettisi rajoissa! 🎉";
-"user_was_within_budget_title" = "Olet budjettisi rajoissa! 🎉";
+"user_was_within_budget_title" = "Pysyit budjettisi rajoissa! 🎉";
 "user_is_not_within_budget_title" = "Olet %d yli budjetin 😢";
 "user_is_not_within_budgets_title" = "Olet ylittänyt %d budjettia 😢";
 
@@ -497,7 +497,7 @@
 "trend_widget_current_month_title" = "Tämä kuukausi";
 
 /* Messages */
-"trend_widget_received_more_message" = "Tansaat tavallista enemmän.";
+"trend_widget_received_more_message" = "Ansaitset tavallista enemmän.";
 "trend_widget_received_less_message" = "Ansaitset vähemmän kuin tavallisesti.";
 "trend_widget_received_same_message" = "Ansaitset saman verran kuin tavallisesti.";
 "trend_widget_has_received_more_message" = "Olet ansainnut tavallista enemmän.";
@@ -575,10 +575,10 @@
 "rate_app_setting_title" = "Arvioi sovellus";
 
 /* Legal Settings */
-"imprint_setting" = "Julkaisu";
+"imprint_setting" = "Julkaisijan tiedot";
 "privacy_setting" = "Tietosuojakäytäntö";
 "terms_of_use_setting" = "Käyttöehdot";
-"acknowledgements_setting" = "Kuittaukset";
+"acknowledgements_setting" = "Kiitokset";
 "licenses_setting" = "Lisenssit";
 
 "acknowledgements_setting_info_title" = "Kuvaus";
@@ -714,7 +714,7 @@
 "cloud_setting_low_power_mode_status_title" = "Virransäästötila";
 "cloud_setting_low_power_mode_status_enabled_value" = "Käytössä (synkronointi saattaa olla keskeytetty)";
 "cloud_setting_low_power_mode_status_disabled_value" = "Pois käytöstä";
-"cloud_setting_upload_status_title" = "Viimeksi ladattu";
+"cloud_setting_upload_status_title" = "Viimeksi lähetetty";
 "cloud_setting_download_status_title" = "Viimeksi ladattu";
 "cloud_setting_number_of_transactions_title" = "Tapahtumat";
 "cloud_setting_number_of_transactions_value" = "Laitteessa: %d\niCloudissa: %d";
@@ -824,7 +824,7 @@
 "advanced_setting_configure_transaction_title_title" = "Tapahtuman otsikko";
 "advanced_setting_configure_transaction_subtitle_title" = "Tapahtuman alaotsikko";
 "advanced_setting_configure_transaction_title_info_title" = "Kuvaus";
-"advanced_setting_configure_transaction_title_info_description" = "Aseta tapahtuman otsikossa näytettävien kohteiden järjestys. Jos jokin nimike puuttuu, tilauksen seuraavaa käytetään automaattisesti.";
+"advanced_setting_configure_transaction_title_info_description" = "Aseta tapahtuman otsikossa näytettävien kohteiden järjestys. Jos jokin kohde puuttuu, käytetään automaattisesti järjestyksessä seuraavaa.";
 
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Automaattinen ajan valinta";
@@ -835,7 +835,7 @@
 "advanced_setting_save_photos_description" = "Tallenna otetut kuvat automaattisesti valokuvakirjastoon.";
 "advanced_setting_suggested_notes_title" = "Ehdotetut muistiinpanot";
 "advanced_setting_suggested_notes_description" = "Saat ehdotuksia aiempien tapahtumiesi perusteella kirjoittaessasi muistiinpanokenttään.";
-"advanced_setting_consider_pending_items_title" = "Varaa kaikki tapahtumat";
+"advanced_setting_consider_pending_items_title" = "Sisällytä odottavat tapahtumat";
 "advanced_setting_consider_pending_items_description" = "Sisällytä odottavat tapahtumat laskettaessa tilisaldot, saldot, loppusummat jne.";
 
 /* Sidebar */
@@ -876,7 +876,7 @@
 "cloud_sync_status_no_network" = "Ei Internet-yhteyttä";
 "cloud_sync_status_in_progress" = "Synkronoidaan...";
 "cloud_sync_status_succeeded" = "Täysin synkronoitu";
-"cloud_sync_status_quota_exceeded" = "iCloud-tallennustilasi on täynnä. Vapaa tilaa ja yritä uudelleen.";
+"cloud_sync_status_quota_exceeded" = "iCloud-tallennustilasi on täynnä. Vapauta tilaa ja yritä uudelleen.";
 "cloud_sync_status_limit_exceeded" = "Olet saavuttanut iCloudin lataus/siirto rajan. Odota hetki ja yritä myöhemmin uudelleen.";
 "cloud_sync_status_network_failure" = "Verkkovirhe tapahtui. Yritä myöhemmin uudelleen.";
 "cloud_sync_status_service_unavailable" = "iCloud on tilapäisesti poissa käytöstä. Yritä myöhemmin uudelleen.";
@@ -891,7 +891,7 @@
 "alert_error_title" = "Tapahtui virhe 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Seuraa käyttäjää \"%@\" sosiaalisessa mediassa";
 
 /* Copyright */
 "version" = "Versio";
@@ -958,11 +958,11 @@
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Uudet ominaisuudet";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "Arvioi sovellus";
+"new_features_view_close_button" = "Ehkä myöhemmin";
 
 
 /* MARK: - Upgrade View */
@@ -980,14 +980,14 @@
 "upgrade_discount_montly_subscription_title" = "Säästä %@ kuukausitilauksesta!";
 "upgrade_discount_yearly_subscription_title" = "Säästä %@ vuositilauksesta!";
 "upgrade_discount_lifetime_purchase_title" = "Säästä %@ kertaostoksesta!";
-"upgrade_discount_ends_in" = "Slutar om";
+"upgrade_discount_ends_in" = "Päättyy";
 
 /* Sections */
 "upgrade_info_section_title" = "Tiedot";
 "upgrade_reviews_section_title" = "Arvostelut";
 
 /* Messages */
-"apply_for_discount_text" = "Oletko opiskelija tai tarvitsetko taloudellista tarvetta?\nHae alennusta napsauttamalla tätä.";
+"apply_for_discount_text" = "Oletko opiskelija tai tarvitsetko taloudellista tukea?\nHae alennusta napsauttamalla tätä.";
 "apply_for_discount_highlighted_text" = "Hae alennusta napsauttamalla tätä.";
 
 /* Features */
@@ -1026,26 +1026,26 @@
 "upgrade_feature_support_description" = "Tuet nuorta kehittäjää ja sitä kautta sovelluksen jatkuvaa kehitystä! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Mahtava sovellus";
+"user_review_description_de" = "Sovellus on erittäin hyvin suunniteltu ja toimiva. Se täyttää kaikki tarpeeni, ja tuki on erittäin nopeaa ja avuliasta. Voin vain suositella sitä.";
+"user_review_title_hr" = "Kaunis sovellus";
+"user_review_description_hr" = "Monipuolinen sovellus, jossa on helppokäyttöinen käyttöliittymä. Olen kokeillut monia vaihtoehtoja iOS:ssä, mutta mikään niistä ei ole vastannut tarpeisiini yhtä hyvin kuin tämä sovellus. Hintansa arvoinen.";
+"user_review_title_bg" = "Erinomainen tuki";
+"user_review_description_bg" = "Loistava sovellus, jossa on erinomainen asiakastuki. Myös hinta on hyvin kohtuullinen ohjelmiston laatuun nähden.";
+"user_review_title_us" = "Tähän asti loistava sovellus";
+"user_review_description_us" = "Pidän kovasti siitä, että sovellus on saatavilla iOS:lle, iPadille ja macOS:lle, joten voin päivittää tietojani missä tahansa. On myös todella mukavaa, ettei tiliä tarvita eikä tietoja kerätä. Se tuntuu nykyään harvinaiselta, mutta on minulle tärkeää taloussovelluksissa.";
+"user_review_title_uk" = "Tämä on juuri se oikea!";
+"user_review_description_uk" = "Olen etsinyt tätä sovellusta yli kaksi vuotta. Halusin puhelimeen taloudenhallintasovelluksen, jossa on hyvännäköinen yleisnäkymä, helppo uusien tietojen syöttö ja mahdollisuus tarkastella lisätietoja tarvittaessa. Kannattaa kokeilla!";
+"user_review_title_es" = "Paras budjetointisovellus";
+"user_review_description_es" = "Yksinkertaisesti paras kokeilemani sovellus. Se taitaa olla vielä melko uusi, mutta sen potentiaali näkyy selvästi.";
+"user_review_title_fr" = "Erinomainen ja monipuolinen sovellus";
+"user_review_description_fr" = "Olen käyttänyt sovellusta jo muutaman kuukauden ja pidän siitä todella paljon. Onnittelut työstäsi, ja odotan innolla, miltä sovellus näyttää muutaman kuukauden kuluttua :)";
+"user_review_title_it" = "Yksinkertaisesti loistava";
+"user_review_description_it" = "Vihdoinkin. Olen etsinyt tällaista ratkaisua jo vuosia. Käytän sitä iOS:n Pikakomennot-sovelluksen tapahtumakäynnistimen kanssa ja rakastan sen ulkoasua. Pidän myös mahdollisuudesta ostaa sovellus kertamaksulla. Jatka samaan malliin!";
+"user_review_title_ch" = "Loistava tuki";
+"user_review_description_ch" = "Loistava tuki – ongelmat ratkaistaan nopeasti ja mutkattomasti. Tunnen, että minut otetaan käyttäjänä vakavasti.";
+"user_review_title_pl" = "Erittäin miellyttävä käyttää";
+"user_review_description_pl" = "Sovellus on erinomainen budjetin seuranta- ja suunnittelutyökalu, jota käytän päivittäin. Lisäksi kehittäjä huomioi käyttäjäyhteisön erittäin hyvin, vaikka se on pieni.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -1066,7 +1066,7 @@
 "upgrade_restore_button" = "Palauta ostokset";
 "upgrade_restore_in_progress_button" = "Odota...";
 
-"subscription_button_info_text" = "Peruutettava milloin tahansa.";
+"subscription_button_info_text" = "Voit peruuttaa milloin tahansa.";
 "subscription_trial_button_info_text" = "%d %@ ilmainen kokeilu. Sen jälkeen %@ per %@.";
 "lifetime_purchase_button_info_text" = "Avaa täysversion lukituksen kerran (ilman tilausta).";
 
@@ -1100,23 +1100,23 @@
 
 /* Items */
 "upgrade_faq_about_title" = "Mikä on Budget Flow?";
-"upgrade_faq_about_value" = "Budget Flowus on moderni ja helppokäyttöinen budjetinseurantasovellus kaikille, jotka haluavat seurata talouttaan ja hallita kulujaan tehokkaasti.";
+"upgrade_faq_about_value" = "Budget Flow on moderni ja helppokäyttöinen budjetinseurantasovellus kaikille, jotka haluavat seurata talouttaan ja hallita kulujaan tehokkaasti.";
 "upgrade_faq_developer_title" = "Kuka on kehittänyt sovelluksen?";
 "upgrade_faq_developer_value" = "Budget Flow on indie-sovellus, jonka olen kokonaan suunnitellut, kehittänyt ja jota ylläpidän minä, Fabian Hasse. Olen ohjelmistokehittäjä, jolla on yli 10 vuoden kokemus, ja työskentelen suurella intohimolla luodakseni sinulle parhaan budjettisovelluksen.";
 "upgrade_faq_free_use_title" = "Voiko sovellusta käyttää myös ilmaiseksi?";
 "upgrade_faq_free_use_value" = "Kyllä, voit käyttää sovelluksen perustoimintoja, kuten tapahtumien luomista, täysin ilmaiseksi.\n\nLisäksi sovellus tarjoaa kokeilujakson täysversiolle, jotta voit kokeilla sitä etukäteen ennen kuin päätät ostaa tai tilata täyden version.";
 "upgrade_faq_security_title" = "Ovatko tietoni turvassa?";
-"upgrade_faq_security_value" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi.";
+"upgrade_faq_security_value" = "Taloutesi on yksityinen – ja sellaisena sen pitäisi pysyä. Siksi tietosi tallennetaan ainoastaan laitteellesi.";
 "upgrade_faq_security_value_icloud_suffix" = " tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
 "upgrade_faq_why_subscription_title" = "Miksi täysversio tarjotaan tilauksena?";
-"upgrade_faq_why_subscription_value" = "Tavoitteenamme on kehittää korkealaatuinen sovellus, joka tarjoaa sinulle käyttäjänä uusia ominaisuuksia ja parannuksia säännöllisesti. Tämän tavoitteen saavuttamiseksi sovellus tarvitsee kuitenkin jatkuvaa tuloa voidakseen rahoittaa itsensä ja olla taloudellisesti kestävä.\n\nMitä monet eivät tiedä Sovelluksen kehittäminen ja ylläpito vie paljon aikaa. Esimerkiksi Budget Flow'n tapauksessa ideasta kehitykseen kesti lähes kaksi vuotta ja useita tuhansia työtunteja ja testaus ennen kuin ensimmäinen versio voidaan julkaista.\n\nAsiakkaana hyödyt erityisesti tilausmallin säännöllisistä päivityksistä ja parannuksista sekä hyvästä tuesta, jotta voit varmistaa, että olet edelleen tyytyväinen. sinulla on myös mahdollisuus kokeilla sovellusta ilmaiseksi etukäteen varmistaaksesi, että se sopii tarpeisiisi. Voit muuttaa tilausta tai peruuttaa sen milloin tahansa, jos muutat mieltäsi.\n\nKaiken kaikkiaan tilausmalli tarjoaa sinulle monia etuja asiakas ja parempi käyttökokemus jatkuvien päivitysten ja tuen ansiosta verrattuna kertaostokseen. Pitkällä tähtäimellä kertaostos ei valitettavasti olisi kestävää, koska tämä liiketoimintamalli edellyttää uusien käyttäjien ostavan sovelluskehityksen jatkumisen.\n\nJos pidät sovelluksesta, olisimme erittäin iloisia jos tuet työtämme, jotta voimme jatkossakin tarjota sinulle entistä enemmän mahtavia ominaisuuksia!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow’ta kehitetään ja parannetaan jatkuvasti sekä mukautetaan käyttöjärjestelmien uusiin versioihin. Tilaus auttaa rahoittamaan tätä työtä pitkällä aikavälillä ja tarjoamaan sinulle säännöllisiä päivityksiä, uusia ominaisuuksia ja hyvää tukea.\n\nJos et pidä tilauksista, voit vaihtoehtoisesti ostaa täysversion kertamaksulla. Kertaostoksen hinta on tarkoituksella korkeampi, koska se kattaa kaikki tulevat päivitykset ja tuen ilman lisämaksuja.\n\nVoit kokeilla täysversiota etukäteen ilmaiseksi ja peruuttaa tilauksesi milloin tahansa. Jos pidät Budget Flow’sta, tuet ostoksellasi sovelluksen itsenäistä jatkokehitystä.";
 "upgrade_faq_multiple_devices_title" = "Voinko käyttää täyttä versiota useissa laitteissa?";
-"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple-tilillä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi. ja asetukset.";
+"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple-tilillä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi ja asetuksiisi.";
 "upgrade_faq_multiple_people_title" = "Voinko käyttää täyttä versiota useiden ihmisten kanssa?";
-"upgrade_faq_multiple_people_value" = "Kyllä, voit jakaa kertaostoksen sekä täysversion tilauksen jopa viiden henkilön kanssa perheryhmässä. Sinun tarvitsee vain ottaa perhejako käyttöön järjestelmäasetuksista ja lisätä muut ryhmän ihmiset kutsuvat.";
+"upgrade_faq_multiple_people_value" = "Kyllä, voit jakaa kertaostoksen sekä täysversion tilauksen jopa viiden henkilön kanssa perheryhmässä. Ota perhejako käyttöön järjestelmäasetuksissa ja kutsu muut henkilöt ryhmään.";
 "upgrade_faq_cancel_subscription_title" = "Kuinka peruutan tilaukseni?";
 "upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä %@-tiliäsi Järjestelmäasetuksissa.";
-"upgrade_faq_subscription_data_loss_title" = "Menevätkö tietoni, jos peruutan tilaukseni?";
+"upgrade_faq_subscription_data_loss_title" = "Menetänkö tietoni, jos peruutan tilaukseni?";
 "upgrade_faq_subscription_data_loss_value" = "Ei. Kaikki, mitä luot tilattaessa täysversiota, on edelleen saatavilla, jos vaihdat takaisin ilmaiseen versioon.";
 "upgrade_faq_refund_title" = "Kuinka saan hyvityksen?";
 "upgrade_faq_refund_value" = "Ainoastaan ​​%2$@ hyvittää %1$@n kautta tehdyt maksut. Saadaksesi hyvityksen, sinun on otettava yhteyttä %2$@n tukeen 14 päivän kuluessa ostosta.";
@@ -1315,8 +1315,8 @@
 "currency_conversion_synchronization_failed_no_internet_title" = "Ei Internet-yhteyttä";
 
 /* Sections */
-"source_currency_section_title" = "Lähettäjä";
-"target_currency_section_title" = "Vastaanottaja";
+"source_currency_section_title" = "Lähdevaluutta";
+"target_currency_section_title" = "Kohdevaluutta";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1357,7 +1357,7 @@
 "no_budget_books_found_button_title" = "Uusi budjettikirja";
 "no_budget_books_found_cloud_sync_message" = "Olemassa olevaa dataa ladataan iCloudista. Odota hetki...\n\nVaihtoehtoisesti napsauta \"+\" -painiketta lisätäksesi uuden budjettikirjan.";
 "no_budget_books_found_cloud_sync_message_short" = "Olemassa olevia tietoja ladataan iCloudista. Odota hetki...";
-"budget_books_search_placeholder_message" = "Hae budjettivaraajan nimeä";
+"budget_books_search_placeholder_message" = "Hae budjettikirjan nimellä";
 
 "no_accounts_title" = "Ei tilejä";
 "no_accounts_found_title" = "Tilejä ei löytynyt";
@@ -1407,7 +1407,7 @@
 "form_title_section_title" = "Otsikko";
 "form_color_section_title" = "Väri";
 "form_icon_section_title" = "Kuvake";
-"form_assignment_section_title" = "Tehtävä";
+"form_assignment_section_title" = "Kohdistus";
 "form_miscellaneous_section_title" = "Sekalaista";
 
 /* Miscellaneous */
@@ -1676,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Näyttää siltä, ​​että laitteellesi ei ole määritetty sähköpostitiliä. Tämä on kuitenkin pakollista tämän ominaisuuden käyttämiseksi.";
 
 "alert_no_camera_title" = "Kameraa ei ole saatavilla";
-"alert_no_camera_message" = "Näyttää siltä, ​​että sinulla ei ole kameraa. Tämän ominaisuuden käyttö on kuitenkin pakollista.";
+"alert_no_camera_message" = "Näyttää siltä, että laitteessasi ei ole kameraa. Kamera tarvitaan tämän toiminnon käyttämiseen.";
 
 "alert_permissions_title" = "Melkein valmis!";
 "alert_permissions_activate_button" = "Aktivoi nyt";
@@ -1729,7 +1729,7 @@
 "default_category_name_restaurant" = "Ravintola";
 "default_category_name_fast_food" = "Pikaruoka";
 
-"default_category_group_name_living" = "Elävä";
+"default_category_group_name_living" = "Asuminen";
 "default_category_name_rent" = "Vuokraa";
 
 "default_category_group_name_miscellaneous" = "Sekalaista";
@@ -1776,7 +1776,7 @@
 "icon_section_food_and_drinks_title" = "Ruoka ja juoma";
 "icon_section_shopping_title" = "Ostokset";
 "icon_section_health_title" = "Terveys";
-"icon_section_office_title" = "Toisto";
+"icon_section_office_title" = "Toimisto";
 "icon_section_arrows_title" = "Nuolet";
 "icon_section_objects_title" = "Objektit";
 "icon_section_people_title" = "Ihmiset";
@@ -1785,7 +1785,7 @@
 
 
 /* MARK: - Icon Keywords */
-"icon_keyword_emoji" = "Hemoji";
+"icon_keyword_emoji" = "Emoji";
 "icon_keyword_tag" = "Tunniste";
 "icon_keyword_heart" = "Sydän";
 "icon_keyword_star" = "Tähti";
@@ -1802,7 +1802,7 @@
 "icon_keyword_door" = "Ovi";
 "icon_keyword_garage" = "Autotalli";
 "icon_keyword_window" = "Ikkuna";
-"icon_keyword_blinds" = "Kahtimet";
+"icon_keyword_blinds" = "Kaihtimet";
 "icon_keyword_roller" = "Rulla";
 "icon_keyword_curtains" = "Verhot";
 "icon_keyword_air_purifier" = "Ilmanpuhdistin";
@@ -1844,7 +1844,7 @@
 "icon_keyword_dryer" = "Kuivausrumpu";
 "icon_keyword_dishwasher" = "Astianpesukone";
 "icon_keyword_oven" = "Uuni";
-"icon_keyword_stove" = "Liuas";
+"icon_keyword_stove" = "Liesi";
 "icon_keyword_microwave" = "Mikroaaltouuni";
 "icon_keyword_refrigerator" = "jääkaappi";
 "icon_keyword_sink" = "Altaan";
@@ -1859,13 +1859,13 @@
 "icon_keyword_car" = "Auto";
 "icon_keyword_electric_car" = "Sähköauto";
 "icon_keyword_charging_station" = "Latausasema";
-"icon_keyword_car_pool" = "Kimplaus";
-"icon_keyword_bus" = "Vylä";
+"icon_keyword_car_pool" = "Kimppakyyti";
+"icon_keyword_bus" = "Bussi";
 "icon_keyword_tram" = "Juna";
 "icon_keyword_railroad" = "Rautatie";
 "icon_keyword_cablecar" = "Raitiovaunu";
 "icon_keyword_ferry" = "Lautta";
-"icon_keyword_ship" = "Toimitus";
+"icon_keyword_ship" = "Laiva";
 "icon_keyword_truck" = "Kuorma-auto";
 "icon_keyword_relocation" = "Siirto";
 "icon_keyword_bicycle" = "Pyörä";
@@ -1876,7 +1876,7 @@
 "icon_keyword_refuel" = "Tankkaa";
 "icon_keyword_gas_station" = "Bensa-asema";
 "icon_keyword_walking" = "Kävely";
-"icon_keyword_running" = "Käynnissä";
+"icon_keyword_running" = "Juoksu";
 "icon_keyword_rugby" = "Rugby";
 "icon_keyword_badminton" = "Sulkapallo";
 "icon_keyword_tennis" = "Tennis";
@@ -1907,7 +1907,7 @@
 "icon_keyword_nintento_switch" = "Nintendo Switch";
 "icon_keyword_book" = "Kirja";
 "icon_keyword_books" = "Kirjat";
-"icon_keyword_magazine" = "Ajalehti";
+"icon_keyword_magazine" = "Aikakauslehti";
 "icon_keyword_reading" = "Lukeminen";
 "icon_keyword_painting" = "Maalaus";
 "icon_keyword_drawing" = "Piirto";
@@ -1923,7 +1923,7 @@
 "icon_keyword_festival" = "Festivaali";
 "icon_keyword_tent" = "Teltta";
 "icon_keyword_dice" = "Noppa";
-"icon_keyword_boardgames" = "Lautopelit";
+"icon_keyword_boardgames" = "Lautapelit";
 "icon_keyword_gambling" = "Uhkapelit";
 "icon_keyword_camera" = "Kamera";
 "icon_keyword_photography" = "Valokuvaus";
@@ -1937,7 +1937,7 @@
 "icon_keyword_cloud" = "Pilvet";
 "icon_keyword_icloud" = "iCloud";
 "icon_keyword_rain" = "Sade";
-"icon_keyword_flame" = "Likki";
+"icon_keyword_flame" = "Liekki";
 "icon_keyword_fire" = "Tuli";
 "icon_keyword_snow" = "Lumi";
 "icon_keyword_winter" = "Talvi";
@@ -1955,7 +1955,7 @@
 "icon_keyword_lizard" = "Lisko";
 "icon_keyword_bird" = "Lintu";
 "icon_keyword_ant" = "Muurahainen";
-"icon_keyword_ladybug" = "Virhe";
+"icon_keyword_ladybug" = "Hyönteinen";
 "icon_keyword_fish" = "Kala";
 "icon_keyword_pet" = "Lemmikki";
 "icon_keyword_cat" = "Kissa";
@@ -1996,8 +1996,8 @@
 "icon_keyword_dollar" = "Dollaria";
 "icon_keyword_cent" = "Senttiä";
 "icon_keyword_yen" = "Jeni";
-"icon_keyword_pound" = "Puna";
-"icon_keyword_franc" = "Ranska";
+"icon_keyword_pound" = "Punta";
+"icon_keyword_franc" = "Frangi";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Rupla";
 "icon_keyword_euro" = "Euro";
@@ -2048,13 +2048,13 @@
 "icon_keyword_contract" = "Sopimus";
 "icon_keyword_computer" = "Tietokone";
 "icon_keyword_pc" = "PC";
-"icon_keyword_display" = "Valvonta";
+"icon_keyword_display" = "Näyttö";
 "icon_keyword_mouse" = "Hiiri";
 "icon_keyword_keyboard" = "Näppäimistö";
 "icon_keyword_printer" = "Tulostin";
 "icon_keyword_scanner" = "Skanneri";
 "icon_keyword_pin" = "Kiinnitä";
-"icon_keyword_paperclip" = "Kirjaliitin";
+"icon_keyword_paperclip" = "Paperiliitin";
 "icon_keyword_clipboard" = "Leikepöytä";
 "icon_keyword_list" = "Luettelo";
 "icon_keyword_server" = "Palvelin";
@@ -2070,9 +2070,9 @@
 "icon_keyword_wrench" = "Pihdit";
 "icon_keyword_screwdriver" = "Ruuvimeisseli";
 "icon_keyword_hammer" = "Vasara";
-"icon_keyword_craftsman" = "Käsimies";
+"icon_keyword_craftsman" = "Käsityöläinen";
 "icon_keyword_tools" = "Työkalu";
-"icon_keyword_plumber" = "Penkimies";
+"icon_keyword_plumber" = "Putkimies";
 "icon_keyword_construction_market" = "Rakennusmarkkinat";
 "icon_keyword_scissors" = "Sakset";
 "icon_keyword_hairdresser" = "Kampaaja";
@@ -2096,7 +2096,7 @@
 "icon_keyword_lab" = "Lab";
 "icon_keyword_calendar" = "Kalenteri";
 "icon_keyword_rent" = "Vuokraa";
-"icon_keyword_flat" = "Tasainen";
+"icon_keyword_flat" = "Asunto";
 "icon_keyword_work" = "Työ";
 "icon_keyword_salary" = "Palkka";
 "icon_keyword_corona" = "Korona";
@@ -2106,7 +2106,7 @@
 "icon_keyword_discount" = "Alennus";
 "icon_keyword_percent" = "Prosentti";
 "icon_keyword_wallet" = "Lompakko";
-"icon_keyword_convertible" = "Vaihdettava";
+"icon_keyword_convertible" = "Avoauto";
 "icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Moottoripyörä";
 "icon_keyword_tire" = "Rengas";
