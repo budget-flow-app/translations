@@ -345,7 +345,7 @@
 "search_suggestions_section_title" = "Sugestões";
 
 
-/* MARK: - Transaction Filter */
+/* MARK: - Transaction Filter View */
 /* Sections */
 "transaction_filter_general_section_title" = "Geral";
 "transaction_filter_assignment_section_title" = "Atribuição";

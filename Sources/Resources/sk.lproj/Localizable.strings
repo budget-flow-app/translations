@@ -345,7 +345,7 @@
 "search_suggestions_section_title" = "Návrhy";
 
 
-/* MARK: - Transaction Filter */
+/* MARK: - Transaction Filter View */
 /* Sections */
 "transaction_filter_general_section_title" = "Všeobecné";
 "transaction_filter_assignment_section_title" = "Priradenie";

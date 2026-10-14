@@ -345,7 +345,7 @@
 "search_suggestions_section_title" = "Vorschläge";
 
 
-/* MARK: - Transaction Filter */
+/* MARK: - Transaction Filter View */
 /* Sections */
 "transaction_filter_general_section_title" = "Allgemein";
 "transaction_filter_assignment_section_title" = "Zuweisung";
@@ -1148,7 +1148,7 @@
 "progress_view_load_images_subtitle" = "Hinweis: Wenn du die iCloud-Fotomediathek verwendest, kann es eine Weile dauern, bis deine Fotos heruntergeladen wurden.";
 
 "progress_view_load_documents_title" = "Dokumente laden...";
-"progress_view_load_documents_subtitle" = "Info: Wenn du iCloud Drive verwendest, kann es eine Weile dauern, bis deine Dokumente heruntergeladen wurden.";
+"progress_view_load_documents_subtitle" = "Hinweis: Wenn du iCloud Drive verwendest, kann es eine Weile dauern, bis deine Dokumente heruntergeladen wurden.";
 
 "progress_view_import_csv_title" = "Daten importieren...";
 "progress_view_import_csv_subtitle" = "Bitte warten...";
