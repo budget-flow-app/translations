@@ -207,7 +207,7 @@
 			<key>one</key>
 			<string>Toistuu joka päivä.</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d päivinä.</string>
+			<string>Toistuu %1$d päivän välein.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -221,9 +221,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toistuu joka viikko %2$@.</string>
+			<string>Toistuu viikoittain (viikonpäivät: %2$@).</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d viikkoa %2$@.</string>
+			<string>Toistuu %1$d viikon välein (viikonpäivät: %2$@).</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -239,7 +239,7 @@
 			<key>one</key>
 			<string>Toistuu kuukausittain.</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d kuukausina.</string>
+			<string>Toistuu %1$d kuukauden välein.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toistuu kuukausittain %2$@.</string>
+			<string>Toistuu kuukausittain (päivät: %2$@).</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d kuukausina %2$@.</string>
+			<string>Toistuu %1$d kuukauden välein (päivät: %2$@).</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toistuu kuukausittain %2$@ %3$@.</string>
+			<string>Toistuu kuukausittain (viikonpäivä: %3$@; järjestys kuukaudessa: %2$@).</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d kuukausina %2$@ %3$@.</string>
+			<string>Toistuu %1$d kuukauden välein (viikonpäivä: %3$@; järjestys kuukaudessa: %2$@).</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toistuu vuosittain %2$@.</string>
+			<string>Toistuu vuosittain (kuukaudet: %2$@).</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d vuodessa %2$@.</string>
+			<string>Toistuu %1$d vuoden välein (kuukaudet: %2$@).</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toistuu vuosittain %2$@ %3$@ %4$@.</string>
+			<string>Toistuu vuosittain (kuukaudet: %4$@; viikonpäivä: %3$@; järjestys kuukaudessa: %2$@).</string>
 			<key>other</key>
-			<string>Toistuu joka %1$d vuodessa %2$@ %3$@ %4$@.</string>
+			<string>Toistuu %1$d vuoden välein (kuukaudet: %4$@; viikonpäivä: %3$@; järjestys kuukaudessa: %2$@).</string>
 		</dict>
 	</dict>
 </dict>

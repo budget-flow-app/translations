@@ -32,8 +32,8 @@
 
 /* Configuration */
 "prSCwi" = "Configurer le graphique";
-"LM22qM" = "Aperçu de la configuration";
-"ioernk" = "Configurer le compte";
+"LM22qM" = "Configurer le compte";
+"ioernk" = "Configurer la vue d’ensemble";
 "z0ovGL" = "Configurer le budget";
 
 /* Descriptions */
@@ -55,11 +55,11 @@
 "jlSssx-hVyAjR" = "Il y a ${count} options correspondant à ‘Valeur nette’.";
 
 "3GCjUk" = "Solde";
-"Lvj3sF" = "Équilibre";
-"9mfrfk-3GCjUk" = "Juste pour confirmer, vous vouliez 'l'équilibre' ?";
-"MkDC8c-Lvj3sF" = "Juste pour confirmer, vous vouliez 'l'équilibre' ?";
-"5xfjRl-Lvj3sF" = "Il y a ${count} options correspondant à 'balance'.";
-"jlSssx-3GCjUk" = "Il y a ${count} options correspondant à 'balance'.";
+"Lvj3sF" = "Solde";
+"9mfrfk-3GCjUk" = "Juste pour confirmer, vous vouliez 'solde' ?";
+"MkDC8c-Lvj3sF" = "Juste pour confirmer, vous vouliez 'solde' ?";
+"5xfjRl-Lvj3sF" = "Il y a ${count} options correspondant à 'solde'.";
+"jlSssx-3GCjUk" = "Il y a ${count} options correspondant à 'solde'.";
 
 "nXqb0W" = "Revenu total";
 "wXUvBH" = "Revenu total";

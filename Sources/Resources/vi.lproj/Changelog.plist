@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Phím tắt được cải tiến</string>
-			<key>Description</key>
-			<string>Các phím tắt mới và được cải tiến giúp tự động hóa Budget Flow dễ dàng hơn bao giờ hết, bao gồm tự động thêm giao dịch từ thông báo của ứng dụng ngân hàng trên iOS và iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Phân loại tự động</string>
-			<key>Description</key>
-			<string>Trên các thiết bị được hỗ trợ, Budget Flow hiện có thể dùng Apple Intelligence để xác định danh mục và người nhận tiền khi tự động tạo giao dịch bằng phím tắt.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Hỗ trợ iOS, iPadOS và macOS 27</string>
-			<key>Description</key>
-			<string>Các tinh chỉnh thiết kế và bản cập nhật tương thích giúp Budget Flow chạy mượt mà trên những hệ điều hành Apple mới nhất.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Hãy trải nghiệm ứng dụng được hiện đại hóa toàn diện với hiệu năng tốt hơn cùng các tính năng mới để sao lưu, hoàn tiền và quản lý giao dịch của bạn.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Ứng dụng được hiện đại hóa</string>
+				<key>Description</key>
+				<string>Ứng dụng sử dụng kiến trúc hoàn toàn mới, mang lại hiệu năng tốt hơn và các hiệu ứng chuyển động mới.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Sao lưu được cải tiến</string>
+				<key>Description</key>
+				<string>Cơ chế sao lưu đã được thiết kế lại hoàn toàn. Trên các thiết bị Apple, bạn còn có thể chọn sao lưu dữ liệu vào iCloud Drive.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Đã bổ sung hỗ trợ iPhone Duo với thiết kế được tối ưu hóa hoàn toàn cho bố cục màn hình của thiết bị.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Hoàn tiền</string>
+				<key>Description</key>
+				<string>Giờ đây, bạn có thể tạo giao dịch hoàn tiền trực tiếp từ các giao dịch hiện có bằng cử chỉ vuốt hoặc thông qua menu ngữ cảnh.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Tiền tệ yêu thích</string>
+				<key>Description</key>
+				<string>Giờ đây, bạn có thể đánh dấu các loại tiền tệ là yêu thích để tìm thấy nhanh hơn trong danh sách tiền tệ.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Chỉnh sửa hàng loạt</string>
+				<key>Description</key>
+				<string>Khi chỉnh sửa hàng loạt, bạn có thể dễ dàng chọn hoặc bỏ chọn tất cả giao dịch cùng lúc. Ngoài ra, trong các sổ thu chi dùng chung, bạn có thể thay đổi người được chỉ định cho nhiều giao dịch cùng lúc.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Tùy chọn lọc mới</string>
+				<key>Description</key>
+				<string>Giao diện bộ lọc giờ đây giúp bạn dễ dàng tìm kiếm danh mục và các mục khác, đồng thời tìm riêng các giao dịch định kỳ thông qua tính năng tìm kiếm toàn cục.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Các cải tiến khác</string>
+				<key>Description</key>
+				<string>Số tiền dễ đọc hơn, biểu tượng danh mục trong biểu đồ tròn, tìm kiếm biểu tượng cảm xúc, tùy chọn hiển thị mới cho danh mục và thẻ, cùng quy trình thiết lập ban đầu đơn giản hơn.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

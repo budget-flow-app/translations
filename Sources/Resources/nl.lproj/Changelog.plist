@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Verbeterde opdrachten</string>
-			<key>Description</key>
-			<string>Nieuwe en verbeterde opdrachten maken het eenvoudiger dan ooit om Budget Flow te automatiseren, inclusief het automatisch toevoegen van transacties uit meldingen van bank-apps op iOS en iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Automatische categorisering</string>
-			<key>Description</key>
-			<string>Op ondersteunde apparaten kan Budget Flow nu Apple Intelligence gebruiken om de categorie en begunstigde te bepalen wanneer transacties automatisch met opdrachten worden aangemaakt.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Ondersteuning voor iOS, iPadOS en macOS 27</string>
-			<key>Description</key>
-			<string>Ontwerpverfijningen en compatibiliteitsupdates houden Budget Flow soepel draaiend op de nieuwste Apple-besturingssystemen.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Ontdek een grondig vernieuwde app met betere prestaties en nieuwe functies voor reservekopieën, terugbetalingen en het beheren van je transacties.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Vernieuwde app</string>
+				<key>Description</key>
+				<string>De app is gebaseerd op een volledig nieuwe architectuur, met betere prestaties en nieuwe animaties.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Vernieuwde reservekopieën</string>
+				<key>Description</key>
+				<string>Het systeem voor reservekopieën is volledig vernieuwd. Op apparaten van Apple kun je je gegevens nu desgewenst ook in iCloud Drive bewaren.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Ondersteuning voor iPhone Duo is toegevoegd, met een ontwerp dat volledig is geoptimaliseerd voor de schermindeling.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Terugbetalingen</string>
+				<key>Description</key>
+				<string>Je kunt nu rechtstreeks vanuit bestaande transacties terugbetalingen aanmaken met een veegbeweging of via het contextmenu.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Favoriete valuta’s</string>
+				<key>Description</key>
+				<string>Je kunt valuta’s nu als favoriet markeren om ze nog sneller terug te vinden in de valutalijst.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Meerdere transacties bewerken</string>
+				<key>Description</key>
+				<string>Wanneer je meerdere transacties bewerkt, kun je ze eenvoudig allemaal tegelijk selecteren of deselecteren. In gedeelde huishoudboekjes kun je bovendien voor meerdere transacties tegelijk de toegewezen persoon wijzigen.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Nieuwe filteropties</string>
+				<key>Description</key>
+				<string>In de filterweergave kun je nu eenvoudig zoeken naar categorieën en andere onderdelen. Via de algemene zoekfunctie kun je ook gericht terugkerende transacties vinden.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Overige verbeteringen</string>
+				<key>Description</key>
+				<string>Beter leesbare bedragen, categoriepictogrammen in het cirkeldiagram, zoeken naar emoji’s, nieuwe weergaveopties voor categorieën en tags en een eenvoudigere introductie.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

@@ -159,7 +159,7 @@
 			<key>one</key>
 			<string>%1$d budget</string>
 			<key>other</key>
-			<string>%1$d budgetter</string>
+			<string>%1$d budgetar</string>
 		</dict>
 	</dict>
 	<key>number_of_categories</key>
@@ -207,7 +207,7 @@
 			<key>one</key>
 			<string>Upprepas varje dag.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d dagar.</string>
+			<string>Upprepas med %1$d dagars mellanrum.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -223,7 +223,7 @@
 			<key>one</key>
 			<string>Upprepas varje vecka på %2$@.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d vecka på %2$@.</string>
+			<string>Upprepas med %1$d veckors mellanrum på %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -239,7 +239,7 @@
 			<key>one</key>
 			<string>Upprepas varje månad.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d månader.</string>
+			<string>Upprepas med %1$d månaders mellanrum.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Upprepas varje månad på %2$@.</string>
+			<string>Upprepas varje månad på följande dagar: %2$@.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d månader på %2$@.</string>
+			<string>Upprepas med %1$d månaders mellanrum på följande dagar: %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -271,7 +271,7 @@
 			<key>one</key>
 			<string>Upprepas varje månad den %2$@ %3$@.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d månader den %2$@ %3$@.</string>
+			<string>Upprepas med %1$d månaders mellanrum den %2$@ %3$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Upprepas varje år den %2$@.</string>
+			<string>Upprepas varje år i %2$@.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d år den %2$@.</string>
+			<string>Upprepas med %1$d års mellanrum i %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Upprepas varje år den %2$@ %3$@ %4$@.</string>
+			<string>Upprepas varje år den %2$@ %3$@ i %4$@.</string>
 			<key>other</key>
-			<string>Upprepas varje %1$d år den %2$@ %3$@ %4$@.</string>
+			<string>Upprepas med %1$d års mellanrum den %2$@ %3$@ i %4$@.</string>
 		</dict>
 	</dict>
 </dict>

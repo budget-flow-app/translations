@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Enhanced Shortcuts</string>
-			<key>Description</key>
-			<string>New and improved shortcuts make it easier than ever to automate Budget Flow, including automatically adding transactions from banking app notifications on iOS and iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Automatic Categorization</string>
-			<key>Description</key>
-			<string>On supported devices, Budget Flow can now use Apple Intelligence to determine the category and payee when automatically creating transactions with shortcuts.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Support for iOS, iPadOS, and macOS 27</string>
-			<key>Description</key>
-			<string>Design refinements and compatibility updates keep Budget Flow running smoothly on the latest Apple operating systems: iOS, iPadOS, and macOS 27.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Experience a thoroughly modernized app with better performance and new features for backups, refunds, and managing your transactions.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Modernized App</string>
+				<key>Description</key>
+				<string>The app is built on a completely new architecture, delivering better performance and new animations.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Redesigned Backups</string>
+				<key>Description</key>
+				<string>The backup system has been completely redesigned, with the option to also back up your data to iCloud Drive on Apple devices.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Support for iPhone Duo has been added, including a design fully optimized for its layout.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Refunds</string>
+				<key>Description</key>
+				<string>You can now create refunds directly from existing transactions with a swipe gesture or through the context menu.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Favorite Currencies</string>
+				<key>Description</key>
+				<string>You can now mark currencies as favorites to find them even faster in the currency list.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Bulk Editing</string>
+				<key>Description</key>
+				<string>When editing multiple transactions, you can easily select or deselect them all at once. In shared budget books, you can also change the assigned person for multiple transactions at the same time.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>New Filter Options</string>
+				<key>Description</key>
+				<string>The filter view now makes it easy to search for categories and other entries, and to specifically find recurring transactions through the global search.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Further Improvements</string>
+				<key>Description</key>
+				<string>More readable amounts, category icons in the pie chart, emoji search, new display options for categories and tags, and simpler onboarding.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

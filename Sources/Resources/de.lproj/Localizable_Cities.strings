@@ -163,7 +163,7 @@
 	<key>Hobart</key>
 	<string>Hobart</string>
 	<key>Hong Kong</key>
-	<string>Hong Kong</string>
+	<string>Hongkong</string>
 	<key>Honolulu</key>
 	<string>Honolulu</string>
 	<key>Houston</key>
@@ -261,13 +261,13 @@
 	<key>Munich</key>
 	<string>München</string>
 	<key>Muscat</key>
-	<string>Muscat</string>
+	<string>Maskat</string>
 	<key>Nairobi</key>
 	<string>Nairobi</string>
 	<key>Ndjamena</key>
 	<string>Ndjamena</string>
 	<key>New Delhi</key>
-	<string>Neu Delhi</string>
+	<string>Neu-Delhi</string>
 	<key>New York</key>
 	<string>New York</string>
 	<key>Nouakchott</key>
@@ -287,7 +287,7 @@
 	<key>Ottawa</key>
 	<string>Ottawa</string>
 	<key>Ougadougou</key>
-	<string>Ougadougou</string>
+	<string>Ouagadougou</string>
 	<key>Pago Pago</key>
 	<string>Pago Pago</string>
 	<key>Panama</key>
@@ -331,7 +331,7 @@
 	<key>Rio de Janeiro</key>
 	<string>Rio de Janeiro</string>
 	<key>Riyadh</key>
-	<string>Rijadh</string>
+	<string>Riad</string>
 	<key>Rome</key>
 	<string>Rom</string>
 	<key>Salt Lake City</key>

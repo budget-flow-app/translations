@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>향상된 단축어</string>
-			<key>Description</key>
-			<string>새롭고 향상된 단축어로 Budget Flow 자동화가 그 어느 때보다 쉬워졌으며, iOS 및 iPadOS 27에서 은행 앱 알림을 통해 거래를 자동으로 추가할 수 있습니다.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>자동 분류</string>
-			<key>Description</key>
-			<string>지원되는 기기에서 Budget Flow는 이제 Apple Intelligence를 사용하여 단축어로 거래를 자동 생성할 때 카테고리와 수취인을 판단할 수 있습니다.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>iOS, iPadOS 및 macOS 27 지원</string>
-			<key>Description</key>
-			<string>디자인 개선과 호환성 업데이트로 최신 Apple 운영 체제에서 Budget Flow가 원활하게 실행됩니다.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>더 나은 성능과 새로운 백업, 환불, 거래 관리 기능을 갖추고 근본적으로 새로워진 앱을 경험해 보세요.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>새로워진 앱</string>
+				<key>Description</key>
+				<string>완전히 새로운 아키텍처를 기반으로 더 나은 성능과 새로운 애니메이션을 제공합니다.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>개선된 백업</string>
+				<key>Description</key>
+				<string>백업 방식을 완전히 새롭게 설계했습니다. Apple 기기에서는 원하는 경우 iCloud Drive에도 데이터를 백업할 수 있습니다.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>iPhone Duo 지원을 추가했으며, 화면 레이아웃에 맞춰 디자인을 완전히 최적화했습니다.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>환불</string>
+				<key>Description</key>
+				<string>이제 기존 거래에서 쓸어넘기기 동작이나 컨텍스트 메뉴를 통해 바로 환불 거래를 만들 수 있습니다.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>즐겨찾는 통화</string>
+				<key>Description</key>
+				<string>이제 통화를 즐겨찾기로 표시하여 통화 목록에서 더 빠르게 찾을 수 있습니다.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>일괄 편집</string>
+				<key>Description</key>
+				<string>일괄 편집 시 모든 거래를 한 번에 간편하게 선택하거나 선택 해제할 수 있습니다. 또한 공유 가계부에서 여러 거래에 지정된 사람을 동시에 변경할 수 있습니다.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>새로운 필터 옵션</string>
+				<key>Description</key>
+				<string>이제 필터 화면에서 카테고리와 기타 항목을 쉽게 검색할 수 있으며, 전체 검색으로 반복 거래를 따로 찾아볼 수 있습니다.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>기타 개선 사항</string>
+				<key>Description</key>
+				<string>금액의 가독성 개선, 원형 차트의 카테고리 아이콘, 이모티콘 검색, 카테고리 및 태그의 새로운 표시 옵션, 간소화된 초기 설정을 제공합니다.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

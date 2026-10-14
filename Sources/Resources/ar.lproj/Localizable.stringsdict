@@ -18,6 +18,12 @@
 			<string>دقائق</string>
 			<key>other</key>
 			<string>دقيقة</string>
+			<key>zero</key>
+			<string>دقائق</string>
+			<key>two</key>
+			<string>دقيقتان</string>
+			<key>many</key>
+			<string>دقيقة</string>
 		</dict>
 	</dict>
 	<key>hour</key>
@@ -35,7 +41,13 @@
 			<key>few</key>
 			<string>ساعات</string>
 			<key>other</key>
+			<string>ساعة</string>
+			<key>zero</key>
 			<string>ساعات</string>
+			<key>two</key>
+			<string>ساعتان</string>
+			<key>many</key>
+			<string>ساعة</string>
 		</dict>
 	</dict>
 	<key>day</key>
@@ -53,7 +65,13 @@
 			<key>few</key>
 			<string>أيام</string>
 			<key>other</key>
+			<string>يوم</string>
+			<key>zero</key>
 			<string>أيام</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>many</key>
+			<string>يوم</string>
 		</dict>
 	</dict>
 	<key>week</key>
@@ -71,7 +89,13 @@
 			<key>few</key>
 			<string>أسابيع</string>
 			<key>other</key>
+			<string>أسبوع</string>
+			<key>zero</key>
 			<string>أسابيع</string>
+			<key>two</key>
+			<string>أسبوعان</string>
+			<key>many</key>
+			<string>أسبوع</string>
 		</dict>
 	</dict>
 	<key>month</key>
@@ -89,7 +113,13 @@
 			<key>few</key>
 			<string>أشهر</string>
 			<key>other</key>
-			<string>شهور</string>
+			<string>شهر</string>
+			<key>zero</key>
+			<string>أشهر</string>
+			<key>two</key>
+			<string>شهران</string>
+			<key>many</key>
+			<string>شهر</string>
 		</dict>
 	</dict>
 	<key>year</key>
@@ -107,7 +137,13 @@
 			<key>few</key>
 			<string>سنوات</string>
 			<key>other</key>
+			<string>سنة</string>
+			<key>zero</key>
 			<string>سنوات</string>
+			<key>two</key>
+			<string>سنتان</string>
+			<key>many</key>
+			<string>سنة</string>
 		</dict>
 	</dict>
 	<key>number_of_transactions</key>
@@ -125,7 +161,13 @@
 			<key>few</key>
 			<string>%1$d معاملات</string>
 			<key>other</key>
-			<string>%1$d معاملات</string>
+			<string>%1$d معاملة</string>
+			<key>zero</key>
+			<string>عدد المعاملات: %1$d</string>
+			<key>two</key>
+			<string>عدد المعاملات: %1$d</string>
+			<key>many</key>
+			<string>%1$d معاملة</string>
 		</dict>
 	</dict>
 	<key>number_of_upcoming_transactions</key>
@@ -139,11 +181,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d معاملة قادمة</string>
+			<string>%1$d معاملة مخطط لها</string>
 			<key>few</key>
-			<string>%1$d معاملات قادمة</string>
+			<string>%1$d معاملات مخطط لها</string>
 			<key>other</key>
-			<string>%1$d معاملات قادمة</string>
+			<string>%1$d معاملة مخطط لها</string>
+			<key>zero</key>
+			<string>عدد المعاملات المخطط لها: %1$d</string>
+			<key>two</key>
+			<string>عدد المعاملات المخطط لها: %1$d</string>
+			<key>many</key>
+			<string>%1$d معاملة مخطط لها</string>
 		</dict>
 	</dict>
 	<key>number_of_reminded_transactions</key>
@@ -157,11 +205,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d معاملة تذكير</string>
+			<string>%1$d معاملة مع تذكير</string>
 			<key>few</key>
-			<string>%1$d معاملات تذكير</string>
+			<string>%1$d معاملات مع تذكير</string>
 			<key>other</key>
-			<string>%1$d معاملات تذكير</string>
+			<string>%1$d معاملة مع تذكير</string>
+			<key>zero</key>
+			<string>عدد المعاملات مع تذكير: %1$d</string>
+			<key>two</key>
+			<string>عدد المعاملات مع تذكير: %1$d</string>
+			<key>many</key>
+			<string>%1$d معاملة مع تذكير</string>
 		</dict>
 	</dict>
 	<key>number_of_budgets</key>
@@ -180,6 +234,12 @@
 			<string>%1$d ميزانيات</string>
 			<key>other</key>
 			<string>%1$d ميزانية</string>
+			<key>zero</key>
+			<string>عدد الميزانيات: %1$d</string>
+			<key>two</key>
+			<string>عدد الميزانيات: %1$d</string>
+			<key>many</key>
+			<string>%1$d ميزانية</string>
 		</dict>
 	</dict>
 	<key>number_of_categories</key>
@@ -197,7 +257,13 @@
 			<key>few</key>
 			<string>%1$d فئات</string>
 			<key>other</key>
-			<string>%1$d فئات</string>
+			<string>%1$d فئة</string>
+			<key>zero</key>
+			<string>عدد الفئات: %1$d</string>
+			<key>two</key>
+			<string>عدد الفئات: %1$d</string>
+			<key>many</key>
+			<string>%1$d فئة</string>
 		</dict>
 	</dict>
 	<key>number_of_attachments</key>
@@ -215,7 +281,13 @@
 			<key>few</key>
 			<string>%1$d مرفقات</string>
 			<key>other</key>
-			<string>%1$d مرفقات</string>
+			<string>%1$d مرفق</string>
+			<key>zero</key>
+			<string>عدد المرفقات: %1$d</string>
+			<key>two</key>
+			<string>عدد المرفقات: %1$d</string>
+			<key>many</key>
+			<string>%1$d مرفق</string>
 		</dict>
 	</dict>
 	<key>repeats_every_day</key>
@@ -229,11 +301,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل يوم.</string>
+			<string>يتكرر يوميًا.</string>
 			<key>few</key>
 			<string>يتكرر كل %1$d أيام.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d أيام.</string>
+			<string>يتكرر كل %1$d يوم.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (أيام): %1$d.</string>
+			<key>two</key>
+			<string>فاصل التكرار (أيام): %1$d.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d يوم.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -247,11 +325,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل أسبوع في %2$@.</string>
+			<string>يتكرر أسبوعيًا في %2$@.</string>
 			<key>few</key>
 			<string>يتكرر كل %1$d أسابيع في %2$@.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d أسابيع في %2$@.</string>
+			<string>يتكرر كل %1$d أسبوع في %2$@.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (أسابيع): %1$d في %2$@.</string>
+			<key>two</key>
+			<string>فاصل التكرار (أسابيع): %1$d في %2$@.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d أسبوع في %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -265,11 +349,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل شهر.</string>
+			<string>يتكرر شهريًا.</string>
 			<key>few</key>
-			<string>يتكرر كل %1$d شهور.</string>
+			<string>يتكرر كل %1$d أشهر.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d شهور.</string>
+			<string>يتكرر كل %1$d شهر.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (أشهر): %1$d.</string>
+			<key>two</key>
+			<string>فاصل التكرار (أشهر): %1$d.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d شهر.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -283,11 +373,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل شهر في %2$@.</string>
+			<string>يتكرر شهريًا في %2$@.</string>
 			<key>few</key>
-			<string>يتكرر كل %1$d شهور في %2$@.</string>
+			<string>يتكرر كل %1$d أشهر في %2$@.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d شهور في %2$@.</string>
+			<string>يتكرر كل %1$d شهر في %2$@.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (أشهر): %1$d في %2$@.</string>
+			<key>two</key>
+			<string>فاصل التكرار (أشهر): %1$d في %2$@.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d شهر في %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -301,11 +397,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل شهر في %2$@ %3$@.</string>
+			<string>يتكرر شهريًا في %3$@ %2$@.</string>
 			<key>few</key>
-			<string>يتكرر كل %1$d شهور في %2$@ %3$@.</string>
+			<string>يتكرر كل %1$d أشهر في %3$@ %2$@.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d شهور في %2$@ %3$@.</string>
+			<string>يتكرر كل %1$d شهر في %3$@ %2$@.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (أشهر): %1$d في %3$@ %2$@.</string>
+			<key>two</key>
+			<string>فاصل التكرار (أشهر): %1$d في %3$@ %2$@.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d شهر في %3$@ %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -319,11 +421,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل سنة في %2$@.</string>
+			<string>يتكرر سنويًا في %2$@.</string>
 			<key>few</key>
 			<string>يتكرر كل %1$d سنوات في %2$@.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d سنوات في %2$@.</string>
+			<string>يتكرر كل %1$d سنة في %2$@.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (سنوات): %1$d في %2$@.</string>
+			<key>two</key>
+			<string>فاصل التكرار (سنوات): %1$d في %2$@.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d سنة في %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -337,11 +445,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>يتكرر كل سنة في %2$@ %3$@ %4$@.</string>
+			<string>يتكرر سنويًا في %3$@ %2$@ من %4$@.</string>
 			<key>few</key>
-			<string>يتكرر كل %1$d سنوات في %2$@ %3$@ %4$@.</string>
+			<string>يتكرر كل %1$d سنوات في %3$@ %2$@ من %4$@.</string>
 			<key>other</key>
-			<string>يتكرر كل %1$d سنوات في %2$@ %3$@ %4$@.</string>
+			<string>يتكرر كل %1$d سنة في %3$@ %2$@ من %4$@.</string>
+			<key>zero</key>
+			<string>فاصل التكرار (سنوات): %1$d في %3$@ %2$@ من %4$@.</string>
+			<key>two</key>
+			<string>فاصل التكرار (سنوات): %1$d في %3$@ %2$@ من %4$@.</string>
+			<key>many</key>
+			<string>يتكرر كل %1$d سنة في %3$@ %2$@ من %4$@.</string>
 		</dict>
 	</dict>
 </dict>

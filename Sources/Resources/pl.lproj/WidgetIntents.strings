@@ -33,7 +33,7 @@
 /* Configuration */
 "prSCwi" = "Konfiguruj wykres";
 "ioernk" = "Skonfiguruj konto";
-"LM22qM" = "Przegląd konfiguracji";
+"LM22qM" = "Skonfiguruj przegląd";
 "z0ovGL" = "Konfiguruj budżet";
 
 /* Descriptions */
@@ -56,8 +56,8 @@
 
 "3GCjUk" = "Saldo";
 "Lvj3sF" = "Saldo";
-"9mfrfk-3GCjUk" = "Aby potwierdzić, chciałeś 'równowagi'?";
-"MkDC8c-Lvj3sF" = "Aby potwierdzić, chciałeś 'zrównoważenia'?";
+"9mfrfk-3GCjUk" = "Aby potwierdzić, chciałeś 'salda'?";
+"MkDC8c-Lvj3sF" = "Aby potwierdzić, chciałeś 'salda'?";
 "5xfjRl-Lvj3sF" = "Istnieje ${count} opcji pasujących do 'balansu'.";
 "jlSssx-3GCjUk" = "Istnieje ${count} opcji pasujących do 'balansu'.";
 

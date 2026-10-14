@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Atalhos melhorados</string>
-			<key>Description</key>
-			<string>Atalhos novos e melhorados tornam mais fácil do que nunca automatizar o Budget Flow, incluindo adicionar transações automaticamente a partir de notificações de apps bancárias no iOS e iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Categorização automática</string>
-			<key>Description</key>
-			<string>Em dispositivos compatíveis, o Budget Flow pode agora usar os Apple Intelligence para determinar a categoria e o beneficiário ao criar transações automaticamente com atalhos.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Compatibilidade com iOS, iPadOS e macOS 27</string>
-			<key>Description</key>
-			<string>Ajustes de design e atualizações de compatibilidade mantêm o Budget Flow a funcionar sem problemas nos sistemas operativos Apple mais recentes.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Uma app totalmente modernizada, com melhor desempenho e novas funcionalidades de cópias de segurança, reembolsos e gestão de transações.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>App modernizada</string>
+				<key>Description</key>
+				<string>A app assenta numa arquitetura totalmente nova, que oferece melhor desempenho e novas animações.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Cópias de segurança melhoradas</string>
+				<key>Description</key>
+				<string>O sistema de cópias de segurança foi totalmente reformulado e, nos dispositivos Apple, permite agora guardar os dados também no iCloud Drive, se pretendido.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Foi adicionado suporte para o iPhone Duo, com um design totalmente otimizado para a disposição do ecrã deste dispositivo.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Reembolsos</string>
+				<key>Description</key>
+				<string>Agora é possível criar reembolsos diretamente a partir de transações existentes, com um gesto de passar o dedo ou através do menu de contexto.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Moedas favoritas</string>
+				<key>Description</key>
+				<string>Agora é possível marcar moedas como favoritas para as encontrar ainda mais rapidamente na lista de moedas.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Edição em lote</string>
+				<key>Description</key>
+				<string>Na edição em lote, é possível selecionar ou desmarcar todas as transações de uma só vez. Nos livros de orçamento partilhados, também é possível alterar a pessoa atribuída a várias transações em simultâneo.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Novas opções de filtro</string>
+				<key>Description</key>
+				<string>A vista de filtros permite agora pesquisar facilmente categorias e outros elementos, bem como encontrar especificamente transações recorrentes através da pesquisa global.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Outras melhorias</string>
+				<key>Description</key>
+				<string>Montantes mais fáceis de ler, ícones de categorias no gráfico circular, pesquisa de emojis, novas opções de apresentação de categorias e etiquetas e uma configuração inicial simplificada.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

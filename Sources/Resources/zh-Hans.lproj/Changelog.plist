@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>增强的快捷指令</string>
-			<key>Description</key>
-			<string>全新和改进的快捷指令让自动化 Budget Flow 比以往更轻松，包括在 iOS 和 iPadOS 27 上从银行 App 通知自动添加交易。</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>自动分类</string>
-			<key>Description</key>
-			<string>在受支持的设备上，Budget Flow 现在可以使用 Apple Intelligence，在通过快捷指令自动创建交易时判断类别和收款人。</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>支持 iOS、iPadOS 和 macOS 27</string>
-			<key>Description</key>
-			<string>设计优化和兼容性更新让 Budget Flow 在最新的 Apple 操作系统上流畅运行。</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>体验全面焕新的 App，享受更出色的性能，以及备份、退款和交易管理方面的新功能。</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>全面焕新的 App</string>
+				<key>Description</key>
+				<string>App 采用全新架构，带来更出色的性能和全新的动画效果。</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>改进的备份功能</string>
+				<key>Description</key>
+				<string>备份机制经过全面重新设计，在 Apple 设备上还可选择将数据备份至 iCloud Drive。</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>新增对 iPhone Duo 的支持，并针对其屏幕布局全面优化设计。</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>退款</string>
+				<key>Description</key>
+				<string>现在可以通过轻扫手势或上下文菜单，直接从现有交易创建退款交易。</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>收藏货币</string>
+				<key>Description</key>
+				<string>现在可以将货币标记为收藏，以便在货币列表中更快找到。</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>批量编辑</string>
+				<key>Description</key>
+				<string>批量编辑时，可以轻松一次选中或取消选中所有交易。此外，在共享账本中，还可以同时更改多笔交易的指定人员。</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>新增筛选选项</string>
+				<key>Description</key>
+				<string>现在可以在筛选视图中轻松搜索类别和其他条目，并通过全局搜索专门查找重复交易。</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>其他改进</string>
+				<key>Description</key>
+				<string>金额显示更加清晰易读，饼图中新增类别图标，并带来表情符号搜索、类别和标签的新显示选项，以及更简洁的初始设置流程。</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

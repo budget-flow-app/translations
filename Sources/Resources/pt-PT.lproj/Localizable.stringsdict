@@ -125,9 +125,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d transação planejada</string>
+			<string>%1$d transação planeada</string>
 			<key>other</key>
-			<string>%1$d transações planejadas</string>
+			<string>%1$d transações planeadas</string>
 		</dict>
 	</dict>
 	<key>number_of_reminded_transactions</key>
@@ -221,9 +221,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Repete semanalmente na %2$@.</string>
+			<string>Repete semanalmente nos seguintes dias: %2$@.</string>
 			<key>other</key>
-			<string>Repete a cada %1$d semanas na %2$@.</string>
+			<string>Repete a cada %1$d semanas nos seguintes dias: %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Repete mensalmente no %2$@ %3$@.</string>
+			<string>Repete mensalmente no dia da semana %3$@ (%2$@ do mês).</string>
 			<key>other</key>
-			<string>Repete a cada %1$d meses no %2$@ %3$@.</string>
+			<string>Repete a cada %1$d meses no dia da semana %3$@ (%2$@ do mês).</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Repete anualmente no %2$@ %3$@ de %4$@.</string>
+			<string>Repete anualmente em %4$@, no dia da semana %3$@ (%2$@ do mês).</string>
 			<key>other</key>
-			<string>Repete a cada %1$d anos no %2$@ %3$@ de %4$@.</string>
+			<string>Repete a cada %1$d anos em %4$@, no dia da semana %3$@ (%2$@ do mês).</string>
 		</dict>
 	</dict>
 </dict>

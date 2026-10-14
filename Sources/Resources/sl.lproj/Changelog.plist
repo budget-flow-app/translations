@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Izboljšane bližnjice</string>
-			<key>Description</key>
-			<string>Nove in izboljšane bližnjice omogočajo lažjo avtomatizacijo Budget Flow kot kdaj koli prej, vključno s samodejnim dodajanjem transakcij iz obvestil bančnih aplikacij v iOS in iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Samodejno kategoriziranje</string>
-			<key>Description</key>
-			<string>Na podprtih napravah lahko Budget Flow zdaj uporablja Apple Intelligence za določanje kategorije in prejemnika plačila pri samodejnem ustvarjanju transakcij z bližnjicami.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Podpora za iOS, iPadOS in macOS 27</string>
-			<key>Description</key>
-			<string>Oblikovne izboljšave in posodobitve združljivosti zagotavljajo nemoteno delovanje Budget Flow v najnovejših Applovih operacijskih sistemih.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Odkrijte temeljito posodobljeno aplikacijo z boljšim delovanjem in novimi funkcijami za varnostne kopije, vračila in upravljanje transakcij.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Posodobljena aplikacija</string>
+				<key>Description</key>
+				<string>Aplikacija temelji na povsem novi arhitekturi, ki omogoča boljše delovanje in nove animacije.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Izboljšane varnostne kopije</string>
+				<key>Description</key>
+				<string>Sistem varnostnega kopiranja je v celoti prenovljen in na napravah Apple po želji omogoča tudi shranjevanje podatkov v iCloud Drive.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>Dodana je podpora za iPhone Duo z zasnovo, ki je v celoti prilagojena postavitvi njegovega zaslona.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Vračila</string>
+				<key>Description</key>
+				<string>Vračila lahko zdaj ustvarite neposredno iz obstoječih transakcij s podrsavanjem ali prek kontekstnega menija.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Priljubljene valute</string>
+				<key>Description</key>
+				<string>Valute lahko zdaj označite kot priljubljene, da jih še hitreje najdete na seznamu valut.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Množično urejanje</string>
+				<key>Description</key>
+				<string>Pri množičnem urejanju lahko preprosto izberete vse transakcije ali prekličete njihov izbor hkrati. V skupnih proračunskih knjigah lahko tudi spremenite dodeljeno osebo za več transakcij naenkrat.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Nove možnosti filtriranja</string>
+				<key>Description</key>
+				<string>Pogled filtrov zdaj omogoča preprosto iskanje kategorij in drugih vnosov ter ciljno iskanje ponavljajočih se transakcij prek globalnega iskanja.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Druge izboljšave</string>
+				<key>Description</key>
+				<string>Bolj berljivi zneski, ikone kategorij v tortnem grafikonu, iskanje emodžijev, nove možnosti prikaza kategorij in oznak ter poenostavljena začetna nastavitev.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

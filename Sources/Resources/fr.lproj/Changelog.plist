@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Raccourcis améliorés</string>
-			<key>Description</key>
-			<string>Les nouveaux raccourcis améliorés rendent l’automatisation de Budget Flow plus simple que jamais, y compris l’ajout automatique de transactions à partir des notifications d’apps bancaires sur iOS et iPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Catégorisation automatique</string>
-			<key>Description</key>
-			<string>Sur les appareils compatibles, Budget Flow peut désormais utiliser les Apple Intelligence pour déterminer la catégorie et le bénéficiaire lors de la création automatique de transactions avec des raccourcis.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Prise en charge d’iOS, iPadOS et macOS 27</string>
-			<key>Description</key>
-			<string>Des raffinements de design et des mises à jour de compatibilité permettent à Budget Flow de fonctionner avec fluidité sur les derniers systèmes d’exploitation Apple.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>Découvrez une app modernisée en profondeur, avec de meilleures performances et de nouvelles fonctionnalités pour les sauvegardes, les remboursements et la gestion de vos transactions.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>App modernisée</string>
+				<key>Description</key>
+				<string>L’app repose sur une architecture entièrement nouvelle, qui offre de meilleures performances et de nouvelles animations.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Sauvegardes repensées</string>
+				<key>Description</key>
+				<string>Le système de sauvegarde a été entièrement repensé et permet, sur les appareils Apple, de sauvegarder aussi les données sur iCloud Drive si vous le souhaitez.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>L’iPhone Duo est désormais pris en charge, avec une interface entièrement optimisée pour la disposition de son écran.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Remboursements</string>
+				<key>Description</key>
+				<string>Vous pouvez désormais créer des remboursements directement à partir de transactions existantes, par un geste de balayage ou depuis le menu contextuel.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Devises favorites</string>
+				<key>Description</key>
+				<string>Vous pouvez désormais marquer des devises comme favorites pour les retrouver encore plus vite dans la liste des devises.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Modification multiple</string>
+				<key>Description</key>
+				<string>Lorsque vous modifiez plusieurs transactions, vous pouvez facilement toutes les sélectionner ou les désélectionner en une seule fois. Dans les livres de comptes partagés, vous pouvez aussi changer la personne associée à plusieurs transactions simultanément.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Nouvelles options de filtrage</string>
+				<key>Description</key>
+				<string>La vue des filtres permet désormais de rechercher facilement des catégories et d’autres éléments, ainsi que de trouver spécifiquement des transactions récurrentes grâce à la recherche globale.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Autres améliorations</string>
+				<key>Description</key>
+				<string>Des montants plus lisibles, des icônes de catégories dans le graphique circulaire, une recherche d’emojis, de nouvelles options d’affichage pour les catégories et les tags, ainsi qu’une prise en main simplifiée.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

@@ -9,24 +9,22 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "意见反馈";
-"feedback_quick_action_subtitle" = "点击此处以向本应用发送反馈";
-"income_quick_action_title" = "新增收入";
-"expense_quick_action_title" = "新增支出";
-"transfer_quick_action_title" = "新增转账";
-"recurring_quick_action_title" = "定期交易";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "生物识别";
+
 "required" = "必填";
 "optional" = "可选";
-"uncategorized" = "未分类";
+
 "before" = "之前";
+"uncategorized" = "未分类";
 "account_reconcilation" = "账户对账";
+
 "evaluated" = "已评估";
 "not_evaluated" = "未评估";
+
 "share_participant_owner" = "所有者";
 "share_participant_you" = "您";
 
@@ -37,7 +35,7 @@
 "account_type_savings" = "储蓄账户";
 "account_type_credit_card" = "信用卡";
 "account_type_investment" = "投资";
-"account_type_precaution" = "储备金";
+"account_type_long_term_savings" = "储备金";
 "account_type_liability" = "负债";
 "account_type_business" = "企业账户";
 
@@ -45,7 +43,7 @@
 "account_type_savings_plural" = "储蓄账户";
 "account_type_credit_card_plural" = "信用卡";
 "account_type_investment_plural" = "投资";
-"account_type_precaution_plural" = "储备金";
+"account_type_long_term_savings_plural" = "储备金";
 "account_type_liability_plural" = "负债";
 "account_type_business_plural" = "企业账户";
 
@@ -56,6 +54,9 @@
 "transaction_type_income_plural" = "收入";
 "transaction_type_expense_plural" = "支出";
 "transaction_type_transfer_plural" = "转账";
+
+"transaction_occurrence_type_one_time" = "一次性";
+"transaction_occurrence_type_recurring" = "重复";
 
 "payment_status" = "状态";
 "payment_status_completed" = "已完成";
@@ -72,7 +73,7 @@
 
 "sort_type_alphabetically" = "按字母顺序";
 "sort_type_date" = "按日期";
-"sort_type_amount" = "按数量";
+"sort_type_amount" = "按金额";
 "sort_type_type" = "按类型";
 
 "sort_option_ascending" = "升序";
@@ -145,6 +146,9 @@
 "subscription_period_years" = "年";
 
 "overview_period_type_current_week" = "本周";
+
+"quick_action_type_feedback_title" = "意见反馈";
+"quick_action_type_feedback_subtitle" = "点击此处以向本应用发送反馈";
 
 "quick_action_type_new_income" = "新增收入";
 "quick_action_type_new_expense" = "新增支出";
@@ -232,9 +236,10 @@
 "add_button" = "添加";
 "edit_button" = "编辑";
 "copy_button" = "复制";
+"refund_button" = "退款";
 "edit_account_button" = "编辑账户";
 "edit_category_button" = "编辑类别";
-"edit_category_group_button" = "编辑文件夹";
+"edit_categorygroup_button" = "编辑文件夹";
 "edit_payee_button" = "编辑收款人";
 "edit_tag_button" = "编辑标签";
 "edit_budget_button" = "编辑预算";
@@ -259,7 +264,7 @@
 "do_not_show_again_button" = "不再显示";
 "mark_as_paid_button" = "标记为已付款";
 "mark_as_pending_button" = "标记为待付款";
-"show_contra_entry_button" = "显示计数器条目";
+"show_contra_entry_button" = "显示对应交易";
 
 "save_changes_button" = "保存更改";
 "discard_changes_button" = "放弃更改";
@@ -289,6 +294,8 @@
 
 "open_button" = "打开";
 "open_folder_button" = "打开文件夹";
+"local_folder_button" = "本地文件夹";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "在浏览器中打开";
 
 "show_more_button" = "显示更多";
@@ -311,7 +318,6 @@
 "get_started_button" = "开始";
 
 "show_transactions_button" = "显示交易";
-"show_in_app_store_button" = "在 App Store 中显示";
 
 "flip_values_button" = "翻转 ⇅";
 
@@ -329,7 +335,7 @@
 "alert_cloud_share_unknown_error_message" = "无法完成共享，因为发生了错误。您的 iCloud 中可能没有足够的可用空间。请释放一些空间，然后重试。";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "搜索";
 "filter_title" = "筛选";
@@ -337,6 +343,31 @@
 /* Sections */
 "search_text_section_title" = "搜索内容";
 "search_suggestions_section_title" = "建议";
+
+
+/* MARK: - Transaction Filter View */
+/* Sections */
+"transaction_filter_general_section_title" = "常规";
+"transaction_filter_assignment_section_title" = "分配";
+
+/* Items */
+"transaction_filter_type_title" = "类型";
+"transaction_filter_occurrence_type_title" = "重复";
+"transaction_filter_amount_title" = "金额";
+"transaction_filter_date_title" = "日期";
+"transaction_filter_status_title" = "状态";
+
+"transaction_filter_accounts_title" = "账户";
+"transaction_filter_categories_title" = "类别";
+"transaction_filter_payees_title" = "收款人";
+"transaction_filter_tags_title" = "标签";
+"transaction_filter_people_title" = "人员";
+
+"transaction_filter_all_title" = "全部";
+"transaction_filter_any_title" = "任意";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ 至 %@";
 
 
 /* MARK: - Period Selection View */
@@ -403,22 +434,11 @@
 "total_sum_title" = "总和";
 "recurring_transactions_title" = "定期";
 "upcoming_transactions_title" = "计划中";
-"reminded_transactions_title" = "已提醒";
+"reminded_transactions_title" = "带提醒";
 
 /* Info */
 "recurring_transactions_info_title" = "描述";
 "recurring_transactions_info_description" = "创建定期交易，让应用自动添加您的定期收入和支出";
-
-/* Sections */
-"account_filter_section_title" = "账户";
-"category_filter_section_title" = "类别";
-"payee_filter_section_title" = "收款人";
-"tag_filter_section_title" = "标签";
-"user_filter_section_title" = "用户";
-"payment_status_filter_section_title" = "支付状态";
-"transaction_type_filter_section_title" = "交易类型";
-"date_range_filter_section_title" = "日期范围";
-"amount_range_filter_section_title" = "金额范围";
 
 /* Messages */
 "no_transactions_title" = "无交易";
@@ -527,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "感谢您使用完整版本！";
-"support_setting_footer_title" = "有任何问题或想法吗？在 App Store 中反馈或好评！您的反馈非常激励并有助于改进应用";
+"support_setting_footer_title" = "有任何问题或想法吗？在 %@ 中反馈或好评！您的反馈非常激励并有助于改进应用";
 
 /* Buttons */
 "share_budgetbook_button" = "分享预算账本";
@@ -597,75 +617,94 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "描述";
-"appearance_setting_info_description" = "通过更改应用的外观或强调色来个性化您的应用";
+"appearance_setting_info_description" = "通过更改应用的外观来个性化您的应用";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "主题";
-"appearance_ui_style_apply_to_icons_title" = "应用到图标";
-"appearance_ui_style_apply_to_icons_description" = "将所选外观应用到应用中的所有图标。";
 "appearance_accent_color_setting_section_title" = "强调色";
-"appearance_accent_color_setting_footer_title" = "更改应用内按钮和其他控件的颜色";
 "appearance_app_icon_setting_section_title" = "应用图标";
 
-/* Sync & Data Settings */
-"sync_and_data_setting_info_title" = "描述";
-"sync_and_data_setting_info_description" = "获取当前同步状态的概览，并使用 CSV 文件导入或导出数据";
+/* Options */
+"appearance_ui_style_apply_to_icons_title" = "应用到图标";
+"appearance_ui_style_apply_to_icons_description" = "将所选外观应用到应用中的所有图标。";
 
+/* Footer */
+"appearance_accent_color_setting_footer_title" = "更改应用内按钮和其他控件的颜色";
+
+
+/* MARK: - Sync & Data Settings View */
+/* Info */
+"sync_and_data_setting_info_title" = "描述";
+"sync_and_data_setting_info_description" = "查看同步状态概览，管理备份，或使用 CSV 文件导入和导出数据";
+
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "提示与 iCloud 的同步是否成功或是否发生错误";
-"sync_and_data_setting_cloud_sync_status_title" = "同步状态";
 "backup_setting_section_title" = "备份";
-"backup_setting_footer_title" = "管理您的备份和备份设置";
-"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV-数据";
-"sync_and_data_csv_setting_footer_title" = "使用 CSV 文件导入或导出您的交易";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "同步状态";
+"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_setting_csv_import_title" = "导入";
 "sync_and_data_setting_csv_export_title" = "导出";
 "sync_and_data_setting_get_csv_template_title" = "下载模板";
 
+/* Buttons */
 "clear_cache_button" = "清除缓存";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "提示与 iCloud 的同步是否成功或是否发生错误";
+"backup_setting_footer_title" = "管理您的备份和备份设置";
+"sync_and_data_csv_setting_footer_title" = "使用 CSV 文件导入或导出您的交易";
 "cache_setting_footer_title" = "信息：清除缓存会删除应用文档目录中的所有文件（包括备份)";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "导入成功 🎉";
-"alert_csv_import_successful_message" = "总共导入了 %d 条交易中的 %d 条。%@";
+"alert_csv_import_successful_message" = "总共 %2$d 条交易，成功导入 %1$d 条。%3$@";
 "alert_csv_import_skipped_message" = " 其中 %d 条交易被跳过。";
-"alert_csv_import_error_message" = "无法成功导入 %d 条交易中的 %d 条。\n\n%@";
+"alert_csv_import_error_message" = "%2$d 条交易中有 %1$d 条未能成功导入。\n\n%3$@";
 "alert_csv_import_error_reason_field_message" = "请检查您 CSV 文件中的以下字段：%@";
-
 "alert_csv_export_successful_title" = "导出成功 🎉";
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
 
-/* Cloud Settings */
+"alert_reset_app_title" = "重置应用";
+"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久删除所有数据。";
+
+/* Progress */
+"alert_csv_export_progress_title" = "导出";
+"csv_export_progress_preparing" = "正在准备导出";
+"csv_export_progress_transactions" = "交易";
+"csv_export_progress_finishing" = "正在完成导出";
+
+"alert_app_reset_progress_title" = "重置应用";
+"app_reset_progress_preparing" = "正在准备重置应用";
+"app_reset_progress_deleting_existing_notifications" = "正在删除现有通知";
+"app_reset_progress_deleting_existing_data" = "正在删除现有数据";
+"app_reset_progress_deleting_transactions" = "正在删除交易";
+"app_reset_progress_deleting_transaction_groups" = "正在删除交易组";
+"app_reset_progress_deleting_reminders" = "正在删除提醒";
+"app_reset_progress_deleting_budgets" = "正在删除预算";
+"app_reset_progress_deleting_tags" = "正在删除标签";
+"app_reset_progress_deleting_payees" = "正在删除收款人";
+"app_reset_progress_deleting_categories" = "正在删除类别";
+"app_reset_progress_deleting_category_groups" = "正在删除文件夹";
+"app_reset_progress_deleting_accounts" = "正在删除账户";
+"app_reset_progress_deleting_budget_books" = "正在删除预算账本";
+"app_reset_progress_deleting_existing_settings" = "正在删除现有设置";
+"app_reset_progress_finishing" = "正在完成应用重置";
+
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "描述";
 "cloud_setting_info_description" = "以下视图提供了当前 iCloud 同步状态的更详细概述，并有助于排除故障。";
 
+/* Status */
 "cloud_setting_network_status_title" = "网络";
 "cloud_setting_network_status_success_value" = "可用的互联网连接";
 "cloud_setting_network_status_error_value" = "没有互联网连接";
@@ -682,26 +721,83 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "请稍候...";
 "cloud_setting_number_of_transactions_error_title" = "错误";
 
+/* Buttons */
 "import_from_cloud_button" = "从 iCloud 下载";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "如果您的数据未与 iCloud 同步或未完全同步，您可以在此手动启动同步。";
 
-/* Backup Settings */
+
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "启用后，Budget Flow 将定期备份您的数据，以便您可以随时将应用恢复到以前的状态。";
 
-"backup_general_setting_section_title" = "通用";
-"backup_recent_backups_setting_section_title" = "最近备份";
-"backup_setting_use_automatic_backups_title" = "自动备份";
-"backup_setting_create_backup_title" = "创建备份";
+/* Sections */
+"backup_setting_general_section_title" = "通用";
+"backup_setting_recent_section_title" = "最近备份";
+"backup_setting_restore_external_backup_title" = "恢复外部备份";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive 不可用。";
+"backup_service_error_unsupported_version" = "此备份使用了不受支持的版本：%d。";
+"backup_service_error_missing_binary_file" = "此备份缺少必需文件：%@。";
+"backup_service_error_could_not_create_backup_directory" = "无法创建备份文件夹。";
+"backup_service_error_could_not_create_backup_archive" = "无法创建备份归档。";
+"backup_service_error_invalid_backup_archive" = "所选文件不是有效备份。";
 
-"alert_restore_backup_title" = "恢复此备份？";
-"alert_restore_backup_message" = "恢复备份目前是实验性功能。它将删除您当前的数据并用选定的备份覆盖。\n\n之后，应用将自动关闭。\n\n警告：此过程无法撤销！";
+/* Titles */
+"backup_setting_use_automatic_backups_title" = "自动备份";
+"backup_setting_back_up_to_icloud_drive_title" = "备份到 iCloud Drive";
+"backup_setting_keep_backups_title" = "保留备份";
+"backup_setting_create_backup_title" = "创建备份";
+"backup_setting_no_recent_backups_title" = "没有可用备份";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
+"backup_setting_keep_backups_last_5_title" = "最近 5 个";
+"backup_setting_keep_backups_last_10_title" = "最近 10 个";
+"backup_setting_keep_backups_last_20_title" = "最近 20 个";
+"backup_setting_keep_backups_last_30_title" = "最近 30 个";
+"backup_setting_keep_backups_all_title" = "全部";
+
+/* Alert Views */
+"backup_setting_delete_backup_alert_title" = "删除备份";
+"backup_setting_delete_backup_alert_message" = "确定要删除此备份吗？";
+"backup_setting_restore_success_title" = "备份已恢复";
+"backup_setting_restore_success_message" = "所选备份已恢复。";
+"backup_setting_error_title" = "备份失败";
+"backup_setting_icloud_drive_unavailable_error" = "此设备上无法使用 iCloud Drive。";
+"backup_setting_could_not_create_backup_directory_error" = "无法创建备份文件夹。";
+"alert_restore_backup_title" = "恢复备份";
+"alert_restore_backup_message" = "确定要恢复此备份吗？\n\n这会删除您当前的数据，并用所选备份中的数据替换。\n\n警告：此操作无法撤销！";
 "alert_restore_backup_button" = "恢复备份";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "正在恢复备份";
+"backup_restore_progress_preparing" = "正在准备备份";
+"backup_restore_progress_validating" = "正在验证备份";
+"backup_restore_progress_reading_data" = "正在读取备份数据";
+"backup_restore_progress_deleting_existing_data" = "正在删除现有数据";
+"backup_restore_progress_finishing" = "正在完成恢复";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "预算账本";
+"backup_restore_progress_accounts" = "账户";
+"backup_restore_progress_category_groups" = "文件夹";
+"backup_restore_progress_categories" = "类别";
+"backup_restore_progress_payees" = "收款人";
+"backup_restore_progress_tags" = "标签";
+"backup_restore_progress_budgets" = "预算";
+"backup_restore_progress_transaction_groups" = "交易组";
+"backup_restore_progress_transactions" = "交易";
+"backup_restore_progress_reminders" = "提醒";
+
+
+/* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "描述";
 "advanced_setting_info_description" = "进行更多设置以配置应用";
 
+/* Sections */
 "advanced_security_setting_section_title" = "安全";
 "advanced_view_setting_section_title" = "视图";
 "advanced_sidebar_setting_section_title" = "侧边栏";
@@ -710,23 +806,39 @@
 "advanced_input_setting_section_title" = "输入";
 "advanced_other_setting_section_title" = "其他";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "使用密码";
 "advanced_setting_use_title" = "使用 %@";
 "advanced_setting_auto_lock_title" = "请求密码";
 
+/* View */
 "advanced_setting_chart_type_title" = "图表类型";
-"advanced_setting_show_frequently_used_items_title" = "显示常用类别和标签";
-"advanced_setting_show_frequently_used_items_description" = "启用此功能以便在创建和编辑交易时在选择列表中显示常用的类别和标签";
+"advanced_setting_show_most_used_items_title" = "显示最常用类别和标签";
+"advanced_setting_show_most_used_items_description" = "创建和编辑交易时，在选择列表中显示最常用的类别和标签。";
+"advanced_setting_remove_most_used_items_from_groups_title" = "从分组中移除最常用类别和标签";
+"advanced_setting_remove_most_used_items_from_groups_description" = "在创建和编辑交易时，从选择列表中的常规分组移除最常用的类别和标签。";
 "advanced_setting_show_notes_in_title_title" = "显示备注而非类别";
 "advanced_setting_show_notes_in_title_description" = "启用此功能以在交易中显示备注内容而非类别名称";
 "advanced_setting_start_day_of_month_title" = "月份开始日";
 "advanced_setting_start_day_of_month_description" = "指定每月的开始日，以便正确计算报表、交易和预算";
 "advanced_setting_configure_transaction_title_title" = "交易标题";
 "advanced_setting_configure_transaction_subtitle_title" = "交易副标题";
-
 "advanced_setting_configure_transaction_title_info_title" = "描述";
 "advanced_setting_configure_transaction_title_info_description" = "设置交易标题中显示项目的顺序。如果缺少某个项目，则自动使用顺序中的下一个项目。";
 
+/* Input */
+"advanced_setting_select_time_automatically_title" = "自动选择时间";
+"advanced_setting_select_time_automatically_description" = "启用此功能以为新交易自动选择当前时间";
+"advanced_setting_select_location_automatically_title" = "自动选择位置";
+"advanced_setting_select_location_automatically_description" = "启用此功能以为新交易自动选择您的当前位置";
+"advanced_setting_save_photos_in_library_title" = "在图库中保存照片";
+"advanced_setting_save_photos_description" = "启用此功能以自动将拍摄的照片保存到照片库";
+"advanced_setting_suggested_notes_title" = "建议备注";
+"advanced_setting_suggested_notes_description" = "在备注字段中输入时，根据您之前的交易提供建议。";
+"advanced_setting_consider_pending_items_title" = "计入所有交易";
+"advanced_setting_consider_pending_items_description" = "启用此功能以在计算账户余额、余额、总额等时包括待处理的交易";
+
+/* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "在侧边栏显示账户";
 "advanced_setting_show_accounts_in_sidebar_description" = "启用此功能以在侧边栏显示您的账户列表";
 "advanced_setting_group_accounts_in_sidebar_title" = "在侧边栏中对帐户进行分组";
@@ -736,22 +848,13 @@
 "advanced_setting_group_categories_in_sidebar_title" = "在侧边栏中对类别进行分组";
 "advanced_setting_group_categories_in_sidebar_description" = "按文件夹对侧边栏中的类别进行分组。";
 
-"advanced_setting_select_time_automatically_title" = "自动选择时间";
-"advanced_setting_select_time_automatically_description" = "启用此功能以为新交易自动选择当前时间";
-"advanced_setting_select_location_automatically_title" = "自动选择位置";
-"advanced_setting_select_location_automatically_description" = "启用此功能以为新交易自动选择您的当前位置";
-"advanced_setting_save_photos_in_library_title" = "在图库中保存照片";
-"advanced_setting_save_photos_description" = "启用此功能以自动将拍摄的照片保存到照片库";
-"advanced_setting_suggested_notes_title" = "建议备注";
-"advanced_setting_suggested_notes_description" = "在备注字段中输入时，根据您之前的交易提供建议。";
-"advanced_setting_consider_pending_items_title" = "预订所有交易";
-"advanced_setting_consider_pending_items_description" = "启用此功能以在计算账户余额、余额、总额等时包括待处理的交易";
-
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "收据扫描器";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "在扫描收据时使用 Apple Intelligence 自动填写额外字段。";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "快捷指令";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "使用 Apple Intelligence 在快捷指令自动化中自动识别类别和收款人。";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "输入精确时间";
 "advanced_setting_enable_exact_times_description" = "启用此功能以为交易选择精确时间，使用分钟选择器（例如 9:41）";
 "advanced_setting_reverse_keyboard_title" = "反转键盘";
@@ -759,6 +862,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "键盘反馈";
 "advanced_setting_enable_haptic_keyboard_description" = "启用此功能以在键盘上输入金额时获得触觉反馈";
 
+/* Other */
 "advanced_setting_language_title" = "语言";
 "advanced_setting_time_zone_title" = "时区";
 "advanced_setting_enable_live_activities_title" = "实时活动";
@@ -784,13 +888,10 @@
 "alert_share_app_type_selection_link_button" = "链接";
 "alert_share_app_type_selection_qrcode_button" = "二维码";
 
-"alert_reset_app_title" = "重置应用";
-"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久擦除存储在此设备和 iCloud 上的所有数据";
-
 "alert_error_title" = "发生错误 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "在社交媒体上关注“%@”";
 
 /* Copyright */
 "version" = "版本";
@@ -802,31 +903,57 @@
 "passcode_view_enter_passcode_title" = "输入密码";
 "passcode_view_create_passcode_title" = "创建密码";
 "passcode_view_confirm_passcode_title" = "确认密码";
-"passcode_view_authenticate_reason" = "用户验证";
+"passcode_view_authenticate_reason" = "需要认证";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "选择密码选项";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "欢迎来到";
-"privacy_policy_title" = "隐私政策";
+"onboarding_welcome_view_title" = "欢迎";
 
 /* Sections */
-"welcome_view_overview_section_title" = "概要";
-"welcome_view_legal_documents_section_title" = "更多信息";
+"onboarding_welcome_view_overview_section_title" = "概要";
+"onboarding_welcome_view_legal_documents_section_title" = "更多信息";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全数据存储";
-"privacy_overview_datastorage_description" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上，或（可选）存储在您的个人 iCloud 中。";
+"privacy_overview_datastorage_description" = "你的财务信息是私密的，也应该一直如此。因此，你的数据只会存储在你的设备上。";
+"privacy_overview_datastorage_description_icloud_suffix" = "或个人 iCloud 中。";
 
 "privacy_overview_privacy_control_title" = "你的财务由你做主";
-"privacy_overview_privacy_control_description" = "无论是您保存的数据、您的位置还是访问您的相机 - 您始终有着最高掌控权。例如，您可以通过重置应用轻松删除您的数据，并且应用的访问权限调整为任何时候。";
+"privacy_overview_privacy_control_description" = "你可以随时删除数据，并在系统设置中调整位置、相机或通知等权限。";
+
+/* Header */
+"onboarding_welcome_view_header_title" = "欢迎来到";
+"onboarding_welcome_view_header_description" = "清楚掌握收入和支出，发现规律，并更好地做出用钱决策";
 
 /* Footer */
-"welcome_view_value_description" = "轻松控制您的所有财务状况：输入您的预算、获取见解并跟踪您的所有收入和支出";
-"welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
+"privacy_policy_title" = "隐私政策";
+"onboarding_welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "保持跟进";
+"onboarding_reminder_intro_view_description" = "定期接收提醒，随时关注你的支出";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_now" = "现在";
+"onboarding_reminder_intro_view_notification_body" = "都记录好了吗？⏰";
+
+
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "设置";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "正在设置%@";
+"onboarding_setup_view_completion_title" = "一切准备就绪！";
+"onboarding_setup_view_accounts_item_title" = "正在准备账户";
+"onboarding_setup_view_categories_item_title" = "正在创建类别";
+"onboarding_setup_view_reminders_item_title" = "正在启用提醒";
 
 
 /* MARK: - New Features View */
@@ -836,19 +963,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "评价应用";
 "new_features_view_close_button" = "稍后";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "谢谢";
-
-/* Messages */
-"purchase_success_view_info_message" = "如果您喜欢这款应用，拜托在 App Store 中写一篇积极的评论，这对我真的很重要！并且，这能够激励我们不断改进该应用程序 😊";
-"purchase_success_view_info_message_info" = "\n\n信息：当您从订阅转换为终身购买时，请记得之后取消现有的订阅。";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "评价应用";
-"purchase_success_view_close_button" = "稍后";
 
 
 /* MARK: - Upgrade View */
@@ -912,26 +1026,26 @@
 "upgrade_feature_support_description" = "您正在支持一名年轻开发者，从而持续发展该应用！😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "很棒的 App";
+"user_review_description_de" = "界面清晰，功能实用，满足了我的所有需求。支持服务也非常迅速，帮了很大忙。非常推荐。";
+"user_review_title_hr" = "不错的 App";
+"user_review_description_hr" = "功能丰富，界面易于使用。我试过很多 iOS 上的同类 App，但没有哪款能像它这样满足我的需求。物有所值。";
+"user_review_title_bg" = "出色的支持服务";
+"user_review_description_bg" = "很棒的 App，客户支持也非常出色。考虑到软件的质量，价格也很合理。";
+"user_review_title_us" = "目前用起来很棒";
+"user_review_description_us" = "我非常喜欢它能在 iOS、iPad 和 macOS 上使用，这样我就能随处使用了。另外，不需要账户，也不用注册，这点也很好。可惜现在这样的 App 很少见，但我认为这对财务 App 来说必不可少。";
+"user_review_title_uk" = "这就是我要找的 App！";
+"user_review_description_uk" = "我找这样的 App 已经两年多了。我想要一个设计美观、方便录入新数据，并且能在需要时查看更多信息的移动财务管理工具。一定要试试。";
+"user_review_title_es" = "最好的记账 App";
+"user_review_description_es" = "在我试过的所有 App 中，它就是最好的。我想它还算是比较新的 App，但已经能清楚看到它现在具备的潜力和未来的发展空间。";
+"user_review_title_fr" = "很棒，功能非常全面";
+"user_review_description_fr" = "我已经用了几个月，觉得真的做得很好。很期待看到几个月后这款 App 会变成什么样 :)";
+"user_review_title_it" = "简直太棒了";
+"user_review_description_it" = "终于找到了。我找这样的解决方案已经很多年了。我把它和快捷指令 App 一起使用，很喜欢它的设计。我也喜欢可以一次性购买这一点。继续加油！";
+"user_review_title_ch" = "很棒的支持服务";
+"user_review_description_ch" = "支持服务很棒，解决问题迅速又省心。作为用户，我感觉自己受到了重视。";
+"user_review_title_pl" = "用起来非常舒服";
+"user_review_description_pl" = "这是一款出色的记账 App，我每天都在用。虽然规模不大，但开发者非常关心用户的需求。";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -945,7 +1059,7 @@
 "product_discount_header_title" = "- %@";
 
 /* Buttons */
-"upgrade_is_active_button" = "激活";
+"upgrade_is_active_button" = "已激活";
 "upgrade_purchase_button" = "购买";
 "upgrade_subscribe_button" = "订阅";
 "upgrade_free_trial_button" = "免费试用";
@@ -953,19 +1067,20 @@
 "upgrade_restore_in_progress_button" = "请稍候...";
 
 "subscription_button_info_text" = "随时可以取消";
-"subscription_trial_button_info_text" = "%d %@ 免费试用。然后每 %@ 收费 %@";
+"subscription_trial_button_info_text" = "%1$d %2$@免费试用。之后每%4$@收费%3$@。";
 "lifetime_purchase_button_info_text" = "一次性解锁完整版（无需订阅）";
 
 /* Alert Views */
 "alert_upgrade_view_purchase_success_title" = "购买成功 🎉";
 "alert_upgrade_view_purchase_success_message" = "感谢您的支持！😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n提示：如果您从订阅转为一次性购买，请记得之后取消之前的订阅";
+
 "alert_upgrade_view_purchase_error_message" = "您的购买未能成功完成。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出现问题。\n\n信息：有时如果您用密码确认而非 Touch ID / Face ID，购买可能才会成功\n\n例如，如果您使用 Face ID，只需遮住前置摄像头并重新尝试，即可看到密码对话框。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "%@ 出现问题。";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n信息：有时如果您用密码确认而非 Touch ID / Face ID，购买可能才会成功\n\n例如，如果您使用 Face ID，只需遮住前置摄像头并重新尝试，即可看到密码对话框。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "此设备不允许购买";
 "alert_upgrade_view_purchase_error_invalid_message" = "检查您的支付方式并稍后重试。如果问题仍然存在，请联系支持人员。";
 "alert_upgrade_view_purchase_error_network_message" = "检查您的互联网连接并稍后重试。如果问题仍然存在，请联系支持人员。";
-
 "alert_upgrade_view_load_products_error_message" = "无法加载产品。检查您的互联网连接并稍后重试。如果问题仍然存在，请联系支持人员。";
 
 "alert_upgrade_view_restore_success_title" = "恢复购买";
@@ -987,23 +1102,24 @@
 "upgrade_faq_about_title" = "什么是Budget Flow？";
 "upgrade_faq_about_value" = "Budget Flow 是一款现代且易用的预算跟踪应用，适合想有效管理支出并掌控财务的用户。";
 "upgrade_faq_developer_title" = "谁开发了此应用？";
-"upgrade_faq_developer_value" = "Budget Flow 最初是一个副项目，由我，Fabian Hasse，设计、开发并维护。我是一位热衷软件开发的专业人士，拥有超过 10 年的开发经验，致力于打造 App Store 上最优秀的预算与支出跟踪应用。";
+"upgrade_faq_developer_value" = "Budget Flow 是一款独立开发应用，由我 Fabian Hasse 完整设计、开发和维护。我是一名拥有超过 10 年经验的软件开发者，并满怀热情地为你打造最好的预算管理应用。";
 "upgrade_faq_free_use_title" = "该应用也可以免费使用吗？";
 "upgrade_faq_free_use_value" = "是的，您可以免费使用应用的基本功能，例如创建交易。\n\n此外，您还可以试用完整版，以便您在决定购买或订阅完整版之前先试用。";
 "upgrade_faq_security_title" = "我的数据安全吗？";
-"upgrade_faq_security_value" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上，或（可选）存储在您的个人 iCloud 中。";
+"upgrade_faq_security_value" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上。";
+"upgrade_faq_security_value_icloud_suffix" = "或（可选）存储在您的个人 iCloud 中。";
 "upgrade_faq_why_subscription_title" = "为什么完整版以订阅形式提供？";
-"upgrade_faq_why_subscription_value" = "我的目标是开发一款高质量的应用，为用户定期提供新功能和改进。然而，为了实现这一目标，应用需要持续的收入以自我融资并保持经济可持续性。\n\n许多人不知道：开发和维护一个应用需要很多时间。例如，Budget Flow从构思到开发和测试到App Store发布第一个版本，几乎花了两年时间和数千小时的工作。\n\n作为客户，您特别受益于订阅模式下的定期更新和改进，以及良好的支持，以确保您继续满意。您还可以提前免费试用该应用，以确保它符合您的需求，并且随时可以更改或取消订阅。\n\n总的来说，订阅模式为您作为客户提供了许多好处，并通过持续更新和支持带来了比一次性购买更好的用户体验。从长远来看，一次性购买不幸地是不可持续的，因为这种商业模式需要新用户持续购买应用以确保开发的延续。\n\n所以如果您喜欢该应用，我将非常高兴您支持我的工作，以便我将来能够为您提供更多出色的功能！❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow 会持续开发、改进，并适配新的操作系统版本。订阅有助于长期支持这项工作，让我们能够定期为您提供更新、新功能和良好的支持。\n\n如果您不喜欢订阅，也可以选择一次性购买完整版。一次性购买的价格设得较高，是因为其中已包含今后的所有更新和支持，无需再付费。\n\n您可以先免费试用完整版，并随时取消订阅。如果您喜欢 Budget Flow，购买即可支持这款 App 继续独立开发。";
 "upgrade_faq_multiple_devices_title" = "我可以在多个设备上使用完整版吗？";
-"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登录相同 Apple ID 的 Apple 设备上使用 Budget Flow 的完整版。因为该应用通过 iCloud 同步，您可以在您的设备之间无缝切换，并随时访问您的财务数据和设置。";
+"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登录相同 Apple 账户 的 Apple 设备上使用 Budget Flow 的完整版。因为该应用通过 iCloud 同步，您可以在您的设备之间无缝切换，并随时访问您的财务数据和设置。";
 "upgrade_faq_multiple_people_title" = "我可以与其他人一起使用完整版吗？";
 "upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中与最多五人共享一次性购买和完整版的订阅。您所需要做的就是在系统设置中打开家庭共享，并将其他人添加进其中";
 "upgrade_faq_cancel_subscription_title" = "我如何取消我的订阅？";
-"upgrade_faq_cancel_subscription_value" = "您可以随时使用您的 Apple ID 在系统首选项中取消您的订阅。";
+"upgrade_faq_cancel_subscription_value" = "您可以随时使用您的 %@ 账户 在系统首选项中取消您的订阅。";
 "upgrade_faq_subscription_data_loss_title" = "如果我取消我的订阅，我的数据会丢失吗？";
 "upgrade_faq_subscription_data_loss_value" = "不会。在订阅完整版期间创建的任何内容在您回到免费版时仍然可用。";
 "upgrade_faq_refund_title" = "我如何获得退款？";
-"upgrade_faq_refund_value" = "通过 App Store 进行的支付只能由 Apple 退款。要获得退款，您必须在购买后 14 天内联系 Apple 支持。";
+"upgrade_faq_refund_value" = "通过 %1$@ 进行的支付只能由 %2$@ 退款。要获得退款，您必须在购买后 14 天内联系 %2$@ 支持。";
 "upgrade_faq_switch_plan_title" = "是否可以在之后从订阅转为一次性购买？";
 "upgrade_faq_switch_plan_value" = "是的，您可以随时通过在应用中购买相应产品从活跃订阅转为一次性购买。然而，请记得取消您之前的订阅，以免多次支付。";
 
@@ -1018,7 +1134,7 @@
 "alert_user_feedback_title" = "您喜欢这款应用吗？";
 
 "alert_user_feedback_like_title" = "谢谢！🎉";
-"alert_user_feedback_like_message" = "如果您喜欢这款应用，拜托在 App Store 中写一篇积极的评论，这对我真的很重要！并且，这能够激励我们不断改进该应用程序 😊";
+"alert_user_feedback_like_message" = "如果您喜欢这款应用，拜托在 %@ 中写一篇积极的评论，这对我真的很重要！并且，这能够激励我们不断改进该应用程序 😊";
 "alert_user_feedback_rate_app_button" = "评价应用";
 "alert_user_feedback_maybe_later_button" = "稍后";
 
@@ -1146,7 +1262,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "此交易为转账。您是否还想删除对销分录？";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "此交易为转账。您是否还想更新对销分录？";
 "alert_confirm_update_transaction_multiple_title" = "这笔交易属于一个组。您想要保存哪些？";
 "alert_confirm_update_transaction_single_button" = "仅保存此条";
@@ -1174,6 +1290,7 @@
 
 /* Sections */
 "default_currency_section_title" = "默认货币";
+"favorite_currencies_section_title" = "收藏";
 "suggested_currencies_section_title" = "建议";
 
 /* Messages */
@@ -1181,6 +1298,8 @@
 "currency_selection_search_placeholder_message" = "搜索货币名称或其缩写";
 
 /* Buttons */
+"add_favorite_currency_button" = "添加到收藏";
+"remove_favorite_currency_button" = "从收藏中移除";
 "change_default_currency_button" = "更改默认货币";
 
 /* Alert Views */
@@ -1205,7 +1324,7 @@
 "time_zone_selection_title" = "时区";
 
 /* Messages */
-"no_timezones_found_title" = "未找到时区";
+"no_time_zones_found_title" = "未找到时区";
 "time_zone_selection_search_placeholder_message" = "搜索国家或城市的时区";
 
 
@@ -1275,7 +1394,7 @@
 "no_reminders_found_button_title" = "新建提醒";
 "reminders_search_placeholder_message" = "按提醒标题搜索";
 
-/* Value */
+/* Values */
 "balance" = "余额";
 
 
@@ -1491,6 +1610,8 @@
 
 /* Sections */
 "form_general_section_title" = "通用";
+"form_csv_date_format_suggestions_section_title" = "建议";
+"form_csv_date_format_other_section_title" = "其他";
 
 /* Footer */
 "form_invalid_footer_title" = "错误：";
@@ -1537,7 +1658,7 @@
 "location_selection_searchbar_placeholder" = "搜索";
 "location_selection_search_history_title" = "最近";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "选择";
 
 /* Alert Views */
@@ -1552,10 +1673,10 @@
 "alert_selected_period_changed_new_year" = "新年";
 
 "alert_no_mail_initialized_title" = "没有电子邮件账户";
-"alert_no_mail_initialized_message" = "看起来您的设备上没有设置电子邮件账户。然而，使用此功能是必须的";
+"alert_no_mail_initialized_message" = "您的设备上似乎未设置电子邮件账户。使用此功能需要先设置账户。";
 
 "alert_no_camera_title" = "没有可用的摄像头";
-"alert_no_camera_message" = "看起来您没有摄像头。然而，使用此功能是必须的";
+"alert_no_camera_message" = "似乎没有可用的摄像头。使用此功能需要摄像头。";
 
 "alert_permissions_title" = "快完成了！";
 "alert_permissions_activate_button" = "立即激活";
@@ -1613,7 +1734,9 @@
 
 "default_category_group_name_miscellaneous" = "其他";
 
-"default_reminder_title" = "记录开支";
+"default_reminder_expense_check_title" = "都记录好了吗？花点时间看看最近的支出 📝";
+"default_reminder_weekly_review_title" = "这一周过得怎么样？看看你的钱都花到哪里了 📊";
+"default_reminder_monthly_review_title" = "新的一个月开始了。该看看你的财务状况了 📅";
 
 
 /* MARK: - Color Sections */
@@ -1665,13 +1788,13 @@
 "icon_keyword_emoji" = "表情符号";
 "icon_keyword_tag" = "标签";
 "icon_keyword_heart" = "心";
-"icon_keyword_star" = "明星";
+"icon_keyword_star" = "星星";
 "icon_keyword_folder" = "文件夹";
 "icon_keyword_bookmark" = "书签";
 "icon_keyword_building" = "建筑";
 "icon_keyword_house" = "房子";
 "icon_keyword_lightbulb" = "灯泡";
-"icon_keyword_fan" = "粉丝";
+"icon_keyword_fan" = "风扇";
 "icon_keyword_lamp" = "灯";
 "icon_keyword_alarm_system" = "报警系统";
 "icon_keyword_webcam" = "网络摄像头";
@@ -1717,14 +1840,14 @@
 "icon_keyword_armchair" = "扶手椅";
 "icon_keyword_cabinet" = "壁橱";
 "icon_keyword_fireplace" = "壁炉";
-"icon_keyword_washer" = "垫圈";
+"icon_keyword_washer" = "洗衣机";
 "icon_keyword_dryer" = "滚筒烘干机";
 "icon_keyword_dishwasher" = "洗碗机";
 "icon_keyword_oven" = "烤箱";
 "icon_keyword_stove" = "炉子";
 "icon_keyword_microwave" = "微波炉";
 "icon_keyword_refrigerator" = "冰箱";
-"icon_keyword_sink" = "下沉";
+"icon_keyword_sink" = "水槽";
 "icon_keyword_toilet" = "厕所";
 "icon_keyword_bathroom" = "浴室";
 "icon_keyword_tv_remote" = "遥控器";
@@ -1781,7 +1904,7 @@
 "icon_keyword_gaming" = "游戏";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "任天堂开关";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
 "icon_keyword_book" = "书籍";
 "icon_keyword_books" = "书籍";
 "icon_keyword_magazine" = "杂志";
@@ -1871,10 +1994,10 @@
 "icon_keyword_banknote" = "钞票";
 "icon_keyword_refund" = "退款";
 "icon_keyword_dollar" = "美元";
-"icon_keyword_cents" = "美分";
+"icon_keyword_cent" = "美分";
 "icon_keyword_yen" = "日元";
 "icon_keyword_pound" = "磅";
-"icon_keyword_franc" = "法兰克尼亚";
+"icon_keyword_franc" = "法郎";
 "icon_keyword_lira" = "里拉";
 "icon_keyword_ruble" = "卢布";
 "icon_keyword_euro" = "欧元";
@@ -1944,7 +2067,7 @@
 "icon_keyword_wand" = "魔术棒";
 "icon_keyword_hourglass" = "沙漏";
 "icon_keyword_newspaper" = "报纸";
-"icon_keyword_wrench" = "钳子";
+"icon_keyword_wrench" = "活动扳手";
 "icon_keyword_screwdriver" = "螺丝刀";
 "icon_keyword_hammer" = "锤子";
 "icon_keyword_craftsman" = "工匠";
@@ -1973,10 +2096,10 @@
 "icon_keyword_lab" = "实验室";
 "icon_keyword_calendar" = "日历";
 "icon_keyword_rent" = "出租";
-"icon_keyword_flat" = "平面";
+"icon_keyword_flat" = "公寓";
 "icon_keyword_work" = "工作";
 "icon_keyword_salary" = "工资";
-"icon_keyword_corona" = "电晕";
+"icon_keyword_corona" = "冠状病毒";
 "icon_keyword_rainbow" = "彩虹";
 "icon_keyword_glasses" = "眼镜";
 "icon_keyword_sunglasses" = "太阳镜";
@@ -2120,6 +2243,7 @@
 "date_property_title" = "日期";
 "category_property_title" = "类别";
 "payee_property_title" = "收款人";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "我的预算账本";

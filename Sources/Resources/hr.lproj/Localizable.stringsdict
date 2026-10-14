@@ -31,7 +31,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>sati</string>
+			<string>sat</string>
 			<key>few</key>
 			<string>sata</string>
 			<key>other</key>
@@ -87,7 +87,7 @@
 			<key>one</key>
 			<string>mjesec</string>
 			<key>few</key>
-			<string>mjesece</string>
+			<string>mjeseca</string>
 			<key>other</key>
 			<string>mjeseci</string>
 		</dict>
@@ -213,7 +213,7 @@
 			<key>one</key>
 			<string>%1$d privitak</string>
 			<key>few</key>
-			<string>%1$d privitci</string>
+			<string>%1$d privitka</string>
 			<key>other</key>
 			<string>%1$d privitaka</string>
 		</dict>

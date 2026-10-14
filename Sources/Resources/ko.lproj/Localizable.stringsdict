@@ -77,9 +77,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>월</string>
+			<string>개월</string>
 			<key>other</key>
-			<string>월</string>
+			<string>개월</string>
 		</dict>
 	</dict>
 	<key>year</key>
@@ -141,9 +141,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d 건의 알림된 거래</string>
+			<string>알림이 설정된 거래 %1$d건</string>
 			<key>other</key>
-			<string>%1$d 건의 알림된 거래</string>
+			<string>알림이 설정된 거래 %1$d건</string>
 		</dict>
 	</dict>
 	<key>number_of_budgets</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>매월 %2$@ 번째 %3$@ 일 반복.</string>
+			<string>매월 %2$@ %3$@에 반복합니다.</string>
 			<key>other</key>
-			<string>%1$d 개월마다 %2$@ 번째 %3$@ 일 반복.</string>
+			<string>%1$d개월마다 %2$@ %3$@에 반복합니다.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%2$@ %3$@ %4$@에서 매년 반복됩니다.</string>
+			<string>매년 %4$@의 %2$@ %3$@에 반복합니다.</string>
 			<key>other</key>
-			<string>%1$d년마다 %2$@ %3$@ %4$@에서 반복됩니다.</string>
+			<string>%1$d년마다 %4$@의 %2$@ %3$@에 반복합니다.</string>
 		</dict>
 	</dict>
 </dict>

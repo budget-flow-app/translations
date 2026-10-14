@@ -17,4 +17,4 @@
 "NSPhotoLibraryAddUsageDescription" = "Přístup k vaší knihovně fotografií se používá k automatickému ukládání pořízených fotografií.";
 "NSFaceIDUsageDescription" = "Je vyžadován přístup k Face ID, abyste mohli aplikaci odemknout bez zadání hesla.";
 "NSTouchIDUsageDescription" = "Je vyžadován přístup k Touch ID, abyste mohli aplikaci odemknout bez zadání hesla.";
-"NSContactsUsageDescription" = "Přístup k vašim kontaktům se používá k zobrazení jmen a fotografií lidí, se kterými sdílíte svůj rozpočet.";
+"NSContactsUsageDescription" = "Přístup k vašim kontaktům se používá k zobrazení jmen a fotografií lidí, se kterými sdílíte svou rozpočtovou knihu.";

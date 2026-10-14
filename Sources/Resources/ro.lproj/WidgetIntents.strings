@@ -19,7 +19,7 @@
 "skIWPc" = "Cont";
 "RZfRcv" = "Cont";
 
-"hVCchi" = "Perioada";
+"hVCchi" = "Perioadă";
 "nzkPH7" = "Perioada";
 "y8DNWw" = "Perioada";
 "hnez9L" = "Perioada";
@@ -55,11 +55,11 @@
 "jlSssx-hVyAjR" = "Există ${count} opțiuni care corespund ‘Valoare netă’.";
 
 "3GCjUk" = "Sold";
-"Lvj3sF" = "Echilibru";
+"Lvj3sF" = "Sold";
 "9mfrfk-3GCjUk" = "Doar pentru a confirma, ați vrut 'sold'?";
 "MkDC8c-Lvj3sF" = "Doar pentru a confirma, ați vrut 'sold'?";
 "5xfjRl-Lvj3sF" = "Există opțiuni ${count} care se potrivesc cu 'sold'.";
-"jlSssx-3GCjUk" = "Există ${count} opțiuni care se potrivesc cu 'balance'.";
+"jlSssx-3GCjUk" = "Există ${count} opțiuni care se potrivesc cu 'sold'.";
 
 "nXqb0W" = "Venitul total";
 "wXUvBH" = "Venitul total";
@@ -185,7 +185,7 @@
 "QLnzaL" = "Etichete";
 "boEz9o" = "Locație";
 "SCKlIf" = "Note";
-"ZZ6bgZ" = "Atasamente";
+"ZZ6bgZ" = "Atașamente";
 
 "OCqRVA" = "Da";
 "MpQ9fH" = "Nu";

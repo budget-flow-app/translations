@@ -2,38 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.3.0</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>اختصارات محسّنة</string>
-			<key>Description</key>
-			<string>تجعل الاختصارات الجديدة والمحسّنة أتمتة Budget Flow أسهل من أي وقت مضى، بما في ذلك إضافة المعاملات تلقائيًا من إشعارات تطبيقات البنوك على iOS وiPadOS 27.</string>
-			<key>IconName</key>
-			<string>app.badge</string>
-			<key>IconColor</key>
-			<string>#ff8d28</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>تصنيف تلقائي</string>
-			<key>Description</key>
-			<string>على الأجهزة المدعومة، يمكن لـ Budget Flow الآن استخدام Apple Intelligence لتحديد الفئة والمستفيد عند إنشاء المعاملات تلقائيًا باستخدام الاختصارات.</string>
-			<key>IconName</key>
-			<string>square.2.layers.3d.top.filled</string>
-			<key>IconColor</key>
-			<string>#ff375f</string>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>دعم iOS وiPadOS وmacOS 27</string>
-			<key>Description</key>
-			<string>تحافظ تعديلات التصميم وتحديثات التوافق على تشغيل Budget Flow بسلاسة على أحدث أنظمة تشغيل Apple.</string>
-			<key>IconName</key>
-			<string>macbook.and.iphone</string>
-			<key>IconColor</key>
-			<string>#0088ff</string>
-		</dict>
-	</array>
+	<key>4.0.0</key>
+	<dict>
+		<key>Summary</key>
+		<string>يمكنك الاستمتاع بتطبيق جرى تحديثه من الأساس، مع أداء أفضل وميزات جديدة للنسخ الاحتياطي واسترداد الأموال وإدارة معاملاتك.</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>تطبيق محدَّث</string>
+				<key>Description</key>
+				<string>يعتمد التطبيق على بنية جديدة بالكامل، مما يوفر أداءً أفضل ورسومًا متحركة جديدة.</string>
+				<key>IconName</key>
+				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<key>IconColor</key>
+				<string>#FF3D2F</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>نسخ احتياطي محسَّن</string>
+				<key>Description</key>
+				<string>أُعيد تصميم آلية النسخ الاحتياطي بالكامل، وأصبح بالإمكان على أجهزة Apple اختيار حفظ نسخة احتياطية من البيانات في iCloud Drive أيضًا.</string>
+				<key>IconName</key>
+				<string>externaldrive</string>
+				<key>IconColor</key>
+				<string>#007AFF</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>iPhone Duo</string>
+				<key>Description</key>
+				<string>أُضيف دعم iPhone Duo، مع تصميم محسَّن بالكامل ليتناسب مع تخطيط شاشته.</string>
+				<key>IconName</key>
+				<string>rectangle.split.2x1</string>
+				<key>IconColor</key>
+				<string>#C05AF2</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>استرداد الأموال</string>
+				<key>Description</key>
+				<string>يمكن الآن إنشاء معاملات استرداد الأموال مباشرةً من المعاملات الحالية، إما بإيماءة سحب أو من خلال قائمة السياق.</string>
+				<key>IconName</key>
+				<string>arrow.uturn.backward</string>
+				<key>IconColor</key>
+				<string>#35C759</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>العملات المفضلة</string>
+				<key>Description</key>
+				<string>يمكن الآن إضافة العملات إلى المفضلة للعثور عليها بشكل أسرع في قائمة العملات.</string>
+				<key>IconName</key>
+				<string>star</string>
+				<key>IconColor</key>
+				<string>#FF9500</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>تعديل متعدد</string>
+				<key>Description</key>
+				<string>عند تعديل عدة معاملات، يمكن بسهولة تحديد جميع المعاملات أو إلغاء تحديدها دفعة واحدة. ويمكن أيضًا تغيير الشخص المعيَّن لعدة معاملات في الوقت نفسه داخل دفاتر الميزانية المشتركة.</string>
+				<key>IconName</key>
+				<string>checklist</string>
+				<key>IconColor</key>
+				<string>#FF2E55</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>خيارات تصفية جديدة</string>
+				<key>Description</key>
+				<string>تتيح شاشة التصفية الآن البحث بسهولة عن الفئات والعناصر الأخرى، وكذلك العثور على المعاملات المتكررة تحديدًا من خلال البحث الشامل.</string>
+				<key>IconName</key>
+				<string>line.horizontal.3.decrease</string>
+				<key>IconColor</key>
+				<string>#5957D5</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>تحسينات أخرى</string>
+				<key>Description</key>
+				<string>مبالغ أسهل قراءةً وأيقونات الفئات في المخطط الدائري والبحث عن الرموز التعبيرية وخيارات عرض جديدة للفئات والوسوم وتجربة إعداد أولي أبسط.</string>
+				<key>IconName</key>
+				<string>gearshape</string>
+				<key>IconColor</key>
+				<string>#8E8E93</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

@@ -207,7 +207,7 @@
 			<key>one</key>
 			<string>Gjentas hver dag.</string>
 			<key>other</key>
-			<string>Gjentas hver %1$d dager.</string>
+			<string>Gjentas hver %1$d. dag.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -223,7 +223,7 @@
 			<key>one</key>
 			<string>Gjentas hver uke på %2$@.</string>
 			<key>other</key>
-			<string>Gjentas hver %1$d uke på %2$@.</string>
+			<string>Gjentas hver %1$d. uke på %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -239,7 +239,7 @@
 			<key>one</key>
 			<string>Gjentas hver måned.</string>
 			<key>other</key>
-			<string>Gjentas hver %1$d måneder.</string>
+			<string>Gjentas hver %1$d. måned.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Gjentas hver måned på %2$@.</string>
+			<string>Gjentas hver måned den %2$@.</string>
 			<key>other</key>
-			<string>Gjentas hver %1$d måned på %2$@.</string>
+			<string>Gjentas hver %1$d. måned den %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Gjentas hver måned på %2$@ %3$@.</string>
+			<string>Gjentas hver måned den %2$@ %3$@.</string>
 			<key>other</key>
-			<string>Gjentas hver %1$d måned på %2$@ %3$@.</string>
+			<string>Gjentas hver %1$d. måned den %2$@ %3$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Gjentas hvert år på %2$@.</string>
+			<string>Gjentas hvert år i %2$@.</string>
 			<key>other</key>
-			<string>Gjentas hvert %1$d år på %2$@.</string>
+			<string>Gjentas hvert %1$d. år i %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Gjentas hvert år på %2$@ %3$@ %4$@.</string>
+			<string>Gjentas hvert år den %2$@ %3$@ i %4$@.</string>
 			<key>other</key>
-			<string>Gjentas hvert %1$d år på %2$@ %3$@ %4$@.</string>
+			<string>Gjentas hvert %1$d. år den %2$@ %3$@ i %4$@.</string>
 		</dict>
 	</dict>
 </dict>

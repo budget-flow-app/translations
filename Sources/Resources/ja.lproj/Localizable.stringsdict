@@ -77,9 +77,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>月</string>
+			<string>か月</string>
 			<key>other</key>
-			<string>月</string>
+			<string>か月</string>
 		</dict>
 	</dict>
 	<key>year</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>毎月 %2$@ の第 %3$@ 日に繰り返す。</string>
+			<string>毎月%2$@%3$@に繰り返す。</string>
 			<key>other</key>
-			<string>%1$d ヶ月ごとの %2$@ %3$@ 日に繰り返す。</string>
+			<string>%1$dか月ごとの%2$@%3$@に繰り返す。</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>

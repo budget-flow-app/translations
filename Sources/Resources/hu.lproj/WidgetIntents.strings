@@ -16,8 +16,8 @@
 "ktfUSN" = "Költségkeret";
 "jfTgFR" = "Költségkeret";
 
-"skIWPc" = "Fiók";
-"RZfRcv" = "Fiók";
+"skIWPc" = "Számla";
+"RZfRcv" = "Számla";
 
 "hVCchi" = "Időszak";
 "nzkPH7" = "Időszak";
@@ -32,13 +32,13 @@
 
 /* Configuration */
 "prSCwi" = "Diagram konfigurálása";
-"ioernk" = "Fiók konfigurálása";
+"ioernk" = "Számla konfigurálása";
 "LM22qM" = "Áttekintés konfigurálása";
 "z0ovGL" = "Költségkeret konfigurálása";
 
 /* Descriptions */
 "pFbMvr" = "Ez a widget egy diagramot jelenít meg a számlaegyenlegről, az aktuális egyenlegről vagy a bevételek és kiadások bontásáról a kiválasztott időszakra vonatkozóan.";
-"lMVOAh" = "Ez a widget grafikont jelenít meg a fiók egyenlegéről egy adott fiók és a kiválasztott időszak alapján.";
+"lMVOAh" = "Ez a widget a kiválasztott számla egyenlegének alakulását mutatja grafikonon a kiválasztott időszakban.";
 "S2zZlu" = "Ez a widget a számlaegyenlegek, az aktuális egyenleg vagy a bevételek és kiadások összesített összegét jeleníti meg a kiválasztott időszakra vonatkozóan.";
 "ju8eTZ" = "Ez a widget egy adott költségvetést jelenít meg a kiválasztott időszakra vonatkozóan.";
 "c79LHS" = "Ez a widget lehetővé teszi új tranzakciók gyors hozzáadását.";
@@ -56,8 +56,8 @@
 
 "3GCjUk" = "Egyenleg";
 "Lvj3sF" = "Egyenleg";
-"9mfrfk-3GCjUk" = "Csak megerősítésképpen, 'egyensúlyt' akart?";
-"MkDC8c-Lvj3sF" = "Csak megerősítésképpen: 'egyensúlyt' akart?";
+"9mfrfk-3GCjUk" = "Csak megerősítésképpen, 'egyenleget' akart?";
+"MkDC8c-Lvj3sF" = "Csak megerősítésképpen: 'egyenleget' akart?";
 "5xfjRl-Lvj3sF" = "${count} opció felel meg az 'egyenlegnek'.";
 "jlSssx-3GCjUk" = "${count} opció felel meg az 'egyenlegnek'.";
 
@@ -158,7 +158,7 @@
 "qnGAXN" = "Függőben van a tranzakció kifizetése?";
 "lTy5qN" = "A tranzakciót bele kell foglalni a statisztikákba?";
 "zZSQvt" = "Melyik költségvetési könyvet kell használni?";
-"Y5Nex5" = "Melyik fiókot kell használni?";
+"Y5Nex5" = "Melyik számlát kell használni?";
 "0HLNLH" = "Melyik kategóriát kell használni?";
 "wqsAJE" = "Melyik kedvezményezettet kell hozzárendelni?";
 "X8ocGF" = "Mely címkéket kell használni?";
@@ -166,7 +166,7 @@
 "P32rK5" = "Milyen gyakran kell a tranzakciót megismételni?";
 
 "aweDKY" = "Csak megerősítésképpen: '${type}' akart?";
-"f00iD1" = "Csak megerősítésképpen: '${repetitionFrequency}' akart lenni?";
+"f00iD1" = "Csak megerősítésképpen: a(z) '${repetitionFrequency}' beállítást szeretné?";
 "LsIZmT" = "A ${displayName} értéke nem lehet negatív.";
 "aMDTJp" = "A ${displayName} nem lehet alacsonyabb, mint ${minimumValue}.";
 "awYsJs" = "A ${displayName} nem lehet magasabb, mint ${maximumValue}.";
@@ -179,7 +179,7 @@
 "Qi16cy" = "Idő";
 "v08W8X" = "Ismétlés";
 "aXdf7M" = "Költségvetési könyv";
-"ozYI0G" = "Fiók";
+"ozYI0G" = "Számla";
 "tBBc2U" = "Kategória";
 "8zofwJ" = "Kedvezményezett";
 "QLnzaL" = "Címkék";

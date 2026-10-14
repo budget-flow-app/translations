@@ -19,7 +19,7 @@
 	<key>Amsterdam</key>
 	<string>阿姆斯特丹</string>
 	<key>Anadyr</key>
-	<string>阿纳德尔河</string>
+	<string>阿纳德尔</string>
 	<key>Anchorage</key>
 	<string>安克雷奇</string>
 	<key>Ankara</key>
@@ -95,7 +95,7 @@
 	<key>Cayenne</key>
 	<string>卡宴</string>
 	<key>Chennai</key>
-	<string>孟买（马德拉斯）</string>
+	<string>钦奈（马德拉斯）</string>
 	<key>Chicago</key>
 	<string>芝加哥</string>
 	<key>Colombo</key>
@@ -305,7 +305,7 @@
 	<key>Phoenix</key>
 	<string>菲尼克斯</string>
 	<key>Ponta Delgada</key>
-	<string>波尔图</string>
+	<string>蓬塔德尔加达</string>
 	<key>Port Louis</key>
 	<string>路易港</string>
 	<key>Port-au-Prince</key>

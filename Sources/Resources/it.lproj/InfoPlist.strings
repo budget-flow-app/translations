@@ -15,6 +15,6 @@
 "NSCameraUsageDescription" = "L'accesso alla fotocamera viene utilizzato per aggiungere foto alle transazioni.";
 "NSPhotoLibraryUsageDescription" = "L'accesso alla libreria fotografica viene utilizzato per salvare automaticamente le foto raccolte.";
 "NSPhotoLibraryAddUsageDescription" = "L'accesso alla libreria fotografica viene utilizzato per salvare automaticamente le foto raccolte.";
-"NSFaceIDUsageDescription" = "Indica se è richiesto l'accesso a Face ID per poter sbloccare l'applicazione senza inserire un codice di accesso.";
-"NSTouchIDUsageDescription" = "Indica se è richiesto l'accesso a Touch ID per poter sbloccare l'applicazione senza inserire un codice di accesso.";
+"NSFaceIDUsageDescription" = "È richiesto l'accesso a Face ID per poter sbloccare l'applicazione senza inserire un codice di accesso.";
+"NSTouchIDUsageDescription" = "È richiesto l'accesso a Touch ID per poter sbloccare l'applicazione senza inserire un codice di accesso.";
 "NSContactsUsageDescription" = "L'accesso ai tuoi contatti viene utilizzato per mostrare i nomi e le foto delle persone che sono state incluse in un registro contabile.";

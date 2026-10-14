@@ -15,7 +15,7 @@
 	<key>Algiers</key>
 	<string>Alžír</string>
 	<key>Amman</key>
-	<string>Omán</string>
+	<string>Ammán</string>
 	<key>Amsterdam</key>
 	<string>Amsterdam</string>
 	<key>Anadyr</key>
@@ -287,7 +287,7 @@
 	<key>Ottawa</key>
 	<string>Ottawa</string>
 	<key>Ougadougou</key>
-	<string>Ougadougou</string>
+	<string>Ouagadougou</string>
 	<key>Pago Pago</key>
 	<string>Pago Pago</string>
 	<key>Panama</key>
@@ -393,7 +393,7 @@
 	<key>Tripoli</key>
 	<string>Tripolis</string>
 	<key>Tunis</key>
-	<string>Tunisko</string>
+	<string>Tunis</string>
 	<key>UTC</key>
 	<string>UTC</string>
 	<key>Ulaanbaatar</key>

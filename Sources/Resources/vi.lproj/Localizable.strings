@@ -9,24 +9,22 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Phản hồi";
-"feedback_quick_action_subtitle" = "Nhấp vào đây để đóng góp một số phản hồi về ứng dụng.";
-"income_quick_action_title" = "Thu nhập mới";
-"expense_quick_action_title" = "Chi phí mới";
-"transfer_quick_action_title" = "Chuyển khoản mới";
-"recurring_quick_action_title" = "Định kỳ";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Sinh trắc học";
+
 "required" = "Yêu cầu";
 "optional" = "Không bắt buộc";
-"uncategorized" = "Chưa phân loại";
+
 "before" = "trước";
+"uncategorized" = "Chưa phân loại";
 "account_reconcilation" = "Đối chiếu tài khoản";
+
 "evaluated" = "Đã đánh giá";
 "not_evaluated" = "Chưa đánh giá";
+
 "share_participant_owner" = "Chủ sở hữu";
 "share_participant_you" = "Bạn";
 
@@ -37,7 +35,7 @@
 "account_type_savings" = "Ví tiết kiệm";
 "account_type_credit_card" = "Ví tín dụng";
 "account_type_investment" = "Ví đầu tư";
-"account_type_precaution" = "Ví dự phòng";
+"account_type_long_term_savings" = "Ví dự phòng";
 "account_type_liability" = "Nợ";
 "account_type_business" = "Ví doanh nghiệp";
 
@@ -45,7 +43,7 @@
 "account_type_savings_plural" = "Ví tiết kiệm";
 "account_type_credit_card_plural" = "Ví tín dụng";
 "account_type_investment_plural" = "Ví đầu tư";
-"account_type_precaution_plural" = "Ví dự phòng";
+"account_type_long_term_savings_plural" = "Ví dự phòng";
 "account_type_liability_plural" = "Nợ";
 "account_type_business_plural" = "Ví doanh nghiệp";
 
@@ -56,6 +54,9 @@
 "transaction_type_income_plural" = "Khoản thu";
 "transaction_type_expense_plural" = "Khoản chi";
 "transaction_type_transfer_plural" = "Chuyển khoản";
+
+"transaction_occurrence_type_one_time" = "Một lần";
+"transaction_occurrence_type_recurring" = "Định kỳ";
 
 "payment_status" = "Trạng thái";
 "payment_status_completed" = "Hoàn thành";
@@ -95,7 +96,7 @@
 "date_repetition_frequency_everyFourWeeks" = "Mỗi 4 tuần";
 "date_repetition_frequency_monthly" = "Hàng tháng";
 "date_repetition_frequency_everyTwoMonths" = "Mỗi 2 tháng";
-"date_repetition_frequency_everyThreeMonths" = "Mỗi 4 tháng";
+"date_repetition_frequency_everyThreeMonths" = "Mỗi 3 tháng";
 "date_repetition_frequency_everySixMonths" = "Mỗi 6 tháng";
 "date_repetition_frequency_yearly" = "Hàng năm";
 "date_repetition_frequency_custom" = "Tùy chỉnh";
@@ -120,7 +121,7 @@
 "widget_type_suggestions" = "Đề xuất";
 "widget_type_distribution" = "Phân bổ";
 "widget_type_balance" = "Số dư";
-"widget_type_savings_rate" = "Thu nhập";
+"widget_type_savings_rate" = "Tiết kiệm";
 "widget_type_upcoming_transactions" = "Đã lên kế hoạch";
 "widget_type_participants" = "Người tham gia";
 "widget_type_budget" = "Ngân sách";
@@ -145,6 +146,9 @@
 "subscription_period_years" = "năm";
 
 "overview_period_type_current_week" = "Tuần này";
+
+"quick_action_type_feedback_title" = "Phản hồi";
+"quick_action_type_feedback_subtitle" = "Nhấp vào đây để đóng góp một số phản hồi về ứng dụng.";
 
 "quick_action_type_new_income" = "Khoản thu mới";
 "quick_action_type_new_expense" = "Khoản chi mới";
@@ -232,13 +236,14 @@
 "add_button" = "Thêm";
 "edit_button" = "Sửa";
 "copy_button" = "Sao chép";
+"refund_button" = "Hoàn tiền";
 "edit_account_button" = "Sửa Ví";
 "edit_category_button" = "Sửa Danh mục";
-"edit_category_group_button" = "Chỉnh sửa thư mục";
+"edit_categorygroup_button" = "Chỉnh sửa thư mục";
 "edit_payee_button" = "Sửa Người nhận";
 "edit_tag_button" = "Chỉnh sửa nhãn";
 "edit_budget_button" = "Sửa ngân sách";
-"multi_selection_button" = "Thêm lựa chọn";
+"multi_selection_button" = "Chọn nhiều mục";
 "back_button" = "Trở lại";
 "done_button" = "Xong";
 "save_button" = "Lưu";
@@ -259,7 +264,7 @@
 "do_not_show_again_button" = "Không hiển thị lại";
 "mark_as_paid_button" = "Giao dịch hoàn tất";
 "mark_as_pending_button" = "Giao dịch chưa xử lý";
-"show_contra_entry_button" = "Mục truy cập";
+"show_contra_entry_button" = "Hiển thị giao dịch đối ứng";
 
 "save_changes_button" = "Lưu thay đổi";
 "discard_changes_button" = "Huỷ thay đổi";
@@ -289,6 +294,8 @@
 
 "open_button" = "Mở";
 "open_folder_button" = "Mở thư mục";
+"local_folder_button" = "Thư mục cục bộ";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Mở trong trình duyệt";
 
 "show_more_button" = "Hiển thị thêm";
@@ -311,7 +318,6 @@
 "get_started_button" = "Bắt đầu";
 
 "show_transactions_button" = "Hiển thị giao dịch";
-"show_in_app_store_button" = "Mở trong App Store";
 
 "flip_values_button" = "Đảo chiều ⇅";
 
@@ -329,7 +335,7 @@
 "alert_cloud_share_unknown_error_message" = "Không thể hoàn tất chia sẻ do đã xảy ra lỗi. Có thể không có đủ dung lượng trong iCloud của bạn. Vui lòng giải phóng dung lượng và thử lại.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Tìm kiếm";
 "filter_title" = "Bộ lọc";
@@ -337,6 +343,31 @@
 /* Sections */
 "search_text_section_title" = "Văn bản tìm kiếm";
 "search_suggestions_section_title" = "Gợi ý";
+
+
+/* MARK: - Transaction Filter View */
+/* Sections */
+"transaction_filter_general_section_title" = "Chung";
+"transaction_filter_assignment_section_title" = "Gán";
+
+/* Items */
+"transaction_filter_type_title" = "Loại";
+"transaction_filter_occurrence_type_title" = "Lặp lại";
+"transaction_filter_amount_title" = "Số tiền";
+"transaction_filter_date_title" = "Ngày";
+"transaction_filter_status_title" = "Trạng thái";
+
+"transaction_filter_accounts_title" = "Tài khoản";
+"transaction_filter_categories_title" = "Danh mục";
+"transaction_filter_payees_title" = "Người nhận";
+"transaction_filter_tags_title" = "Thẻ";
+"transaction_filter_people_title" = "Người";
+
+"transaction_filter_all_title" = "Tất cả";
+"transaction_filter_any_title" = "Bất kỳ";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ đến %@";
 
 
 /* MARK: - Period Selection View */
@@ -352,15 +383,15 @@
 
 /* MARK: - Dashboard View */
 /* Titles */
-"configure_title" = "Widgets";
+"configure_title" = "Cấu hình";
 "balance_widget_income_title" = "Khoản thu";
 "balance_widget_expenses_title" = "Khoản chi";
 "savings_rate_widget_absolute_title" = "Thu nhập ròng";
 "savings_rate_widget_percentual_title" = "Tỷ lệ";
 "budget_widget_planned_title" = "Đã lên kế hoạch";
-"budget_widget_remaining_title" = "Hiện tại";
-"total_assets_widget_absolute_title" = "Thu nhập ròng";
-"total_assets_widget_trend_title" = "Tỷ lệ";
+"budget_widget_remaining_title" = "Còn lại";
+"total_assets_widget_absolute_title" = "Giá trị tuyệt đối";
+"total_assets_widget_trend_title" = "Xu hướng";
 "forecast_widget_upcoming_title" = "Đã lên kế hoạch";
 "forecast_widget_pending_title" = "Đang chờ xử lý";
 "forecast_widget_final_balance_title" = "Số dư cuối cùng";
@@ -376,7 +407,7 @@
 /* Messages */
 "no_widgets_title" = "Không có Widgets nào được thêm vào";
 "no_widgets_message" = "Nhấp vào biểu tượng \"bút\" để cài đặt Widget.";
-"no_suggestions_title" = "No suggestions";
+"no_suggestions_title" = "Không có đề xuất";
 "not_shared_title" = "Ví không được chia sẻ";
 
 /* Widgets */
@@ -409,17 +440,6 @@
 "recurring_transactions_info_title" = "Mô tả";
 "recurring_transactions_info_description" = "Tạo các giao dịch định kỳ để chúng tự động được thêm vào ứng dụng khi đến hạn.";
 
-/* Sections */
-"account_filter_section_title" = "Ví";
-"category_filter_section_title" = "Danh mục";
-"payee_filter_section_title" = "Người nhận";
-"tag_filter_section_title" = "Nhãn";
-"user_filter_section_title" = "Người";
-"payment_status_filter_section_title" = "Thanh toán";
-"transaction_type_filter_section_title" = "Kiểu";
-"date_range_filter_section_title" = "Ngày";
-"amount_range_filter_section_title" = "Số tiền";
-
 /* Messages */
 "no_transactions_title" = "Không có giao dịch";
 "no_transactions_title_short" = "Không có";
@@ -440,7 +460,7 @@
 
 /* Alert Views */
 "alert_confirm_add_next_upcoming_transaction_title" = "Thêm giao dịch";
-"alert_confirm_add_next_upcoming_transaction_message" = "Bạn có chắc chắn muốn lên kế hoạch thêm giao dịch này không?";
+"alert_confirm_add_next_upcoming_transaction_message" = "Bạn có chắc chắn muốn thêm giao dịch đã lên kế hoạch này ngay bây giờ không?";
 
 /* Miscellaneous */
 "payed_by_and_modified_at" = "Được thanh toán bởi %@\nSửa đổi lần cuối lúc %@";
@@ -452,14 +472,14 @@
 
 /* MARK: - Budget List View */
 /* Titles */
-"remaining_title" = "Available";
+"remaining_title" = "Còn lại";
 "balanced_title" = "Số dư";
 "exceeded_title" = "Đã vượt quá";
 "user_has_no_budgets_title" = "Bạn không có ngân sách nào.";
-"user_is_within_budget_title" = "You are within your budget! 🎉";
-"user_was_within_budget_title" = "You were within your budget! 🎉";
-"user_is_not_within_budget_title" = "Bạn đã vượt quá ngân sách %d 😢";
-"user_is_not_within_budgets_title" = "Bạn đã vượt quá ngân sách %d 😢";
+"user_is_within_budget_title" = "Bạn vẫn nằm trong ngân sách! 🎉";
+"user_was_within_budget_title" = "Bạn đã chi tiêu trong ngân sách! 🎉";
+"user_is_not_within_budget_title" = "Bạn đã vượt quá %d ngân sách 😢";
+"user_is_not_within_budgets_title" = "Bạn đã vượt quá %d ngân sách 😢";
 
 /* Messages */
 "no_budgets_title" = "Không có ngân sách";
@@ -523,11 +543,11 @@
 "support_setting_section_title" = "Hỗ trợ";
 "legal_setting_section_title" = "Pháp lý";
 "data_setting_section_title" = "Dữ liệu";
-"miscellaneous_setting_section_title" = "Điều khoản";
+"miscellaneous_setting_section_title" = "Khác";
 
 /* Footer */
 "upgrade_setting_footer_title" = "Cảm ơn bạn đã sử dụng Tài khoản Premium!";
-"support_setting_footer_title" = "Bạn có thắc mắc hoặc ý tưởng nào mới? Để lại bình luận và cho chúng tôi một đánh giá trong App Store. Phản hồi của bạn sẽ tạo thêm động lực và giúp chúng tôi cải thiện ứng dụng.";
+"support_setting_footer_title" = "Bạn có thắc mắc hoặc ý tưởng nào mới? Để lại bình luận và cho chúng tôi một đánh giá trong %@. Phản hồi của bạn sẽ tạo thêm động lực và giúp chúng tôi cải thiện ứng dụng.";
 
 /* Buttons */
 "share_budgetbook_button" = "Chia sẻ Sổ ngân sách";
@@ -597,75 +617,94 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Mô tả";
-"appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện hoặc màu chủ đạo của ứng dụng.";
+"appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện của ứng dụng.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Chủ đề";
-"appearance_ui_style_apply_to_icons_title" = "Áp dụng cho biểu tượng";
-"appearance_ui_style_apply_to_icons_description" = "Áp dụng giao diện đã chọn cho tất cả biểu tượng trong ứng dụng.";
 "appearance_accent_color_setting_section_title" = "Màu chủ đạo";
-"appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
 "appearance_app_icon_setting_section_title" = "Biểu tượng";
 
-/* Sync & Data Settings */
-"sync_and_data_setting_info_title" = "Mô tả";
-"sync_and_data_setting_info_description" = "Tổng quan về trạng thái đồng bộ hoặc nhập xuất dữ liệu";
+/* Options */
+"appearance_ui_style_apply_to_icons_title" = "Áp dụng cho biểu tượng";
+"appearance_ui_style_apply_to_icons_description" = "Áp dụng giao diện đã chọn cho tất cả biểu tượng trong ứng dụng.";
 
+/* Footer */
+"appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
+
+
+/* MARK: - Sync & Data Settings View */
+/* Info */
+"sync_and_data_setting_info_title" = "Mô tả";
+"sync_and_data_setting_info_description" = "Xem tổng quan trạng thái đồng bộ, quản lý bản sao lưu hoặc nhập và xuất dữ liệu bằng tệp CSV.";
+
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Hiển thị quá trình đồng bộ hoá dữ liệu vào iCloud";
-"sync_and_data_setting_cloud_sync_status_title" = "Trạng thái đồng bộ hoá";
 "backup_setting_section_title" = "Sao lưu";
-"backup_setting_footer_title" = "Quản lý và cài đặt các sao lưu của bạn.";
-"backup_setting_manage_backups_title" = "Quản lý";
 "sync_and_data_csv_setting_section_title" = "Dữ liệu";
-"sync_and_data_csv_setting_footer_title" = "Nhập hoặc xuất các giao dịch của bạn.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Trạng thái đồng bộ hoá";
+"backup_setting_manage_backups_title" = "Quản lý";
 "sync_and_data_setting_csv_import_title" = "Nhập dữ liệu";
 "sync_and_data_setting_csv_export_title" = "Xuất dữ liệu";
 "sync_and_data_setting_get_csv_template_title" = "Tải xuống mẫu";
 
+/* Buttons */
 "clear_cache_button" = "Xóa bộ nhớ đệm";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Hiển thị quá trình đồng bộ hoá dữ liệu vào iCloud";
+"backup_setting_footer_title" = "Quản lý và cài đặt các sao lưu của bạn.";
+"sync_and_data_csv_setting_footer_title" = "Nhập hoặc xuất các giao dịch của bạn.";
 "cache_setting_footer_title" = "Thông tin: Xóa bộ nhớ đệm sẽ xóa tất cả các tệp trong thư mục tài liệu của ứng dụng (bao gồm cả các bản sao lưu).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Nhập dữ liệu thành công 🎉";
 "alert_csv_import_successful_message" = "Đã có, %d trong số %d giao dịch đã được nhập.%@";
 "alert_csv_import_skipped_message" = " Còn lại %d giao dịch đã bỏ qua.";
 "alert_csv_import_error_message" = "Nhập không thành công %d trong số %d giao dịch.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Vui lòng kiểm tra các trường sau trong tệp của bạn: %@.";
-
 "alert_csv_export_successful_title" = "Xuất dữ liệu thành công 🎉";
 "alert_csv_export_successful_message" = "Dữ liệu của bạn đã được xuất thành công sang \"%@\".";
 
-/* Cloud Settings */
+"alert_reset_app_title" = "Đặt lại ứng dụng";
+"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn.";
+
+/* Progress */
+"alert_csv_export_progress_title" = "Xuất dữ liệu";
+"csv_export_progress_preparing" = "Đang chuẩn bị xuất";
+"csv_export_progress_transactions" = "Giao dịch";
+"csv_export_progress_finishing" = "Đang hoàn tất xuất";
+
+"alert_app_reset_progress_title" = "Đặt lại dữ liệu";
+"app_reset_progress_preparing" = "Đang chuẩn bị đặt lại ứng dụng";
+"app_reset_progress_deleting_existing_notifications" = "Đang xóa thông báo hiện có";
+"app_reset_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
+"app_reset_progress_deleting_transactions" = "Đang xóa giao dịch";
+"app_reset_progress_deleting_transaction_groups" = "Đang xóa nhóm giao dịch";
+"app_reset_progress_deleting_reminders" = "Đang xóa lời nhắc";
+"app_reset_progress_deleting_budgets" = "Đang xóa ngân sách";
+"app_reset_progress_deleting_tags" = "Đang xóa thẻ";
+"app_reset_progress_deleting_payees" = "Đang xóa người nhận thanh toán";
+"app_reset_progress_deleting_categories" = "Đang xóa danh mục";
+"app_reset_progress_deleting_category_groups" = "Đang xóa thư mục";
+"app_reset_progress_deleting_accounts" = "Đang xóa tài khoản";
+"app_reset_progress_deleting_budget_books" = "Đang xóa sổ ngân sách";
+"app_reset_progress_deleting_existing_settings" = "Đang xóa cài đặt hiện có";
+"app_reset_progress_finishing" = "Đang hoàn tất đặt lại ứng dụng";
+
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Mô tả";
 "cloud_setting_info_description" = "Chế độ xem sau đây cung cấp cái nhìn tổng quan chi tiết hơn về trạng thái đồng bộ hóa iCloud hiện tại và giúp khắc phục sự cố.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Mạng";
 "cloud_setting_network_status_success_value" = "Kết nối Internet có sẵn";
 "cloud_setting_network_status_error_value" = "Không có kết nối Internet";
@@ -682,26 +721,83 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vui lòng đợi...";
 "cloud_setting_number_of_transactions_error_title" = "Lỗi";
 
+/* Buttons */
 "import_from_cloud_button" = "Tải xuống từ iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Nếu dữ liệu của bạn chưa hoặc chưa được đồng bộ đầy đủ với iCloud, bạn có thể khởi động đồng bộ thủ công tại đây.";
 
-/* Backup Settings */
+
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Mô tả";
-"backup_setting_info_description" = "Budget Flow sẽ thường xuyên sao lưu dữ liệu của bạn vào bất cứ lúc nào.";
+"backup_setting_info_description" = "Khi được bật, Budget Flow sẽ sao lưu dữ liệu định kỳ để bạn có thể khôi phục ứng dụng về trạng thái trước đó bất cứ lúc nào.";
 
-"backup_general_setting_section_title" = "Tổng quan";
-"backup_recent_backups_setting_section_title" = "Sao lưu gần đây";
+/* Sections */
+"backup_setting_general_section_title" = "Tổng quan";
+"backup_setting_recent_section_title" = "Sao lưu gần đây";
+"backup_setting_restore_external_backup_title" = "Khôi phục sao lưu ngoài";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive không khả dụng.";
+"backup_service_error_unsupported_version" = "Bản sao lưu này dùng phiên bản không được hỗ trợ: %d.";
+"backup_service_error_missing_binary_file" = "Bản sao lưu này thiếu tệp bắt buộc: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Không thể tạo thư mục sao lưu.";
+"backup_service_error_could_not_create_backup_archive" = "Không thể tạo tệp sao lưu.";
+"backup_service_error_invalid_backup_archive" = "Tệp đã chọn không phải là bản sao lưu hợp lệ.";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Tự động sao lưu";
+"backup_setting_back_up_to_icloud_drive_title" = "Sao lưu vào iCloud Drive";
+"backup_setting_keep_backups_title" = "Giữ bản sao lưu";
 "backup_setting_create_backup_title" = "Tạo bản sao lưu";
+"backup_setting_no_recent_backups_title" = "Không có bản sao lưu";
+"backup_setting_backup_subtitle" = "%@ · %@";
 
-"alert_restore_backup_title" = "Khôi phục bản sao lưu này?";
-"alert_restore_backup_message" = "Khôi phục bản sao lưu hiện tại chỉ là bản thử nghiệm. Thao tác này sẽ ghi đè lên dữ liệu hiện tại của bạn.\n\nSau đó ứng dụng sẽ tự động đóng.\n\nCảnh báo: Không thể hoàn tác quá trình này, xin hãy kiểm tra kỹ.";
+/* Options */
+"backup_setting_keep_backups_last_5_title" = "5 bản gần nhất";
+"backup_setting_keep_backups_last_10_title" = "10 bản gần nhất";
+"backup_setting_keep_backups_last_20_title" = "20 bản gần nhất";
+"backup_setting_keep_backups_last_30_title" = "30 bản gần nhất";
+"backup_setting_keep_backups_all_title" = "Tất cả";
+
+/* Alert Views */
+"backup_setting_delete_backup_alert_title" = "Xóa bản sao lưu";
+"backup_setting_delete_backup_alert_message" = "Bạn có chắc chắn muốn xóa bản sao lưu này không?";
+"backup_setting_restore_success_title" = "Đã khôi phục bản sao lưu";
+"backup_setting_restore_success_message" = "Bản sao lưu đã chọn đã được khôi phục.";
+"backup_setting_error_title" = "Sao lưu thất bại";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive không khả dụng trên thiết bị này.";
+"backup_setting_could_not_create_backup_directory_error" = "Không thể tạo thư mục sao lưu.";
+"alert_restore_backup_title" = "Khôi phục bản sao lưu";
+"alert_restore_backup_message" = "Bạn có chắc chắn muốn khôi phục bản sao lưu này không?\n\nThao tác này sẽ xóa dữ liệu hiện tại của bạn và thay thế bằng dữ liệu từ bản sao lưu đã chọn.\n\nCảnh báo: Không thể hoàn tác thao tác này!";
 "alert_restore_backup_button" = "Khôi phục bản sao lưu";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Đang khôi phục bản sao lưu";
+"backup_restore_progress_preparing" = "Đang chuẩn bị bản sao lưu";
+"backup_restore_progress_validating" = "Đang xác thực bản sao lưu";
+"backup_restore_progress_reading_data" = "Đang đọc dữ liệu sao lưu";
+"backup_restore_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
+"backup_restore_progress_finishing" = "Đang hoàn tất khôi phục";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Sổ ngân sách";
+"backup_restore_progress_accounts" = "Tài khoản";
+"backup_restore_progress_category_groups" = "Thư mục";
+"backup_restore_progress_categories" = "Danh mục";
+"backup_restore_progress_payees" = "Người nhận thanh toán";
+"backup_restore_progress_tags" = "Thẻ";
+"backup_restore_progress_budgets" = "Ngân sách";
+"backup_restore_progress_transaction_groups" = "Nhóm giao dịch";
+"backup_restore_progress_transactions" = "Giao dịch";
+"backup_restore_progress_reminders" = "Lời nhắc";
+
+
+/* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Mô tả";
 "advanced_setting_info_description" = "Tuỳ chọn thêm cài đặt để cấu hình ứng dụng.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Bảo mật";
 "advanced_view_setting_section_title" = "Hiển thị";
 "advanced_sidebar_setting_section_title" = "Thanh bên";
@@ -710,23 +806,39 @@
 "advanced_input_setting_section_title" = "Nhập liệu";
 "advanced_other_setting_section_title" = "Khác";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Sử dụng mật khẩu";
 "advanced_setting_use_title" = "Sử dụng %@";
 "advanced_setting_auto_lock_title" = "Yêu cầu mật khẩu";
 
+/* View */
 "advanced_setting_chart_type_title" = "Loại biểu đồ";
-"advanced_setting_show_frequently_used_items_title" = "Hiển thị nhãn và Danh mục thường sử dụng";
-"advanced_setting_show_frequently_used_items_description" = "Hiển thị các danh mục & thẻ được sử dụng thường xuyên trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
+"advanced_setting_show_most_used_items_title" = "Hiển thị danh mục và thẻ được dùng nhiều nhất";
+"advanced_setting_show_most_used_items_description" = "Hiển thị danh mục và thẻ được dùng nhiều nhất trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Xóa danh mục và thẻ được dùng nhiều nhất khỏi nhóm";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Xóa các danh mục và thẻ được dùng nhiều nhất khỏi các nhóm thông thường trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
 "advanced_setting_show_notes_in_title_title" = "Hiển thị ghi chú thay vì danh mục";
 "advanced_setting_show_notes_in_title_description" = "Hiển thị nội dung của ghi chú thay vì tên danh mục cho các giao dịch.";
 "advanced_setting_start_day_of_month_title" = "Ngày bắt đầu của tháng";
 "advanced_setting_start_day_of_month_description" = "Chỉ định ngày bắt đầu mỗi tháng để các báo cáo, giao dịch và ngân sách được tính toán phù hợp.";
 "advanced_setting_configure_transaction_title_title" = "Tiêu đề giao dịch";
 "advanced_setting_configure_transaction_subtitle_title" = "Phụ đề giao dịch";
-
 "advanced_setting_configure_transaction_title_info_title" = "Mô tả";
 "advanced_setting_configure_transaction_title_info_description" = "Đặt thứ tự các mục sẽ được hiển thị trong tiêu đề giao dịch. Nếu thiếu một mục, mục tiếp theo trong thứ tự sẽ tự động được sử dụng.";
 
+/* Input */
+"advanced_setting_select_time_automatically_title" = "Chọn thời gian tự động";
+"advanced_setting_select_time_automatically_description" = "Tự động chọn thời gian hiện tại cho các giao dịch mới.";
+"advanced_setting_select_location_automatically_title" = "Chọn vị trí tự động";
+"advanced_setting_select_location_automatically_description" = "Tự động chọn vị trí hiện tại cho các giao dịch mới.";
+"advanced_setting_save_photos_in_library_title" = "Lưu ảnh vào thư viện";
+"advanced_setting_save_photos_description" = "Tự động lưu ảnh đã chụp vào thư viện ảnh.";
+"advanced_setting_suggested_notes_title" = "Ghi chú đề xuất";
+"advanced_setting_suggested_notes_description" = "Nhận gợi ý dựa trên các giao dịch trước đây của bạn khi nhập vào trường ghi chú.";
+"advanced_setting_consider_pending_items_title" = "Tính tất cả giao dịch";
+"advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
+
+/* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Hiển thị tài khoản ở thanh bên";
 "advanced_setting_show_accounts_in_sidebar_description" = "Hiển thị danh sách tài khoản của bạn ở thanh bên.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Nhóm các tài khoản trong thanh bên";
@@ -736,22 +848,13 @@
 "advanced_setting_group_categories_in_sidebar_title" = "Nhóm các danh mục trong thanh bên";
 "advanced_setting_group_categories_in_sidebar_description" = "Nhóm các danh mục của bạn trong thanh bên theo thư mục.";
 
-"advanced_setting_select_time_automatically_title" = "Chọn thời gian tự động";
-"advanced_setting_select_time_automatically_description" = "Tự động chọn thời gian hiện tại cho các giao dịch mới.";
-"advanced_setting_select_location_automatically_title" = "Chọn vị trí tự động";
-"advanced_setting_select_location_automatically_description" = "Tự động chọn vị trí hiện tại cho các giao dịch mới.";
-"advanced_setting_save_photos_in_library_title" = "Lưu ảnh vào thư viện";
-"advanced_setting_save_photos_description" = "Tự động lưu ảnh đã chụp vào thư viện ảnh.";
-"advanced_setting_suggested_notes_title" = "Ghi chú đề xuất";
-"advanced_setting_suggested_notes_description" = "Nhận gợi ý dựa trên các giao dịch trước đây của bạn khi nhập vào trường ghi chú.";
-"advanced_setting_consider_pending_items_title" = "Đặt tất cả giao dịch";
-"advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
-
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Trình quét hóa đơn";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Sử dụng Apple Intelligence để tự động điền các trường bổ sung khi quét hóa đơn.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Phím tắt";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Dùng Apple Intelligence để tự động phát hiện danh mục và người nhận tiền trong tự động hóa phím tắt.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Nhập thời gian chính xác";
 "advanced_setting_enable_exact_times_description" = "Chọn thời gian chính xác bằng cách sử dụng vòng quay phút cho các giao dịch (ví dụ: 9:41 sáng).";
 "advanced_setting_reverse_keyboard_title" = "Bàn phím đảo ngược";
@@ -759,6 +862,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Phản hồi bàn phím";
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
 
+/* Other */
 "advanced_setting_language_title" = "Ngôn ngữ";
 "advanced_setting_time_zone_title" = "Múi giờ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
@@ -784,13 +888,10 @@
 "alert_share_app_type_selection_link_button" = "Liên kết";
 "alert_share_app_type_selection_qrcode_button" = "Mã QR";
 
-"alert_reset_app_title" = "Đặt lại ứng dụng";
-"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn được lưu trữ trên thiết bị này và iCloud.";
-
 "alert_error_title" = "Đã xảy ra lỗi 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "Theo dõi \"%@\" trên mạng xã hội";
 
 /* Copyright */
 "version" = "Phiên bản";
@@ -802,31 +903,57 @@
 "passcode_view_enter_passcode_title" = "Nhập mật mã";
 "passcode_view_create_passcode_title" = "Tạo mật mã";
 "passcode_view_confirm_passcode_title" = "Xác nhận mật mã";
-"passcode_view_authenticate_reason" = "Xác thực người dùng";
+"passcode_view_authenticate_reason" = "Yêu cầu xác thực";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Tuỳ chọn mật mã";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Chào mừng bạn";
-"privacy_policy_title" = "Chính sách bảo mật";
+"onboarding_welcome_view_title" = "Chào mừng";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Tóm tắt";
-"welcome_view_legal_documents_section_title" = "Thêm thông tin";
+"onboarding_welcome_view_overview_section_title" = "Tóm tắt";
+"onboarding_welcome_view_legal_documents_section_title" = "Thêm thông tin";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Lưu trữ dữ liệu an toàn";
-"privacy_overview_datastorage_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
+"privacy_overview_datastorage_description" = "Tài chính của bạn là riêng tư và nên luôn như vậy. Vì thế, dữ liệu của bạn chỉ được lưu trên thiết bị của bạn.";
+"privacy_overview_datastorage_description_icloud_suffix" = " hoặc trong iCloud cá nhân của bạn.";
 
 "privacy_overview_privacy_control_title" = "Bạn đang kiểm soát";
-"privacy_overview_privacy_control_description" = "Cho dù đó là dữ liệu đã lưu, việc sử dụng vị trí hay quyền truy cập vào máy ảnh của bạn - bạn luôn nắm quyền kiểm soát. Ví dụ: bạn có thể dễ dàng xóa dữ liệu của mình bằng cách đặt lại ứng dụng và quyền truy cập của ứng dụng sẽ điều chỉnh bất kỳ lúc nào.";
+"privacy_overview_privacy_control_description" = "Bạn có thể xóa dữ liệu bất cứ lúc nào và điều chỉnh các quyền như vị trí, camera hoặc thông báo trong cài đặt hệ thống.";
+
+/* Header */
+"onboarding_welcome_view_header_title" = "Chào mừng bạn";
+"onboarding_welcome_view_header_description" = "Theo dõi thu nhập và chi phí, nhận ra các xu hướng và đưa ra quyết định tốt hơn với tiền của bạn";
 
 /* Footer */
-"welcome_view_value_description" = "Kiểm soát tất cả thu nhập của bạn một cách dễ dàng: Nhập ngân sách của bạn, nhận thông tin chi tiết và theo dõi tất cả thu nhập và chi phí của bạn.";
-"welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
+"privacy_policy_title" = "Chính sách bảo mật";
+"onboarding_welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Luôn theo sát";
+"onboarding_reminder_intro_view_description" = "Nhận lời nhắc định kỳ để theo dõi các khoản chi của bạn";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Bây giờ";
+"onboarding_reminder_intro_view_notification_body" = "Bạn đã nhập hết chưa? ⏰";
+
+
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Thiết lập";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "Đang thiết lập %@";
+"onboarding_setup_view_completion_title" = "Tất cả đã sẵn sàng!";
+"onboarding_setup_view_accounts_item_title" = "Đang chuẩn bị tài khoản";
+"onboarding_setup_view_categories_item_title" = "Đang tạo danh mục";
+"onboarding_setup_view_reminders_item_title" = "Đang kích hoạt lời nhắc";
 
 
 /* MARK: - New Features View */
@@ -836,19 +963,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Đánh giá";
 "new_features_view_close_button" = "Để sau";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Cảm ơn!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong App Store. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
-"purchase_success_view_info_message_info" = "\n\nThông tin: Khi bạn chuyển từ đăng ký sang mua trọn đời, đừng quên hủy đăng ký hiện tại của bạn sau đó.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Đánh giá";
-"purchase_success_view_close_button" = "Để sau";
 
 
 /* MARK: - Upgrade View */
@@ -863,9 +977,9 @@
 /* Discount */
 "upgrade_discount_title" = "Ưu đãi đặc biệt 🌟";
 "upgrade_discount_multiple_title" = "Tiết kiệm đến %@!";
-"upgrade_discount_montly_subscription_title" = "Tiết kệm %@ khi đăng ký hàng tháng.";
-"upgrade_discount_yearly_subscription_title" = "Tiết kệm %@ khi đăng ký hàng năm.";
-"upgrade_discount_lifetime_purchase_title" = "Tiết kệm %@ khi đăng ký vĩnh viễn.";
+"upgrade_discount_montly_subscription_title" = "Tiết kiệm %@ khi đăng ký hàng tháng.";
+"upgrade_discount_yearly_subscription_title" = "Tiết kiệm %@ khi đăng ký hàng năm.";
+"upgrade_discount_lifetime_purchase_title" = "Tiết kiệm %@ khi mua phiên bản trọn đời.";
 "upgrade_discount_ends_in" = "Kết thúc vào";
 
 /* Sections */
@@ -905,33 +1019,33 @@
 "upgrade_feature_reminders_title" = "Tạo nhắc nhở";
 "upgrade_feature_reminders_description" = "Bạn có thể tạo nhắc nhở để thông báo cho các giao dịch đã lên kế hoạch.";
 "upgrade_feature_csv_title" = "Nhập và xuất dữ liệu";
-"upgrade_feature_csv_description" = "Nhập và suất các dữ liệu của bạn để cập nhật dữ liệu từ ngân hàng hoặc các ứng dụng khác.";
+"upgrade_feature_csv_description" = "Nhập và xuất các giao dịch bằng tệp CSV để chuyển dữ liệu từ ngân hàng hoặc các ứng dụng khác.";
 "upgrade_feature_remove_ads_title" = "Không có quảng cáo";
 "upgrade_feature_remove_ads_description" = "Bạn sẽ không còn thấy các quảng cáo khó chịu xuất hiện trong ứng dụng.";
 "upgrade_feature_support_title" = "Hỗ trợ nhà phát triển";
 "upgrade_feature_support_description" = "Bạn đang hỗ trợ một nhà phát triển mới và qua đó giúp ứng dụng không ngừng phát triển! Xin cảm ơn 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Ứng dụng tuyệt vời";
+"user_review_description_de" = "Ứng dụng rất rõ ràng và đầy đủ chức năng. Đáp ứng mọi yêu cầu của tôi, dịch vụ hỗ trợ cũng rất nhanh chóng và hữu ích. Tôi rất khuyến khích mọi người dùng thử.";
+"user_review_title_hr" = "Ứng dụng hay";
+"user_review_description_hr" = "Ứng dụng nhiều tính năng với giao diện dễ sử dụng. Tôi đã thử nhiều lựa chọn khác trên iOS, nhưng không ứng dụng nào đáp ứng nhu cầu tốt như ứng dụng này. Rất đáng tiền.";
+"user_review_title_bg" = "Hỗ trợ xuất sắc";
+"user_review_description_bg" = "Ứng dụng tuyệt vời với dịch vụ hỗ trợ khách hàng xuất sắc. Giá cũng rất hợp lý so với chất lượng phần mềm.";
+"user_review_title_us" = "Đến giờ vẫn là một ứng dụng tuyệt vời";
+"user_review_description_us" = "Tôi rất thích việc ứng dụng có trên iOS, iPad và macOS, nhờ vậy tôi có thể sử dụng ở mọi nơi. Cũng rất tốt khi không cần tài khoản hay đăng ký. Tiếc là điều này ngày nay khá hiếm, nhưng theo tôi lại rất cần thiết đối với một ứng dụng tài chính.";
+"user_review_title_uk" = "Đây chính là ứng dụng tôi cần!";
+"user_review_description_uk" = "Tôi đã tìm kiếm ứng dụng như thế này hơn hai năm. Tôi muốn một công cụ quản lý tài chính trên điện thoại có thiết kế đẹp, cho phép nhập dữ liệu mới dễ dàng và xem thêm thông tin khi cần. Nhất định nên thử.";
+"user_review_title_es" = "Ứng dụng sổ thu chi tốt nhất";
+"user_review_description_es" = "Đơn giản là tốt nhất trong số tất cả những ứng dụng tôi từng thử. Tôi nghĩ ứng dụng vẫn còn khá mới, nhưng có thể thấy rõ tiềm năng hiện tại và trong tương lai.";
+"user_review_title_fr" = "Ứng dụng tuyệt vời, rất đầy đủ";
+"user_review_description_fr" = "Tôi đã dùng ứng dụng vài tháng nay và thấy nó thực sự rất tốt. Tôi rất mong được xem ứng dụng sẽ như thế nào trong vài tháng tới :)";
+"user_review_title_it" = "Thật sự xuất sắc";
+"user_review_description_it" = "Cuối cùng cũng tìm thấy. Tôi đã tìm kiếm một giải pháp như thế này nhiều năm rồi. Tôi dùng cùng ứng dụng Phím tắt và rất thích thiết kế. Tôi cũng thích lựa chọn mua một lần. Hãy tiếp tục phát huy nhé!";
+"user_review_title_ch" = "Hỗ trợ tuyệt vời";
+"user_review_description_ch" = "Hỗ trợ tuyệt vời – giải quyết vấn đề nhanh chóng và đơn giản. Tôi cảm thấy mình được coi trọng với tư cách là người dùng.";
+"user_review_title_pl" = "Rất dễ chịu khi sử dụng";
+"user_review_description_pl" = "Ứng dụng là một cuốn sổ thu chi xuất sắc mà tôi dùng hằng ngày. Dù quy mô nhỏ, nhà phát triển vẫn rất quan tâm đến nhu cầu của người dùng.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -945,27 +1059,28 @@
 "product_discount_header_title" = "- %@";
 
 /* Buttons */
-"upgrade_is_active_button" = "Kích hoạt";
+"upgrade_is_active_button" = "Đang hoạt động";
 "upgrade_purchase_button" = "Mua";
-"upgrade_subscribe_button" = "Đặt mua";
+"upgrade_subscribe_button" = "Đăng ký";
 "upgrade_free_trial_button" = "Dùng thử";
 "upgrade_restore_button" = "Khôi phục đăng ký";
 "upgrade_restore_in_progress_button" = "Vui lòng chờ...";
 
 "subscription_button_info_text" = "Có thể huỷ bất cứ lúc nào.";
 "subscription_trial_button_info_text" = "%d %@ dùng thử miễn phí. Sau đó %@ mỗi %@.";
-"lifetime_purchase_button_info_text" = "Bạn đang dùng Tài khoản Premium.";
+"lifetime_purchase_button_info_text" = "Mở khóa phiên bản đầy đủ bằng một lần mua (không cần đăng ký).";
 
 /* Alert Views */
 "alert_upgrade_view_purchase_success_title" = "Đăng ký thành công 🎉";
 "alert_upgrade_view_purchase_success_message" = "Cảm ơn bạn đã đăng ký 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nLưu ý: Nếu bạn muốn chuyển sang bản vĩnh viễn, hãy nhớ huỷ đăng ký trước đó.";
+
 "alert_upgrade_view_purchase_error_message" = "Đăng ký không thành công.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với App Store.\n\nĐôi khi đăng ký chỉ có thể thành công bằng mật khẩu thay vì Touch ID/Face ID.\n\nVí dụ, nếu bạn đang sử dụng Face ID, chỉ cần che camera trước và thử lại để xem hộp thoại mật khẩu.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với %@.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nĐôi khi đăng ký chỉ có thể thành công bằng mật khẩu thay vì Touch ID/Face ID.\n\nVí dụ, nếu bạn đang sử dụng Face ID, chỉ cần che camera trước và thử lại để xem hộp thoại mật khẩu.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Đăng ký không được phép trên thiết bị này.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Hãy kiểm tra phương thức thanh toán của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
 "alert_upgrade_view_purchase_error_network_message" = "Hãy kiểm tra kết nối Internet của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
-
 "alert_upgrade_view_load_products_error_message" = "Không thể tải các đăng ký. Hãy kiểm tra kết nối Internet của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
 
 "alert_upgrade_view_restore_success_title" = "Khôi phục đăng ký";
@@ -987,23 +1102,24 @@
 "upgrade_faq_about_title" = "Budget Flow là gì?";
 "upgrade_faq_about_value" = "Budget Flow là một ứng dụng theo dõi thu nhập hiện đại và dễ sử dụng dành cho tất cả những ai muốn theo dõi và quản lý chi tiêu một cách hiệu quả.";
 "upgrade_faq_developer_title" = "Ai đã phát triển ứng dụng?";
-"upgrade_faq_developer_value" = "Budget Flow được bắt đầu như một dự án phụ và kể từ đó đã được tôi, Fabian Hasse, thiết kế, phát triển và bảo trì hoàn toàn. Tôi là một nhà phát triển phần mềm nhiệt tình với hơn 10 năm kinh nghiệm và tôi làm việc với rất nhiều đam mê để phát triển ứng dụng theo dõi chi phí và lập ngân sách tốt nhất trên App Store.";
+"upgrade_faq_developer_value" = "Budget Flow là một ứng dụng indie, được tôi, Fabian Hasse, thiết kế, phát triển và duy trì hoàn toàn. Tôi là nhà phát triển phần mềm với hơn 10 năm kinh nghiệm và làm việc với nhiều đam mê để tạo ra ứng dụng ngân sách tốt nhất cho bạn.";
 "upgrade_faq_free_use_title" = "Ứng dụng có bản miễn phí không?";
 "upgrade_faq_free_use_value" = "Có, bạn có thể sử dụng các chức năng cơ bản của ứng dụng, chẳng hạn như tạo giao dịch, hoàn toàn miễn phí.\n\nNgoài ra, ứng dụng còn cung cấp thời gian dùng thử cho phiên bản Premium để bạn có thể dùng thử trước trước khi quyết định mua hoặc đăng ký phiên bản Premium.";
 "upgrade_faq_security_title" = "Dữ liệu của tôi có an toàn không?";
-"upgrade_faq_security_value" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
+"upgrade_faq_security_value" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn.";
+"upgrade_faq_security_value_icloud_suffix" = " hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
 "upgrade_faq_why_subscription_title" = "Tại sao tôi phải đăng ký để có thể sử dụng phiên bản Premium?";
-"upgrade_faq_why_subscription_value" = "Mục tiêu của chúng tôi là phát triển một ứng dụng chất lượng cung cấp cho bạn các tính năng và cải tiến mới một cách thường xuyên. Tuy nhiên, để đạt được mục tiêu này, ứng dụng cần có doanh thu liên tục để tự cấp vốn và bền vững về mặt kinh tế.\n\nĐiều nhiều người không biết: Việc phát triển và duy trì một ứng dụng mất rất nhiều thời gian. Ví dụ: trong trường hợp của Budget Flow, phải mất gần hai năm và vài nghìn giờ làm việc từ ý tưởng đến phát triển và thử nghiệm trước khi phiên bản đầu tiên có thể được phát hành trên App Store.\n\nLà khách hàng, bạn được hưởng lợi đặc biệt từ các bản cập nhật và cải tiến thường xuyên thông qua mô hình đăng ký, cũng như hỗ trợ tốt để đảm bảo rằng bạn tiếp tục hài lòng. Bạn cũng có cơ hội dùng thử ứng dụng miễn phí trước để đảm bảo ứng dụng phù hợp với nhu cầu của bạn. Bạn có thể thay đổi hoặc hủy đăng ký bất kỳ lúc nào nếu thay đổi ý định.\n\nNhìn chung, mô hình đăng ký mang lại nhiều lợi ích cho bạn trải nghiệm người dùng tốt hơn thông qua cập nhật và hỗ trợ liên tục so với mua hàng một lần. Rất tiếc, về lâu dài, việc mua một lần sẽ không bền vững vì mô hình kinh doanh này yêu cầu người dùng mới phải tiếp tục mua ứng dụng để đảm bảo ứng dụng được tiếp tục phát triển.\n\nVì vậy, nếu bạn thích ứng dụng này, tôi sẽ rất vui nếu bạn ủng hộ ứng dụng để tôi có thể tiếp tục cung cấp cho bạn nhiều tính năng tuyệt vời hơn nữa trong tương lai! ❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow liên tục được phát triển, cải tiến và điều chỉnh để tương thích với các phiên bản hệ điều hành mới. Gói đăng ký giúp duy trì kinh phí cho công việc này lâu dài, để mang đến cho bạn các bản cập nhật thường xuyên, tính năng mới và dịch vụ hỗ trợ tốt.\n\nNếu không thích đăng ký, bạn cũng có thể mua phiên bản đầy đủ bằng một lần thanh toán. Mức giá mua một lần được đặt cao hơn vì đã bao gồm mọi bản cập nhật và dịch vụ hỗ trợ trong tương lai mà không cần thanh toán thêm.\n\nBạn có thể dùng thử miễn phí phiên bản đầy đủ trước khi quyết định và hủy đăng ký bất cứ lúc nào. Nếu yêu thích Budget Flow, việc mua ứng dụng sẽ giúp bạn ủng hộ quá trình phát triển độc lập của ứng dụng.";
 "upgrade_faq_multiple_devices_title" = "Tôi có thể dùng phiên bản Premium trên nhiều thiết bị không?";
 "upgrade_faq_multiple_devices_value" = "Có, bạn có thể sử dụng phiên bản Premium của Budget Flow trên tất cả các thiết bị Apple có cùng ID Apple. Vì ứng dụng được đồng bộ hóa qua iCloud nên bạn có thể tương tác giữa các thiết bị của mình và luôn có quyền truy cập vào dữ liệu cũng như cài đặt tài chính của mình.";
 "upgrade_faq_multiple_people_title" = "Tôi có thể sử dụng phiên bản Premium với nhiều người không?";
 "upgrade_faq_multiple_people_value" = "Có, bạn có thể chia sẻ giao dịch mua một lần cũng như đăng ký phiên bản Premium với tối đa năm người trong một nhóm gia đình. Tất cả những gì bạn phải làm là bật tính năng chia sẻ gia đình trong cài đặt hệ thống và thêm những người khác vào nhóm.";
 "upgrade_faq_cancel_subscription_title" = "Làm cách nào để hủy đăng ký của tôi?";
-"upgrade_faq_cancel_subscription_value" = "Bạn có thể hủy đăng ký của mình bất kỳ lúc nào bằng cách sử dụng ID Apple trong ứng dụng Cài đặt của thiết bị Apple.";
+"upgrade_faq_cancel_subscription_value" = "Bạn có thể hủy đăng ký của mình bất kỳ lúc nào bằng cách sử dụng ID %1$@ trong ứng dụng Cài đặt của thiết bị %1$@.";
 "upgrade_faq_subscription_data_loss_title" = "Dữ liệu của tôi có bị mất nếu tôi hủy đăng ký không?";
 "upgrade_faq_subscription_data_loss_value" = "Không. Mọi thứ bạn tạo khi sử dụng phiên bản Premium sẽ vẫn còn lại nếu bạn chuyển về phiên bản miễn phí.";
 "upgrade_faq_refund_title" = "Làm thế nào tôi có thể hoàn tiền sau khi đăng ký?";
-"upgrade_faq_refund_value" = "Các khoản thanh toán được thực hiện thông qua App Store chỉ được Apple hoàn lại. Để được hoàn tiền, bạn phải liên hệ với bộ phận Hỗ trợ của Apple trong vòng 14 ngày sau khi mua hàng.";
+"upgrade_faq_refund_value" = "Các khoản thanh toán được thực hiện thông qua %1$@ chỉ được %2$@ hoàn lại. Để được hoàn tiền, bạn phải liên hệ với bộ phận Hỗ trợ của %2$@ trong vòng 14 ngày sau khi mua hàng.";
 "upgrade_faq_switch_plan_title" = "Có thể chuyển từ đăng ký hàng tháng sang mua một lần sau này không?";
 "upgrade_faq_switch_plan_value" = "Có, bạn có thể chuyển từ đăng ký hàng tháng đang hoạt động sang mua một lần bất kỳ lúc nào bằng cách mua sản phẩm tương ứng trong ứng dụng. Tuy nhiên, hãy nhớ hủy đăng ký để không phải trả tiền nhiều lần sau này.";
 
@@ -1018,7 +1134,7 @@
 "alert_user_feedback_title" = "Bạn có thích ứng dụng này không?";
 
 "alert_user_feedback_like_title" = "Cảm ơn! 🎉";
-"alert_user_feedback_like_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong App Store. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
+"alert_user_feedback_like_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong %@. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
 "alert_user_feedback_rate_app_button" = "Đánh giá";
 "alert_user_feedback_maybe_later_button" = "Để sau";
 
@@ -1032,7 +1148,7 @@
 "progress_view_load_images_subtitle" = "Lưu ý: Nếu bạn sử dụng Thư viện ảnh iCloud, ảnh của bạn có thể mất một lúc để tải xuống.";
 
 "progress_view_load_documents_title" = "Đang tải Tài liệu...";
-"progress_view_load_documents_subtitle" = "Lưu ý: Nếu bạn đang sử dụng iCloud Driv, Tài liệu của bạn sẽ mất một lúc để tải xuống.";
+"progress_view_load_documents_subtitle" = "Lưu ý: Nếu bạn đang sử dụng iCloud Drive, Tài liệu của bạn sẽ mất một lúc để tải xuống.";
 
 "progress_view_import_csv_title" = "Đang nhập dữ liệu...";
 "progress_view_import_csv_subtitle" = "Vui lòng chờ...";
@@ -1144,10 +1260,10 @@
 "alert_confirm_delete_backupitem_title" = "Bạn có chắc chắn muốn xóa bản sao lưu này không?";
 "alert_confirm_delete_backupitem_button" = "Xoá bản sao lưu";
 
-"alert_confirm_delete_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn cũng có muốn xóa mục nhập trái ngược không?";
+"alert_confirm_delete_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn có muốn xóa cả giao dịch đối ứng không?";
 
-/* Updates */
-"alert_confirm_update_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn cũng có muốn cập nhật mục nhập trái ngược không?";
+/* Update */
+"alert_confirm_update_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn có muốn cập nhật cả giao dịch đối ứng không?";
 "alert_confirm_update_transaction_multiple_title" = "Giao dịch này thuộc về một nhóm. Bạn muốn lưu nó như thế nào?";
 "alert_confirm_update_transaction_single_button" = "Chỉ lưu lần này";
 "alert_confirm_update_transaction_all_button" = "Lần này và tương lai";
@@ -1174,6 +1290,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Đơn vị tiền mặc định";
+"favorite_currencies_section_title" = "Yêu thích";
 "suggested_currencies_section_title" = "Đề xuất";
 
 /* Messages */
@@ -1181,6 +1298,8 @@
 "currency_selection_search_placeholder_message" = "Tìm kiếm tên đơn vị tiền tệ hoặc tên viết tắt của nó";
 
 /* Buttons */
+"add_favorite_currency_button" = "Thêm vào yêu thích";
+"remove_favorite_currency_button" = "Xóa khỏi yêu thích";
 "change_default_currency_button" = "Thay đổi đơn vị tiền mặc định";
 
 /* Alert Views */
@@ -1205,7 +1324,7 @@
 "time_zone_selection_title" = "Múi giờ";
 
 /* Messages */
-"no_timezones_found_title" = "Không tìm thấy múi giờ nào";
+"no_time_zones_found_title" = "Không tìm thấy múi giờ nào";
 "time_zone_selection_search_placeholder_message" = "Tìm kiếm múi giờ của một quốc gia hoặc thành phố";
 
 
@@ -1275,7 +1394,7 @@
 "no_reminders_found_button_title" = "Lời nhắc mới";
 "reminders_search_placeholder_message" = "Tìm kiếm theo tiêu đề Lời nhắc";
 
-/* Value */
+/* Values */
 "balance" = "Số dư";
 
 
@@ -1289,7 +1408,7 @@
 "form_color_section_title" = "Màu";
 "form_icon_section_title" = "Biểu tượng";
 "form_assignment_section_title" = "Phân công";
-"form_miscellaneous_section_title" = "Điều khoản khác";
+"form_miscellaneous_section_title" = "Khác";
 
 /* Miscellaneous */
 "number_of_selected_items" = "%d đã chọn";
@@ -1401,7 +1520,7 @@
 "form_title_new_transfer" = "Chuyển khoản";
 
 /* Sections */
-"form_date_section_title" = "Quá hạn";
+"form_date_section_title" = "Đến hạn";
 "form_reminder_section_title" = "Lời nhắc";
 "form_location_section_title" = "Vị trí";
 "form_notes_section_title" = "Ghi chú";
@@ -1451,16 +1570,16 @@
 /* Buttons */
 "form_button_delete_transaction" = "Xóa giao dịch";
 "form_button_end_repetition_for_transaction" = "Kết thúc lặp lại";
-"form_button_clear_title" = "Di dời";
+"form_button_clear_title" = "Xóa";
 "form_button_today_title" = "Hôm nay";
 
 /* Miscellaneous */
 "receipt_total" = "Tổng cộng";
-"receipt_amount" = "Số lượng";
+"receipt_amount" = "Số tiền";
 "receipt_to_pay" = "Trả cho";
 
 /* Notifications */
-"transaction_notification_body" = "Số lượng* %@\nVào lúc: %@";
+"transaction_notification_body" = "Số tiền: %@\nNgày: %@";
 "transaction_notification_body_notes" = "Ghi chú: %@";
 
 
@@ -1491,21 +1610,23 @@
 
 /* Sections */
 "form_general_section_title" = "Tổng quan";
+"form_csv_date_format_suggestions_section_title" = "Gợi ý";
+"form_csv_date_format_other_section_title" = "Khác";
 
 /* Footer */
 "form_invalid_footer_title" = "Lỗi:";
 "form_invalid_amount_footer_title" = "Các giá trị cho \"%@\" không phải là số tiền hợp lệ.";
 "form_invalid_currency_footer_title" = "Các giá trị cho \"%@\" không phải là đơn vị tiền tệ hợp lệ.";
 "form_invalid_exchange_rate_footer_title" = "Các giá trị cho \"%@\" không phải là kiểu số hợp lệ.";
-"form_invalid_date_format_footer_title" = "The selected date and/or format is invalid.";
+"form_invalid_date_format_footer_title" = "Ngày và/hoặc định dạng đã chọn không hợp lệ.";
 "form_type_footer_title" = "Thông tin: Chọn \"%@\" để tính loại giao dịch dựa trên dấu của giá trị số tiền.";
 "form_date_format_footer_title" = "Ví dụ: %@";
 
 /* Items */
 "form_type_title" = "Loại";
-"form_amount_title" = "Số lượng";
-"form_source_currency_title" = "Source Currency";
-"form_target_currency_title" = "Target Currency";
+"form_amount_title" = "Số tiền";
+"form_source_currency_title" = "Tiền tệ nguồn";
+"form_target_currency_title" = "Tiền tệ đích";
 "form_budget_book_title" = "Sổ ngân sách";
 "form_notes_title" = "Ghi chú";
 "form_skip_zero_amounts_title" = "Bỏ qua số tiền \"0\"";
@@ -1537,7 +1658,7 @@
 "location_selection_searchbar_placeholder" = "Tìm kiếm";
 "location_selection_search_history_title" = "Gần đây";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Chọn";
 
 /* Alert Views */
@@ -1557,7 +1678,7 @@
 "alert_no_camera_title" = "Camera không hoạt động";
 "alert_no_camera_message" = "Có vẻ như camera trên thiết bị không hoạt động. Đây là điều bắt buộc để sử dụng tính năng này.";
 
-"alert_permissions_title" = "Almost there!";
+"alert_permissions_title" = "Sắp xong rồi!";
 "alert_permissions_activate_button" = "Kích hoạt ngay";
 "alert_permissions_cancel_button" = "Để sau";
 
@@ -1568,7 +1689,7 @@
 
 /* MARK: - Tips */
 "period_selection_tip_title" = "Thay đổi thời gian";
-"period_selection_tip_message" = "Nhấn vào đây để thay đổi khoảng thời gian hiển thị. Điều này ảnh hưởng đến tất cả các lượt xem (tổng quan, giao dịch và ngân sách).";
+"period_selection_tip_message" = "Nhấn vào đây để thay đổi khoảng thời gian hiển thị. Điều này ảnh hưởng đến tất cả các màn hình (tổng quan, giao dịch và ngân sách).";
 "interactive_charts_tip_title" = "Tương tác biểu đồ";
 "interactive_charts_tip_message" = "Vuốt sang trái hoặc phải để thay đổi biểu đồ hiện tại hoặc nhấn và giữ biểu đồ để xem các giá trị cho một ngày cụ thể.";
 "switch_budget_books_tip_title" = "Chuyển nhanh ngân sách";
@@ -1603,7 +1724,7 @@
 "default_category_group_name_mobility" = "Di chuyển";
 "default_category_name_car" = "Xe hơi";
 
-"default_category_group_name_groceries" = "Cửa hàng";
+"default_category_group_name_groceries" = "Thực phẩm";
 "default_category_name_supermarket" = "Siêu thị";
 "default_category_name_restaurant" = "Nhà hàng";
 "default_category_name_fast_food" = "Thức ăn nhanh";
@@ -1613,7 +1734,9 @@
 
 "default_category_group_name_miscellaneous" = "Danh mục khác";
 
-"default_reminder_title" = "Ghi lại chi phí";
+"default_reminder_expense_check_title" = "Bạn đã nhập hết chưa? Dành chút thời gian cho các khoản chi gần đây 📝";
+"default_reminder_weekly_review_title" = "Tuần của bạn thế nào? Xem tiền của bạn đã đi đâu 📊";
+"default_reminder_monthly_review_title" = "Một tháng mới bắt đầu. Đã đến lúc xem lại tài chính của bạn 📅";
 
 
 /* MARK: - Color Sections */
@@ -1655,7 +1778,7 @@
 "icon_section_health_title" = "Sức khoẻ";
 "icon_section_office_title" = "Văn phòng";
 "icon_section_arrows_title" = "Mũi tên";
-"icon_section_objects_title" = "Đổi tượng";
+"icon_section_objects_title" = "Đối tượng";
 "icon_section_people_title" = "Người";
 "icon_section_buildings_title" = "Kiến trúc";
 "icon_section_payment_methods_title" = "Phương thức thanh toán";
@@ -1663,333 +1786,333 @@
 
 /* MARK: - Icon Keywords */
 "icon_keyword_emoji" = "Emoji";
-"icon_keyword_tag" = "Tag";
-"icon_keyword_heart" = "Heart";
-"icon_keyword_star" = "Star";
-"icon_keyword_folder" = "Folder";
-"icon_keyword_bookmark" = "Bookmark";
-"icon_keyword_building" = "Building";
-"icon_keyword_house" = "House";
-"icon_keyword_lightbulb" = "Lightbulb";
-"icon_keyword_fan" = "Fan";
-"icon_keyword_lamp" = "Lamp";
-"icon_keyword_alarm_system" = "Alarm System";
+"icon_keyword_tag" = "Thẻ";
+"icon_keyword_heart" = "Trái tim";
+"icon_keyword_star" = "Ngôi sao";
+"icon_keyword_folder" = "Thư mục";
+"icon_keyword_bookmark" = "Dấu trang";
+"icon_keyword_building" = "Tòa nhà";
+"icon_keyword_house" = "Nhà";
+"icon_keyword_lightbulb" = "Bóng đèn";
+"icon_keyword_fan" = "Quạt";
+"icon_keyword_lamp" = "Đèn";
+"icon_keyword_alarm_system" = "Hệ thống báo động";
 "icon_keyword_webcam" = "Webcam";
 "icon_keyword_camera" = "Camera";
-"icon_keyword_door" = "Door";
-"icon_keyword_garage" = "Garage";
-"icon_keyword_window" = "Window";
-"icon_keyword_blinds" = "Blinds";
-"icon_keyword_roller" = "Roller";
-"icon_keyword_curtains" = "Curtains";
-"icon_keyword_air_purifier" = "Air Purifier";
-"icon_keyword_dehumidifier" = "Dehumidifier";
-"icon_keyword_humidifier" = "Humidifier";
-"icon_keyword_heater" = "Heater";
-"icon_keyword_air_conditioner" = "Air Conditioner";
-"icon_keyword_sprinkler" = "Sprinkler";
-"icon_keyword_trash" = "Trash Can";
-"icon_keyword_spigot" = "Faucet";
-"icon_keyword_shower" = "Shower";
-"icon_keyword_bathtub" = "Bathtub";
-"icon_keyword_pipe" = "Water Pipe";
-"icon_keyword_hifi_reveiver" = "Hifi System";
-"icon_keyword_video_projector" = "Video Projector";
-"icon_keyword_beamer" = "Beamer";
-"icon_keyword_wifi_router" = "Wifi Router";
+"icon_keyword_door" = "Cửa";
+"icon_keyword_garage" = "Nhà để xe";
+"icon_keyword_window" = "Cửa sổ";
+"icon_keyword_blinds" = "Rèm lá";
+"icon_keyword_roller" = "Rèm cuốn";
+"icon_keyword_curtains" = "Rèm cửa";
+"icon_keyword_air_purifier" = "Máy lọc không khí";
+"icon_keyword_dehumidifier" = "Máy hút ẩm";
+"icon_keyword_humidifier" = "Máy tạo ẩm";
+"icon_keyword_heater" = "Máy sưởi";
+"icon_keyword_air_conditioner" = "Máy điều hòa";
+"icon_keyword_sprinkler" = "Vòi phun nước";
+"icon_keyword_trash" = "Thùng rác";
+"icon_keyword_spigot" = "Vòi nước";
+"icon_keyword_shower" = "Vòi sen";
+"icon_keyword_bathtub" = "Bồn tắm";
+"icon_keyword_pipe" = "Ống nước";
+"icon_keyword_hifi_reveiver" = "Dàn âm thanh Hi-Fi";
+"icon_keyword_video_projector" = "Máy chiếu video";
+"icon_keyword_beamer" = "Máy chiếu";
+"icon_keyword_wifi_router" = "Bộ định tuyến Wi-Fi";
 "icon_keyword_internet" = "Internet";
-"icon_keyword_party" = "Party";
-"icon_keyword_balloon" = "Balloon";
-"icon_keyword_pan" = "Frying Pan";
-"icon_keyword_cooking" = "Cooking";
-"icon_keyword_kitchen" = "Kitchen";
-"icon_keyword_popcorn" = "Popcorn";
-"icon_keyword_cinema" = "Cinema";
-"icon_keyword_movie" = "Movie";
-"icon_keyword_food" = "Food";
-"icon_keyword_bed" = "Bed";
-"icon_keyword_bedroom" = "Bedroom";
-"icon_keyword_hotel" = "Hotel";
+"icon_keyword_party" = "Tiệc";
+"icon_keyword_balloon" = "Bóng bay";
+"icon_keyword_pan" = "Chảo";
+"icon_keyword_cooking" = "Nấu ăn";
+"icon_keyword_kitchen" = "Nhà bếp";
+"icon_keyword_popcorn" = "Bỏng ngô";
+"icon_keyword_cinema" = "Rạp chiếu phim";
+"icon_keyword_movie" = "Phim";
+"icon_keyword_food" = "Thức ăn";
+"icon_keyword_bed" = "Giường";
+"icon_keyword_bedroom" = "Phòng ngủ";
+"icon_keyword_hotel" = "Khách sạn";
 "icon_keyword_sofa" = "Sofa";
-"icon_keyword_couch" = "Couch";
-"icon_keyword_livingroom" = "Living Room";
-"icon_keyword_chair" = "Chair";
-"icon_keyword_armchair" = "Armchair";
-"icon_keyword_cabinet" = "Closet";
-"icon_keyword_fireplace" = "Fireplace";
-"icon_keyword_washer" = "Washer";
-"icon_keyword_dryer" = "Tumble Dryer";
-"icon_keyword_dishwasher" = "Dishwasher";
-"icon_keyword_oven" = "Oven";
-"icon_keyword_stove" = "Stove";
-"icon_keyword_microwave" = "Microwave";
-"icon_keyword_refrigerator" = "refrigerator";
-"icon_keyword_sink" = "Sink";
-"icon_keyword_toilet" = "Toilet";
-"icon_keyword_bathroom" = "Bathroom";
-"icon_keyword_tv_remote" = "Remote Control";
+"icon_keyword_couch" = "Ghế sofa";
+"icon_keyword_livingroom" = "Phòng khách";
+"icon_keyword_chair" = "Ghế";
+"icon_keyword_armchair" = "Ghế bành";
+"icon_keyword_cabinet" = "Tủ quần áo";
+"icon_keyword_fireplace" = "Lò sưởi";
+"icon_keyword_washer" = "Máy giặt";
+"icon_keyword_dryer" = "Máy sấy quần áo";
+"icon_keyword_dishwasher" = "Máy rửa bát";
+"icon_keyword_oven" = "Lò nướng";
+"icon_keyword_stove" = "Bếp";
+"icon_keyword_microwave" = "Lò vi sóng";
+"icon_keyword_refrigerator" = "Tủ lạnh";
+"icon_keyword_sink" = "Bồn rửa";
+"icon_keyword_toilet" = "Bồn cầu";
+"icon_keyword_bathroom" = "Phòng tắm";
+"icon_keyword_tv_remote" = "Điều khiển từ xa";
 "icon_keyword_tv" = "TV";
-"icon_keyword_person" = "Person";
-"icon_keyword_human" = "Human";
-"icon_keyword_airplane" = "Airplane";
-"icon_keyword_vacation" = "Vacation";
-"icon_keyword_car" = "Car";
-"icon_keyword_electric_car" = "Electric Car";
-"icon_keyword_charging_station" = "Charging Station";
-"icon_keyword_car_pool" = "Carpool";
-"icon_keyword_bus" = "Bus";
-"icon_keyword_tram" = "Train";
-"icon_keyword_railroad" = "Railroad";
-"icon_keyword_cablecar" = "Tram";
-"icon_keyword_ferry" = "Ferry";
-"icon_keyword_ship" = "Ship";
-"icon_keyword_truck" = "Truck";
-"icon_keyword_relocation" = "Relocation";
-"icon_keyword_bicycle" = "Bicycle";
-"icon_keyword_sport" = "Sport";
-"icon_keyword_scooter" = "Scooter";
-"icon_keyword_sailboat" = "Sailboat";
-"icon_keyword_fuel" = "Fuel";
-"icon_keyword_refuel" = "Refuel";
-"icon_keyword_gas_station" = "Gas Station";
-"icon_keyword_walking" = "Walking";
-"icon_keyword_running" = "Running";
-"icon_keyword_rugby" = "Rugby";
-"icon_keyword_badminton" = "Badminton";
+"icon_keyword_person" = "Người";
+"icon_keyword_human" = "Con người";
+"icon_keyword_airplane" = "Máy bay";
+"icon_keyword_vacation" = "Kỳ nghỉ";
+"icon_keyword_car" = "Ô tô";
+"icon_keyword_electric_car" = "Ô tô điện";
+"icon_keyword_charging_station" = "Trạm sạc";
+"icon_keyword_car_pool" = "Đi chung xe";
+"icon_keyword_bus" = "Xe buýt";
+"icon_keyword_tram" = "Tàu hỏa";
+"icon_keyword_railroad" = "Đường sắt";
+"icon_keyword_cablecar" = "Xe điện";
+"icon_keyword_ferry" = "Phà";
+"icon_keyword_ship" = "Tàu thủy";
+"icon_keyword_truck" = "Xe tải";
+"icon_keyword_relocation" = "Chuyển nhà";
+"icon_keyword_bicycle" = "Xe đạp";
+"icon_keyword_sport" = "Thể thao";
+"icon_keyword_scooter" = "Xe trượt";
+"icon_keyword_sailboat" = "Thuyền buồm";
+"icon_keyword_fuel" = "Nhiên liệu";
+"icon_keyword_refuel" = "Đổ nhiên liệu";
+"icon_keyword_gas_station" = "Trạm xăng";
+"icon_keyword_walking" = "Đi bộ";
+"icon_keyword_running" = "Chạy bộ";
+"icon_keyword_rugby" = "Bóng bầu dục";
+"icon_keyword_badminton" = "Cầu lông";
 "icon_keyword_tennis" = "Tennis";
-"icon_keyword_dancing" = "Dancing";
-"icon_keyword_skiing" = "Skiing";
-"icon_keyword_swimming" = "Swimming";
-"icon_keyword_skating" = "Skating";
-"icon_keyword_strengthtraining" = "Strength Training";
-"icon_keyword_gym" = "Gym";
+"icon_keyword_dancing" = "Khiêu vũ";
+"icon_keyword_skiing" = "Trượt tuyết";
+"icon_keyword_swimming" = "Bơi lội";
+"icon_keyword_skating" = "Trượt patin";
+"icon_keyword_strengthtraining" = "Tập sức mạnh";
+"icon_keyword_gym" = "Phòng tập";
 "icon_keyword_yoga" = "Yoga";
 "icon_keyword_bowling" = "Bowling";
-"icon_keyword_sportscourt" = "Sports Court";
-"icon_keyword_stadium" = "Stadium";
-"icon_keyword_soccer" = "Soccer";
+"icon_keyword_sportscourt" = "Sân thể thao";
+"icon_keyword_stadium" = "Sân vận động";
+"icon_keyword_soccer" = "Bóng đá";
 "icon_keyword_golf" = "Golf";
-"icon_keyword_baseball" = "Baseball";
-"icon_keyword_basketball" = "Basketball";
-"icon_keyword_volleyball" = "Volleyball";
-"icon_keyword_trophy" = "Trophy";
-"icon_keyword_medal" = "Medal";
-"icon_keyword_flag" = "Flag";
-"icon_keyword_race" = "Car Race";
-"icon_keyword_gamecontroller" = "Game Controller";
-"icon_keyword_videogames" = "Video Games";
-"icon_keyword_gaming" = "Gaming";
+"icon_keyword_baseball" = "Bóng chày";
+"icon_keyword_basketball" = "Bóng rổ";
+"icon_keyword_volleyball" = "Bóng chuyền";
+"icon_keyword_trophy" = "Cúp";
+"icon_keyword_medal" = "Huy chương";
+"icon_keyword_flag" = "Cờ";
+"icon_keyword_race" = "Đua ô tô";
+"icon_keyword_gamecontroller" = "Tay cầm chơi game";
+"icon_keyword_videogames" = "Trò chơi điện tử";
+"icon_keyword_gaming" = "Chơi game";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
 "icon_keyword_nintento_switch" = "Nintendo Switch";
-"icon_keyword_book" = "Book";
-"icon_keyword_books" = "Books";
-"icon_keyword_magazine" = "Magazine";
-"icon_keyword_reading" = "Reading";
-"icon_keyword_painting" = "Painting";
-"icon_keyword_drawing" = "Drawing";
-"icon_keyword_theater" = "Theatre";
-"icon_keyword_singing" = "Singing";
+"icon_keyword_book" = "Sách";
+"icon_keyword_books" = "Sách";
+"icon_keyword_magazine" = "Tạp chí";
+"icon_keyword_reading" = "Đọc sách";
+"icon_keyword_painting" = "Vẽ tranh";
+"icon_keyword_drawing" = "Vẽ";
+"icon_keyword_theater" = "Nhà hát";
+"icon_keyword_singing" = "Ca hát";
 "icon_keyword_karaoke" = "Karaoke";
-"icon_keyword_music" = "Music";
+"icon_keyword_music" = "Âm nhạc";
 "icon_keyword_spotify" = "Spotify";
 "icon_keyword_apple_music" = "Apple Music";
 "icon_keyword_piano" = "Piano";
 "icon_keyword_guitar" = "Guitar";
-"icon_keyword_rockband" = "Rockband";
-"icon_keyword_festival" = "Festival";
-"icon_keyword_tent" = "Tent";
-"icon_keyword_dice" = "Dice";
-"icon_keyword_boardgames" = "Board Games";
-"icon_keyword_gambling" = "Gambling";
+"icon_keyword_rockband" = "Ban nhạc rock";
+"icon_keyword_festival" = "Lễ hội";
+"icon_keyword_tent" = "Lều";
+"icon_keyword_dice" = "Xúc xắc";
+"icon_keyword_boardgames" = "Trò chơi bàn cờ";
+"icon_keyword_gambling" = "Cờ bạc";
 "icon_keyword_camera" = "Camera";
-"icon_keyword_photography" = "Photography";
-"icon_keyword_photo" = "Photo";
-"icon_keyword_world" = "World";
-"icon_keyword_globe" = "Globe";
-"icon_keyword_sun" = "Sun";
-"icon_keyword_summer" = "Summer";
-"icon_keyword_moon" = "Moon";
-"icon_keyword_stars" = "Stars";
-"icon_keyword_cloud" = "Clouds";
+"icon_keyword_photography" = "Nhiếp ảnh";
+"icon_keyword_photo" = "Ảnh";
+"icon_keyword_world" = "Thế giới";
+"icon_keyword_globe" = "Quả địa cầu";
+"icon_keyword_sun" = "Mặt trời";
+"icon_keyword_summer" = "Mùa hè";
+"icon_keyword_moon" = "Mặt trăng";
+"icon_keyword_stars" = "Các ngôi sao";
+"icon_keyword_cloud" = "Mây";
 "icon_keyword_icloud" = "iCloud";
-"icon_keyword_rain" = "Rain";
-"icon_keyword_flame" = "Flame";
-"icon_keyword_fire" = "Fire";
-"icon_keyword_snow" = "Snow";
-"icon_keyword_winter" = "Winter";
-"icon_keyword_bolt" = "Lightning";
-"icon_keyword_plug" = "Plug";
-"icon_keyword_electric" = "Electric";
-"icon_keyword_electrics" = "Electrics";
-"icon_keyword_electricity" = "Electricity";
-"icon_keyword_tornado" = "Tornado";
-"icon_keyword_sea" = "Sea";
-"icon_keyword_hare" = "Rabbit";
-"icon_keyword_rabbit" = "Rabbit";
-"icon_keyword_animal" = "Animal";
-"icon_keyword_tortoise" = "Tortoise";
-"icon_keyword_lizard" = "Lizard";
-"icon_keyword_bird" = "Bird";
-"icon_keyword_ant" = "Ant";
-"icon_keyword_ladybug" = "Bug";
-"icon_keyword_fish" = "Fish";
-"icon_keyword_pet" = "Pet";
-"icon_keyword_cat" = "Cat";
-"icon_keyword_dog" = "Dog";
-"icon_keyword_leaf" = "Leaf";
-"icon_keyword_plant" = "Plant";
-"icon_keyword_flower" = "Flower";
-"icon_keyword_eating" = "Eating";
-"icon_keyword_restaurant" = "Restaurant";
-"icon_keyword_drinking" = "Drinking";
+"icon_keyword_rain" = "Mưa";
+"icon_keyword_flame" = "Ngọn lửa";
+"icon_keyword_fire" = "Lửa";
+"icon_keyword_snow" = "Tuyết";
+"icon_keyword_winter" = "Mùa đông";
+"icon_keyword_bolt" = "Sét";
+"icon_keyword_plug" = "Phích cắm";
+"icon_keyword_electric" = "Điện";
+"icon_keyword_electrics" = "Thiết bị điện";
+"icon_keyword_electricity" = "Điện năng";
+"icon_keyword_tornado" = "Lốc xoáy";
+"icon_keyword_sea" = "Biển";
+"icon_keyword_hare" = "Thỏ";
+"icon_keyword_rabbit" = "Thỏ";
+"icon_keyword_animal" = "Động vật";
+"icon_keyword_tortoise" = "Rùa";
+"icon_keyword_lizard" = "Thằn lằn";
+"icon_keyword_bird" = "Chim";
+"icon_keyword_ant" = "Kiến";
+"icon_keyword_ladybug" = "Côn trùng";
+"icon_keyword_fish" = "Cá";
+"icon_keyword_pet" = "Thú cưng";
+"icon_keyword_cat" = "Mèo";
+"icon_keyword_dog" = "Chó";
+"icon_keyword_leaf" = "Lá";
+"icon_keyword_plant" = "Cây";
+"icon_keyword_flower" = "Hoa";
+"icon_keyword_eating" = "Ăn uống";
+"icon_keyword_restaurant" = "Nhà hàng";
+"icon_keyword_drinking" = "Uống";
 "icon_keyword_cafe" = "Cafe";
-"icon_keyword_coffee" = "Coffee";
-"icon_keyword_fastfood" = "Fast Food";
-"icon_keyword_picnic" = "Picnic";
-"icon_keyword_wine" = "Wine";
-"icon_keyword_birthday" = "Birthday";
-"icon_keyword_cake" = "Cake";
-"icon_keyword_carrot" = "Carrot";
-"icon_keyword_vegetables" = "Vegetables";
-"icon_keyword_bag" = "Bag";
-"icon_keyword_cone" = "Bag";
-"icon_keyword_shopping" = "Shopping";
-"icon_keyword_supermarket" = "Supermarket";
-"icon_keyword_groceries" = "Groceries";
-"icon_keyword_creditcard" = "Credit Card";
-"icon_keyword_giftcard" = "Gift Card";
-"icon_keyword_gift" = "Gift";
-"icon_keyword_clothes" = "Clothes";
-"icon_keyword_clothing" = "Clothing";
-"icon_keyword_globe" = "Globe";
+"icon_keyword_coffee" = "Cà phê";
+"icon_keyword_fastfood" = "Thức ăn nhanh";
+"icon_keyword_picnic" = "Dã ngoại";
+"icon_keyword_wine" = "Rượu vang";
+"icon_keyword_birthday" = "Sinh nhật";
+"icon_keyword_cake" = "Bánh ngọt";
+"icon_keyword_carrot" = "Cà rốt";
+"icon_keyword_vegetables" = "Rau củ";
+"icon_keyword_bag" = "Túi";
+"icon_keyword_cone" = "Túi mua sắm";
+"icon_keyword_shopping" = "Mua sắm";
+"icon_keyword_supermarket" = "Siêu thị";
+"icon_keyword_groceries" = "Thực phẩm";
+"icon_keyword_creditcard" = "Thẻ tín dụng";
+"icon_keyword_giftcard" = "Thẻ quà tặng";
+"icon_keyword_gift" = "Quà tặng";
+"icon_keyword_clothes" = "Quần áo";
+"icon_keyword_clothing" = "Trang phục";
+"icon_keyword_globe" = "Quả địa cầu";
 "icon_keyword_online" = "Online";
 "icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
-"icon_keyword_package" = "Package";
+"icon_keyword_package" = "Bưu kiện";
 "icon_keyword_apple" = "Apple";
-"icon_keyword_banknote" = "Banknote";
-"icon_keyword_refund" = "Refund";
-"icon_keyword_dollar" = "Dollars";
-"icon_keyword_cents" = "Cents";
+"icon_keyword_banknote" = "Tiền giấy";
+"icon_keyword_refund" = "Hoàn tiền";
+"icon_keyword_dollar" = "Đô la";
+"icon_keyword_cent" = "Xu";
 "icon_keyword_yen" = "Yen";
-"icon_keyword_pound" = "Pound";
-"icon_keyword_franc" = "Franconia";
+"icon_keyword_pound" = "Bảng Anh";
+"icon_keyword_franc" = "Franc";
 "icon_keyword_lira" = "Lira";
 "icon_keyword_ruble" = "Ruble";
 "icon_keyword_euro" = "Euro";
 "icon_keyword_rupee" = "Rupee";
 "icon_keyword_peso" = "Peso";
 "icon_keyword_bitcoin" = "Bitcoin";
-"icon_keyword_real" = "Brazilian Real";
-"icon_keyword_case" = "Suitcase";
-"icon_keyword_lungs" = "Lungs";
-"icon_keyword_allergens" = "Allergies";
-"icon_keyword_thermometer" = "Thermometer";
-"icon_keyword_bandage" = "Band-Aids";
-"icon_keyword_syringe" = "Syringe";
-"icon_keyword_medicine" = "Medicine";
-"icon_keyword_drug" = "Drug";
-"icon_keyword_facemask" = "Facemask";
-"icon_keyword_pills" = "Pills";
-"icon_keyword_cross" = "Cross";
-"icon_keyword_hospital" = "Hospital";
-"icon_keyword_ivfluid" = "Infusion";
-"icon_keyword_eye" = "Eye";
-"icon_keyword_brain" = "Brain";
-"icon_keyword_ear" = "Ear";
-"icon_keyword_mouth" = "Mouth";
+"icon_keyword_real" = "Real Brazil";
+"icon_keyword_case" = "Va li";
+"icon_keyword_lungs" = "Phổi";
+"icon_keyword_allergens" = "Dị ứng";
+"icon_keyword_thermometer" = "Nhiệt kế";
+"icon_keyword_bandage" = "Băng cá nhân";
+"icon_keyword_syringe" = "Ống tiêm";
+"icon_keyword_medicine" = "Thuốc";
+"icon_keyword_drug" = "Dược phẩm";
+"icon_keyword_facemask" = "Khẩu trang";
+"icon_keyword_pills" = "Thuốc viên";
+"icon_keyword_cross" = "Chữ thập";
+"icon_keyword_hospital" = "Bệnh viện";
+"icon_keyword_ivfluid" = "Truyền dịch";
+"icon_keyword_eye" = "Mắt";
+"icon_keyword_brain" = "Não";
+"icon_keyword_ear" = "Tai";
+"icon_keyword_mouth" = "Miệng";
 "icon_keyword_ecg" = "ECG";
-"icon_keyword_shield" = "Shield";
-"icon_keyword_insurance" = "Insurance";
-"icon_keyword_video_conference" = "Video Conference";
+"icon_keyword_shield" = "Khiên";
+"icon_keyword_insurance" = "Bảo hiểm";
+"icon_keyword_video_conference" = "Hội nghị truyền hình";
 "icon_keyword_facetime" = "Facetime";
-"icon_keyword_phone" = "Phone";
-"icon_keyword_mobilephone" = "Mobile";
+"icon_keyword_phone" = "Điện thoại";
+"icon_keyword_mobilephone" = "Điện thoại di động";
 "icon_keyword_iphone" = "iPhone";
 "icon_keyword_tablet" = "Tablet";
 "icon_keyword_ipad" = "iPad";
 "icon_keyword_macintosh" = "Macintosh";
 "icon_keyword_macbook" = "Macbook";
 "icon_keyword_imac" = "iMac";
-"icon_keyword_smartphone" = "Smartphone";
-"icon_keyword_calling" = "Calling";
-"icon_keyword_message" = "Message";
-"icon_keyword_envelope" = "Envelope";
-"icon_keyword_mail" = "Mail";
+"icon_keyword_smartphone" = "Điện thoại thông minh";
+"icon_keyword_calling" = "Gọi điện";
+"icon_keyword_message" = "Tin nhắn";
+"icon_keyword_envelope" = "Phong bì";
+"icon_keyword_mail" = "Thư";
 "icon_keyword_email" = "Email";
-"icon_keyword_chart" = "Chart";
-"icon_keyword_stocks" = "Stocks";
-"icon_keyword_investment" = "Investment";
-"icon_keyword_signature" = "Signature";
-"icon_keyword_contract" = "Contract";
-"icon_keyword_computer" = "Computer";
+"icon_keyword_chart" = "Biểu đồ";
+"icon_keyword_stocks" = "Cổ phiếu";
+"icon_keyword_investment" = "Đầu tư";
+"icon_keyword_signature" = "Chữ ký";
+"icon_keyword_contract" = "Hợp đồng";
+"icon_keyword_computer" = "Máy tính";
 "icon_keyword_pc" = "PC";
-"icon_keyword_display" = "Monitor";
-"icon_keyword_mouse" = "Mouse";
-"icon_keyword_keyboard" = "Keyboard";
-"icon_keyword_printer" = "Printer";
-"icon_keyword_scanner" = "Scanner";
+"icon_keyword_display" = "Màn hình";
+"icon_keyword_mouse" = "Chuột";
+"icon_keyword_keyboard" = "Bàn phím";
+"icon_keyword_printer" = "Máy in";
+"icon_keyword_scanner" = "Máy quét";
 "icon_keyword_pin" = "Pin";
-"icon_keyword_paperclip" = "Paperclip";
-"icon_keyword_clipboard" = "Clipboard";
-"icon_keyword_list" = "List";
+"icon_keyword_paperclip" = "Kẹp giấy";
+"icon_keyword_clipboard" = "Bảng kẹp";
+"icon_keyword_list" = "Danh sách";
 "icon_keyword_server" = "Server";
-"icon_keyword_simcard" = "Sim card";
-"icon_keyword_bank" = "Bank";
+"icon_keyword_simcard" = "Thẻ SIM";
+"icon_keyword_bank" = "Ngân hàng";
 "icon_keyword_apple_watch" = "Apple Watch";
-"icon_keyword_clock" = "Clock";
-"icon_keyword_alarm" = "Alarm";
-"icon_keyword_box" = "Box";
-"icon_keyword_wand" = "Magic Wand";
-"icon_keyword_hourglass" = "Hourglass";
-"icon_keyword_newspaper" = "Newspaper";
-"icon_keyword_wrench" = "Pliers";
-"icon_keyword_screwdriver" = "Screwdriver";
-"icon_keyword_hammer" = "Hammer";
-"icon_keyword_craftsman" = "Craftsman";
-"icon_keyword_tools" = "Tool";
-"icon_keyword_plumber" = "Plumber";
-"icon_keyword_construction_market" = "Construction Market";
-"icon_keyword_scissors" = "Scissors";
-"icon_keyword_hairdresser" = "Hairdresser";
-"icon_keyword_key" = "Key";
-"icon_keyword_school" = "School";
-"icon_keyword_university" = "University";
-"icon_keyword_study" = "Study";
-"icon_keyword_tuition_fees" = "Tuition Fees";
-"icon_keyword_flashlight" = "Flashlight";
-"icon_keyword_bell" = "Bell";
-"icon_keyword_subscription" = "Subscription";
-"icon_keyword_loupe" = "Magnifying Glass";
-"icon_keyword_binoculars" = "Binoculars";
-"icon_keyword_rosette" = "Rosette";
-"icon_keyword_crown" = "Crown";
-"icon_keyword_umbrella" = "Umbrella";
-"icon_keyword_beach" = "Beach";
-"icon_keyword_megaphone" = "Megaphone";
-"icon_keyword_advertisement" = "Advertisement";
-"icon_keyword_puzzle" = "Puzzle";
-"icon_keyword_lab" = "Lab";
-"icon_keyword_calendar" = "Calendar";
-"icon_keyword_rent" = "Rent";
-"icon_keyword_flat" = "Flat";
-"icon_keyword_work" = "Work";
-"icon_keyword_salary" = "Salary";
+"icon_keyword_clock" = "Đồng hồ";
+"icon_keyword_alarm" = "Báo thức";
+"icon_keyword_box" = "Hộp";
+"icon_keyword_wand" = "Đũa phép";
+"icon_keyword_hourglass" = "Đồng hồ cát";
+"icon_keyword_newspaper" = "Báo";
+"icon_keyword_wrench" = "Mỏ lết";
+"icon_keyword_screwdriver" = "Tua vít";
+"icon_keyword_hammer" = "Búa";
+"icon_keyword_craftsman" = "Thợ thủ công";
+"icon_keyword_tools" = "Dụng cụ";
+"icon_keyword_plumber" = "Thợ sửa ống nước";
+"icon_keyword_construction_market" = "Cửa hàng vật liệu xây dựng";
+"icon_keyword_scissors" = "Kéo";
+"icon_keyword_hairdresser" = "Thợ làm tóc";
+"icon_keyword_key" = "Chìa khóa";
+"icon_keyword_school" = "Trường học";
+"icon_keyword_university" = "Trường đại học";
+"icon_keyword_study" = "Học tập";
+"icon_keyword_tuition_fees" = "Học phí";
+"icon_keyword_flashlight" = "Đèn pin";
+"icon_keyword_bell" = "Chuông";
+"icon_keyword_subscription" = "Gói đăng ký";
+"icon_keyword_loupe" = "Kính lúp";
+"icon_keyword_binoculars" = "Ống nhòm";
+"icon_keyword_rosette" = "Hoa thị";
+"icon_keyword_crown" = "Vương miện";
+"icon_keyword_umbrella" = "Ô";
+"icon_keyword_beach" = "Bãi biển";
+"icon_keyword_megaphone" = "Loa phóng thanh";
+"icon_keyword_advertisement" = "Quảng cáo";
+"icon_keyword_puzzle" = "Trò chơi ghép hình";
+"icon_keyword_lab" = "Phòng thí nghiệm";
+"icon_keyword_calendar" = "Lịch";
+"icon_keyword_rent" = "Tiền thuê nhà";
+"icon_keyword_flat" = "Căn hộ";
+"icon_keyword_work" = "Công việc";
+"icon_keyword_salary" = "Tiền lương";
 "icon_keyword_corona" = "Corona";
-"icon_keyword_rainbow" = "Rainbow";
-"icon_keyword_glasses" = "Glasses";
-"icon_keyword_sunglasses" = "Sunglasses";
-"icon_keyword_discount" = "Discount";
-"icon_keyword_percent" = "Percent";
+"icon_keyword_rainbow" = "Cầu vồng";
+"icon_keyword_glasses" = "Kính mắt";
+"icon_keyword_sunglasses" = "Kính râm";
+"icon_keyword_discount" = "Giảm giá";
+"icon_keyword_percent" = "Phần trăm";
 "icon_keyword_wallet" = "Ví";
-"icon_keyword_convertible" = "Có thể chuyển đổi";
+"icon_keyword_convertible" = "Xe mui trần";
 "icon_keyword_drone" = "Máy bay không người lái";
 "icon_keyword_motorcycle" = "Xe máy";
 "icon_keyword_tire" = "Lốp xe";
 "icon_keyword_oilcan" = "Can dầu";
-"icon_keyword_keys" = "Phím";
-"icon_keyword_fire_denser" = "Bình chữa cháy";
+"icon_keyword_keys" = "Chìa khóa";
+"icon_keyword_fire_extinguisher" = "Bình chữa cháy";
 "icon_keyword_hockey" = "Khúc côn cầu";
 "icon_keyword_ice_hockey" = "Khúc côn cầu trên băng";
 "icon_keyword_ice_skating" = "Trượt băng";
@@ -2051,7 +2174,7 @@
 "search_category_group_parameter_summary" = "Tìm Nhóm với tên ${name} có trong ${budgetBook}";
 "search_category_title" = "Tìm Danh mục";
 "search_category_description" = "Tìm Danh mục cụ thể theo tên.";
-"search_category_parameter_summary" = "Tìm Danh mục với tên ${name} có trong ${categoryGroup} of ${budgetBook}";
+"search_category_parameter_summary" = "Tìm Danh mục với tên ${name} có trong ${categoryGroup} của ${budgetBook}";
 "search_payee_title" = "Tìm Người nhận";
 "search_payee_description" = "Tìm Người nhận cụ thể theo tên.";
 "search_payee_parameter_summary" = "Tìm Người nhận với tên ${name} có trong ${budgetBook}";
@@ -2076,7 +2199,7 @@
 "open_add_new_recurring_view_title" = "Thêm giao dịch định kỳ mới";
 "open_add_new_recurring_view_description" = "Mở ứng dụng để thêm giao dịch định kỳ mới.";
 "open_upcoming_transactions_view_title" = "Giao dịch theo kế hoạch";
-"open_upcoming_transactions_view_description" = "Mở ứng dụng để thêm giao dịch theo kế hoạch.";
+"open_upcoming_transactions_view_description" = "Mở màn hình giao dịch theo kế hoạch trong ứng dụng.";
 
 /* Show */
 "show_chart_title" = "Hiển thị biểu đồ";
@@ -2120,6 +2243,7 @@
 "date_property_title" = "Ngày";
 "category_property_title" = "Danh mục";
 "payee_property_title" = "Người nhận tiền";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Sổ ngân sách của tôi";

@@ -15,7 +15,7 @@
 			<key>one</key>
 			<string>dakika</string>
 			<key>other</key>
-			<string>dakikalar</string>
+			<string>dakika</string>
 		</dict>
 	</dict>
 	<key>hour</key>
@@ -31,7 +31,7 @@
 			<key>one</key>
 			<string>saat</string>
 			<key>other</key>
-			<string>saatler</string>
+			<string>saat</string>
 		</dict>
 	</dict>
 	<key>day</key>
@@ -47,7 +47,7 @@
 			<key>one</key>
 			<string>gün</string>
 			<key>other</key>
-			<string>günler</string>
+			<string>gün</string>
 		</dict>
 	</dict>
 	<key>week</key>
@@ -63,7 +63,7 @@
 			<key>one</key>
 			<string>hafta</string>
 			<key>other</key>
-			<string>haftalar</string>
+			<string>hafta</string>
 		</dict>
 	</dict>
 	<key>month</key>
@@ -79,7 +79,7 @@
 			<key>one</key>
 			<string>ay</string>
 			<key>other</key>
-			<string>aylar</string>
+			<string>ay</string>
 		</dict>
 	</dict>
 	<key>year</key>
@@ -95,7 +95,7 @@
 			<key>one</key>
 			<string>yıl</string>
 			<key>other</key>
-			<string>yıllar</string>
+			<string>yıl</string>
 		</dict>
 	</dict>
 	<key>number_of_transactions</key>
@@ -111,7 +111,7 @@
 			<key>one</key>
 			<string>%1$d işlem</string>
 			<key>other</key>
-			<string>%1$d işlemler</string>
+			<string>%1$d işlem</string>
 		</dict>
 	</dict>
 	<key>number_of_upcoming_transactions</key>
@@ -127,7 +127,7 @@
 			<key>one</key>
 			<string>%1$d planlı işlem</string>
 			<key>other</key>
-			<string>%1$d planlı işlemler</string>
+			<string>%1$d planlı işlem</string>
 		</dict>
 	</dict>
 	<key>number_of_reminded_transactions</key>
@@ -141,9 +141,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d hatırlatıcı işlem</string>
+			<string>%1$d hatırlatıcı içeren işlem</string>
 			<key>other</key>
-			<string>%1$d hatırlatıcı işlemler</string>
+			<string>%1$d hatırlatıcı içeren işlem</string>
 		</dict>
 	</dict>
 	<key>number_of_budgets</key>
@@ -159,7 +159,7 @@
 			<key>one</key>
 			<string>%1$d bütçe</string>
 			<key>other</key>
-			<string>%1$d bütçeler</string>
+			<string>%1$d bütçe</string>
 		</dict>
 	</dict>
 	<key>number_of_categories</key>
@@ -175,7 +175,7 @@
 			<key>one</key>
 			<string>%1$d kategori</string>
 			<key>other</key>
-			<string>%1$d kategoriler</string>
+			<string>%1$d kategori</string>
 		</dict>
 	</dict>
 	<key>number_of_attachments</key>
@@ -191,7 +191,7 @@
 			<key>one</key>
 			<string>%1$d ek</string>
 			<key>other</key>
-			<string>%1$d ekler</string>
+			<string>%1$d ek</string>
 		</dict>
 	</dict>
 	<key>repeats_every_day</key>

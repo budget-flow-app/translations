@@ -37,7 +37,7 @@
 "z0ovGL" = "Konfigurovať rozpočet";
 
 /* Descriptions */
-"pFbMvr" = "Tento widget zobrazuje tabuľku zostatkov na účtoch, aktuálny zostatok alebo rozpis príjmov a výdavkov za zvolené časové obdobie.";
+"pFbMvr" = "Tento widget zobrazuje graf zostatkov na účtoch, aktuálny zostatok alebo rozpis príjmov a výdavkov za zvolené časové obdobie.";
 "lMVOAh" = "Tento widget zobrazuje graf zostatku vášho účtu pre konkrétny účet a vybrané obdobie.";
 "S2zZlu" = "Tento widget zobrazuje súhrn zostatkov na účte, aktuálny zostatok alebo súčet príjmov a výdavkov za zvolené časové obdobie.";
 "ju8eTZ" = "Tento widget zobrazuje konkrétny rozpočet pre zvolené obdobie.";
@@ -47,7 +47,7 @@
 "p9tWSU" = "Otvorí zobrazenie pridania nových výdavkov v rámci aplikácie.";
 "UCPXGi" = "Otvorí zobrazenie pridania nového prenosu v rámci aplikácie.";
 "yC8ys5" = "Otvorí zobrazenie pridania nových opakovaných transakcií v rámci aplikácie.";
-"sqTaTl" = "Otvorí zobrazenie nadchádzajúce transakcie v rámci aplikácie.";
+"sqTaTl" = "Otvorí zobrazenie nadchádzajúcich transakcií v rámci aplikácie.";
 
 /* Overview Types */
 "hVyAjR" = "Čistá hodnota";
@@ -109,7 +109,7 @@
 "SiRH8S-89P1cU" = "Existuje ${count} možností zodpovedajúcich 'novému prevodu'.";
 "sEOquD" = "Opakujúce sa";
 "6vnhNE-sEOquD" = "Len na potvrdenie, chceli ste 'opakované'?";
-"SiRH8S-sEOquD" = "Existuje ${count} možností zodpovedajúcich 'recurring'.";
+"SiRH8S-sEOquD" = "Existuje ${count} možností zodpovedajúcich 'opakujúce sa'.";
 
 /* Period Types */
 "W8Xs6i" = "Aktuálny deň";

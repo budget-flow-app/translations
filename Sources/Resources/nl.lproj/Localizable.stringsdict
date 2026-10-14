@@ -223,7 +223,7 @@
 			<key>one</key>
 			<string>Herhaalt elke week op %2$@.</string>
 			<key>other</key>
-			<string>Herhaalt elke %1$d week op %2$@.</string>
+			<string>Herhaalt elke %1$d weken op %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Herhaalt elke maand op %2$@.</string>
+			<string>Herhaalt elke maand op de volgende dagen: %2$@.</string>
 			<key>other</key>
-			<string>Herhaalt elke %1$d maand op %2$@.</string>
+			<string>Herhaalt elke %1$d maanden op de volgende dagen: %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Herhaalt elke maand op %2$@ %3$@.</string>
+			<string>Herhaalt elke maand op de %2$@ %3$@.</string>
 			<key>other</key>
-			<string>Herhaalt elke %1$d maand op %2$@ %3$@.</string>
+			<string>Herhaalt elke %1$d maanden op de %2$@ %3$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Herhaalt elk jaar op %2$@.</string>
+			<string>Herhaalt elk jaar in %2$@.</string>
 			<key>other</key>
-			<string>Herhaalt elk %1$d jaar op %2$@.</string>
+			<string>Herhaalt elke %1$d jaar in %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Herhaalt elk jaar op %2$@ %3$@ %4$@.</string>
+			<string>Herhaalt elk jaar op de %2$@ %3$@ in %4$@.</string>
 			<key>other</key>
-			<string>Herhaalt elk %1$d jaar op %2$@ %3$@ %4$@.</string>
+			<string>Herhaalt elke %1$d jaar op de %2$@ %3$@ in %4$@.</string>
 		</dict>
 	</dict>
 </dict>

@@ -17,4 +17,4 @@
 "NSPhotoLibraryAddUsageDescription" = "Cấp quyền truy cập vào thư viện ảnh của bạn để tự động lưu hoá đơn đã chụp.";
 "NSFaceIDUsageDescription" = "Cấp quyền truy cập vào Face ID của bạn để có thể mở khoá Budget Flow mà không cần mật khẩu.";
 "NSTouchIDUsageDescription" = "Cấp quyền truy cập vào Touch ID của bạn để có thể mở khoá Budget Flow mà không cần mật khẩu.";
-"NSContactsUsageDescription" = "Cấp quyền truy cập vào danh bạ của bạn để có thể hiển thị tên và ảnh của những người mà bạn đã chia sẻ Ví.";
+"NSContactsUsageDescription" = "Quyền truy cập danh bạ được dùng để hiển thị tên và ảnh của những người mà bạn đã chia sẻ sổ ngân sách.";

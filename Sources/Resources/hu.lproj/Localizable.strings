@@ -9,24 +9,22 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Visszajelzés";
-"feedback_quick_action_subtitle" = "Kattintson ide, ha visszajelzést szeretne adni az alkalmazásról.";
-"income_quick_action_title" = "Új bevétel";
-"expense_quick_action_title" = "Új költség";
-"transfer_quick_action_title" = "Új átvitel";
-"recurring_quick_action_title" = "Ismétlődő";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Kötelező";
 "optional" = "Nem kötelező";
-"uncategorized" = "Nincs kategorizálva";
+
 "before" = "előtte";
+"uncategorized" = "Nincs kategorizálva";
 "account_reconcilation" = "Számlaegyeztetés";
+
 "evaluated" = "Értékelt";
 "not_evaluated" = "Nem értékelt";
+
 "share_participant_owner" = "Tulajdonos";
 "share_participant_you" = "Te";
 
@@ -37,17 +35,17 @@
 "account_type_savings" = "Takarékszámla";
 "account_type_credit_card" = "Hitelkártya";
 "account_type_investment" = "Befektetés";
-"account_type_precaution" = "Óvintézkedés";
-"account_type_liability" = "Felelősség";
-"account_type_business" = "Üzleti fiók";
+"account_type_long_term_savings" = "Óvintézkedés";
+"account_type_liability" = "Kötelezettség";
+"account_type_business" = "Üzleti számla";
 
 "account_type_payment_plural" = "Fizetési számlák";
 "account_type_savings_plural" = "Takarékszámlák";
 "account_type_credit_card_plural" = "Hitelkártyák";
 "account_type_investment_plural" = "Befektetések";
-"account_type_precaution_plural" = "Óvintézkedés";
+"account_type_long_term_savings_plural" = "Óvintézkedés";
 "account_type_liability_plural" = "Kötelezettségek";
-"account_type_business_plural" = "Üzleti fiókok";
+"account_type_business_plural" = "Üzleti számlák";
 
 "transaction_type_income" = "Jövedelem";
 "transaction_type_expense" = "Költség";
@@ -55,7 +53,10 @@
 
 "transaction_type_income_plural" = "Jövedelem";
 "transaction_type_expense_plural" = "Költségek";
-"transaction_type_transfer_plural" = "Átadások";
+"transaction_type_transfer_plural" = "Átutalások";
+
+"transaction_occurrence_type_one_time" = "Egyszeri";
+"transaction_occurrence_type_recurring" = "Ismétlődő";
 
 "payment_status" = "Állapot";
 "payment_status_completed" = "Befejezve";
@@ -80,7 +81,7 @@
 
 "group_option_day" = "Nap";
 "group_option_month" = "Hónap";
-"group_option_account" = "Fiók";
+"group_option_account" = "Számla";
 "group_option_category" = "Kategória";
 "group_option_category_group" = "Mappa";
 "group_option_type" = "Típus";
@@ -118,15 +119,15 @@
 
 "widget_type_chart_stack" = "Diagramok";
 "widget_type_suggestions" = "Javaslatok";
-"widget_type_distribution" = "Terjesztés";
+"widget_type_distribution" = "Megoszlás";
 "widget_type_balance" = "Egyenleg";
-"widget_type_savings_rate" = "Mentett";
+"widget_type_savings_rate" = "Megtakarítva";
 "widget_type_upcoming_transactions" = "Tervezett";
 "widget_type_participants" = "Emberek";
 "widget_type_budget" = "Költségkeret";
 "widget_type_pending_transactions" = "Függőben";
 "widget_type_total_assets" = "Eszközök";
-"widget_type_forecast" = "Prognoză";
+"widget_type_forecast" = "Előrejelzés";
 
 "chart_type_bar" = "Oszlopdiagram";
 "chart_type_pie" = "Kördiagram";
@@ -141,14 +142,17 @@
 "subscription_period_days" = "napok";
 "subscription_period_month" = "Hónap";
 "subscription_period_months" = "Hónapok";
-"subscription_period_year" = "ev";
+"subscription_period_year" = "év";
 "subscription_period_years" = "Évek";
 
 "overview_period_type_current_week" = "Ezen a héten";
 
+"quick_action_type_feedback_title" = "Visszajelzés";
+"quick_action_type_feedback_subtitle" = "Kattintson ide, ha visszajelzést szeretne adni az alkalmazásról.";
+
 "quick_action_type_new_income" = "Új bevétel";
 "quick_action_type_new_expense" = "Új költség";
-"quick_action_type_new_transfer" = "Új átvitel";
+"quick_action_type_new_transfer" = "Új átutalás";
 "quick_action_type_new_recurring" = "Ismétlődő";
 
 "suggestion_type_add_income_transaction" = "Új bevétel";
@@ -204,8 +208,8 @@
 
 
 /* MARK: - Menu Bar */
-"accounts_menu_title" = "Fiókok";
-"show_accounts_menu_title" = "Összes fiók megjelenítése";
+"accounts_menu_title" = "Számlák";
+"show_accounts_menu_title" = "Összes számla megjelenítése";
 "budgets_menu_title" = "Költségkeretek";
 "show_budgets_menu_title" = "Összes költségvetés megjelenítése";
 "transactions_menu_title" = "Tranzakciók";
@@ -216,7 +220,7 @@
 
 /* MARK: - Sidebar Menu */
 "menu" = "Menü";
-"menu_accounts_section" = "Fiókok";
+"menu_accounts_section" = "Számlák";
 "menu_categories_section" = "Kategóriák";
 "menu_selected_budget_book_title" = "Kiválasztva";
 
@@ -232,9 +236,10 @@
 "add_button" = "Hozzáadás";
 "edit_button" = "Szerkesztés";
 "copy_button" = "Másolás";
-"edit_account_button" = "Fiók szerkesztése";
+"refund_button" = "Visszatérítés";
+"edit_account_button" = "Számla szerkesztése";
 "edit_category_button" = "Kategória szerkesztése";
-"edit_category_group_button" = "Mappa szerkesztése";
+"edit_categorygroup_button" = "Mappa szerkesztése";
 "edit_payee_button" = "Kedvezményezett szerkesztése";
 "edit_tag_button" = "Címke szerkesztése";
 "edit_budget_button" = "Költségkeret szerkesztése";
@@ -259,7 +264,7 @@
 "do_not_show_again_button" = "Ne jelenjen meg újra";
 "mark_as_paid_button" = "Fizetés befejezve";
 "mark_as_pending_button" = "Függőben lévő fizetés";
-"show_contra_entry_button" = "Számláló bejegyzés";
+"show_contra_entry_button" = "Ellentétel megjelenítése";
 
 "save_changes_button" = "Változások mentése";
 "discard_changes_button" = "Változások elvetése";
@@ -289,6 +294,8 @@
 
 "open_button" = "Megnyitás";
 "open_folder_button" = "Mappa megnyitása";
+"local_folder_button" = "Helyi mappa";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Megnyitás böngészőben";
 
 "show_more_button" = "Továbbiak megjelenítése";
@@ -299,7 +306,7 @@
 
 "add_income_transaction_button" = "Új bevétel";
 "add_expense_transaction_button" = "Új költség";
-"add_transfer_transaction_button" = "Új átvitel";
+"add_transfer_transaction_button" = "Új átutalás";
 
 "manage_budget_books_button" = "Költségvetési könyvek kezelése";
 "select_budget_book_button" = "Költségvetési könyv kiválasztása";
@@ -311,7 +318,6 @@
 "get_started_button" = "Kezdő lépések";
 
 "show_transactions_button" = "Tranzakciók megjelenítése";
-"show_in_app_store_button" = "Megjelenítés az App Store-ban";
 
 "flip_values_button" = "Felcserél ⇅";
 
@@ -329,7 +335,7 @@
 "alert_cloud_share_unknown_error_message" = "A megosztást nem sikerült befejezni, mert hiba történt. Valószínűleg nincs elég hely az iCloudban. Kérjük, szabadítson fel egy kis helyet, és próbálja újra.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Keresés";
 "filter_title" = "Szűrő";
@@ -339,6 +345,31 @@
 "search_suggestions_section_title" = "Javaslatok";
 
 
+/* MARK: - Transaction Filter View */
+/* Sections */
+"transaction_filter_general_section_title" = "Általános";
+"transaction_filter_assignment_section_title" = "Hozzárendelés";
+
+/* Items */
+"transaction_filter_type_title" = "Típus";
+"transaction_filter_occurrence_type_title" = "Ismétlés";
+"transaction_filter_amount_title" = "Összeg";
+"transaction_filter_date_title" = "Dátum";
+"transaction_filter_status_title" = "Állapot";
+
+"transaction_filter_accounts_title" = "Számlák";
+"transaction_filter_categories_title" = "Kategóriák";
+"transaction_filter_payees_title" = "Kedvezményezettek";
+"transaction_filter_tags_title" = "Címkék";
+"transaction_filter_people_title" = "Személyek";
+
+"transaction_filter_all_title" = "Összes";
+"transaction_filter_any_title" = "Bármely";
+
+/* Formats */
+"transaction_filter_range_format" = "%@–%@";
+
+
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Időszak";
@@ -346,8 +377,8 @@
 "period_selection_current_month_title" = "Aktuális hónap";
 
 /* Items */
-"from_title" = "Feladó";
-"to_title" = "Cél";
+"from_title" = "Kezdete";
+"to_title" = "Vége";
 
 
 /* MARK: - Dashboard View */
@@ -409,17 +440,6 @@
 "recurring_transactions_info_title" = "Leírás";
 "recurring_transactions_info_description" = "Hozzon létre ismétlődő tranzakciókat, hogy azok automatikusan hozzáadódjanak az alkalmazáshoz, amikor esedékesek.";
 
-/* Sections */
-"account_filter_section_title" = "Fiók";
-"category_filter_section_title" = "Kategória";
-"payee_filter_section_title" = "Kedvezett";
-"tag_filter_section_title" = "Címke";
-"user_filter_section_title" = "Személy";
-"payment_status_filter_section_title" = "Kifizetés";
-"transaction_type_filter_section_title" = "Típus";
-"date_range_filter_section_title" = "Dátum";
-"amount_range_filter_section_title" = "Összeg";
-
 /* Messages */
 "no_transactions_title" = "Nincs tranzakció";
 "no_transactions_title_short" = "Nincs";
@@ -443,7 +463,7 @@
 "alert_confirm_add_next_upcoming_transaction_message" = "Biztosan hozzáadja ezt a tervezett tranzakciót most?";
 
 /* Miscellaneous */
-"payed_by_and_modified_at" = "Által fizetett %@\nUtolsó módosítás: %@";
+"payed_by_and_modified_at" = "Fizette: %@\nUtolsó módosítás: %@";
 "modified_at" = "Utolsó módosítás: %@";
 "average_per_transaction" = "Ø tranzakciónként";
 "average_per_day" = "Ø naponta";
@@ -458,7 +478,7 @@
 "user_has_no_budgets_title" = "Nincs költségkerete.";
 "user_is_within_budget_title" = "A költségkereten belül van! 🎉";
 "user_was_within_budget_title" = "A költségkereten belül volt! 🎉";
-"user_is_not_within_budget_title" = "Ön %d-kal túllépte a költségkeretet 😢";
+"user_is_not_within_budget_title" = "Túllépett költségkeretek: %d 😢";
 "user_is_not_within_budgets_title" = "Túllépte %d költségkeretet 😢";
 
 /* Messages */
@@ -527,7 +547,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Köszönjük, hogy a teljes verziót használja!";
-"support_setting_footer_title" = "Bármilyen kérdése vagy ötlete van? Írjon üzenetet vagy pozitív véleményt az App Store-ban! Visszajelzése nagyon motiváló, és segít az alkalmazás fejlesztésében.";
+"support_setting_footer_title" = "Bármilyen kérdése vagy ötlete van? Írjon üzenetet vagy pozitív véleményt az %@-ban! Visszajelzése nagyon motiváló, és segít az alkalmazás fejlesztésében.";
 
 /* Buttons */
 "share_budgetbook_button" = "Költségvetési könyv megosztása";
@@ -537,7 +557,7 @@
 "reset_app_button" = "Alkalmazás visszaállítása";
 
 /* General Settings */
-"accounts_setting_title" = "Fiókok kezelése";
+"accounts_setting_title" = "Számlák kezelése";
 "categories_setting_title" = "Kategóriák kezelése";
 "payees_setting_title" = "Kedvezményezettek kezelése";
 "tags_setting_title" = "Címkék kezelése";
@@ -545,13 +565,13 @@
 
 /* Upgrade Settings */
 "upgrade_setting_title" = "A teljes verzió feloldása 🚀";
-"upgrade_setting_description" = "Feloldja fel a teljes verziót most, és élvezze a további kiegészítő funkciók előnyeit!";
+"upgrade_setting_description" = "Oldja fel most a teljes verziót, és élvezze a további funkciók előnyeit!";
 
 /* Support Settings */
 "share_app_setting_title" = "Ismerősök tájékoztatása";
 "translate_app_setting_title" = "Segítség a fordításhoz";
 "help_center_setting_title" = "Súgó (🇬🇧)";
-"feature_roadmap_setting_title" = "Javaslat szolgáltatás";
+"feature_roadmap_setting_title" = "Funkció javaslata";
 "rate_app_setting_title" = "Alkalmazás értékelése";
 
 /* Legal Settings */
@@ -591,81 +611,100 @@
 "alert_translate_app_email" = "📬 E-Mail-en keresztül";
 
 "alert_contact_developer_title" = "Miről szól a kérése?";
-"alert_contact_developer_feature_request" = "💡 Javaslat funkció";
+"alert_contact_developer_feature_request" = "💡 Funkció javaslata";
 "alert_contact_developer_bug_report" = "🐞 Hibajelentés";
 "alert_contact_developer_other" = "📬 Egyéb (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Leírás";
-"appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének vagy kiemelő színének módosításával.";
+"appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének módosításával.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Téma";
-"appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
-"appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";
 "appearance_accent_color_setting_section_title" = "Kiemelési szín";
-"appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
 "appearance_app_icon_setting_section_title" = "Alkalmazásikon";
 
-/* Sync & Data Settings */
-"sync_and_data_setting_info_title" = "Leírás";
-"sync_and_data_setting_info_description" = "Áttekintést kaphat az aktuális szinkronizálási állapotról, és importálhat vagy exportálhat adatokat egy CSV-fájl segítségével.";
+/* Options */
+"appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
+"appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";
 
+/* Footer */
+"appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
+
+
+/* MARK: - Sync & Data Settings View */
+/* Info */
+"sync_and_data_setting_info_title" = "Leírás";
+"sync_and_data_setting_info_description" = "Áttekintést kaphat a szinkronizálási állapotról, kezelheti a biztonsági mentéseit, vagy importálhatja és exportálhatja adatait egy CSV-fájl segítségével.";
+
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Jelzi, hogy az iClouddal való szinkronizálás sikeres volt-e, vagy hiba történt.";
-"sync_and_data_setting_cloud_sync_status_title" = "Szinkronizálási állapot";
 "backup_setting_section_title" = "Biztonsági másolatok";
-"backup_setting_footer_title" = "A biztonsági mentések és a biztonsági mentési beállítások kezelése.";
-"backup_setting_manage_backups_title" = "Kezelés";
 "sync_and_data_csv_setting_section_title" = "CSV-adatok";
-"sync_and_data_csv_setting_footer_title" = "Importálja vagy exportálja tranzakcióit CSV-fájl segítségével.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Szinkronizálási állapot";
+"backup_setting_manage_backups_title" = "Kezelés";
 "sync_and_data_setting_csv_import_title" = "Importálás";
 "sync_and_data_setting_csv_export_title" = "Exportálás";
 "sync_and_data_setting_get_csv_template_title" = "Sablon letöltése";
 
+/* Buttons */
 "clear_cache_button" = "Gyorsítótár törlése";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Jelzi, hogy az iClouddal való szinkronizálás sikeres volt-e, vagy hiba történt.";
+"backup_setting_footer_title" = "A biztonsági mentések és a biztonsági mentési beállítások kezelése.";
+"sync_and_data_csv_setting_footer_title" = "Importálja vagy exportálja tranzakcióit CSV-fájl segítségével.";
 "cache_setting_footer_title" = "Információ: A gyorsítótár törlésével az alkalmazás dokumentumkönyvtárában lévő összes fájl törlődik (beleértve a biztonsági másolatokat is).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Az importálás sikeres 🎉";
 "alert_csv_import_successful_message" = "Összesen %d/%d tranzakció került importálásra.%@";
 "alert_csv_import_skipped_message" = " Emiatt %d tranzakció kimaradt.";
 "alert_csv_import_error_message" = "%d/%d tranzakció sikeres importálása sikertelen.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Kérjük, ellenőrizze a következő mezőket a CSV-fájlban: %@.";
-
 "alert_csv_export_successful_title" = "Az exportálás sikeres 🎉";
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
-/* Cloud Settings */
+"alert_reset_app_title" = "Alkalmazás visszaállítása";
+"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az összes adatát.";
+
+/* Progress */
+"alert_csv_export_progress_title" = "Exportálás";
+"csv_export_progress_preparing" = "Exportálás előkészítése";
+"csv_export_progress_transactions" = "Tranzakciók";
+"csv_export_progress_finishing" = "Exportálás befejezése";
+
+"alert_app_reset_progress_title" = "Alkalmazás visszaállítása";
+"app_reset_progress_preparing" = "Alkalmazás visszaállításának előkészítése";
+"app_reset_progress_deleting_existing_notifications" = "Meglévő értesítések törlése";
+"app_reset_progress_deleting_existing_data" = "Meglévő adatok törlése";
+"app_reset_progress_deleting_transactions" = "Tranzakciók törlése";
+"app_reset_progress_deleting_transaction_groups" = "Tranzakciócsoportok törlése";
+"app_reset_progress_deleting_reminders" = "Emlékeztetők törlése";
+"app_reset_progress_deleting_budgets" = "Költségvetések törlése";
+"app_reset_progress_deleting_tags" = "Címkék törlése";
+"app_reset_progress_deleting_payees" = "Kedvezményezettek törlése";
+"app_reset_progress_deleting_categories" = "Kategóriák törlése";
+"app_reset_progress_deleting_category_groups" = "Mappák törlése";
+"app_reset_progress_deleting_accounts" = "Számlák törlése";
+"app_reset_progress_deleting_budget_books" = "Költségvetési könyvek törlése";
+"app_reset_progress_deleting_existing_settings" = "Meglévő beállítások törlése";
+"app_reset_progress_finishing" = "Alkalmazás visszaállításának befejezése";
+
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Leírás";
 "cloud_setting_info_description" = "A következő nézet részletesebb áttekintést nyújt az iCloud jelenlegi szinkronizálási állapotáról, és segít a hibaelhárításban.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Hálózat";
 "cloud_setting_network_status_success_value" = "Internetkapcsolat elérhető";
 "cloud_setting_network_status_error_value" = "Nincs internetkapcsolat";
@@ -682,26 +721,83 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Kérjük, várjon...";
 "cloud_setting_number_of_transactions_error_title" = "Hiba";
 
+/* Buttons */
 "import_from_cloud_button" = "Letöltés iCloudból";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Ha adataid nem vagy nem teljesen szinkronizálódtak az iClouddal, itt manuálisan indíthatod a szinkronizálást.";
 
-/* Backup Settings */
+
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Leírás";
 "backup_setting_info_description" = "Ha engedélyezve van, a Budget Flow rendszeresen biztonsági másolatot készít az adatokról, így bármikor visszaállíthatja az alkalmazást egy korábbi állapotba.";
 
-"backup_general_setting_section_title" = "Általános";
-"backup_recent_backups_setting_section_title" = "Legutóbbi biztonsági másolatok";
-"backup_setting_use_automatic_backups_title" = "Automatikus biztonsági mentés";
-"backup_setting_create_backup_title" = "Biztonsági másolat létrehozása";
+/* Sections */
+"backup_setting_general_section_title" = "Általános";
+"backup_setting_recent_section_title" = "Legutóbbi biztonsági másolatok";
+"backup_setting_restore_external_backup_title" = "Külső mentés visszaállítása";
+"backup_service_error_icloud_drive_unavailable" = "Az iCloud Drive nem érhető el.";
+"backup_service_error_unsupported_version" = "Ez a biztonsági mentés nem támogatott verziót használ: %d.";
+"backup_service_error_missing_binary_file" = "Ebből a biztonsági mentésből hiányzik egy szükséges fájl: %@.";
+"backup_service_error_could_not_create_backup_directory" = "A biztonsági mentések mappája nem hozható létre.";
+"backup_service_error_could_not_create_backup_archive" = "A biztonsági mentés archívuma nem hozható létre.";
+"backup_service_error_invalid_backup_archive" = "A kiválasztott fájl nem érvényes biztonsági mentés.";
 
-"alert_restore_backup_title" = "Visszaállítja ezt a biztonsági másolatot?";
-"alert_restore_backup_message" = "A biztonsági mentések visszaállítása jelenleg egy kísérleti funkció. Törli az aktuális adatokat, és felülírja azokat a kiválasztott biztonsági másolattal.\n\nEzt követően az alkalmazás automatikusan bezárul.\n\nFigyelmeztetés: Ez a folyamat nem vonható vissza. !";
+/* Titles */
+"backup_setting_use_automatic_backups_title" = "Automatikus biztonsági mentés";
+"backup_setting_back_up_to_icloud_drive_title" = "Biztonsági mentés az iCloud Drive-ra";
+"backup_setting_keep_backups_title" = "Biztonsági mentések megőrzése";
+"backup_setting_create_backup_title" = "Biztonsági másolat létrehozása";
+"backup_setting_no_recent_backups_title" = "Nincs elérhető biztonsági mentés";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
+"backup_setting_keep_backups_last_5_title" = "Utolsó 5";
+"backup_setting_keep_backups_last_10_title" = "Utolsó 10";
+"backup_setting_keep_backups_last_20_title" = "Utolsó 20";
+"backup_setting_keep_backups_last_30_title" = "Utolsó 30";
+"backup_setting_keep_backups_all_title" = "Összes";
+
+/* Alert Views */
+"backup_setting_delete_backup_alert_title" = "Biztonsági mentés törlése";
+"backup_setting_delete_backup_alert_message" = "Biztosan törölni szeretné ezt a biztonsági mentést?";
+"backup_setting_restore_success_title" = "Biztonsági mentés visszaállítva";
+"backup_setting_restore_success_message" = "A kiválasztott biztonsági mentés vissza lett állítva.";
+"backup_setting_error_title" = "A biztonsági mentés sikertelen";
+"backup_setting_icloud_drive_unavailable_error" = "Az iCloud Drive nem érhető el ezen az eszközön.";
+"backup_setting_could_not_create_backup_directory_error" = "A biztonsági mentések mappája nem hozható létre.";
+"alert_restore_backup_title" = "Biztonsági mentés visszaállítása";
+"alert_restore_backup_message" = "Biztosan vissza szeretné állítani ezt a biztonsági mentést?\n\nEz törli a jelenlegi adatait, és lecseréli őket a kiválasztott biztonsági mentés adataira.\n\nFigyelmeztetés: Ez a művelet nem vonható vissza!";
 "alert_restore_backup_button" = "Biztonsági másolat visszaállítása";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Biztonsági mentés visszaállítása";
+"backup_restore_progress_preparing" = "Biztonsági mentés előkészítése";
+"backup_restore_progress_validating" = "Biztonsági mentés ellenőrzése";
+"backup_restore_progress_reading_data" = "Biztonsági mentés adatainak olvasása";
+"backup_restore_progress_deleting_existing_data" = "Meglévő adatok törlése";
+"backup_restore_progress_finishing" = "Visszaállítás befejezése";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Költségvetési könyvek";
+"backup_restore_progress_accounts" = "Számlák";
+"backup_restore_progress_category_groups" = "Mappa";
+"backup_restore_progress_categories" = "Kategóriák";
+"backup_restore_progress_payees" = "Kedvezményezettek";
+"backup_restore_progress_tags" = "Címkék";
+"backup_restore_progress_budgets" = "Költségvetések";
+"backup_restore_progress_transaction_groups" = "Tranzakciócsoportok";
+"backup_restore_progress_transactions" = "Tranzakciók";
+"backup_restore_progress_reminders" = "Emlékeztetők";
+
+
+/* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Leírás";
 "advanced_setting_info_description" = "Végezze el további beállításokat az alkalmazás konfigurálásához.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Biztonság";
 "advanced_view_setting_section_title" = "Megjelenítés";
 "advanced_sidebar_setting_section_title" = "Oldalsáv";
@@ -710,32 +806,27 @@
 "advanced_input_setting_section_title" = "Bemenet";
 "advanced_other_setting_section_title" = "Egyéb";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Jelszó használata";
 "advanced_setting_use_title" = "A %@ használata";
 "advanced_setting_auto_lock_title" = "Kód kérése";
 
+/* View */
 "advanced_setting_chart_type_title" = "Diagramtípus";
-"advanced_setting_show_frequently_used_items_title" = "Gyakori kategóriák és címkék megjelenítése";
-"advanced_setting_show_frequently_used_items_description" = "Gyakran használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
+"advanced_setting_show_most_used_items_title" = "Leggyakrabban használt kategóriák és címkék megjelenítése";
+"advanced_setting_show_most_used_items_description" = "Leggyakrabban használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Leggyakrabban használt kategóriák és címkék eltávolítása a csoportokból";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Eltávolítja a leggyakrabban használt kategóriákat és címkéket a szokásos csoportjaikból a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
 "advanced_setting_show_notes_in_title_title" = "Jegyzetek megjelenítése kategória helyett";
 "advanced_setting_show_notes_in_title_description" = "A tranzakciók kategórianév helyett a megjegyzések tartalmát jelenítse meg.";
 "advanced_setting_start_day_of_month_title" = "A hónap kezdő napja";
 "advanced_setting_start_day_of_month_description" = "Adja meg minden hónap kezdő napját, hogy a jelentések, tranzakciók és költségvetések megfelelően kerüljenek kiszámításra.";
 "advanced_setting_configure_transaction_title_title" = "Tranzakció címe";
 "advanced_setting_configure_transaction_subtitle_title" = "Tranzakció alcím";
-
 "advanced_setting_configure_transaction_title_info_title" = "Leírás";
-"advanced_setting_configure_transaction_title_info_description" = "Állítsa be a tranzakció címében megjelenítendő tételek sorrendjét. Ha egy tétel hiányzik, a rendszer automatikusan a következőt használja a rendelésben.";
+"advanced_setting_configure_transaction_title_info_description" = "Állítsa be a tranzakció címében megjelenítendő tételek sorrendjét. Ha egy tétel hiányzik, a rendszer automatikusan a következőt használja a sorrendben.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Fiókok megjelenítése az oldalsávon";
-"advanced_setting_show_accounts_in_sidebar_description" = "A fiókok listájának megjelenítése az oldalsávon.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Csoportos fiókok az oldalsávon";
-"advanced_setting_group_accounts_in_sidebar_description" = "Csoportosítsa fiókjait az oldalsávon típus szerint.";
-"advanced_setting_show_categories_in_sidebar_title" = "Kategóriák megjelenítése az oldalsávon";
-"advanced_setting_show_categories_in_sidebar_description" = "A kategóriák listájának megjelenítése az oldalsávon.";
-"advanced_setting_group_categories_in_sidebar_title" = "Kategóriák csoportosítása az oldalsávban";
-"advanced_setting_group_categories_in_sidebar_description" = "Csoportosítsa kategóriáit az oldalsávon mappák szerint.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatikus időválasztás";
 "advanced_setting_select_time_automatically_description" = "Az aktuális időpont automatikus kiválasztása az új tranzakciókhoz.";
 "advanced_setting_select_location_automatically_title" = "Automatikus helyválasztás";
@@ -744,21 +835,34 @@
 "advanced_setting_save_photos_description" = "A rögzített fényképek automatikus mentése a fotókönyvtárba.";
 "advanced_setting_suggested_notes_title" = "Javasolt megjegyzések";
 "advanced_setting_suggested_notes_description" = "Kapj javaslatokat a korábbi tranzakcióid alapján, miközben a megjegyzés mezőbe írsz.";
-"advanced_setting_consider_pending_items_title" = "Összes tranzakció lefoglalása";
+"advanced_setting_consider_pending_items_title" = "Függőben lévő tranzakciók figyelembevétele";
 "advanced_setting_consider_pending_items_description" = "A függőben lévő tranzakciók belefoglalása a számlaegyenlegek, egyenlegek, végösszegek stb. kiszámításakor.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Számlák megjelenítése az oldalsávon";
+"advanced_setting_show_accounts_in_sidebar_description" = "A számlák listájának megjelenítése az oldalsávon.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Számlák csoportosítása az oldalsávon";
+"advanced_setting_group_accounts_in_sidebar_description" = "Csoportosítsa számláit az oldalsávon típus szerint.";
+"advanced_setting_show_categories_in_sidebar_title" = "Kategóriák megjelenítése az oldalsávon";
+"advanced_setting_show_categories_in_sidebar_description" = "A kategóriák listájának megjelenítése az oldalsávon.";
+"advanced_setting_group_categories_in_sidebar_title" = "Kategóriák csoportosítása az oldalsávban";
+"advanced_setting_group_categories_in_sidebar_description" = "Csoportosítsa kategóriáit az oldalsávon mappák szerint.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Nyugták szkennelése";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Használja az Apple Intelligence-et további mezők automatikus kitöltéséhez nyugta szkennelésekor.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Parancsok";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Az Apple Intelligence használata kategóriák és kedvezményezettek automatikus felismerésére a parancsautomatizálásokban.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Adja meg a pontos időpontokat";
 "advanced_setting_enable_exact_times_description" = "Válassza ki a pontos időpontokat a tranzakciókhoz a percforgató segítségével (pl. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Fordított billentyűzet";
 "advanced_setting_reverse_keyboard_description" = "Vertikálisan elforgatja a numerikus billentyűzet elrendezését, hogy illeszkedjen a hagyományos számológép stílusához.";
 "advanced_setting_enable_haptic_keyboard_title" = "Visszajelzés a billentyűzetről";
-"advanced_setting_enable_haptic_keyboard_description" = "Érzékeny visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
+"advanced_setting_enable_haptic_keyboard_description" = "Haptikus visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
 
+/* Other */
 "advanced_setting_language_title" = "Nyelv";
 "advanced_setting_time_zone_title" = "Időzóna";
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
@@ -784,13 +888,10 @@
 "alert_share_app_type_selection_link_button" = "Link";
 "alert_share_app_type_selection_qrcode_button" = "QR-kód";
 
-"alert_reset_app_title" = "Alkalmazás visszaállítása";
-"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az eszközön és az iCloudban tárolt összes adatát.";
-
 "alert_error_title" = "Hiba történt 😢";
 
 /* Social Media */
-"follow_on_social_media" = "Follow \"%@\" on Social Media";
+"follow_on_social_media" = "A(z) „%@” követése a közösségi médiában";
 
 /* Copyright */
 "version" = "Verzió";
@@ -802,53 +903,66 @@
 "passcode_view_enter_passcode_title" = "Adja meg a jelszót";
 "passcode_view_create_passcode_title" = "Jelszó létrehozása";
 "passcode_view_confirm_passcode_title" = "Jelszó megerősítése";
-"passcode_view_authenticate_reason" = "Felhasználó hitelesítése";
+"passcode_view_authenticate_reason" = "Hitelesítés szükséges";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Jelszó opció kiválasztása";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Üdvözöljük";
-"privacy_policy_title" = "Adatvédelmi szabályzat";
+"onboarding_welcome_view_title" = "Üdvözöljük";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Összefoglaló";
-"welcome_view_legal_documents_section_title" = "További információ";
+"onboarding_welcome_view_overview_section_title" = "Összefoglaló";
+"onboarding_welcome_view_legal_documents_section_title" = "További információ";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Biztonságos adattárolás";
-"privacy_overview_datastorage_description" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén vagy (opcionálisan) a személyes iCloudban tárolódnak.";
+"privacy_overview_datastorage_description" = "Pénzügyei magánügyek, és ennek így is kell maradnia. Ezért az adatai kizárólag az eszközén tárolódnak.";
+"privacy_overview_datastorage_description_icloud_suffix" = " vagy a személyes iCloudjában.";
 
 "privacy_overview_privacy_control_title" = "Te irányítod";
-"privacy_overview_privacy_control_description" = "Akár az Ön mentett adatairól, akár helyadatainak használatáról vagy a kamerához való hozzáférésről van szó – mindig Ön irányít. Például egyszerűen törölheti adatait az alkalmazás alaphelyzetbe állításával, és az alkalmazás hozzáférési engedélyei a következő címen módosíthatók: bármikor.";
+"privacy_overview_privacy_control_description" = "Adatait bármikor törölheti, és a helyhez, kamerához vagy értesítésekhez hasonló engedélyeket a rendszerbeállításokban módosíthatja.";
+
+/* Header */
+"onboarding_welcome_view_header_title" = "Üdvözöljük";
+"onboarding_welcome_view_header_description" = "Tartsa szem előtt bevételeit és kiadásait, ismerje fel a mintákat, és hozzon jobb döntéseket a pénzével";
 
 /* Footer */
-"welcome_view_value_description" = "Könnyen irányíthatja pénzügyeit: Adja meg költségvetését, tájékozódjon, és kövesse nyomon bevételeit és kiadásait.";
-"welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
+"privacy_policy_title" = "Adatvédelmi szabályzat";
+"onboarding_welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Maradj képben";
+"onboarding_reminder_intro_view_description" = "Kapj rendszeres emlékeztetőket, hogy szemmel tartsd a kiadásaidat";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Most";
+"onboarding_reminder_intro_view_notification_body" = "Már mindent rögzítettél? ⏰";
+
+
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Beállítás";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ beállítása folyamatban";
+"onboarding_setup_view_completion_title" = "Minden kész!";
+"onboarding_setup_view_accounts_item_title" = "Számlák előkészítése";
+"onboarding_setup_view_categories_item_title" = "Kategóriák létrehozása";
+"onboarding_setup_view_reminders_item_title" = "Emlékeztetők aktiválása";
 
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Új funkciók";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Köszönjük!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az App Store-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
-"purchase_success_view_info_message_info" = "\n\nInformáció: Amikor előfizetésről életre szóló vásárlásra váltasz, ne felejtsd el lemondani a meglévő előfizetésedet utána.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Alkalmazás értékelése";
-"purchase_success_view_close_button" = "Talán később";
+"new_features_view_rate_app_button" = "App értékelése";
+"new_features_view_close_button" = "Talán később";
 
 
 /* MARK: - Upgrade View */
@@ -873,15 +987,15 @@
 "upgrade_reviews_section_title" = "Vélemények";
 
 /* Messages */
-"apply_for_discount_text" = "Diák vagy, vagy anyagi rászorulóban van?\nKattintson ide a kedvezmény igényléséhez.";
+"apply_for_discount_text" = "Ön diák, vagy anyagi nehézségekkel küzd?\nKattintson ide a kedvezmény igényléséhez.";
 "apply_for_discount_highlighted_text" = "Kattintson ide a kedvezmény igényléséhez.";
 
 /* Features */
 "upgrade_features" = "Jellemzők";
 "upgrade_more_features" = "További szolgáltatások";
 "upgrade_features_description" = "Az alábbiakban felsoroljuk azokat a funkciókat, amelyek a teljes verzió megvásárlásával feloldódnak:";
-"upgrade_feature_unlimited_accounts_title" = "További fiókok";
-"upgrade_feature_unlimited_accounts_description" = "Hozzon létre további fiókokat, és rendeljen hozzájuk tranzakciókat, hogy még jobb áttekintést kapjon bevételeiről és kiadásairól.";
+"upgrade_feature_unlimited_accounts_title" = "További számlák";
+"upgrade_feature_unlimited_accounts_description" = "Hozzon létre további számlákat, és rendeljen hozzájuk tranzakciókat, hogy még jobb áttekintést kapjon bevételeiről és kiadásairól.";
 "upgrade_feature_unlimited_categories_and_tags_title" = "Korlátlan kategóriák és címkék";
 "upgrade_feature_unlimited_categories_and_tags_description" = "Hozzon létre korlátlan számú kategóriát és címkét, amelyeket hozzáadhat a tranzakciókhoz a jobb rendszerezés érdekében.";
 "upgrade_feature_extended_analyses_title" = "Kibővített elemzés";
@@ -897,7 +1011,7 @@
 "upgrade_feature_customization" = "Személyre szabás";
 "upgrade_feature_customization_description" = "Válasszon több kiemelő szín és ikon közül az alkalmazás testreszabásához.";
 "upgrade_feature_sharedbudget_books_title" = "Költségvetési könyvek megosztása";
-"upgrade_feature_sharedbudget_books_description" = "Ossza meg költségvetési könyveit, beleértve a fiókokat, kategóriákat, tranzakciókat és költségkereteket, hogy együttműködjön egy vagy több személlyel.";
+"upgrade_feature_sharedbudget_books_description" = "Ossza meg költségvetési könyveit, beleértve a számlákat, kategóriákat, tranzakciókat és költségkereteket, hogy együttműködjön egy vagy több személlyel.";
 "upgrade_feature_receipt_scanner_title" = "Nyugták beolvasása";
 "upgrade_feature_receipt_scanner_description" = "A beépített szkenner segítségével digitalizálja a nyugtákat, és automatikusan felismerje az összeget és a kereskedő nevét.";
 "upgrade_feature_widgets_title" = "Kezdőlap és lezárási képernyő widgetek";
@@ -912,26 +1026,26 @@
 "upgrade_feature_support_description" = "Ön egy fiatal fejlesztőt támogat, és ezáltal az alkalmazás folyamatos fejlesztését! 😊";
 
 /* Reviews */
-"user_review_title_de" = "Awesome app";
-"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
-"user_review_title_hr" = "Beautiful app";
-"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
-"user_review_title_bg" = "Outstanding support";
-"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
-"user_review_title_us" = "Great app so far";
-"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
-"user_review_title_uk" = "This is the one!";
-"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
-"user_review_title_es" = "Best budgeting app";
-"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
-"user_review_title_fr" = "Superb, feature-rich app";
-"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
-"user_review_title_it" = "Simply great";
-"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
-"user_review_title_ch" = "Great support";
-"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
-"user_review_title_pl" = "Very pleasant to use";
-"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+"user_review_title_de" = "Nagyszerű app";
+"user_review_description_de" = "Az app nagyon jól megtervezett és jól használható. Minden igényemet kielégíti, az ügyfélszolgálat pedig nagyon gyors és segítőkész. Csak ajánlani tudom.";
+"user_review_title_hr" = "Gyönyörű app";
+"user_review_description_hr" = "Sok funkciót kínáló app, könnyen kezelhető felülettel. Sok alternatívát kipróbáltam iOS-en, de egyik sem felelt meg úgy az igényeimnek, mint ez. Megéri az árát.";
+"user_review_title_bg" = "Kiemelkedő ügyfélszolgálat";
+"user_review_description_bg" = "Nagyszerű app, kiemelkedő ügyfélszolgálattal. A szoftver minőségéhez képest pedig nagyon kedvező az ára.";
+"user_review_title_us" = "Eddig remek app";
+"user_review_description_us" = "Nagyon tetszik, hogy az app iOS-en, iPaden és macOS-en is elérhető, így bárhol frissíthetem az adataimat. Az is igazán jó, hogy nincs szükség felhasználói fiókra, és nincs adatgyűjtés. Ez manapság ritkának tűnik, pedig nekem fontos a pénzügyi appoknál.";
+"user_review_title_uk" = "Ez az igazi!";
+"user_review_description_uk" = "Több mint két éve keresek egy ilyen appot. Olyan telefonos pénzügyi kezelőt szerettem volna, amelynek középpontjában egy szép áttekintő képernyő áll, egyszerű az új adatok bevitele, és szükség esetén a részletek is megtekinthetők! Érdemes kipróbálni.";
+"user_review_title_es" = "A legjobb költségvetési app";
+"user_review_description_es" = "Egyszerűen a legjobb, amit eddig kipróbáltam. Szerintem még új az app, de egyértelműen látszik, mennyi lehetőség rejlik benne.";
+"user_review_title_fr" = "Kiváló app, rengeteg funkcióval";
+"user_review_description_fr" = "Néhány hónapja használom az appot, és nagyon tetszik. Gratulálok a munkához, és alig várom, milyen lesz az app néhány hónap múlva :)";
+"user_review_title_it" = "Egyszerűen nagyszerű";
+"user_review_description_it" = "Végre. Évek óta kerestem ilyen megoldást. Az iOS Parancsok tranzakciós indítójával használom, és nagyon tetszik a megjelenése. Az egyszeri fizetés lehetőségét is szeretem. Csak így tovább!";
+"user_review_title_ch" = "Remek ügyfélszolgálat";
+"user_review_description_ch" = "Remek ügyfélszolgálat – gyors és egyszerű problémamegoldás. Úgy érzem, komolyan vesznek felhasználóként.";
+"user_review_title_pl" = "Nagyon kellemes használni";
+"user_review_description_pl" = "Az app kiváló költségvetés-követő és -tervező, amelyet naponta használok. A fejlesztő ráadásul nagyon figyel a közösségére, annak kis mérete ellenére is.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -960,12 +1074,13 @@
 "alert_upgrade_view_purchase_success_title" = "A vásárlás sikeres 🎉";
 "alert_upgrade_view_purchase_success_message" = "Köszönjük a támogatást! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformáció: Ha előfizetésről egyszeri vásárlásra vált át, ne felejtse el lemondani az előző előfizetést ezt követően.";
+
 "alert_upgrade_view_purchase_error_message" = "Vásárlása nem fejeződött be sikeresen.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az App Store-ral.\n\nInformáció: Előfordulhat, hogy a vásárlás csak akkor működik, ha a Touch ID / Face ID helyett a jelszavával erősíti meg.\n\nPéldául, ha a Face ID-t használod, egyszerűen takard le az elülső kamerát, és próbáld újra, hogy lásd a jelszó párbeszédablakot.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az %@-ral.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformáció: Előfordulhat, hogy a vásárlás csak akkor működik, ha a Touch ID / Face ID helyett a jelszavával erősíti meg.\n\nPéldául, ha a Face ID-t használod, egyszerűen takard le az elülső kamerát, és próbáld újra, hogy lásd a jelszó párbeszédablakot.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "A vásárlás nem engedélyezett ezen az eszközön.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ellenőrizze fizetési módját, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon az ügyfélszolgálathoz.";
 "alert_upgrade_view_purchase_error_network_message" = "Ellenőrizze internetkapcsolatát, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon az ügyfélszolgálathoz.";
-
 "alert_upgrade_view_load_products_error_message" = "A termékeket nem lehetett betölteni. Ellenőrizze az internetkapcsolatot, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon a támogatáshoz.";
 
 "alert_upgrade_view_restore_success_title" = "A vásárlások visszaállítva";
@@ -987,23 +1102,24 @@
 "upgrade_faq_about_title" = "Mi az a Budget Flow?";
 "upgrade_faq_about_value" = "A Budget Flow egy modern és könnyen használható költségvetés-követő alkalmazás mindenki számára, aki nyomon akarja követni pénzügyeit és hatékonyan szeretné kezelni kiadásait.";
 "upgrade_faq_developer_title" = "Ki fejlesztette az alkalmazást?";
-"upgrade_faq_developer_value" = "A Budget Flow mellékprojektként indult, azóta teljes egészében én, Fabian Hasse terveztem, fejlesztettem és karbantartom. Lelkes szoftverfejlesztő vagyok, több mint 10 éves tapasztalattal, és nagy szenvedéllyel dolgozom a legjobb költségvetés-tervező és költségkövető alkalmazás fejlesztése az App Store-ban.";
+"upgrade_faq_developer_value" = "A Budget Flow egy indie alkalmazás, amelyet teljes egészében én, Fabian Hasse tervezek, fejlesztek és tartok karban. Több mint 10 éves tapasztalattal rendelkező szoftverfejlesztő vagyok, és nagy szenvedéllyel dolgozom azon, hogy a legjobb költségvetési alkalmazást készítsem neked.";
 "upgrade_faq_free_use_title" = "Az alkalmazás ingyenesen is használható?";
 "upgrade_faq_free_use_value" = "Igen, teljesen ingyenesen használhatja az alkalmazás alapvető funkcióit, például a tranzakciók létrehozását.\n\nEmellett az alkalmazás próbaidőszakot kínál a teljes verzióhoz, így előzetesen kipróbálhatja mielőtt úgy dönt, hogy megvásárolja vagy előfizeti a teljes verziót.";
 "upgrade_faq_security_title" = "Biztonságban vannak az adataim?";
-"upgrade_faq_security_value" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén vagy (opcionálisan) a személyes iCloudban tárolódnak.";
+"upgrade_faq_security_value" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén tárolódnak.";
+"upgrade_faq_security_value_icloud_suffix" = " vagy (opcionálisan) a személyes iCloudban tárolódnak.";
 "upgrade_faq_why_subscription_title" = "Miért kínálják a teljes verziót előfizetésként?";
-"upgrade_faq_why_subscription_value" = "Célunk egy olyan jó minőségű alkalmazás kifejlesztése, amely rendszeres időközönként új funkciókat és fejlesztéseket kínál Önnek, mint felhasználónak. A cél elérése érdekében azonban az alkalmazásnak folyamatos bevételre van szüksége, hogy finanszírozza önmagát és legyen gazdaságilag fenntartható.\n\nAmit sokan nem tudnak Egy alkalmazás fejlesztése és karbantartása sok időt vesz igénybe. A Budget Flow esetében például közel két év és több ezer óra munka telt el az ötlettől a fejlesztésig és tesztelni kell, mielőtt az első verzió megjelenhetne az App Store-ban.\n\nÜgyfélként különösen előnyös az előfizetési modell rendszeres frissítése és fejlesztése, valamint a megfelelő támogatás, amely biztosítja, hogy továbbra is elégedett legyen. lehetősége van arra is, hogy előzetesen ingyenesen kipróbálhassa az alkalmazást, hogy megbizonyosodjon arról, hogy az megfelel az Ön igényeinek. Ha meggondolja magát, bármikor módosíthatja vagy lemondhatja az előfizetést.\n\nÖsszességében az előfizetési modell számos előnnyel jár az Ön számára. ügyfél és jobb felhasználói élmény a folyamatos frissítések és támogatás révén az egyszeri vásárláshoz képest. Hosszú távon az egyszeri vásárlás sajnos nem lenne fenntartható, mivel ez az üzleti modell megköveteli, hogy az új felhasználók folyamatosan vásárolják meg az alkalmazást, hogy biztosítsák a fejlesztés folytatását.\n\nTehát ha tetszik az alkalmazás, annak nagyon örülnénk. ha támogatod munkánkat, hogy a jövőben is még több nagyszerű szolgáltatást kínálhassunk!❤️";
+"upgrade_faq_why_subscription_value" = "A Budget Flow folyamatosan fejlődik, javul, és igazodik az operációs rendszerek új verzióihoz. Az előfizetés segít hosszú távon finanszírozni ezt a munkát, hogy rendszeresen biztosíthassunk frissítéseket, új funkciókat és megfelelő támogatást.\n\nHa nem szeretne előfizetni, a teljes verziót egyszeri vásárlással is elérheti. Az egyszeri vásárlás ára szándékosan magasabb, mert minden jövőbeli frissítést és támogatást fedez további fizetés nélkül.\n\nA teljes verziót előzetesen ingyen kipróbálhatja, előfizetését pedig bármikor lemondhatja. Ha tetszik Önnek a Budget Flow, vásárlásával az app további független fejlesztését támogatja.";
 "upgrade_faq_multiple_devices_title" = "Használhatom a teljes verziót több eszközön?";
-"upgrade_faq_multiple_devices_value" = "Igen, használhatja a Budget Flow teljes verzióját az összes Apple-eszközén ugyanazzal az Apple ID-vel. Mivel az alkalmazás az iCloudon keresztül szinkronizálva van, zökkenőmentesen válthat eszközei között, és mindig hozzáférhet pénzügyi adataihoz. és beállítások.";
+"upgrade_faq_multiple_devices_value" = "Igen, használhatja a Budget Flow teljes verzióját az összes Apple-eszközén ugyanazzal az Apple-fiókkal. Mivel az alkalmazás az iCloudon keresztül szinkronizálva van, zökkenőmentesen válthat eszközei között, és mindig hozzáférhet pénzügyi adataihoz és beállításaihoz.";
 "upgrade_faq_multiple_people_title" = "Használhatom a teljes verziót több személlyel?";
-"upgrade_faq_multiple_people_value" = "Igen, az egyszeri vásárlást, valamint a teljes verzió előfizetését egy családi csoporton belül legfeljebb öt személlyel megoszthatja. Csak annyit kell tennie, hogy bekapcsolja a családi megosztást a rendszerbeállításokban, és hozzáadja a többi ember meghívja a csoportba.";
+"upgrade_faq_multiple_people_value" = "Igen, az egyszeri vásárlást, valamint a teljes verzió előfizetését egy családi csoporton belül legfeljebb öt személlyel megoszthatja. Csak annyit kell tennie, hogy bekapcsolja a családi megosztást a rendszerbeállításokban, és meghívja a többi személyt a csoportba.";
 "upgrade_faq_cancel_subscription_title" = "Hogyan mondhatom le az előfizetésemet?";
-"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az Apple ID használatával a Rendszerbeállításokban.";
+"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az %@-fiókja használatával a Rendszerbeállításokban.";
 "upgrade_faq_subscription_data_loss_title" = "Elvesznek az adataim, ha lemondok előfizetésemről?";
 "upgrade_faq_subscription_data_loss_value" = "Nem. Bármi, amit a teljes verzióra való előfizetés során hozott létre, továbbra is elérhető lesz, ha visszavált az ingyenes verzióra.";
 "upgrade_faq_refund_title" = "Hogyan kaphatok visszatérítést?";
-"upgrade_faq_refund_value" = "Az App Store-on keresztül végrehajtott fizetéseket csak az Apple téríti vissza. A visszatérítéshez a vásárlástól számított 14 napon belül kapcsolatba kell lépnie az Apple ügyfélszolgálatával.";
+"upgrade_faq_refund_value" = "Az %1$@-on keresztül végrehajtott fizetéseket csak az %2$@ téríti vissza. A visszatérítéshez a vásárlástól számított 14 napon belül kapcsolatba kell lépnie az %2$@ ügyfélszolgálatával.";
 "upgrade_faq_switch_plan_title" = "Lehetőség van egy későbbi időpontban az előfizetésről az egyszeri vásárlásra váltani?";
 "upgrade_faq_switch_plan_value" = "Igen, bármikor átválthat az aktív előfizetésről az egyszeri vásárlásra, ha megvásárolja a megfelelő terméket az alkalmazásban. Ne felejtse el lemondani korábbi előfizetését, hogy ne fizessen többet, mint egyszer.";
 
@@ -1018,7 +1134,7 @@
 "alert_user_feedback_title" = "Tetszik az alkalmazás?";
 
 "alert_user_feedback_like_title" = "Köszönjük! 🎉";
-"alert_user_feedback_like_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az App Store-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
+"alert_user_feedback_like_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az %@-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
 "alert_user_feedback_rate_app_button" = "Alkalmazás értékelése";
 "alert_user_feedback_maybe_later_button" = "Talán később";
 
@@ -1046,9 +1162,9 @@
 "chart_widget_title" = "Diagram";
 "chart_widget_description" = "Ez a widget megjeleníti a számlaegyenlegét, az aktuális egyenlegét vagy a bevételek és kiadások bontását a kiválasztott időszakra vonatkozóan.";
 
-"account_widget_title" = "Fiók";
-"account_widget_description" = "Ez a widget grafikont jelenít meg a fiók egyenlegéről egy adott fiók és a kiválasztott időszak alapján.";
-"account_widget_no_account_title" = "Nincs fiók kiválasztva";
+"account_widget_title" = "Számla";
+"account_widget_description" = "Ez a widget a kiválasztott számla egyenlegének alakulását mutatja grafikonon a kiválasztott időszakban.";
+"account_widget_no_account_title" = "Nincs számla kiválasztva";
 
 "overview_widget_title" = "Áttekintés";
 "overview_widget_description" = "Ez a widget áttekintést nyújt számlaegyenlegéről, aktuális egyenlegéről vagy a kiválasztott időszak bevételeinek és kiadásainak összegéről.";
@@ -1063,7 +1179,7 @@
 "suggestion_widget_title" = "Javasolt";
 "suggestion_widget_description" = "Ez a modul egy javasolt kategóriát jelenít meg az aktuális dátum alapján, amelyre új tranzakciót hozhat létre.";
 
-"quick_actions_widget_title" = "Gyors belépés";
+"quick_actions_widget_title" = "Gyors bevitel";
 "quick_actions_widget_description" = "Ez a widget lehetővé teszi új tranzakciók gyors hozzáadását.";
 "quick_actions_widget_new_title" = "Új";
 
@@ -1085,15 +1201,15 @@
 "alert_confirm_dismiss_title" = "Biztosan el szeretné vetni a változtatásokat?";
 
 /* Delete */
-"alert_confirm_delete_budgetbook_title" = "Biztosan törli ezt a költségvetési könyvet? Az összes kapcsolódó fiók, kategória, tranzakció és költségkeret is törlésre kerül.";
+"alert_confirm_delete_budgetbook_title" = "Biztosan törli ezt a költségvetési könyvet? Az összes kapcsolódó számla, kategória, tranzakció és költségkeret is törlésre kerül.";
 "alert_confirm_delete_budgetbook_button" = "Költségvetési könyv törlése";
-"alert_confirm_delete_budgetbook_multiple_title" = "Biztosan törölni szeretné az összes kiválasztott költségvetési könyvet? Az összes kapcsolódó fiók, kategória, tranzakció és költségkeret is törlésre kerül.";
+"alert_confirm_delete_budgetbook_multiple_title" = "Biztosan törölni szeretné az összes kiválasztott költségvetési könyvet? Az összes kapcsolódó számla, kategória, tranzakció és költségkeret is törlésre kerül.";
 "alert_confirm_delete_budgetbook_multiple_button" = "Költségvetési könyvek törlése";
 
-"alert_confirm_delete_account_title" = "Biztosan törli ezt a fiókot? Minden kapcsolódó tranzakció is törlődik.";
-"alert_confirm_delete_account_button" = "Fiók törlése";
-"alert_confirm_delete_account_multiple_title" = "Biztosan törölni akarja az összes kiválasztott fiókot? Az összes kapcsolódó tranzakció is törlődik.";
-"alert_confirm_delete_account_multiple_button" = "Fiókok törlése";
+"alert_confirm_delete_account_title" = "Biztosan törli ezt a számlát? Minden kapcsolódó tranzakció is törlődik.";
+"alert_confirm_delete_account_button" = "Számla törlése";
+"alert_confirm_delete_account_multiple_title" = "Biztosan törölni akarja az összes kiválasztott számlát? Az összes kapcsolódó tranzakció is törlődik.";
+"alert_confirm_delete_account_multiple_button" = "Számlák törlése";
 
 "alert_confirm_delete_categorygroup_title" = "Biztosan törli ezt a mappát? Minden kapcsolódó kategória, tranzakció és költségkeret is törlődik (ha szükséges).";
 "alert_confirm_delete_categorygroup_button" = "Mappa törlése";
@@ -1146,7 +1262,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Ez a tranzakció egy átutalás. Szeretné törölni a kontra bejegyzést is?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Ez a tranzakció egy átutalás. Szeretné frissíteni a kontra bejegyzést is?";
 "alert_confirm_update_transaction_multiple_title" = "Ez a tranzakció egy csoporthoz tartozik. Pontosan mit szeretne menteni?";
 "alert_confirm_update_transaction_single_button" = "Csak ezt mentse";
@@ -1174,6 +1290,7 @@
 
 /* Sections */
 "default_currency_section_title" = "Alapértelmezett pénznem";
+"favorite_currencies_section_title" = "Kedvencek";
 "suggested_currencies_section_title" = "Javaslatok";
 
 /* Messages */
@@ -1181,11 +1298,13 @@
 "currency_selection_search_placeholder_message" = "Pénznemnév vagy annak rövidítése keresése";
 
 /* Buttons */
+"add_favorite_currency_button" = "Hozzáadás a kedvencekhez";
+"remove_favorite_currency_button" = "Eltávolítás a kedvencek közül";
 "change_default_currency_button" = "Alapértelmezett pénznem módosítása";
 
 /* Alert Views */
 "alert_confirm_change_default_currency_title" = "Biztosan módosítani szeretné az alapértelmezett pénznemet? Ezzel az összes meglévő tranzakciót átváltja az új pénznemre (%@).";
-"alert_confirm_change_default_account_currency_title" = "Biztosan módosítani szeretné a pénznemet? Ezzel a fiók összes meglévő tranzakcióját átváltja az új pénznemre (%@).";
+"alert_confirm_change_default_account_currency_title" = "Biztosan módosítani szeretné a pénznemet? Ezzel a számla összes meglévő tranzakcióját átváltja az új pénznemre (%@).";
 
 
 /* MARK: - Currency Conversion View */
@@ -1196,8 +1315,8 @@
 "currency_conversion_synchronization_failed_no_internet_title" = "Nincs internetkapcsolat";
 
 /* Sections */
-"source_currency_section_title" = "Feladó";
-"target_currency_section_title" = "Címzett";
+"source_currency_section_title" = "Forráspénznem";
+"target_currency_section_title" = "Célpénznem";
 
 
 /* MARK: - Time Zone Selection View */
@@ -1205,14 +1324,14 @@
 "time_zone_selection_title" = "Időzóna";
 
 /* Messages */
-"no_timezones_found_title" = "Nem található időzóna";
+"no_time_zones_found_title" = "Nem található időzóna";
 "time_zone_selection_search_placeholder_message" = "Keresés ország vagy város időzónája szerint";
 
 
 /* MARK: - Manage Item View */
 /* Titles */
 "manage_budgetbooks_title" = "Költségkeret könyvek";
-"manage_accounts_title" = "Fiókok";
+"manage_accounts_title" = "Számlák";
 "manage_categories_title" = "Kategóriák";
 "manage_category_groups_title" = "Mappák";
 "manage_payees_title" = "Kedvezményezettek";
@@ -1238,14 +1357,14 @@
 "no_budget_books_found_button_title" = "Új költségvetési könyv";
 "no_budget_books_found_cloud_sync_message" = "A meglévő adatok betöltése folyamatban van az iCloudból. Várjon egy kicsit...\n\nVagy kattintson a \"+\" gombra új költségvetési könyv hozzáadásához.";
 "no_budget_books_found_cloud_sync_message_short" = "A meglévő adatok betöltése folyamatban van az iCloudból. Kérjük, várjon egy kicsit...";
-"budget_books_search_placeholder_message" = "Költségkeret-foglaló nevének keresése";
+"budget_books_search_placeholder_message" = "Keresés a költségvetési könyv neve alapján";
 
-"no_accounts_title" = "Nincs fiók";
-"no_accounts_found_title" = "Nem található fiók";
+"no_accounts_title" = "Nincs számla";
+"no_accounts_found_title" = "Nem található számla";
 "no_account_found_title" = "Nem található számla";
-"no_accounts_found_message" = "Kattintson a \"+\" gombra új fiók hozzáadásához.";
-"no_accounts_found_button_title" = "Új fiók";
-"accounts_search_placeholder_message" = "Keresés fióknév vagy fióktípus alapján";
+"no_accounts_found_message" = "Kattintson a \"+\" gombra új számla hozzáadásához.";
+"no_accounts_found_button_title" = "Új számla";
+"accounts_search_placeholder_message" = "Keresés számlanév vagy számlatípus alapján";
 
 "no_categories_found_title" = "Nem található kategória";
 "no_category_found_title" = "Nem található kategória";
@@ -1275,7 +1394,7 @@
 "no_reminders_found_button_title" = "Új emlékeztető";
 "reminders_search_placeholder_message" = "Keresés egy emlékeztető címe alapján";
 
-/* Value */
+/* Values */
 "balance" = "Egyenleg";
 
 
@@ -1308,7 +1427,7 @@
 
 /* MARK: - Add Account Form View */
 /* Titles */
-"form_title_new_account" = "Új fiók";
+"form_title_new_account" = "Új számla";
 
 /* Sections */
 "form_billing_section_title" = "Automatikus számlázás";
@@ -1317,7 +1436,7 @@
 
 /* Footer */
 "form_billing_footer_title" = "Engedélyezze ezt a funkciót, hogy automatikusan egyenlegezze ezt a hitelkártyát a hónap egy adott napján (ha szükséges).";
-"form_transactions_footer_title" = "Engedélyezze ezt a funkciót, hogy a fiókhoz tartozó új tranzakciókat automatikusan \"függőben\" jelölje meg.";
+"form_transactions_footer_title" = "Engedélyezze ezt a funkciót, hogy a számlához tartozó új tranzakciókat automatikusan \"függőben\" jelölje meg.";
 "form_account_balance_footer_title" = "Módosítsa a kezdeti/teljes egyenleget a számlaegyenleg kézi egyeztetéséhez.";
 
 /* Items */
@@ -1327,13 +1446,13 @@
 "form_account_type_title" = "Számlatípus";
 "form_initial_balance_title" = "Kezdeti egyenleg";
 "form_total_balance_title" = "Teljes egyenleg";
-"form_use_as_default_account_title" = "Alapértelmezett fiók";
+"form_use_as_default_account_title" = "Alapértelmezett számla";
 "form_account_currency_title" = "Pénznem";
 
 /* Buttons */
-"form_button_archive_account" = "Fiók archiválása";
-"form_button_unarchive_account" = "Fiók archiválásának törlése";
-"form_button_delete_account" = "Fiók törlése";
+"form_button_archive_account" = "Számla archiválása";
+"form_button_unarchive_account" = "Számla archiválásának törlése";
+"form_button_delete_account" = "Számla törlése";
 
 
 /* MARK: - Add Category Group Form View */
@@ -1361,7 +1480,7 @@
 "form_title_new_payee" = "Új kedvezményezett";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy fiókot, kategóriát vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
+"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy számlát, kategóriát vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
 
 /* Items */
 "form_location_title" = "Helyszín";
@@ -1412,7 +1531,7 @@
 "form_tags_section_title" = "Címkék";
 
 /* Items */
-"form_account_title" = "Fiók";
+"form_account_title" = "Számla";
 "form_from_account_title" = "Feladó";
 "form_to_account_title" = "Címzett";
 "form_account_none_type_value" = "Nincs";
@@ -1475,7 +1594,7 @@
 "form_budget_amount_calculation_footer_title" = "Az intervallum határozza meg, hogy a költségvetés milyen gyakran ismétlődik, így a megjelenített rendelkezésre álló összeg automatikusan a kiválasztott időszakhoz igazodik.";
 
 /* Items */
-"form_is_cumulative_title" = "Haladó";
+"form_is_cumulative_title" = "Halmozódó";
 
 /* Buttons */
 "form_button_delete_budget" = "Költségkeret törlése";
@@ -1491,6 +1610,8 @@
 
 /* Sections */
 "form_general_section_title" = "Általános";
+"form_csv_date_format_suggestions_section_title" = "Javaslatok";
+"form_csv_date_format_other_section_title" = "Egyéb";
 
 /* Footer */
 "form_invalid_footer_title" = "Hiba:";
@@ -1537,7 +1658,7 @@
 "location_selection_searchbar_placeholder" = "Keresés";
 "location_selection_search_history_title" = "Legutóbbi";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Kiválasztás";
 
 /* Alert Views */
@@ -1555,7 +1676,7 @@
 "alert_no_mail_initialized_message" = "Úgy tűnik, nincs beállítva e-mail fiók az eszközön. Ez azonban kötelező a funkció használatához.";
 
 "alert_no_camera_title" = "Nincs elérhető kamera";
-"alert_no_camera_message" = "Úgy tűnik, nincs kamerája. Ennek a funkciónak a használata azonban kötelező.";
+"alert_no_camera_message" = "Úgy tűnik, nincs kamerája. A funkció használatához azonban kamera szükséges.";
 
 "alert_permissions_title" = "Majdnem kész!";
 "alert_permissions_activate_button" = "Aktiválás most";
@@ -1563,7 +1684,7 @@
 
 "alert_camera_permissions_message" = "A fényképek készítéséhez csak engedélyezni kell a \"kamera\" hozzáférést a beállításokban.";
 "alert_photolibrary_permissions_message" = "Fotók hozzáadásához csak engedélyeznie kell a \"fotók\" elérését a beállításokban.";
-"alert_notifications_permissions_message" = "A push értesítések fogadásához mindössze annyit kell tennie, hogy engedélyezi az \"notifications\" lehetőséget a beállításokban.";
+"alert_notifications_permissions_message" = "A push értesítések fogadásához mindössze annyit kell tennie, hogy engedélyezi az \"értesítések\" lehetőséget a beállításokban.";
 
 
 /* MARK: - Tips */
@@ -1591,7 +1712,7 @@
 
 
 /* MARK: - Default Data */
-"default_account_name" = "Alapértelmezett fiók";
+"default_account_name" = "Alapértelmezett számla";
 
 "default_category_group_name_income" = "Jövedelem";
 "default_category_name_salary" = "Bérezés";
@@ -1608,12 +1729,14 @@
 "default_category_name_restaurant" = "Étterem";
 "default_category_name_fast_food" = "Gyorsétterem";
 
-"default_category_group_name_living" = "Élő";
+"default_category_group_name_living" = "Lakhatás";
 "default_category_name_rent" = "Kölcsönzés";
 
 "default_category_group_name_miscellaneous" = "Egyéb";
 
-"default_reminder_title" = "Kiadások rögzítése";
+"default_reminder_expense_check_title" = "Mindent rögzítettél? Szánj egy percet a legutóbbi kiadásaidra 📝";
+"default_reminder_weekly_review_title" = "Hogy telt a heted? Nézd meg, hová ment a pénzed 📊";
+"default_reminder_monthly_review_title" = "Új hónap kezdődik. Ideje ránézni a pénzügyeidre 📅";
 
 
 /* MARK: - Color Sections */
@@ -1671,7 +1794,7 @@
 "icon_keyword_building" = "Épület";
 "icon_keyword_house" = "Ház";
 "icon_keyword_lightbulb" = "Izzólámpa";
-"icon_keyword_fan" = "Rajongó";
+"icon_keyword_fan" = "Ventilátor";
 "icon_keyword_lamp" = "Lámpa";
 "icon_keyword_alarm_system" = "Riasztórendszer";
 "icon_keyword_webcam" = "Webkamera";
@@ -1679,8 +1802,8 @@
 "icon_keyword_door" = "Ajtó";
 "icon_keyword_garage" = "Garázs";
 "icon_keyword_window" = "Ablak";
-"icon_keyword_blinds" = "Rolák";
-"icon_keyword_roller" = "Görgő";
+"icon_keyword_blinds" = "Reluxa";
+"icon_keyword_roller" = "Roló";
 "icon_keyword_curtains" = "Függönyök";
 "icon_keyword_air_purifier" = "Légtisztító";
 "icon_keyword_dehumidifier" = "Párátlanító";
@@ -1717,14 +1840,14 @@
 "icon_keyword_armchair" = "Karosszék";
 "icon_keyword_cabinet" = "Szekrény";
 "icon_keyword_fireplace" = " Kandalló";
-"icon_keyword_washer" = "Alátét";
+"icon_keyword_washer" = "Mosógép";
 "icon_keyword_dryer" = "Szárítógép";
 "icon_keyword_dishwasher" = "Mosogatógép";
 "icon_keyword_oven" = "Sütő";
 "icon_keyword_stove" = "Tűzhely";
 "icon_keyword_microwave" = "Mikrohullám";
 "icon_keyword_refrigerator" = "hűtő";
-"icon_keyword_sink" = "Süllyesztő";
+"icon_keyword_sink" = "Mosdó";
 "icon_keyword_toilet" = "WC";
 "icon_keyword_bathroom" = "Fürdőszoba";
 "icon_keyword_tv_remote" = "Távirányító";
@@ -1742,7 +1865,7 @@
 "icon_keyword_railroad" = "Vasút";
 "icon_keyword_cablecar" = "Villamos";
 "icon_keyword_ferry" = "Komp";
-"icon_keyword_ship" = "Szállítás";
+"icon_keyword_ship" = "Hajó";
 "icon_keyword_truck" = "Teherautó";
 "icon_keyword_relocation" = "Áthelyezés";
 "icon_keyword_bicycle" = "Kerékpár";
@@ -1753,7 +1876,7 @@
 "icon_keyword_refuel" = "Tankoljon";
 "icon_keyword_gas_station" = "Benzinkút";
 "icon_keyword_walking" = "Séta";
-"icon_keyword_running" = "Futtatás";
+"icon_keyword_running" = "Futás";
 "icon_keyword_rugby" = "Rögbi";
 "icon_keyword_badminton" = "Tollaslabda";
 "icon_keyword_tennis" = "Tenisz";
@@ -1774,7 +1897,7 @@
 "icon_keyword_volleyball" = "Röplabda";
 "icon_keyword_trophy" = "Trófea";
 "icon_keyword_medal" = "Érem";
-"icon_keyword_flag" = "Jelző";
+"icon_keyword_flag" = "Zászló";
 "icon_keyword_race" = "Autóverseny";
 "icon_keyword_gamecontroller" = "Játékvezérlő";
 "icon_keyword_videogames" = "Videojátékok";
@@ -1806,7 +1929,7 @@
 "icon_keyword_photography" = "Fényképészet";
 "icon_keyword_photo" = "Fotó";
 "icon_keyword_world" = "Világ";
-"icon_keyword_globe" = "Globe";
+"icon_keyword_globe" = "Földgömb";
 "icon_keyword_sun" = "Nap";
 "icon_keyword_summer" = "Nyár";
 "icon_keyword_moon" = "Hold";
@@ -1832,13 +1955,13 @@
 "icon_keyword_lizard" = "Gyík";
 "icon_keyword_bird" = "Madár";
 "icon_keyword_ant" = "Hangya";
-"icon_keyword_ladybug" = "Hiba";
+"icon_keyword_ladybug" = "Bogár";
 "icon_keyword_fish" = "Hal";
 "icon_keyword_pet" = "Kisállat";
 "icon_keyword_cat" = "Macska";
 "icon_keyword_dog" = "Kutya";
 "icon_keyword_leaf" = "Levél";
-"icon_keyword_plant" = "Üzem";
+"icon_keyword_plant" = "Növény";
 "icon_keyword_flower" = "Virág";
 "icon_keyword_eating" = "Evés";
 "icon_keyword_restaurant" = "Étterem";
@@ -1862,19 +1985,19 @@
 "icon_keyword_gift" = "Ajándék";
 "icon_keyword_clothes" = "Ruhák";
 "icon_keyword_clothing" = "Ruházat";
-"icon_keyword_globe" = "Globe";
+"icon_keyword_globe" = "Földgömb";
 "icon_keyword_online" = "Online";
 "icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Csomag";
-"icon_keyword_apple" = "Alma";
+"icon_keyword_apple" = "Apple";
 "icon_keyword_banknote" = "Bankjegy";
 "icon_keyword_refund" = "Visszatérítés";
 "icon_keyword_dollar" = "Dollar";
-"icon_keyword_cents" = "Centek";
+"icon_keyword_cent" = "Centek";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Font";
-"icon_keyword_franc" = "Franciaország";
+"icon_keyword_franc" = "Frank";
 "icon_keyword_lira" = "Líra";
 "icon_keyword_ruble" = "Rubel";
 "icon_keyword_euro" = "Euró";
@@ -1886,10 +2009,10 @@
 "icon_keyword_lungs" = "Tüdő";
 "icon_keyword_allergens" = "Allergiák";
 "icon_keyword_thermometer" = "Hőmérő";
-"icon_keyword_bandage" = "Band-Aids";
+"icon_keyword_bandage" = "Ragtapasz";
 "icon_keyword_syringe" = "Fecskendők";
 "icon_keyword_medicine" = "Orvostudomány";
-"icon_keyword_drug" = "Drog";
+"icon_keyword_drug" = "Gyógyszer";
 "icon_keyword_facemask" = "Arcmaszk";
 "icon_keyword_pills" = "Tabletták";
 "icon_keyword_cross" = "Kereszt";
@@ -1931,7 +2054,7 @@
 "icon_keyword_printer" = "Nyomtató";
 "icon_keyword_scanner" = "Szkenner";
 "icon_keyword_pin" = "Tű";
-"icon_keyword_paperclip" = "Gomkapocs";
+"icon_keyword_paperclip" = "Gemkapocs";
 "icon_keyword_clipboard" = "Vágólap";
 "icon_keyword_list" = "Lista";
 "icon_keyword_server" = "Szerver";
@@ -1942,9 +2065,9 @@
 "icon_keyword_alarm" = "Riasztás";
 "icon_keyword_box" = "Doboz";
 "icon_keyword_wand" = "Varázspálca";
-"icon_keyword_hourglass" = "Homóóra";
+"icon_keyword_hourglass" = "Homokóra";
 "icon_keyword_newspaper" = "Újság";
-"icon_keyword_wrench" = "Fogó";
+"icon_keyword_wrench" = "Állítható csavarkulcs";
 "icon_keyword_screwdriver" = "Csavarhúzó";
 "icon_keyword_hammer" = "Kalapács";
 "icon_keyword_craftsman" = "Kézműves";
@@ -1956,7 +2079,7 @@
 "icon_keyword_key" = "Kulcs";
 "icon_keyword_school" = "Iskola";
 "icon_keyword_university" = "Egyetem";
-"icon_keyword_study" = "Tanulmány";
+"icon_keyword_study" = "Tanulás";
 "icon_keyword_tuition_fees" = "Tandíjak";
 "icon_keyword_flashlight" = "Zseblámpa";
 "icon_keyword_bell" = "Harangszó";
@@ -1973,7 +2096,7 @@
 "icon_keyword_lab" = "Labor";
 "icon_keyword_calendar" = "Naptár";
 "icon_keyword_rent" = "Kölcsönzés";
-"icon_keyword_flat" = "Sík";
+"icon_keyword_flat" = "Lakás";
 "icon_keyword_work" = "Munka";
 "icon_keyword_salary" = "Bérezés";
 "icon_keyword_corona" = "Korona";
@@ -1983,7 +2106,7 @@
 "icon_keyword_discount" = "Kedvezmény";
 "icon_keyword_percent" = "Százalék";
 "icon_keyword_wallet" = "Tárca";
-"icon_keyword_convertible" = "Konvertálható";
+"icon_keyword_convertible" = "Kabrió";
 "icon_keyword_drone" = "Drone";
 "icon_keyword_motorcycle" = "Motorkerékpár";
 "icon_keyword_tire" = "Abroncs";
@@ -1995,7 +2118,7 @@
 "icon_keyword_ice_skating" = "Jégkorcsolya";
 "icon_keyword_rowing" = "Evezés";
 "icon_keyword_inhaler" = "Inhalátor";
-"icon_keyword_wheelchair" = "Tokerekesszék";
+"icon_keyword_wheelchair" = "Kerekesszék";
 "icon_keyword_vacuum" = "Porszívó";
 "icon_keyword_doctor" = "Orvos";
 "icon_keyword_dentist" = "Fogorvos";
@@ -2005,7 +2128,7 @@
 /* MARK: - App Intents */
 /* Entities */
 "budget_book_entity_name" = "Költségkeret könyv";
-"account_entity_name" = "Fiók";
+"account_entity_name" = "Számla";
 "category_group_entity_name" = "Mappa";
 "category_entity_name" = "Kategória";
 "payee_entity_name" = "Kedvezményezett";
@@ -2043,13 +2166,13 @@
 "search_budget_book_title" = "Költségvetési könyv keresése";
 "search_budget_book_description" = "Egy adott költségvetési könyv keresése név szerint.";
 "search_budget_book_parameter_summary" = "Költségkeret-könyv keresése a következővel: ${name}";
-"search_account_title" = "Fiók keresése";
-"search_account_description" = "Adott fiók keresése név szerint.";
-"search_account_parameter_summary" = "Fiók keresése a következővel: ${name} a ${budgetBook}-ban";
+"search_account_title" = "Számla keresése";
+"search_account_description" = "Adott számla keresése név szerint.";
+"search_account_parameter_summary" = "Számla keresése a következővel: ${name} a ${budgetBook}-ban";
 "search_category_group_title" = "Mappa keresése";
 "search_category_group_description" = "Adott mappa keresése név szerint.";
 "search_category_group_parameter_summary" = "Mappa keresése a következővel: ${name} a ${budgetBook}-ban";
-"search_category_title" = "Keresési kategória";
+"search_category_title" = "Kategória keresése";
 "search_category_description" = "Adott kategória keresése név alapján.";
 "search_category_parameter_summary" = "Keresési kategória a következővel: ${name} a ${budgetBook} ${categoryGroup}-ban";
 "search_payee_title" = "Kedvezményezett keresése";
@@ -2120,6 +2243,7 @@
 "date_property_title" = "Dátum";
 "category_property_title" = "Kategória";
 "payee_property_title" = "Kedvezményezett";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Költségvetési könyvem";

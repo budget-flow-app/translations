@@ -51,7 +51,7 @@
 			<key>one</key>
 			<string>день</string>
 			<key>few</key>
-			<string>дня</string>
+			<string>дні</string>
 			<key>other</key>
 			<string>днів</string>
 		</dict>
@@ -249,7 +249,7 @@
 			<key>one</key>
 			<string>Повторюється кожного тижня в %2$@.</string>
 			<key>few</key>
-			<string>Повторюється кожні %1$d тижнів в %2$@.</string>
+			<string>Повторюється кожні %1$d тижні в %2$@.</string>
 			<key>other</key>
 			<string>Повторюється кожні %1$d тижнів в %2$@.</string>
 		</dict>
@@ -267,7 +267,7 @@
 			<key>one</key>
 			<string>Повторюється кожного місяця.</string>
 			<key>few</key>
-			<string>Повторюється кожні %1$d місяців.</string>
+			<string>Повторюється кожні %1$d місяці.</string>
 			<key>other</key>
 			<string>Повторюється кожні %1$d місяців.</string>
 		</dict>
@@ -285,7 +285,7 @@
 			<key>one</key>
 			<string>Повторюється кожного місяця в %2$@.</string>
 			<key>few</key>
-			<string>Повторюється кожні %1$d місяців в %2$@.</string>
+			<string>Повторюється кожні %1$d місяці в %2$@.</string>
 			<key>other</key>
 			<string>Повторюється кожні %1$d місяців в %2$@.</string>
 		</dict>
@@ -303,7 +303,7 @@
 			<key>one</key>
 			<string>Повторюється кожного місяця в %2$@ %3$@.</string>
 			<key>few</key>
-			<string>Повторюється кожні %1$d місяців в %2$@ %3$@.</string>
+			<string>Повторюється кожні %1$d місяці в %2$@ %3$@.</string>
 			<key>other</key>
 			<string>Повторюється кожні %1$d місяців в %2$@ %3$@.</string>
 		</dict>
