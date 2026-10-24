@@ -30,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>iPhone Duo</string>
+				<string>iPhone Duo 支援</string>
 				<key>Description</key>
 				<string>新增對 iPhone Duo 的支援，並針對其螢幕佈局全面最佳化設計。</string>
 				<key>IconName</key>
