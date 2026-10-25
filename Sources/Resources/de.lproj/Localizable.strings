@@ -1705,9 +1705,8 @@
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/de/imprint.json";
 "termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
-"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/40607314/no-markup";
-"privacyUrlWeb" = "https://budget-flow.app/datenschutzerklaerung";
-"imprintUrlWeb" = "https://budget-flow.app/impressum";
+"privacyUrl" = "https://budget-flow.app/datenschutzerklaerung";
+"legalNoticeUrl" = "https://budget-flow.app/impressum";
 "familySharingUrl" = "https://www.apple.com/de/family-sharing";
 
 
