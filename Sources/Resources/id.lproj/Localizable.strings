@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Deskripsi";
 "sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi, kelola cadangan Anda, atau impor dan ekspor data Anda menggunakan file CSV.";
+"sync_and_data_setting_info_description_android" = "Kelola cadanganmu atau impor dan ekspor datamu menggunakan file CSV.\n\nInfo: Sinkronisasi lintas platform akan segera hadir.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Konverter Mata Uang";
 "upgrade_feature_currency_converter_description" = "Gunakan pengonversi mata uang bawaan untuk mengonversi jumlah menjadi salah satu dari 150+ mata uang asing secara otomatis.";
 "upgrade_feature_customization" = "Personalisasi";
-"upgrade_feature_customization_description" = "Pilih dari beberapa warna aksen dan ikon untuk mempersonalisasi aplikasi sesuai keinginan Anda.";
+"upgrade_feature_customization_description" = "Pilih dari berbagai warna aksen dan tema untuk mempersonalisasi aplikasi sesuai keinginanmu.";
 "upgrade_feature_sharedbudget_books_title" = "Bagikan Buku Anggaran";
 "upgrade_feature_sharedbudget_books_description" = "Bagikan buku anggaran Anda termasuk akun, kategori, transaksi, dan anggaran untuk berkolaborasi dengan satu orang atau lebih.";
 "upgrade_feature_receipt_scanner_title" = "Pindai Struk";

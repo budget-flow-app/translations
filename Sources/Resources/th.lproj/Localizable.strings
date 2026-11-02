@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "คำอธิบาย";
 "sync_and_data_setting_info_description" = "ดูภาพรวมของสถานะการซิงโครไนซ์ จัดการข้อมูลสำรอง หรือนำเข้าและส่งออกข้อมูลของคุณโดยใช้ไฟล์ CSV";
+"sync_and_data_setting_info_description_android" = "จัดการข้อมูลสำรอง หรือนำเข้าและส่งออกข้อมูลของคุณโดยใช้ไฟล์ CSV\n\nหมายเหตุ: การซิงค์ข้ามแพลตฟอร์มจะพร้อมใช้งานเร็ว ๆ นี้";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "ตัวแปลงสกุลเงิน";
 "upgrade_feature_currency_converter_description" = "ใช้ตัวแปลงสกุลเงินในตัวเพื่อแปลงจำนวนเงินเป็นหนึ่งในสกุลเงินต่างประเทศกว่า 150 สกุลโดยอัตโนมัติ";
 "upgrade_feature_customization" = "การปรับแต่ง";
-"upgrade_feature_customization_description" = "เลือกจากสีเน้นและไอคอนต่างๆ เพื่อปรับแต่งแอพตามที่คุณต้องการ";
+"upgrade_feature_customization_description" = "เลือกสีเน้นและธีมต่าง ๆ เพื่อปรับแต่งแอปตามความชอบของคุณ";
 "upgrade_feature_sharedbudget_books_title" = "แบ่งปันสมุดงบประมาณ";
 "upgrade_feature_sharedbudget_books_description" = "แบ่งปันสมุดงบประมาณของคุณ ซึ่งรวมถึงบัญชี หมวดหมู่ ธุรกรรม และงบประมาณเพื่อทำงานร่วมกันกับบุคคลตั้งแต่หนึ่งคนขึ้นไป";
 "upgrade_feature_receipt_scanner_title" = "สแกนใบเสร็จ";

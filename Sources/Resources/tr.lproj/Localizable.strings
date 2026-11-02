@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Açıklama";
 "sync_and_data_setting_info_description" = "Senkronizasyon durumu hakkında genel bilgi edinin, yedeklemelerinizi yönetin veya CSV dosyası kullanarak verilerinizi içe ve dışa aktarın.";
+"sync_and_data_setting_info_description_android" = "Yedeklerini yönet veya bir CSV dosyası kullanarak verilerini içe ve dışa aktar.\n\nBilgi: Platformlar arası senkronizasyon yakında kullanıma sunulacak.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Döviz Çevirici";
 "upgrade_feature_currency_converter_description" = "Tutarları otomatik olarak 150'den fazla yabancı para biriminden birine dönüştürmek için yerleşik para birimi dönüştürücüyü kullanın.";
 "upgrade_feature_customization" = "Kişiselleştirme";
-"upgrade_feature_customization_description" = "Uygulamayı beğeninize göre kişiselleştirmek için birden fazla vurgu rengi ve simge arasından seçim yapın.";
+"upgrade_feature_customization_description" = "Uygulamayı zevkine göre kişiselleştirmek için çeşitli vurgu renkleri ve temalar arasından seçim yap.";
 "upgrade_feature_sharedbudget_books_title" = "Bütçe Defterlerini Paylaş";
 "upgrade_feature_sharedbudget_books_description" = "Bir veya daha fazla kişiyle işbirliği yapmak için hesaplar, kategoriler, işlemler ve bütçeler dahil olmak üzere bütçe defterlerinizi paylaşın.";
 "upgrade_feature_receipt_scanner_title" = "Makbuzları Tara";

@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "설명";
 "sync_and_data_setting_info_description" = "동기화 상태를 확인하고, 백업을 관리하거나, CSV 파일을 사용하여 데이터를 가져오고 내보냅니다.";
+"sync_and_data_setting_info_description_android" = "백업을 관리하거나 CSV 파일을 사용해 데이터를 가져오고 내보내세요.\n\n안내: 플랫폼 간 동기화 기능이 곧 제공됩니다.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "환율 계산기";
 "upgrade_feature_currency_converter_description" = "내장된 통화 계산기를 사용하여 금액을 150개 이상의 외화 중 하나로 자동 계산합니다.";
 "upgrade_feature_customization" = "개인 설정";
-"upgrade_feature_customization_description" = "다양한 색상과 아이콘 중에서 선택하여 원하는 대로 앱을 꾸밀 수 있습니다.";
+"upgrade_feature_customization_description" = "다양한 강조 색상과 테마 중에서 선택하여 앱을 취향에 맞게 꾸며보세요.";
 "upgrade_feature_sharedbudget_books_title" = "예산 장부 공유";
 "upgrade_feature_sharedbudget_books_description" = "계정, 범주, 거래 및 예산을 포함한 예산 장부를 공유하여 한 명 이상의 사람들과 함께 작성할 수 있습니다.";
 "upgrade_feature_receipt_scanner_title" = "영수증 스캔";

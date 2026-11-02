@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Descripción";
 "sync_and_data_setting_info_description" = "Obtén una visión general del estado de sincronización, gestiona tus copias de seguridad o importa y exporta tus datos mediante un archivo CSV.";
+"sync_and_data_setting_info_description_android" = "Gestiona tus copias de seguridad o importa y exporta tus datos mediante un archivo CSV.\n\nNota: La sincronización entre plataformas estará disponible pronto.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Conversor de divisas";
 "upgrade_feature_currency_converter_description" = "Utilice el conversor de divisas incorporado para convertir automáticamente los importes a una de las más de 150 monedas extranjeras.";
 "upgrade_feature_customization" = "Personalización";
-"upgrade_feature_customization_description" = "Elija entre múltiples colores de acento e íconos para personalizar la app a su gusto.";
+"upgrade_feature_customization_description" = "Elige entre distintos colores de acento y temas para personalizar la app a tu gusto.";
 "upgrade_feature_sharedbudget_books_title" = "Libros de presupuesto compartido";
 "upgrade_feature_sharedbudget_books_description" = "Comparta sus libros de presupuesto, incluidas las cuentas, las categorías, las transacciones y los presupuestos, para colaborar con una o más personas.";
 "upgrade_feature_receipt_scanner_title" = "Escanear recibos";

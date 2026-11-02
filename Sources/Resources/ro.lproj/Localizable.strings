@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Descriere";
 "sync_and_data_setting_info_description" = "Obțineți o prezentare generală a stării de sincronizare, gestionați copiile de rezervă sau importați și exportați datele folosind un fișier CSV.";
+"sync_and_data_setting_info_description_android" = "Gestionează copiile de siguranță sau importă și exportă datele folosind un fișier CSV.\n\nInfo: Sincronizarea între platforme va fi disponibilă în curând.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Convertorul valutar";
 "upgrade_feature_currency_converter_description" = "Utilizați convertorul de valută încorporat pentru a converti automat sumele într-una dintre cele peste 150 de valute străine.";
 "upgrade_feature_customization" = "Personalizare";
-"upgrade_feature_customization_description" = "Alegeți dintre mai multe culori de accent și pictograme pentru a personaliza aplicația după cum doriți.";
+"upgrade_feature_customization_description" = "Alege dintre diverse culori de accent și teme pentru a personaliza aplicația după preferințele tale.";
 "upgrade_feature_sharedbudget_books_title" = "Partajați cărțile bugetare";
 "upgrade_feature_sharedbudget_books_description" = "Partajați registrele de buget, inclusiv conturile, categoriile, tranzacțiile și bugetele pentru a colabora cu una sau mai multe persoane.";
 "upgrade_feature_receipt_scanner_title" = "Scanați chitanțe";

@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Popis";
 "sync_and_data_setting_info_description" = "Získajte prehľad o stave synchronizácie, spravujte svoje zálohy alebo importujte a exportujte svoje dáta pomocou súboru CSV.";
+"sync_and_data_setting_info_description_android" = "Spravuj zálohy alebo importuj a exportuj údaje pomocou súboru CSV.\n\nInfo: Synchronizácia medzi platformami bude čoskoro dostupná.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Prevodník mien";
 "upgrade_feature_currency_converter_description" = "Použite vstavaný prevodník mien na automatický prevod čiastok do jednej z viac ako 150 cudzích mien.";
 "upgrade_feature_customization" = "Prispôsobenie";
-"upgrade_feature_customization_description" = "Vyberte si z viacerých akcentných farieb a ikon a prispôsobte si aplikáciu podľa svojich predstáv.";
+"upgrade_feature_customization_description" = "Vyber si z rôznych farieb zvýraznenia a motívov a prispôsob si aplikáciu podľa svojich predstáv.";
 "upgrade_feature_sharedbudget_books_title" = "Zdieľať knihy rozpočtu";
 "upgrade_feature_sharedbudget_books_description" = "Zdieľajte svoje rozpočtové knihy vrátane účtov, kategórií, transakcií a rozpočtov, aby ste mohli spolupracovať s jedným alebo viacerými ľuďmi.";
 "upgrade_feature_receipt_scanner_title" = "Skenovať účtenky";

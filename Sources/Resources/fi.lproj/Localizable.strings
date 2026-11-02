@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Kuvaus";
 "sync_and_data_setting_info_description" = "Saat yleiskatsauksen synkronoinnin tilasta, voit hallita varmuuskopioitasi tai tuoda ja viedä tietojasi CSV-tiedoston avulla.";
+"sync_and_data_setting_info_description_android" = "Hallitse varmuuskopioita tai tuo ja vie tietoja CSV-tiedoston avulla.\n\nHuomautus: Alustojen välinen synkronointi on tulossa pian.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Valuuttamuunnin";
 "upgrade_feature_currency_converter_description" = "Käytä sisäänrakennettua valuuttamuunninta muuntaaksesi summat automaattisesti johonkin yli 150 ulkomaan valuutasta.";
 "upgrade_feature_customization" = "Personointi";
-"upgrade_feature_customization_description" = "Valitse useista korostusväreistä ja kuvakkeista muokataksesi sovellusta mieleiseksesi.";
+"upgrade_feature_customization_description" = "Valitse eri korostusväreistä ja teemoista ja mukauta sovellus mieleiseksesi.";
 "upgrade_feature_sharedbudget_books_title" = "Jaa budjettikirjoja";
 "upgrade_feature_sharedbudget_books_description" = "Jaa budjettikirjasi, mukaan lukien tilit, luokat, tapahtumat ja budjetit, jotta voit tehdä yhteistyötä yhden tai useamman henkilön kanssa.";
 "upgrade_feature_receipt_scanner_title" = "Skannaa kuitit";

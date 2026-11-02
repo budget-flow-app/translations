@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Descripció";
 "sync_and_data_setting_info_description" = "Obtingueu una visió general de l'estat de sincronització, gestioneu les còpies de seguretat o importeu i exporteu les vostres dades mitjançant un fitxer CSV.";
+"sync_and_data_setting_info_description_android" = "Gestiona les còpies de seguretat o importa i exporta les dades mitjançant un fitxer CSV.\n\nNota: La sincronització entre plataformes estarà disponible aviat.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Convertidor de divises";
 "upgrade_feature_currency_converter_description" = "Utilitza el convertidor de divises incorporat per convertir automàticament els imports a una de les més de 150 monedes estrangeres.";
 "upgrade_feature_customization" = "Personalització";
-"upgrade_feature_customization_description" = "Tria entre múltiples colors d'accent i icones per personalitzar l'app al teu gust.";
+"upgrade_feature_customization_description" = "Tria entre diversos colors d’accent i temes per personalitzar l’app al teu gust.";
 "upgrade_feature_sharedbudget_books_title" = "Llibres de pressupost compartits";
 "upgrade_feature_sharedbudget_books_description" = "Comparteix els teus llibres de pressupost, inclosos els comptes, categories, transaccions i pressupostos, per col·laborar amb una o més persones.";
 "upgrade_feature_receipt_scanner_title" = "Escanejar rebuts";

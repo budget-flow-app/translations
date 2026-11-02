@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Mô tả";
 "sync_and_data_setting_info_description" = "Xem tổng quan trạng thái đồng bộ, quản lý bản sao lưu hoặc nhập và xuất dữ liệu bằng tệp CSV.";
+"sync_and_data_setting_info_description_android" = "Quản lý bản sao lưu hoặc nhập và xuất dữ liệu bằng tệp CSV.\n\nLưu ý: Tính năng đồng bộ hóa đa nền tảng sẽ sớm ra mắt.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Chuyển đổi đơn vị tiền tệ";
 "upgrade_feature_currency_converter_description" = "Sử dụng công cụ chuyển đổi tiền tệ được tích hợp để tự động chuyển đổi số tiền thành một trong hơn 150 loại ngoại tệ.";
 "upgrade_feature_customization" = "Cá nhân hoá";
-"upgrade_feature_customization_description" = "Bạn có thể tuỳ chọn màu chủ đạo và các biểu tượng để cá nhân hoá ứng dụng theo ý thích";
+"upgrade_feature_customization_description" = "Chọn từ nhiều màu nhấn và chủ đề để cá nhân hóa ứng dụng theo sở thích của bạn.";
 "upgrade_feature_sharedbudget_books_title" = "Chia sẻ Sổ ngân sách";
 "upgrade_feature_sharedbudget_books_description" = "Chia sẻ Sổ ngân sách của bạn bao gồm Ví, Danh mục, giao dịch và ngân sách với một hoặc nhiều người.";
 "upgrade_feature_receipt_scanner_title" = "Quét biên lai";

@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Περιγραφή";
 "sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της κατάστασης συγχρονισμού, διαχειριστείτε τα αντίγραφα ασφαλείας σας ή εισαγάγετε και εξαγάγετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.";
+"sync_and_data_setting_info_description_android" = "Διαχειρίσου τα αντίγραφα ασφαλείας σου ή εισήγαγε και εξήγαγε τα δεδομένα σου μέσω αρχείου CSV.\n\nΣημείωση: Ο συγχρονισμός μεταξύ πλατφορμών θα είναι σύντομα διαθέσιμος.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Μετατροπέας νομισμάτων";
 "upgrade_feature_currency_converter_description" = "Χρησιμοποιήστε τον ενσωματωμένο μετατροπέα νομισμάτων για αυτόματη μετατροπή ποσών σε ένα από περισσότερα από 150 ξένα νομίσματα.";
 "upgrade_feature_customization" = "Εξατομίκευση";
-"upgrade_feature_customization_description" = "Επιλέξτε από πολλά χρώματα έμφασης και εικονίδια για να εξατομικεύσετε την εφαρμογή σύμφωνα με τις προτιμήσεις σας.";
+"upgrade_feature_customization_description" = "Επίλεξε ανάμεσα σε διάφορα χρώματα έμφασης και θέματα για να προσαρμόσεις την εφαρμογή στις προτιμήσεις σου.";
 "upgrade_feature_sharedbudget_books_title" = "Κοινή χρήση βιβλίων προϋπολογισμού";
 "upgrade_feature_sharedbudget_books_description" = "Μοιραστείτε τα βιβλία προϋπολογισμού σας, συμπεριλαμβανομένων λογαριασμών, κατηγοριών, συναλλαγών και προϋπολογισμών για να συνεργαστείτε με ένα ή περισσότερα άτομα.";
 "upgrade_feature_receipt_scanner_title" = "Σάρωση αποδείξεων";

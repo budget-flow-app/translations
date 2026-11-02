@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Leírás";
 "sync_and_data_setting_info_description" = "Áttekintést kaphat a szinkronizálási állapotról, kezelheti a biztonsági mentéseit, vagy importálhatja és exportálhatja adatait egy CSV-fájl segítségével.";
+"sync_and_data_setting_info_description_android" = "Kezeld a biztonsági mentéseidet, vagy importáld és exportáld adataidat CSV-fájl segítségével.\n\nInfó: Hamarosan elérhető lesz a platformok közötti szinkronizálás.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Pénznemváltó";
 "upgrade_feature_currency_converter_description" = "A beépített valutaváltó segítségével automatikusan átválthatja az összegeket a több mint 150 deviza egyikére.";
 "upgrade_feature_customization" = "Személyre szabás";
-"upgrade_feature_customization_description" = "Válasszon több kiemelő szín és ikon közül az alkalmazás testreszabásához.";
+"upgrade_feature_customization_description" = "Válassz a különböző kiemelőszínek és témák közül, és szabd személyre az alkalmazást az ízlésed szerint.";
 "upgrade_feature_sharedbudget_books_title" = "Költségvetési könyvek megosztása";
 "upgrade_feature_sharedbudget_books_description" = "Ossza meg költségvetési könyveit, beleértve a számlákat, kategóriákat, tranzakciókat és költségkereteket, hogy együttműködjön egy vagy több személlyel.";
 "upgrade_feature_receipt_scanner_title" = "Nyugták beolvasása";
