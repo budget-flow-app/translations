@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "説明";
 "sync_and_data_setting_info_description" = "同期ステータスの概要を確認し、バックアップを管理するか、CSV ファイルを使用してデータをインポートおよびエクスポートします。";
+"sync_and_data_setting_info_description_android" = "バックアップの管理や、CSVファイルを使ったデータのインポート・エクスポートができます。\n\nお知らせ：異なるプラットフォーム間での同期に近日対応予定です。";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "通貨コンバータ";
 "upgrade_feature_currency_converter_description" = "内蔵通貨コンバータを使用して、金額を 150 以上の外国通貨のいずれかに自動的に変換します。";
 "upgrade_feature_customization" = "パーソナライゼーション";
-"upgrade_feature_customization_description" = "複数のアクセント カラーとアイコンから選択して、アプリを好みに合わせてカスタマイズします。";
+"upgrade_feature_customization_description" = "さまざまなアクセントカラーやテーマから選んで、アプリを自分好みにカスタマイズできます。";
 "upgrade_feature_sharedbudget_books_title" = "帳簿を共有する";
 "upgrade_feature_sharedbudget_books_description" = "口座、カテゴリ、トランザクション、予算を含む帳簿を共有して、1 人以上のユーザーと共同作業します。";
 "upgrade_feature_receipt_scanner_title" = "領収書のスキャン";

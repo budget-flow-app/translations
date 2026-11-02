@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Description";
 "sync_and_data_setting_info_description" = "Get an overview of the synchronization status, manage your backups, or import and export your data using a CSV file.";
+"sync_and_data_setting_info_description_android" = "Manage your backups or import and export your data using a CSV file.\n\nNote: Cross-platform sync is coming soon.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Currency Converter";
 "upgrade_feature_currency_converter_description" = "Use the built-in currency converter to automatically convert amounts into one of over 150 foreign currencies.";
 "upgrade_feature_customization" = "Personalization";
-"upgrade_feature_customization_description" = "Choose from multiple accent colors and icons to personalize the app to your liking.";
+"upgrade_feature_customization_description" = "Choose from a range of accent colors and themes to personalize the app to your liking.";
 "upgrade_feature_sharedbudget_books_title" = "Share Budget Books";
 "upgrade_feature_sharedbudget_books_description" = "Share your budget books including accounts, categories, transactions, and budgets to collaborate with one or more people.";
 "upgrade_feature_receipt_scanner_title" = "Scan Receipts";

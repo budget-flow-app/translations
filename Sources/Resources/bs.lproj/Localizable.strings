@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Dobijte pregled statusa sinkronizacije, upravljajte sigurnosnim kopijama ili uvezite i izvezite svoje podatke pomoću CSV datoteke.";
+"sync_and_data_setting_info_description_android" = "Upravljaj sigurnosnim kopijama ili uvezi i izvezi podatke pomoću CSV datoteke.\n\nInfo: Sinhronizacija između platformi stiže uskoro.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Konverter valuta";
 "upgrade_feature_currency_converter_description" = "Koristite ugrađeni pretvarač valuta za automatsku pretvorbu iznosa u jednu od preko 150 stranih valuta.";
 "upgrade_feature_customization" = "Mogućnost personalizacije";
-"upgrade_feature_customization_description" = "Odaberite između više istaknutih boja i ikona za personalizaciju aplikacije prema vašim željama.";
+"upgrade_feature_customization_description" = "Odaberi između različitih naglasnih boja i tema kako bi aplikaciju prilagodio svojim željama.";
 "upgrade_feature_sharedbudget_books_title" = "Dijeljenje budžetskih knjiga";
 "upgrade_feature_sharedbudget_books_description" = "Podijelite svoje budžetske knjige uključujući račune, kategorije, transakcije i budžete za suradnju s jednom ili više osoba.";
 "upgrade_feature_receipt_scanner_title" = "Skeniranje računa";

@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Beschreibung";
 "sync_and_data_setting_info_description" = "Verschaffe dir einen Überblick über den Synchronisationsstatus, verwalte deine Backups oder importiere bzw. exportiere deine Daten mithilfe einer CSV-Datei.";
+"sync_and_data_setting_info_description_android" = "Verwalte deine Backups oder importiere bzw. exportiere deine Daten mithilfe einer CSV-Datei.\n\nInfo: Die plattformübergreifende Synchronisation kommt bald.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Währungsumrechner";
 "upgrade_feature_currency_converter_description" = "Nutze den integrierten Währungsumrechner, um Beträge automatisch in eine von über 150 Fremdwährungen umzurechnen.";
 "upgrade_feature_customization" = "Personalisierung";
-"upgrade_feature_customization_description" = "Wähle eine von mehreren Akzentfarben und Icons, um die App nach deinen Vorlieben zu personalisieren.";
+"upgrade_feature_customization_description" = "Wähle aus verschiedenen Akzentfarben und Designs, um die App nach deinen Vorlieben zu personalisieren.";
 "upgrade_feature_sharedbudget_books_title" = "Haushaltsbücher teilen";
 "upgrade_feature_sharedbudget_books_description" = "Teile deine Haushaltsbücher, einschließlich Konten, Kategorien, Transaktionen und Budgets, um gemeinsam mit einer weiteren oder mehreren Personen daran arbeiten zu können.";
 "upgrade_feature_receipt_scanner_title" = "Belege scannen";

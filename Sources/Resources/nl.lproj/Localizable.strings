@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Beschrijving";
 "sync_and_data_setting_info_description" = "Krijg een overzicht van de synchronisatiestatus, beheer je back-ups of importeer en exporteer je gegevens met een CSV-bestand.";
+"sync_and_data_setting_info_description_android" = "Beheer je back-ups of importeer en exporteer je gegevens via een CSV-bestand.\n\nInfo: Synchronisatie tussen platforms is binnenkort beschikbaar.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Valuta-omzetter";
 "upgrade_feature_currency_converter_description" = "Gebruik de ingebouwde valuta-omzetter om bedragen automatisch om te rekenen naar één van de meer dan 150 vreemde valuta's.";
 "upgrade_feature_customization" = "Personalisatie";
-"upgrade_feature_customization_description" = "Kies uit meerdere accentkleuren en pictogrammen om de app naar wens aan te passen.";
+"upgrade_feature_customization_description" = "Kies uit verschillende accentkleuren en thema’s om de app naar wens te personaliseren.";
 "upgrade_feature_sharedbudget_books_title" = "Budgetboeken delen";
 "upgrade_feature_sharedbudget_books_description" = "Deel je budgetboeken inclusief rekeningen, categorieën, transacties en budgetten om samen te werken met een of meer mensen.";
 "upgrade_feature_receipt_scanner_title" = "Bonnen scannen";

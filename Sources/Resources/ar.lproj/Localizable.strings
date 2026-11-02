@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "الوصف";
 "sync_and_data_setting_info_description" = "احصل على نظرة عامة على حالة المزامنة، وأدر النسخ الاحتياطية، أو استورد وصدّر بياناتك باستخدام ملف CSV.";
+"sync_and_data_setting_info_description_android" = "يمكنك إدارة النسخ الاحتياطية أو استيراد بياناتك وتصديرها باستخدام ملف CSV.\n\nملاحظة: ستتوفر المزامنة عبر المنصات قريبًا.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "محول العملات";
 "upgrade_feature_currency_converter_description" = "استخدم محول العملات المدمج لتحويل المبالغ تلقائيًا إلى واحدة من أكثر من 150 عملة أجنبية.";
 "upgrade_feature_customization" = "التخصيص";
-"upgrade_feature_customization_description" = "اختر من بين العديد من الألوان والأيقونات المميزة لتخصيص التطبيق.";
+"upgrade_feature_customization_description" = "اختر من بين مجموعة من ألوان التمييز والسمات لتخصيص التطبيق حسب تفضيلاتك.";
 "upgrade_feature_sharedbudget_books_title" = "كتب الميزانية المشتركة";
 "upgrade_feature_sharedbudget_books_description" = "شارك دفاتر ميزانيتك، بما في ذلك الحسابات، والفئات، والمعاملات، والميزانيات، للتعاون مع عدة أشخاص.";
 "upgrade_feature_receipt_scanner_title" = "ماسح الإيصالات";

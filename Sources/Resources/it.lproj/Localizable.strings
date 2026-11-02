@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Descrizione";
 "sync_and_data_setting_info_description" = "Ottieni una panoramica dello stato di sincronizzazione, gestisci i tuoi backup oppure importa ed esporta i tuoi dati utilizzando un file CSV.";
+"sync_and_data_setting_info_description_android" = "Gestisci i tuoi backup oppure importa ed esporta i tuoi dati tramite un file CSV.\n\nNota: La sincronizzazione tra piattaforme sarà disponibile a breve.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Convertitore di valuta";
 "upgrade_feature_currency_converter_description" = "Utilizza il convertitore di valuta integrato per convertire automaticamente gli importi in una delle oltre 150 valute estere disponibili.";
 "upgrade_feature_customization" = "Personalizzazione";
-"upgrade_feature_customization_description" = "Scegli tra diversi colori e icone per personalizzare l'app a tuo piacimento.";
+"upgrade_feature_customization_description" = "Scegli tra diversi colori di accento e temi per personalizzare l’app secondo le tue preferenze.";
 "upgrade_feature_sharedbudget_books_title" = "Condivisione di registri contabili";
 "upgrade_feature_sharedbudget_books_description" = "Condividi i tuoi registri contabili, inclusi conti, categorie, transazioni e budget, per collaborare con una o più persone.";
 "upgrade_feature_receipt_scanner_title" = "Scansione ricevute";

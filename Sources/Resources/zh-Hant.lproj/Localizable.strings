@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "描述";
 "sync_and_data_setting_info_description" = "查看同步狀態概覽、管理備份，或使用 CSV 檔案匯入和匯出資料";
+"sync_and_data_setting_info_description_android" = "管理備份，或使用 CSV 檔案匯入和匯出資料。\n\n提示：跨平台同步功能即將推出。";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "貨幣轉換器";
 "upgrade_feature_currency_converter_description" = "使用內建的貨幣轉換器自動將金額轉換為 150 多種外幣";
 "upgrade_feature_customization" = "個人化";
-"upgrade_feature_customization_description" = "從多種強調色和圖示中選擇，以便按照您的喜好個性化應用程式";
+"upgrade_feature_customization_description" = "選擇不同的強調色和主題，依照自己的喜好個人化設定 App。";
 "upgrade_feature_sharedbudget_books_title" = "共享預算帳本";
 "upgrade_feature_sharedbudget_books_description" = "共享您的預算帳本，包括帳戶、分類、交易和預算，以便與一個或多個人協作";
 "upgrade_feature_receipt_scanner_title" = "掃描收據";

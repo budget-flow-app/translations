@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Beskrivelse";
 "sync_and_data_setting_info_description" = "Få et overblik over synkroniseringsstatussen, administrer dine sikkerhedskopier eller importer og eksporter dine data ved hjælp af en CSV-fil.";
+"sync_and_data_setting_info_description_android" = "Administrer dine sikkerhedskopier, eller importer og eksporter dine data via en CSV-fil.\n\nInfo: Synkronisering på tværs af platforme kommer snart.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Valutaomregner";
 "upgrade_feature_currency_converter_description" = "Brug den indbyggede valutaomregner til automatisk at konvertere beløb til en af ​​over 150 udenlandske valutaer.";
 "upgrade_feature_customization" = "Tilpasning";
-"upgrade_feature_customization_description" = "Vælg mellem flere accentfarver og ikoner for at tilpasse appen efter din smag.";
+"upgrade_feature_customization_description" = "Vælg mellem forskellige accentfarver og temaer for at tilpasse appen efter dine ønsker.";
 "upgrade_feature_sharedbudget_books_title" = "Del budgetbøger";
 "upgrade_feature_sharedbudget_books_description" = "Del dine budgetbøger inklusive konti, kategorier, transaktioner og budgetter for at samarbejde med en eller flere personer.";
 "upgrade_feature_receipt_scanner_title" = "Scan kvitteringer";

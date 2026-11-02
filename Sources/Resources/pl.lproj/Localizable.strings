@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Uzyskaj przegląd stanu synchronizacji, zarządzaj kopiami zapasowymi lub importuj i eksportuj dane za pomocą pliku CSV.";
+"sync_and_data_setting_info_description_android" = "Zarządzaj kopiami zapasowymi lub importuj i eksportuj dane za pomocą pliku CSV.\n\nInformacja: Synchronizacja między platformami będzie dostępna wkrótce.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Przelicznik walut";
 "upgrade_feature_currency_converter_description" = "Użyj wbudowanego przelicznika walut, aby automatycznie przeliczać kwoty na jedną z ponad 150 obcych walut.";
 "upgrade_feature_customization" = "Personalizacja";
-"upgrade_feature_customization_description" = "Wybierz spośród wielu kolorów akcentów i ikon, aby spersonalizować aplikację według własnych upodobań.";
+"upgrade_feature_customization_description" = "Wybierz spośród różnych kolorów akcentu i motywów, aby dostosować aplikację do swoich preferencji.";
 "upgrade_feature_sharedbudget_books_title" = "Udostępnij księgi budżetowe";
 "upgrade_feature_sharedbudget_books_description" = "Udostępnij swoje księgi budżetowe, w tym konta, kategorie, transakcje i budżety, aby współpracować z co najmniej jedną osobą.";
 "upgrade_feature_receipt_scanner_title" = "Skanuj paragony";

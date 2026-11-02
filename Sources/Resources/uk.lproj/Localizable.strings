@@ -641,6 +641,7 @@
 /* Info */
 "sync_and_data_setting_info_title" = "Опис";
 "sync_and_data_setting_info_description" = "Отримайте огляд стану синхронізації, керуйте резервними копіями або імпортуйте й експортуйте дані за допомогою файлу CSV.";
+"sync_and_data_setting_info_description_android" = "Керуй резервними копіями або імпортуй та експортуй дані за допомогою CSV-файлу.\n\nПримітка: синхронізація між платформами незабаром стане доступною.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -1009,7 +1010,7 @@
 "upgrade_feature_currency_converter_title" = "Конвертер валют";
 "upgrade_feature_currency_converter_description" = "Використовуйте вбудований конвертер валют, щоб автоматично конвертувати суми в одну з понад 150 іноземних валют.";
 "upgrade_feature_customization" = "Персоналізація";
-"upgrade_feature_customization_description" = "Виберіть із кількох акцентних кольорів і значків, щоб персоналізувати програму на свій смак.";
+"upgrade_feature_customization_description" = "Вибирай різні акцентні кольори й теми, щоб налаштувати застосунок на свій смак.";
 "upgrade_feature_sharedbudget_books_title" = "Поділитися бюджетними книгами";
 "upgrade_feature_sharedbudget_books_description" = "Поділіться своїми бюджетними книгами, включно з рахунками, категоріями, транзакціями та бюджетами, щоб співпрацювати з одним або кількома людьми.";
 "upgrade_feature_receipt_scanner_title" = "Сканувати квитанції";
