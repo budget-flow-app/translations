@@ -1,14 +1,12 @@
 //
-//  BudgetFlowTranslationsLibrary.swift
+//  Library.swift
 //  BudgetFlowTranslations
 //
-//  Created by Fabian Hasse on 14.12.25.
-//  Copyright © 2025 Fabian Hasse. All rights reserved.
+//  Copyright © 2026 Fabian Hasse.
 //
 
 import Foundation
 
-// SKIP @nobridge
 public class BudgetFlowTranslationsLibrary {
     public static let bundle: Bundle = Bundle.module
 }

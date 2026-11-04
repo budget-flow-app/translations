@@ -2,4 +2,3 @@
 skip:
   mode: 'transpiled'
   package: 'app.budgetflow.translations'
-  bridging: true
