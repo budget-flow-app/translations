@@ -11,7 +11,7 @@
 ## Introduction
 Budget Flow currently supports over 30 languages, but since many of these were automatically translated, some may contain errors or sound unnatural (see the status table below). However, thanks to the amazing support from the community, many people have already contributed to improving the app’s translations, and I am truly grateful for their help. You can find a list of all contributors under "Settings" => "Acknowledgments" within the app.
 
-The translations in this Swift package are shared across Apple platforms (iOS, iPadOS, macOS, and watchOS) and Android. Android support uses [Skip](https://skip.dev), which allows the Swift package and its localization resources to be used across platforms.
+The translations are shared across Apple platforms (iOS, iPadOS, macOS, and watchOS) and Android. Android support uses [Skip](https://skip.dev), which allows the Swift package and its localization resources to be used across platforms.
 
 If your language is not yet supported by the app, or if you notice an issue with the existing translations, I’d love to hear from you! Just send me an email at mail@budget-flow.app with the subject "Translate", or contact me directly within the app under "Settings" => "Help with Translation".
 
