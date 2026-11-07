@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Nieuw inkomen";
 "form_title_new_expense" = "Nieuwe uitgave";
 "form_title_new_transfer" = "Nieuwe overdracht";
+"form_title_new_refund" = "Nieuwe terugbetaling";
 
 /* Sections */
 "form_date_section_title" = "Vervallen";

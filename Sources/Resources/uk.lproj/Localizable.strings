@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Новий дохід";
 "form_title_new_expense" = "Нові витрати";
 "form_title_new_transfer" = "Новий переказ";
+"form_title_new_refund" = "Нове повернення коштів";
 
 /* Sections */
 "form_date_section_title" = "Термін виконання";

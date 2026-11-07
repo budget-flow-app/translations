@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Novi prihod";
 "form_title_new_expense" = "Novi trošak";
 "form_title_new_transfer" = "Novi transfer";
+"form_title_new_refund" = "Novi povrat novca";
 
 /* Sections */
 "form_date_section_title" = "Dospjelo";

@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Pendapatan Baru";
 "form_title_new_expense" = "Pengeluaran Baru";
 "form_title_new_transfer" = "Transfer Baru";
+"form_title_new_refund" = "Pengembalian Dana Baru";
 
 /* Sections */
 "form_date_section_title" = "Jatuh Tempo";

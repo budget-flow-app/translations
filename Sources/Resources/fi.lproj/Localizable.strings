@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Uusi tulo";
 "form_title_new_expense" = "Uusi kulu";
 "form_title_new_transfer" = "Uusi siirto";
+"form_title_new_refund" = "Uusi hyvitys";
 
 /* Sections */
 "form_date_section_title" = "Määräpäivä";

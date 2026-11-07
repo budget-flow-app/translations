@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Venit nou";
 "form_title_new_expense" = "Cheltuieli noi";
 "form_title_new_transfer" = "Transfer nou";
+"form_title_new_refund" = "Rambursare nouă";
 
 /* Sections */
 "form_date_section_title" = "Scadență";

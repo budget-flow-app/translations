@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Khoản thu mới";
 "form_title_new_expense" = "Khoản chi mới";
 "form_title_new_transfer" = "Chuyển khoản";
+"form_title_new_refund" = "Khoản hoàn tiền mới";
 
 /* Sections */
 "form_date_section_title" = "Đến hạn";

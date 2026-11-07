@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Neue Einnahme";
 "form_title_new_expense" = "Neue Ausgabe";
 "form_title_new_transfer" = "Neue Umbuchung";
+"form_title_new_refund" = "Neue Rückerstattung";
 
 /* Sections */
 "form_date_section_title" = "Fälligkeit";

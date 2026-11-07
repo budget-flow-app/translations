@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Νέο εισόδημα";
 "form_title_new_expense" = "Νέα Δαπάνη";
 "form_title_new_transfer" = "Νέα μεταφορά";
+"form_title_new_refund" = "Νέα επιστροφή χρημάτων";
 
 /* Sections */
 "form_date_section_title" = "Οφειλόμενο";

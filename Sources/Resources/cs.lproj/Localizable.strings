@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Nový příjem";
 "form_title_new_expense" = "Nové náklady";
 "form_title_new_transfer" = "Nový převod";
+"form_title_new_refund" = "Nové vrácení peněz";
 
 /* Sections */
 "form_date_section_title" = "Splatnost";

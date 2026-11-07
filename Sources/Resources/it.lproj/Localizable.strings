@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Nuovo ingresso";
 "form_title_new_expense" = "Nuova uscita";
 "form_title_new_transfer" = "Nuovo trasferimento";
+"form_title_new_refund" = "Nuovo rimborso";
 
 /* Sections */
 "form_date_section_title" = "Data e ora";

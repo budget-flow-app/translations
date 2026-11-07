@@ -1523,6 +1523,7 @@
 "form_title_new_income" = "Nou ingrés";
 "form_title_new_expense" = "Nova despesa";
 "form_title_new_transfer" = "Nova transferència";
+"form_title_new_refund" = "Nou reemborsament";
 
 /* Sections */
 "form_date_section_title" = "Venciment";
