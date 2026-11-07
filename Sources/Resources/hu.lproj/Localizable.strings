@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokumentum";
 "attachment_type_document_plural" = "Dokumentumok";
 
+"attachment_status_with_attachments" = "Mellékletekkel";
+"attachment_status_without_attachments" = "Mellékletek nélkül";
+
 "period_type_month" = "Hónap";
 "period_type_year" = "Év";
 "period_type_custom" = "Dátum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Összeg";
 "transaction_filter_date_title" = "Dátum";
 "transaction_filter_status_title" = "Állapot";
+"transaction_filter_attachments_title" = "Mellékletek";
 
 "transaction_filter_accounts_title" = "Számlák";
 "transaction_filter_categories_title" = "Kategóriák";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Új bevétel";
 "form_title_new_expense" = "Új költség";
 "form_title_new_transfer" = "Új átvitel";
+"form_title_new_refund" = "Új visszatérítés";
 
 /* Sections */
 "form_date_section_title" = "Esedékes";

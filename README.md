@@ -5,17 +5,15 @@
   Translations for "Budget Flow", a modern and easy to use expense tracking app for iPhone, iPad, Mac, Apple Watch and Android.
 </p>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red.svg)](https://github.com/fhasse95/budget-flow-ios-translations/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red.svg)](https://github.com/budget-flow-app/translations/pulls)
 [![Xcode 15.0+](https://img.shields.io/badge/Xcode-15.0%20%2B-147EFB)](https://developer.apple.com/xcode)
 
 ## Introduction
-Budget Flow currently supports over 30 languages, but since many of these were automatically translated, some may contain errors or sound unnatural (see the status table below).
+Budget Flow currently supports over 30 languages, but since many of these were automatically translated, some may contain errors or sound unnatural (see the status table below). However, thanks to the amazing support from the community, many people have already contributed to improving the app’s translations, and I am truly grateful for their help. You can find a list of all contributors under "Settings" => "Acknowledgments" within the app.
 
-However, thanks to the amazing support from the community, many people have already contributed to improving the app’s translations, and I am truly grateful for their help. You can find a list of all contributors under "Settings" → "Acknowledgments" within the app.
+The translations are shared across Apple platforms (iOS, iPadOS, macOS, and watchOS) and Android. Android support uses [Skip](https://skip.dev), which allows the Swift package and its localization resources to be used across platforms.
 
-If your language is not yet supported by the app, or if you notice an issue with the existing translations, I’d love to hear from you! Just send me an email at mail@budget-flow.app with the subject "Translate", or contact me directly within the app under "Settings" → "Help with Translation".
-
-Additionally, all translation files are available in this repository, and contributions are welcome! 😊
+If your language is not yet supported by the app, or if you notice an issue with the existing translations, I’d love to hear from you! Just send me an email at mail@budget-flow.app with the subject "Translate", or contact me directly within the app under "Settings" => "Help with Translation".
 
 <br>
 
@@ -62,15 +60,15 @@ Additionally, all translation files are available in this repository, and contri
 The following steps are necessary to participate in the translation process:
 
 ### 1) Fork this repository
-Click the "Fork" button in the top right corner of this repository to create your own copy of it.
+Click the "Fork" button in the top right corner of [this repository](https://github.com/budget-flow-app/translations) to create your own copy of it.
 
 ### 2) Clone your forked repository
 ```console
 # Clone your forked repository
-git clone https://github.com/<your-username>/budget-flow-ios-translations.git
+git clone https://github.com/<your-username>/translations.git
 
 # Navigate into the project directory
-cd budget-flow-ios-translations
+cd translations
 
 # Create a new branch for your changes
 git checkout -b <your-branch-name>
@@ -91,6 +89,7 @@ To translate the entries, simply change the **values** of each key (e.g. `"accou
 ### 4) Commit and push your changes
 ```console
 # Commit and push your changes
+git add Sources/Resources
 git commit -m "Updated translations"
 git push origin <your-branch-name>
 ```
@@ -99,7 +98,7 @@ git push origin <your-branch-name>
 - Go to your repository on GitHub.
 - You’ll see a prompt to open a Pull Request (PR) from your recently pushed branch.
 - Give your PR a descriptive title and a short summary of what you changed.
-- Submit the PR against the main branch.
+- Submit the PR against the main branch of [budget-flow-app/translations](https://github.com/budget-flow-app/translations).
 
 When you're done with the translation, just let me know so I can add the changes in the next update. I can also mention you under the acknowledgements if you want (either with your full name or just the first name).
 

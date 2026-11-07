@@ -67,6 +67,9 @@
 "attachment_type_document" = "Έγγραφο";
 "attachment_type_document_plural" = "Έγγραφα";
 
+"attachment_status_with_attachments" = "Με συνημμένα";
+"attachment_status_without_attachments" = "Χωρίς συνημμένα";
+
 "period_type_month" = "Μήνας";
 "period_type_year" = "Έτος";
 "period_type_custom" = "Ημερομηνία";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Ποσό";
 "transaction_filter_date_title" = "Ημερομηνία";
 "transaction_filter_status_title" = "Κατάσταση";
+"transaction_filter_attachments_title" = "Συνημμένα";
 
 "transaction_filter_accounts_title" = "Λογαριασμοί";
 "transaction_filter_categories_title" = "Κατηγορίες";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Νέο εισόδημα";
 "form_title_new_expense" = "Νέα Δαπάνη";
 "form_title_new_transfer" = "Νέα μεταφορά";
+"form_title_new_refund" = "Νέα επιστροφή χρημάτων";
 
 /* Sections */
 "form_date_section_title" = "Οφειλόμενο";

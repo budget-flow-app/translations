@@ -67,6 +67,9 @@
 "attachment_type_document" = "Document";
 "attachment_type_document_plural" = "Documente";
 
+"attachment_status_with_attachments" = "Cu atașamente";
+"attachment_status_without_attachments" = "Fără atașamente";
+
 "period_type_month" = "Luna";
 "period_type_year" = "Anul";
 "period_type_custom" = "Data";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Sumă";
 "transaction_filter_date_title" = "Dată";
 "transaction_filter_status_title" = "Stare";
+"transaction_filter_attachments_title" = "Atașamente";
 
 "transaction_filter_accounts_title" = "Conturi";
 "transaction_filter_categories_title" = "Categorii";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Venit nou";
 "form_title_new_expense" = "Cheltuieli noi";
 "form_title_new_transfer" = "Transfer nou";
+"form_title_new_refund" = "Rambursare nouă";
 
 /* Sections */
 "form_date_section_title" = "Scadență";

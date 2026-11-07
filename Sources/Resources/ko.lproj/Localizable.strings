@@ -67,6 +67,9 @@
 "attachment_type_document" = "문서";
 "attachment_type_document_plural" = "문서";
 
+"attachment_status_with_attachments" = "첨부 파일 있음";
+"attachment_status_without_attachments" = "첨부 파일 없음";
+
 "period_type_month" = "월";
 "period_type_year" = "연도";
 "period_type_custom" = "날짜";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "금액";
 "transaction_filter_date_title" = "날짜";
 "transaction_filter_status_title" = "상태";
+"transaction_filter_attachments_title" = "첨부 파일";
 
 "transaction_filter_accounts_title" = "계정";
 "transaction_filter_categories_title" = "카테고리";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "새 수입";
 "form_title_new_expense" = "새 지출";
 "form_title_new_transfer" = "새 이체";
+"form_title_new_refund" = "새 환불";
 
 /* Sections */
 "form_date_section_title" = "날짜";

@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumenty";
 
+"attachment_status_with_attachments" = "S přílohami";
+"attachment_status_without_attachments" = "Bez příloh";
+
 "period_type_month" = "Měsíc";
 "period_type_year" = "Rok";
 "period_type_custom" = "Datum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Částka";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Stav";
+"transaction_filter_attachments_title" = "Přílohy";
 
 "transaction_filter_accounts_title" = "Účty";
 "transaction_filter_categories_title" = "Kategorie";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Nový příjem";
 "form_title_new_expense" = "Nové náklady";
 "form_title_new_transfer" = "Nový převod";
+"form_title_new_refund" = "Nové vrácení peněz";
 
 /* Sections */
 "form_date_section_title" = "Splatnost";

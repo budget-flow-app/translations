@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokument";
 
+"attachment_status_with_attachments" = "Med bilagor";
+"attachment_status_without_attachments" = "Utan bilagor";
+
 "period_type_month" = "Månad";
 "period_type_year" = "År";
 "period_type_custom" = "Datum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Belopp";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Bilagor";
 
 "transaction_filter_accounts_title" = "Konton";
 "transaction_filter_categories_title" = "Kategorier";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Ny inkomst";
 "form_title_new_expense" = "Ny utgift";
 "form_title_new_transfer" = "Ny överföring";
+"form_title_new_refund" = "Ny återbetalning";
 
 /* Sections */
 "form_date_section_title" = "Förfallo";

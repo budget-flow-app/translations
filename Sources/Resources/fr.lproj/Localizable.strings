@@ -67,6 +67,9 @@
 "attachment_type_document" = "Document";
 "attachment_type_document_plural" = "Documents";
 
+"attachment_status_with_attachments" = "Avec pièces jointes";
+"attachment_status_without_attachments" = "Sans pièces jointes";
+
 "period_type_month" = "Mois";
 "period_type_year" = "Année";
 "period_type_custom" = "Date";
@@ -246,7 +249,7 @@
 "multi_selection_button" = "Multi-sélection";
 "back_button" = "Retour";
 "done_button" = "Terminé";
-"save_button" = "Sauvegarder";
+"save_button" = "Enregistrer";
 "import_button" = "Importer";
 "unlock_button" = "Déverrouiller";
 "cancel_button" = "Annuler";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Montant";
 "transaction_filter_date_title" = "Date";
 "transaction_filter_status_title" = "Statut";
+"transaction_filter_attachments_title" = "Pièces jointes";
 
 "transaction_filter_accounts_title" = "Comptes";
 "transaction_filter_categories_title" = "Catégories";
@@ -1265,7 +1269,7 @@
 
 /* Update */
 "alert_confirm_update_contra_entry_title" = "Cette transaction est un transfert. Souhaitez-vous également mettre à jour la contre-entrée ?";
-"alert_confirm_update_transaction_multiple_title" = "Cette transaction appartient à un groupe. Que voulez-vous exactement sauvegarder ?";
+"alert_confirm_update_transaction_multiple_title" = "Cette transaction appartient à un groupe. Que voulez-vous exactement enregistrer ?";
 "alert_confirm_update_transaction_single_button" = "Enregistrer uniquement celui-ci";
 "alert_confirm_update_transaction_all_button" = "Enregistrer celui-ci et les suivants";
 
@@ -1519,9 +1523,10 @@
 "form_title_new_income" = "Nouveaux revenus";
 "form_title_new_expense" = "Nouvelle dépense";
 "form_title_new_transfer" = "Nouveau transfert";
+"form_title_new_refund" = "Nouveau remboursement";
 
 /* Sections */
-"form_date_section_title" = "Dû";
+"form_date_section_title" = "Échéance";
 "form_reminder_section_title" = "Rappel";
 "form_location_section_title" = "Emplacement";
 "form_notes_section_title" = "Notes";

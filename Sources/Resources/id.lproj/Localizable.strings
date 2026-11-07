@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokumen";
 "attachment_type_document_plural" = "Dokumen";
 
+"attachment_status_with_attachments" = "Dengan lampiran";
+"attachment_status_without_attachments" = "Tanpa lampiran";
+
 "period_type_month" = "Bulan";
 "period_type_year" = "Tahun";
 "period_type_custom" = "Tanggal";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Jumlah";
 "transaction_filter_date_title" = "Tanggal";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Lampiran";
 
 "transaction_filter_accounts_title" = "Akun";
 "transaction_filter_categories_title" = "Kategori";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Pendapatan Baru";
 "form_title_new_expense" = "Pengeluaran Baru";
 "form_title_new_transfer" = "Transfer Baru";
+"form_title_new_refund" = "Pengembalian Dana Baru";
 
 /* Sections */
 "form_date_section_title" = "Jatuh Tempo";

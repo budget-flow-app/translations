@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumenty";
 
+"attachment_status_with_attachments" = "Z załącznikami";
+"attachment_status_without_attachments" = "Bez załączników";
+
 "period_type_month" = "Miesiąc";
 "period_type_year" = "Rok";
 "period_type_custom" = "Data";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Kwota";
 "transaction_filter_date_title" = "Data";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Załączniki";
 
 "transaction_filter_accounts_title" = "Konta";
 "transaction_filter_categories_title" = "Kategorie";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Nowy dochód";
 "form_title_new_expense" = "Nowy wydatek";
 "form_title_new_transfer" = "Nowy przelew";
+"form_title_new_refund" = "Nowy zwrot";
 
 /* Sections */
 "form_date_section_title" = "Termin";

@@ -67,6 +67,9 @@
 "attachment_type_document" = "Documento";
 "attachment_type_document_plural" = "Documentos";
 
+"attachment_status_with_attachments" = "Com anexos";
+"attachment_status_without_attachments" = "Sem anexos";
+
 "period_type_month" = "Mês";
 "period_type_year" = "Ano";
 "period_type_custom" = "Data";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Valor";
 "transaction_filter_date_title" = "Data";
 "transaction_filter_status_title" = "Estado";
+"transaction_filter_attachments_title" = "Anexos";
 
 "transaction_filter_accounts_title" = "Contas";
 "transaction_filter_categories_title" = "Categorias";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Novo rendimento";
 "form_title_new_expense" = "Nova despesa";
 "form_title_new_transfer" = "Nova transferência";
+"form_title_new_refund" = "Novo reembolso";
 
 /* Sections */
 "form_date_section_title" = "Vencimento";

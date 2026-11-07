@@ -67,6 +67,9 @@
 "attachment_type_document" = "Document";
 "attachment_type_document_plural" = "Documenten";
 
+"attachment_status_with_attachments" = "Met bijlagen";
+"attachment_status_without_attachments" = "Zonder bijlagen";
+
 "period_type_month" = "Maand";
 "period_type_year" = "Jaar";
 "period_type_custom" = "Datum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Bedrag";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Bijlagen";
 
 "transaction_filter_accounts_title" = "Rekeningen";
 "transaction_filter_categories_title" = "Categorieën";
@@ -1519,6 +1523,7 @@
 "form_title_new_income" = "Nieuw inkomen";
 "form_title_new_expense" = "Nieuwe uitgave";
 "form_title_new_transfer" = "Nieuwe overdracht";
+"form_title_new_refund" = "Nieuwe terugbetaling";
 
 /* Sections */
 "form_date_section_title" = "Vervallen";
