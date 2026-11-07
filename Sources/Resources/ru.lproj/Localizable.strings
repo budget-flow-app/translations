@@ -67,6 +67,9 @@
 "attachment_type_document" = "Документ";
 "attachment_type_document_plural" = "Документы";
 
+"attachment_status_with_attachments" = "С вложениями";
+"attachment_status_without_attachments" = "Без вложений";
+
 "period_type_month" = "Месяц";
 "period_type_year" = "Год";
 "period_type_custom" = "Дата";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Сумма";
 "transaction_filter_date_title" = "Дата";
 "transaction_filter_status_title" = "Статус";
+"transaction_filter_attachments_title" = "Вложения";
 
 "transaction_filter_accounts_title" = "Счета";
 "transaction_filter_categories_title" = "Категории";

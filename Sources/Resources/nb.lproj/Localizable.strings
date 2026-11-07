@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumenter";
 
+"attachment_status_with_attachments" = "Med vedlegg";
+"attachment_status_without_attachments" = "Uten vedlegg";
+
 "period_type_month" = "Måned";
 "period_type_year" = "År";
 "period_type_custom" = "Dato";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Beløp";
 "transaction_filter_date_title" = "Dato";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Vedlegg";
 
 "transaction_filter_accounts_title" = "Kontoer";
 "transaction_filter_categories_title" = "Kategorier";

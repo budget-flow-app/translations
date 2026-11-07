@@ -67,6 +67,9 @@
 "attachment_type_document" = "Документ";
 "attachment_type_document_plural" = "Документи";
 
+"attachment_status_with_attachments" = "Із вкладеннями";
+"attachment_status_without_attachments" = "Без вкладень";
+
 "period_type_month" = "Місяць";
 "period_type_year" = "Рік";
 "period_type_custom" = "Дата";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Сума";
 "transaction_filter_date_title" = "Дата";
 "transaction_filter_status_title" = "Статус";
+"transaction_filter_attachments_title" = "Вкладення";
 
 "transaction_filter_accounts_title" = "Рахунки";
 "transaction_filter_categories_title" = "Категорії";

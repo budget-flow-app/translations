@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumenti";
 
+"attachment_status_with_attachments" = "S prilogami";
+"attachment_status_without_attachments" = "Brez prilog";
+
 "period_type_month" = "Mesec";
 "period_type_year" = "Leto";
 "period_type_custom" = "Datum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Znesek";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Stanje";
+"transaction_filter_attachments_title" = "Priloge";
 
 "transaction_filter_accounts_title" = "Računi";
 "transaction_filter_categories_title" = "Kategorije";

@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumente";
 
+"attachment_status_with_attachments" = "Mit Anhängen";
+"attachment_status_without_attachments" = "Ohne Anhänge";
+
 "period_type_month" = "Monat";
 "period_type_year" = "Jahr";
 "period_type_custom" = "Datum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Betrag";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Status";
+"transaction_filter_attachments_title" = "Anhänge";
 
 "transaction_filter_accounts_title" = "Konten";
 "transaction_filter_categories_title" = "Kategorien";

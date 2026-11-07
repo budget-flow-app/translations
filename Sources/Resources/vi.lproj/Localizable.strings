@@ -67,6 +67,9 @@
 "attachment_type_document" = "Tài liệu";
 "attachment_type_document_plural" = "Tài liệu";
 
+"attachment_status_with_attachments" = "Có tệp đính kèm";
+"attachment_status_without_attachments" = "Không có tệp đính kèm";
+
 "period_type_month" = "Tháng";
 "period_type_year" = "Năm";
 "period_type_custom" = "Ngày";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Số tiền";
 "transaction_filter_date_title" = "Ngày";
 "transaction_filter_status_title" = "Trạng thái";
+"transaction_filter_attachments_title" = "Tệp đính kèm";
 
 "transaction_filter_accounts_title" = "Tài khoản";
 "transaction_filter_categories_title" = "Danh mục";

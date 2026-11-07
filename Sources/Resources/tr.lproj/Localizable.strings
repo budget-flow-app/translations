@@ -67,6 +67,9 @@
 "attachment_type_document" = "Belge";
 "attachment_type_document_plural" = "Belgeler";
 
+"attachment_status_with_attachments" = "Ekli";
+"attachment_status_without_attachments" = "Eksiz";
+
 "period_type_month" = "Ay";
 "period_type_year" = "Yıl";
 "period_type_custom" = "Tarih";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Tutar";
 "transaction_filter_date_title" = "Tarih";
 "transaction_filter_status_title" = "Durum";
+"transaction_filter_attachments_title" = "Ekler";
 
 "transaction_filter_accounts_title" = "Hesaplar";
 "transaction_filter_categories_title" = "Kategoriler";

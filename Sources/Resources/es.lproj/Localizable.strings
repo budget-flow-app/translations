@@ -67,6 +67,9 @@
 "attachment_type_document" = "Documento";
 "attachment_type_document_plural" = "Documentos";
 
+"attachment_status_with_attachments" = "Con archivos adjuntos";
+"attachment_status_without_attachments" = "Sin archivos adjuntos";
+
 "period_type_month" = "Mes";
 "period_type_year" = "Año";
 "period_type_custom" = "Fecha";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Importe";
 "transaction_filter_date_title" = "Fecha";
 "transaction_filter_status_title" = "Estado";
+"transaction_filter_attachments_title" = "Archivos adjuntos";
 
 "transaction_filter_accounts_title" = "Cuentas";
 "transaction_filter_categories_title" = "Categorías";

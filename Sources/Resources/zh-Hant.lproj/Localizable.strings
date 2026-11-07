@@ -67,6 +67,9 @@
 "attachment_type_document" = "文檔";
 "attachment_type_document_plural" = "文檔";
 
+"attachment_status_with_attachments" = "有附件";
+"attachment_status_without_attachments" = "無附件";
+
 "period_type_month" = "月";
 "period_type_year" = "年";
 "period_type_custom" = "日期";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "金額";
 "transaction_filter_date_title" = "日期";
 "transaction_filter_status_title" = "狀態";
+"transaction_filter_attachments_title" = "附件";
 
 "transaction_filter_accounts_title" = "帳戶";
 "transaction_filter_categories_title" = "類別";

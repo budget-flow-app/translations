@@ -67,6 +67,9 @@
 "attachment_type_document" = "المستند";
 "attachment_type_document_plural" = "المستندات";
 
+"attachment_status_with_attachments" = "مع مرفقات";
+"attachment_status_without_attachments" = "بدون مرفقات";
+
 "period_type_month" = "الشهر";
 "period_type_year" = "السنة";
 "period_type_custom" = "التاريخ";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "المبلغ";
 "transaction_filter_date_title" = "التاريخ";
 "transaction_filter_status_title" = "الحالة";
+"transaction_filter_attachments_title" = "المرفقات";
 
 "transaction_filter_accounts_title" = "الحسابات";
 "transaction_filter_categories_title" = "الفئات";

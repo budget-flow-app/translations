@@ -67,6 +67,9 @@
 "attachment_type_document" = "Dokument";
 "attachment_type_document_plural" = "Dokumenty";
 
+"attachment_status_with_attachments" = "S prílohami";
+"attachment_status_without_attachments" = "Bez príloh";
+
 "period_type_month" = "Mesiac";
 "period_type_year" = "Rok";
 "period_type_custom" = "Dátum";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Suma";
 "transaction_filter_date_title" = "Dátum";
 "transaction_filter_status_title" = "Stav";
+"transaction_filter_attachments_title" = "Prílohy";
 
 "transaction_filter_accounts_title" = "Účty";
 "transaction_filter_categories_title" = "Kategórie";

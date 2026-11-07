@@ -67,6 +67,9 @@
 "attachment_type_document" = "ドキュメント";
 "attachment_type_document_plural" = "ドキュメント";
 
+"attachment_status_with_attachments" = "添付ファイルあり";
+"attachment_status_without_attachments" = "添付ファイルなし";
+
 "period_type_month" = "月";
 "period_type_year" = "年";
 "period_type_custom" = "日付";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "金額";
 "transaction_filter_date_title" = "日付";
 "transaction_filter_status_title" = "ステータス";
+"transaction_filter_attachments_title" = "添付ファイル";
 
 "transaction_filter_accounts_title" = "アカウント";
 "transaction_filter_categories_title" = "カテゴリ";

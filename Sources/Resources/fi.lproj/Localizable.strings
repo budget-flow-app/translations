@@ -67,6 +67,9 @@
 "attachment_type_document" = "Asiakirja";
 "attachment_type_document_plural" = "Asiakirjat";
 
+"attachment_status_with_attachments" = "Liitteelliset";
+"attachment_status_without_attachments" = "Liitteettömät";
+
 "period_type_month" = "Kuukausi";
 "period_type_year" = "Vuosi";
 "period_type_custom" = "Pvm";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Summa";
 "transaction_filter_date_title" = "Päivämäärä";
 "transaction_filter_status_title" = "Tila";
+"transaction_filter_attachments_title" = "Liitteet";
 
 "transaction_filter_accounts_title" = "Tilit";
 "transaction_filter_categories_title" = "Luokat";

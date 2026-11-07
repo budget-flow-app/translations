@@ -67,6 +67,9 @@
 "attachment_type_document" = "Document";
 "attachment_type_document_plural" = "Documents";
 
+"attachment_status_with_attachments" = "Avec pièces jointes";
+"attachment_status_without_attachments" = "Sans pièces jointes";
+
 "period_type_month" = "Mois";
 "period_type_year" = "Année";
 "period_type_custom" = "Date";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Montant";
 "transaction_filter_date_title" = "Date";
 "transaction_filter_status_title" = "Statut";
+"transaction_filter_attachments_title" = "Pièces jointes";
 
 "transaction_filter_accounts_title" = "Comptes";
 "transaction_filter_categories_title" = "Catégories";

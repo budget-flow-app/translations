@@ -67,6 +67,9 @@
 "attachment_type_document" = "Document";
 "attachment_type_document_plural" = "Documents";
 
+"attachment_status_with_attachments" = "Amb fitxers adjunts";
+"attachment_status_without_attachments" = "Sense fitxers adjunts";
+
 "period_type_month" = "Mes";
 "period_type_year" = "Any";
 "period_type_custom" = "Data";
@@ -356,6 +359,7 @@
 "transaction_filter_amount_title" = "Import";
 "transaction_filter_date_title" = "Data";
 "transaction_filter_status_title" = "Estat";
+"transaction_filter_attachments_title" = "Fitxers adjunts";
 
 "transaction_filter_accounts_title" = "Comptes";
 "transaction_filter_categories_title" = "Categories";
