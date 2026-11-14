@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Eksporter";
 "sync_and_data_setting_get_csv_template_title" = "Last ned mal";
 
-/* Buttons */
-"clear_cache_button" = "Tøm buffer";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Angir om synkroniseringen med iCloud var vellykket eller om det oppsto en feil.";
 "backup_setting_footer_title" = "Administrer sikkerhetskopiene og sikkerhetskopieringsinnstillingene.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Sletter budsjettbøker";
 "app_reset_progress_deleting_existing_settings" = "Sletter eksisterende innstillinger";
 "app_reset_progress_finishing" = "Fullfører tilbakestilling av appen";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Tildel felt";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beskrivelse";
+"csv_assign_fields_info_description" = "Vennligst tilordne kolonnene i CSV-filen som skal importeres til de tilsvarende feltene.";
+
+/* Sections */
+"form_general_section_title" = "Generelt";
+"form_csv_date_format_suggestions_section_title" = "Forslag";
+"form_csv_date_format_other_section_title" = "Annet";
+
+/* Footer */
+"form_invalid_footer_title" = "Feil:";
+"form_invalid_amount_footer_title" = "Verdiene for \"%@\" er ikke gyldige pengebeløp.";
+"form_invalid_currency_footer_title" = "Verdiene for \"%@\" er ikke gyldige valutaer.";
+"form_invalid_exchange_rate_footer_title" = "Verdiene for \"%@\" er ikke gyldige numeriske verdier.";
+"form_invalid_date_format_footer_title" = "Den valgte datoen og/eller formatet er ugyldig.";
+"form_type_footer_title" = "Info: Velg \"%@\" for å beregne transaksjonstypen basert på tegnet på beløpsverdien.";
+"form_date_format_footer_title" = "Eksempel: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Beløp";
+"form_source_currency_title" = "Kildevaluta";
+"form_target_currency_title" = "Målvaluta";
+"form_budget_book_title" = "Budsjettbok";
+"form_notes_title" = "Notater";
+"form_skip_zero_amounts_title" = "Hopp over \"0\"-beløp";
+"form_skip_duplicates_title" = "Hopp over duplikater";
+"form_csv_assign_field_none_type_value" = "Ikke tildelt";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Eksport";
+
+/* Buttons */
+"csv_export_button_title" = "Eksporter";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV med vedlegg";
+
+/* Footer */
+"csv_export_footer_title" = "Eksporter CSV-filen i henhold til innstillingene dine. Arkivet kan også inkludere vedlegg og en oversikt som gjør det enklere å knytte dem til transaksjonene.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Eksportarkivet kunne ikke opprettes.";
+"csv_export_missing_attachment_error" = "Et vedlegg kunne ikke lastes inn. Sørg for at alle vedlegg er tilgjengelige på denne enheten, og prøv igjen.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Slett budsjett";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Tildel felt";
-
-/* Info */
-"csv_assign_fields_info_title" = "Beskrivelse";
-"csv_assign_fields_info_description" = "Vennligst tilordne kolonnene i CSV-filen som skal importeres til de tilsvarende feltene.";
-
-/* Sections */
-"form_general_section_title" = "Generelt";
-"form_csv_date_format_suggestions_section_title" = "Forslag";
-"form_csv_date_format_other_section_title" = "Annet";
-
-/* Footer */
-"form_invalid_footer_title" = "Feil:";
-"form_invalid_amount_footer_title" = "Verdiene for \"%@\" er ikke gyldige pengebeløp.";
-"form_invalid_currency_footer_title" = "Verdiene for \"%@\" er ikke gyldige valutaer.";
-"form_invalid_exchange_rate_footer_title" = "Verdiene for \"%@\" er ikke gyldige numeriske verdier.";
-"form_invalid_date_format_footer_title" = "Den valgte datoen og/eller formatet er ugyldig.";
-"form_type_footer_title" = "Info: Velg \"%@\" for å beregne transaksjonstypen basert på tegnet på beløpsverdien.";
-"form_date_format_footer_title" = "Eksempel: %@";
-
-/* Items */
-"form_type_title" = "Type";
-"form_amount_title" = "Beløp";
-"form_source_currency_title" = "Kildevaluta";
-"form_target_currency_title" = "Målvaluta";
-"form_budget_book_title" = "Budsjettbok";
-"form_notes_title" = "Notater";
-"form_skip_zero_amounts_title" = "Hopp over \"0\"-beløp";
-"form_skip_duplicates_title" = "Hopp over duplikater";
-"form_csv_assign_field_none_type_value" = "Ikke tildelt";
 
 
 /* MARK: - Color Selection View */

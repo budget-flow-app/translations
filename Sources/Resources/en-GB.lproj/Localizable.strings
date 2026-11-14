@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Download template";
 
-/* Buttons */
-"clear_cache_button" = "Clear Cache";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Indicates whether the synchronization with iCloud was successful or if an error occurred.";
 "backup_setting_footer_title" = "Manage your backups and backup settings.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Deleting Budget Books";
 "app_reset_progress_deleting_existing_settings" = "Deleting Existing Settings";
 "app_reset_progress_finishing" = "Finishing App Reset";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Assign Fields";
+
+/* Info */
+"csv_assign_fields_info_title" = "Description";
+"csv_assign_fields_info_description" = "Please assign the columns of the CSV file to be imported to the corresponding fields.";
+
+/* Sections */
+"form_general_section_title" = "General";
+"form_csv_date_format_suggestions_section_title" = "Suggestions";
+"form_csv_date_format_other_section_title" = "Other";
+
+/* Footer */
+"form_invalid_footer_title" = "Error:";
+"form_invalid_amount_footer_title" = "The values for \"%@\" are not valid monetary amounts.";
+"form_invalid_currency_footer_title" = "The values for \"%@\" are not valid currencies.";
+"form_invalid_exchange_rate_footer_title" = "The values for \"%@\" are not valid numeric values.";
+"form_invalid_date_format_footer_title" = "The selected date and/or format is invalid.";
+"form_type_footer_title" = "Info: Select \"%@\" to calculate the transaction type based on the sign of the amount value.";
+"form_date_format_footer_title" = "Example: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Amount";
+"form_source_currency_title" = "Source Currency";
+"form_target_currency_title" = "Target Currency";
+"form_budget_book_title" = "Budget Book";
+"form_notes_title" = "Notes";
+"form_skip_zero_amounts_title" = "Skip \"0\" Amounts";
+"form_skip_duplicates_title" = "Skip Duplicates";
+"form_csv_assign_field_none_type_value" = "Unassigned";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Export";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV with attachments";
+
+/* Footer */
+"csv_export_footer_title" = "Export the CSV file according to your configuration. Optionally, the archive also includes attachments and an overview to help match them to transactions.";
+
+/* Alert Views */
+"csv_export_archive_error" = "The export archive could not be created.";
+"csv_export_missing_attachment_error" = "An attachment could not be loaded. Please make sure all receipts are available on this device and try again.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Delete Budget";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Assign Fields";
-
-/* Info */
-"csv_assign_fields_info_title" = "Description";
-"csv_assign_fields_info_description" = "Please assign the columns of the CSV file to be imported to the corresponding fields.";
-
-/* Sections */
-"form_general_section_title" = "General";
-"form_csv_date_format_suggestions_section_title" = "Suggestions";
-"form_csv_date_format_other_section_title" = "Other";
-
-/* Footer */
-"form_invalid_footer_title" = "Error:";
-"form_invalid_amount_footer_title" = "The values for \"%@\" are not valid monetary amounts.";
-"form_invalid_currency_footer_title" = "The values for \"%@\" are not valid currencies.";
-"form_invalid_exchange_rate_footer_title" = "The values for \"%@\" are not valid numeric values.";
-"form_invalid_date_format_footer_title" = "The selected date and/or format is invalid.";
-"form_type_footer_title" = "Info: Select \"%@\" to calculate the transaction type based on the sign of the amount value.";
-"form_date_format_footer_title" = "Example: %@";
-
-/* Items */
-"form_type_title" = "Type";
-"form_amount_title" = "Amount";
-"form_source_currency_title" = "Source Currency";
-"form_target_currency_title" = "Target Currency";
-"form_budget_book_title" = "Budget Book";
-"form_notes_title" = "Notes";
-"form_skip_zero_amounts_title" = "Skip \"0\" Amounts";
-"form_skip_duplicates_title" = "Skip Duplicates";
-"form_csv_assign_field_none_type_value" = "Unassigned";
 
 
 /* MARK: - Color Selection View */

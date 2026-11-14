@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "ส่งออก";
 "sync_and_data_setting_get_csv_template_title" = "ดาวน์โหลดเทมเพลต";
 
-/* Buttons */
-"clear_cache_button" = "ล้างแคช";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "ระบุว่าการซิงโครไนซ์กับ iCloud สำเร็จหรือมีข้อผิดพลาดเกิดขึ้น";
 "backup_setting_footer_title" = "จัดการข้อมูลสำรองและการตั้งค่าการสำรองข้อมูลของคุณ";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "กำลังลบสมุดงบประมาณ";
 "app_reset_progress_deleting_existing_settings" = "กำลังลบการตั้งค่าที่มีอยู่";
 "app_reset_progress_finishing" = "กำลังดำเนินการรีเซ็ตแอปให้เสร็จสิ้น";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "กำหนดฟิลด์";
+
+/* Info */
+"csv_assign_fields_info_title" = "คำอธิบาย";
+"csv_assign_fields_info_description" = "โปรดกำหนดคอลัมน์ของไฟล์ CSV ที่จะนำเข้าไปยังฟิลด์ที่เกี่ยวข้อง";
+
+/* Sections */
+"form_general_section_title" = "ทั่วไป";
+"form_csv_date_format_suggestions_section_title" = "คำแนะนำ";
+"form_csv_date_format_other_section_title" = "อื่นๆ";
+
+/* Footer */
+"form_invalid_footer_title" = "ข้อผิดพลาด:";
+"form_invalid_amount_footer_title" = "ค่าของ \"%@\" ไม่ใช่จำนวนเงินที่ถูกต้อง";
+"form_invalid_currency_footer_title" = "ค่าสำหรับ \"%@\" ไม่ใช่สกุลเงินที่ถูกต้อง";
+"form_invalid_exchange_rate_footer_title" = "ค่าสำหรับ \"%@\" ไม่ใช่ค่าตัวเลขที่ถูกต้อง";
+"form_invalid_date_format_footer_title" = "วันที่และ/หรือรูปแบบที่เลือกไม่ถูกต้อง";
+"form_type_footer_title" = "ข้อมูล: เลือก \"%@\" เพื่อคำนวณประเภทธุรกรรมตามเครื่องหมายของมูลค่าจำนวนเงิน";
+"form_date_format_footer_title" = "ตัวอย่าง: %@";
+
+/* Items */
+"form_type_title" = "ประเภท";
+"form_amount_title" = "จำนวนเงิน";
+"form_source_currency_title" = "สกุลเงินต้นทาง";
+"form_target_currency_title" = "สกุลเงินเป้าหมาย";
+"form_budget_book_title" = "สมุดงบประมาณ";
+"form_notes_title" = "บันทึก";
+"form_skip_zero_amounts_title" = "ข้ามจำนวน \"0\"";
+"form_skip_duplicates_title" = "ข้ามรายการที่ซ้ำกัน";
+"form_csv_assign_field_none_type_value" = "ยังไม่ได้กำหนด";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "การส่งออก";
+
+/* Buttons */
+"csv_export_button_title" = "ส่งออก";
+
+/* Items */
+"csv_export_format_title" = "รูปแบบ";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV พร้อมไฟล์แนบ";
+
+/* Footer */
+"csv_export_footer_title" = "ส่งออกไฟล์ CSV ตามการตั้งค่าของคุณ โดยสามารถรวมไฟล์แนบและภาพรวมเพื่อช่วยจับคู่กับธุรกรรมไว้ในไฟล์เก็บถาวรได้ด้วย";
+
+/* Alert Views */
+"csv_export_archive_error" = "ไม่สามารถสร้างไฟล์เก็บถาวรสำหรับการส่งออกได้";
+"csv_export_missing_attachment_error" = "ไม่สามารถโหลดไฟล์แนบได้ โปรดตรวจสอบว่าไฟล์แนบทั้งหมดพร้อมใช้งานบนอุปกรณ์นี้ แล้วลองอีกครั้ง";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "ลบงบประมาณ";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "กำหนดฟิลด์";
-
-/* Info */
-"csv_assign_fields_info_title" = "คำอธิบาย";
-"csv_assign_fields_info_description" = "โปรดกำหนดคอลัมน์ของไฟล์ CSV ที่จะนำเข้าไปยังฟิลด์ที่เกี่ยวข้อง";
-
-/* Sections */
-"form_general_section_title" = "ทั่วไป";
-"form_csv_date_format_suggestions_section_title" = "คำแนะนำ";
-"form_csv_date_format_other_section_title" = "อื่นๆ";
-
-/* Footer */
-"form_invalid_footer_title" = "ข้อผิดพลาด:";
-"form_invalid_amount_footer_title" = "ค่าของ \"%@\" ไม่ใช่จำนวนเงินที่ถูกต้อง";
-"form_invalid_currency_footer_title" = "ค่าสำหรับ \"%@\" ไม่ใช่สกุลเงินที่ถูกต้อง";
-"form_invalid_exchange_rate_footer_title" = "ค่าสำหรับ \"%@\" ไม่ใช่ค่าตัวเลขที่ถูกต้อง";
-"form_invalid_date_format_footer_title" = "วันที่และ/หรือรูปแบบที่เลือกไม่ถูกต้อง";
-"form_type_footer_title" = "ข้อมูล: เลือก \"%@\" เพื่อคำนวณประเภทธุรกรรมตามเครื่องหมายของมูลค่าจำนวนเงิน";
-"form_date_format_footer_title" = "ตัวอย่าง: %@";
-
-/* Items */
-"form_type_title" = "ประเภท";
-"form_amount_title" = "จำนวนเงิน";
-"form_source_currency_title" = "สกุลเงินต้นทาง";
-"form_target_currency_title" = "สกุลเงินเป้าหมาย";
-"form_budget_book_title" = "สมุดงบประมาณ";
-"form_notes_title" = "บันทึก";
-"form_skip_zero_amounts_title" = "ข้ามจำนวน \"0\"";
-"form_skip_duplicates_title" = "ข้ามรายการที่ซ้ำกัน";
-"form_csv_assign_field_none_type_value" = "ยังไม่ได้กำหนด";
 
 
 /* MARK: - Color Selection View */

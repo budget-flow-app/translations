@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Izvezi";
 "sync_and_data_setting_get_csv_template_title" = "Preuzmi predložak";
 
-/* Buttons */
-"clear_cache_button" = "Očisti predmemoriju";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Označava da li je sinkronizacija s iCloudom bila uspješna ili je došlo do pogreške.";
 "backup_setting_footer_title" = "Upravljajte svojim sigurnosnim kopijama i postavkama sigurnosne kopije.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Brisanje proračunskih knjiga";
 "app_reset_progress_deleting_existing_settings" = "Brisanje postojećih postavki";
 "app_reset_progress_finishing" = "Dovršavanje resetiranja aplikacije";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Dodijeli polja";
+
+/* Info */
+"csv_assign_fields_info_title" = "Opis";
+"csv_assign_fields_info_description" = "Molimo dodijelite stupce CSV datoteke za uvoz odgovarajućim poljima.";
+
+/* Sections */
+"form_general_section_title" = "Općenito";
+"form_csv_date_format_suggestions_section_title" = "Prijedlozi";
+"form_csv_date_format_other_section_title" = "Ostalo";
+
+/* Footer */
+"form_invalid_footer_title" = "Pogreška:";
+"form_invalid_amount_footer_title" = "Vrijednosti za \"%@\" nisu valjani novčani iznosi.";
+"form_invalid_currency_footer_title" = "Vrijednosti za \"%@\" nisu važeće valute.";
+"form_invalid_exchange_rate_footer_title" = "Vrijednosti za \"%@\" nisu važeće numeričke vrijednosti.";
+"form_invalid_date_format_footer_title" = "Odabrani datum i/ili format nisu valjani.";
+"form_type_footer_title" = "Informacije: Odaberite \"%@\" za izračun vrste transakcije na temelju predznaka vrijednosti iznosa.";
+"form_date_format_footer_title" = "Primjer: %@";
+
+/* Items */
+"form_type_title" = "Tip";
+"form_amount_title" = "Iznos";
+"form_source_currency_title" = "Izvorna valuta";
+"form_target_currency_title" = "Ciljana valuta";
+"form_budget_book_title" = "Budžetska knjiga";
+"form_notes_title" = "Bilješke";
+"form_skip_zero_amounts_title" = "Preskoči iznose \"0\"";
+"form_skip_duplicates_title" = "Preskoči duplikate";
+"form_csv_assign_field_none_type_value" = "Nedodijeljeno";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Izvoz";
+
+/* Buttons */
+"csv_export_button_title" = "Izvezi";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV s privitcima";
+
+/* Footer */
+"csv_export_footer_title" = "Izvezi CSV datoteku prema svojim postavkama. Arhiva po želji uključuje i privitke te pregled za lakše povezivanje s transakcijama.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Nije moguće izraditi arhivu za izvoz.";
+"csv_export_missing_attachment_error" = "Nije moguće učitati privitak. Provjeri jesu li svi privitci dostupni na ovom uređaju i pokušaj ponovno.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Izbriši budžet";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Dodijeli polja";
-
-/* Info */
-"csv_assign_fields_info_title" = "Opis";
-"csv_assign_fields_info_description" = "Molimo dodijelite stupce CSV datoteke za uvoz odgovarajućim poljima.";
-
-/* Sections */
-"form_general_section_title" = "Općenito";
-"form_csv_date_format_suggestions_section_title" = "Prijedlozi";
-"form_csv_date_format_other_section_title" = "Ostalo";
-
-/* Footer */
-"form_invalid_footer_title" = "Pogreška:";
-"form_invalid_amount_footer_title" = "Vrijednosti za \"%@\" nisu valjani novčani iznosi.";
-"form_invalid_currency_footer_title" = "Vrijednosti za \"%@\" nisu važeće valute.";
-"form_invalid_exchange_rate_footer_title" = "Vrijednosti za \"%@\" nisu važeće numeričke vrijednosti.";
-"form_invalid_date_format_footer_title" = "Odabrani datum i/ili format nisu valjani.";
-"form_type_footer_title" = "Informacije: Odaberite \"%@\" za izračun vrste transakcije na temelju predznaka vrijednosti iznosa.";
-"form_date_format_footer_title" = "Primjer: %@";
-
-/* Items */
-"form_type_title" = "Tip";
-"form_amount_title" = "Iznos";
-"form_source_currency_title" = "Izvorna valuta";
-"form_target_currency_title" = "Ciljana valuta";
-"form_budget_book_title" = "Budžetska knjiga";
-"form_notes_title" = "Bilješke";
-"form_skip_zero_amounts_title" = "Preskoči iznose \"0\"";
-"form_skip_duplicates_title" = "Preskoči duplikate";
-"form_csv_assign_field_none_type_value" = "Nedodijeljeno";
 
 
 /* MARK: - Color Selection View */

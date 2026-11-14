@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Exportovat";
 "sync_and_data_setting_get_csv_template_title" = "Stáhnout šablonu";
 
-/* Buttons */
-"clear_cache_button" = "Vymazat mezipaměť";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Ukazuje, zda byla synchronizace s iCloud úspěšná nebo došlo k chybě.";
 "backup_setting_footer_title" = "Spravujte své zálohy a nastavení zálohování.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Mazání rozpočtových knih";
 "app_reset_progress_deleting_existing_settings" = "Mazání stávajících nastavení";
 "app_reset_progress_finishing" = "Dokončování resetování aplikace";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Přiřadit pole";
+
+/* Info */
+"csv_assign_fields_info_title" = "Popis";
+"csv_assign_fields_info_description" = "Přiřaďte prosím sloupce souboru CSV k importu do odpovídajících polí.";
+
+/* Sections */
+"form_general_section_title" = "Obecné";
+"form_csv_date_format_suggestions_section_title" = "Návrhy";
+"form_csv_date_format_other_section_title" = "Jiné";
+
+/* Footer */
+"form_invalid_footer_title" = "Chyba:";
+"form_invalid_amount_footer_title" = "Hodnoty pro \"%@\" nejsou platné peněžní částky.";
+"form_invalid_currency_footer_title" = "Hodnoty pro \"%@\" nejsou platné měny.";
+"form_invalid_exchange_rate_footer_title" = "Hodnoty pro \"%@\" nejsou platné číselné hodnoty.";
+"form_invalid_date_format_footer_title" = "Vybrané datum a/nebo formát je neplatný.";
+"form_type_footer_title" = "Informace: Vyberte \"%@\" pro výpočet typu transakce na základě znaménka hodnoty částky.";
+"form_date_format_footer_title" = "Příklad: %@";
+
+/* Items */
+"form_type_title" = "Typ";
+"form_amount_title" = "Částka";
+"form_source_currency_title" = "Zdrojová měna";
+"form_target_currency_title" = "Cílová měna";
+"form_budget_book_title" = "Rozpočtová kniha";
+"form_notes_title" = "Poznámky";
+"form_skip_zero_amounts_title" = "Přeskočit částky \"0\"";
+"form_skip_duplicates_title" = "Přeskočit duplikáty";
+"form_csv_assign_field_none_type_value" = "Nepřiřazeno";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exportovat";
+
+/* Items */
+"csv_export_format_title" = "Formát";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV s přílohami";
+
+/* Footer */
+"csv_export_footer_title" = "Exportuj soubor CSV podle svého nastavení. Archiv může volitelně obsahovat také přílohy a přehled pro jejich přiřazení k transakcím.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Exportní archiv se nepodařilo vytvořit.";
+"csv_export_missing_attachment_error" = "Přílohu se nepodařilo načíst. Ujisti se, že jsou všechny přílohy dostupné na tomto zařízení, a zkus to znovu.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Smazat rozpočet";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Přiřadit pole";
-
-/* Info */
-"csv_assign_fields_info_title" = "Popis";
-"csv_assign_fields_info_description" = "Přiřaďte prosím sloupce souboru CSV k importu do odpovídajících polí.";
-
-/* Sections */
-"form_general_section_title" = "Obecné";
-"form_csv_date_format_suggestions_section_title" = "Návrhy";
-"form_csv_date_format_other_section_title" = "Jiné";
-
-/* Footer */
-"form_invalid_footer_title" = "Chyba:";
-"form_invalid_amount_footer_title" = "Hodnoty pro \"%@\" nejsou platné peněžní částky.";
-"form_invalid_currency_footer_title" = "Hodnoty pro \"%@\" nejsou platné měny.";
-"form_invalid_exchange_rate_footer_title" = "Hodnoty pro \"%@\" nejsou platné číselné hodnoty.";
-"form_invalid_date_format_footer_title" = "Vybrané datum a/nebo formát je neplatný.";
-"form_type_footer_title" = "Informace: Vyberte \"%@\" pro výpočet typu transakce na základě znaménka hodnoty částky.";
-"form_date_format_footer_title" = "Příklad: %@";
-
-/* Items */
-"form_type_title" = "Typ";
-"form_amount_title" = "Částka";
-"form_source_currency_title" = "Zdrojová měna";
-"form_target_currency_title" = "Cílová měna";
-"form_budget_book_title" = "Rozpočtová kniha";
-"form_notes_title" = "Poznámky";
-"form_skip_zero_amounts_title" = "Přeskočit částky \"0\"";
-"form_skip_duplicates_title" = "Přeskočit duplikáty";
-"form_csv_assign_field_none_type_value" = "Nepřiřazeno";
 
 
 /* MARK: - Color Selection View */

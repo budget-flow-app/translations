@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Ekspor";
 "sync_and_data_setting_get_csv_template_title" = "Unduh templat";
 
-/* Buttons */
-"clear_cache_button" = "Hapus Cache";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Menunjukkan apakah sinkronisasi dengan iCloud berhasil atau terjadi kesalahan.";
 "backup_setting_footer_title" = "Kelola cadangan dan pengaturan cadangan Anda.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Menghapus buku anggaran";
 "app_reset_progress_deleting_existing_settings" = "Menghapus pengaturan yang ada";
 "app_reset_progress_finishing" = "Menyelesaikan pengaturan ulang aplikasi";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Penetapan Kolom";
+
+/* Info */
+"csv_assign_fields_info_title" = "Deskripsi";
+"csv_assign_fields_info_description" = "Mohon tetapkan kolom file CSV yang akan diimpor ke kolom terkait.";
+
+/* Sections */
+"form_general_section_title" = "Umum";
+"form_csv_date_format_suggestions_section_title" = "Saran";
+"form_csv_date_format_other_section_title" = "Lainnya";
+
+/* Footer */
+"form_invalid_footer_title" = "Kesalahan:";
+"form_invalid_amount_footer_title" = "Nilai untuk \"%@\" bukan jumlah uang yang valid.";
+"form_invalid_currency_footer_title" = "Nilai untuk \"%@\" bukan mata uang yang valid.";
+"form_invalid_exchange_rate_footer_title" = "Nilai untuk \"%@\" bukan nilai numerik yang valid.";
+"form_invalid_date_format_footer_title" = "Tanggal dan/atau format tanggal yang dipilih tidak valid.";
+"form_type_footer_title" = "Info: Pilih \"%@\" untuk menghitung jenis transaksi berdasarkan tanda nilai jumlah.";
+"form_date_format_footer_title" = "Contoh: %@";
+
+/* Items */
+"form_type_title" = "Jenis";
+"form_amount_title" = "Jumlah";
+"form_source_currency_title" = "Mata Uang Asal";
+"form_target_currency_title" = "Mata Uang Tujuan";
+"form_budget_book_title" = "Buku Anggaran";
+"form_notes_title" = "Catatan";
+"form_skip_zero_amounts_title" = "Abaikan Nilai \"0\"";
+"form_skip_duplicates_title" = "Abaikan Data Duplikat";
+"form_csv_assign_field_none_type_value" = "Belum ditetapkan";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Ekspor";
+
+/* Buttons */
+"csv_export_button_title" = "Ekspor";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV dengan lampiran";
+
+/* Footer */
+"csv_export_footer_title" = "Ekspor file CSV sesuai pengaturanmu. Arsip juga dapat menyertakan lampiran dan ringkasan untuk membantu mencocokkannya dengan transaksi.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Arsip ekspor tidak dapat dibuat.";
+"csv_export_missing_attachment_error" = "Lampiran tidak dapat dimuat. Pastikan semua lampiran tersedia di perangkat ini, lalu coba lagi.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Hapus Anggaran";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Penetapan Kolom";
-
-/* Info */
-"csv_assign_fields_info_title" = "Deskripsi";
-"csv_assign_fields_info_description" = "Mohon tetapkan kolom file CSV yang akan diimpor ke kolom terkait.";
-
-/* Sections */
-"form_general_section_title" = "Umum";
-"form_csv_date_format_suggestions_section_title" = "Saran";
-"form_csv_date_format_other_section_title" = "Lainnya";
-
-/* Footer */
-"form_invalid_footer_title" = "Kesalahan:";
-"form_invalid_amount_footer_title" = "Nilai untuk \"%@\" bukan jumlah uang yang valid.";
-"form_invalid_currency_footer_title" = "Nilai untuk \"%@\" bukan mata uang yang valid.";
-"form_invalid_exchange_rate_footer_title" = "Nilai untuk \"%@\" bukan nilai numerik yang valid.";
-"form_invalid_date_format_footer_title" = "Tanggal dan/atau format tanggal yang dipilih tidak valid.";
-"form_type_footer_title" = "Info: Pilih \"%@\" untuk menghitung jenis transaksi berdasarkan tanda nilai jumlah.";
-"form_date_format_footer_title" = "Contoh: %@";
-
-/* Items */
-"form_type_title" = "Jenis";
-"form_amount_title" = "Jumlah";
-"form_source_currency_title" = "Mata Uang Asal";
-"form_target_currency_title" = "Mata Uang Tujuan";
-"form_budget_book_title" = "Buku Anggaran";
-"form_notes_title" = "Catatan";
-"form_skip_zero_amounts_title" = "Abaikan Nilai \"0\"";
-"form_skip_duplicates_title" = "Abaikan Data Duplikat";
-"form_csv_assign_field_none_type_value" = "Belum ditetapkan";
 
 
 /* MARK: - Color Selection View */

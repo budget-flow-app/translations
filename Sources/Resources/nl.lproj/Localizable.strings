@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Exporteren";
 "sync_and_data_setting_get_csv_template_title" = "Sjabloon downloaden";
 
-/* Buttons */
-"clear_cache_button" = "Cache wissen";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Geeft aan of de synchronisatie met iCloud is gelukt of dat er een fout is opgetreden.";
 "backup_setting_footer_title" = "Beheer je back-ups en back-up instellingen.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Budgetboeken verwijderen";
 "app_reset_progress_deleting_existing_settings" = "Bestaande instellingen verwijderen";
 "app_reset_progress_finishing" = "Resetten van de app afronden";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Velden toewijzen";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beschrijving";
+"csv_assign_fields_info_description" = "Wijs de kolommen van het te importeren CSV-bestand toe aan de overeenkomstige velden.";
+
+/* Sections */
+"form_general_section_title" = "Algemeen";
+"form_csv_date_format_suggestions_section_title" = "Suggesties";
+"form_csv_date_format_other_section_title" = "Overige";
+
+/* Footer */
+"form_invalid_footer_title" = "Fout:";
+"form_invalid_amount_footer_title" = "De waarden voor \"%@\" zijn geen geldige geldbedragen.";
+"form_invalid_currency_footer_title" = "De waarden voor \"%@\" zijn geen geldige valuta.";
+"form_invalid_exchange_rate_footer_title" = "De waarden voor \"%@\" zijn geen geldige numerieke waarden.";
+"form_invalid_date_format_footer_title" = "De geselecteerde datum en/of formaat is ongeldig.";
+"form_type_footer_title" = "Info: Selecteer \"%@\" om het transactietype te berekenen op basis van het teken van de bedragwaarde.";
+"form_date_format_footer_title" = "Voorbeeld: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Bedrag";
+"form_source_currency_title" = "Bronvaluta";
+"form_target_currency_title" = "Doelvaluta";
+"form_budget_book_title" = "Budgetboek";
+"form_notes_title" = "Notities";
+"form_skip_zero_amounts_title" = "Sla \"0\"-bedragen over";
+"form_skip_duplicates_title" = "Sla duplicaten over";
+"form_csv_assign_field_none_type_value" = "Niet toegewezen";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exporteren";
+
+/* Items */
+"csv_export_format_title" = "Formaat";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV met bijlagen";
+
+/* Footer */
+"csv_export_footer_title" = "Exporteer het CSV-bestand volgens je instellingen. Het archief kan ook de bijlagen en een overzicht bevatten om ze aan de transacties te koppelen.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Het exportarchief kon niet worden aangemaakt.";
+"csv_export_missing_attachment_error" = "Een bijlage kon niet worden geladen. Zorg ervoor dat alle bijlagen op dit apparaat beschikbaar zijn en probeer het opnieuw.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Budget verwijderen";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Velden toewijzen";
-
-/* Info */
-"csv_assign_fields_info_title" = "Beschrijving";
-"csv_assign_fields_info_description" = "Wijs de kolommen van het te importeren CSV-bestand toe aan de overeenkomstige velden.";
-
-/* Sections */
-"form_general_section_title" = "Algemeen";
-"form_csv_date_format_suggestions_section_title" = "Suggesties";
-"form_csv_date_format_other_section_title" = "Overige";
-
-/* Footer */
-"form_invalid_footer_title" = "Fout:";
-"form_invalid_amount_footer_title" = "De waarden voor \"%@\" zijn geen geldige geldbedragen.";
-"form_invalid_currency_footer_title" = "De waarden voor \"%@\" zijn geen geldige valuta.";
-"form_invalid_exchange_rate_footer_title" = "De waarden voor \"%@\" zijn geen geldige numerieke waarden.";
-"form_invalid_date_format_footer_title" = "De geselecteerde datum en/of formaat is ongeldig.";
-"form_type_footer_title" = "Info: Selecteer \"%@\" om het transactietype te berekenen op basis van het teken van de bedragwaarde.";
-"form_date_format_footer_title" = "Voorbeeld: %@";
-
-/* Items */
-"form_type_title" = "Type";
-"form_amount_title" = "Bedrag";
-"form_source_currency_title" = "Bronvaluta";
-"form_target_currency_title" = "Doelvaluta";
-"form_budget_book_title" = "Budgetboek";
-"form_notes_title" = "Notities";
-"form_skip_zero_amounts_title" = "Sla \"0\"-bedragen over";
-"form_skip_duplicates_title" = "Sla duplicaten over";
-"form_csv_assign_field_none_type_value" = "Niet toegewezen";
 
 
 /* MARK: - Color Selection View */

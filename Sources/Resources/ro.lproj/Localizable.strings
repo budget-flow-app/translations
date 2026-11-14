@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Descărcați șablonul";
 
-/* Buttons */
-"clear_cache_button" = "Ștergeți memoria cache";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Indică dacă sincronizarea cu iCloud a avut succes sau dacă a apărut o eroare.";
 "backup_setting_footer_title" = "Gestionați-vă backup-urile și setările de backup.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Se șterg registrele de buget";
 "app_reset_progress_deleting_existing_settings" = "Se șterg setările existente";
 "app_reset_progress_finishing" = "Se finalizează resetarea aplicației";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Atribuiți câmpuri";
+
+/* Info */
+"csv_assign_fields_info_title" = "Descriere";
+"csv_assign_fields_info_description" = "Vă rugăm să atribuiți coloanele fișierului CSV care urmează să fie importat câmpurilor corespunzătoare.";
+
+/* Sections */
+"form_general_section_title" = "General";
+"form_csv_date_format_suggestions_section_title" = "Sugestii";
+"form_csv_date_format_other_section_title" = "Altele";
+
+/* Footer */
+"form_invalid_footer_title" = "Eroare:";
+"form_invalid_amount_footer_title" = "Valorile pentru \"%@\" nu sunt sume monetare valide.";
+"form_invalid_currency_footer_title" = "Valorile pentru \"%@\" nu sunt monede valide.";
+"form_invalid_exchange_rate_footer_title" = "Valorile pentru \"%@\" nu sunt valori numerice valide.";
+"form_invalid_date_format_footer_title" = "Data și/sau formatul selectat nu sunt valide.";
+"form_type_footer_title" = "Informații: Selectați \"%@\" pentru a calcula tipul tranzacției pe baza semnului valorii sumei.";
+"form_date_format_footer_title" = "Exemplu: %@";
+
+/* Items */
+"form_type_title" = "Tip";
+"form_amount_title" = "Suma";
+"form_source_currency_title" = "Moneda sursă";
+"form_target_currency_title" = "Moneda țintă";
+"form_budget_book_title" = "Cartea bugetului";
+"form_notes_title" = "Note";
+"form_skip_zero_amounts_title" = "Sări peste sumele \"0\"";
+"form_skip_duplicates_title" = "Sări peste duplicate";
+"form_csv_assign_field_none_type_value" = "Neatribuit";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exportă";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV cu atașamente";
+
+/* Footer */
+"csv_export_footer_title" = "Exportă fișierul CSV conform configurării tale. Opțional, arhiva include și atașamentele și o prezentare generală pentru asocierea lor cu tranzacțiile.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Arhiva de export nu a putut fi creată.";
+"csv_export_missing_attachment_error" = "Un atașament nu a putut fi încărcat. Asigură-te că toate atașamentele sunt disponibile pe acest dispozitiv și încearcă din nou.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Ștergeți bugetul";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Atribuiți câmpuri";
-
-/* Info */
-"csv_assign_fields_info_title" = "Descriere";
-"csv_assign_fields_info_description" = "Vă rugăm să atribuiți coloanele fișierului CSV care urmează să fie importat câmpurilor corespunzătoare.";
-
-/* Sections */
-"form_general_section_title" = "General";
-"form_csv_date_format_suggestions_section_title" = "Sugestii";
-"form_csv_date_format_other_section_title" = "Altele";
-
-/* Footer */
-"form_invalid_footer_title" = "Eroare:";
-"form_invalid_amount_footer_title" = "Valorile pentru \"%@\" nu sunt sume monetare valide.";
-"form_invalid_currency_footer_title" = "Valorile pentru \"%@\" nu sunt monede valide.";
-"form_invalid_exchange_rate_footer_title" = "Valorile pentru \"%@\" nu sunt valori numerice valide.";
-"form_invalid_date_format_footer_title" = "Data și/sau formatul selectat nu sunt valide.";
-"form_type_footer_title" = "Informații: Selectați \"%@\" pentru a calcula tipul tranzacției pe baza semnului valorii sumei.";
-"form_date_format_footer_title" = "Exemplu: %@";
-
-/* Items */
-"form_type_title" = "Tip";
-"form_amount_title" = "Suma";
-"form_source_currency_title" = "Moneda sursă";
-"form_target_currency_title" = "Moneda țintă";
-"form_budget_book_title" = "Cartea bugetului";
-"form_notes_title" = "Note";
-"form_skip_zero_amounts_title" = "Sări peste sumele \"0\"";
-"form_skip_duplicates_title" = "Sări peste duplicate";
-"form_csv_assign_field_none_type_value" = "Neatribuit";
 
 
 /* MARK: - Color Selection View */

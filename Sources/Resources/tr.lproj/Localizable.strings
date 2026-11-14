@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Dışa Aktar";
 "sync_and_data_setting_get_csv_template_title" = "Şablonu indir";
 
-/* Buttons */
-"clear_cache_button" = "Önbelleği temizle";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "iCloud ile senkronizasyonun başarılı olup olmadığını veya bir hata meydana gelip gelmediğini gösterir.";
 "backup_setting_footer_title" = "Yedeklemelerinizi ve yedekleme ayarlarınızı yönetin.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Bütçe defterleri siliniyor";
 "app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
 "app_reset_progress_finishing" = "Uygulama sıfırlama işlemi tamamlanıyor";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Alanları Ata";
+
+/* Info */
+"csv_assign_fields_info_title" = "Açıklama";
+"csv_assign_fields_info_description" = "Lütfen içe aktarılacak CSV dosyasının sütunlarını ilgili alanlara atayın.";
+
+/* Sections */
+"form_general_section_title" = "Genel";
+"form_csv_date_format_suggestions_section_title" = "Öneriler";
+"form_csv_date_format_other_section_title" = "Diğer";
+
+/* Footer */
+"form_invalid_footer_title" = "Hata:";
+"form_invalid_amount_footer_title" = "\"%@\" değerleri geçerli parasal tutarlar değil.";
+"form_invalid_currency_footer_title" = "\"%@\" için değerler geçerli para birimleri değil.";
+"form_invalid_exchange_rate_footer_title" = "\"%@\" için değerler geçerli sayısal değerler değil.";
+"form_invalid_date_format_footer_title" = "Seçilen tarih ve/veya biçim geçersiz.";
+"form_type_footer_title" = "Bilgi: Tutar değerinin işaretine göre işlem türünü hesaplamak için \"%@\" seçeneğini seçin.";
+"form_date_format_footer_title" = "Örnek: %@";
+
+/* Items */
+"form_type_title" = "Tür";
+"form_amount_title" = "Miktar";
+"form_source_currency_title" = "Kaynak Para Birimi";
+"form_target_currency_title" = "Hedef Para Birimi";
+"form_budget_book_title" = "Bütçe Defteri";
+"form_notes_title" = "Notlar";
+"form_skip_zero_amounts_title" = "\"0\" Tutarları Atla";
+"form_skip_duplicates_title" = "Kopyaları Atla";
+"form_csv_assign_field_none_type_value" = "Atanmamış";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Dışa aktarma";
+
+/* Buttons */
+"csv_export_button_title" = "Dışa aktar";
+
+/* Items */
+"csv_export_format_title" = "Biçim";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "Eklerle birlikte CSV";
+
+/* Footer */
+"csv_export_footer_title" = "CSV dosyasını ayarlarına göre dışa aktar. İsteğe bağlı olarak arşiv, ekleri ve bunları işlemlerle eşleştirmeyi kolaylaştıran bir genel bakışı da içerir.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Dışa aktarma arşivi oluşturulamadı.";
+"csv_export_missing_attachment_error" = "Bir ek yüklenemedi. Tüm eklerin bu cihazda kullanılabilir olduğundan emin ol ve tekrar dene.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Bütçeyi Sil";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Alanları Ata";
-
-/* Info */
-"csv_assign_fields_info_title" = "Açıklama";
-"csv_assign_fields_info_description" = "Lütfen içe aktarılacak CSV dosyasının sütunlarını ilgili alanlara atayın.";
-
-/* Sections */
-"form_general_section_title" = "Genel";
-"form_csv_date_format_suggestions_section_title" = "Öneriler";
-"form_csv_date_format_other_section_title" = "Diğer";
-
-/* Footer */
-"form_invalid_footer_title" = "Hata:";
-"form_invalid_amount_footer_title" = "\"%@\" değerleri geçerli parasal tutarlar değil.";
-"form_invalid_currency_footer_title" = "\"%@\" için değerler geçerli para birimleri değil.";
-"form_invalid_exchange_rate_footer_title" = "\"%@\" için değerler geçerli sayısal değerler değil.";
-"form_invalid_date_format_footer_title" = "Seçilen tarih ve/veya biçim geçersiz.";
-"form_type_footer_title" = "Bilgi: Tutar değerinin işaretine göre işlem türünü hesaplamak için \"%@\" seçeneğini seçin.";
-"form_date_format_footer_title" = "Örnek: %@";
-
-/* Items */
-"form_type_title" = "Tür";
-"form_amount_title" = "Miktar";
-"form_source_currency_title" = "Kaynak Para Birimi";
-"form_target_currency_title" = "Hedef Para Birimi";
-"form_budget_book_title" = "Bütçe Defteri";
-"form_notes_title" = "Notlar";
-"form_skip_zero_amounts_title" = "\"0\" Tutarları Atla";
-"form_skip_duplicates_title" = "Kopyaları Atla";
-"form_csv_assign_field_none_type_value" = "Atanmamış";
 
 
 /* MARK: - Color Selection View */

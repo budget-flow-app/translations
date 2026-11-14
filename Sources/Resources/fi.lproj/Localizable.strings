@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Vie";
 "sync_and_data_setting_get_csv_template_title" = "Lataa malli";
 
-/* Buttons */
-"clear_cache_button" = "Tyhjennä välimuisti";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Ilmoittaa, onnistuiko synkronointi iCloudin kanssa vai tapahtuiko virhe.";
 "backup_setting_footer_title" = "Hallinnoi varmuuskopioita ja varmuuskopiointiasetuksia.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Poistetaan budjettikirjoja";
 "app_reset_progress_deleting_existing_settings" = "Poistetaan olemassa olevia asetuksia";
 "app_reset_progress_finishing" = "Viimeistellään sovelluksen nollaus";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Määritä kentät";
+
+/* Info */
+"csv_assign_fields_info_title" = "Kuvaus";
+"csv_assign_fields_info_description" = "Määritä tuotavan CSV-tiedoston sarakkeet vastaaviin kenttiin.";
+
+/* Sections */
+"form_general_section_title" = "Yleistä";
+"form_csv_date_format_suggestions_section_title" = "Ehdotuksia";
+"form_csv_date_format_other_section_title" = "Muu";
+
+/* Footer */
+"form_invalid_footer_title" = "Virhe:";
+"form_invalid_amount_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia rahasummia.";
+"form_invalid_currency_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia valuuttoja.";
+"form_invalid_exchange_rate_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia numeerisia arvoja.";
+"form_invalid_date_format_footer_title" = "Valittu päivämäärä ja/tai muoto on virheellinen.";
+"form_type_footer_title" = "Tiedot: Valitse \"%@\", jos haluat laskea tapahtumatyypin summan arvon etumerkin perusteella.";
+"form_date_format_footer_title" = "Esimerkki: %@";
+
+/* Items */
+"form_type_title" = "Tyyppi";
+"form_amount_title" = "Summa";
+"form_source_currency_title" = "Lähdevaluutta";
+"form_target_currency_title" = "Tavoitevaluutta";
+"form_budget_book_title" = "Budjettikirja";
+"form_notes_title" = "Huomautukset";
+"form_skip_zero_amounts_title" = "Ohita \"0\" summat";
+"form_skip_duplicates_title" = "Ohita kaksoiskappaleet";
+"form_csv_assign_field_none_type_value" = "Ei määritetty";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Vienti";
+
+/* Buttons */
+"csv_export_button_title" = "Vie";
+
+/* Items */
+"csv_export_format_title" = "Muoto";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV liitteineen";
+
+/* Footer */
+"csv_export_footer_title" = "Vie CSV-tiedosto asetustesi mukaisesti. Arkistoon voi sisällyttää myös liitteet ja yhteenvedon, joka helpottaa niiden yhdistämistä tapahtumiin.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Vientiarkistoa ei voitu luoda.";
+"csv_export_missing_attachment_error" = "Liitettä ei voitu ladata. Varmista, että kaikki liitteet ovat saatavilla tällä laitteella, ja yritä uudelleen.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Poista budjetti";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Määritä kentät";
-
-/* Info */
-"csv_assign_fields_info_title" = "Kuvaus";
-"csv_assign_fields_info_description" = "Määritä tuotavan CSV-tiedoston sarakkeet vastaaviin kenttiin.";
-
-/* Sections */
-"form_general_section_title" = "Yleistä";
-"form_csv_date_format_suggestions_section_title" = "Ehdotuksia";
-"form_csv_date_format_other_section_title" = "Muu";
-
-/* Footer */
-"form_invalid_footer_title" = "Virhe:";
-"form_invalid_amount_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia rahasummia.";
-"form_invalid_currency_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia valuuttoja.";
-"form_invalid_exchange_rate_footer_title" = "Kohteen \"%@\" arvot eivät ole kelvollisia numeerisia arvoja.";
-"form_invalid_date_format_footer_title" = "Valittu päivämäärä ja/tai muoto on virheellinen.";
-"form_type_footer_title" = "Tiedot: Valitse \"%@\", jos haluat laskea tapahtumatyypin summan arvon etumerkin perusteella.";
-"form_date_format_footer_title" = "Esimerkki: %@";
-
-/* Items */
-"form_type_title" = "Tyyppi";
-"form_amount_title" = "Summa";
-"form_source_currency_title" = "Lähdevaluutta";
-"form_target_currency_title" = "Tavoitevaluutta";
-"form_budget_book_title" = "Budjettikirja";
-"form_notes_title" = "Huomautukset";
-"form_skip_zero_amounts_title" = "Ohita \"0\" summat";
-"form_skip_duplicates_title" = "Ohita kaksoiskappaleet";
-"form_csv_assign_field_none_type_value" = "Ei määritetty";
 
 
 /* MARK: - Color Selection View */

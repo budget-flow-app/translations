@@ -659,9 +659,6 @@
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Vorlage herunterladen";
 
-/* Buttons */
-"clear_cache_button" = "Cache leeren";
-
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Zeigt an, ob die letzte Synchronisierung erfolgreich war oder ein Fehler aufgetreten ist.";
 "backup_setting_footer_title" = "Verwalte deine Backups und Backup-Einstellungen.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Haushaltsbücher werden gelöscht";
 "app_reset_progress_deleting_existing_settings" = "Vorhandene Einstellungen werden gelöscht";
 "app_reset_progress_finishing" = "Zurücksetzen der App wird abgeschlossen";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Felder zuweisen";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beschreibung";
+"csv_assign_fields_info_description" = "Bitte ordne die Spalten der zu importierenden CSV-Datei den entsprechenden Feldern zu.";
+
+/* Sections */
+"form_general_section_title" = "Allgemein";
+"form_csv_date_format_suggestions_section_title" = "Vorschläge";
+"form_csv_date_format_other_section_title" = "Sonstiges";
+
+/* Footer */
+"form_invalid_footer_title" = "Fehler:";
+"form_invalid_amount_footer_title" = "Die Werte für \"%@\" sind keine gültigen Geldbeträge.";
+"form_invalid_currency_footer_title" = "Die Werte für \"%@\" sind keine gültigen Währungen.";
+"form_invalid_exchange_rate_footer_title" = "Die Werte für \"%@\" sind keine gültigen numerischen Werte.";
+"form_invalid_date_format_footer_title" = "Das ausgewählte Datum und/oder Format ist ungültig.";
+"form_type_footer_title" = "Info: Wähle \"%@\" aus, um den Transaktionstyp basierend auf dem Vorzeichen des Betrags zu berechnen.";
+"form_date_format_footer_title" = "Beispiel: %@";
+
+/* Items */
+"form_type_title" = "Typ";
+"form_amount_title" = "Betrag";
+"form_source_currency_title" = "Ausgangswährung";
+"form_target_currency_title" = "Zielwährung";
+"form_budget_book_title" = "Haushaltsbuch";
+"form_notes_title" = "Notizen";
+"form_skip_zero_amounts_title" = "\"0\"-Beträge überspringen";
+"form_skip_duplicates_title" = "Duplikate überspringen";
+"form_csv_assign_field_none_type_value" = "Nicht zugewiesen";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exportieren";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV mit Anhängen";
+
+/* Footer */
+"csv_export_footer_title" = "Exportiere die CSV-Datei entsprechend deiner Konfiguration. Optional enthält das Archiv auch die Anhänge und eine Übersicht zur Zuordnung.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Das Exportarchiv konnte nicht erstellt werden.";
+"csv_export_missing_attachment_error" = "Ein Anhang konnte nicht geladen werden. Bitte stelle sicher, dass alle Belege auf diesem Gerät verfügbar sind, und versuche es erneut.";
 
 
 /* MARK: - Cloud Settings View */
@@ -1604,40 +1655,6 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Budget löschen";
-
-
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Felder zuweisen";
-
-/* Info */
-"csv_assign_fields_info_title" = "Beschreibung";
-"csv_assign_fields_info_description" = "Bitte ordne die Spalten der zu importierenden CSV-Datei den entsprechenden Feldern zu.";
-
-/* Sections */
-"form_general_section_title" = "Allgemein";
-"form_csv_date_format_suggestions_section_title" = "Vorschläge";
-"form_csv_date_format_other_section_title" = "Sonstiges";
-
-/* Footer */
-"form_invalid_footer_title" = "Fehler:";
-"form_invalid_amount_footer_title" = "Die Werte für \"%@\" sind keine gültigen Geldbeträge.";
-"form_invalid_currency_footer_title" = "Die Werte für \"%@\" sind keine gültigen Währungen.";
-"form_invalid_exchange_rate_footer_title" = "Die Werte für \"%@\" sind keine gültigen numerischen Werte.";
-"form_invalid_date_format_footer_title" = "Das ausgewählte Datum und/oder Format ist ungültig.";
-"form_type_footer_title" = "Info: Wähle \"%@\" aus, um den Transaktionstyp basierend auf dem Vorzeichen des Betrags zu berechnen.";
-"form_date_format_footer_title" = "Beispiel: %@";
-
-/* Items */
-"form_type_title" = "Typ";
-"form_amount_title" = "Betrag";
-"form_source_currency_title" = "Ausgangswährung";
-"form_target_currency_title" = "Zielwährung";
-"form_budget_book_title" = "Haushaltsbuch";
-"form_notes_title" = "Notizen";
-"form_skip_zero_amounts_title" = "\"0\"-Beträge überspringen";
-"form_skip_duplicates_title" = "Duplikate überspringen";
-"form_csv_assign_field_none_type_value" = "Nicht zugewiesen";
 
 
 /* MARK: - Color Selection View */
