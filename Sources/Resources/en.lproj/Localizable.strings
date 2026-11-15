@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "New Payee";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Assign this payee an account, category, or location to use by default for transactions.";
+"form_assignment_default_entries_footer_title" = "Assign this payee an account, category, tags, or location to use by default for transactions.";
 
 /* Items */
 "form_location_title" = "Location";

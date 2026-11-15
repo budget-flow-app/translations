@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "新しい受取人";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "トランザクションにデフォルトで使用する口座、カテゴリ、または場所をこの受取人に割り当てます。";
+"form_assignment_default_entries_footer_title" = "トランザクションにデフォルトで使用する口座、カテゴリ、タグ、または場所をこの受取人に割り当てます。";
 
 /* Items */
 "form_location_title" = "場所";

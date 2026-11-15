@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nou beneficiari";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Assigna a aquest beneficiari un compte, categoria o ubicació perquè s’utilitzi de manera predeterminada a les transaccions.";
+"form_assignment_default_entries_footer_title" = "Assigna a aquest beneficiari un compte, categoria, etiquetes o ubicació perquè s’utilitzi de manera predeterminada a les transaccions.";
 
 /* Items */
 "form_location_title" = "Ubicació";

@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Új kedvezményezett";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy számlát, kategóriát vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
+"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy számlát, kategóriát, címkéket vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
 
 /* Items */
 "form_location_title" = "Helyszín";

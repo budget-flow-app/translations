@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Ny betalingsmottaker";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Tilordne denne betalingsmottakeren en konto, kategori eller plassering som skal brukes som standard for transaksjoner.";
+"form_assignment_default_entries_footer_title" = "Tilordne denne betalingsmottakeren en konto, kategori, etiketter eller plassering som skal brukes som standard for transaksjoner.";
 
 /* Items */
 "form_location_title" = "Plassering";

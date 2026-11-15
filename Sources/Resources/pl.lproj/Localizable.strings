@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nowy odbiorca płatności";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Przypisz konto, kategorię lub lokalizację, która będzie domyślnie używana podczas określania odbiorcy transakcji.";
+"form_assignment_default_entries_footer_title" = "Przypisz konto, kategorię, tagi lub lokalizację, które będą domyślnie używane podczas określania odbiorcy transakcji.";
 
 /* Items */
 "form_location_title" = "Lokalizacja";

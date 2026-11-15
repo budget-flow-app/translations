@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Yeni Alacaklı";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori veya konum atayın.";
+"form_assignment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori, etiketler veya konum atayın.";
 
 /* Items */
 "form_location_title" = "Konum";

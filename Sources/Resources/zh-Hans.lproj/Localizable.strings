@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "新收款人";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "为此收款人分配一个默认使用的账户、分类或地点，用于交易";
+"form_assignment_default_entries_footer_title" = "为此收款人分配一个默认使用的账户、分类、标签或地点，用于交易";
 
 /* Items */
 "form_location_title" = "地点";

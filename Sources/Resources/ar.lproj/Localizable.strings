@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "مستلم جديد";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "قم بتعيين الحساب الافتراضي لهذا المستلم، أو الفئة، أو الموقع للمعاملات.";
+"form_assignment_default_entries_footer_title" = "قم بتعيين الحساب الافتراضي لهذا المستلم، أو الفئة، أو العلامات، أو الموقع للمعاملات.";
 
 /* Items */
 "form_location_title" = "الموقع";

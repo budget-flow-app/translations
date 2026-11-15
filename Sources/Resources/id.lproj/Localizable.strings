@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Penerima Baru";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Tetapkan akun, kategori, atau lokasi kepada penerima ini untuk digunakan secara bawaan dalam transaksi.";
+"form_assignment_default_entries_footer_title" = "Tetapkan akun, kategori, tag, atau lokasi kepada penerima ini untuk digunakan secara bawaan dalam transaksi.";
 
 /* Items */
 "form_location_title" = "Lokasi";

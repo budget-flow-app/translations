@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Ny betalningsmottagare";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Tilldela denna betalningsmottagare ett konto, kategori eller plats att använda som standard för transaktioner.";
+"form_assignment_default_entries_footer_title" = "Tilldela denna betalningsmottagare ett konto, en kategori, taggar eller en plats att använda som standard för transaktioner.";
 
 /* Items */
 "form_location_title" = "Plats";

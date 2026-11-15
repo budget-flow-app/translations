@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "새 수취인";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 위치를 지정하세요.";
+"form_assignment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 태그, 위치를 지정하세요.";
 
 /* Items */
 "form_location_title" = "위치";

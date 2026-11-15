@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Novo beneficiário";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Atribuir a este beneficiário uma conta, categoria ou local para usar por padrão para transações.";
+"form_assignment_default_entries_footer_title" = "Atribuir a este beneficiário uma conta, categoria, tags ou local para usar por padrão para transações.";
 
 /* Items */
 "form_location_title" = "Localização";

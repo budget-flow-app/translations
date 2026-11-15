@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Uusi maksunsaaja";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Määritä tälle maksunsaajalle tili, luokka tai sijainti, jota käytetään oletuksena tapahtumissa.";
+"form_assignment_default_entries_footer_title" = "Määritä tälle maksunsaajalle tili, luokka, tunnisteet tai sijainti, joita käytetään oletuksena tapahtumissa.";
 
 /* Items */
 "form_location_title" = "Sijainti";

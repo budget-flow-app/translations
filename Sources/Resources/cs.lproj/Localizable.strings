@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nový příjemce";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Přiřaďte tomuto příjemci účet, kategorii nebo umístění, které se má jako výchozí používat pro transakce.";
+"form_assignment_default_entries_footer_title" = "Přiřaďte tomuto příjemci účet, kategorii, značky nebo umístění, které se má jako výchozí používat pro transakce.";
 
 /* Items */
 "form_location_title" = "Umístění";

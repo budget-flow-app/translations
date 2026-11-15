@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Người nhận mới";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Chỉ định Người nhận này một Ví, Danh mục hoặc vị trí để sử dụng theo mặc định cho các giao dịch.";
+"form_assignment_default_entries_footer_title" = "Chỉ định Người nhận này một Ví, Danh mục, Thẻ hoặc vị trí để sử dụng theo mặc định cho các giao dịch.";
 
 /* Items */
 "form_location_title" = "Vị trí";

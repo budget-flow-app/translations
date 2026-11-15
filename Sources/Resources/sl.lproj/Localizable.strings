@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nov prejemnik plačila";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Dodelite temu prejemniku plačila račun, kategorijo ali lokacijo, ki se bo privzeto uporabljala za transakcije.";
+"form_assignment_default_entries_footer_title" = "Dodelite temu prejemniku plačila račun, kategorijo, oznake ali lokacijo, ki se bo privzeto uporabljala za transakcije.";
 
 /* Items */
 "form_location_title" = "Lokacija";

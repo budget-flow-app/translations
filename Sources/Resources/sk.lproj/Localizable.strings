@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nový príjemca platby";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Priraďte tomuto príjemcovi platby účet, kategóriu alebo umiestnenie, ktoré sa bude štandardne používať pre transakcie.";
+"form_assignment_default_entries_footer_title" = "Priraďte tomuto príjemcovi platby účet, kategóriu, značky alebo umiestnenie, ktoré sa bude štandardne používať pre transakcie.";
 
 /* Items */
 "form_location_title" = "Umiestnenie";

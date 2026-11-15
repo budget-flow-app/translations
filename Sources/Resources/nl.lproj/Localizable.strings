@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nieuwe begunstigde";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Wijs aan deze begunstigde een rekening, categorie of locatie toe die standaard voor transacties moet worden gebruikt.";
+"form_assignment_default_entries_footer_title" = "Wijs aan deze begunstigde een rekening, categorie, tags of locatie toe die standaard voor transacties moet worden gebruikt.";
 
 /* Items */
 "form_location_title" = "Locatie";

@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Новий одержувач";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Призначте цьому одержувачу рахунок, категорію або місце для використання за замовчуванням для транзакцій.";
+"form_assignment_default_entries_footer_title" = "Призначте цьому одержувачу рахунок, категорію, теги або місце для використання за замовчуванням для транзакцій.";
 
 /* Items */
 "form_location_title" = "Розташування";

@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Beneficiar nou";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Atribuiți acestui beneficiar un cont, o categorie sau o locație pe care să o utilizeze în mod prestabilit pentru tranzacții.";
+"form_assignment_default_entries_footer_title" = "Atribuiți acestui beneficiar un cont, o categorie, etichete sau o locație pe care să o utilizeze în mod prestabilit pentru tranzacții.";
 
 /* Items */
 "form_location_title" = "Locație";

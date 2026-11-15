@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "ผู้รับเงินใหม่";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "กำหนดบัญชี หมวดหมู่ หรือตำแหน่งที่ตั้งแก่ผู้รับเงินรายนี้เพื่อใช้เป็นค่าเริ่มต้นสำหรับธุรกรรม";
+"form_assignment_default_entries_footer_title" = "กำหนดบัญชี หมวดหมู่ แท็ก หรือตำแหน่งที่ตั้งแก่ผู้รับเงินรายนี้เพื่อใช้เป็นค่าเริ่มต้นสำหรับธุรกรรม";
 
 /* Items */
 "form_location_title" = "ตำแหน่ง";

@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Novi primatelj uplate";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Dodijelite ovom primatelju uplate račun, kategoriju ili lokaciju za korištenje prema zadanim postavkama za transakcije.";
+"form_assignment_default_entries_footer_title" = "Dodijelite ovom primatelju uplate račun, kategoriju, oznake ili lokaciju za korištenje prema zadanim postavkama za transakcije.";
 
 /* Items */
 "form_location_title" = "Lokacija";

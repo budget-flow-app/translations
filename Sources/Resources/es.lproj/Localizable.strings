@@ -1537,7 +1537,7 @@
 "form_title_new_payee" = "Nuevo beneficiario";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Asignar a este beneficiario una cuenta, categoría o ubicación para que la utilice de forma predeterminada en las transacciones.";
+"form_assignment_default_entries_footer_title" = "Asignar a este beneficiario una cuenta, categoría, etiquetas o ubicación para que la utilice de forma predeterminada en las transacciones.";
 
 /* Items */
 "form_location_title" = "Ubicación";
