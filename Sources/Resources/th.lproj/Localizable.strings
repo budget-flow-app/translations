@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "ยอดคงเหลือเริ่มต้น";
 "form_total_balance_title" = "ยอดรวม";
 "form_use_as_default_account_title" = "บัญชีเริ่มต้น";
+"form_include_in_net_worth_title" = "รวมในมูลค่าสุทธิ";
 "form_account_currency_title" = "สกุลเงิน";
 
 /* Buttons */

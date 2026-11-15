@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "초기 잔액";
 "form_total_balance_title" = "총 잔액";
 "form_use_as_default_account_title" = "기본 계좌";
+"form_include_in_net_worth_title" = "순자산에 포함";
 "form_account_currency_title" = "통화";
 
 /* Buttons */

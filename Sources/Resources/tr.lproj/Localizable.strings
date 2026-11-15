@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "İlk Bakiye";
 "form_total_balance_title" = "Toplam Bakiye";
 "form_use_as_default_account_title" = "Varsayılan Hesap";
+"form_include_in_net_worth_title" = "Net Değere Dahil Et";
 "form_account_currency_title" = "Para Birimi";
 
 /* Buttons */

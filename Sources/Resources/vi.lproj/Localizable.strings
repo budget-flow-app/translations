@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Số dư ban đầu";
 "form_total_balance_title" = "Tổng số dư";
 "form_use_as_default_account_title" = "Ví mặc định";
+"form_include_in_net_worth_title" = "Tính vào giá trị ròng";
 "form_account_currency_title" = "Đơn vị tiền tệ";
 
 /* Buttons */

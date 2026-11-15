@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Saldo Awal";
 "form_total_balance_title" = "Total Saldo";
 "form_use_as_default_account_title" = "Akun Bawaan";
+"form_include_in_net_worth_title" = "Sertakan dalam Kekayaan Bersih";
 "form_account_currency_title" = "Mata Uang";
 
 /* Buttons */

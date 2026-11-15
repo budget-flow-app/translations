@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Αρχικό υπόλοιπο";
 "form_total_balance_title" = "Συνολικό υπόλοιπο";
 "form_use_as_default_account_title" = "Προεπιλεγμένος λογαριασμός";
+"form_include_in_net_worth_title" = "Συμπερίληψη στην καθαρή αξία";
 "form_account_currency_title" = "Νόμισμα";
 
 /* Buttons */

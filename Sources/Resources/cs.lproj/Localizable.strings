@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Počáteční zůstatek";
 "form_total_balance_title" = "Celkový zůstatek";
 "form_use_as_default_account_title" = "Výchozí účet";
+"form_include_in_net_worth_title" = "Zahrnout do čisté hodnoty";
 "form_account_currency_title" = "Měna";
 
 /* Buttons */

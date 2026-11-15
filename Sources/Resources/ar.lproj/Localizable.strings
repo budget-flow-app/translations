@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "الرصيد الأولي";
 "form_total_balance_title" = "إجمالي الرصيد";
 "form_use_as_default_account_title" = "الحساب الافتراضي";
+"form_include_in_net_worth_title" = "تضمين في صافي القيمة";
 "form_account_currency_title" = "العملة";
 
 /* Buttons */

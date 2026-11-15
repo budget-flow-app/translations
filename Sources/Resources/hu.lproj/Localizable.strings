@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Kezdeti egyenleg";
 "form_total_balance_title" = "Teljes egyenleg";
 "form_use_as_default_account_title" = "Alapértelmezett számla";
+"form_include_in_net_worth_title" = "Beleszámítás a nettó értékbe";
 "form_account_currency_title" = "Pénznem";
 
 /* Buttons */

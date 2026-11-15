@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Početno stanje";
 "form_total_balance_title" = "Ukupno stanje";
 "form_use_as_default_account_title" = "Zadani račun";
+"form_include_in_net_worth_title" = "Uključi u neto vrijednost";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */

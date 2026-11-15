@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Beginsaldo";
 "form_total_balance_title" = "Totaal saldo";
 "form_use_as_default_account_title" = "Standaardaccount";
+"form_include_in_net_worth_title" = "Meetellen in nettowaarde";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */

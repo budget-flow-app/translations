@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "初期残高";
 "form_total_balance_title" = "合計残高";
 "form_use_as_default_account_title" = "デフォルトの口座";
+"form_include_in_net_worth_title" = "純資産に含める";
 "form_account_currency_title" = "通貨";
 
 /* Buttons */

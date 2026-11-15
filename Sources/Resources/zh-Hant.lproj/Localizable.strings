@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "初始餘額";
 "form_total_balance_title" = "總餘額";
 "form_use_as_default_account_title" = "預設帳號";
+"form_include_in_net_worth_title" = "計入淨資產";
 "form_account_currency_title" = "貨幣";
 
 /* Buttons */

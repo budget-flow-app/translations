@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "初始余额";
 "form_total_balance_title" = "总余额";
 "form_use_as_default_account_title" = "默认账户";
+"form_include_in_net_worth_title" = "计入净资产";
 "form_account_currency_title" = "货币";
 
 /* Buttons */

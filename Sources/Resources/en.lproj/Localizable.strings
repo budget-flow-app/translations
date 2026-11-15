@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Initial Balance";
 "form_total_balance_title" = "Total Balance";
 "form_use_as_default_account_title" = "Default Account";
+"form_include_in_net_worth_title" = "Include in Net Worth";
 "form_account_currency_title" = "Currency";
 
 /* Buttons */

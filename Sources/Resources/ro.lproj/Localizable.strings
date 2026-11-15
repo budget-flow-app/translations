@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Sold inițial";
 "form_total_balance_title" = "Sold total";
 "form_use_as_default_account_title" = "Cont implicit";
+"form_include_in_net_worth_title" = "Include în valoarea netă";
 "form_account_currency_title" = "Moneda";
 
 /* Buttons */

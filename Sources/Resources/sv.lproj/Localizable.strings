@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Ingående saldo";
 "form_total_balance_title" = "Totalt saldo";
 "form_use_as_default_account_title" = "Standardkonto";
+"form_include_in_net_worth_title" = "Inkludera i nettovärdet";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */

@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Počiatočný zostatok";
 "form_total_balance_title" = "Celkový zostatok";
 "form_use_as_default_account_title" = "Predvolený účet";
+"form_include_in_net_worth_title" = "Zahrnúť do čistej hodnoty";
 "form_account_currency_title" = "Mena";
 
 /* Buttons */

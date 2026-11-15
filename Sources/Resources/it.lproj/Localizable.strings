@@ -1503,6 +1503,7 @@
 "form_initial_balance_title" = "Saldo iniziale";
 "form_total_balance_title" = "Saldo totale";
 "form_use_as_default_account_title" = "Conto predefinito";
+"form_include_in_net_worth_title" = "Includi nel patrimonio netto";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */
