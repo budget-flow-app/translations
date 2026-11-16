@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Sonstiges (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (Vollversion)";
+"contact_developer_mail_subject_full_version" = "Vollversion";
 
 
 /* MARK: - Appearance Settings View */
