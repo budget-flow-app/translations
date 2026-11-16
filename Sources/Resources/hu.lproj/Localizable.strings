@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Egyéb (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Importálás";
 "sync_and_data_setting_csv_export_title" = "Exportálás";
 "sync_and_data_setting_get_csv_template_title" = "Sablon letöltése";
-
-/* Buttons */
-"clear_cache_button" = "Gyorsítótár törlése";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Jelzi, hogy az iClouddal való szinkronizálás sikeres volt-e, vagy hiba történt.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Költségvetési könyvek törlése";
 "app_reset_progress_deleting_existing_settings" = "Meglévő beállítások törlése";
 "app_reset_progress_finishing" = "Alkalmazás visszaállításának befejezése";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Mezők hozzárendelése";
+
+/* Info */
+"csv_assign_fields_info_title" = "Leírás";
+"csv_assign_fields_info_description" = "Kérjük, rendelje hozzá az importálandó CSV-fájl oszlopait a megfelelő mezőkhöz.";
+
+/* Sections */
+"form_general_section_title" = "Általános";
+"form_csv_date_format_suggestions_section_title" = "Javaslatok";
+"form_csv_date_format_other_section_title" = "Egyéb";
+
+/* Footer */
+"form_invalid_footer_title" = "Hiba:";
+"form_invalid_amount_footer_title" = "A \"%@\" értékei nem érvényes pénzösszegek.";
+"form_invalid_currency_footer_title" = "A \"%@\" értékei nem érvényes pénznemek.";
+"form_invalid_exchange_rate_footer_title" = "A \"%@\" értékei nem érvényes számértékek.";
+"form_invalid_date_format_footer_title" = "A kiválasztott dátum és/vagy formátum érvénytelen.";
+"form_type_footer_title" = "Információ: Válassza a \"%@\" lehetőséget a tranzakció típusának az összeg érték előjele alapján történő kiszámításához.";
+"form_date_format_footer_title" = "Példa: %@";
+
+/* Items */
+"form_type_title" = "Típus";
+"form_amount_title" = "Összeg";
+"form_source_currency_title" = "Forrás pénzneme";
+"form_target_currency_title" = "Cél pénznem";
+"form_budget_book_title" = "Költségkeret könyv";
+"form_notes_title" = "Megjegyzések";
+"form_skip_zero_amounts_title" = "\"0\" Összegek kihagyása";
+"form_skip_duplicates_title" = "Ismétlődések kihagyása";
+"form_csv_assign_field_none_type_value" = "Nincs hozzárendelve";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Exportálás";
+
+/* Buttons */
+"csv_export_button_title" = "Exportálás";
+
+/* Items */
+"csv_export_format_title" = "Formátum";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV mellékletekkel";
+
+/* Footer */
+"csv_export_footer_title" = "Exportáld a CSV-fájlt a beállításaid szerint. Az archívum opcionálisan a mellékleteket és a tranzakciókhoz való hozzárendelésüket segítő áttekintést is tartalmazza.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Nem sikerült létrehozni az exportarchívumot.";
+"csv_export_missing_attachment_error" = "Nem sikerült betölteni egy mellékletet. Ellenőrizd, hogy minden melléklet elérhető-e ezen az eszközön, majd próbáld újra.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Tartsa szem előtt bevételeit és kiadásait, ismerje fel a mintákat, és hozzon jobb döntéseket a pénzével";
 
 /* Footer */
-"privacy_policy_title" = "Adatvédelmi szabályzat";
-"onboarding_welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
+"onboarding_welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@ és %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Kezdeti egyenleg";
 "form_total_balance_title" = "Teljes egyenleg";
 "form_use_as_default_account_title" = "Alapértelmezett számla";
+"form_include_in_net_worth_title" = "Beleszámítás a nettó értékbe";
 "form_account_currency_title" = "Pénznem";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Új kedvezményezett";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy számlát, kategóriát vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
+"form_assignment_default_entries_footer_title" = "Rendeljen ehhez a kedvezményezetthez egy számlát, kategóriát, címkéket vagy helyet, amelyet alapértelmezés szerint használjon a tranzakciókhoz.";
 
 /* Items */
 "form_location_title" = "Helyszín";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Költségkeret törlése";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Mezők hozzárendelése";
-
-/* Info */
-"csv_assign_fields_info_title" = "Leírás";
-"csv_assign_fields_info_description" = "Kérjük, rendelje hozzá az importálandó CSV-fájl oszlopait a megfelelő mezőkhöz.";
-
-/* Sections */
-"form_general_section_title" = "Általános";
-"form_csv_date_format_suggestions_section_title" = "Javaslatok";
-"form_csv_date_format_other_section_title" = "Egyéb";
-
-/* Footer */
-"form_invalid_footer_title" = "Hiba:";
-"form_invalid_amount_footer_title" = "A \"%@\" értékei nem érvényes pénzösszegek.";
-"form_invalid_currency_footer_title" = "A \"%@\" értékei nem érvényes pénznemek.";
-"form_invalid_exchange_rate_footer_title" = "A \"%@\" értékei nem érvényes számértékek.";
-"form_invalid_date_format_footer_title" = "A kiválasztott dátum és/vagy formátum érvénytelen.";
-"form_type_footer_title" = "Információ: Válassza a \"%@\" lehetőséget a tranzakció típusának az összeg érték előjele alapján történő kiszámításához.";
-"form_date_format_footer_title" = "Példa: %@";
-
-/* Items */
-"form_type_title" = "Típus";
-"form_amount_title" = "Összeg";
-"form_source_currency_title" = "Forrás pénzneme";
-"form_target_currency_title" = "Cél pénznem";
-"form_budget_book_title" = "Költségkeret könyv";
-"form_notes_title" = "Megjegyzések";
-"form_skip_zero_amounts_title" = "\"0\" Összegek kihagyása";
-"form_skip_duplicates_title" = "Ismétlődések kihagyása";
-"form_csv_assign_field_none_type_value" = "Nincs hozzárendelve";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Színek";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

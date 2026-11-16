@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Andet (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Importer";
 "sync_and_data_setting_csv_export_title" = "Eksporter";
 "sync_and_data_setting_get_csv_template_title" = "Download skabelon";
-
-/* Buttons */
-"clear_cache_button" = "Ryd cache";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Angiver, om synkroniseringen med iCloud lykkedes, eller om der opstod en fejl.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Sletter budgetbøger";
 "app_reset_progress_deleting_existing_settings" = "Sletter eksisterende indstillinger";
 "app_reset_progress_finishing" = "Afslutter nulstilling af app";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Tildel felter";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beskrivelse";
+"csv_assign_fields_info_description" = "Tildel venligst kolonnerne i CSV-filen, der skal importeres, til de tilsvarende felter.";
+
+/* Sections */
+"form_general_section_title" = "Generelt";
+"form_csv_date_format_suggestions_section_title" = "Forslag";
+"form_csv_date_format_other_section_title" = "Andet";
+
+/* Footer */
+"form_invalid_footer_title" = "Fejl:";
+"form_invalid_amount_footer_title" = "Værdierne for \"%@\" er ikke gyldige pengebeløb.";
+"form_invalid_currency_footer_title" = "Værdierne for \"%@\" er ikke gyldige valutaer.";
+"form_invalid_exchange_rate_footer_title" = "Værdierne for \"%@\" er ikke gyldige numeriske værdier.";
+"form_invalid_date_format_footer_title" = "Den valgte dato og/eller formatet er ugyldigt.";
+"form_type_footer_title" = "Info: Vælg \"%@\" for at beregne transaktionstypen baseret på tegnet på beløbsværdien.";
+"form_date_format_footer_title" = "Eksempel: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Beløb";
+"form_source_currency_title" = "Kildevaluta";
+"form_target_currency_title" = "Målvaluta";
+"form_budget_book_title" = "Budgetbog";
+"form_notes_title" = "Noter";
+"form_skip_zero_amounts_title" = "Spring \"0\"-beløb over";
+"form_skip_duplicates_title" = "Spring dubletter over";
+"form_csv_assign_field_none_type_value" = "Ikke tildelt";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Eksport";
+
+/* Buttons */
+"csv_export_button_title" = "Eksportér";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV med vedhæftninger";
+
+/* Footer */
+"csv_export_footer_title" = "Eksportér CSV-filen efter dine indstillinger. Arkivet kan også indeholde vedhæftninger og en oversigt, der gør det lettere at knytte dem til transaktionerne.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Eksportarkivet kunne ikke oprettes.";
+"csv_export_missing_attachment_error" = "En vedhæftning kunne ikke indlæses. Sørg for, at alle vedhæftninger er tilgængelige på denne enhed, og prøv igen.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Hold indtægter og udgifter i overblik, find mønstre og træf bedre beslutninger om dine penge";
 
 /* Footer */
-"privacy_policy_title" = "Privatlivspolitik";
-"onboarding_welcome_view_agreement_description" = "Ved at klikke på \"Acceptér\" giver du samtykke til %@.";
+"onboarding_welcome_view_agreement_description" = "Ved at klikke på \"Acceptér\" giver du samtykke til %@ og %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Startsaldo";
 "form_total_balance_title" = "Samlet saldo";
 "form_use_as_default_account_title" = "Standardkonto";
+"form_include_in_net_worth_title" = "Medregn i nettoformuen";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Ny betalingsmodtager";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Tildel denne betalingsmodtager en konto, kategori eller placering, der som standard skal bruges til transaktioner.";
+"form_assignment_default_entries_footer_title" = "Tildel denne betalingsmodtager en konto, kategori, tags eller placering, der som standard skal bruges til transaktioner.";
 
 /* Items */
 "form_location_title" = "Placering";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Slet budget";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Tildel felter";
-
-/* Info */
-"csv_assign_fields_info_title" = "Beskrivelse";
-"csv_assign_fields_info_description" = "Tildel venligst kolonnerne i CSV-filen, der skal importeres, til de tilsvarende felter.";
-
-/* Sections */
-"form_general_section_title" = "Generelt";
-"form_csv_date_format_suggestions_section_title" = "Forslag";
-"form_csv_date_format_other_section_title" = "Andet";
-
-/* Footer */
-"form_invalid_footer_title" = "Fejl:";
-"form_invalid_amount_footer_title" = "Værdierne for \"%@\" er ikke gyldige pengebeløb.";
-"form_invalid_currency_footer_title" = "Værdierne for \"%@\" er ikke gyldige valutaer.";
-"form_invalid_exchange_rate_footer_title" = "Værdierne for \"%@\" er ikke gyldige numeriske værdier.";
-"form_invalid_date_format_footer_title" = "Den valgte dato og/eller formatet er ugyldigt.";
-"form_type_footer_title" = "Info: Vælg \"%@\" for at beregne transaktionstypen baseret på tegnet på beløbsværdien.";
-"form_date_format_footer_title" = "Eksempel: %@";
-
-/* Items */
-"form_type_title" = "Type";
-"form_amount_title" = "Beløb";
-"form_source_currency_title" = "Kildevaluta";
-"form_target_currency_title" = "Målvaluta";
-"form_budget_book_title" = "Budgetbog";
-"form_notes_title" = "Noter";
-"form_skip_zero_amounts_title" = "Spring \"0\"-beløb over";
-"form_skip_duplicates_title" = "Spring dubletter over";
-"form_csv_assign_field_none_type_value" = "Ikke tildelt";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Farver";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/da/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

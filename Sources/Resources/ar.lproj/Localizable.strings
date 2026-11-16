@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 أخرى (بريد إلكتروني)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "استيراد";
 "sync_and_data_setting_csv_export_title" = "تصدير";
 "sync_and_data_setting_get_csv_template_title" = "تحميل القالب";
-
-/* Buttons */
-"clear_cache_button" = "مسح ذاكرة التخزين المؤقت";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "يشير إلى ما إذا كانت مزامنة iCloud ناجحة أو حدث خطأ.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "جارٍ حذف دفاتر الميزانية";
 "app_reset_progress_deleting_existing_settings" = "جارٍ حذف الإعدادات الموجودة";
 "app_reset_progress_finishing" = "جارٍ إنهاء إعادة تعيين التطبيق";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "تخصيص الحقول";
+
+/* Info */
+"csv_assign_fields_info_title" = "الوصف";
+"csv_assign_fields_info_description" = "قم بتعيين أعمدة ملف CSV للاستيراد إلى الحقول المناسبة.";
+
+/* Sections */
+"form_general_section_title" = "عام";
+"form_csv_date_format_suggestions_section_title" = "اقتراحات";
+"form_csv_date_format_other_section_title" = "أخرى";
+
+/* Footer */
+"form_invalid_footer_title" = "خطأ:";
+"form_invalid_amount_footer_title" = "قيم \"%@\" ليست مبالغ نقدية صالحة.";
+"form_invalid_currency_footer_title" = "قيم \"%@\" ليست عملات صالحة.";
+"form_invalid_exchange_rate_footer_title" = "قيم \"%@\" ليست قيمًا رقمية صالحة";
+"form_invalid_date_format_footer_title" = "التاريخ و/أو التنسيق المحدد غير صالح.";
+"form_type_footer_title" = "معلومات: حدد \"%@\" لحساب نوع المعاملة بناءً على علامة قيمة المبلغ.";
+"form_date_format_footer_title" = "مثال: %@";
+
+/* Items */
+"form_type_title" = "النوع";
+"form_amount_title" = "المبلغ";
+"form_source_currency_title" = "عملة المصدر";
+"form_target_currency_title" = "العملة المستهدفة";
+"form_budget_book_title" = "دفتر الميزانية";
+"form_notes_title" = "ملاحظات";
+"form_skip_zero_amounts_title" = "تخطي المبالغ \"0\"";
+"form_skip_duplicates_title" = "تخطي التكرارات";
+"form_csv_assign_field_none_type_value" = "لم يتم تعيينه";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "تصدير";
+
+/* Buttons */
+"csv_export_button_title" = "تصدير";
+
+/* Items */
+"csv_export_format_title" = "التنسيق";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV مع المرفقات";
+
+/* Footer */
+"csv_export_footer_title" = "صدّر ملف CSV وفقًا لإعداداتك. يمكن أن يتضمن الأرشيف أيضًا المرفقات ونظرة عامة لتسهيل ربطها بالمعاملات.";
+
+/* Alert Views */
+"csv_export_archive_error" = "تعذر إنشاء أرشيف التصدير.";
+"csv_export_missing_attachment_error" = "تعذر تحميل أحد المرفقات. تأكد من توفر جميع المرفقات على هذا الجهاز، ثم حاول مرة أخرى.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "تابع دخلك ونفقاتك، واكتشف الأنماط، واتخذ قرارات أفضل بشأن أموالك";
 
 /* Footer */
-"privacy_policy_title" = "سياسة الخصوصية";
-"onboarding_welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@.";
+"onboarding_welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@ و%@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "الرصيد الأولي";
 "form_total_balance_title" = "إجمالي الرصيد";
 "form_use_as_default_account_title" = "الحساب الافتراضي";
+"form_include_in_net_worth_title" = "تضمين في صافي القيمة";
 "form_account_currency_title" = "العملة";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "مستلم جديد";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "قم بتعيين الحساب الافتراضي لهذا المستلم، أو الفئة، أو الموقع للمعاملات.";
+"form_assignment_default_entries_footer_title" = "قم بتعيين الحساب الافتراضي لهذا المستلم، أو الفئة، أو العلامات، أو الموقع للمعاملات.";
 
 /* Items */
 "form_location_title" = "الموقع";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "حذف الميزانية";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "تخصيص الحقول";
-
-/* Info */
-"csv_assign_fields_info_title" = "الوصف";
-"csv_assign_fields_info_description" = "قم بتعيين أعمدة ملف CSV للاستيراد إلى الحقول المناسبة.";
-
-/* Sections */
-"form_general_section_title" = "عام";
-"form_csv_date_format_suggestions_section_title" = "اقتراحات";
-"form_csv_date_format_other_section_title" = "أخرى";
-
-/* Footer */
-"form_invalid_footer_title" = "خطأ:";
-"form_invalid_amount_footer_title" = "قيم \"%@\" ليست مبالغ نقدية صالحة.";
-"form_invalid_currency_footer_title" = "قيم \"%@\" ليست عملات صالحة.";
-"form_invalid_exchange_rate_footer_title" = "قيم \"%@\" ليست قيمًا رقمية صالحة";
-"form_invalid_date_format_footer_title" = "التاريخ و/أو التنسيق المحدد غير صالح.";
-"form_type_footer_title" = "معلومات: حدد \"%@\" لحساب نوع المعاملة بناءً على علامة قيمة المبلغ.";
-"form_date_format_footer_title" = "مثال: %@";
-
-/* Items */
-"form_type_title" = "النوع";
-"form_amount_title" = "المبلغ";
-"form_source_currency_title" = "عملة المصدر";
-"form_target_currency_title" = "العملة المستهدفة";
-"form_budget_book_title" = "دفتر الميزانية";
-"form_notes_title" = "ملاحظات";
-"form_skip_zero_amounts_title" = "تخطي المبالغ \"0\"";
-"form_skip_duplicates_title" = "تخطي التكرارات";
-"form_csv_assign_field_none_type_value" = "لم يتم تعيينه";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "الألوان";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

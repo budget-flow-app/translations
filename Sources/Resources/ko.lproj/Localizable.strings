@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 기타 (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "가져오기";
 "sync_and_data_setting_csv_export_title" = "내보내기";
 "sync_and_data_setting_get_csv_template_title" = "템플릿 다운로드";
-
-/* Buttons */
-"clear_cache_button" = "캐시 지우기";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "iCloud와의 동기화 상태를 확인할 수 있습니다.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "예산 장부 삭제 중";
 "app_reset_progress_deleting_existing_settings" = "기존 설정 삭제 중";
 "app_reset_progress_finishing" = "앱 초기화 마무리 중";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "필드 지정";
+
+/* Info */
+"csv_assign_fields_info_title" = "설명";
+"csv_assign_fields_info_description" = "해당 필드에 가져올 CSV 파일의 열을 지정하십시오.";
+
+/* Sections */
+"form_general_section_title" = "일반";
+"form_csv_date_format_suggestions_section_title" = "제안";
+"form_csv_date_format_other_section_title" = "기타";
+
+/* Footer */
+"form_invalid_footer_title" = "오류:";
+"form_invalid_amount_footer_title" = "\"%@\"에 대한 값은 유효한 금액이 아닙니다.";
+"form_invalid_currency_footer_title" = "\"%@\"의 값은 유효한 통화가 아닙니다.";
+"form_invalid_exchange_rate_footer_title" = "\"%@\"에 대한 값은 유효한 숫자 값이 아닙니다.";
+"form_invalid_date_format_footer_title" = "선택한 날짜 및/또는 형식이 유효하지 않습니다.";
+"form_type_footer_title" = "정보: 금액 값의 부호에 따라 거래 유형을 계산하려면 \"%@\" 을(를) 선택하세요.";
+"form_date_format_footer_title" = "예: %@";
+
+/* Items */
+"form_type_title" = "유형";
+"form_amount_title" = "금액";
+"form_source_currency_title" = "기존 통화";
+"form_target_currency_title" = "대상 통화";
+"form_budget_book_title" = "가계장부";
+"form_notes_title" = "메모";
+"form_skip_zero_amounts_title" = "\"0\" 금액 건너뛰기";
+"form_skip_duplicates_title" = "중복 건너뛰기";
+"form_csv_assign_field_none_type_value" = "할당되지 않음";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "내보내기";
+
+/* Buttons */
+"csv_export_button_title" = "내보내기";
+
+/* Items */
+"csv_export_format_title" = "형식";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "첨부 파일 포함 CSV";
+
+/* Footer */
+"csv_export_footer_title" = "설정에 따라 CSV 파일을 내보냅니다. 선택에 따라 첨부 파일과 해당 거래를 확인할 수 있는 개요도 압축 파일에 포함됩니다.";
+
+/* Alert Views */
+"csv_export_archive_error" = "내보내기 압축 파일을 만들 수 없습니다.";
+"csv_export_missing_attachment_error" = "첨부 파일을 불러올 수 없습니다. 모든 첨부 파일을 이 기기에서 사용할 수 있는지 확인한 후 다시 시도하세요.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "수입과 지출을 한눈에 보고, 패턴을 파악하며, 돈에 대해 더 나은 결정을 내리세요";
 
 /* Footer */
-"privacy_policy_title" = "개인정보 보호정책";
-"onboarding_welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 에 동의하게 됩니다.";
+"onboarding_welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 및 %@ 에 동의하게 됩니다.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "초기 잔액";
 "form_total_balance_title" = "총 잔액";
 "form_use_as_default_account_title" = "기본 계좌";
+"form_include_in_net_worth_title" = "순자산에 포함";
 "form_account_currency_title" = "통화";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "새 수취인";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 위치를 지정하세요.";
+"form_assignment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 태그, 위치를 지정하세요.";
 
 /* Items */
 "form_location_title" = "위치";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "예산 삭제";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "필드 지정";
-
-/* Info */
-"csv_assign_fields_info_title" = "설명";
-"csv_assign_fields_info_description" = "해당 필드에 가져올 CSV 파일의 열을 지정하십시오.";
-
-/* Sections */
-"form_general_section_title" = "일반";
-"form_csv_date_format_suggestions_section_title" = "제안";
-"form_csv_date_format_other_section_title" = "기타";
-
-/* Footer */
-"form_invalid_footer_title" = "오류:";
-"form_invalid_amount_footer_title" = "\"%@\"에 대한 값은 유효한 금액이 아닙니다.";
-"form_invalid_currency_footer_title" = "\"%@\"의 값은 유효한 통화가 아닙니다.";
-"form_invalid_exchange_rate_footer_title" = "\"%@\"에 대한 값은 유효한 숫자 값이 아닙니다.";
-"form_invalid_date_format_footer_title" = "선택한 날짜 및/또는 형식이 유효하지 않습니다.";
-"form_type_footer_title" = "정보: 금액 값의 부호에 따라 거래 유형을 계산하려면 \"%@\" 을(를) 선택하세요.";
-"form_date_format_footer_title" = "예: %@";
-
-/* Items */
-"form_type_title" = "유형";
-"form_amount_title" = "금액";
-"form_source_currency_title" = "기존 통화";
-"form_target_currency_title" = "대상 통화";
-"form_budget_book_title" = "가계장부";
-"form_notes_title" = "메모";
-"form_skip_zero_amounts_title" = "\"0\" 금액 건너뛰기";
-"form_skip_duplicates_title" = "중복 건너뛰기";
-"form_csv_assign_field_none_type_value" = "할당되지 않음";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "색상";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

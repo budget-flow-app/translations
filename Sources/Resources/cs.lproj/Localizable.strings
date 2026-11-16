@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Jiné (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Import";
 "sync_and_data_setting_csv_export_title" = "Exportovat";
 "sync_and_data_setting_get_csv_template_title" = "Stáhnout šablonu";
-
-/* Buttons */
-"clear_cache_button" = "Vymazat mezipaměť";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Ukazuje, zda byla synchronizace s iCloud úspěšná nebo došlo k chybě.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Mazání rozpočtových knih";
 "app_reset_progress_deleting_existing_settings" = "Mazání stávajících nastavení";
 "app_reset_progress_finishing" = "Dokončování resetování aplikace";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Přiřadit pole";
+
+/* Info */
+"csv_assign_fields_info_title" = "Popis";
+"csv_assign_fields_info_description" = "Přiřaďte prosím sloupce souboru CSV k importu do odpovídajících polí.";
+
+/* Sections */
+"form_general_section_title" = "Obecné";
+"form_csv_date_format_suggestions_section_title" = "Návrhy";
+"form_csv_date_format_other_section_title" = "Jiné";
+
+/* Footer */
+"form_invalid_footer_title" = "Chyba:";
+"form_invalid_amount_footer_title" = "Hodnoty pro \"%@\" nejsou platné peněžní částky.";
+"form_invalid_currency_footer_title" = "Hodnoty pro \"%@\" nejsou platné měny.";
+"form_invalid_exchange_rate_footer_title" = "Hodnoty pro \"%@\" nejsou platné číselné hodnoty.";
+"form_invalid_date_format_footer_title" = "Vybrané datum a/nebo formát je neplatný.";
+"form_type_footer_title" = "Informace: Vyberte \"%@\" pro výpočet typu transakce na základě znaménka hodnoty částky.";
+"form_date_format_footer_title" = "Příklad: %@";
+
+/* Items */
+"form_type_title" = "Typ";
+"form_amount_title" = "Částka";
+"form_source_currency_title" = "Zdrojová měna";
+"form_target_currency_title" = "Cílová měna";
+"form_budget_book_title" = "Rozpočtová kniha";
+"form_notes_title" = "Poznámky";
+"form_skip_zero_amounts_title" = "Přeskočit částky \"0\"";
+"form_skip_duplicates_title" = "Přeskočit duplikáty";
+"form_csv_assign_field_none_type_value" = "Nepřiřazeno";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exportovat";
+
+/* Items */
+"csv_export_format_title" = "Formát";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV s přílohami";
+
+/* Footer */
+"csv_export_footer_title" = "Exportuj soubor CSV podle svého nastavení. Archiv může volitelně obsahovat také přílohy a přehled pro jejich přiřazení k transakcím.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Exportní archiv se nepodařilo vytvořit.";
+"csv_export_missing_attachment_error" = "Přílohu se nepodařilo načíst. Ujisti se, že jsou všechny přílohy dostupné na tomto zařízení, a zkus to znovu.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Mějte příjmy i výdaje pod kontrolou, rozpoznávejte vzorce a dělejte lepší rozhodnutí o svých penězích";
 
 /* Footer */
-"privacy_policy_title" = "Zásady ochrany osobních údajů";
-"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@.";
+"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@ a %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Počáteční zůstatek";
 "form_total_balance_title" = "Celkový zůstatek";
 "form_use_as_default_account_title" = "Výchozí účet";
+"form_include_in_net_worth_title" = "Zahrnout do čisté hodnoty";
 "form_account_currency_title" = "Měna";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Nový příjemce";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Přiřaďte tomuto příjemci účet, kategorii nebo umístění, které se má jako výchozí používat pro transakce.";
+"form_assignment_default_entries_footer_title" = "Přiřaďte tomuto příjemci účet, kategorii, značky nebo umístění, které se má jako výchozí používat pro transakce.";
 
 /* Items */
 "form_location_title" = "Umístění";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Smazat rozpočet";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Přiřadit pole";
-
-/* Info */
-"csv_assign_fields_info_title" = "Popis";
-"csv_assign_fields_info_description" = "Přiřaďte prosím sloupce souboru CSV k importu do odpovídajících polí.";
-
-/* Sections */
-"form_general_section_title" = "Obecné";
-"form_csv_date_format_suggestions_section_title" = "Návrhy";
-"form_csv_date_format_other_section_title" = "Jiné";
-
-/* Footer */
-"form_invalid_footer_title" = "Chyba:";
-"form_invalid_amount_footer_title" = "Hodnoty pro \"%@\" nejsou platné peněžní částky.";
-"form_invalid_currency_footer_title" = "Hodnoty pro \"%@\" nejsou platné měny.";
-"form_invalid_exchange_rate_footer_title" = "Hodnoty pro \"%@\" nejsou platné číselné hodnoty.";
-"form_invalid_date_format_footer_title" = "Vybrané datum a/nebo formát je neplatný.";
-"form_type_footer_title" = "Informace: Vyberte \"%@\" pro výpočet typu transakce na základě znaménka hodnoty částky.";
-"form_date_format_footer_title" = "Příklad: %@";
-
-/* Items */
-"form_type_title" = "Typ";
-"form_amount_title" = "Částka";
-"form_source_currency_title" = "Zdrojová měna";
-"form_target_currency_title" = "Cílová měna";
-"form_budget_book_title" = "Rozpočtová kniha";
-"form_notes_title" = "Poznámky";
-"form_skip_zero_amounts_title" = "Přeskočit částky \"0\"";
-"form_skip_duplicates_title" = "Přeskočit duplikáty";
-"form_csv_assign_field_none_type_value" = "Nepřiřazeno";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Barvy";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

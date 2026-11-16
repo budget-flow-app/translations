@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Другое (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Импорт";
 "sync_and_data_setting_csv_export_title" = "Экспорт";
 "sync_and_data_setting_get_csv_template_title" = "Загрузить шаблон";
-
-/* Buttons */
-"clear_cache_button" = "Очистить кэш";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Указывает, была ли синхронизация с iCloud успешной или произошла ошибка.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Удаление бюджетных книг";
 "app_reset_progress_deleting_existing_settings" = "Удаление существующих настроек";
 "app_reset_progress_finishing" = "Завершение сброса приложения";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Назначить поля";
+
+/* Info */
+"csv_assign_fields_info_title" = "Описание";
+"csv_assign_fields_info_description" = "Назначьте столбцы CSV-файла для импорта соответствующим полям.";
+
+/* Sections */
+"form_general_section_title" = "Общие";
+"form_csv_date_format_suggestions_section_title" = "Предложения";
+"form_csv_date_format_other_section_title" = "Другое";
+
+/* Footer */
+"form_invalid_footer_title" = "Ошибка:";
+"form_invalid_amount_footer_title" = "Значения для \"%@\" не являются действительными денежными суммами.";
+"form_invalid_currency_footer_title" = "Значения для \"%@\" не являются допустимыми валютами.";
+"form_invalid_exchange_rate_footer_title" = "Значения для \"%@\" не являются допустимыми числовыми значениями.";
+"form_invalid_date_format_footer_title" = "Выбранная дата и/или формат недействительны.";
+"form_type_footer_title" = "Информация: выберите \"%@\", чтобы рассчитать тип транзакции на основе знака значения суммы.";
+"form_date_format_footer_title" = "Пример: %@";
+
+/* Items */
+"form_type_title" = "Тип";
+"form_amount_title" = "Сумма";
+"form_source_currency_title" = "Исходная валюта";
+"form_target_currency_title" = "Целевая валюта";
+"form_budget_book_title" = "Книга бюджета";
+"form_notes_title" = "Заметки";
+"form_skip_zero_amounts_title" = "Пропустить суммы \"0\"";
+"form_skip_duplicates_title" = "Пропустить дубликаты";
+"form_csv_assign_field_none_type_value" = "Не назначено";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Экспорт";
+
+/* Buttons */
+"csv_export_button_title" = "Экспортировать";
+
+/* Items */
+"csv_export_format_title" = "Формат";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV с вложениями";
+
+/* Footer */
+"csv_export_footer_title" = "Экспортируйте CSV-файл в соответствии с настройками. При желании в архив также можно включить вложения и сводку для их сопоставления с транзакциями.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Не удалось создать архив экспорта.";
+"csv_export_missing_attachment_error" = "Не удалось загрузить вложение. Убедитесь, что все вложения доступны на этом устройстве, и повторите попытку.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Следите за доходами и расходами, замечайте закономерности и принимайте более взвешенные финансовые решения";
 
 /* Footer */
-"privacy_policy_title" = "Политика конфиденциальности";
-"onboarding_welcome_view_agreement_description" = "Нажимая \"Принять\", вы соглашаетесь с %@.";
+"onboarding_welcome_view_agreement_description" = "Нажимая \"Принять\", вы соглашаетесь с %@ и %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Начальный баланс";
 "form_total_balance_title" = "Общий баланс";
 "form_use_as_default_account_title" = "Счет по умолчанию";
+"form_include_in_net_worth_title" = "Учитывать в чистой стоимости";
 "form_account_currency_title" = "Валюта";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Новый получатель";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Назначьте этому получателю счет, категорию или местоположение, которое будет использоваться по умолчанию для операций.";
+"form_assignment_default_entries_footer_title" = "Назначьте этому получателю счет, категорию, теги или местоположение, которые будут использоваться по умолчанию для операций.";
 
 /* Items */
 "form_location_title" = "Местоположение";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Удалить бюджет";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Назначить поля";
-
-/* Info */
-"csv_assign_fields_info_title" = "Описание";
-"csv_assign_fields_info_description" = "Назначьте столбцы CSV-файла для импорта соответствующим полям.";
-
-/* Sections */
-"form_general_section_title" = "Общие";
-"form_csv_date_format_suggestions_section_title" = "Предложения";
-"form_csv_date_format_other_section_title" = "Другое";
-
-/* Footer */
-"form_invalid_footer_title" = "Ошибка:";
-"form_invalid_amount_footer_title" = "Значения для \"%@\" не являются действительными денежными суммами.";
-"form_invalid_currency_footer_title" = "Значения для \"%@\" не являются допустимыми валютами.";
-"form_invalid_exchange_rate_footer_title" = "Значения для \"%@\" не являются допустимыми числовыми значениями.";
-"form_invalid_date_format_footer_title" = "Выбранная дата и/или формат недействительны.";
-"form_type_footer_title" = "Информация: выберите \"%@\", чтобы рассчитать тип транзакции на основе знака значения суммы.";
-"form_date_format_footer_title" = "Пример: %@";
-
-/* Items */
-"form_type_title" = "Тип";
-"form_amount_title" = "Сумма";
-"form_source_currency_title" = "Исходная валюта";
-"form_target_currency_title" = "Целевая валюта";
-"form_budget_book_title" = "Книга бюджета";
-"form_notes_title" = "Заметки";
-"form_skip_zero_amounts_title" = "Пропустить суммы \"0\"";
-"form_skip_duplicates_title" = "Пропустить дубликаты";
-"form_csv_assign_field_none_type_value" = "Не назначено";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Цвета";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

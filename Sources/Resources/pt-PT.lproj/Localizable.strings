@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Outro (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Importar";
 "sync_and_data_setting_csv_export_title" = "Exportar";
 "sync_and_data_setting_get_csv_template_title" = "Descarregar modelo";
-
-/* Buttons */
-"clear_cache_button" = "Limpar cache";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Indica se a sincronização com o iCloud foi bem-sucedida ou se ocorreu um erro.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "A eliminar livros de orçamento";
 "app_reset_progress_deleting_existing_settings" = "A eliminar definições existentes";
 "app_reset_progress_finishing" = "A finalizar reposição da aplicação";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Atribuir campos";
+
+/* Info */
+"csv_assign_fields_info_title" = "Descrição";
+"csv_assign_fields_info_description" = "Por favor, atribui as colunas do ficheiro CSV a importar aos campos correspondentes.";
+
+/* Sections */
+"form_general_section_title" = "Geral";
+"form_csv_date_format_suggestions_section_title" = "Sugestões";
+"form_csv_date_format_other_section_title" = "Outros";
+
+/* Footer */
+"form_invalid_footer_title" = "Erro:";
+"form_invalid_amount_footer_title" = "Os valores para \"%@\" não são montantes monetários válidos.";
+"form_invalid_currency_footer_title" = "Os valores para \"%@\" não são moedas válidas.";
+"form_invalid_exchange_rate_footer_title" = "Os valores para \"%@\" não são valores numéricos válidos.";
+"form_invalid_date_format_footer_title" = "A data e/ou formato selecionado é inválido.";
+"form_type_footer_title" = "Informação: Seleciona \"%@\" para calcular o tipo de transação com base no sinal do valor.";
+"form_date_format_footer_title" = "Exemplo: %@";
+
+/* Items */
+"form_type_title" = "Tipo";
+"form_amount_title" = "Valor";
+"form_source_currency_title" = "Moeda de origem";
+"form_target_currency_title" = "Moeda de destino";
+"form_budget_book_title" = "Caderno de Orçamento";
+"form_notes_title" = "Notas";
+"form_skip_zero_amounts_title" = "Ignorar valores \"0\"";
+"form_skip_duplicates_title" = "Ignorar duplicados";
+"form_csv_assign_field_none_type_value" = "Não atribuído";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Exportação";
+
+/* Buttons */
+"csv_export_button_title" = "Exportar";
+
+/* Items */
+"csv_export_format_title" = "Formato";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV com anexos";
+
+/* Footer */
+"csv_export_footer_title" = "Exporta o ficheiro CSV de acordo com as tuas definições. Opcionalmente, o arquivo também inclui os anexos e um resumo para os associar às transações.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Não foi possível criar o arquivo de exportação.";
+"csv_export_missing_attachment_error" = "Não foi possível carregar um anexo. Verifica se todos os anexos estão disponíveis neste dispositivo e tenta novamente.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Mantém receitas e despesas à vista, identifica padrões e toma melhores decisões com o teu dinheiro";
 
 /* Footer */
-"privacy_policy_title" = "Política de Privacidade";
-"onboarding_welcome_view_agreement_description" = "Ao clicares em \"Aceitar\" concordas com %@.";
+"onboarding_welcome_view_agreement_description" = "Ao clicares em \"Aceitar\" concordas com %@ e %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Saldo inicial";
 "form_total_balance_title" = "Saldo total";
 "form_use_as_default_account_title" = "Conta padrão";
+"form_include_in_net_worth_title" = "Incluir no património líquido";
 "form_account_currency_title" = "Moeda";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Novo beneficiário";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Atribui a este beneficiário uma conta, categoria ou local para usar por padrão para transações.";
+"form_assignment_default_entries_footer_title" = "Atribui a este beneficiário uma conta, categoria, etiquetas ou local para usar por padrão para transações.";
 
 /* Items */
 "form_location_title" = "Localização";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Eliminar orçamento";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Atribuir campos";
-
-/* Info */
-"csv_assign_fields_info_title" = "Descrição";
-"csv_assign_fields_info_description" = "Por favor, atribui as colunas do ficheiro CSV a importar aos campos correspondentes.";
-
-/* Sections */
-"form_general_section_title" = "Geral";
-"form_csv_date_format_suggestions_section_title" = "Sugestões";
-"form_csv_date_format_other_section_title" = "Outros";
-
-/* Footer */
-"form_invalid_footer_title" = "Erro:";
-"form_invalid_amount_footer_title" = "Os valores para \"%@\" não são montantes monetários válidos.";
-"form_invalid_currency_footer_title" = "Os valores para \"%@\" não são moedas válidas.";
-"form_invalid_exchange_rate_footer_title" = "Os valores para \"%@\" não são valores numéricos válidos.";
-"form_invalid_date_format_footer_title" = "A data e/ou formato selecionado é inválido.";
-"form_type_footer_title" = "Informação: Seleciona \"%@\" para calcular o tipo de transação com base no sinal do valor.";
-"form_date_format_footer_title" = "Exemplo: %@";
-
-/* Items */
-"form_type_title" = "Tipo";
-"form_amount_title" = "Valor";
-"form_source_currency_title" = "Moeda de origem";
-"form_target_currency_title" = "Moeda de destino";
-"form_budget_book_title" = "Caderno de Orçamento";
-"form_notes_title" = "Notas";
-"form_skip_zero_amounts_title" = "Ignorar valores \"0\"";
-"form_skip_duplicates_title" = "Ignorar duplicados";
-"form_csv_assign_field_none_type_value" = "Não atribuído";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Cores";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/pt/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Khác (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Nhập dữ liệu";
 "sync_and_data_setting_csv_export_title" = "Xuất dữ liệu";
 "sync_and_data_setting_get_csv_template_title" = "Tải xuống mẫu";
-
-/* Buttons */
-"clear_cache_button" = "Xóa bộ nhớ đệm";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Hiển thị quá trình đồng bộ hoá dữ liệu vào iCloud";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Đang xóa sổ ngân sách";
 "app_reset_progress_deleting_existing_settings" = "Đang xóa cài đặt hiện có";
 "app_reset_progress_finishing" = "Đang hoàn tất đặt lại ứng dụng";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Chỉ định trường";
+
+/* Info */
+"csv_assign_fields_info_title" = "Mô tả";
+"csv_assign_fields_info_description" = "Vui lòng chỉ định các cột của tệp CSV sẽ được nhập vào các trường tương ứng.";
+
+/* Sections */
+"form_general_section_title" = "Tổng quan";
+"form_csv_date_format_suggestions_section_title" = "Gợi ý";
+"form_csv_date_format_other_section_title" = "Khác";
+
+/* Footer */
+"form_invalid_footer_title" = "Lỗi:";
+"form_invalid_amount_footer_title" = "Các giá trị cho \"%@\" không phải là số tiền hợp lệ.";
+"form_invalid_currency_footer_title" = "Các giá trị cho \"%@\" không phải là đơn vị tiền tệ hợp lệ.";
+"form_invalid_exchange_rate_footer_title" = "Các giá trị cho \"%@\" không phải là kiểu số hợp lệ.";
+"form_invalid_date_format_footer_title" = "Ngày và/hoặc định dạng đã chọn không hợp lệ.";
+"form_type_footer_title" = "Thông tin: Chọn \"%@\" để tính loại giao dịch dựa trên dấu của giá trị số tiền.";
+"form_date_format_footer_title" = "Ví dụ: %@";
+
+/* Items */
+"form_type_title" = "Loại";
+"form_amount_title" = "Số tiền";
+"form_source_currency_title" = "Tiền tệ nguồn";
+"form_target_currency_title" = "Tiền tệ đích";
+"form_budget_book_title" = "Sổ ngân sách";
+"form_notes_title" = "Ghi chú";
+"form_skip_zero_amounts_title" = "Bỏ qua số tiền \"0\"";
+"form_skip_duplicates_title" = "Bỏ qua bản sao";
+"form_csv_assign_field_none_type_value" = "Chưa phân công";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Xuất";
+
+/* Buttons */
+"csv_export_button_title" = "Xuất";
+
+/* Items */
+"csv_export_format_title" = "Định dạng";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV có tệp đính kèm";
+
+/* Footer */
+"csv_export_footer_title" = "Xuất tệp CSV theo cấu hình của bạn. Bạn cũng có thể đưa các tệp đính kèm và bản tổng quan giúp đối chiếu với giao dịch vào tệp nén.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Không thể tạo tệp nén để xuất.";
+"csv_export_missing_attachment_error" = "Không thể tải một tệp đính kèm. Hãy đảm bảo tất cả tệp đính kèm đều có sẵn trên thiết bị này rồi thử lại.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Theo dõi thu nhập và chi phí, nhận ra các xu hướng và đưa ra quyết định tốt hơn với tiền của bạn";
 
 /* Footer */
-"privacy_policy_title" = "Chính sách bảo mật";
-"onboarding_welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
+"onboarding_welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@ và %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Số dư ban đầu";
 "form_total_balance_title" = "Tổng số dư";
 "form_use_as_default_account_title" = "Ví mặc định";
+"form_include_in_net_worth_title" = "Tính vào giá trị ròng";
 "form_account_currency_title" = "Đơn vị tiền tệ";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Người nhận mới";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Chỉ định Người nhận này một Ví, Danh mục hoặc vị trí để sử dụng theo mặc định cho các giao dịch.";
+"form_assignment_default_entries_footer_title" = "Chỉ định Người nhận này một Ví, Danh mục, Thẻ hoặc vị trí để sử dụng theo mặc định cho các giao dịch.";
 
 /* Items */
 "form_location_title" = "Vị trí";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Xóa ngân sách";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Chỉ định trường";
-
-/* Info */
-"csv_assign_fields_info_title" = "Mô tả";
-"csv_assign_fields_info_description" = "Vui lòng chỉ định các cột của tệp CSV sẽ được nhập vào các trường tương ứng.";
-
-/* Sections */
-"form_general_section_title" = "Tổng quan";
-"form_csv_date_format_suggestions_section_title" = "Gợi ý";
-"form_csv_date_format_other_section_title" = "Khác";
-
-/* Footer */
-"form_invalid_footer_title" = "Lỗi:";
-"form_invalid_amount_footer_title" = "Các giá trị cho \"%@\" không phải là số tiền hợp lệ.";
-"form_invalid_currency_footer_title" = "Các giá trị cho \"%@\" không phải là đơn vị tiền tệ hợp lệ.";
-"form_invalid_exchange_rate_footer_title" = "Các giá trị cho \"%@\" không phải là kiểu số hợp lệ.";
-"form_invalid_date_format_footer_title" = "Ngày và/hoặc định dạng đã chọn không hợp lệ.";
-"form_type_footer_title" = "Thông tin: Chọn \"%@\" để tính loại giao dịch dựa trên dấu của giá trị số tiền.";
-"form_date_format_footer_title" = "Ví dụ: %@";
-
-/* Items */
-"form_type_title" = "Loại";
-"form_amount_title" = "Số tiền";
-"form_source_currency_title" = "Tiền tệ nguồn";
-"form_target_currency_title" = "Tiền tệ đích";
-"form_budget_book_title" = "Sổ ngân sách";
-"form_notes_title" = "Ghi chú";
-"form_skip_zero_amounts_title" = "Bỏ qua số tiền \"0\"";
-"form_skip_duplicates_title" = "Bỏ qua bản sao";
-"form_csv_assign_field_none_type_value" = "Chưa phân công";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Màu sắc";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Annat (E-Post)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Importera";
 "sync_and_data_setting_csv_export_title" = "Exportera";
 "sync_and_data_setting_get_csv_template_title" = "Ladda ned mall";
-
-/* Buttons */
-"clear_cache_button" = "Rensa cache";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Anger om synkroniseringen med iCloud lyckades eller om ett fel uppstod.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Tar bort budgetböcker";
 "app_reset_progress_deleting_existing_settings" = "Tar bort befintliga inställningar";
 "app_reset_progress_finishing" = "Slutför återställning av appen";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Tilldela fält";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beskrivning";
+"csv_assign_fields_info_description" = "Tilldela kolumnerna i CSV-filen som ska importeras till motsvarande fält.";
+
+/* Sections */
+"form_general_section_title" = "Allmänt";
+"form_csv_date_format_suggestions_section_title" = "Förslag";
+"form_csv_date_format_other_section_title" = "Annat";
+
+/* Footer */
+"form_invalid_footer_title" = "Fel:";
+"form_invalid_amount_footer_title" = "Värdena för \"%@\" är inte giltiga penningbelopp.";
+"form_invalid_currency_footer_title" = "Värdena för \"%@\" är inte giltiga valutor.";
+"form_invalid_exchange_rate_footer_title" = "Värdena för \"%@\" är inte giltiga numeriska värden.";
+"form_invalid_date_format_footer_title" = "Det valda datumet och/eller formatet är ogiltigt.";
+"form_type_footer_title" = "Info: Välj \"%@\" för att beräkna transaktionstypen baserat på tecknet för beloppsvärdet.";
+"form_date_format_footer_title" = "Exempel: %@";
+
+/* Items */
+"form_type_title" = "Typ";
+"form_amount_title" = "Belopp";
+"form_source_currency_title" = "Källvaluta";
+"form_target_currency_title" = "Målvaluta";
+"form_budget_book_title" = "Budgetbok";
+"form_notes_title" = "Anteckningar";
+"form_skip_zero_amounts_title" = "Hoppa över \"0\"-belopp";
+"form_skip_duplicates_title" = "Hoppa över dubbletter";
+"form_csv_assign_field_none_type_value" = "Otilldelad";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Export";
+
+/* Buttons */
+"csv_export_button_title" = "Exportera";
+
+/* Items */
+"csv_export_format_title" = "Format";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV med bilagor";
+
+/* Footer */
+"csv_export_footer_title" = "Exportera CSV-filen enligt dina inställningar. Arkivet kan även innehålla bilagor och en översikt som hjälper dig att koppla dem till transaktionerna.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Exportarkivet kunde inte skapas.";
+"csv_export_missing_attachment_error" = "En bilaga kunde inte läsas in. Kontrollera att alla bilagor är tillgängliga på den här enheten och försök igen.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Håll koll på inkomster och utgifter, upptäck mönster och fatta bättre beslut med dina pengar";
 
 /* Footer */
-"privacy_policy_title" = "Sekretesspolicy";
-"onboarding_welcome_view_agreement_description" = "Genom att klicka på \"Acceptera\" samtycker du till %@.";
+"onboarding_welcome_view_agreement_description" = "Genom att klicka på \"Acceptera\" samtycker du till %@ och %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Ingående saldo";
 "form_total_balance_title" = "Totalt saldo";
 "form_use_as_default_account_title" = "Standardkonto";
+"form_include_in_net_worth_title" = "Inkludera i nettovärdet";
 "form_account_currency_title" = "Valuta";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Ny betalningsmottagare";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Tilldela denna betalningsmottagare ett konto, kategori eller plats att använda som standard för transaktioner.";
+"form_assignment_default_entries_footer_title" = "Tilldela denna betalningsmottagare ett konto, en kategori, taggar eller en plats att använda som standard för transaktioner.";
 
 /* Items */
 "form_location_title" = "Plats";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Ta bort budget";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Tilldela fält";
-
-/* Info */
-"csv_assign_fields_info_title" = "Beskrivning";
-"csv_assign_fields_info_description" = "Tilldela kolumnerna i CSV-filen som ska importeras till motsvarande fält.";
-
-/* Sections */
-"form_general_section_title" = "Allmänt";
-"form_csv_date_format_suggestions_section_title" = "Förslag";
-"form_csv_date_format_other_section_title" = "Annat";
-
-/* Footer */
-"form_invalid_footer_title" = "Fel:";
-"form_invalid_amount_footer_title" = "Värdena för \"%@\" är inte giltiga penningbelopp.";
-"form_invalid_currency_footer_title" = "Värdena för \"%@\" är inte giltiga valutor.";
-"form_invalid_exchange_rate_footer_title" = "Värdena för \"%@\" är inte giltiga numeriska värden.";
-"form_invalid_date_format_footer_title" = "Det valda datumet och/eller formatet är ogiltigt.";
-"form_type_footer_title" = "Info: Välj \"%@\" för att beräkna transaktionstypen baserat på tecknet för beloppsvärdet.";
-"form_date_format_footer_title" = "Exempel: %@";
-
-/* Items */
-"form_type_title" = "Typ";
-"form_amount_title" = "Belopp";
-"form_source_currency_title" = "Källvaluta";
-"form_target_currency_title" = "Målvaluta";
-"form_budget_book_title" = "Budgetbok";
-"form_notes_title" = "Anteckningar";
-"form_skip_zero_amounts_title" = "Hoppa över \"0\"-belopp";
-"form_skip_duplicates_title" = "Hoppa över dubbletter";
-"form_csv_assign_field_none_type_value" = "Otilldelad";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Färger";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

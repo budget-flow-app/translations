@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 其他（E-Mail）";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "导入";
 "sync_and_data_setting_csv_export_title" = "导出";
 "sync_and_data_setting_get_csv_template_title" = "下载模板";
-
-/* Buttons */
-"clear_cache_button" = "清除缓存";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "提示与 iCloud 的同步是否成功或是否发生错误";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "正在删除预算账本";
 "app_reset_progress_deleting_existing_settings" = "正在删除现有设置";
 "app_reset_progress_finishing" = "正在完成应用重置";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "分配字段";
+
+/* Info */
+"csv_assign_fields_info_title" = "描述";
+"csv_assign_fields_info_description" = "请将要导入的 CSV 文件的列分配给相应的字段";
+
+/* Sections */
+"form_general_section_title" = "通用";
+"form_csv_date_format_suggestions_section_title" = "建议";
+"form_csv_date_format_other_section_title" = "其他";
+
+/* Footer */
+"form_invalid_footer_title" = "错误：";
+"form_invalid_amount_footer_title" = "\"%@\"的值不是有效的货币金额";
+"form_invalid_currency_footer_title" = "\"%@\"的值不是有效的货币";
+"form_invalid_exchange_rate_footer_title" = "\"%@\"的值不是有效的数字值";
+"form_invalid_date_format_footer_title" = "所选日期和（或）格式无效";
+"form_type_footer_title" = "信息：选择 \"%@\" 根据金额值的符号计算交易类型";
+"form_date_format_footer_title" = "示例：%@";
+
+/* Items */
+"form_type_title" = "类型";
+"form_amount_title" = "金额";
+"form_source_currency_title" = "源货币";
+"form_target_currency_title" = "目标货币";
+"form_budget_book_title" = "预算账本";
+"form_notes_title" = "备注";
+"form_skip_zero_amounts_title" = "跳过 \"0\" 金额";
+"form_skip_duplicates_title" = "跳过重复";
+"form_csv_assign_field_none_type_value" = "未分配";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "导出";
+
+/* Buttons */
+"csv_export_button_title" = "导出";
+
+/* Items */
+"csv_export_format_title" = "格式";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV（含附件）";
+
+/* Footer */
+"csv_export_footer_title" = "按照你的设置导出 CSV 文件。你也可以在压缩包中包含附件及概览，以便将附件与交易对应起来。";
+
+/* Alert Views */
+"csv_export_archive_error" = "无法创建导出压缩包。";
+"csv_export_missing_attachment_error" = "无法加载附件。请确保所有附件在此设备上均可用，然后重试。";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "清楚掌握收入和支出，发现规律，并更好地做出用钱决策";
 
 /* Footer */
-"privacy_policy_title" = "隐私政策";
-"onboarding_welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
+"onboarding_welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@和%@";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "初始余额";
 "form_total_balance_title" = "总余额";
 "form_use_as_default_account_title" = "默认账户";
+"form_include_in_net_worth_title" = "计入净资产";
 "form_account_currency_title" = "货币";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "新收款人";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "为此收款人分配一个默认使用的账户、分类或地点，用于交易";
+"form_assignment_default_entries_footer_title" = "为此收款人分配一个默认使用的账户、分类、标签或地点，用于交易";
 
 /* Items */
 "form_location_title" = "地点";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "删除预算";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "分配字段";
-
-/* Info */
-"csv_assign_fields_info_title" = "描述";
-"csv_assign_fields_info_description" = "请将要导入的 CSV 文件的列分配给相应的字段";
-
-/* Sections */
-"form_general_section_title" = "通用";
-"form_csv_date_format_suggestions_section_title" = "建议";
-"form_csv_date_format_other_section_title" = "其他";
-
-/* Footer */
-"form_invalid_footer_title" = "错误：";
-"form_invalid_amount_footer_title" = "\"%@\"的值不是有效的货币金额";
-"form_invalid_currency_footer_title" = "\"%@\"的值不是有效的货币";
-"form_invalid_exchange_rate_footer_title" = "\"%@\"的值不是有效的数字值";
-"form_invalid_date_format_footer_title" = "所选日期和（或）格式无效";
-"form_type_footer_title" = "信息：选择 \"%@\" 根据金额值的符号计算交易类型";
-"form_date_format_footer_title" = "示例：%@";
-
-/* Items */
-"form_type_title" = "类型";
-"form_amount_title" = "金额";
-"form_source_currency_title" = "源货币";
-"form_target_currency_title" = "目标货币";
-"form_budget_book_title" = "预算账本";
-"form_notes_title" = "备注";
-"form_skip_zero_amounts_title" = "跳过 \"0\" 金额";
-"form_skip_duplicates_title" = "跳过重复";
-"form_csv_assign_field_none_type_value" = "未分配";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "颜色";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com.cn/family-sharing";

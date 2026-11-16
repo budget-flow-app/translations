@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Diğer (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "İçe Aktar";
 "sync_and_data_setting_csv_export_title" = "Dışa Aktar";
 "sync_and_data_setting_get_csv_template_title" = "Şablonu indir";
-
-/* Buttons */
-"clear_cache_button" = "Önbelleği temizle";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "iCloud ile senkronizasyonun başarılı olup olmadığını veya bir hata meydana gelip gelmediğini gösterir.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Bütçe defterleri siliniyor";
 "app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
 "app_reset_progress_finishing" = "Uygulama sıfırlama işlemi tamamlanıyor";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Alanları Ata";
+
+/* Info */
+"csv_assign_fields_info_title" = "Açıklama";
+"csv_assign_fields_info_description" = "Lütfen içe aktarılacak CSV dosyasının sütunlarını ilgili alanlara atayın.";
+
+/* Sections */
+"form_general_section_title" = "Genel";
+"form_csv_date_format_suggestions_section_title" = "Öneriler";
+"form_csv_date_format_other_section_title" = "Diğer";
+
+/* Footer */
+"form_invalid_footer_title" = "Hata:";
+"form_invalid_amount_footer_title" = "\"%@\" değerleri geçerli parasal tutarlar değil.";
+"form_invalid_currency_footer_title" = "\"%@\" için değerler geçerli para birimleri değil.";
+"form_invalid_exchange_rate_footer_title" = "\"%@\" için değerler geçerli sayısal değerler değil.";
+"form_invalid_date_format_footer_title" = "Seçilen tarih ve/veya biçim geçersiz.";
+"form_type_footer_title" = "Bilgi: Tutar değerinin işaretine göre işlem türünü hesaplamak için \"%@\" seçeneğini seçin.";
+"form_date_format_footer_title" = "Örnek: %@";
+
+/* Items */
+"form_type_title" = "Tür";
+"form_amount_title" = "Miktar";
+"form_source_currency_title" = "Kaynak Para Birimi";
+"form_target_currency_title" = "Hedef Para Birimi";
+"form_budget_book_title" = "Bütçe Defteri";
+"form_notes_title" = "Notlar";
+"form_skip_zero_amounts_title" = "\"0\" Tutarları Atla";
+"form_skip_duplicates_title" = "Kopyaları Atla";
+"form_csv_assign_field_none_type_value" = "Atanmamış";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Dışa aktarma";
+
+/* Buttons */
+"csv_export_button_title" = "Dışa aktar";
+
+/* Items */
+"csv_export_format_title" = "Biçim";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "Eklerle birlikte CSV";
+
+/* Footer */
+"csv_export_footer_title" = "CSV dosyasını ayarlarına göre dışa aktar. İsteğe bağlı olarak arşiv, ekleri ve bunları işlemlerle eşleştirmeyi kolaylaştıran bir genel bakışı da içerir.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Dışa aktarma arşivi oluşturulamadı.";
+"csv_export_missing_attachment_error" = "Bir ek yüklenemedi. Tüm eklerin bu cihazda kullanılabilir olduğundan emin ol ve tekrar dene.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Gelir ve giderlerinizi görün, alışkanlıkları fark edin ve paranızla ilgili daha iyi kararlar alın";
 
 /* Footer */
-"privacy_policy_title" = "Gizlilik Politikası";
-"onboarding_welcome_view_agreement_description" = "\"Kabul\" seçeneğini tıklayarak %@ onayını vermiş olursunuz.";
+"onboarding_welcome_view_agreement_description" = "\"Kabul\" seçeneğini tıklayarak %@ ve %@ onayını vermiş olursunuz.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "İlk Bakiye";
 "form_total_balance_title" = "Toplam Bakiye";
 "form_use_as_default_account_title" = "Varsayılan Hesap";
+"form_include_in_net_worth_title" = "Net Değere Dahil Et";
 "form_account_currency_title" = "Para Birimi";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Yeni Alacaklı";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori veya konum atayın.";
+"form_assignment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori, etiketler veya konum atayın.";
 
 /* Items */
 "form_location_title" = "Konum";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Bütçeyi Sil";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Alanları Ata";
-
-/* Info */
-"csv_assign_fields_info_title" = "Açıklama";
-"csv_assign_fields_info_description" = "Lütfen içe aktarılacak CSV dosyasının sütunlarını ilgili alanlara atayın.";
-
-/* Sections */
-"form_general_section_title" = "Genel";
-"form_csv_date_format_suggestions_section_title" = "Öneriler";
-"form_csv_date_format_other_section_title" = "Diğer";
-
-/* Footer */
-"form_invalid_footer_title" = "Hata:";
-"form_invalid_amount_footer_title" = "\"%@\" değerleri geçerli parasal tutarlar değil.";
-"form_invalid_currency_footer_title" = "\"%@\" için değerler geçerli para birimleri değil.";
-"form_invalid_exchange_rate_footer_title" = "\"%@\" için değerler geçerli sayısal değerler değil.";
-"form_invalid_date_format_footer_title" = "Seçilen tarih ve/veya biçim geçersiz.";
-"form_type_footer_title" = "Bilgi: Tutar değerinin işaretine göre işlem türünü hesaplamak için \"%@\" seçeneğini seçin.";
-"form_date_format_footer_title" = "Örnek: %@";
-
-/* Items */
-"form_type_title" = "Tür";
-"form_amount_title" = "Miktar";
-"form_source_currency_title" = "Kaynak Para Birimi";
-"form_target_currency_title" = "Hedef Para Birimi";
-"form_budget_book_title" = "Bütçe Defteri";
-"form_notes_title" = "Notlar";
-"form_skip_zero_amounts_title" = "\"0\" Tutarları Atla";
-"form_skip_duplicates_title" = "Kopyaları Atla";
-"form_csv_assign_field_none_type_value" = "Atanmamış";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Renkler";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

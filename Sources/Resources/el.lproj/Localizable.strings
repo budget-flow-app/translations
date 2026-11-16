@@ -620,7 +620,7 @@
 "alert_contact_developer_other" = "📬 Άλλο (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_subject_full_version" = "full version";
 
 
 /* MARK: - Appearance Settings View */
@@ -658,9 +658,6 @@
 "sync_and_data_setting_csv_import_title" = "Εισαγωγή";
 "sync_and_data_setting_csv_export_title" = "Εξαγωγή";
 "sync_and_data_setting_get_csv_template_title" = "Λήψη προτύπου";
-
-/* Buttons */
-"clear_cache_button" = "Εκκαθάριση προσωρινής μνήμης";
 
 /* Footer */
 "sync_and_data_cloud_setting_footer_title" = "Υποδεικνύει εάν ο συγχρονισμός με το iCloud ήταν επιτυχής ή αν παρουσιάστηκε σφάλμα.";
@@ -702,6 +699,60 @@
 "app_reset_progress_deleting_budget_books" = "Διαγραφή βιβλίων προϋπολογισμού";
 "app_reset_progress_deleting_existing_settings" = "Διαγραφή υπαρχουσών ρυθμίσεων";
 "app_reset_progress_finishing" = "Ολοκλήρωση επαναφοράς εφαρμογής";
+
+
+/* MARK: - CSV Import */
+/* Titles */
+"form_title_csv_assign_fields" = "Εκχώρηση πεδίων";
+
+/* Info */
+"csv_assign_fields_info_title" = "Περιγραφή";
+"csv_assign_fields_info_description" = "Παρακαλούμε αντιστοιχίστε τις στήλες του αρχείου CSV που θα εισαχθούν στα αντίστοιχα πεδία.";
+
+/* Sections */
+"form_general_section_title" = "Γενικά";
+"form_csv_date_format_suggestions_section_title" = "Προτάσεις";
+"form_csv_date_format_other_section_title" = "Άλλο";
+
+/* Footer */
+"form_invalid_footer_title" = "Σφάλμα:";
+"form_invalid_amount_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρα χρηματικά ποσά.";
+"form_invalid_currency_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρα νομίσματα.";
+"form_invalid_exchange_rate_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρες αριθμητικές τιμές.";
+"form_invalid_date_format_footer_title" = "Η επιλεγμένη ημερομηνία και/ή μορφή δεν είναι έγκυρα.";
+"form_type_footer_title" = "Πληροφορίες: Επιλέξτε \"%@\" για να υπολογίσετε τον τύπο συναλλαγής με βάση το πρόσημο της αξίας του ποσού.";
+"form_date_format_footer_title" = "Παράδειγμα: %@";
+
+/* Items */
+"form_type_title" = "Τύπος";
+"form_amount_title" = "Ποσό";
+"form_source_currency_title" = "Νόμισμα προέλευσης";
+"form_target_currency_title" = "Νόμισμα-στόχος";
+"form_budget_book_title" = "Βιβλίο προϋπολογισμού";
+"form_notes_title" = "Σημειώσεις";
+"form_skip_zero_amounts_title" = "Παράλειψη ποσών \"0\"";
+"form_skip_duplicates_title" = "Παράλειψη διπλότυπων";
+"form_csv_assign_field_none_type_value" = "Δεν έχει εκχωρηθεί";
+
+
+/* MARK: - CSV Export */
+/* Titles */
+"csv_export_title" = "Εξαγωγή";
+
+/* Buttons */
+"csv_export_button_title" = "Εξαγωγή";
+
+/* Items */
+"csv_export_format_title" = "Μορφή";
+"csv_export_format_csv_title" = "CSV";
+"csv_export_format_csv_with_attachments_title" = "CSV με συνημμένα";
+
+/* Footer */
+"csv_export_footer_title" = "Εξάγετε το αρχείο CSV σύμφωνα με τις ρυθμίσεις σας. Προαιρετικά, το συμπιεσμένο αρχείο περιλαμβάνει επίσης τα συνημμένα και μια επισκόπηση για την αντιστοίχισή τους στις συναλλαγές.";
+
+/* Alert Views */
+"csv_export_archive_error" = "Δεν ήταν δυνατή η δημιουργία του αρχείου εξαγωγής.";
+"csv_export_missing_attachment_error" = "Δεν ήταν δυνατή η φόρτωση ενός συνημμένου. Βεβαιωθείτε ότι όλα τα συνημμένα είναι διαθέσιμα σε αυτή τη συσκευή και δοκιμάστε ξανά.";
 
 
 /* MARK: - Cloud Settings View */
@@ -935,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Παρακολουθήστε έσοδα και έξοδα, εντοπίστε μοτίβα και πάρτε καλύτερες αποφάσεις για τα χρήματά σας";
 
 /* Footer */
-"privacy_policy_title" = "Πολιτική απορρήτου";
-"onboarding_welcome_view_agreement_description" = "Κάνοντας κλικ στο \"Αποδοχή\" συναινείτε στο %@.";
+"onboarding_welcome_view_agreement_description" = "Κάνοντας κλικ στο \"Αποδοχή\" συναινείτε στο %@ και %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1452,6 +1502,7 @@
 "form_initial_balance_title" = "Αρχικό υπόλοιπο";
 "form_total_balance_title" = "Συνολικό υπόλοιπο";
 "form_use_as_default_account_title" = "Προεπιλεγμένος λογαριασμός";
+"form_include_in_net_worth_title" = "Συμπερίληψη στην καθαρή αξία";
 "form_account_currency_title" = "Νόμισμα";
 
 /* Buttons */
@@ -1485,7 +1536,7 @@
 "form_title_new_payee" = "Νέος δικαιούχος πληρωμής";
 
 /* Footer */
-"form_assignment_default_entries_footer_title" = "Εκχώρηση λογαριασμού, κατηγορίας ή τοποθεσίας σε αυτόν τον δικαιούχο πληρωμής για χρήση από προεπιλογή για συναλλαγές.";
+"form_assignment_default_entries_footer_title" = "Εκχώρηση λογαριασμού, κατηγορίας, ετικετών ή τοποθεσίας σε αυτόν τον δικαιούχο πληρωμής για χρήση από προεπιλογή για συναλλαγές.";
 
 /* Items */
 "form_location_title" = "Τοποθεσία";
@@ -1606,40 +1657,6 @@
 "form_button_delete_budget" = "Διαγραφή προϋπολογισμού";
 
 
-/* MARK: - Assign CSV Fields Form View */
-/* Titles */
-"form_title_csv_assign_fields" = "Εκχώρηση πεδίων";
-
-/* Info */
-"csv_assign_fields_info_title" = "Περιγραφή";
-"csv_assign_fields_info_description" = "Παρακαλούμε αντιστοιχίστε τις στήλες του αρχείου CSV που θα εισαχθούν στα αντίστοιχα πεδία.";
-
-/* Sections */
-"form_general_section_title" = "Γενικά";
-"form_csv_date_format_suggestions_section_title" = "Προτάσεις";
-"form_csv_date_format_other_section_title" = "Άλλο";
-
-/* Footer */
-"form_invalid_footer_title" = "Σφάλμα:";
-"form_invalid_amount_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρα χρηματικά ποσά.";
-"form_invalid_currency_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρα νομίσματα.";
-"form_invalid_exchange_rate_footer_title" = "Οι τιμές για το \"%@\" δεν είναι έγκυρες αριθμητικές τιμές.";
-"form_invalid_date_format_footer_title" = "Η επιλεγμένη ημερομηνία και/ή μορφή δεν είναι έγκυρα.";
-"form_type_footer_title" = "Πληροφορίες: Επιλέξτε \"%@\" για να υπολογίσετε τον τύπο συναλλαγής με βάση το πρόσημο της αξίας του ποσού.";
-"form_date_format_footer_title" = "Παράδειγμα: %@";
-
-/* Items */
-"form_type_title" = "Τύπος";
-"form_amount_title" = "Ποσό";
-"form_source_currency_title" = "Νόμισμα προέλευσης";
-"form_target_currency_title" = "Νόμισμα-στόχος";
-"form_budget_book_title" = "Βιβλίο προϋπολογισμού";
-"form_notes_title" = "Σημειώσεις";
-"form_skip_zero_amounts_title" = "Παράλειψη ποσών \"0\"";
-"form_skip_duplicates_title" = "Παράλειψη διπλότυπων";
-"form_csv_assign_field_none_type_value" = "Δεν έχει εκχωρηθεί";
-
-
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Χρώματα";
@@ -1710,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";
