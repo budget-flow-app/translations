@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "수입과 지출을 한눈에 보고, 패턴을 파악하며, 돈에 대해 더 나은 결정을 내리세요";
 
 /* Footer */
-"privacy_policy_title" = "개인정보 보호정책";
-"onboarding_welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 에 동의하게 됩니다.";
+"onboarding_welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 및 %@ 에 동의하게 됩니다.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

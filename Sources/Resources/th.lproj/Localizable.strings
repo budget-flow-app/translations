@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "ติดตามรายรับและรายจ่าย มองเห็นรูปแบบ และตัดสินใจเรื่องเงินได้ดียิ่งขึ้น";
 
 /* Footer */
-"privacy_policy_title" = "นโยบายความเป็นส่วนตัว";
-"onboarding_welcome_view_agreement_description" = "การคลิก \"ยอมรับ\" แสดงว่าคุณยินยอมต่อ %@.";
+"onboarding_welcome_view_agreement_description" = "การคลิก \"ยอมรับ\" แสดงว่าคุณยินยอมต่อ %@ และ %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/th/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

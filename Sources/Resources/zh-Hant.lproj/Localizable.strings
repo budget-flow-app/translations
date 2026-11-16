@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "清楚掌握收入和支出，發現規律，並更好地做出用錢決策";
 
 /* Footer */
-"privacy_policy_title" = "隱私權政策";
-"onboarding_welcome_view_agreement_description" = "點選 \"接受\" 即表示您同意 %@";
+"onboarding_welcome_view_agreement_description" = "點選 \"接受\" 即表示您同意 %@和%@";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com.cn/family-sharing";

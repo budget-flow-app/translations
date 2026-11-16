@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Keep income and expenses in view, spot patterns and make better decisions with your money";
 
 /* Footer */
-"privacy_policy_title" = "Privacy Policy";
-"onboarding_welcome_view_agreement_description" = "By clicking \"Accept\" you consent to the %@.";
+"onboarding_welcome_view_agreement_description" = "By clicking \"Accept\" you consent to the %@ and %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

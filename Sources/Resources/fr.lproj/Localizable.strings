@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Gardez revenus et dépenses en vue, repérez les tendances et prenez de meilleures décisions avec votre argent";
 
 /* Footer */
-"privacy_policy_title" = "Politique de confidentialité";
-"onboarding_welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez la %@.";
+"onboarding_welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez la %@ et les %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

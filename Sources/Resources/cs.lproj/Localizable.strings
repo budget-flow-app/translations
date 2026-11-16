@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "Mějte příjmy i výdaje pod kontrolou, rozpoznávejte vzorce a dělejte lepší rozhodnutí o svých penězích";
 
 /* Footer */
-"privacy_policy_title" = "Zásady ochrany osobních údajů";
-"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@.";
+"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@ a %@.";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";

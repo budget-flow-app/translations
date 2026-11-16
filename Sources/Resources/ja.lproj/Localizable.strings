@@ -986,8 +986,7 @@
 "onboarding_welcome_view_header_description" = "収入と支出を把握し、傾向を見つけ、お金についてより良い判断をしましょう";
 
 /* Footer */
-"privacy_policy_title" = "プライバシー ポリシー";
-"onboarding_welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@ に同意したことになります。";
+"onboarding_welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@および%@ に同意したことになります。";
 
 
 /* MARK: - Onboarding Reminder Intro View */
@@ -1728,7 +1727,7 @@
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
-"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"termsOfUseUrl" = "https://budget-flow.app/terms-and-conditions";
 "privacyUrl" = "https://budget-flow.app/privacy-policy";
 "legalNoticeUrl" = "https://budget-flow.app/legal-notice";
 "familySharingUrl" = "https://www.apple.com/family-sharing";
