@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "لم يتم العثور على مدفوع لهم";
 "no_payee_found_title" = "لم يتم العثور على مستفيد";
+"no_tag_found_title" = "لم يتم العثور على علامة";
 "no_payees_found_message" = "انقر فوق الزر \"+\" لإضافة مستلم جديد.";
 "no_payees_found_button_title" = "المدفوع لأمره الجديد";
 "payees_search_placeholder_message" = "البحث حسب اسم المستفيد";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "المجموعة";
 "category_entity_name" = "الفئة";
 "payee_entity_name" = "المستفيد";
+"tag_entity_name" = "علامة";
 
 /* Categories */
 "add_category_name" = "إضافة";
 "open_category_name" = "فتح";
 "show_category_name" = "إظهار";
+"get_category_name" = "جلب";
 "search_category_name" = "بحث";
 "create_category_name" = "إنشاء";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "ينشئ حسابًا أو يعيد حسابًا موجودًا بالاسم نفسه.";
 "create_account_parameter_summary" = "إنشاء حساب باسم ${name} في ${budgetBook}";
 "create_account_failed_title" = "تعذر إنشاء الحساب";
-"create_category_group_title" = "إنشاء مجلد";
-"create_category_group_description" = "ينشئ مجلدًا أو يعيد مجلدًا موجودًا بالاسم نفسه.";
-"create_category_group_parameter_summary" = "إنشاء مجلد باسم ${name} في ${budgetBook}";
-"create_category_group_failed_title" = "تعذر إنشاء المجلد";
 "create_category_title" = "إنشاء فئة";
 "create_category_description" = "ينشئ فئة أو يعيد فئة موجودة بالاسم نفسه.";
 "create_category_parameter_summary" = "إنشاء فئة باسم ${name} في ${categoryGroup} من ${budgetBook}";
 "create_category_failed_title" = "تعذر إنشاء الفئة";
+"create_category_group_title" = "إنشاء مجلد";
+"create_category_group_description" = "ينشئ مجلدًا أو يعيد مجلدًا موجودًا بالاسم نفسه.";
+"create_category_group_parameter_summary" = "إنشاء مجلد باسم ${name} في ${budgetBook}";
+"create_category_group_failed_title" = "تعذر إنشاء المجلد";
 "create_payee_title" = "إنشاء مستفيد";
 "create_payee_description" = "ينشئ مستفيدًا أو يعيد مستفيدًا موجودًا بالاسم نفسه.";
 "create_payee_parameter_summary" = "إنشاء مستفيد باسم ${name} في ${budgetBook}";
 "create_payee_failed_title" = "تعذر إنشاء المستفيد";
+
+/* Get */
+"get_budget_books_title" = "جلب دفاتر الميزانية";
+"get_budget_books_description" = "يعيد جميع دفاتر الميزانية.";
+"get_budget_books_parameter_summary" = "جلب دفاتر الميزانية";
+"get_accounts_title" = "جلب الحسابات";
+"get_accounts_description" = "يعيد جميع الحسابات في دفتر الميزانية المحدد، بما في ذلك الحسابات المؤرشفة.";
+"get_accounts_parameter_summary" = "جلب الحسابات من ${budgetBook}";
+"get_categories_title" = "جلب الفئات";
+"get_categories_description" = "يعيد الفئات في دفتر الميزانية المحدد، مع إمكانية تصفيتها حسب المجموعة.";
+"get_categories_parameter_summary" = "جلب الفئات من ${budgetBook}";
+"get_category_groups_title" = "جلب المجموعات";
+"get_category_groups_description" = "يعيد قائمة المجموعات في دفتر الميزانية المحدد.";
+"get_category_groups_parameter_summary" = "جلب المجموعات من ${budgetBook}";
+"get_payees_title" = "جلب المستفيدين";
+"get_payees_description" = "يعيد قائمة المستفيدين في دفتر الميزانية المحدد.";
+"get_payees_parameter_summary" = "جلب المستفيدين من ${budgetBook}";
+"get_tags_title" = "جلب العلامات";
+"get_tags_description" = "يعيد قائمة العلامات في دفتر الميزانية المحدد.";
+"get_tags_parameter_summary" = "جلب العلامات من ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "البحث في دفتر الميزانية";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "البحث عن الحساب";
 "search_account_description" = "البحث عن حساب محدد بالاسم";
 "search_account_parameter_summary" = "ابحث عن حساب بـ ${name} في ${budgetBook}";
-"search_category_group_title" = "البحث في المجموعة";
-"search_category_group_description" = "البحث عن مجموعة معينة بالاسم";
-"search_category_group_parameter_summary" = "ابحث عن المجلد الذي يحتوي على ${name} في ${budgetBook}";
 "search_category_title" = "فئة البحث";
 "search_category_description" = "البحث عن فئة معينة بالاسم";
 "search_category_parameter_summary" = "البحث عن فئة تحتوي على ${name} في ${categoryGroup} في ${budgetBook}";
+"search_category_group_title" = "البحث في المجموعة";
+"search_category_group_description" = "البحث عن مجموعة معينة بالاسم";
+"search_category_group_parameter_summary" = "ابحث عن المجلد الذي يحتوي على ${name} في ${budgetBook}";
 "search_payee_title" = "البحث عن المدفوع لأمره";
 "search_payee_description" = "البحث عن مدفوع لأمره محدد بالاسم";
 "search_payee_parameter_summary" = "ابحث عن المدفوع لأمره حسب ${name} في ${budgetBook}";
+"search_tag_title" = "البحث عن علامة";
+"search_tag_description" = "يبحث عن علامة محددة حسب الاسم.";
+"search_tag_parameter_summary" = "البحث عن علامة باسم ${name} في ${budgetBook}";
 
 "name_parameter_title" = "الاسم";
 "name_parameter_dialog" = "ما الاسم؟";

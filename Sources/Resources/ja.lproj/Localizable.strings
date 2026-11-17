@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "受取人が見つかりませんでした";
 "no_payee_found_title" = "支払先が見つかりません";
+"no_tag_found_title" = "タグが見つかりません";
 "no_payees_found_message" = "新しい受取人を追加するには、\"+\"ボタンをクリックしてください。";
 "no_payees_found_button_title" = "新しい受取人";
 "payees_search_placeholder_message" = "受取人の名前で検索";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "フォルダー";
 "category_entity_name" = "カテゴリ";
 "payee_entity_name" = "受取人";
+"tag_entity_name" = "タグ";
 
 /* Categories */
 "add_category_name" = "追加";
 "open_category_name" = "開く";
 "show_category_name" = "表示";
+"get_category_name" = "取得";
 "search_category_name" = "検索";
 "create_category_name" = "作成";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "口座を作成するか、同じ名前の既存の口座を返します。";
 "create_account_parameter_summary" = "${budgetBook}に${name}で口座を作成";
 "create_account_failed_title" = "口座を作成できませんでした";
-"create_category_group_title" = "フォルダを作成";
-"create_category_group_description" = "フォルダを作成するか、同じ名前の既存のフォルダを返します。";
-"create_category_group_parameter_summary" = "${budgetBook}に${name}でフォルダを作成";
-"create_category_group_failed_title" = "フォルダを作成できませんでした";
 "create_category_title" = "カテゴリを作成";
 "create_category_description" = "カテゴリを作成するか、同じ名前の既存のカテゴリを返します。";
 "create_category_parameter_summary" = "${budgetBook}の${categoryGroup}に${name}でカテゴリを作成";
 "create_category_failed_title" = "カテゴリを作成できませんでした";
+"create_category_group_title" = "フォルダを作成";
+"create_category_group_description" = "フォルダを作成するか、同じ名前の既存のフォルダを返します。";
+"create_category_group_parameter_summary" = "${budgetBook}に${name}でフォルダを作成";
+"create_category_group_failed_title" = "フォルダを作成できませんでした";
 "create_payee_title" = "支払先を作成";
 "create_payee_description" = "支払先を作成するか、同じ名前の既存の支払先を返します。";
 "create_payee_parameter_summary" = "${budgetBook}に${name}で支払先を作成";
 "create_payee_failed_title" = "支払先を作成できませんでした";
+
+/* Get */
+"get_budget_books_title" = "帳簿の一覧を取得";
+"get_budget_books_description" = "すべての帳簿を返します。";
+"get_budget_books_parameter_summary" = "帳簿の一覧を取得";
+"get_accounts_title" = "口座の一覧を取得";
+"get_accounts_description" = "選択した帳簿のすべての口座を、アーカイブ済みの口座も含めて返します。";
+"get_accounts_parameter_summary" = "${budgetBook}の口座の一覧を取得";
+"get_categories_title" = "カテゴリの一覧を取得";
+"get_categories_description" = "選択した帳簿のカテゴリを返します。必要に応じてフォルダーで絞り込めます。";
+"get_categories_parameter_summary" = "${budgetBook}のカテゴリの一覧を取得";
+"get_category_groups_title" = "フォルダーの一覧を取得";
+"get_category_groups_description" = "選択した帳簿のすべてのフォルダーを返します。";
+"get_category_groups_parameter_summary" = "${budgetBook}のフォルダーの一覧を取得";
+"get_payees_title" = "受取人の一覧を取得";
+"get_payees_description" = "選択した帳簿のすべての受取人を返します。";
+"get_payees_parameter_summary" = "${budgetBook}の受取人の一覧を取得";
+"get_tags_title" = "タグの一覧を取得";
+"get_tags_description" = "選択した帳簿のすべてのタグを返します。";
+"get_tags_parameter_summary" = "${budgetBook}のタグの一覧を取得";
 
 /* Search */
 "search_budget_book_title" = "予算書の検索";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "口座を検索";
 "search_account_description" = "特定の口座を名前で検索します。";
 "search_account_parameter_summary" = "${budgetBook} 内の ${name} の口座を検索します";
-"search_category_group_title" = "検索フォルダー";
-"search_category_group_description" = "特定のフォルダーを名前で検索します。";
-"search_category_group_parameter_summary" = "${budgetBook} 内の ${name} のフォルダーを検索します";
 "search_category_title" = "検索カテゴリ";
 "search_category_description" = "特定のカテゴリを名前で検索します。";
 "search_category_parameter_summary" = "${budgetBook} の ${categoryGroup} 内の ${name} を含むカテゴリを検索します";
+"search_category_group_title" = "検索フォルダー";
+"search_category_group_description" = "特定のフォルダーを名前で検索します。";
+"search_category_group_parameter_summary" = "${budgetBook} 内の ${name} のフォルダーを検索します";
 "search_payee_title" = "受取人の検索";
 "search_payee_description" = "特定の受取人を名前で検索します。";
 "search_payee_parameter_summary" = "${budgetBook} 内の ${name} の受取人を検索します";
+"search_tag_title" = "タグを検索";
+"search_tag_description" = "名前で特定のタグを検索します。";
+"search_tag_parameter_summary" = "${budgetBook}で${name}というタグを検索";
 
 "name_parameter_title" = "名前";
 "name_parameter_dialog" = "名前は何ですか?";

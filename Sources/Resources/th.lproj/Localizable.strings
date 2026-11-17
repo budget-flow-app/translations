@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "ไม่พบผู้รับเงิน";
 "no_payee_found_title" = "ไม่พบผู้รับเงิน";
+"no_tag_found_title" = "ไม่พบแท็ก";
 "no_payees_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มผู้รับเงินใหม่";
 "no_payees_found_button_title" = "ผู้รับเงินใหม่";
 "payees_search_placeholder_message" = "ค้นหาด้วยชื่อผู้รับเงิน";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "โฟลเดอร์";
 "category_entity_name" = "หมวดหมู่";
 "payee_entity_name" = "ผู้รับเงิน";
+"tag_entity_name" = "แท็ก";
 
 /* Categories */
 "add_category_name" = "เพิ่ม";
 "open_category_name" = "เปิด";
 "show_category_name" = "แสดง";
+"get_category_name" = "ดึงข้อมูล";
 "search_category_name" = "ค้นหา";
 "create_category_name" = "สร้าง";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "สร้างบัญชีหรือส่งคืนบัญชีที่มีชื่อเดียวกันอยู่แล้ว";
 "create_account_parameter_summary" = "สร้างบัญชีด้วย ${name} ใน ${budgetBook}";
 "create_account_failed_title" = "ไม่สามารถสร้างบัญชีได้";
-"create_category_group_title" = "สร้างโฟลเดอร์";
-"create_category_group_description" = "สร้างโฟลเดอร์หรือส่งคืนโฟลเดอร์ที่มีชื่อเดียวกันอยู่แล้ว";
-"create_category_group_parameter_summary" = "สร้างโฟลเดอร์ด้วย ${name} ใน ${budgetBook}";
-"create_category_group_failed_title" = "ไม่สามารถสร้างโฟลเดอร์ได้";
 "create_category_title" = "สร้างหมวดหมู่";
 "create_category_description" = "สร้างหมวดหมู่หรือส่งคืนหมวดหมู่ที่มีชื่อเดียวกันอยู่แล้ว";
 "create_category_parameter_summary" = "สร้างหมวดหมู่ด้วย ${name} ใน ${categoryGroup} ของ ${budgetBook}";
 "create_category_failed_title" = "ไม่สามารถสร้างหมวดหมู่ได้";
+"create_category_group_title" = "สร้างโฟลเดอร์";
+"create_category_group_description" = "สร้างโฟลเดอร์หรือส่งคืนโฟลเดอร์ที่มีชื่อเดียวกันอยู่แล้ว";
+"create_category_group_parameter_summary" = "สร้างโฟลเดอร์ด้วย ${name} ใน ${budgetBook}";
+"create_category_group_failed_title" = "ไม่สามารถสร้างโฟลเดอร์ได้";
 "create_payee_title" = "สร้างผู้รับเงิน";
 "create_payee_description" = "สร้างผู้รับเงินหรือส่งคืนผู้รับเงินที่มีชื่อเดียวกันอยู่แล้ว";
 "create_payee_parameter_summary" = "สร้างผู้รับเงินด้วย ${name} ใน ${budgetBook}";
 "create_payee_failed_title" = "ไม่สามารถสร้างผู้รับเงินได้";
+
+/* Get */
+"get_budget_books_title" = "ดึงรายการสมุดงบประมาณ";
+"get_budget_books_description" = "ส่งคืนสมุดงบประมาณทั้งหมด";
+"get_budget_books_parameter_summary" = "ดึงรายการสมุดงบประมาณ";
+"get_accounts_title" = "ดึงรายการบัญชี";
+"get_accounts_description" = "ส่งคืนบัญชีทั้งหมดในสมุดงบประมาณที่เลือก รวมถึงบัญชีที่เก็บถาวร";
+"get_accounts_parameter_summary" = "ดึงรายการบัญชีจาก ${budgetBook}";
+"get_categories_title" = "ดึงรายการหมวดหมู่";
+"get_categories_description" = "ส่งคืนหมวดหมู่ในสมุดงบประมาณที่เลือก โดยสามารถกรองตามโฟลเดอร์ได้";
+"get_categories_parameter_summary" = "ดึงรายการหมวดหมู่จาก ${budgetBook}";
+"get_category_groups_title" = "ดึงรายการโฟลเดอร์";
+"get_category_groups_description" = "ส่งคืนโฟลเดอร์ทั้งหมดในสมุดงบประมาณที่เลือก";
+"get_category_groups_parameter_summary" = "ดึงรายการโฟลเดอร์จาก ${budgetBook}";
+"get_payees_title" = "ดึงรายการผู้รับเงิน";
+"get_payees_description" = "ส่งคืนผู้รับเงินทั้งหมดในสมุดงบประมาณที่เลือก";
+"get_payees_parameter_summary" = "ดึงรายการผู้รับเงินจาก ${budgetBook}";
+"get_tags_title" = "ดึงรายการแท็ก";
+"get_tags_description" = "ส่งคืนแท็กทั้งหมดในสมุดงบประมาณที่เลือก";
+"get_tags_parameter_summary" = "ดึงรายการแท็กจาก ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "ค้นหาสมุดงบประมาณ";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "ค้นหาบัญชี";
 "search_account_description" = "ค้นหาบัญชีที่ต้องการตามชื่อ";
 "search_account_parameter_summary" = "ค้นหาบัญชีชื่อ ${name} ใน ${budgetBook}";
-"search_category_group_title" = "ค้นหาโฟลเดอร์";
-"search_category_group_description" = "ค้นหาโฟลเดอร์ที่ต้องการตามชื่อ";
-"search_category_group_parameter_summary" = "ค้นหาโฟลเดอร์ชื่อ ${name} ใน ${budgetBook}";
 "search_category_title" = "ค้นหาหมวดหมู่";
 "search_category_description" = "ค้นหาหมวดหมู่ที่ต้องการตามชื่อ";
 "search_category_parameter_summary" = "ค้นหาหมวดหมู่ชื่อ ${name} ใน ${categoryGroup} ของ ${budgetBook}";
+"search_category_group_title" = "ค้นหาโฟลเดอร์";
+"search_category_group_description" = "ค้นหาโฟลเดอร์ที่ต้องการตามชื่อ";
+"search_category_group_parameter_summary" = "ค้นหาโฟลเดอร์ชื่อ ${name} ใน ${budgetBook}";
 "search_payee_title" = "ค้นหาผู้รับเงิน";
 "search_payee_description" = "ค้นหาผู้รับเงินที่ต้องการตามชื่อ";
 "search_payee_parameter_summary" = "ค้นหาผู้รับเงินชื่อ ${name} ใน ${budgetBook}";
+"search_tag_title" = "ค้นหาแท็ก";
+"search_tag_description" = "ค้นหาแท็กที่ระบุตามชื่อ";
+"search_tag_parameter_summary" = "ค้นหาแท็กชื่อ ${name} ใน ${budgetBook}";
 
 "name_parameter_title" = "ชื่อ";
 "name_parameter_dialog" = "ชื่ออะไร?";

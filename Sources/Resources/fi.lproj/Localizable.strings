@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Maksunsaajia ei löytynyt";
 "no_payee_found_title" = "Maksunsaajaa ei löytynyt";
+"no_tag_found_title" = "Tunnistetta ei löytynyt";
 "no_payees_found_message" = "Lisää uusi maksunsaaja napsauttamalla \"+\" -painiketta.";
 "no_payees_found_button_title" = "Uusi maksunsaaja";
 "payees_search_placeholder_message" = "Hae maksunsaajan nimellä";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Kansio";
 "category_entity_name" = "Luokka";
 "payee_entity_name" = "Maksunsaaja";
+"tag_entity_name" = "Tunniste";
 
 /* Categories */
 "add_category_name" = "Lisää";
 "open_category_name" = "Avaa";
 "show_category_name" = "Näytä";
+"get_category_name" = "Hae";
 "search_category_name" = "Hae";
 "create_category_name" = "Luo";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Luo tilin tai palauttaa samannimisen olemassa olevan tilin.";
 "create_account_parameter_summary" = "Luo tili nimellä ${name} kohteessa ${budgetBook}";
 "create_account_failed_title" = "Tiliä ei voitu luoda";
-"create_category_group_title" = "Luo kansio";
-"create_category_group_description" = "Luo kansion tai palauttaa samannimisen olemassa olevan kansion.";
-"create_category_group_parameter_summary" = "Luo kansio nimellä ${name} kohteessa ${budgetBook}";
-"create_category_group_failed_title" = "Kansiota ei voitu luoda";
 "create_category_title" = "Luo kategoria";
 "create_category_description" = "Luo kategorian tai palauttaa samannimisen olemassa olevan kategorian.";
 "create_category_parameter_summary" = "Luo kategoria nimellä ${name} kansiossa ${categoryGroup} kohteessa ${budgetBook}";
 "create_category_failed_title" = "Kategoriaa ei voitu luoda";
+"create_category_group_title" = "Luo kansio";
+"create_category_group_description" = "Luo kansion tai palauttaa samannimisen olemassa olevan kansion.";
+"create_category_group_parameter_summary" = "Luo kansio nimellä ${name} kohteessa ${budgetBook}";
+"create_category_group_failed_title" = "Kansiota ei voitu luoda";
 "create_payee_title" = "Luo maksunsaaja";
 "create_payee_description" = "Luo maksunsaajan tai palauttaa samannimisen olemassa olevan maksunsaajan.";
 "create_payee_parameter_summary" = "Luo maksunsaaja nimellä ${name} kohteessa ${budgetBook}";
 "create_payee_failed_title" = "Maksunsaajaa ei voitu luoda";
+
+/* Get */
+"get_budget_books_title" = "Hae budjettikirjat";
+"get_budget_books_description" = "Palauttaa kaikki budjettikirjat.";
+"get_budget_books_parameter_summary" = "Hae budjettikirjat";
+"get_accounts_title" = "Hae tilit";
+"get_accounts_description" = "Palauttaa valitun budjettikirjan kaikki tilit, myös arkistoidut tilit.";
+"get_accounts_parameter_summary" = "Hae tilit budjettikirjasta ${budgetBook}";
+"get_categories_title" = "Hae kategoriat";
+"get_categories_description" = "Palauttaa valitun budjettikirjan kategoriat, haluttaessa kansion mukaan suodatettuina.";
+"get_categories_parameter_summary" = "Hae kategoriat budjettikirjasta ${budgetBook}";
+"get_category_groups_title" = "Hae kansiot";
+"get_category_groups_description" = "Palauttaa valitun budjettikirjan kaikki kansiot.";
+"get_category_groups_parameter_summary" = "Hae kansiot budjettikirjasta ${budgetBook}";
+"get_payees_title" = "Hae maksunsaajat";
+"get_payees_description" = "Palauttaa valitun budjettikirjan kaikki maksunsaajat.";
+"get_payees_parameter_summary" = "Hae maksunsaajat budjettikirjasta ${budgetBook}";
+"get_tags_title" = "Hae tunnisteet";
+"get_tags_description" = "Palauttaa valitun budjettikirjan kaikki tunnisteet.";
+"get_tags_parameter_summary" = "Hae tunnisteet budjettikirjasta ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Hae budjettikirjasta";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Hae tiliä";
 "search_account_description" = "Etsi tiettyä tiliä nimellä.";
 "search_account_parameter_summary" = "Hae tiliä ${name}:sta ${budgetBook}";
-"search_category_group_title" = "Hae kansiosta";
-"search_category_group_description" = "Etsi tiettyä kansiota nimellä.";
-"search_category_group_parameter_summary" = "Hae kansiosta ${name} ${budgetBook}:sta";
 "search_category_title" = "Hakuluokka";
 "search_category_description" = "Etsi tiettyä luokkaa nimellä.";
 "search_category_parameter_summary" = "Hae luokkaa ${name} ${categoryGroup}:ssa / ${budgetBook}";
+"search_category_group_title" = "Hae kansiosta";
+"search_category_group_description" = "Etsi tiettyä kansiota nimellä.";
+"search_category_group_parameter_summary" = "Hae kansiosta ${name} ${budgetBook}:sta";
 "search_payee_title" = "Hae maksunsaajaa";
 "search_payee_description" = "Etsi tiettyä maksunsaajaa nimellä.";
 "search_payee_parameter_summary" = "Hae maksunsaajaa ${name}:sta ${budgetBook}:sta";
+"search_tag_title" = "Etsi tunniste";
+"search_tag_description" = "Etsii tietyn tunnisteen nimen perusteella.";
+"search_tag_parameter_summary" = "Etsi tunniste nimellä ${name} budjettikirjasta ${budgetBook}";
 
 "name_parameter_title" = "Nimi";
 "name_parameter_dialog" = "Mikä on nimi?";

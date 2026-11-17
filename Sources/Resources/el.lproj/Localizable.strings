@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Δεν βρέθηκαν δικαιούχοι πληρωμής";
 "no_payee_found_title" = "Δεν βρέθηκε δικαιούχος";
+"no_tag_found_title" = "Δεν βρέθηκε ετικέτα";
 "no_payees_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε έναν νέο δικαιούχο.";
 "no_payees_found_button_title" = "Νέος δικαιούχος πληρωμής";
 "payees_search_placeholder_message" = "Αναζήτηση με το όνομα ενός δικαιούχου πληρωμής";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Φάκελος";
 "category_entity_name" = "Κατηγορία";
 "payee_entity_name" = "Δικαιούχος πληρωμής";
+"tag_entity_name" = "Ετικέτα";
 
 /* Categories */
 "add_category_name" = "Προσθήκη";
 "open_category_name" = "Άνοιγμα";
 "show_category_name" = "Εμφάνιση";
+"get_category_name" = "Λήψη";
 "search_category_name" = "Αναζήτηση";
 "create_category_name" = "Δημιουργία";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Δημιουργεί έναν λογαριασμό ή επιστρέφει έναν υπάρχοντα λογαριασμό με το ίδιο όνομα.";
 "create_account_parameter_summary" = "Δημιουργία λογαριασμού με ${name} στο ${budgetBook}";
 "create_account_failed_title" = "Δεν ήταν δυνατή η δημιουργία του λογαριασμού";
-"create_category_group_title" = "Δημιουργία φακέλου";
-"create_category_group_description" = "Δημιουργεί έναν φάκελο ή επιστρέφει έναν υπάρχοντα φάκελο με το ίδιο όνομα.";
-"create_category_group_parameter_summary" = "Δημιουργία φακέλου με ${name} στο ${budgetBook}";
-"create_category_group_failed_title" = "Δεν ήταν δυνατή η δημιουργία του φακέλου";
 "create_category_title" = "Δημιουργία κατηγορίας";
 "create_category_description" = "Δημιουργεί μια κατηγορία ή επιστρέφει μια υπάρχουσα κατηγορία με το ίδιο όνομα.";
 "create_category_parameter_summary" = "Δημιουργία κατηγορίας με ${name} στο ${categoryGroup} του ${budgetBook}";
 "create_category_failed_title" = "Δεν ήταν δυνατή η δημιουργία της κατηγορίας";
+"create_category_group_title" = "Δημιουργία φακέλου";
+"create_category_group_description" = "Δημιουργεί έναν φάκελο ή επιστρέφει έναν υπάρχοντα φάκελο με το ίδιο όνομα.";
+"create_category_group_parameter_summary" = "Δημιουργία φακέλου με ${name} στο ${budgetBook}";
+"create_category_group_failed_title" = "Δεν ήταν δυνατή η δημιουργία του φακέλου";
 "create_payee_title" = "Δημιουργία δικαιούχου";
 "create_payee_description" = "Δημιουργεί έναν δικαιούχο ή επιστρέφει έναν υπάρχοντα δικαιούχο με το ίδιο όνομα.";
 "create_payee_parameter_summary" = "Δημιουργία δικαιούχου με ${name} στο ${budgetBook}";
 "create_payee_failed_title" = "Δεν ήταν δυνατή η δημιουργία του δικαιούχου";
+
+/* Get */
+"get_budget_books_title" = "Λήψη βιβλίων προϋπολογισμού";
+"get_budget_books_description" = "Επιστρέφει όλα τα βιβλία προϋπολογισμού.";
+"get_budget_books_parameter_summary" = "Λήψη βιβλίων προϋπολογισμού";
+"get_accounts_title" = "Λήψη λογαριασμών";
+"get_accounts_description" = "Επιστρέφει όλους τους λογαριασμούς του επιλεγμένου βιβλίου προϋπολογισμού, συμπεριλαμβανομένων των αρχειοθετημένων λογαριασμών.";
+"get_accounts_parameter_summary" = "Λήψη λογαριασμών από ${budgetBook}";
+"get_categories_title" = "Λήψη κατηγοριών";
+"get_categories_description" = "Επιστρέφει τις κατηγορίες του επιλεγμένου βιβλίου προϋπολογισμού, με προαιρετικό φιλτράρισμα ανά φάκελο.";
+"get_categories_parameter_summary" = "Λήψη κατηγοριών από ${budgetBook}";
+"get_category_groups_title" = "Λήψη φακέλων";
+"get_category_groups_description" = "Επιστρέφει τη λίστα φακέλων του επιλεγμένου βιβλίου προϋπολογισμού.";
+"get_category_groups_parameter_summary" = "Λήψη φακέλων από ${budgetBook}";
+"get_payees_title" = "Λήψη δικαιούχων πληρωμής";
+"get_payees_description" = "Επιστρέφει τη λίστα δικαιούχων πληρωμής του επιλεγμένου βιβλίου προϋπολογισμού.";
+"get_payees_parameter_summary" = "Λήψη δικαιούχων πληρωμής από ${budgetBook}";
+"get_tags_title" = "Λήψη ετικετών";
+"get_tags_description" = "Επιστρέφει τη λίστα ετικετών του επιλεγμένου βιβλίου προϋπολογισμού.";
+"get_tags_parameter_summary" = "Λήψη ετικετών από ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Αναζήτηση βιβλίου προϋπολογισμού";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Αναζήτηση λογαριασμού";
 "search_account_description" = "Αναζήτηση συγκεκριμένου λογαριασμού με το όνομα.";
 "search_account_parameter_summary" = "Αναζήτηση λογαριασμού με ${name} στο ${budgetBook}";
-"search_category_group_title" = "Αναζήτηση φακέλου";
-"search_category_group_description" = "Αναζήτηση συγκεκριμένου φακέλου με όνομα.";
-"search_category_group_parameter_summary" = "Αναζήτηση φακέλου με ${name} στο ${budgetBook}";
 "search_category_title" = "Αναζήτηση κατηγορίας";
 "search_category_description" = "Αναζήτηση για μια συγκεκριμένη κατηγορία με βάση το όνομα.";
 "search_category_parameter_summary" = "Αναζήτηση κατηγορίας με ${name} σε ${categoryGroup} από ${budgetBook}";
+"search_category_group_title" = "Αναζήτηση φακέλου";
+"search_category_group_description" = "Αναζήτηση συγκεκριμένου φακέλου με όνομα.";
+"search_category_group_parameter_summary" = "Αναζήτηση φακέλου με ${name} στο ${budgetBook}";
 "search_payee_title" = "Αναζήτηση δικαιούχου πληρωμής";
 "search_payee_description" = "Αναζήτηση συγκεκριμένου δικαιούχου πληρωμής με το όνομα.";
 "search_payee_parameter_summary" = "Αναζήτηση δικαιούχου πληρωμής με ${name} στο ${budgetBook}";
+"search_tag_title" = "Αναζήτηση ετικέτας";
+"search_tag_description" = "Αναζητά μια συγκεκριμένη ετικέτα βάσει ονόματος.";
+"search_tag_parameter_summary" = "Αναζήτηση ετικέτας με όνομα ${name} στο ${budgetBook}";
 
 "name_parameter_title" = "Όνομα";
 "name_parameter_dialog" = "Ποιο είναι το όνομα;";

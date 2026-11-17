@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "No s’han trobat beneficiaris";
 "no_payee_found_title" = "No s’ha trobat cap beneficiari";
+"no_tag_found_title" = "No s’ha trobat cap etiqueta";
 "no_payees_found_message" = "Fes clic al botó \"+\" per afegir un nou beneficiari.";
 "no_payees_found_button_title" = "Nou beneficiari";
 "payees_search_placeholder_message" = "Cerca pel nom d’un beneficiari";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Carpeta";
 "category_entity_name" = "Categoria";
 "payee_entity_name" = "Beneficiari";
+"tag_entity_name" = "Etiqueta";
 
 /* Categories */
 "add_category_name" = "Afegir";
 "open_category_name" = "Obert";
 "show_category_name" = "Mostra";
+"get_category_name" = "Obtenir";
 "search_category_name" = "Cercar";
 "create_category_name" = "Crea";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Crea un compte o retorna un compte existent amb el mateix nom.";
 "create_account_parameter_summary" = "Crea compte amb ${name} a ${budgetBook}";
 "create_account_failed_title" = "No s’ha pogut crear el compte";
-"create_category_group_title" = "Crea carpeta";
-"create_category_group_description" = "Crea una carpeta o retorna una carpeta existent amb el mateix nom.";
-"create_category_group_parameter_summary" = "Crea carpeta amb ${name} a ${budgetBook}";
-"create_category_group_failed_title" = "No s’ha pogut crear la carpeta";
 "create_category_title" = "Crea categoria";
 "create_category_description" = "Crea una categoria o retorna una categoria existent amb el mateix nom.";
 "create_category_parameter_summary" = "Crea categoria amb ${name} a ${categoryGroup} de ${budgetBook}";
 "create_category_failed_title" = "No s’ha pogut crear la categoria";
+"create_category_group_title" = "Crea carpeta";
+"create_category_group_description" = "Crea una carpeta o retorna una carpeta existent amb el mateix nom.";
+"create_category_group_parameter_summary" = "Crea carpeta amb ${name} a ${budgetBook}";
+"create_category_group_failed_title" = "No s’ha pogut crear la carpeta";
 "create_payee_title" = "Crea beneficiari";
 "create_payee_description" = "Crea un beneficiari o retorna un beneficiari existent amb el mateix nom.";
 "create_payee_parameter_summary" = "Crea beneficiari amb ${name} a ${budgetBook}";
 "create_payee_failed_title" = "No s’ha pogut crear el beneficiari";
+
+/* Get */
+"get_budget_books_title" = "Obtenir llibres de pressupost";
+"get_budget_books_description" = "Retorna tots els llibres de pressupost.";
+"get_budget_books_parameter_summary" = "Obtenir llibres de pressupost";
+"get_accounts_title" = "Obtenir comptes";
+"get_accounts_description" = "Retorna tots els comptes del llibre de pressupost seleccionat, inclosos els comptes arxivats.";
+"get_accounts_parameter_summary" = "Obtenir comptes de ${budgetBook}";
+"get_categories_title" = "Obtenir categories";
+"get_categories_description" = "Retorna les categories del llibre de pressupost seleccionat, amb un filtre opcional per carpeta.";
+"get_categories_parameter_summary" = "Obtenir categories de ${budgetBook}";
+"get_category_groups_title" = "Obtenir carpetes";
+"get_category_groups_description" = "Retorna la llista de carpetes del llibre de pressupost seleccionat.";
+"get_category_groups_parameter_summary" = "Obtenir carpetes de ${budgetBook}";
+"get_payees_title" = "Obtenir beneficiaris";
+"get_payees_description" = "Retorna la llista de beneficiaris del llibre de pressupost seleccionat.";
+"get_payees_parameter_summary" = "Obtenir beneficiaris de ${budgetBook}";
+"get_tags_title" = "Obtenir etiquetes";
+"get_tags_description" = "Retorna la llista de etiquetes del llibre de pressupost seleccionat.";
+"get_tags_parameter_summary" = "Obtenir etiquetes de ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Cercar llibre de pressupost";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Cercar compte";
 "search_account_description" = "Cercar un compte específic pel seu nom";
 "search_account_parameter_summary" = "Cercar compte amb ${name} a ${budgetBook}";
-"search_category_group_title" = "Cercar carpeta";
-"search_category_group_description" = "Cercar una carpeta específica pel nom";
-"search_category_group_parameter_summary" = "Cercar carpeta amb ${name} a ${budgetBook}";
 "search_category_title" = "Cercar categoria";
 "search_category_description" = "Cercar una categoria específica pel seu nom";
 "search_category_parameter_summary" = "Cercar categoria amb ${name} a ${categoryGroup} de ${budgetBook}";
+"search_category_group_title" = "Cercar carpeta";
+"search_category_group_description" = "Cercar una carpeta específica pel nom";
+"search_category_group_parameter_summary" = "Cercar carpeta amb ${name} a ${budgetBook}";
 "search_payee_title" = "Cercar beneficiari";
 "search_payee_description" = "Cercar un beneficiari específic pel seu nom";
 "search_payee_parameter_summary" = "Cercar beneficiari amb ${name} a ${budgetBook}";
+"search_tag_title" = "Cercar etiqueta";
+"search_tag_description" = "Cerca una etiqueta específica pel seu nom.";
+"search_tag_parameter_summary" = "Cercar etiqueta amb ${name} a ${budgetBook}";
 
 "name_parameter_title" = "Nom";
 "name_parameter_dialog" = "Com es diu?";

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Inga betalningsmottagare hittades";
 "no_payee_found_title" = "Ingen betalningsmottagare hittades";
+"no_tag_found_title" = "Ingen tagg hittades";
 "no_payees_found_message" = "Klicka på \"+\"-knappen för att lägga till en ny betalningsmottagare.";
 "no_payees_found_button_title" = "Ny betalningsmottagare";
 "payees_search_placeholder_message" = "Sök efter namnet på en betalningsmottagare";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Mapp";
 "category_entity_name" = "Kategori";
 "payee_entity_name" = "Betalningsmottagare";
+"tag_entity_name" = "Tagg";
 
 /* Categories */
 "add_category_name" = "Lägg till";
 "open_category_name" = "Öppna";
 "show_category_name" = "Visa";
+"get_category_name" = "Hämta";
 "search_category_name" = "Sök";
 "create_category_name" = "Skapa";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Skapar ett konto eller returnerar ett befintligt konto med samma namn.";
 "create_account_parameter_summary" = "Skapa konto med ${name} i ${budgetBook}";
 "create_account_failed_title" = "Konto kunde inte skapas";
-"create_category_group_title" = "Skapa mapp";
-"create_category_group_description" = "Skapar en mapp eller returnerar en befintlig mapp med samma namn.";
-"create_category_group_parameter_summary" = "Skapa mapp med ${name} i ${budgetBook}";
-"create_category_group_failed_title" = "Mapp kunde inte skapas";
 "create_category_title" = "Skapa kategori";
 "create_category_description" = "Skapar en kategori eller returnerar en befintlig kategori med samma namn.";
 "create_category_parameter_summary" = "Skapa kategori med ${name} i ${categoryGroup} från ${budgetBook}";
 "create_category_failed_title" = "Kategori kunde inte skapas";
+"create_category_group_title" = "Skapa mapp";
+"create_category_group_description" = "Skapar en mapp eller returnerar en befintlig mapp med samma namn.";
+"create_category_group_parameter_summary" = "Skapa mapp med ${name} i ${budgetBook}";
+"create_category_group_failed_title" = "Mapp kunde inte skapas";
 "create_payee_title" = "Skapa betalningsmottagare";
 "create_payee_description" = "Skapar en betalningsmottagare eller returnerar en befintlig betalningsmottagare med samma namn.";
 "create_payee_parameter_summary" = "Skapa betalningsmottagare med ${name} i ${budgetBook}";
 "create_payee_failed_title" = "Betalningsmottagare kunde inte skapas";
+
+/* Get */
+"get_budget_books_title" = "Hämta budgetböcker";
+"get_budget_books_description" = "Returnerar alla budgetböcker.";
+"get_budget_books_parameter_summary" = "Hämta budgetböcker";
+"get_accounts_title" = "Hämta konton";
+"get_accounts_description" = "Returnerar alla konton i den valda budgetboken, inklusive arkiverade konton.";
+"get_accounts_parameter_summary" = "Hämta konton från ${budgetBook}";
+"get_categories_title" = "Hämta kategorier";
+"get_categories_description" = "Returnerar kategorierna i den valda budgetboken, med valfri filtrering efter mapp.";
+"get_categories_parameter_summary" = "Hämta kategorier från ${budgetBook}";
+"get_category_groups_title" = "Hämta mappar";
+"get_category_groups_description" = "Returnerar alla mappar i den valda budgetboken.";
+"get_category_groups_parameter_summary" = "Hämta mappar från ${budgetBook}";
+"get_payees_title" = "Hämta betalningsmottagare";
+"get_payees_description" = "Returnerar alla betalningsmottagare i den valda budgetboken.";
+"get_payees_parameter_summary" = "Hämta betalningsmottagare från ${budgetBook}";
+"get_tags_title" = "Hämta taggar";
+"get_tags_description" = "Returnerar alla taggar i den valda budgetboken.";
+"get_tags_parameter_summary" = "Hämta taggar från ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Sök i budgetbok";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Sök konto";
 "search_account_description" = "Sök efter ett specifikt konto med namn.";
 "search_account_parameter_summary" = "Sök konto med ${name} i ${budgetBook}";
-"search_category_group_title" = "Sök mapp";
-"search_category_group_description" = "Sök efter en specifik mapp efter namn.";
-"search_category_group_parameter_summary" = "Sök mapp med ${name} i ${budgetBook}";
 "search_category_title" = "Sökkategori";
 "search_category_description" = "Sök efter en specifik kategori efter namn.";
 "search_category_parameter_summary" = "Sök kategori med ${name} i ${categoryGroup} av ${budgetBook}";
+"search_category_group_title" = "Sök mapp";
+"search_category_group_description" = "Sök efter en specifik mapp efter namn.";
+"search_category_group_parameter_summary" = "Sök mapp med ${name} i ${budgetBook}";
 "search_payee_title" = "Sök betalningsmottagare";
 "search_payee_description" = "Sök efter en specifik betalningsmottagare med namn.";
 "search_payee_parameter_summary" = "Sök betalningsmottagare med ${name} i ${budgetBook}";
+"search_tag_title" = "Sök efter tagg";
+"search_tag_description" = "Söker efter en viss tagg efter namn.";
+"search_tag_parameter_summary" = "Sök efter tagg med ${name} i ${budgetBook}";
 
 "name_parameter_title" = "Namn";
 "name_parameter_dialog" = "Vad är namnet?";

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nessun beneficiario trovato";
 "no_payee_found_title" = "Nessun beneficiario trovato";
+"no_tag_found_title" = "Nessun tag trovato";
 "no_payees_found_message" = "Fai clic sul pulsante \"+\" per aggiungere un nuovo beneficiario.";
 "no_payees_found_button_title" = "Nuovo beneficiario";
 "payees_search_placeholder_message" = "Cerca per nome del beneficiario";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Cartella";
 "category_entity_name" = "Categoria";
 "payee_entity_name" = "Beneficiario";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Aggiungi";
 "open_category_name" = "Apri";
 "show_category_name" = "Mostra";
+"get_category_name" = "Ottieni";
 "search_category_name" = "Cerca";
 "create_category_name" = "Crea";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Crea un conto o restituisce un conto esistente con lo stesso nome.";
 "create_account_parameter_summary" = "Crea conto con ${name} in ${budgetBook}";
 "create_account_failed_title" = "Impossibile creare il conto";
-"create_category_group_title" = "Crea cartella";
-"create_category_group_description" = "Crea una cartella o restituisce una cartella esistente con lo stesso nome.";
-"create_category_group_parameter_summary" = "Crea cartella con ${name} in ${budgetBook}";
-"create_category_group_failed_title" = "Impossibile creare la cartella";
 "create_category_title" = "Crea categoria";
 "create_category_description" = "Crea una categoria o restituisce una categoria esistente con lo stesso nome.";
 "create_category_parameter_summary" = "Crea categoria con ${name} in ${categoryGroup} di ${budgetBook}";
 "create_category_failed_title" = "Impossibile creare la categoria";
+"create_category_group_title" = "Crea cartella";
+"create_category_group_description" = "Crea una cartella o restituisce una cartella esistente con lo stesso nome.";
+"create_category_group_parameter_summary" = "Crea cartella con ${name} in ${budgetBook}";
+"create_category_group_failed_title" = "Impossibile creare la cartella";
 "create_payee_title" = "Crea beneficiario";
 "create_payee_description" = "Crea un beneficiario o restituisce un beneficiario esistente con lo stesso nome.";
 "create_payee_parameter_summary" = "Crea beneficiario con ${name} in ${budgetBook}";
 "create_payee_failed_title" = "Impossibile creare il beneficiario";
+
+/* Get */
+"get_budget_books_title" = "Ottieni registri contabili";
+"get_budget_books_description" = "Restituisce tutti i registri contabili.";
+"get_budget_books_parameter_summary" = "Ottieni registri contabili";
+"get_accounts_title" = "Ottieni conti";
+"get_accounts_description" = "Restituisce tutti i conti del registro contabile selezionato, inclusi quelli archiviati.";
+"get_accounts_parameter_summary" = "Ottieni conti da ${budgetBook}";
+"get_categories_title" = "Ottieni categorie";
+"get_categories_description" = "Restituisce le categorie del registro contabile selezionato, con un filtro facoltativo per cartella.";
+"get_categories_parameter_summary" = "Ottieni categorie da ${budgetBook}";
+"get_category_groups_title" = "Ottieni cartelle";
+"get_category_groups_description" = "Restituisce la lista di cartelle del registro contabile selezionato.";
+"get_category_groups_parameter_summary" = "Ottieni cartelle da ${budgetBook}";
+"get_payees_title" = "Ottieni beneficiari";
+"get_payees_description" = "Restituisce la lista di beneficiari del registro contabile selezionato.";
+"get_payees_parameter_summary" = "Ottieni beneficiari da ${budgetBook}";
+"get_tags_title" = "Ottieni tag";
+"get_tags_description" = "Restituisce la lista di tag del registro contabile selezionato.";
+"get_tags_parameter_summary" = "Ottieni tag da ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Cerca registro contabile";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Cerca conto";
 "search_account_description" = "Cerca un conto specifico per nome.";
 "search_account_parameter_summary" = "Cerca il conto con ${name} in ${budgetBook}";
-"search_category_group_title" = "Cerca cartella";
-"search_category_group_description" = "Cerca una cartella specifica per nome.";
-"search_category_group_parameter_summary" = "Cerca la cartella con ${name} in ${budgetBook}";
 "search_category_title" = "Cerca categoria";
 "search_category_description" = "Cerca una categoria specifica per nome.";
 "search_category_parameter_summary" = "Cerca la categoria con ${name} in ${categoryGroup} di ${budgetBook}";
+"search_category_group_title" = "Cerca cartella";
+"search_category_group_description" = "Cerca una cartella specifica per nome.";
+"search_category_group_parameter_summary" = "Cerca la cartella con ${name} in ${budgetBook}";
 "search_payee_title" = "Cerca beneficiario";
 "search_payee_description" = "Cerca un beneficiario specifico per nome.";
 "search_payee_parameter_summary" = "Cerca il beneficiario con ${name} in ${budgetBook}";
+"search_tag_title" = "Cerca tag";
+"search_tag_description" = "Cerca un tag specifico per nome.";
+"search_tag_parameter_summary" = "Cerca tag con ${name} in ${budgetBook}";
 
 "name_parameter_title" = "Nome";
 "name_parameter_dialog" = "Qual è il nome?";

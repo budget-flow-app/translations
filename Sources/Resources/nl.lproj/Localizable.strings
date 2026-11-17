@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Geen begunstigden gevonden";
 "no_payee_found_title" = "Geen begunstigde gevonden";
+"no_tag_found_title" = "Geen tag gevonden";
 "no_payees_found_message" = "Klik op de knop \"+\" om een nieuwe begunstigde toe te voegen.";
 "no_payees_found_button_title" = "Nieuwe begunstigde";
 "payees_search_placeholder_message" = "Zoek op de naam van een begunstigde";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Map";
 "category_entity_name" = "Categorie";
 "payee_entity_name" = "Begunstigde";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Toevoegen";
 "open_category_name" = "Openen";
 "show_category_name" = "Toon";
+"get_category_name" = "Ophalen";
 "search_category_name" = "Zoeken";
 "create_category_name" = "Maak aan";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Maakt een rekening aan of geeft een bestaande rekening met dezelfde naam terug.";
 "create_account_parameter_summary" = "Maak rekening aan met ${name} in ${budgetBook}";
 "create_account_failed_title" = "Rekening kon niet worden aangemaakt";
-"create_category_group_title" = "Map aanmaken";
-"create_category_group_description" = "Maakt een map aan of geeft een bestaande map met dezelfde naam terug.";
-"create_category_group_parameter_summary" = "Maak map aan met ${name} in ${budgetBook}";
-"create_category_group_failed_title" = "Map kon niet worden aangemaakt";
 "create_category_title" = "Categorie aanmaken";
 "create_category_description" = "Maakt een categorie aan of geeft een bestaande categorie met dezelfde naam terug.";
 "create_category_parameter_summary" = "Maak categorie aan met ${name} in ${categoryGroup} van ${budgetBook}";
 "create_category_failed_title" = "Categorie kon niet worden aangemaakt";
+"create_category_group_title" = "Map aanmaken";
+"create_category_group_description" = "Maakt een map aan of geeft een bestaande map met dezelfde naam terug.";
+"create_category_group_parameter_summary" = "Maak map aan met ${name} in ${budgetBook}";
+"create_category_group_failed_title" = "Map kon niet worden aangemaakt";
 "create_payee_title" = "Begunstigde aanmaken";
 "create_payee_description" = "Maakt een begunstigde aan of geeft een bestaande begunstigde met dezelfde naam terug.";
 "create_payee_parameter_summary" = "Maak begunstigde aan met ${name} in ${budgetBook}";
 "create_payee_failed_title" = "Begunstigde kon niet worden aangemaakt";
+
+/* Get */
+"get_budget_books_title" = "Budgetboeken ophalen";
+"get_budget_books_description" = "Geeft alle budgetboeken terug.";
+"get_budget_books_parameter_summary" = "Budgetboeken ophalen";
+"get_accounts_title" = "Rekeningen ophalen";
+"get_accounts_description" = "Geeft alle rekeningen uit het geselecteerde budgetboek terug, inclusief gearchiveerde rekeningen.";
+"get_accounts_parameter_summary" = "Rekeningen uit ${budgetBook} ophalen";
+"get_categories_title" = "Categorieën ophalen";
+"get_categories_description" = "Geeft de categorieën uit het geselecteerde budgetboek terug, eventueel gefilterd op map.";
+"get_categories_parameter_summary" = "Categorieën uit ${budgetBook} ophalen";
+"get_category_groups_title" = "Mappen ophalen";
+"get_category_groups_description" = "Geeft alle mappen uit het geselecteerde budgetboek terug.";
+"get_category_groups_parameter_summary" = "Mappen uit ${budgetBook} ophalen";
+"get_payees_title" = "Begunstigden ophalen";
+"get_payees_description" = "Geeft alle begunstigden uit het geselecteerde budgetboek terug.";
+"get_payees_parameter_summary" = "Begunstigden uit ${budgetBook} ophalen";
+"get_tags_title" = "Tags ophalen";
+"get_tags_description" = "Geeft alle tags uit het geselecteerde budgetboek terug.";
+"get_tags_parameter_summary" = "Tags uit ${budgetBook} ophalen";
 
 /* Search */
 "search_budget_book_title" = "Zoek budgetboek";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Zoek account";
 "search_account_description" = "Zoek een specifiek account op naam.";
 "search_account_parameter_summary" = "Zoek account met ${name} in ${budgetBook}";
-"search_category_group_title" = "Zoek map";
-"search_category_group_description" = "Zoek een specifieke map op naam.";
-"search_category_group_parameter_summary" = "Zoek map met ${name} in ${budgetBook}";
 "search_category_title" = "Zoek categorie";
 "search_category_description" = "Zoek naar een specifieke categorie op naam.";
 "search_category_parameter_summary" = "Zoek categorie met ${name} in ${categoryGroup} van ${budgetBook}";
+"search_category_group_title" = "Zoek map";
+"search_category_group_description" = "Zoek een specifieke map op naam.";
+"search_category_group_parameter_summary" = "Zoek map met ${name} in ${budgetBook}";
 "search_payee_title" = "Zoek begunstigde";
 "search_payee_description" = "Zoek naar een specifieke begunstigde op naam.";
 "search_payee_parameter_summary" = "Zoek begunstigde met ${name} in ${budgetBook}";
+"search_tag_title" = "Tag zoeken";
+"search_tag_description" = "Zoekt een specifieke tag op naam.";
+"search_tag_parameter_summary" = "Tag met ${name} zoeken in ${budgetBook}";
 
 "name_parameter_title" = "Naam";
 "name_parameter_dialog" = "Wat is de naam?";

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nenašli sa žiadni príjemcovia";
 "no_payee_found_title" = "Nenašiel sa žiadny príjemca";
+"no_tag_found_title" = "Nenašla sa žiadna značka";
 "no_payees_found_message" = "Kliknutím na tlačidlo \"+\" pridáte nového príjemcu.";
 "no_payees_found_button_title" = "Nový príjemca platby";
 "payees_search_placeholder_message" = "Hľadať podľa mena príjemcu platby";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Priečinok";
 "category_entity_name" = "Kategória";
 "payee_entity_name" = "Príjemca platby";
+"tag_entity_name" = "Značka";
 
 /* Categories */
 "add_category_name" = "Pridať";
 "open_category_name" = "Otvoriť";
 "show_category_name" = "Zobraziť";
+"get_category_name" = "Načítať";
 "search_category_name" = "Hľadať";
 "create_category_name" = "Vytvoriť";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Vytvorí účet alebo vráti existujúci účet s rovnakým názvom.";
 "create_account_parameter_summary" = "Vytvoriť účet s ${name} v ${budgetBook}";
 "create_account_failed_title" = "Účet sa nepodarilo vytvoriť";
-"create_category_group_title" = "Vytvoriť priečinok";
-"create_category_group_description" = "Vytvorí priečinok alebo vráti existujúci priečinok s rovnakým názvom.";
-"create_category_group_parameter_summary" = "Vytvoriť priečinok s ${name} v ${budgetBook}";
-"create_category_group_failed_title" = "Priečinok sa nepodarilo vytvoriť";
 "create_category_title" = "Vytvoriť kategóriu";
 "create_category_description" = "Vytvorí kategóriu alebo vráti existujúcu kategóriu s rovnakým názvom.";
 "create_category_parameter_summary" = "Vytvoriť kategóriu s ${name} v ${categoryGroup} z ${budgetBook}";
 "create_category_failed_title" = "Kategóriu sa nepodarilo vytvoriť";
+"create_category_group_title" = "Vytvoriť priečinok";
+"create_category_group_description" = "Vytvorí priečinok alebo vráti existujúci priečinok s rovnakým názvom.";
+"create_category_group_parameter_summary" = "Vytvoriť priečinok s ${name} v ${budgetBook}";
+"create_category_group_failed_title" = "Priečinok sa nepodarilo vytvoriť";
 "create_payee_title" = "Vytvoriť príjemcu";
 "create_payee_description" = "Vytvorí príjemcu alebo vráti existujúceho príjemcu s rovnakým názvom.";
 "create_payee_parameter_summary" = "Vytvoriť príjemcu s ${name} v ${budgetBook}";
 "create_payee_failed_title" = "Príjemcu sa nepodarilo vytvoriť";
+
+/* Get */
+"get_budget_books_title" = "Načítať knihy rozpočtu";
+"get_budget_books_description" = "Vráti všetky knihy rozpočtu.";
+"get_budget_books_parameter_summary" = "Načítať knihy rozpočtu";
+"get_accounts_title" = "Načítať účty";
+"get_accounts_description" = "Vráti všetky účty z vybranej knihy rozpočtu vrátane archivovaných účtov.";
+"get_accounts_parameter_summary" = "Načítať účty z ${budgetBook}";
+"get_categories_title" = "Načítať kategórie";
+"get_categories_description" = "Vráti kategórie z vybranej knihy rozpočtu, voliteľne filtrované podľa priečinka.";
+"get_categories_parameter_summary" = "Načítať kategórie z ${budgetBook}";
+"get_category_groups_title" = "Načítať priečinky";
+"get_category_groups_description" = "Vráti všetky priečinky z vybranej knihy rozpočtu.";
+"get_category_groups_parameter_summary" = "Načítať priečinky z ${budgetBook}";
+"get_payees_title" = "Načítať príjemcov platieb";
+"get_payees_description" = "Vráti všetkých príjemcov platieb z vybranej knihy rozpočtu.";
+"get_payees_parameter_summary" = "Načítať príjemcov platieb z ${budgetBook}";
+"get_tags_title" = "Načítať značky";
+"get_tags_description" = "Vráti všetky značky z vybranej knihy rozpočtu.";
+"get_tags_parameter_summary" = "Načítať značky z ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Vyhľadať knihu rozpočtu";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Vyhľadať účet";
 "search_account_description" = "Vyhľadať konkrétny účet podľa názvu.";
 "search_account_parameter_summary" = "Vyhľadať účet s ${name} v ${budgetBook}";
-"search_category_group_title" = "Prehľadávať priečinok";
-"search_category_group_description" = "Vyhľadať konkrétny priečinok podľa názvu.";
-"search_category_group_parameter_summary" = "Hľadať priečinok s ${name} v ${budgetBook}";
 "search_category_title" = "Hľadať kategóriu";
 "search_category_description" = "Hľadať konkrétnu kategóriu podľa názvu.";
 "search_category_parameter_summary" = "Hľadať kategóriu s ${name} v ${categoryGroup} z ${budgetBook}";
+"search_category_group_title" = "Prehľadávať priečinok";
+"search_category_group_description" = "Vyhľadať konkrétny priečinok podľa názvu.";
+"search_category_group_parameter_summary" = "Hľadať priečinok s ${name} v ${budgetBook}";
 "search_payee_title" = "Hľadať príjemcu platby";
 "search_payee_description" = "Vyhľadať konkrétneho príjemcu platby podľa mena.";
 "search_payee_parameter_summary" = "Hľadať príjemcu platby s ${name} v ${budgetBook}";
+"search_tag_title" = "Hľadať značku";
+"search_tag_description" = "Vyhľadá konkrétnu značku podľa názvu.";
+"search_tag_parameter_summary" = "Hľadať značku s názvom ${name} v ${budgetBook}";
 
 "name_parameter_title" = "Meno";
 "name_parameter_dialog" = "Aký je názov?";

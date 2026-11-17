@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "未找到收款人";
 "no_payee_found_title" = "找不到收款人";
+"no_tag_found_title" = "找不到標籤";
 "no_payees_found_message" = "點擊\"+\"按鈕新增收款人";
 "no_payees_found_button_title" = "新收款人";
 "payees_search_placeholder_message" = "以收款人名稱搜尋";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "資料夾";
 "category_entity_name" = "分類";
 "payee_entity_name" = "收款人";
+"tag_entity_name" = "標籤";
 
 /* Categories */
 "add_category_name" = "新增";
 "open_category_name" = "開啟";
 "show_category_name" = "展示";
+"get_category_name" = "取得";
 "search_category_name" = "搜尋";
 "create_category_name" = "建立";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "建立帳戶，或傳回同名的現有帳戶。";
 "create_account_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立帳戶";
 "create_account_failed_title" = "無法建立帳戶";
-"create_category_group_title" = "建立資料夾";
-"create_category_group_description" = "建立資料夾，或傳回同名的現有資料夾。";
-"create_category_group_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立資料夾";
-"create_category_group_failed_title" = "無法建立資料夾";
 "create_category_title" = "建立類別";
 "create_category_description" = "建立類別，或傳回同名的現有類別。";
 "create_category_parameter_summary" = "在 ${budgetBook} 的 ${categoryGroup} 中使用 ${name} 建立類別";
 "create_category_failed_title" = "無法建立類別";
+"create_category_group_title" = "建立資料夾";
+"create_category_group_description" = "建立資料夾，或傳回同名的現有資料夾。";
+"create_category_group_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立資料夾";
+"create_category_group_failed_title" = "無法建立資料夾";
 "create_payee_title" = "建立收款人";
 "create_payee_description" = "建立收款人，或傳回同名的現有收款人。";
 "create_payee_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立收款人";
 "create_payee_failed_title" = "無法建立收款人";
+
+/* Get */
+"get_budget_books_title" = "取得預算帳本列表";
+"get_budget_books_description" = "傳回所有預算帳本。";
+"get_budget_books_parameter_summary" = "取得預算帳本列表";
+"get_accounts_title" = "取得帳戶列表";
+"get_accounts_description" = "傳回所選預算帳本中的所有帳戶，包括已封存的帳戶。";
+"get_accounts_parameter_summary" = "取得 ${budgetBook} 中的帳戶列表";
+"get_categories_title" = "取得類別列表";
+"get_categories_description" = "傳回所選預算帳本中的類別，可依資料夾篩選。";
+"get_categories_parameter_summary" = "取得 ${budgetBook} 中的類別列表";
+"get_category_groups_title" = "取得資料夾列表";
+"get_category_groups_description" = "傳回所選預算帳本中的所有資料夾。";
+"get_category_groups_parameter_summary" = "取得 ${budgetBook} 中的資料夾列表";
+"get_payees_title" = "取得收款人列表";
+"get_payees_description" = "傳回所選預算帳本中的所有收款人。";
+"get_payees_parameter_summary" = "取得 ${budgetBook} 中的收款人列表";
+"get_tags_title" = "取得標籤列表";
+"get_tags_description" = "傳回所選預算帳本中的所有標籤。";
+"get_tags_parameter_summary" = "取得 ${budgetBook} 中的標籤列表";
 
 /* Search */
 "search_budget_book_title" = "搜尋預算帳本";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "搜尋帳戶";
 "search_account_description" = "以名稱搜尋特定帳戶。";
 "search_account_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜尋帳號";
-"search_category_group_title" = "搜尋資料夾";
-"search_category_group_description" = "按名稱搜尋特定資料夾。";
-"search_category_group_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜尋資料夾";
 "search_category_title" = "搜尋分類";
 "search_category_description" = "依名稱搜尋特定分類。";
 "search_category_parameter_summary" = "在 ${budgetBook} 的 ${categoryGroup} 中用 ${name} 搜尋分類";
+"search_category_group_title" = "搜尋資料夾";
+"search_category_group_description" = "按名稱搜尋特定資料夾。";
+"search_category_group_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜尋資料夾";
 "search_payee_title" = "搜尋收款人";
 "search_payee_description" = "以名稱搜尋特定收款人。";
 "search_payee_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜尋收款人";
+"search_tag_title" = "搜尋標籤";
+"search_tag_description" = "依名稱搜尋特定標籤。";
+"search_tag_parameter_summary" = "在 ${budgetBook} 中搜尋名為 ${name} 的標籤";
 
 "name_parameter_title" = "名稱";
 "name_parameter_dialog" = "名稱是什麼？";

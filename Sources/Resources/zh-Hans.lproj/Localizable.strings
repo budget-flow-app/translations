@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "未找到收款人";
 "no_payee_found_title" = "未找到收款人";
+"no_tag_found_title" = "未找到标签";
 "no_payees_found_message" = "点击\"+\"按钮添加新收款人";
 "no_payees_found_button_title" = "新建收款人";
 "payees_search_placeholder_message" = "按收款人名称搜索";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "文件夹";
 "category_entity_name" = "分类";
 "payee_entity_name" = "收款人";
+"tag_entity_name" = "标签";
 
 /* Categories */
 "add_category_name" = "添加";
 "open_category_name" = "打开";
 "show_category_name" = "展示";
+"get_category_name" = "获取";
 "search_category_name" = "搜索";
 "create_category_name" = "创建";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "创建账户，或返回同名的现有账户。";
 "create_account_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 创建账户";
 "create_account_failed_title" = "无法创建账户";
-"create_category_group_title" = "创建文件夹";
-"create_category_group_description" = "创建文件夹，或返回同名的现有文件夹。";
-"create_category_group_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 创建文件夹";
-"create_category_group_failed_title" = "无法创建文件夹";
 "create_category_title" = "创建类别";
 "create_category_description" = "创建类别，或返回同名的现有类别。";
 "create_category_parameter_summary" = "在 ${budgetBook} 的 ${categoryGroup} 中使用 ${name} 创建类别";
 "create_category_failed_title" = "无法创建类别";
+"create_category_group_title" = "创建文件夹";
+"create_category_group_description" = "创建文件夹，或返回同名的现有文件夹。";
+"create_category_group_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 创建文件夹";
+"create_category_group_failed_title" = "无法创建文件夹";
 "create_payee_title" = "创建收款人";
 "create_payee_description" = "创建收款人，或返回同名的现有收款人。";
 "create_payee_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 创建收款人";
 "create_payee_failed_title" = "无法创建收款人";
+
+/* Get */
+"get_budget_books_title" = "获取预算账本列表";
+"get_budget_books_description" = "返回所有预算账本。";
+"get_budget_books_parameter_summary" = "获取预算账本列表";
+"get_accounts_title" = "获取账户列表";
+"get_accounts_description" = "返回所选预算账本中的所有账户，包括已归档的账户。";
+"get_accounts_parameter_summary" = "获取 ${budgetBook} 中的账户列表";
+"get_categories_title" = "获取类别列表";
+"get_categories_description" = "返回所选预算账本中的类别，可按文件夹筛选。";
+"get_categories_parameter_summary" = "获取 ${budgetBook} 中的类别列表";
+"get_category_groups_title" = "获取文件夹列表";
+"get_category_groups_description" = "返回所选预算账本中的所有文件夹。";
+"get_category_groups_parameter_summary" = "获取 ${budgetBook} 中的文件夹列表";
+"get_payees_title" = "获取收款人列表";
+"get_payees_description" = "返回所选预算账本中的所有收款人。";
+"get_payees_parameter_summary" = "获取 ${budgetBook} 中的收款人列表";
+"get_tags_title" = "获取标签列表";
+"get_tags_description" = "返回所选预算账本中的所有标签。";
+"get_tags_parameter_summary" = "获取 ${budgetBook} 中的标签列表";
 
 /* Search */
 "search_budget_book_title" = "搜索预算账本";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "搜索账户";
 "search_account_description" = "按名称搜索特定账户。";
 "search_account_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜索账户";
-"search_category_group_title" = "搜索文件夹";
-"search_category_group_description" = "按名称搜索特定文件夹。";
-"search_category_group_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜索文件夹";
 "search_category_title" = "搜索分类";
 "search_category_description" = "按名称搜索特定分类。";
 "search_category_parameter_summary" = "在 ${budgetBook} 的 ${categoryGroup} 中用 ${name} 搜索分类";
+"search_category_group_title" = "搜索文件夹";
+"search_category_group_description" = "按名称搜索特定文件夹。";
+"search_category_group_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜索文件夹";
 "search_payee_title" = "搜索收款人";
 "search_payee_description" = "按名称搜索特定收款人。";
 "search_payee_parameter_summary" = "在 ${budgetBook} 中用 ${name} 搜索收款人";
+"search_tag_title" = "搜索标签";
+"search_tag_description" = "按名称搜索特定标签。";
+"search_tag_parameter_summary" = "在 ${budgetBook} 中搜索名为 ${name} 的标签";
 
 "name_parameter_title" = "名称";
 "name_parameter_dialog" = "名称是什么？";
