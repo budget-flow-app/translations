@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nisu pronađeni primatelji uplate";
 "no_payee_found_title" = "Primatelj nije pronađen";
+"no_tag_found_title" = "Nije pronađena nijedna oznaka";
 "no_payees_found_message" = "Kliknite gumb \"+\" za dodavanje novog primatelja.";
 "no_payees_found_button_title" = "Novi primatelj uplate";
 "payees_search_placeholder_message" = "Traži po imenu primatelja uplate";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Mapa";
 "category_entity_name" = "Kategorija";
 "payee_entity_name" = "Primatelj uplate";
+"tag_entity_name" = "Oznaka";
 
 /* Categories */
 "add_category_name" = "Dodaj";
 "open_category_name" = "Otvori";
 "show_category_name" = "Prikaži";
+"get_category_name" = "Dohvati";
 "search_category_name" = "Traži";
 "create_category_name" = "Stvori";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Izrađuje račun ili vraća postojeći račun istog naziva.";
 "create_account_parameter_summary" = "Izradi račun s ${name} u ${budgetBook}";
 "create_account_failed_title" = "Račun nije moguće izraditi";
-"create_category_group_title" = "Izradi mapu";
-"create_category_group_description" = "Izrađuje mapu ili vraća postojeću mapu istog naziva.";
-"create_category_group_parameter_summary" = "Izradi mapu s ${name} u ${budgetBook}";
-"create_category_group_failed_title" = "Mapu nije moguće izraditi";
 "create_category_title" = "Izradi kategoriju";
 "create_category_description" = "Izrađuje kategoriju ili vraća postojeću kategoriju istog naziva.";
 "create_category_parameter_summary" = "Izradi kategoriju s ${name} u ${categoryGroup} iz ${budgetBook}";
 "create_category_failed_title" = "Kategoriju nije moguće izraditi";
+"create_category_group_title" = "Izradi mapu";
+"create_category_group_description" = "Izrađuje mapu ili vraća postojeću mapu istog naziva.";
+"create_category_group_parameter_summary" = "Izradi mapu s ${name} u ${budgetBook}";
+"create_category_group_failed_title" = "Mapu nije moguće izraditi";
 "create_payee_title" = "Izradi primatelja";
 "create_payee_description" = "Izrađuje primatelja ili vraća postojećeg primatelja istog naziva.";
 "create_payee_parameter_summary" = "Izradi primatelja s ${name} u ${budgetBook}";
 "create_payee_failed_title" = "Primatelja nije moguće izraditi";
+
+/* Get */
+"get_budget_books_title" = "Dohvati knjige proračuna";
+"get_budget_books_description" = "Vraća sve knjige proračuna.";
+"get_budget_books_parameter_summary" = "Dohvati knjige proračuna";
+"get_accounts_title" = "Dohvati račune";
+"get_accounts_description" = "Vraća sve račune iz odabrane knjige proračuna, uključujući arhivirane račune.";
+"get_accounts_parameter_summary" = "Dohvati račune iz ${budgetBook}";
+"get_categories_title" = "Dohvati kategorije";
+"get_categories_description" = "Vraća kategorije iz odabrane knjige proračuna, uz neobavezno filtriranje po mapi.";
+"get_categories_parameter_summary" = "Dohvati kategorije iz ${budgetBook}";
+"get_category_groups_title" = "Dohvati mape";
+"get_category_groups_description" = "Vraća sve mape iz odabrane knjige proračuna.";
+"get_category_groups_parameter_summary" = "Dohvati mape iz ${budgetBook}";
+"get_payees_title" = "Dohvati primatelje uplata";
+"get_payees_description" = "Vraća sve primatelje uplata iz odabrane knjige proračuna.";
+"get_payees_parameter_summary" = "Dohvati primatelje uplata iz ${budgetBook}";
+"get_tags_title" = "Dohvati oznake";
+"get_tags_description" = "Vraća sve oznake iz odabrane knjige proračuna.";
+"get_tags_parameter_summary" = "Dohvati oznake iz ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Pretraži proračunsku knjigu";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Traži račun";
 "search_account_description" = "Traži određeni račun po imenu.";
 "search_account_parameter_summary" = "Traži račun s ${name} u ${budgetBook}";
-"search_category_group_title" = "Traži mapu";
-"search_category_group_description" = "Traži određenu mapu po imenu.";
-"search_category_group_parameter_summary" = "Traži mapu s ${name} u ${budgetBook}";
 "search_category_title" = "Traži kategoriju";
 "search_category_description" = "Traži određenu kategoriju prema nazivu.";
 "search_category_parameter_summary" = "Pretraži kategoriju s ${name} u ${categoryGroup} od ${budgetBook}";
+"search_category_group_title" = "Traži mapu";
+"search_category_group_description" = "Traži određenu mapu po imenu.";
+"search_category_group_parameter_summary" = "Traži mapu s ${name} u ${budgetBook}";
 "search_payee_title" = "Traži primatelja";
 "search_payee_description" = "Traži određenog primatelja po imenu.";
 "search_payee_parameter_summary" = "Traži primatelja s ${name} u ${budgetBook}";
+"search_tag_title" = "Traži oznaku";
+"search_tag_description" = "Traži određenu oznaku po nazivu.";
+"search_tag_parameter_summary" = "Traži oznaku s nazivom ${name} u ${budgetBook}";
 
 "name_parameter_title" = "Ime";
 "name_parameter_dialog" = "Koje je ime?";

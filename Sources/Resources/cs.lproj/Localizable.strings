@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nebyli nalezeni žádní příjemci";
 "no_payee_found_title" = "Nebyl nalezen žádný příjemce";
+"no_tag_found_title" = "Nebyla nalezena žádná značka";
 "no_payees_found_message" = "Kliknutím na tlačítko \"+\" přidáte nového příjemce.";
 "no_payees_found_button_title" = "Nový příjemce";
 "payees_search_placeholder_message" = "Hledat podle jména příjemce";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Složka";
 "category_entity_name" = "Kategorie";
 "payee_entity_name" = "Příjemce";
+"tag_entity_name" = "Značka";
 
 /* Categories */
 "add_category_name" = "Přidat";
 "open_category_name" = "Otevřít";
 "show_category_name" = "Zobrazit";
+"get_category_name" = "Načíst";
 "search_category_name" = "Hledat";
 "create_category_name" = "Vytvořit";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Vytvoří účet nebo vrátí existující účet se stejným názvem.";
 "create_account_parameter_summary" = "Vytvořit účet s ${name} v ${budgetBook}";
 "create_account_failed_title" = "Účet se nepodařilo vytvořit";
-"create_category_group_title" = "Vytvořit složku";
-"create_category_group_description" = "Vytvoří složku nebo vrátí existující složku se stejným názvem.";
-"create_category_group_parameter_summary" = "Vytvořit složku s ${name} v ${budgetBook}";
-"create_category_group_failed_title" = "Složku se nepodařilo vytvořit";
 "create_category_title" = "Vytvořit kategorii";
 "create_category_description" = "Vytvoří kategorii nebo vrátí existující kategorii se stejným názvem.";
 "create_category_parameter_summary" = "Vytvořit kategorii s ${name} ve složce ${categoryGroup} v ${budgetBook}";
 "create_category_failed_title" = "Kategorii se nepodařilo vytvořit";
+"create_category_group_title" = "Vytvořit složku";
+"create_category_group_description" = "Vytvoří složku nebo vrátí existující složku se stejným názvem.";
+"create_category_group_parameter_summary" = "Vytvořit složku s ${name} v ${budgetBook}";
+"create_category_group_failed_title" = "Složku se nepodařilo vytvořit";
 "create_payee_title" = "Vytvořit příjemce";
 "create_payee_description" = "Vytvoří příjemce nebo vrátí existujícího příjemce se stejným názvem.";
 "create_payee_parameter_summary" = "Vytvořit příjemce s ${name} v ${budgetBook}";
 "create_payee_failed_title" = "Příjemce se nepodařilo vytvořit";
+
+/* Get */
+"get_budget_books_title" = "Načíst rozpočtové knihy";
+"get_budget_books_description" = "Vrátí všechny rozpočtové knihy.";
+"get_budget_books_parameter_summary" = "Načíst rozpočtové knihy";
+"get_accounts_title" = "Načíst účty";
+"get_accounts_description" = "Vrátí všechny účty z vybrané rozpočtové knihy, včetně archivovaných účtů.";
+"get_accounts_parameter_summary" = "Načíst účty z ${budgetBook}";
+"get_categories_title" = "Načíst kategorie";
+"get_categories_description" = "Vrátí kategorie z vybrané rozpočtové knihy, volitelně filtrované podle složky.";
+"get_categories_parameter_summary" = "Načíst kategorie z ${budgetBook}";
+"get_category_groups_title" = "Načíst složky";
+"get_category_groups_description" = "Vrátí všechny složky z vybrané rozpočtové knihy.";
+"get_category_groups_parameter_summary" = "Načíst složky z ${budgetBook}";
+"get_payees_title" = "Načíst příjemce";
+"get_payees_description" = "Vrátí všechny příjemce z vybrané rozpočtové knihy.";
+"get_payees_parameter_summary" = "Načíst příjemce z ${budgetBook}";
+"get_tags_title" = "Načíst značky";
+"get_tags_description" = "Vrátí všechny značky z vybrané rozpočtové knihy.";
+"get_tags_parameter_summary" = "Načíst značky z ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Vyhledat knihu rozpočtu";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Vyhledat účet";
 "search_account_description" = "Vyhledat konkrétní účet podle názvu.";
 "search_account_parameter_summary" = "Vyhledat účet s ${name} v ${budgetBook}";
-"search_category_group_title" = "Vyhledat složku";
-"search_category_group_description" = "Vyhledat konkrétní složku podle názvu.";
-"search_category_group_parameter_summary" = "Prohledat složku s ${name} v ${budgetBook}";
 "search_category_title" = "Vyhledat kategorii";
 "search_category_description" = "Vyhledat konkrétní kategorii podle názvu.";
 "search_category_parameter_summary" = "Vyhledat kategorii s ${name} v ${categoryGroup} z ${budgetBook}";
+"search_category_group_title" = "Vyhledat složku";
+"search_category_group_description" = "Vyhledat konkrétní složku podle názvu.";
+"search_category_group_parameter_summary" = "Prohledat složku s ${name} v ${budgetBook}";
 "search_payee_title" = "Hledat příjemce platby";
 "search_payee_description" = "Vyhledat konkrétního příjemce podle jména.";
 "search_payee_parameter_summary" = "Vyhledat příjemce platby s ${name} v ${budgetBook}";
+"search_tag_title" = "Hledat značku";
+"search_tag_description" = "Vyhledá konkrétní značku podle názvu.";
+"search_tag_parameter_summary" = "Hledat značku s názvem ${name} v ${budgetBook}";
 
 "name_parameter_title" = "Jméno";
 "name_parameter_dialog" = "Jaké je jméno?";

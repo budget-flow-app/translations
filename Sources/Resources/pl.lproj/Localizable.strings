@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nie znaleziono odbiorców";
 "no_payee_found_title" = "Nie znaleziono odbiorcy";
+"no_tag_found_title" = "Nie znaleziono tagu";
 "no_payees_found_message" = "Kliknij przycisk \"+\", aby dodać nowego odbiorcę płatności.";
 "no_payees_found_button_title" = "Nowy odbiorca płatności";
 "payees_search_placeholder_message" = "Wyszukaj według nazwy odbiorcy płatności";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Folder";
 "category_entity_name" = "Kategoria";
 "payee_entity_name" = "Odbiorca płatności";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Dodaj";
 "open_category_name" = "Otwórz";
 "show_category_name" = "Pokaż";
+"get_category_name" = "Pobierz";
 "search_category_name" = "Szukaj";
 "create_category_name" = "Utwórz";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Tworzy konto albo zwraca istniejące konto o tej samej nazwie.";
 "create_account_parameter_summary" = "Utwórz konto z ${name} w ${budgetBook}";
 "create_account_failed_title" = "Nie udało się utworzyć konta";
-"create_category_group_title" = "Utwórz folder";
-"create_category_group_description" = "Tworzy folder albo zwraca istniejący folder o tej samej nazwie.";
-"create_category_group_parameter_summary" = "Utwórz folder z ${name} w ${budgetBook}";
-"create_category_group_failed_title" = "Nie udało się utworzyć folderu";
 "create_category_title" = "Utwórz kategorię";
 "create_category_description" = "Tworzy kategorię albo zwraca istniejącą kategorię o tej samej nazwie.";
 "create_category_parameter_summary" = "Utwórz kategorię z ${name} w ${categoryGroup} z ${budgetBook}";
 "create_category_failed_title" = "Nie udało się utworzyć kategorii";
+"create_category_group_title" = "Utwórz folder";
+"create_category_group_description" = "Tworzy folder albo zwraca istniejący folder o tej samej nazwie.";
+"create_category_group_parameter_summary" = "Utwórz folder z ${name} w ${budgetBook}";
+"create_category_group_failed_title" = "Nie udało się utworzyć folderu";
 "create_payee_title" = "Utwórz odbiorcę";
 "create_payee_description" = "Tworzy odbiorcę albo zwraca istniejącego odbiorcę o tej samej nazwie.";
 "create_payee_parameter_summary" = "Utwórz odbiorcę z ${name} w ${budgetBook}";
 "create_payee_failed_title" = "Nie udało się utworzyć odbiorcy";
+
+/* Get */
+"get_budget_books_title" = "Pobierz księgi budżetowe";
+"get_budget_books_description" = "Zwraca wszystkie księgi budżetowe.";
+"get_budget_books_parameter_summary" = "Pobierz księgi budżetowe";
+"get_accounts_title" = "Pobierz konta";
+"get_accounts_description" = "Zwraca wszystkie konta z wybranej księgi budżetowej, w tym konta zarchiwizowane.";
+"get_accounts_parameter_summary" = "Pobierz konta z ${budgetBook}";
+"get_categories_title" = "Pobierz kategorie";
+"get_categories_description" = "Zwraca kategorie z wybranej księgi budżetowej, opcjonalnie filtrowane według folderu.";
+"get_categories_parameter_summary" = "Pobierz kategorie z ${budgetBook}";
+"get_category_groups_title" = "Pobierz foldery";
+"get_category_groups_description" = "Zwraca wszystkie foldery z wybranej księgi budżetowej.";
+"get_category_groups_parameter_summary" = "Pobierz foldery z ${budgetBook}";
+"get_payees_title" = "Pobierz odbiorców płatności";
+"get_payees_description" = "Zwraca wszystkich odbiorców płatności z wybranej księgi budżetowej.";
+"get_payees_parameter_summary" = "Pobierz odbiorców płatności z ${budgetBook}";
+"get_tags_title" = "Pobierz tagi";
+"get_tags_description" = "Zwraca wszystkie tagi z wybranej księgi budżetowej.";
+"get_tags_parameter_summary" = "Pobierz tagi z ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Przeszukaj księgę budżetową";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Przeszukaj konto";
 "search_account_description" = "Wyszukaj określone konto według nazwy.";
 "search_account_parameter_summary" = "Przeszukaj konto z ${name} w ${budgetBook}";
-"search_category_group_title" = "Wyszukaj folder";
-"search_category_group_description" = "Wyszukaj określony folder według nazwy.";
-"search_category_group_parameter_summary" = "Wyszukaj folder z ${name} w ${budgetBook}";
 "search_category_title" = "Przeszukaj kategorię";
 "search_category_description" = "Wyszukaj określoną kategorię według nazwy.";
 "search_category_parameter_summary" = "Przeszukaj kategorię za pomocą ${name} w ${categoryGroup} w ${budgetBook}";
+"search_category_group_title" = "Wyszukaj folder";
+"search_category_group_description" = "Wyszukaj określony folder według nazwy.";
+"search_category_group_parameter_summary" = "Wyszukaj folder z ${name} w ${budgetBook}";
 "search_payee_title" = "Wyszukaj odbiorcę";
 "search_payee_description" = "Wyszukaj konkretnego odbiorcę płatności według nazwy.";
 "search_payee_parameter_summary" = "Wyszukaj odbiorcę płatności za pomocą ${name} w ${budgetBook}";
+"search_tag_title" = "Szukaj tagu";
+"search_tag_description" = "Wyszukuje określony tag według nazwy.";
+"search_tag_parameter_summary" = "Szukaj tagu o nazwie ${name} w ${budgetBook}";
 
 "name_parameter_title" = "Nazwa";
 "name_parameter_dialog" = "Jaka jest nazwa?";

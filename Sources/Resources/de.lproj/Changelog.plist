@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Erlebe eine grundlegend modernisierte App mit besserer Performance und neuen Funktionen für Backups, Rückerstattungen und die Verwaltung deiner Transaktionen.</string>
+		<string>Diese Version erweitert die App um monatliche Erinnerungen, zusätzliche Exportoptionen und neue Funktionen für Konten, Zahlungsempfänger und Kurzbefehle.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Modernisierte App</string>
+				<string>Monatliche Erinnerungen</string>
 				<key>Description</key>
-				<string>Die App basiert auf einer komplett neuen Architektur, wodurch sie eine bessere Performance und neue Animationen bietet.</string>
+				<string>Eigene Erinnerungen können jetzt monatlich an ausgewählten Monatstagen oder einem bestimmten Wochentag wiederholt werden.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Überarbeitete Backups</string>
+				<string>Erweiterter CSV-Export</string>
 				<key>Description</key>
-				<string>Der Backup-Mechanismus wurde vollständig überarbeitet und ermöglicht es auf Apple-Geräten, Daten optional auch in iCloud Drive zu sichern.</string>
+				<string>Der CSV-Export unterstützt jetzt Filter und optional den Export von Anhängen inklusive einer Übersicht zur Zuordnung der Dateien zu den jeweiligen Transaktionen.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>iPhone Duo Support</string>
+				<string>Konten vom Vermögen ausschließen</string>
 				<key>Description</key>
-				<string>Unterstützung für das iPhone Duo wurde hinzugefügt, inklusive eines vollständig für dessen Layout optimierten Designs.</string>
+				<string>Schließe einzelne Konten von der Vermögensberechnung aus. Die Konten bleiben weiterhin für Transaktionen verfügbar.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Rückerstattungen</string>
-				<key>Description</key>
-				<string>Rückerstattungen können nun direkt aus bestehenden Transaktionen entweder per Wischgeste oder über das Kontextmenü erstellt werden.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Währungsfavoriten</string>
+				<string>Tags für Zahlungsempfänger</string>
 				<key>Description</key>
-				<string>Währungen können jetzt als Favoriten markiert werden, um sie noch schneller in der Währungsliste wiederzufinden.</string>
+				<string>Weise Zahlungsempfängern Tags zu, die bei ihrer Auswahl in einer Transaktion automatisch übernommen werden.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Mehrfachbearbeitung</string>
+				<string>Neue Kurzbefehle-Aktionen</string>
 				<key>Description</key>
-				<string>Bei der Mehrfachbearbeitung können alle Transaktionen bequem auf einmal aus- oder abgewählt werden. Darüber hinaus kann in geteilten Haushaltsbüchern die zugeordnete Person für mehrere Transaktionen gleichzeitig geändert werden.</string>
+				<string>Rufe vorhandene Haushaltsbücher, Konten, Kategorien, Ordner, Zahlungsempfänger und Tags als Listen in Apple Kurzbefehle ab.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Neue Filteroptionen</string>
-				<key>Description</key>
-				<string>Die Filteransicht ermöglicht nun die einfache Suche nach Kategorien und weiteren Einträgen sowie das gezielte Finden wiederkehrender Transaktionen über die globale Suche.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Weitere Verbesserungen</string>
-				<key>Description</key>
-				<string>Besser lesbare Beträge, Kategorie-Icons im Kreisdiagramm, Emoji-Suche, neue Anzeigeoptionen für Kategorien und Tags sowie ein vereinfachtes Onboarding.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

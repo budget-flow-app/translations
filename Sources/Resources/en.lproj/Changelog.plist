@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Experience a thoroughly modernized app with better performance and new features for backups, refunds, and managing your transactions.</string>
+		<string>This version adds monthly reminders, more export options, and new features for accounts, payees, and Shortcuts.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Modernized App</string>
+				<string>Monthly Reminders</string>
 				<key>Description</key>
-				<string>The app is built on a completely new architecture, delivering better performance and new animations.</string>
+				<string>Custom reminders can now repeat monthly on selected days of the month or a specific weekday.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Redesigned Backups</string>
+				<string>Enhanced CSV Export</string>
 				<key>Description</key>
-				<string>The backup system has been completely redesigned, with the option to also back up your data to iCloud Drive on Apple devices.</string>
+				<string>CSV exports now support filters and optional attachments, bundled with an overview linking each transaction to its files.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>iPhone Duo Support</string>
+				<string>Exclude Accounts from Net Worth</string>
 				<key>Description</key>
-				<string>Support for iPhone Duo has been added, including a design fully optimized for its layout.</string>
+				<string>Exclude individual accounts from net worth calculations while keeping them available for transactions.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Refunds</string>
-				<key>Description</key>
-				<string>You can now create refunds directly from existing transactions with a swipe gesture or through the context menu.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Favorite Currencies</string>
+				<string>Tags for Payees</string>
 				<key>Description</key>
-				<string>You can now mark currencies as favorites to find them even faster in the currency list.</string>
+				<string>Assign tags to payees to have them automatically applied when selecting a payee in a transaction.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Bulk Editing</string>
+				<string>New Shortcuts Actions</string>
 				<key>Description</key>
-				<string>When editing multiple transactions, you can easily select or deselect them all at once. In shared budget books, you can also change the assigned person for multiple transactions at the same time.</string>
+				<string>Retrieve existing budget books, accounts, categories, folders, payees, and tags as lists in Apple Shortcuts.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>New Filter Options</string>
-				<key>Description</key>
-				<string>The filter view now makes it easy to search for categories and other entries, and to specifically find recurring transactions through the global search.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Further Improvements</string>
-				<key>Description</key>
-				<string>More readable amounts, category icons in the pie chart, emoji search, new display options for categories and tags, and simpler onboarding.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

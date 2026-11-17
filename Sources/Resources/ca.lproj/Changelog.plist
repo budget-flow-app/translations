@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Descobreix una app renovada a fons, amb un rendiment millorat i noves funcions per a les còpies de seguretat, els reembossaments i la gestió de les transaccions.</string>
+		<string>Aquesta versió afegeix recordatoris mensuals, més opcions d’exportació i noves funcions per als comptes, els beneficiaris i les dreceres.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>App renovada</string>
+				<string>Recordatoris mensuals</string>
 				<key>Description</key>
-				<string>L’app es basa en una arquitectura completament nova que ofereix un rendiment millorat i noves animacions.</string>
+				<string>Els recordatoris personalitzats ara es poden repetir mensualment en dies del mes seleccionats o en un dia de la setmana concret.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Còpies de seguretat renovades</string>
+				<string>Exportació CSV millorada</string>
 				<key>Description</key>
-				<string>El sistema de còpies de seguretat s’ha renovat completament i, als dispositius Apple, permet desar les dades també a l’iCloud Drive de manera opcional.</string>
+				<string>L’exportació CSV ara admet filtres i l’exportació opcional d’adjunts, amb una vista general que relaciona els fitxers amb les transaccions corresponents.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Suport iPhone Duo</string>
+				<string>Exclou comptes del patrimoni net</string>
 				<key>Description</key>
-				<string>S’ha afegit compatibilitat amb l’iPhone Duo, amb un disseny totalment optimitzat per a la seva disposició de pantalla.</string>
+				<string>Exclou comptes individuals del càlcul del patrimoni net. Els comptes continuen disponibles per a les transaccions.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Reembossaments</string>
-				<key>Description</key>
-				<string>Ara pots crear reembossaments directament a partir de transaccions existents amb un gest de lliscar o des del menú contextual.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Monedes favorites</string>
+				<string>Etiquetes per als beneficiaris</string>
 				<key>Description</key>
-				<string>Ara pots marcar monedes com a favorites per trobar-les encara més ràpidament a la llista de monedes.</string>
+				<string>Assigna etiquetes als beneficiaris perquè s’apliquin automàticament quan els seleccionis en una transacció.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Edició múltiple</string>
+				<string>Noves accions de Dreceres</string>
 				<key>Description</key>
-				<string>Quan edites diverses transaccions, pots seleccionar-les o desseleccionar-les totes alhora fàcilment. A més, als llibres de comptes compartits, pots canviar la persona assignada a diverses transaccions alhora.</string>
+				<string>Obtén llistes dels llibres de pressupost, comptes, categories, carpetes, beneficiaris i etiquetes existents a Dreceres d’Apple.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Noves opcions de filtratge</string>
-				<key>Description</key>
-				<string>La vista de filtres ara permet cercar fàcilment categories i altres elements, així com trobar específicament transaccions recurrents mitjançant la cerca global.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Altres millores</string>
-				<key>Description</key>
-				<string>Imports més llegibles, icones de categories al gràfic de sectors, cerca d’emojis, noves opcions de visualització de categories i etiquetes i una introducció a l’app més senzilla.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

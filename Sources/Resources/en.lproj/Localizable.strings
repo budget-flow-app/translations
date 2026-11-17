@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "No payees found";
 "no_payee_found_title" = "No payee found";
+"no_tag_found_title" = "No tag found";
 "no_payees_found_message" = "Click the \"+\" button to add a new payee.";
 "no_payees_found_button_title" = "New Payee";
 "payees_search_placeholder_message" = "Search by the name of a payee";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Folder";
 "category_entity_name" = "Category";
 "payee_entity_name" = "Payee";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Add";
 "open_category_name" = "Open";
 "show_category_name" = "Show";
+"get_category_name" = "Get";
 "search_category_name" = "Search";
 "create_category_name" = "Create";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Creates an account or returns an existing account with the same name.";
 "create_account_parameter_summary" = "Create account with ${name} in ${budgetBook}";
 "create_account_failed_title" = "Account could not be created";
-"create_category_group_title" = "Create folder";
-"create_category_group_description" = "Creates a folder or returns an existing folder with the same name.";
-"create_category_group_parameter_summary" = "Create folder with ${name} in ${budgetBook}";
-"create_category_group_failed_title" = "Folder could not be created";
 "create_category_title" = "Create category";
 "create_category_description" = "Creates a category or returns an existing category with the same name.";
 "create_category_parameter_summary" = "Create category with ${name} in ${categoryGroup} of ${budgetBook}";
 "create_category_failed_title" = "Category could not be created";
+"create_category_group_title" = "Create folder";
+"create_category_group_description" = "Creates a folder or returns an existing folder with the same name.";
+"create_category_group_parameter_summary" = "Create folder with ${name} in ${budgetBook}";
+"create_category_group_failed_title" = "Folder could not be created";
 "create_payee_title" = "Create payee";
 "create_payee_description" = "Creates a payee or returns an existing payee with the same name.";
 "create_payee_parameter_summary" = "Create payee with ${name} in ${budgetBook}";
 "create_payee_failed_title" = "Payee could not be created";
+
+/* Get */
+"get_budget_books_title" = "Get budget books";
+"get_budget_books_description" = "Returns all budget books.";
+"get_budget_books_parameter_summary" = "Get budget books";
+"get_accounts_title" = "Get accounts";
+"get_accounts_description" = "Returns all accounts in the selected budget book, including archived accounts.";
+"get_accounts_parameter_summary" = "Get accounts in ${budgetBook}";
+"get_categories_title" = "Get categories";
+"get_categories_description" = "Returns categories in the selected budget book, optionally filtered by folder.";
+"get_categories_parameter_summary" = "Get categories in ${budgetBook}";
+"get_category_groups_title" = "Get folders";
+"get_category_groups_description" = "Returns all folders in the selected budget book.";
+"get_category_groups_parameter_summary" = "Get folders in ${budgetBook}";
+"get_payees_title" = "Get payees";
+"get_payees_description" = "Returns all payees in the selected budget book.";
+"get_payees_parameter_summary" = "Get payees in ${budgetBook}";
+"get_tags_title" = "Get tags";
+"get_tags_description" = "Returns all tags in the selected budget book.";
+"get_tags_parameter_summary" = "Get tags in ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Search budget book";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Search account";
 "search_account_description" = "Search for a specific account by name.";
 "search_account_parameter_summary" = "Search account with ${name} in ${budgetBook}";
-"search_category_group_title" = "Search folder";
-"search_category_group_description" = "Search for a specific folder by name.";
-"search_category_group_parameter_summary" = "Search folder with ${name} in ${budgetBook}";
 "search_category_title" = "Search category";
 "search_category_description" = "Search for a specific category by name.";
 "search_category_parameter_summary" = "Search category with ${name} in ${categoryGroup} of ${budgetBook}";
+"search_category_group_title" = "Search folder";
+"search_category_group_description" = "Search for a specific folder by name.";
+"search_category_group_parameter_summary" = "Search folder with ${name} in ${budgetBook}";
 "search_payee_title" = "Search payee";
 "search_payee_description" = "Search for a specific payee by name.";
 "search_payee_parameter_summary" = "Search payee with ${name} in ${budgetBook}";
+"search_tag_title" = "Search tag";
+"search_tag_description" = "Search for a specific tag by name.";
+"search_tag_parameter_summary" = "Search tag with ${name} in ${budgetBook}";
 
 "name_parameter_title" = "Name";
 "name_parameter_dialog" = "What is the name?";

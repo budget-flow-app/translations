@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Оцените полностью обновлённое приложение с улучшенной производительностью и новыми возможностями для резервного копирования, возвратов и управления транзакциями.</string>
+		<string>В этой версии появились ежемесячные напоминания, дополнительные возможности экспорта и новые функции для счетов, получателей и быстрых команд.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Обновлённое приложение</string>
+				<string>Ежемесячные напоминания</string>
 				<key>Description</key>
-				<string>Приложение построено на совершенно новой архитектуре, которая обеспечивает более высокую производительность и новые анимации.</string>
+				<string>Пользовательские напоминания теперь могут повторяться ежемесячно в выбранные дни месяца или в определённый день недели.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Улучшенное резервное копирование</string>
+				<string>Расширенный экспорт CSV</string>
 				<key>Description</key>
-				<string>Механизм резервного копирования полностью переработан. На устройствах Apple теперь можно по желанию сохранять данные также в iCloud Drive.</string>
+				<string>Экспорт CSV теперь поддерживает фильтры и экспорт вложений по желанию, а также обзор, позволяющий определить, какие файлы относятся к каждой транзакции.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Поддержка iPhone Duo</string>
+				<string>Исключение счетов из чистой стоимости</string>
 				<key>Description</key>
-				<string>Добавлена поддержка iPhone Duo с интерфейсом, полностью адаптированным к особенностям его экрана.</string>
+				<string>Исключайте отдельные счета из расчёта чистой стоимости. Эти счета по-прежнему можно использовать для транзакций.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Возвраты</string>
-				<key>Description</key>
-				<string>Теперь можно создавать возвраты непосредственно на основе существующих транзакций с помощью смахивания или контекстного меню.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Избранные валюты</string>
+				<string>Теги для получателей</string>
 				<key>Description</key>
-				<string>Теперь валюты можно добавлять в избранное, чтобы ещё быстрее находить их в списке валют.</string>
+				<string>Назначайте получателям теги, которые будут автоматически применяться при выборе получателя в транзакции.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Массовое редактирование</string>
+				<string>Новые действия для быстрых команд</string>
 				<key>Description</key>
-				<string>При массовом редактировании можно удобно выбрать все транзакции или снять выделение со всех сразу. Кроме того, в общих бюджетных книгах можно одновременно изменить назначенного участника для нескольких транзакций.</string>
+				<string>Получайте списки существующих бюджетных книг, счетов, категорий, папок, получателей и тегов в приложении Apple «Команды».</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Новые параметры фильтрации</string>
-				<key>Description</key>
-				<string>В окне фильтров теперь можно легко искать категории и другие элементы, а глобальный поиск позволяет находить именно повторяющиеся транзакции.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Другие улучшения</string>
-				<key>Description</key>
-				<string>Более удобное отображение сумм, значки категорий на круговой диаграмме, поиск эмодзи, новые параметры отображения категорий и тегов, а также упрощённая первоначальная настройка.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

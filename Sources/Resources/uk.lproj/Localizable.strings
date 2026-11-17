@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Не знайдено одержувачів";
 "no_payee_found_title" = "Отримувача не знайдено";
+"no_tag_found_title" = "Тег не знайдено";
 "no_payees_found_message" = "Натисніть кнопку \"+\", щоб додати нового одержувача.";
 "no_payees_found_button_title" = "Новий одержувач";
 "payees_search_placeholder_message" = "Шукати за назвою одержувача";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Папка";
 "category_entity_name" = "Категорія";
 "payee_entity_name" = "Одержувач платежу";
+"tag_entity_name" = "Тег";
 
 /* Categories */
 "add_category_name" = "Додати";
 "open_category_name" = "Відкрити";
 "show_category_name" = "Показати";
+"get_category_name" = "Отримати";
 "search_category_name" = "Пошук";
 "create_category_name" = "Створити";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Створює рахунок або повертає наявний рахунок із тією самою назвою.";
 "create_account_parameter_summary" = "Створити рахунок з ${name} у ${budgetBook}";
 "create_account_failed_title" = "Не вдалося створити рахунок";
-"create_category_group_title" = "Створити папку";
-"create_category_group_description" = "Створює папку або повертає наявну папку з тією самою назвою.";
-"create_category_group_parameter_summary" = "Створити папку з ${name} у ${budgetBook}";
-"create_category_group_failed_title" = "Не вдалося створити папку";
 "create_category_title" = "Створити категорію";
 "create_category_description" = "Створює категорію або повертає наявну категорію з тією самою назвою.";
 "create_category_parameter_summary" = "Створити категорію з ${name} у ${categoryGroup} з ${budgetBook}";
 "create_category_failed_title" = "Не вдалося створити категорію";
+"create_category_group_title" = "Створити папку";
+"create_category_group_description" = "Створює папку або повертає наявну папку з тією самою назвою.";
+"create_category_group_parameter_summary" = "Створити папку з ${name} у ${budgetBook}";
+"create_category_group_failed_title" = "Не вдалося створити папку";
 "create_payee_title" = "Створити отримувача";
 "create_payee_description" = "Створює отримувача або повертає наявного отримувача із тією самою назвою.";
 "create_payee_parameter_summary" = "Створити отримувача з ${name} у ${budgetBook}";
 "create_payee_failed_title" = "Не вдалося створити отримувача";
+
+/* Get */
+"get_budget_books_title" = "Отримати бюджетні книги";
+"get_budget_books_description" = "Повертає всі бюджетні книги.";
+"get_budget_books_parameter_summary" = "Отримати бюджетні книги";
+"get_accounts_title" = "Отримати рахунки";
+"get_accounts_description" = "Повертає всі рахунки з вибраної бюджетної книги, зокрема архівовані рахунки.";
+"get_accounts_parameter_summary" = "Отримати рахунки з ${budgetBook}";
+"get_categories_title" = "Отримати категорії";
+"get_categories_description" = "Повертає категорії з вибраної бюджетної книги з можливістю фільтрації за папкою.";
+"get_categories_parameter_summary" = "Отримати категорії з ${budgetBook}";
+"get_category_groups_title" = "Отримати папки";
+"get_category_groups_description" = "Повертає всі папки з вибраної бюджетної книги.";
+"get_category_groups_parameter_summary" = "Отримати папки з ${budgetBook}";
+"get_payees_title" = "Отримати одержувачів платежів";
+"get_payees_description" = "Повертає всіх одержувачів платежів з вибраної бюджетної книги.";
+"get_payees_parameter_summary" = "Отримати одержувачів платежів з ${budgetBook}";
+"get_tags_title" = "Отримати теги";
+"get_tags_description" = "Повертає всі теги з вибраної бюджетної книги.";
+"get_tags_parameter_summary" = "Отримати теги з ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Шукати бюджетну книгу";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Шукати рахунок";
 "search_account_description" = "Шукати певний рахунок за назвою.";
 "search_account_parameter_summary" = "Шукати рахунок ${name} у ${budgetBook}";
-"search_category_group_title" = "Пошук папки";
-"search_category_group_description" = "Шукати певну папку за назвою.";
-"search_category_group_parameter_summary" = "Шукати папку з ${name} в ${budgetBook}";
 "search_category_title" = "Шукати категорію";
 "search_category_description" = "Шукати певну категорію за назвою.";
 "search_category_parameter_summary" = "Шукати категорію з ${name} у ${categoryGroup} ${budgetBook}";
+"search_category_group_title" = "Пошук папки";
+"search_category_group_description" = "Шукати певну папку за назвою.";
+"search_category_group_parameter_summary" = "Шукати папку з ${name} в ${budgetBook}";
 "search_payee_title" = "Шукати одержувача";
 "search_payee_description" = "Шукати певного одержувача за іменем.";
 "search_payee_parameter_summary" = "Шукати одержувача ${name} у ${budgetBook}";
+"search_tag_title" = "Знайти тег";
+"search_tag_description" = "Шукає певний тег за назвою.";
+"search_tag_parameter_summary" = "Знайти тег із назвою ${name} у ${budgetBook}";
 
 "name_parameter_title" = "Ім'я";
 "name_parameter_dialog" = "Яке ім'я?";

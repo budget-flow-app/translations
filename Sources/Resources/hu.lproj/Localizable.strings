@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nem található kedvezményezett";
 "no_payee_found_title" = "Nem található kedvezményezett";
+"no_tag_found_title" = "Nem található címke";
 "no_payees_found_message" = "Kattintson a \"+\" gombra új kedvezményezett hozzáadásához.";
 "no_payees_found_button_title" = "Új kedvezményezett";
 "payees_search_placeholder_message" = "Keresés a kedvezményezett neve alapján";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Mappa";
 "category_entity_name" = "Kategória";
 "payee_entity_name" = "Kedvezményezett";
+"tag_entity_name" = "Címke";
 
 /* Categories */
 "add_category_name" = "Hozzáadás";
 "open_category_name" = "Megnyitás";
 "show_category_name" = "Megjelenítés";
+"get_category_name" = "Lekérés";
 "search_category_name" = "Keresés";
 "create_category_name" = "Létrehozás";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Létrehoz egy számlát, vagy visszaad egy azonos nevű meglévő számlát.";
 "create_account_parameter_summary" = "Számla létrehozása ezzel: ${name}, itt: ${budgetBook}";
 "create_account_failed_title" = "A számlát nem sikerült létrehozni";
-"create_category_group_title" = "Mappa létrehozása";
-"create_category_group_description" = "Létrehoz egy mappát, vagy visszaad egy azonos nevű meglévő mappát.";
-"create_category_group_parameter_summary" = "Mappa létrehozása ezzel: ${name}, itt: ${budgetBook}";
-"create_category_group_failed_title" = "A mappát nem sikerült létrehozni";
 "create_category_title" = "Kategória létrehozása";
 "create_category_description" = "Létrehoz egy kategóriát, vagy visszaad egy azonos nevű meglévő kategóriát.";
 "create_category_parameter_summary" = "Kategória létrehozása ezzel: ${name}, ebben: ${categoryGroup}, itt: ${budgetBook}";
 "create_category_failed_title" = "A kategóriát nem sikerült létrehozni";
+"create_category_group_title" = "Mappa létrehozása";
+"create_category_group_description" = "Létrehoz egy mappát, vagy visszaad egy azonos nevű meglévő mappát.";
+"create_category_group_parameter_summary" = "Mappa létrehozása ezzel: ${name}, itt: ${budgetBook}";
+"create_category_group_failed_title" = "A mappát nem sikerült létrehozni";
 "create_payee_title" = "Kedvezményezett létrehozása";
 "create_payee_description" = "Létrehoz egy kedvezményezettet, vagy visszaad egy azonos nevű meglévő kedvezményezettet.";
 "create_payee_parameter_summary" = "Kedvezményezett létrehozása ezzel: ${name}, itt: ${budgetBook}";
 "create_payee_failed_title" = "A kedvezményezettet nem sikerült létrehozni";
+
+/* Get */
+"get_budget_books_title" = "Költségkeret könyvek lekérése";
+"get_budget_books_description" = "Visszaadja az összes költségkeret könyvet.";
+"get_budget_books_parameter_summary" = "Költségkeret könyvek lekérése";
+"get_accounts_title" = "Számlák lekérése";
+"get_accounts_description" = "Visszaadja a kiválasztott költségkeret könyv összes számláját, az archivált számlákat is beleértve.";
+"get_accounts_parameter_summary" = "Számlák lekérése innen: ${budgetBook}";
+"get_categories_title" = "Kategóriák lekérése";
+"get_categories_description" = "Visszaadja a kiválasztott költségkeret könyv kategóriáit, igény szerint mappára szűrve.";
+"get_categories_parameter_summary" = "Kategóriák lekérése innen: ${budgetBook}";
+"get_category_groups_title" = "Mappák lekérése";
+"get_category_groups_description" = "Visszaadja a kiválasztott költségkeret könyv összes mappáját.";
+"get_category_groups_parameter_summary" = "Mappák lekérése innen: ${budgetBook}";
+"get_payees_title" = "Kedvezményezettek lekérése";
+"get_payees_description" = "Visszaadja a kiválasztott költségkeret könyv összes kedvezményezettjét.";
+"get_payees_parameter_summary" = "Kedvezményezettek lekérése innen: ${budgetBook}";
+"get_tags_title" = "Címkék lekérése";
+"get_tags_description" = "Visszaadja a kiválasztott költségkeret könyv összes címkéjét.";
+"get_tags_parameter_summary" = "Címkék lekérése innen: ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Költségvetési könyv keresése";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Számla keresése";
 "search_account_description" = "Adott számla keresése név szerint.";
 "search_account_parameter_summary" = "Számla keresése a következővel: ${name} a ${budgetBook}-ban";
-"search_category_group_title" = "Mappa keresése";
-"search_category_group_description" = "Adott mappa keresése név szerint.";
-"search_category_group_parameter_summary" = "Mappa keresése a következővel: ${name} a ${budgetBook}-ban";
 "search_category_title" = "Kategória keresése";
 "search_category_description" = "Adott kategória keresése név alapján.";
 "search_category_parameter_summary" = "Keresési kategória a következővel: ${name} a ${budgetBook} ${categoryGroup}-ban";
+"search_category_group_title" = "Mappa keresése";
+"search_category_group_description" = "Adott mappa keresése név szerint.";
+"search_category_group_parameter_summary" = "Mappa keresése a következővel: ${name} a ${budgetBook}-ban";
 "search_payee_title" = "Kedvezményezett keresése";
 "search_payee_description" = "Adott kedvezményezett keresése név szerint.";
 "search_payee_parameter_summary" = "Kedvezményezett keresése a következővel: ${name} a ${budgetBook}-ban";
+"search_tag_title" = "Címke keresése";
+"search_tag_description" = "Megkeres egy adott címkét név alapján.";
+"search_tag_parameter_summary" = "${name} nevű címke keresése itt: ${budgetBook}";
 
 "name_parameter_title" = "Név";
 "name_parameter_dialog" = "Mi a név?";

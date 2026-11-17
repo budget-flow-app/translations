@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "No se encontraron beneficiarios";
 "no_payee_found_title" = "No se encontró ningún beneficiario";
+"no_tag_found_title" = "No se encontró ninguna etiqueta";
 "no_payees_found_message" = "Haga clic en el botón \"+\" para agregar un nuevo beneficiario.";
 "no_payees_found_button_title" = "Nuevo beneficiario";
 "payees_search_placeholder_message" = "Buscar por el nombre de un beneficiario";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Carpeta";
 "category_entity_name" = "Categoría";
 "payee_entity_name" = "Beneficiario";
+"tag_entity_name" = "Etiqueta";
 
 /* Categories */
 "add_category_name" = "Añadir";
 "open_category_name" = "Abrir";
 "show_category_name" = "Mostrar";
+"get_category_name" = "Obtener";
 "search_category_name" = "Buscar";
 "create_category_name" = "Crear";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Crea una cuenta o devuelve una cuenta existente con el mismo nombre.";
 "create_account_parameter_summary" = "Crear cuenta con ${name} en ${budgetBook}";
 "create_account_failed_title" = "No se pudo crear la cuenta";
-"create_category_group_title" = "Crear carpeta";
-"create_category_group_description" = "Crea una carpeta o devuelve una carpeta existente con el mismo nombre.";
-"create_category_group_parameter_summary" = "Crear carpeta con ${name} en ${budgetBook}";
-"create_category_group_failed_title" = "No se pudo crear la carpeta";
 "create_category_title" = "Crear categoría";
 "create_category_description" = "Crea una categoría o devuelve una categoría existente con el mismo nombre.";
 "create_category_parameter_summary" = "Crear categoría con ${name} en ${categoryGroup} de ${budgetBook}";
 "create_category_failed_title" = "No se pudo crear la categoría";
+"create_category_group_title" = "Crear carpeta";
+"create_category_group_description" = "Crea una carpeta o devuelve una carpeta existente con el mismo nombre.";
+"create_category_group_parameter_summary" = "Crear carpeta con ${name} en ${budgetBook}";
+"create_category_group_failed_title" = "No se pudo crear la carpeta";
 "create_payee_title" = "Crear beneficiario";
 "create_payee_description" = "Crea un beneficiario o devuelve un beneficiario existente con el mismo nombre.";
 "create_payee_parameter_summary" = "Crear beneficiario con ${name} en ${budgetBook}";
 "create_payee_failed_title" = "No se pudo crear el beneficiario";
+
+/* Get */
+"get_budget_books_title" = "Obtener libros de presupuesto";
+"get_budget_books_description" = "Devuelve todos los libros de presupuesto.";
+"get_budget_books_parameter_summary" = "Obtener libros de presupuesto";
+"get_accounts_title" = "Obtener cuentas";
+"get_accounts_description" = "Devuelve todas las cuentas del libro de presupuesto seleccionado, incluidas las cuentas archivadas.";
+"get_accounts_parameter_summary" = "Obtener cuentas de ${budgetBook}";
+"get_categories_title" = "Obtener categorías";
+"get_categories_description" = "Devuelve las categorías del libro de presupuesto seleccionado, con un filtro opcional por carpeta.";
+"get_categories_parameter_summary" = "Obtener categorías de ${budgetBook}";
+"get_category_groups_title" = "Obtener carpetas";
+"get_category_groups_description" = "Devuelve la lista de carpetas del libro de presupuesto seleccionado.";
+"get_category_groups_parameter_summary" = "Obtener carpetas de ${budgetBook}";
+"get_payees_title" = "Obtener beneficiarios";
+"get_payees_description" = "Devuelve la lista de beneficiarios del libro de presupuesto seleccionado.";
+"get_payees_parameter_summary" = "Obtener beneficiarios de ${budgetBook}";
+"get_tags_title" = "Obtener etiquetas";
+"get_tags_description" = "Devuelve la lista de etiquetas del libro de presupuesto seleccionado.";
+"get_tags_parameter_summary" = "Obtener etiquetas de ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Buscar libro de presupuestos";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Buscar cuenta";
 "search_account_description" = "Buscar una cuenta específica por su nombre";
 "search_account_parameter_summary" = "Buscar cuenta con ${name} en ${budgetBook}";
-"search_category_group_title" = "Buscar carpeta";
-"search_category_group_description" = "Buscar una carpeta específica por nombre";
-"search_category_group_parameter_summary" = "Buscar carpeta con ${name} en ${budgetBook}";
 "search_category_title" = "Buscar categoría";
 "search_category_description" = "Buscar una categoría específica por su nombre";
 "search_category_parameter_summary" = "Buscar categoría con ${name} en ${categoryGroup} de ${budgetBook}";
+"search_category_group_title" = "Buscar carpeta";
+"search_category_group_description" = "Buscar una carpeta específica por nombre";
+"search_category_group_parameter_summary" = "Buscar carpeta con ${name} en ${budgetBook}";
 "search_payee_title" = "Buscar beneficiario";
 "search_payee_description" = "Buscar un beneficiario específico por su nombre";
 "search_payee_parameter_summary" = "Buscar beneficiario con ${name} en ${budgetBook}";
+"search_tag_title" = "Buscar etiqueta";
+"search_tag_description" = "Busca una etiqueta específica por su nombre.";
+"search_tag_parameter_summary" = "Buscar etiqueta con ${name} en ${budgetBook}";
 
 "name_parameter_title" = "Nombre";
 "name_parameter_dialog" = "¿Cómo se llama?";

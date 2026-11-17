@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Odkrijte temeljito posodobljeno aplikacijo z boljšim delovanjem in novimi funkcijami za varnostne kopije, vračila in upravljanje transakcij.</string>
+		<string>Ta različica dodaja mesečne opomnike, več možnosti izvoza in nove funkcije za račune, prejemnike plačil in bližnjice.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Posodobljena aplikacija</string>
+				<string>Mesečni opomniki</string>
 				<key>Description</key>
-				<string>Aplikacija temelji na povsem novi arhitekturi, ki omogoča boljše delovanje in nove animacije.</string>
+				<string>Opomniki po meri se lahko zdaj ponavljajo mesečno na izbrane dni v mesecu ali na določen dan v tednu.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Izboljšane varnostne kopije</string>
+				<string>Izboljšan izvoz CSV</string>
 				<key>Description</key>
-				<string>Sistem varnostnega kopiranja je v celoti prenovljen in na napravah Apple po želji omogoča tudi shranjevanje podatkov v iCloud Drive.</string>
+				<string>Izvoz CSV zdaj podpira filtre in izbirni izvoz prilog skupaj s pregledom, ki datoteke povezuje s posameznimi transakcijami.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Podpora iPhone Duo</string>
+				<string>Izključitev računov iz čiste vrednosti</string>
 				<key>Description</key>
-				<string>Dodana je podpora za iPhone Duo z zasnovo, ki je v celoti prilagojena postavitvi njegovega zaslona.</string>
+				<string>Posamezne račune izključite iz izračuna čiste vrednosti. Računi ostanejo na voljo za transakcije.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Vračila</string>
-				<key>Description</key>
-				<string>Vračila lahko zdaj ustvarite neposredno iz obstoječih transakcij s podrsavanjem ali prek kontekstnega menija.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Priljubljene valute</string>
+				<string>Oznake za prejemnike plačil</string>
 				<key>Description</key>
-				<string>Valute lahko zdaj označite kot priljubljene, da jih še hitreje najdete na seznamu valut.</string>
+				<string>Prejemnikom plačil dodelite oznake, ki se samodejno uporabijo, ko prejemnika izberete v transakciji.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Množično urejanje</string>
+				<string>Nova dejanja za bližnjice</string>
 				<key>Description</key>
-				<string>Pri množičnem urejanju lahko preprosto izberete vse transakcije ali prekličete njihov izbor hkrati. V skupnih proračunskih knjigah lahko tudi spremenite dodeljeno osebo za več transakcij naenkrat.</string>
+				<string>Pridobite sezname obstoječih proračunskih knjig, računov, kategorij, map, prejemnikov plačil in oznak v aplikaciji Apple Bližnjice.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Nove možnosti filtriranja</string>
-				<key>Description</key>
-				<string>Pogled filtrov zdaj omogoča preprosto iskanje kategorij in drugih vnosov ter ciljno iskanje ponavljajočih se transakcij prek globalnega iskanja.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Druge izboljšave</string>
-				<key>Description</key>
-				<string>Bolj berljivi zneski, ikone kategorij v tortnem grafikonu, iskanje emodžijev, nove možnosti prikaza kategorij in oznak ter poenostavljena začetna nastavitev.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Tidak ada penerima yang ditemukan";
 "no_payee_found_title" = "Penerima pembayaran tidak ditemukan";
+"no_tag_found_title" = "Tag tidak ditemukan";
 "no_payees_found_message" = "Klik tombol \"+\" untuk menambahkan penerima baru.";
 "no_payees_found_button_title" = "Penerima Baru";
 "payees_search_placeholder_message" = "Cari berdasarkan nama penerima";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Folder";
 "category_entity_name" = "Kategori";
 "payee_entity_name" = "Penerima";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Tambahkan";
 "open_category_name" = "Buka";
 "show_category_name" = "Tampilkan";
+"get_category_name" = "Ambil";
 "search_category_name" = "Cari";
 "create_category_name" = "Buat";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Membuat akun atau mengembalikan akun yang sudah ada dengan nama yang sama.";
 "create_account_parameter_summary" = "Buat akun dengan ${name} di ${budgetBook}";
 "create_account_failed_title" = "Akun tidak dapat dibuat";
-"create_category_group_title" = "Buat folder";
-"create_category_group_description" = "Membuat folder atau mengembalikan folder yang sudah ada dengan nama yang sama.";
-"create_category_group_parameter_summary" = "Buat folder dengan ${name} di ${budgetBook}";
-"create_category_group_failed_title" = "Folder tidak dapat dibuat";
 "create_category_title" = "Buat kategori";
 "create_category_description" = "Membuat kategori atau mengembalikan kategori yang sudah ada dengan nama yang sama.";
 "create_category_parameter_summary" = "Buat kategori dengan ${name} di ${categoryGroup} dari ${budgetBook}";
 "create_category_failed_title" = "Kategori tidak dapat dibuat";
+"create_category_group_title" = "Buat folder";
+"create_category_group_description" = "Membuat folder atau mengembalikan folder yang sudah ada dengan nama yang sama.";
+"create_category_group_parameter_summary" = "Buat folder dengan ${name} di ${budgetBook}";
+"create_category_group_failed_title" = "Folder tidak dapat dibuat";
 "create_payee_title" = "Buat penerima pembayaran";
 "create_payee_description" = "Membuat penerima pembayaran atau mengembalikan penerima pembayaran yang sudah ada dengan nama yang sama.";
 "create_payee_parameter_summary" = "Buat penerima pembayaran dengan ${name} di ${budgetBook}";
 "create_payee_failed_title" = "Penerima pembayaran tidak dapat dibuat";
+
+/* Get */
+"get_budget_books_title" = "Ambil buku anggaran";
+"get_budget_books_description" = "Mengembalikan semua buku anggaran.";
+"get_budget_books_parameter_summary" = "Ambil buku anggaran";
+"get_accounts_title" = "Ambil akun";
+"get_accounts_description" = "Mengembalikan semua akun dalam buku anggaran yang dipilih, termasuk akun yang diarsipkan.";
+"get_accounts_parameter_summary" = "Ambil akun dari ${budgetBook}";
+"get_categories_title" = "Ambil kategori";
+"get_categories_description" = "Mengembalikan kategori dalam buku anggaran yang dipilih, dengan filter folder opsional.";
+"get_categories_parameter_summary" = "Ambil kategori dari ${budgetBook}";
+"get_category_groups_title" = "Ambil folder";
+"get_category_groups_description" = "Mengembalikan semua folder dalam buku anggaran yang dipilih.";
+"get_category_groups_parameter_summary" = "Ambil folder dari ${budgetBook}";
+"get_payees_title" = "Ambil penerima";
+"get_payees_description" = "Mengembalikan semua penerima dalam buku anggaran yang dipilih.";
+"get_payees_parameter_summary" = "Ambil penerima dari ${budgetBook}";
+"get_tags_title" = "Ambil tag";
+"get_tags_description" = "Mengembalikan semua tag dalam buku anggaran yang dipilih.";
+"get_tags_parameter_summary" = "Ambil tag dari ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Cari buku anggaran";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Cari akun";
 "search_account_description" = "Cari akun tertentu berdasarkan nama.";
 "search_account_parameter_summary" = "Cari akun dengan ${name} di ${budgetBook}";
-"search_category_group_title" = "Cari folder";
-"search_category_group_description" = "Cari folder tertentu berdasarkan nama.";
-"search_category_group_parameter_summary" = "Cari folder dengan ${name} di ${budgetBook}";
 "search_category_title" = "Cari kategori";
 "search_category_description" = "Cari kategori tertentu berdasarkan nama.";
 "search_category_parameter_summary" = "Cari kategori dengan ${name} di ${categoryGroup} dari ${budgetBook}";
+"search_category_group_title" = "Cari folder";
+"search_category_group_description" = "Cari folder tertentu berdasarkan nama.";
+"search_category_group_parameter_summary" = "Cari folder dengan ${name} di ${budgetBook}";
 "search_payee_title" = "Cari penerima";
 "search_payee_description" = "Cari penerima tertentu berdasarkan nama.";
 "search_payee_parameter_summary" = "Cari penerima dengan ${name} di ${budgetBook}";
+"search_tag_title" = "Cari tag";
+"search_tag_description" = "Mencari tag tertentu berdasarkan nama.";
+"search_tag_parameter_summary" = "Cari tag bernama ${name} di ${budgetBook}";
 
 "name_parameter_title" = "Nama";
 "name_parameter_dialog" = "Siapa namanya?";

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Không tìm thấy Người nhận";
 "no_payee_found_title" = "Không tìm thấy người nhận tiền";
+"no_tag_found_title" = "Không tìm thấy thẻ";
 "no_payees_found_message" = "Nhấp vào nút \"+\" để thêm Người nhận mới.";
 "no_payees_found_button_title" = "Người nhận mới";
 "payees_search_placeholder_message" = "Tìm kiếm theo tên Người nhận";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Nhóm";
 "category_entity_name" = "Danh mục";
 "payee_entity_name" = "Người nhận";
+"tag_entity_name" = "Thẻ";
 
 /* Categories */
 "add_category_name" = "Thêm";
 "open_category_name" = "Mở";
 "show_category_name" = "Hiển thị";
+"get_category_name" = "Lấy";
 "search_category_name" = "Tìm kiếm";
 "create_category_name" = "Tạo";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Tạo tài khoản hoặc trả về tài khoản hiện có cùng tên.";
 "create_account_parameter_summary" = "Tạo tài khoản với ${name} trong ${budgetBook}";
 "create_account_failed_title" = "Không thể tạo tài khoản";
-"create_category_group_title" = "Tạo thư mục";
-"create_category_group_description" = "Tạo thư mục hoặc trả về thư mục hiện có cùng tên.";
-"create_category_group_parameter_summary" = "Tạo thư mục với ${name} trong ${budgetBook}";
-"create_category_group_failed_title" = "Không thể tạo thư mục";
 "create_category_title" = "Tạo danh mục";
 "create_category_description" = "Tạo danh mục hoặc trả về danh mục hiện có cùng tên.";
 "create_category_parameter_summary" = "Tạo danh mục với ${name} trong ${categoryGroup} của ${budgetBook}";
 "create_category_failed_title" = "Không thể tạo danh mục";
+"create_category_group_title" = "Tạo thư mục";
+"create_category_group_description" = "Tạo thư mục hoặc trả về thư mục hiện có cùng tên.";
+"create_category_group_parameter_summary" = "Tạo thư mục với ${name} trong ${budgetBook}";
+"create_category_group_failed_title" = "Không thể tạo thư mục";
 "create_payee_title" = "Tạo người nhận tiền";
 "create_payee_description" = "Tạo người nhận tiền hoặc trả về người nhận tiền hiện có cùng tên.";
 "create_payee_parameter_summary" = "Tạo người nhận tiền với ${name} trong ${budgetBook}";
 "create_payee_failed_title" = "Không thể tạo người nhận tiền";
+
+/* Get */
+"get_budget_books_title" = "Lấy danh sách sổ ngân sách";
+"get_budget_books_description" = "Trả về tất cả sổ ngân sách.";
+"get_budget_books_parameter_summary" = "Lấy danh sách sổ ngân sách";
+"get_accounts_title" = "Lấy danh sách tài khoản";
+"get_accounts_description" = "Trả về tất cả tài khoản trong sổ ngân sách đã chọn, bao gồm các tài khoản đã lưu trữ.";
+"get_accounts_parameter_summary" = "Lấy danh sách tài khoản trong ${budgetBook}";
+"get_categories_title" = "Lấy danh sách danh mục";
+"get_categories_description" = "Trả về các danh mục trong sổ ngân sách đã chọn, có thể lọc theo nhóm.";
+"get_categories_parameter_summary" = "Lấy danh sách danh mục trong ${budgetBook}";
+"get_category_groups_title" = "Lấy danh sách nhóm";
+"get_category_groups_description" = "Trả về tất cả nhóm trong sổ ngân sách đã chọn.";
+"get_category_groups_parameter_summary" = "Lấy danh sách nhóm trong ${budgetBook}";
+"get_payees_title" = "Lấy danh sách người nhận";
+"get_payees_description" = "Trả về tất cả người nhận trong sổ ngân sách đã chọn.";
+"get_payees_parameter_summary" = "Lấy danh sách người nhận trong ${budgetBook}";
+"get_tags_title" = "Lấy danh sách thẻ";
+"get_tags_description" = "Trả về tất cả thẻ trong sổ ngân sách đã chọn.";
+"get_tags_parameter_summary" = "Lấy danh sách thẻ trong ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Tìm Sổ ngân sách";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Tìm Ví";
 "search_account_description" = "Tìm Ví cụ thể theo tên.";
 "search_account_parameter_summary" = "Tìm Ví với tên ${name} có trong ${budgetBook}";
-"search_category_group_title" = "Tìm Nhóm";
-"search_category_group_description" = "Tìm Nhóm cụ thể theo tên.";
-"search_category_group_parameter_summary" = "Tìm Nhóm với tên ${name} có trong ${budgetBook}";
 "search_category_title" = "Tìm Danh mục";
 "search_category_description" = "Tìm Danh mục cụ thể theo tên.";
 "search_category_parameter_summary" = "Tìm Danh mục với tên ${name} có trong ${categoryGroup} của ${budgetBook}";
+"search_category_group_title" = "Tìm Nhóm";
+"search_category_group_description" = "Tìm Nhóm cụ thể theo tên.";
+"search_category_group_parameter_summary" = "Tìm Nhóm với tên ${name} có trong ${budgetBook}";
 "search_payee_title" = "Tìm Người nhận";
 "search_payee_description" = "Tìm Người nhận cụ thể theo tên.";
 "search_payee_parameter_summary" = "Tìm Người nhận với tên ${name} có trong ${budgetBook}";
+"search_tag_title" = "Tìm thẻ";
+"search_tag_description" = "Tìm một thẻ cụ thể theo tên.";
+"search_tag_parameter_summary" = "Tìm thẻ có tên ${name} trong ${budgetBook}";
 
 "name_parameter_title" = "Tên";
 "name_parameter_dialog" = "Tên là gì?";

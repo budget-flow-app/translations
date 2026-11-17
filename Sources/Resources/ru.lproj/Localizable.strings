@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Получатели не найдены";
 "no_payee_found_title" = "Получатель не найден";
+"no_tag_found_title" = "Тег не найден";
 "no_payees_found_message" = "Нажмите кнопку \"+\", чтобы добавить нового получателя.";
 "no_payees_found_button_title" = "Новый получатель";
 "payees_search_placeholder_message" = "Поиск по имени получателя";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Группа";
 "category_entity_name" = "Категория";
 "payee_entity_name" = "Получатель";
+"tag_entity_name" = "Тег";
 
 /* Categories */
 "add_category_name" = "Добавить";
 "open_category_name" = "Открыть";
 "show_category_name" = "Показать";
+"get_category_name" = "Получить";
 "search_category_name" = "Поиск";
 "create_category_name" = "Создать";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Создаёт счёт или возвращает существующий счёт с тем же именем.";
 "create_account_parameter_summary" = "Создать счёт с ${name} в ${budgetBook}";
 "create_account_failed_title" = "Не удалось создать счёт";
-"create_category_group_title" = "Создать папку";
-"create_category_group_description" = "Создаёт папку или возвращает существующую папку с тем же именем.";
-"create_category_group_parameter_summary" = "Создать папку с ${name} в ${budgetBook}";
-"create_category_group_failed_title" = "Не удалось создать папку";
 "create_category_title" = "Создать категорию";
 "create_category_description" = "Создаёт категорию или возвращает существующую категорию с тем же именем.";
 "create_category_parameter_summary" = "Создать категорию с ${name} в ${categoryGroup} из ${budgetBook}";
 "create_category_failed_title" = "Не удалось создать категорию";
+"create_category_group_title" = "Создать папку";
+"create_category_group_description" = "Создаёт папку или возвращает существующую папку с тем же именем.";
+"create_category_group_parameter_summary" = "Создать папку с ${name} в ${budgetBook}";
+"create_category_group_failed_title" = "Не удалось создать папку";
 "create_payee_title" = "Создать получателя";
 "create_payee_description" = "Создаёт получателя или возвращает существующего получателя с тем же именем.";
 "create_payee_parameter_summary" = "Создать получателя с ${name} в ${budgetBook}";
 "create_payee_failed_title" = "Не удалось создать получателя";
+
+/* Get */
+"get_budget_books_title" = "Получить книги бюджета";
+"get_budget_books_description" = "Возвращает все книги бюджета.";
+"get_budget_books_parameter_summary" = "Получить книги бюджета";
+"get_accounts_title" = "Получить счета";
+"get_accounts_description" = "Возвращает все счета из выбранной книги бюджета, включая архивные счета.";
+"get_accounts_parameter_summary" = "Получить счета из ${budgetBook}";
+"get_categories_title" = "Получить категории";
+"get_categories_description" = "Возвращает категории из выбранной книги бюджета с возможностью фильтрации по группе.";
+"get_categories_parameter_summary" = "Получить категории из ${budgetBook}";
+"get_category_groups_title" = "Получить группы";
+"get_category_groups_description" = "Возвращает все группы из выбранной книги бюджета.";
+"get_category_groups_parameter_summary" = "Получить группы из ${budgetBook}";
+"get_payees_title" = "Получить получателей";
+"get_payees_description" = "Возвращает всех получателей из выбранной книги бюджета.";
+"get_payees_parameter_summary" = "Получить получателей из ${budgetBook}";
+"get_tags_title" = "Получить теги";
+"get_tags_description" = "Возвращает все теги из выбранной книги бюджета.";
+"get_tags_parameter_summary" = "Получить теги из ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Поиск книги бюджета";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Поиск счета";
 "search_account_description" = "Поиск определенного счета по имени";
 "search_account_parameter_summary" = "Найти счёт с ${name} в ${budgetBook}";
-"search_category_group_title" = "Поиск группы";
-"search_category_group_description" = "Поиск определенной группы по имени";
-"search_category_group_parameter_summary" = "Найти папку с ${name} в ${budgetBook}";
 "search_category_title" = "Поиск категории";
 "search_category_description" = "Поиск определенной категории по названию";
 "search_category_parameter_summary" = "Поиск категории с ${name} в ${categoryGroup} в ${budgetBook}";
+"search_category_group_title" = "Поиск группы";
+"search_category_group_description" = "Поиск определенной группы по имени";
+"search_category_group_parameter_summary" = "Найти папку с ${name} в ${budgetBook}";
 "search_payee_title" = "Поиск получателя";
 "search_payee_description" = "Поиск определенного получателя по имени";
 "search_payee_parameter_summary" = "Найти получателя по ${name} в ${budgetBook}";
+"search_tag_title" = "Найти тег";
+"search_tag_description" = "Ищет определённый тег по имени.";
+"search_tag_parameter_summary" = "Найти тег с именем ${name} в ${budgetBook}";
 
 "name_parameter_title" = "Имя";
 "name_parameter_dialog" = "Какое имя?";

@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Ingen betalingsmodtagere fundet";
 "no_payee_found_title" = "Ingen betalingsmodtager fundet";
+"no_tag_found_title" = "Intet tag fundet";
 "no_payees_found_message" = "Klik på \"+\" knappen for at tilføje en ny betalingsmodtager.";
 "no_payees_found_button_title" = "Ny betalingsmodtager";
 "payees_search_placeholder_message" = "Søg efter navnet på en betalingsmodtager";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Mappe";
 "category_entity_name" = "Kategori";
 "payee_entity_name" = "Betalingsmodtager";
+"tag_entity_name" = "Tag";
 
 /* Categories */
 "add_category_name" = "Tilføj";
 "open_category_name" = "Åben";
 "show_category_name" = "Vis";
+"get_category_name" = "Hent";
 "search_category_name" = "Søg";
 "create_category_name" = "Opret";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Opretter en konto eller returnerer en eksisterende konto med samme navn.";
 "create_account_parameter_summary" = "Opret konto med ${name} i ${budgetBook}";
 "create_account_failed_title" = "Konto kunne ikke oprettes";
-"create_category_group_title" = "Opret mappe";
-"create_category_group_description" = "Opretter en mappe eller returnerer en eksisterende mappe med samme navn.";
-"create_category_group_parameter_summary" = "Opret mappe med ${name} i ${budgetBook}";
-"create_category_group_failed_title" = "Mappe kunne ikke oprettes";
 "create_category_title" = "Opret kategori";
 "create_category_description" = "Opretter en kategori eller returnerer en eksisterende kategori med samme navn.";
 "create_category_parameter_summary" = "Opret kategori med ${name} i ${categoryGroup} fra ${budgetBook}";
 "create_category_failed_title" = "Kategori kunne ikke oprettes";
+"create_category_group_title" = "Opret mappe";
+"create_category_group_description" = "Opretter en mappe eller returnerer en eksisterende mappe med samme navn.";
+"create_category_group_parameter_summary" = "Opret mappe med ${name} i ${budgetBook}";
+"create_category_group_failed_title" = "Mappe kunne ikke oprettes";
 "create_payee_title" = "Opret betalingsmodtager";
 "create_payee_description" = "Opretter en betalingsmodtager eller returnerer en eksisterende betalingsmodtager med samme navn.";
 "create_payee_parameter_summary" = "Opret betalingsmodtager med ${name} i ${budgetBook}";
 "create_payee_failed_title" = "Betalingsmodtager kunne ikke oprettes";
+
+/* Get */
+"get_budget_books_title" = "Hent budgetbøger";
+"get_budget_books_description" = "Returnerer alle budgetbøger.";
+"get_budget_books_parameter_summary" = "Hent budgetbøger";
+"get_accounts_title" = "Hent konti";
+"get_accounts_description" = "Returnerer alle konti i den valgte budgetbog, inklusive arkiverede konti.";
+"get_accounts_parameter_summary" = "Hent konti fra ${budgetBook}";
+"get_categories_title" = "Hent kategorier";
+"get_categories_description" = "Returnerer kategorierne i den valgte budgetbog, eventuelt filtreret efter mappe.";
+"get_categories_parameter_summary" = "Hent kategorier fra ${budgetBook}";
+"get_category_groups_title" = "Hent mapper";
+"get_category_groups_description" = "Returnerer alle mapper i den valgte budgetbog.";
+"get_category_groups_parameter_summary" = "Hent mapper fra ${budgetBook}";
+"get_payees_title" = "Hent betalingsmodtagere";
+"get_payees_description" = "Returnerer alle betalingsmodtagere i den valgte budgetbog.";
+"get_payees_parameter_summary" = "Hent betalingsmodtagere fra ${budgetBook}";
+"get_tags_title" = "Hent tags";
+"get_tags_description" = "Returnerer alle tags i den valgte budgetbog.";
+"get_tags_parameter_summary" = "Hent tags fra ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Søg i budgetbog";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Søg konto";
 "search_account_description" = "Søg efter en specifik konto ved navn.";
 "search_account_parameter_summary" = "Søg konto med ${name} i ${budgetBook}";
-"search_category_group_title" = "Søg i mappe";
-"search_category_group_description" = "Søg efter en bestemt mappe ved navn.";
-"search_category_group_parameter_summary" = "Søg i mappe med ${name} i ${budgetBook}";
 "search_category_title" = "Søg efter kategori";
 "search_category_description" = "Søg efter en bestemt kategori ved navn.";
 "search_category_parameter_summary" = "Søg kategori med ${name} i ${categoryGroup} af ${budgetBook}";
+"search_category_group_title" = "Søg i mappe";
+"search_category_group_description" = "Søg efter en bestemt mappe ved navn.";
+"search_category_group_parameter_summary" = "Søg i mappe med ${name} i ${budgetBook}";
 "search_payee_title" = "Søg efter betalingsmodtager";
 "search_payee_description" = "Søg efter en bestemt betalingsmodtager ved navn.";
 "search_payee_parameter_summary" = "Søg efter betalingsmodtager med ${name} i ${budgetBook}";
+"search_tag_title" = "Søg efter tag";
+"search_tag_description" = "Søger efter et bestemt tag efter navn.";
+"search_tag_parameter_summary" = "Søg efter tag med ${name} i ${budgetBook}";
 
 "name_parameter_title" = "Navn";
 "name_parameter_dialog" = "Hvad er navnet?";

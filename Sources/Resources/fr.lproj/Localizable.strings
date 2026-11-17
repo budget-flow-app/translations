@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Aucun bénéficiaire trouvé";
 "no_payee_found_title" = "Aucun bénéficiaire trouvé";
+"no_tag_found_title" = "Aucune étiquette trouvée";
 "no_payees_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau bénéficiaire.";
 "no_payees_found_button_title" = "Nouveau bénéficiaire";
 "payees_search_placeholder_message" = "Rechercher par nom de bénéficiaire";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Dossier";
 "category_entity_name" = "Catégorie";
 "payee_entity_name" = "Bénéficiaire";
+"tag_entity_name" = "Étiquette";
 
 /* Categories */
 "add_category_name" = "Ajouter";
 "open_category_name" = "Ouvrir";
 "show_category_name" = "Afficher";
+"get_category_name" = "Obtenir";
 "search_category_name" = "Rechercher";
 "create_category_name" = "Créer";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Crée un compte ou renvoie un compte existant portant le même nom.";
 "create_account_parameter_summary" = "Créer un compte avec ${name} dans ${budgetBook}";
 "create_account_failed_title" = "Le compte n’a pas pu être créé";
-"create_category_group_title" = "Créer un dossier";
-"create_category_group_description" = "Crée un dossier ou renvoie un dossier existant portant le même nom.";
-"create_category_group_parameter_summary" = "Créer un dossier avec ${name} dans ${budgetBook}";
-"create_category_group_failed_title" = "Le dossier n’a pas pu être créé";
 "create_category_title" = "Créer une catégorie";
 "create_category_description" = "Crée une catégorie ou renvoie une catégorie existante portant le même nom.";
 "create_category_parameter_summary" = "Créer une catégorie avec ${name} dans ${categoryGroup} de ${budgetBook}";
 "create_category_failed_title" = "La catégorie n’a pas pu être créée";
+"create_category_group_title" = "Créer un dossier";
+"create_category_group_description" = "Crée un dossier ou renvoie un dossier existant portant le même nom.";
+"create_category_group_parameter_summary" = "Créer un dossier avec ${name} dans ${budgetBook}";
+"create_category_group_failed_title" = "Le dossier n’a pas pu être créé";
 "create_payee_title" = "Créer un bénéficiaire";
 "create_payee_description" = "Crée un bénéficiaire ou renvoie un bénéficiaire existant portant le même nom.";
 "create_payee_parameter_summary" = "Créer un bénéficiaire avec ${name} dans ${budgetBook}";
 "create_payee_failed_title" = "Le bénéficiaire n’a pas pu être créé";
+
+/* Get */
+"get_budget_books_title" = "Obtenir les livres budgétaires";
+"get_budget_books_description" = "Renvoie tous les livres budgétaires.";
+"get_budget_books_parameter_summary" = "Obtenir les livres budgétaires";
+"get_accounts_title" = "Obtenir les comptes";
+"get_accounts_description" = "Renvoie tous les comptes du livre budgétaire sélectionné, y compris les comptes archivés.";
+"get_accounts_parameter_summary" = "Obtenir les comptes de ${budgetBook}";
+"get_categories_title" = "Obtenir les catégories";
+"get_categories_description" = "Renvoie les catégories du livre budgétaire sélectionné, éventuellement filtrées par dossier.";
+"get_categories_parameter_summary" = "Obtenir les catégories de ${budgetBook}";
+"get_category_groups_title" = "Obtenir les dossiers";
+"get_category_groups_description" = "Renvoie les dossiers du livre budgétaire sélectionné.";
+"get_category_groups_parameter_summary" = "Obtenir les dossiers de ${budgetBook}";
+"get_payees_title" = "Obtenir les bénéficiaires";
+"get_payees_description" = "Renvoie les bénéficiaires du livre budgétaire sélectionné.";
+"get_payees_parameter_summary" = "Obtenir les bénéficiaires de ${budgetBook}";
+"get_tags_title" = "Obtenir les étiquettes";
+"get_tags_description" = "Renvoie les étiquettes du livre budgétaire sélectionné.";
+"get_tags_parameter_summary" = "Obtenir les étiquettes de ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Rechercher un livre budgétaire";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Rechercher un compte";
 "search_account_description" = "Rechercher un compte spécifique par son nom.";
 "search_account_parameter_summary" = "Rechercher le compte avec ${name} dans ${budgetBook}";
-"search_category_group_title" = "Rechercher un dossier";
-"search_category_group_description" = "Rechercher un dossier spécifique par son nom.";
-"search_category_group_parameter_summary" = "Rechercher le dossier avec ${name} dans ${budgetBook}";
 "search_category_title" = "Rechercher une catégorie";
 "search_category_description" = "Rechercher une catégorie spécifique par son nom.";
 "search_category_parameter_summary" = "Rechercher la catégorie avec ${name} dans ${categoryGroup} de ${budgetBook}";
+"search_category_group_title" = "Rechercher un dossier";
+"search_category_group_description" = "Rechercher un dossier spécifique par son nom.";
+"search_category_group_parameter_summary" = "Rechercher le dossier avec ${name} dans ${budgetBook}";
 "search_payee_title" = "Rechercher le bénéficiaire";
 "search_payee_description" = "Rechercher un bénéficiaire spécifique par son nom.";
 "search_payee_parameter_summary" = "Rechercher le bénéficiaire avec ${name} dans ${budgetBook}";
+"search_tag_title" = "Rechercher une étiquette";
+"search_tag_description" = "Recherche une étiquette spécifique par son nom.";
+"search_tag_parameter_summary" = "Rechercher une étiquette nommée ${name} dans ${budgetBook}";
 
 "name_parameter_title" = "Nom";
 "name_parameter_dialog" = "Quel est le nom ?";

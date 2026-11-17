@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Alacaklı bulunamadı";
 "no_payee_found_title" = "Alacaklı bulunamadı";
+"no_tag_found_title" = "Etiket bulunamadı";
 "no_payees_found_message" = "Yeni bir alacaklı eklemek için \"+\" düğmesini tıklayın.";
 "no_payees_found_button_title" = "Yeni Alacaklı";
 "payees_search_placeholder_message" = "Alacaklının adına göre arayın";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Klasör";
 "category_entity_name" = "Kategori";
 "payee_entity_name" = "Alacaklı";
+"tag_entity_name" = "Etiket";
 
 /* Categories */
 "add_category_name" = "Ekle";
 "open_category_name" = "Aç";
 "show_category_name" = "Göster";
+"get_category_name" = "Getir";
 "search_category_name" = "Ara";
 "create_category_name" = "Oluştur";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Hesap oluşturur veya aynı ada sahip mevcut hesabı döndürür.";
 "create_account_parameter_summary" = "${budgetBook} içinde ${name} ile hesap oluştur";
 "create_account_failed_title" = "Hesap oluşturulamadı";
-"create_category_group_title" = "Klasör oluştur";
-"create_category_group_description" = "Klasör oluşturur veya aynı ada sahip mevcut klasörü döndürür.";
-"create_category_group_parameter_summary" = "${budgetBook} içinde ${name} ile klasör oluştur";
-"create_category_group_failed_title" = "Klasör oluşturulamadı";
 "create_category_title" = "Kategori oluştur";
 "create_category_description" = "Kategori oluşturur veya aynı ada sahip mevcut kategoriyi döndürür.";
 "create_category_parameter_summary" = "${budgetBook} içindeki ${categoryGroup} içinde ${name} ile kategori oluştur";
 "create_category_failed_title" = "Kategori oluşturulamadı";
+"create_category_group_title" = "Klasör oluştur";
+"create_category_group_description" = "Klasör oluşturur veya aynı ada sahip mevcut klasörü döndürür.";
+"create_category_group_parameter_summary" = "${budgetBook} içinde ${name} ile klasör oluştur";
+"create_category_group_failed_title" = "Klasör oluşturulamadı";
 "create_payee_title" = "Alacaklı oluştur";
 "create_payee_description" = "Alacaklı oluşturur veya aynı ada sahip mevcut alacaklıyı döndürür.";
 "create_payee_parameter_summary" = "${budgetBook} içinde ${name} ile alacaklı oluştur";
 "create_payee_failed_title" = "Alacaklı oluşturulamadı";
+
+/* Get */
+"get_budget_books_title" = "Bütçe defterlerini getir";
+"get_budget_books_description" = "Tüm bütçe defterlerini döndürür.";
+"get_budget_books_parameter_summary" = "Bütçe defterlerini getir";
+"get_accounts_title" = "Hesapları getir";
+"get_accounts_description" = "Seçilen bütçe defterindeki tüm hesapları, arşivlenmiş hesaplar dahil olmak üzere döndürür.";
+"get_accounts_parameter_summary" = "${budgetBook} içindeki hesapları getir";
+"get_categories_title" = "Kategorileri getir";
+"get_categories_description" = "Seçilen bütçe defterindeki kategorileri, isteğe bağlı olarak klasöre göre filtreleyerek döndürür.";
+"get_categories_parameter_summary" = "${budgetBook} içindeki kategorileri getir";
+"get_category_groups_title" = "Klasörleri getir";
+"get_category_groups_description" = "Seçilen bütçe defterindeki tüm klasörleri döndürür.";
+"get_category_groups_parameter_summary" = "${budgetBook} içindeki klasörleri getir";
+"get_payees_title" = "Alacaklıları getir";
+"get_payees_description" = "Seçilen bütçe defterindeki tüm alacaklıları döndürür.";
+"get_payees_parameter_summary" = "${budgetBook} içindeki alacaklıları getir";
+"get_tags_title" = "Etiketleri getir";
+"get_tags_description" = "Seçilen bütçe defterindeki tüm etiketleri döndürür.";
+"get_tags_parameter_summary" = "${budgetBook} içindeki etiketleri getir";
 
 /* Search */
 "search_budget_book_title" = "Bütçe defterini arayın";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Hesap arayın";
 "search_account_description" = "Belirli bir hesabı ada göre arayın.";
 "search_account_parameter_summary" = "${budgetBook}'ta ${name} hesabını arayın";
-"search_category_group_title" = "Klasörde ara";
-"search_category_group_description" = "Belirli bir klasörü ada göre arayın.";
-"search_category_group_parameter_summary" = "${budgetBook}'ta ${name} içeren klasörü arayın";
 "search_category_title" = "Kategoride ara";
 "search_category_description" = "Belirli bir kategoriyi ada göre arayın.";
 "search_category_parameter_summary" = "${budgetBook} içindeki ${categoryGroup} içinde ${name} içeren kategoriyi arayın";
+"search_category_group_title" = "Klasörde ara";
+"search_category_group_description" = "Belirli bir klasörü ada göre arayın.";
+"search_category_group_parameter_summary" = "${budgetBook}'ta ${name} içeren klasörü arayın";
 "search_payee_title" = "Alacaklıyı ara";
 "search_payee_description" = "Belirli bir alacaklıyı ada göre arayın.";
 "search_payee_parameter_summary" = "${budgetBook}'ta ${name} ile alacaklıyı arayın";
+"search_tag_title" = "Etiket ara";
+"search_tag_description" = "Belirli bir etiketi adına göre arar.";
+"search_tag_parameter_summary" = "${budgetBook} içinde ${name} adlı etiketi ara";
 
 "name_parameter_title" = "Ad";
 "name_parameter_dialog" = "Ad nedir?";

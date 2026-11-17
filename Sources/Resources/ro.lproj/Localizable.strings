@@ -1435,6 +1435,7 @@
 
 "no_payees_found_title" = "Nu a fost găsit niciun beneficiar";
 "no_payee_found_title" = "Nu s-a găsit niciun beneficiar";
+"no_tag_found_title" = "Nu s-a găsit nicio etichetă";
 "no_payees_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un nou beneficiar.";
 "no_payees_found_button_title" = "Beneficiar nou";
 "payees_search_placeholder_message" = "Căutați după numele unui beneficiar";
@@ -2154,11 +2155,13 @@
 "category_group_entity_name" = "Folder";
 "category_entity_name" = "Categorie";
 "payee_entity_name" = "Beneficiar";
+"tag_entity_name" = "Etichetă";
 
 /* Categories */
 "add_category_name" = "Adăugați";
 "open_category_name" = "Deschide";
 "show_category_name" = "Afișați";
+"get_category_name" = "Obține";
 "search_category_name" = "Căutare";
 "create_category_name" = "Creează";
 
@@ -2171,18 +2174,38 @@
 "create_account_description" = "Creează un cont sau returnează un cont existent cu același nume.";
 "create_account_parameter_summary" = "Creează cont cu ${name} în ${budgetBook}";
 "create_account_failed_title" = "Contul nu a putut fi creat";
-"create_category_group_title" = "Creează dosar";
-"create_category_group_description" = "Creează un dosar sau returnează un dosar existent cu același nume.";
-"create_category_group_parameter_summary" = "Creează dosar cu ${name} în ${budgetBook}";
-"create_category_group_failed_title" = "Dosarul nu a putut fi creat";
 "create_category_title" = "Creează categorie";
 "create_category_description" = "Creează o categorie sau returnează o categorie existentă cu același nume.";
 "create_category_parameter_summary" = "Creează categorie cu ${name} în ${categoryGroup} din ${budgetBook}";
 "create_category_failed_title" = "Categoria nu a putut fi creată";
+"create_category_group_title" = "Creează dosar";
+"create_category_group_description" = "Creează un dosar sau returnează un dosar existent cu același nume.";
+"create_category_group_parameter_summary" = "Creează dosar cu ${name} în ${budgetBook}";
+"create_category_group_failed_title" = "Dosarul nu a putut fi creat";
 "create_payee_title" = "Creează beneficiar";
 "create_payee_description" = "Creează un beneficiar sau returnează un beneficiar existent cu același nume.";
 "create_payee_parameter_summary" = "Creează beneficiar cu ${name} în ${budgetBook}";
 "create_payee_failed_title" = "Beneficiarul nu a putut fi creat";
+
+/* Get */
+"get_budget_books_title" = "Obține cărțile bugetului";
+"get_budget_books_description" = "Returnează toate cărțile bugetului.";
+"get_budget_books_parameter_summary" = "Obține cărțile bugetului";
+"get_accounts_title" = "Obține conturile";
+"get_accounts_description" = "Returnează toate conturile din cartea bugetului selectată, inclusiv conturile arhivate.";
+"get_accounts_parameter_summary" = "Obține conturile din ${budgetBook}";
+"get_categories_title" = "Obține categoriile";
+"get_categories_description" = "Returnează categoriile din cartea bugetului selectată, cu filtrare opțională după folder.";
+"get_categories_parameter_summary" = "Obține categoriile din ${budgetBook}";
+"get_category_groups_title" = "Obține folderele";
+"get_category_groups_description" = "Returnează lista cu folderele din cartea bugetului selectată.";
+"get_category_groups_parameter_summary" = "Obține folderele din ${budgetBook}";
+"get_payees_title" = "Obține beneficiarii";
+"get_payees_description" = "Returnează lista cu beneficiarii din cartea bugetului selectată.";
+"get_payees_parameter_summary" = "Obține beneficiarii din ${budgetBook}";
+"get_tags_title" = "Obține etichetele";
+"get_tags_description" = "Returnează lista cu etichetele din cartea bugetului selectată.";
+"get_tags_parameter_summary" = "Obține etichetele din ${budgetBook}";
 
 /* Search */
 "search_budget_book_title" = "Căutați cartea bugetului";
@@ -2191,15 +2214,18 @@
 "search_account_title" = "Căutați contul";
 "search_account_description" = "Căutați un anumit cont după nume.";
 "search_account_parameter_summary" = "Căutați contul cu ${name} în ${budgetBook}";
-"search_category_group_title" = "Căutați folderul";
-"search_category_group_description" = "Căutați un anumit folder după nume.";
-"search_category_group_parameter_summary" = "Căutați folderul cu ${name} în ${budgetBook}";
 "search_category_title" = "Căutare categorie";
 "search_category_description" = "Căutați o anumită categorie după nume.";
 "search_category_parameter_summary" = "Căutați categoria cu ${name} în ${categoryGroup} din ${budgetBook}";
+"search_category_group_title" = "Căutați folderul";
+"search_category_group_description" = "Căutați un anumit folder după nume.";
+"search_category_group_parameter_summary" = "Căutați folderul cu ${name} în ${budgetBook}";
 "search_payee_title" = "Căutați beneficiarul";
 "search_payee_description" = "Căutați un anumit beneficiar după nume.";
 "search_payee_parameter_summary" = "Căutați beneficiarul cu ${name} în ${budgetBook}";
+"search_tag_title" = "Caută etichetă";
+"search_tag_description" = "Caută o anumită etichetă după nume.";
+"search_tag_parameter_summary" = "Caută eticheta cu numele ${name} în ${budgetBook}";
 
 "name_parameter_title" = "Nume";
 "name_parameter_dialog" = "Care este numele?";

@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>体验全面焕新的 App，享受更出色的性能，以及备份、退款和交易管理方面的新功能。</string>
+		<string>此版本新增每月提醒、更多导出选项，以及账户、收款人和快捷指令的新功能。</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>全面焕新的 App</string>
+				<string>每月提醒</string>
 				<key>Description</key>
-				<string>App 采用全新架构，带来更出色的性能和全新的动画效果。</string>
+				<string>自定义提醒现在可以在每月选定的日期或特定星期几重复。</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>改进的备份功能</string>
+				<string>增强的 CSV 导出</string>
 				<key>Description</key>
-				<string>备份机制经过全面重新设计，在 Apple 设备上还可选择将数据备份至 iCloud Drive。</string>
+				<string>CSV 导出现在支持筛选，并可选择一并导出附件，还提供概览，方便查看每笔交易对应的文件。</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>iPhone Duo 支持</string>
+				<string>从净资产中排除账户</string>
 				<key>Description</key>
-				<string>新增对 iPhone Duo 的支持，并针对其屏幕布局全面优化设计。</string>
+				<string>将指定账户从净资产计算中排除。这些账户仍可正常用于交易。</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>退款</string>
-				<key>Description</key>
-				<string>现在可以通过轻扫手势或上下文菜单，直接从现有交易创建退款交易。</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>收藏货币</string>
+				<string>收款人标签</string>
 				<key>Description</key>
-				<string>现在可以将货币标记为收藏，以便在货币列表中更快找到。</string>
+				<string>为收款人分配标签，在交易中选择该收款人时即可自动应用。</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>批量编辑</string>
+				<string>新的快捷指令操作</string>
 				<key>Description</key>
-				<string>批量编辑时，可以轻松一次选中或取消选中所有交易。此外，在共享账本中，还可以同时更改多笔交易的指定人员。</string>
+				<string>在 Apple 快捷指令中，以列表形式获取现有的账本、账户、类别、文件夹、收款人和标签。</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>新增筛选选项</string>
-				<key>Description</key>
-				<string>现在可以在筛选视图中轻松搜索类别和其他条目，并通过全局搜索专门查找重复交易。</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>其他改进</string>
-				<key>Description</key>
-				<string>金额显示更加清晰易读，饼图中新增类别图标，并带来表情符号搜索、类别和标签的新显示选项，以及更简洁的初始设置流程。</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Scopri un’app rinnovata a fondo, con prestazioni migliori e nuove funzioni per i backup, i rimborsi e la gestione delle tue transazioni.</string>
+		<string>Questa versione aggiunge promemoria mensili, ulteriori opzioni di esportazione e nuove funzioni per conti, beneficiari e Comandi Rapidi.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>App rinnovata</string>
+				<string>Promemoria mensili</string>
 				<key>Description</key>
-				<string>L’app si basa su un’architettura completamente nuova, che offre prestazioni migliori e nuove animazioni.</string>
+				<string>I promemoria personalizzati ora possono ripetersi mensilmente in determinati giorni del mese o in uno specifico giorno della settimana.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Backup riprogettati</string>
+				<string>Esportazione CSV migliorata</string>
 				<key>Description</key>
-				<string>Il sistema di backup è stato completamente riprogettato e, sui dispositivi Apple, consente di salvare i dati anche su iCloud Drive, se lo desideri.</string>
+				<string>L’esportazione CSV ora supporta filtri e l’esportazione facoltativa degli allegati, con un riepilogo che associa i file alle rispettive transazioni.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Supporto iPhone Duo</string>
+				<string>Escludi conti dal patrimonio netto</string>
 				<key>Description</key>
-				<string>È stato aggiunto il supporto per iPhone Duo, con un design completamente ottimizzato per il suo layout.</string>
+				<string>Escludi singoli conti dal calcolo del patrimonio netto. I conti rimangono disponibili per le transazioni.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Rimborsi</string>
-				<key>Description</key>
-				<string>Ora puoi creare rimborsi direttamente dalle transazioni esistenti, con un gesto di scorrimento o dal menu contestuale.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Valute preferite</string>
+				<string>Tag per i beneficiari</string>
 				<key>Description</key>
-				<string>Ora puoi contrassegnare le valute come preferite per ritrovarle ancora più velocemente nell’elenco delle valute.</string>
+				<string>Assegna tag ai beneficiari per applicarli automaticamente quando li selezioni in una transazione.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Modifica multipla</string>
+				<string>Nuove azioni di Comandi Rapidi</string>
 				<key>Description</key>
-				<string>Quando modifichi più transazioni, puoi selezionarle o deselezionarle tutte insieme con facilità. Inoltre, nei libri contabili condivisi, puoi cambiare la persona assegnata a più transazioni contemporaneamente.</string>
+				<string>Ottieni elenchi dei libri di bilancio, conti, categorie, cartelle, beneficiari e tag esistenti in Comandi Rapidi di Apple.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Nuove opzioni di filtro</string>
-				<key>Description</key>
-				<string>La vista dei filtri ora consente di cercare facilmente categorie e altre voci, oltre a trovare in modo mirato le transazioni ricorrenti tramite la ricerca globale.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Altri miglioramenti</string>
-				<key>Description</key>
-				<string>Importi più leggibili, icone delle categorie nel grafico a torta, ricerca di emoji, nuove opzioni di visualizzazione per categorie e tag e un’introduzione all’app più semplice.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>
