@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Hãy trải nghiệm ứng dụng được hiện đại hóa toàn diện với hiệu năng tốt hơn cùng các tính năng mới để sao lưu, hoàn tiền và quản lý giao dịch của bạn.</string>
+		<string>Phiên bản này bổ sung lời nhắc hằng tháng, thêm tùy chọn xuất và các tính năng mới cho tài khoản, người nhận và Phím tắt.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Ứng dụng được hiện đại hóa</string>
+				<string>Lời nhắc hằng tháng</string>
 				<key>Description</key>
-				<string>Ứng dụng sử dụng kiến trúc hoàn toàn mới, mang lại hiệu năng tốt hơn và các hiệu ứng chuyển động mới.</string>
+				<string>Lời nhắc tùy chỉnh giờ đây có thể lặp lại hằng tháng vào những ngày được chọn trong tháng hoặc một thứ cụ thể trong tuần.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Sao lưu được cải tiến</string>
+				<string>Xuất CSV nâng cao</string>
 				<key>Description</key>
-				<string>Cơ chế sao lưu đã được thiết kế lại hoàn toàn. Trên các thiết bị Apple, bạn còn có thể chọn sao lưu dữ liệu vào iCloud Drive.</string>
+				<string>Tính năng xuất CSV hiện hỗ trợ bộ lọc và tùy chọn xuất tệp đính kèm, cùng bản tổng quan cho biết tệp nào thuộc về từng giao dịch.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Hỗ trợ iPhone Duo</string>
+				<string>Loại tài khoản khỏi giá trị ròng</string>
 				<key>Description</key>
-				<string>Đã bổ sung hỗ trợ iPhone Duo với thiết kế được tối ưu hóa hoàn toàn cho bố cục màn hình của thiết bị.</string>
+				<string>Loại từng tài khoản khỏi phép tính giá trị ròng. Các tài khoản này vẫn có thể được dùng cho giao dịch.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Hoàn tiền</string>
-				<key>Description</key>
-				<string>Giờ đây, bạn có thể tạo giao dịch hoàn tiền trực tiếp từ các giao dịch hiện có bằng cử chỉ vuốt hoặc thông qua menu ngữ cảnh.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Tiền tệ yêu thích</string>
+				<string>Thẻ cho người nhận</string>
 				<key>Description</key>
-				<string>Giờ đây, bạn có thể đánh dấu các loại tiền tệ là yêu thích để tìm thấy nhanh hơn trong danh sách tiền tệ.</string>
+				<string>Gán thẻ cho người nhận để thẻ được áp dụng tự động khi bạn chọn người nhận trong một giao dịch.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Chỉnh sửa hàng loạt</string>
+				<string>Tác vụ Phím tắt mới</string>
 				<key>Description</key>
-				<string>Khi chỉnh sửa hàng loạt, bạn có thể dễ dàng chọn hoặc bỏ chọn tất cả giao dịch cùng lúc. Ngoài ra, trong các sổ thu chi dùng chung, bạn có thể thay đổi người được chỉ định cho nhiều giao dịch cùng lúc.</string>
+				<string>Lấy danh sách sổ ngân sách, tài khoản, danh mục, thư mục, người nhận và thẻ hiện có trong ứng dụng Phím tắt của Apple.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Tùy chọn lọc mới</string>
-				<key>Description</key>
-				<string>Giao diện bộ lọc giờ đây giúp bạn dễ dàng tìm kiếm danh mục và các mục khác, đồng thời tìm riêng các giao dịch định kỳ thông qua tính năng tìm kiếm toàn cục.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Các cải tiến khác</string>
-				<key>Description</key>
-				<string>Số tiền dễ đọc hơn, biểu tượng danh mục trong biểu đồ tròn, tìm kiếm biểu tượng cảm xúc, tùy chọn hiển thị mới cho danh mục và thẻ, cùng quy trình thiết lập ban đầu đơn giản hơn.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

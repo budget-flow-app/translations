@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Nikmati aplikasi yang dimodernisasi secara menyeluruh dengan performa lebih baik dan fitur baru untuk pencadangan, pengembalian dana, serta pengelolaan transaksi Anda.</string>
+		<string>Versi ini menambahkan pengingat bulanan, lebih banyak opsi ekspor, serta fitur baru untuk akun, penerima, dan Pintasan.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>Aplikasi yang dimodernisasi</string>
+				<string>Pengingat Bulanan</string>
 				<key>Description</key>
-				<string>Aplikasi kini menggunakan arsitektur yang sepenuhnya baru, sehingga menawarkan performa lebih baik dan animasi baru.</string>
+				<string>Pengingat khusus kini dapat diulang setiap bulan pada tanggal yang dipilih atau hari tertentu dalam minggu.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Pencadangan yang disempurnakan</string>
+				<string>Ekspor CSV yang Disempurnakan</string>
 				<key>Description</key>
-				<string>Mekanisme pencadangan telah dirancang ulang sepenuhnya. Di perangkat Apple, Anda kini juga dapat memilih untuk mencadangkan data ke iCloud Drive.</string>
+				<string>Ekspor CSV kini mendukung filter dan ekspor lampiran opsional, disertai ringkasan yang menunjukkan file milik setiap transaksi.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Dukungan iPhone Duo</string>
+				<string>Kecualikan Akun dari Kekayaan Bersih</string>
 				<key>Description</key>
-				<string>Dukungan untuk iPhone Duo telah ditambahkan, lengkap dengan desain yang sepenuhnya dioptimalkan untuk tata letaknya.</string>
+				<string>Kecualikan akun tertentu dari perhitungan kekayaan bersih. Akun tersebut tetap dapat digunakan untuk transaksi.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Pengembalian dana</string>
-				<key>Description</key>
-				<string>Pengembalian dana kini dapat dibuat langsung dari transaksi yang sudah ada, baik dengan gerakan usap maupun melalui menu konteks.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Mata uang favorit</string>
+				<string>Tag untuk Penerima</string>
 				<key>Description</key>
-				<string>Mata uang kini dapat ditandai sebagai favorit agar lebih cepat ditemukan dalam daftar mata uang.</string>
+				<string>Tetapkan tag pada penerima agar diterapkan secara otomatis saat Anda memilih penerima dalam transaksi.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Pengeditan massal</string>
+				<string>Tindakan Pintasan Baru</string>
 				<key>Description</key>
-				<string>Saat mengedit beberapa transaksi, Anda dapat dengan mudah memilih atau membatalkan pilihan semua transaksi sekaligus. Dalam buku anggaran bersama, Anda juga dapat mengubah orang yang ditetapkan untuk beberapa transaksi sekaligus.</string>
+				<string>Ambil buku anggaran, akun, kategori, folder, penerima, dan tag yang sudah ada sebagai daftar di Pintasan Apple.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Opsi filter baru</string>
-				<key>Description</key>
-				<string>Tampilan filter kini memudahkan pencarian kategori dan entri lainnya, serta memungkinkan Anda menemukan transaksi berulang secara khusus melalui pencarian global.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Peningkatan lainnya</string>
-				<key>Description</key>
-				<string>Nominal yang lebih mudah dibaca, ikon kategori pada diagram lingkaran, pencarian emoji, opsi tampilan baru untuk kategori dan tag, serta proses penyiapan awal yang lebih sederhana.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

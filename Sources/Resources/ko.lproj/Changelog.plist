@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>더 나은 성능과 새로운 백업, 환불, 거래 관리 기능을 갖추고 근본적으로 새로워진 앱을 경험해 보세요.</string>
+		<string>이번 버전에서는 월간 미리 알림, 추가 내보내기 옵션, 계좌와 수취인 및 단축어를 위한 새로운 기능을 제공합니다.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>새로워진 앱</string>
+				<string>월간 미리 알림</string>
 				<key>Description</key>
-				<string>완전히 새로운 아키텍처를 기반으로 더 나은 성능과 새로운 애니메이션을 제공합니다.</string>
+				<string>사용자 지정 미리 알림이 매월 선택한 날짜 또는 특정 요일에 반복되도록 설정할 수 있습니다.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>개선된 백업</string>
+				<string>향상된 CSV 내보내기</string>
 				<key>Description</key>
-				<string>백업 방식을 완전히 새롭게 설계했습니다. Apple 기기에서는 원하는 경우 iCloud Drive에도 데이터를 백업할 수 있습니다.</string>
+				<string>이제 CSV 내보내기에서 필터를 사용할 수 있으며, 원하는 경우 첨부 파일도 함께 내보낼 수 있습니다. 각 거래에 연결된 파일을 보여 주는 개요도 포함됩니다.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>iPhone Duo 지원</string>
+				<string>순자산에서 계좌 제외</string>
 				<key>Description</key>
-				<string>iPhone Duo 지원을 추가했으며, 화면 레이아웃에 맞춰 디자인을 완전히 최적화했습니다.</string>
+				<string>특정 계좌를 순자산 계산에서 제외할 수 있습니다. 해당 계좌는 거래에 계속 사용할 수 있습니다.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>환불</string>
-				<key>Description</key>
-				<string>이제 기존 거래에서 쓸어넘기기 동작이나 컨텍스트 메뉴를 통해 바로 환불 거래를 만들 수 있습니다.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>즐겨찾는 통화</string>
+				<string>수취인 태그</string>
 				<key>Description</key>
-				<string>이제 통화를 즐겨찾기로 표시하여 통화 목록에서 더 빠르게 찾을 수 있습니다.</string>
+				<string>수취인에게 태그를 지정하면 거래에서 해당 수취인을 선택할 때 태그가 자동으로 적용됩니다.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>일괄 편집</string>
+				<string>새로운 단축어 동작</string>
 				<key>Description</key>
-				<string>일괄 편집 시 모든 거래를 한 번에 간편하게 선택하거나 선택 해제할 수 있습니다. 또한 공유 가계부에서 여러 거래에 지정된 사람을 동시에 변경할 수 있습니다.</string>
+				<string>Apple 단축어에서 기존 가계부, 계좌, 카테고리, 폴더, 수취인 및 태그를 목록으로 가져올 수 있습니다.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>새로운 필터 옵션</string>
-				<key>Description</key>
-				<string>이제 필터 화면에서 카테고리와 기타 항목을 쉽게 검색할 수 있으며, 전체 검색으로 반복 거래를 따로 찾아볼 수 있습니다.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>기타 개선 사항</string>
-				<key>Description</key>
-				<string>금액의 가독성 개선, 원형 차트의 카테고리 아이콘, 이모티콘 검색, 카테고리 및 태그의 새로운 표시 옵션, 간소화된 초기 설정을 제공합니다.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>

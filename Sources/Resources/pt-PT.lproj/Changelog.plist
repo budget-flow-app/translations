@@ -2,91 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>4.0.0</key>
+	<key>4.1.0</key>
 	<dict>
 		<key>Summary</key>
-		<string>Uma app totalmente modernizada, com melhor desempenho e novas funcionalidades de cópias de segurança, reembolsos e gestão de transações.</string>
+		<string>Esta versão adiciona lembretes mensais, mais opções de exportação e novas funcionalidades para contas, beneficiários e Atalhos.</string>
 		<key>Items</key>
 		<array>
 			<dict>
 				<key>Title</key>
-				<string>App modernizada</string>
+				<string>Lembretes mensais</string>
 				<key>Description</key>
-				<string>A app assenta numa arquitetura totalmente nova, que oferece melhor desempenho e novas animações.</string>
+				<string>Os lembretes personalizados podem agora repetir-se mensalmente em dias selecionados do mês ou num dia específico da semana.</string>
 				<key>IconName</key>
-				<string>gauge.open.with.lines.needle.67percent.and.arrowtriangle</string>
+				<string>calendar.badge.clock</string>
 				<key>IconColor</key>
 				<string>#FF3D2F</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Cópias de segurança melhoradas</string>
+				<string>Exportação CSV melhorada</string>
 				<key>Description</key>
-				<string>O sistema de cópias de segurança foi totalmente reformulado e, nos dispositivos Apple, permite agora guardar os dados também no iCloud Drive, se pretendido.</string>
+				<string>A exportação CSV passa a suportar filtros e a exportação opcional de anexos, com uma vista geral que associa os ficheiros às respetivas transações.</string>
 				<key>IconName</key>
-				<string>externaldrive</string>
+				<string>arrow.up.doc</string>
 				<key>IconColor</key>
 				<string>#007AFF</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Suporte iPhone Duo</string>
+				<string>Excluir contas do património líquido</string>
 				<key>Description</key>
-				<string>Foi adicionado suporte para o iPhone Duo, com um design totalmente otimizado para a disposição do ecrã deste dispositivo.</string>
+				<string>Exclui contas individuais do cálculo do património líquido. As contas continuam disponíveis para transações.</string>
 				<key>IconName</key>
-				<string>rectangle.split.2x1</string>
-				<key>IconColor</key>
-				<string>#C05AF2</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Reembolsos</string>
-				<key>Description</key>
-				<string>Agora é possível criar reembolsos diretamente a partir de transações existentes, com um gesto de passar o dedo ou através do menu de contexto.</string>
-				<key>IconName</key>
-				<string>arrow.uturn.backward</string>
+				<string>chart.line.uptrend.xyaxis</string>
 				<key>IconColor</key>
 				<string>#35C759</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Moedas favoritas</string>
+				<string>Etiquetas para beneficiários</string>
 				<key>Description</key>
-				<string>Agora é possível marcar moedas como favoritas para as encontrar ainda mais rapidamente na lista de moedas.</string>
+				<string>Atribui etiquetas aos beneficiários para que sejam aplicadas automaticamente ao selecioná-los numa transação.</string>
 				<key>IconName</key>
-				<string>star</string>
+				<string>number</string>
 				<key>IconColor</key>
 				<string>#FF9500</string>
 			</dict>
 			<dict>
 				<key>Title</key>
-				<string>Edição em lote</string>
+				<string>Novas ações de Atalhos</string>
 				<key>Description</key>
-				<string>Na edição em lote, é possível selecionar ou desmarcar todas as transações de uma só vez. Nos livros de orçamento partilhados, também é possível alterar a pessoa atribuída a várias transações em simultâneo.</string>
+				<string>Obtém listas dos livros de orçamento, contas, categorias, pastas, beneficiários e etiquetas existentes na app Atalhos da Apple.</string>
 				<key>IconName</key>
-				<string>checklist</string>
-				<key>IconColor</key>
-				<string>#FF2E55</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Novas opções de filtro</string>
-				<key>Description</key>
-				<string>A vista de filtros permite agora pesquisar facilmente categorias e outros elementos, bem como encontrar especificamente transações recorrentes através da pesquisa global.</string>
-				<key>IconName</key>
-				<string>line.horizontal.3.decrease</string>
+				<string>bolt</string>
 				<key>IconColor</key>
 				<string>#5957D5</string>
-			</dict>
-			<dict>
-				<key>Title</key>
-				<string>Outras melhorias</string>
-				<key>Description</key>
-				<string>Montantes mais fáceis de ler, ícones de categorias no gráfico circular, pesquisa de emojis, novas opções de apresentação de categorias e etiquetas e uma configuração inicial simplificada.</string>
-				<key>IconName</key>
-				<string>gearshape</string>
-				<key>IconColor</key>
-				<string>#8E8E93</string>
 			</dict>
 		</array>
 	</dict>
