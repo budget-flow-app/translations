@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Előrejelzés";
 "account_balance_title" = "Egyenleg";
+"account_balances_title" = "Egyenlegek";
 "not_enough_data_title" = "Nincs elég adat";
 
 

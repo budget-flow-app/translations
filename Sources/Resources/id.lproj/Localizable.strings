@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Perkiraan";
 "account_balance_title" = "Saldo";
+"account_balances_title" = "Saldo";
 "not_enough_data_title" = "Data tidak cukup";
 
 

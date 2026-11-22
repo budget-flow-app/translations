@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "예측";
 "account_balance_title" = "잔고";
+"account_balances_title" = "잔고";
 "not_enough_data_title" = "데이터가 충분하지 않아요";
 
 

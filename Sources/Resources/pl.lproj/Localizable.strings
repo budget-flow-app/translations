@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Prognoza";
 "account_balance_title" = "Saldo";
+"account_balances_title" = "Salda";
 "not_enough_data_title" = "Za mało danych";
 
 

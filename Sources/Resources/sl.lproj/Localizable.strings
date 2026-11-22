@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Napoved";
 "account_balance_title" = "Stanje";
+"account_balances_title" = "Stanja";
 "not_enough_data_title" = "Ni dovolj podatkov";
 
 
