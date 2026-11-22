@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "预测";
 "account_balance_title" = "余额";
+"account_balances_title" = "余额";
 "not_enough_data_title" = "数据不足";
 
 

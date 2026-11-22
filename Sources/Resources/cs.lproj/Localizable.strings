@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Prognóza";
 "account_balance_title" = "Zůstatek";
+"account_balances_title" = "Zůstatky";
 "not_enough_data_title" = "Nedostatek dat";
 
 

@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Ennuste";
 "account_balance_title" = "Saldo";
+"account_balances_title" = "Saldot";
 "not_enough_data_title" = "Tietoja ei ole tarpeeksi";
 
 

@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Dự báo";
 "account_balance_title" = "Số dư";
+"account_balances_title" = "Số dư";
 "not_enough_data_title" = "Không đủ dữ liệu";
 
 

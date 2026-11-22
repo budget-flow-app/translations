@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "พยากรณ์";
 "account_balance_title" = "ยอดคงเหลือ";
+"account_balances_title" = "ยอดคงเหลือ";
 "not_enough_data_title" = "ข้อมูลไม่เพียงพอ";
 
 

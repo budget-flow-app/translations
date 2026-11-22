@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "التوقعات";
 "account_balance_title" = "الرصيد";
+"account_balances_title" = "الأرصدة";
 "not_enough_data_title" = "لا توجد بيانات كافية";
 
 

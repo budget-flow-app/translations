@@ -531,6 +531,7 @@
 /* Titles */
 "account_forecast_title" = "Πρόβλεψη";
 "account_balance_title" = "Υπόλοιπο";
+"account_balances_title" = "Υπόλοιπα";
 "not_enough_data_title" = "Δεν υπάρχουν αρκετά δεδομένα";
 
 
