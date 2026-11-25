@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Strefa czasowa";
 "advanced_setting_enable_live_activities_title" = "Aktywności na żywo";
 "advanced_setting_enable_live_activities_description" = "Sprawdź swoje aktualne saldo i nie tylko na dynamicznej wyspie, a także na ekranie blokady.";
+"advanced_setting_show_new_features_title" = "Pokazuj nowości";
+"advanced_setting_show_new_features_description" = "Automatycznie pokazuj nowości po aktualizacji aplikacji.";
 "advanced_setting_ask_for_feedback_title" = "Prośba o opinię";
 "advanced_setting_ask_for_feedback_description" = "Pozwól aplikacji zapytać Cię czasem o opinię.";
 

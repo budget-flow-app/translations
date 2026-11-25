@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "时区";
 "advanced_setting_enable_live_activities_title" = "实时活动";
 "advanced_setting_enable_live_activities_description" = "启用此功能以在灵动岛和锁屏上查看您当前的余额等信息";
+"advanced_setting_show_new_features_title" = "显示新功能";
+"advanced_setting_show_new_features_description" = "应用更新后自动显示新功能。";
 "advanced_setting_ask_for_feedback_title" = "请求反馈";
 "advanced_setting_ask_for_feedback_description" = "启用此功能以允许应用偶尔向您请求反馈";
 

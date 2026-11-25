@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "タイムゾーン";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
+"advanced_setting_show_new_features_title" = "新機能を表示";
+"advanced_setting_show_new_features_description" = "アプリのアップデート後に新機能を自動的に表示します。";
 "advanced_setting_ask_for_feedback_title" = "フィードバックの要求";
 "advanced_setting_ask_for_feedback_description" = "アプリが時折フィードバックを要求できるようにするには、この機能を有効にします。";
 

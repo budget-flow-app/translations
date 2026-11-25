@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "เขตเวลา";
 "advanced_setting_enable_live_activities_title" = "กิจกรรมสด";
 "advanced_setting_enable_live_activities_description" = "ดูยอดคงเหลือปัจจุบันของคุณและอื่นๆ บนเกาะไดนามิกตลอดจนหน้าจอล็อค";
+"advanced_setting_show_new_features_title" = "แสดงฟีเจอร์ใหม่";
+"advanced_setting_show_new_features_description" = "แสดงฟีเจอร์ใหม่โดยอัตโนมัติหลังจากอัปเดตแอป";
 "advanced_setting_ask_for_feedback_title" = "ขอคำติชม";
 "advanced_setting_ask_for_feedback_description" = "อนุญาตให้แอปขอคำติชมจากคุณเป็นครั้งคราว";
 

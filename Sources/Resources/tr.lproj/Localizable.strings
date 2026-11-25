@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Zaman dilimi";
 "advanced_setting_enable_live_activities_title" = "Canlı Etkinlikler";
 "advanced_setting_enable_live_activities_description" = "Kilit ekranının yanı sıra dinamik adada mevcut bakiyenizi ve daha fazlasını görün.";
+"advanced_setting_show_new_features_title" = "Yeni Özellikleri Göster";
+"advanced_setting_show_new_features_description" = "Uygulama güncellemesinden sonra yenilikleri otomatik olarak göster.";
 "advanced_setting_ask_for_feedback_title" = "Geri Bildirim İste";
 "advanced_setting_ask_for_feedback_description" = "Uygulamanın ara sıra sizden geri bildirim istemesine izin verin.";
 

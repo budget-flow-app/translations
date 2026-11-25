@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Fuso horário";
 "advanced_setting_enable_live_activities_title" = "Atividades ao Vivo";
 "advanced_setting_enable_live_activities_description" = "Vê o teu saldo atual e muito mais na Ilha Dinâmica (Dynamic Island), bem como no ecrã de bloqueio.";
+"advanced_setting_show_new_features_title" = "Mostrar novidades";
+"advanced_setting_show_new_features_description" = "Mostrar automaticamente as novidades após uma atualização da aplicação.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar feedback";
 "advanced_setting_ask_for_feedback_description" = "Permitir que a aplicação peça feedback ocasionalmente.";
 

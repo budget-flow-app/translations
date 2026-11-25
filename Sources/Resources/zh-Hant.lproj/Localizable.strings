@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "時區";
 "advanced_setting_enable_live_activities_title" = "即時活動";
 "advanced_setting_enable_live_activities_description" = "啟用此功能以在靈動島和鎖定畫面上查看您目前的餘額等資訊";
+"advanced_setting_show_new_features_title" = "顯示新功能";
+"advanced_setting_show_new_features_description" = "App 更新後自動顯示新功能。";
 "advanced_setting_ask_for_feedback_title" = "請求回饋";
 "advanced_setting_ask_for_feedback_description" = "啟用此功能以允許應用程式偶爾向您要求回饋";
 

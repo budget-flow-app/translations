@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Часовий пояс";
 "advanced_setting_enable_live_activities_title" = "Живі дії";
 "advanced_setting_enable_live_activities_description" = "Перегляньте свій поточний баланс і багато іншого на динамічному острові, а також на екрані блокування.";
+"advanced_setting_show_new_features_title" = "Показувати нові функції";
+"advanced_setting_show_new_features_description" = "Автоматично показувати нові функції після оновлення застосунку.";
 "advanced_setting_ask_for_feedback_title" = "Запитувати відгук";
 "advanced_setting_ask_for_feedback_description" = "Дозволити програмі час від часу запитувати у вас відгуки.";
 

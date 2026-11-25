@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Időzóna";
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
 "advanced_setting_enable_live_activities_description" = "Tekintse meg aktuális egyenlegét és még sok mást a dinamikus szigeten, valamint a lezárási képernyőn.";
+"advanced_setting_show_new_features_title" = "Újdonságok megjelenítése";
+"advanced_setting_show_new_features_description" = "Az újdonságok automatikus megjelenítése az alkalmazás frissítése után.";
 "advanced_setting_ask_for_feedback_title" = "Visszajelzés kérése";
 "advanced_setting_ask_for_feedback_description" = "Engedélyezze, hogy az alkalmazás időnként visszajelzést kérjen.";
 

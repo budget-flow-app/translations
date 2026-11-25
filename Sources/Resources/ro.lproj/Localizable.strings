@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Fus orar";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "Vedeți soldul actual și multe altele pe insula dinamică, precum și pe ecranul de blocare.";
+"advanced_setting_show_new_features_title" = "Afișează noutățile";
+"advanced_setting_show_new_features_description" = "Afișează automat noutățile după o actualizare a aplicației.";
 "advanced_setting_ask_for_feedback_title" = "Cereți feedback";
 "advanced_setting_ask_for_feedback_description" = "Permiteți aplicației să vă solicite ocazional feedback.";
 

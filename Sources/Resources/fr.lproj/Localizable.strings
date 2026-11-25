@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Fuseau horaire";
 "advanced_setting_enable_live_activities_title" = "Activités en direct";
 "advanced_setting_enable_live_activities_description" = "Consultez votre solde actuel et bien plus encore sur l'île dynamique ainsi que sur l'écran de verrouillage.";
+"advanced_setting_show_new_features_title" = "Afficher les nouveautés";
+"advanced_setting_show_new_features_description" = "Afficher automatiquement les nouveautés après une mise à jour de l’app.";
 "advanced_setting_ask_for_feedback_title" = "Demander des commentaires";
 "advanced_setting_ask_for_feedback_description" = "Autoriser l'app à vous demander occasionnellement des commentaires.";
 

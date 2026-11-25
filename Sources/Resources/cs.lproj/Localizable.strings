@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Časové pásmo";
 "advanced_setting_enable_live_activities_title" = "Živé aktivity";
 "advanced_setting_enable_live_activities_description" = "Podívejte se na svůj aktuální zůstatek a další informace na dynamickém ostrově a také na zamykací obrazovce.";
+"advanced_setting_show_new_features_title" = "Zobrazovat novinky";
+"advanced_setting_show_new_features_description" = "Automaticky zobrazovat novinky po aktualizaci aplikace.";
 "advanced_setting_ask_for_feedback_title" = "Požádat o zpětnou vazbu";
 "advanced_setting_ask_for_feedback_description" = "Povolte aplikaci, aby vás občas požádala o zpětnou vazbu.";
 

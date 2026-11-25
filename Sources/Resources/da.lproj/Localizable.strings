@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Tidszone";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se din aktuelle saldo og mere på den dynamiske ø samt låseskærmen.";
+"advanced_setting_show_new_features_title" = "Vis nye funktioner";
+"advanced_setting_show_new_features_description" = "Vis automatisk nyheder efter en opdatering af appen.";
 "advanced_setting_ask_for_feedback_title" = "Bed om feedback";
 "advanced_setting_ask_for_feedback_description" = "Tillad, at appen lejlighedsvis beder dig om feedback.";
 
