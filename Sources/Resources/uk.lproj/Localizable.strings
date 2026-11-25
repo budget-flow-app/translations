@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Бюджетна книга";
 "budget_book_parameter_description" = "Пов'язана бюджетна книга.";
 "budget_book_parameter_dialog" = "Що таке пов'язана бюджетна книга?";
+
 "category_group_parameter_title" = "Папка";
 "category_group_parameter_description" = "Пов'язана папка.";
 "category_group_parameter_dialog" = "Що таке пов'язана папка?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Libro de presupuesto";
 "budget_book_parameter_description" = "El libro de presupuesto asociado.";
 "budget_book_parameter_dialog" = "¿Qué es el libro de presupuesto asociado?";
+
 "category_group_parameter_title" = "Carpeta";
 "category_group_parameter_description" = "La carpeta asociada.";
 "category_group_parameter_dialog" = "¿Cuál es la carpeta asociada?";

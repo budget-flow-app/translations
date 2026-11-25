@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Sổ ngân sách";
 "budget_book_parameter_description" = "Sổ ngân sách liên quan.";
 "budget_book_parameter_dialog" = "Sổ ngân sách liên quan là gì?";
+
 "category_group_parameter_title" = "Nhóm";
 "category_group_parameter_description" = "Nhóm liên quan.";
 "category_group_parameter_dialog" = "Nhóm liên quan là gì?";

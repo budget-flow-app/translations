@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Buku Anggaran";
 "budget_book_parameter_description" = "Buku anggaran terkait.";
 "budget_book_parameter_dialog" = "Apa buku anggaran yang terkait?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "Folder terkait.";
 "category_group_parameter_dialog" = "Apa folder yang terkait?";

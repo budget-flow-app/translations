@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Livre budgétaire";
 "budget_book_parameter_description" = "Le livre budgétaire associé.";
 "budget_book_parameter_dialog" = "Quel est le livre budgétaire associé ?";
+
 "category_group_parameter_title" = "Dossier";
 "category_group_parameter_description" = "Le dossier associé.";
 "category_group_parameter_dialog" = "Quel est le dossier associé ?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Cartea bugetului";
 "budget_book_parameter_description" = "Registrul de buget asociat.";
 "budget_book_parameter_dialog" = "Care este cartea bugetară asociată?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "Dosarul asociat.";
 "category_group_parameter_dialog" = "Care este folderul asociat?";

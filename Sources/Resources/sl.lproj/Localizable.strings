@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Proračunska knjiga";
 "budget_book_parameter_description" = "Povezana denarnica.";
 "budget_book_parameter_dialog" = "Katera denarnica je povezana?";
+
 "category_group_parameter_title" = "Mapa";
 "category_group_parameter_description" = "Povezana mapa.";
 "category_group_parameter_dialog" = "Katera mapa je povezana?";

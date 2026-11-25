@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "預算帳本";
 "budget_book_parameter_description" = "相關聯的預算帳本";
 "budget_book_parameter_dialog" = "關聯的預算帳本是什麼？";
+
 "category_group_parameter_title" = "資料夾";
 "category_group_parameter_description" = "關聯的資料夾";
 "category_group_parameter_dialog" = "關聯的資料夾是什麼？";

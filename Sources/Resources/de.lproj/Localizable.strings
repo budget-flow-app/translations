@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Haushaltsbuch";
 "budget_book_parameter_description" = "Das zugehörige Haushaltsbuch.";
 "budget_book_parameter_dialog" = "Was ist das zugehörige Haushaltsbuch?";
+
 "category_group_parameter_title" = "Ordner";
 "category_group_parameter_description" = "Der zugehörige Ordner.";
 "category_group_parameter_dialog" = "Was ist der zugehörige Ordner?";

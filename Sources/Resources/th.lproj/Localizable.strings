@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "สมุดงบประมาณ";
 "budget_book_parameter_description" = "สมุดงบประมาณที่เกี่ยวข้อง";
 "budget_book_parameter_dialog" = "สมุดงบประมาณที่เกี่ยวข้องคือเล่มใด?";
+
 "category_group_parameter_title" = "โฟลเดอร์";
 "category_group_parameter_description" = "โฟลเดอร์ที่เกี่ยวข้อง";
 "category_group_parameter_dialog" = "โฟลเดอร์ที่เกี่ยวข้องคือโฟลเดอร์ใด?";

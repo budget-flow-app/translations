@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Rozpočtová kniha";
 "budget_book_parameter_description" = "Přidružená kniha rozpočtu.";
 "budget_book_parameter_dialog" = "Jaká je související rozpočtová kniha?";
+
 "category_group_parameter_title" = "Složka";
 "category_group_parameter_description" = "Přidružená složka.";
 "category_group_parameter_dialog" = "Jaká je přidružená složka?";

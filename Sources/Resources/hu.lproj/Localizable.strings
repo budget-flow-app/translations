@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Költségkeret könyv";
 "budget_book_parameter_description" = "A társított költségvetési könyv.";
 "budget_book_parameter_dialog" = "Mi a társított költségvetési könyv?";
+
 "category_group_parameter_title" = "Mappa";
 "category_group_parameter_description" = "A társított mappa.";
 "category_group_parameter_dialog" = "Mi a társított mappa?";

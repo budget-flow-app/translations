@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Knjiga budžeta";
 "budget_book_parameter_description" = "Pridružena knjiga budžeta.";
 "budget_book_parameter_dialog" = "Šta je povezana knjiga budžeta?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "Pridruženi folder.";
 "category_group_parameter_dialog" = "Šta je pridruženi folder?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Caderno de Orçamento";
 "budget_book_parameter_description" = "O Caderno de Orçamento associado.";
 "budget_book_parameter_dialog" = "Qual é o Caderno de Orçamento associado?";
+
 "category_group_parameter_title" = "Pasta";
 "category_group_parameter_description" = "A pasta associada.";
 "category_group_parameter_dialog" = "Qual é a pasta associada?";

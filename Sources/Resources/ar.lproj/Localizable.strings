@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "دفتر الميزانية";
 "budget_book_parameter_description" = "دفتر الميزانية المرتبط.";
 "budget_book_parameter_dialog" = "ما هو دفتر الميزانية المرتبط؟";
+
 "category_group_parameter_title" = "مجلد";
 "category_group_parameter_description" = "المجلد المرتبط.";
 "category_group_parameter_dialog" = "ما هو المجلد المرتبط؟";

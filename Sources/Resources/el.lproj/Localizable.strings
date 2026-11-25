@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Βιβλίο προϋπολογισμού";
 "budget_book_parameter_description" = "Το σχετικό βιβλίο προϋπολογισμού.";
 "budget_book_parameter_dialog" = "Τι είναι το σχετικό βιβλίο προϋπολογισμού;";
+
 "category_group_parameter_title" = "Φάκελος";
 "category_group_parameter_description" = "Ο συσχετισμένος φάκελος.";
 "category_group_parameter_dialog" = "Τι είναι ο σχετικός φάκελος;";

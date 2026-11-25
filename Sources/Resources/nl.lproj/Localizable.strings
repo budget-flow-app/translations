@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Budgetboek";
 "budget_book_parameter_description" = "Het bijbehorende budgetboek.";
 "budget_book_parameter_dialog" = "Wat is het bijbehorende budgetboek?";
+
 "category_group_parameter_title" = "Map";
 "category_group_parameter_description" = "De bijbehorende map.";
 "category_group_parameter_dialog" = "Wat is de bijbehorende map?";

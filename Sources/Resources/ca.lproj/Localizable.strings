@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Llibre de pressupost";
 "budget_book_parameter_description" = "El llibre de pressupost associat.";
 "budget_book_parameter_dialog" = "Quin és el llibre de pressupost associat?";
+
 "category_group_parameter_title" = "Carpeta";
 "category_group_parameter_description" = "La carpeta associada.";
 "category_group_parameter_dialog" = "Quina és la carpeta associada?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Budjettikirja";
 "budget_book_parameter_description" = "Liitetty budjettikirja.";
 "budget_book_parameter_dialog" = "Mikä on siihen liittyvä budjettikirja?";
+
 "category_group_parameter_title" = "Kansio";
 "category_group_parameter_description" = "Liitetty kansio.";
 "category_group_parameter_dialog" = "Mikä siihen liittyvä kansio on?";

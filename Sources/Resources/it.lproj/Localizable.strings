@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Registro contabile";
 "budget_book_parameter_description" = "Il registro contabile associato.";
 "budget_book_parameter_dialog" = "Qual è il registro contabile associato?";
+
 "category_group_parameter_title" = "Cartella";
 "category_group_parameter_description" = "La cartella associata.";
 "category_group_parameter_dialog" = "Qual è la cartella associata?";

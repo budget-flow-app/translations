@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Księga budżetowa";
 "budget_book_parameter_description" = "Powiązana księga budżetowa.";
 "budget_book_parameter_dialog" = "Co to jest powiązana księga budżetowa?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "Powiązany folder.";
 "category_group_parameter_dialog" = "Jaki jest powiązany folder?";

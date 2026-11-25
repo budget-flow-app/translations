@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Budget Book";
 "budget_book_parameter_description" = "The associated budget book.";
 "budget_book_parameter_dialog" = "What is the associated budget book?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "The associated folder.";
 "category_group_parameter_dialog" = "What is the associated folder?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "帳簿";
 "budget_book_parameter_description" = "関連する帳簿";
 "budget_book_parameter_dialog" = "関連する帳簿は何ですか?";
+
 "category_group_parameter_title" = "フォルダー";
 "category_group_parameter_description" = "関連付けられたフォルダー。";
 "category_group_parameter_dialog" = "関連付けられているフォルダーは何ですか?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "预算账本";
 "budget_book_parameter_description" = "相关联的预算账本";
 "budget_book_parameter_dialog" = "关联的预算账本是什么？";
+
 "category_group_parameter_title" = "文件夹";
 "category_group_parameter_description" = "关联的文件夹";
 "category_group_parameter_dialog" = "关联的文件夹是什么？";

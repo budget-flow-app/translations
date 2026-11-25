@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Bütçe Defteri";
 "budget_book_parameter_description" = "İlişkili bütçe defteri.";
 "budget_book_parameter_dialog" = "İlişkili bütçe defteri nedir?";
+
 "category_group_parameter_title" = "Klasör";
 "category_group_parameter_description" = "İlişkili klasör.";
 "category_group_parameter_dialog" = "İlişkili klasör nedir?";

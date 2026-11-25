@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Kniha rozpočtu";
 "budget_book_parameter_description" = "Súvisiaca rozpočtová kniha.";
 "budget_book_parameter_dialog" = "Aká je súvisiaca rozpočtová kniha?";
+
 "category_group_parameter_title" = "Priečinok";
 "category_group_parameter_description" = "Priradený priečinok.";
 "category_group_parameter_dialog" = "Aký je priradený priečinok?";

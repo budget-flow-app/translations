@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Budsjettbok";
 "budget_book_parameter_description" = "Den tilknyttede budsjettboken.";
 "budget_book_parameter_dialog" = "Hva er den tilknyttede budsjettboken?";
+
 "category_group_parameter_title" = "Mappe";
 "category_group_parameter_description" = "Den tilknyttede mappen.";
 "category_group_parameter_dialog" = "Hva er den tilknyttede mappen?";

@@ -2234,6 +2234,7 @@
 "budget_book_parameter_title" = "Книга бюджета";
 "budget_book_parameter_description" = "Связанная книга бюджета.";
 "budget_book_parameter_dialog" = "Какая связанная книга бюджета?";
+
 "category_group_parameter_title" = "Папка";
 "category_group_parameter_description" = "Связанная папка.";
 "category_group_parameter_dialog" = "Какая папка связана?";
