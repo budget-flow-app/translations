@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Múi giờ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
 "advanced_setting_enable_live_activities_description" = "Xem số dư hiện tại của bạn và nhiều thông tin khác trên đảo động cũng như màn hình khóa.";
+"advanced_setting_show_new_features_title" = "Hiển thị tính năng mới";
+"advanced_setting_show_new_features_description" = "Tự động hiển thị tính năng mới sau khi cập nhật ứng dụng.";
 "advanced_setting_ask_for_feedback_title" = "Yêu cầu phản hồi";
 "advanced_setting_ask_for_feedback_description" = "Cho phép ứng dụng thỉnh thoảng yêu cầu bạn phản hồi.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Sổ ngân sách";
 "budget_book_parameter_description" = "Sổ ngân sách liên quan.";
 "budget_book_parameter_dialog" = "Sổ ngân sách liên quan là gì?";
+
 "category_group_parameter_title" = "Nhóm";
 "category_group_parameter_description" = "Nhóm liên quan.";
 "category_group_parameter_dialog" = "Nhóm liên quan là gì?";

@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Časové pásmo";
 "advanced_setting_enable_live_activities_title" = "Aktivity naživo";
 "advanced_setting_enable_live_activities_description" = "Pozrite si svoj aktuálny zostatok a ďalšie informácie na dynamickom ostrove, ako aj na uzamknutej obrazovke.";
+"advanced_setting_show_new_features_title" = "Zobrazovať novinky";
+"advanced_setting_show_new_features_description" = "Automaticky zobrazovať novinky po aktualizácii aplikácie.";
 "advanced_setting_ask_for_feedback_title" = "Požiadať o spätnú väzbu";
 "advanced_setting_ask_for_feedback_description" = "Umožnite aplikácii občas požiadať o spätnú väzbu.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Kniha rozpočtu";
 "budget_book_parameter_description" = "Súvisiaca rozpočtová kniha.";
 "budget_book_parameter_dialog" = "Aká je súvisiaca rozpočtová kniha?";
+
 "category_group_parameter_title" = "Priečinok";
 "category_group_parameter_description" = "Priradený priečinok.";
 "category_group_parameter_dialog" = "Aký je priradený priečinok?";

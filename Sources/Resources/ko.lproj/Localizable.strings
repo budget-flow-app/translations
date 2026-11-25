@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "시간대";
 "advanced_setting_enable_live_activities_title" = "Live Activities 활성화";
 "advanced_setting_enable_live_activities_description" = "잠금화면과 다이내믹 아일랜드에서 잔액 등을 확인할 수 있습니다.";
+"advanced_setting_show_new_features_title" = "새로운 기능 표시";
+"advanced_setting_show_new_features_description" = "앱 업데이트 후 새로운 기능을 자동으로 표시합니다.";
 "advanced_setting_ask_for_feedback_title" = "피드백 요청";
 "advanced_setting_ask_for_feedback_description" = "앱에서 가끔 피드백을 사용자에게 요청합니다.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "예산";
 "budget_book_parameter_description" = "연관된 예산";
 "budget_book_parameter_dialog" = "연관된 예산이 어떤것인가요?";
+
 "category_group_parameter_title" = "카테고리 그룹";
 "category_group_parameter_description" = "연관된 카테고리 그룹";
 "category_group_parameter_dialog" = "연관된 카테고리 그룹이 무엇인가요?";

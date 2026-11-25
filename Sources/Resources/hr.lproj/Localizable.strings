@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Vremenska zona";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti uživo";
 "advanced_setting_enable_live_activities_description" = "Pogledajte svoj trenutni saldo i više na dinamičnom otoku kao i na zaključanom zaslonu.";
+"advanced_setting_show_new_features_title" = "Prikaži nove značajke";
+"advanced_setting_show_new_features_description" = "Automatski prikaži novosti nakon ažuriranja aplikacije.";
 "advanced_setting_ask_for_feedback_title" = "Traži povratne informacije";
 "advanced_setting_ask_for_feedback_description" = "Dopusti aplikaciji da vas povremeno pita za povratne informacije.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Knjiga proračuna";
 "budget_book_parameter_description" = "Pridružena knjiga proračuna.";
 "budget_book_parameter_dialog" = "Što je povezana knjiga proračuna?";
+
 "category_group_parameter_title" = "Mapa";
 "category_group_parameter_description" = "Pridružena mapa.";
 "category_group_parameter_dialog" = "Što je pridružena mapa?";

@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Aikavyöhyke";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteetit";
 "advanced_setting_enable_live_activities_description" = "Katso nykyinen saldosi ja paljon muuta dynaamisella saarella sekä lukitusnäytöllä.";
+"advanced_setting_show_new_features_title" = "Näytä uudet ominaisuudet";
+"advanced_setting_show_new_features_description" = "Näytä uudet ominaisuudet automaattisesti sovelluksen päivityksen jälkeen.";
 "advanced_setting_ask_for_feedback_title" = "Pyydä palautetta";
 "advanced_setting_ask_for_feedback_description" = "Salli sovelluksen pyytää joskus palautetta.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Budjettikirja";
 "budget_book_parameter_description" = "Liitetty budjettikirja.";
 "budget_book_parameter_dialog" = "Mikä on siihen liittyvä budjettikirja?";
+
 "category_group_parameter_title" = "Kansio";
 "category_group_parameter_description" = "Liitetty kansio.";
 "category_group_parameter_dialog" = "Mikä siihen liittyvä kansio on?";

@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Fuso orario";
 "advanced_setting_enable_live_activities_title" = "Attività dal vivo";
 "advanced_setting_enable_live_activities_description" = "Visualizza il tuo saldo attuale e altro ancora sull'isola dinamica e sulla schermata di blocco.";
+"advanced_setting_show_new_features_title" = "Mostra le novità";
+"advanced_setting_show_new_features_description" = "Mostra automaticamente le novità dopo un aggiornamento dell’app.";
 "advanced_setting_ask_for_feedback_title" = "Chiedi feedback";
 "advanced_setting_ask_for_feedback_description" = "Consenti all'app di chiederti occasionalmente un feedback.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Registro contabile";
 "budget_book_parameter_description" = "Il registro contabile associato.";
 "budget_book_parameter_dialog" = "Qual è il registro contabile associato?";
+
 "category_group_parameter_title" = "Cartella";
 "category_group_parameter_description" = "La cartella associata.";
 "category_group_parameter_dialog" = "Qual è la cartella associata?";

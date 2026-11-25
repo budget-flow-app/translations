@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Timezone";
 "advanced_setting_enable_live_activities_title" = "Live Activities";
 "advanced_setting_enable_live_activities_description" = "See your current balance and more on the Dynamic Island and the Lock Screen.";
+"advanced_setting_show_new_features_title" = "Show New Features";
+"advanced_setting_show_new_features_description" = "Automatically show what’s new after an app update.";
 "advanced_setting_ask_for_feedback_title" = "Ask for Feedback";
 "advanced_setting_ask_for_feedback_description" = "Allow the app to occasionally ask you for feedback.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Budget Book";
 "budget_book_parameter_description" = "The associated budget book.";
 "budget_book_parameter_dialog" = "What is the associated budget book?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "The associated folder.";
 "category_group_parameter_dialog" = "What is the associated folder?";

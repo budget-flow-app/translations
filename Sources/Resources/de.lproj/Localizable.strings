@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Zeitzone";
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";
 "advanced_setting_enable_live_activities_description" = "Zeig deine aktuelle Bilanz und mehr auf der Dynamic Island sowie dem Lockscreen an.";
+"advanced_setting_show_new_features_title" = "Neuigkeiten anzeigen";
+"advanced_setting_show_new_features_description" = "Zeige nach einem App-Update automatisch die neuen Funktionen an.";
 "advanced_setting_ask_for_feedback_title" = "Nach Feedback fragen";
 "advanced_setting_ask_for_feedback_description" = "Erlaube der App, dich gelegentlich nach Feedback zu fragen.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Haushaltsbuch";
 "budget_book_parameter_description" = "Das zugehörige Haushaltsbuch.";
 "budget_book_parameter_dialog" = "Was ist das zugehörige Haushaltsbuch?";
+
 "category_group_parameter_title" = "Ordner";
 "category_group_parameter_description" = "Der zugehörige Ordner.";
 "category_group_parameter_dialog" = "Was ist der zugehörige Ordner?";

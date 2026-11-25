@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Часовой пояс";
 "advanced_setting_enable_live_activities_title" = "Эфир активности";
 "advanced_setting_enable_live_activities_description" = "Показывать текущий баланс и другие сведения на Dynamic Island, а также на экране блокировки.";
+"advanced_setting_show_new_features_title" = "Показывать новые функции";
+"advanced_setting_show_new_features_description" = "Автоматически показывать новые функции после обновления приложения.";
 "advanced_setting_ask_for_feedback_title" = "Попросить оставить отзыв";
 "advanced_setting_ask_for_feedback_description" = "Включите эту функцию, чтобы приложение могло время от времени запрашивать у вас обратную связь.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Книга бюджета";
 "budget_book_parameter_description" = "Связанная книга бюджета.";
 "budget_book_parameter_dialog" = "Какая связанная книга бюджета?";
+
 "category_group_parameter_title" = "Папка";
 "category_group_parameter_description" = "Связанная папка.";
 "category_group_parameter_dialog" = "Какая папка связана?";

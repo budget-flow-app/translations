@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Zona horària";
 "advanced_setting_enable_live_activities_title" = "Activitats en viu";
 "advanced_setting_enable_live_activities_description" = "Consulta el teu saldo actual i més a la dynamic island i a la pantalla de bloqueig.";
+"advanced_setting_show_new_features_title" = "Mostra les novetats";
+"advanced_setting_show_new_features_description" = "Mostra automàticament les novetats després d’actualitzar l’app.";
 "advanced_setting_ask_for_feedback_title" = "Sol·licitar comentaris";
 "advanced_setting_ask_for_feedback_description" = "Permetre que l'app et sol·liciti comentaris de tant en tant.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Llibre de pressupost";
 "budget_book_parameter_description" = "El llibre de pressupost associat.";
 "budget_book_parameter_dialog" = "Quin és el llibre de pressupost associat?";
+
 "category_group_parameter_title" = "Carpeta";
 "category_group_parameter_description" = "La carpeta associada.";
 "category_group_parameter_dialog" = "Quina és la carpeta associada?";

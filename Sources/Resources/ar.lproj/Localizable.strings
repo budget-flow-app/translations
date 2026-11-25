@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "المنطقة الزمنية";
 "advanced_setting_enable_live_activities_title" = "النشاط المباشر";
 "advanced_setting_enable_live_activities_description" = "إظهار الرصيد الحالي والمعلومات الأخرى في Dynamic Island وعلى شاشة القفل.";
+"advanced_setting_show_new_features_title" = "عرض الميزات الجديدة";
+"advanced_setting_show_new_features_description" = "عرض الميزات الجديدة تلقائيًا بعد تحديث التطبيق.";
 "advanced_setting_ask_for_feedback_title" = "اطلب تعليقات";
 "advanced_setting_ask_for_feedback_description" = "قم بتشغيل هذه الميزة للسماح للتطبيق بمطالبتك بالتعليقات من وقت لآخر.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "دفتر الميزانية";
 "budget_book_parameter_description" = "دفتر الميزانية المرتبط.";
 "budget_book_parameter_dialog" = "ما هو دفتر الميزانية المرتبط؟";
+
 "category_group_parameter_title" = "مجلد";
 "category_group_parameter_description" = "المجلد المرتبط.";
 "category_group_parameter_dialog" = "ما هو المجلد المرتبط؟";

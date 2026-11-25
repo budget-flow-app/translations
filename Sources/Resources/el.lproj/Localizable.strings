@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Ζώνη ώρας";
 "advanced_setting_enable_live_activities_title" = "Ζωντανές δραστηριότητες";
 "advanced_setting_enable_live_activities_description" = "Δείτε το τρέχον υπόλοιπό σας και πολλά άλλα στο δυναμικό νησί καθώς και στην οθόνη κλειδώματος.";
+"advanced_setting_show_new_features_title" = "Εμφάνιση νέων λειτουργιών";
+"advanced_setting_show_new_features_description" = "Αυτόματη εμφάνιση των νέων λειτουργιών μετά από ενημέρωση της εφαρμογής.";
 "advanced_setting_ask_for_feedback_title" = "Ζητήστε σχόλια";
 "advanced_setting_ask_for_feedback_description" = "Να επιτρέπεται η εφαρμογή περιστασιακά να σας ζητά σχόλια.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Βιβλίο προϋπολογισμού";
 "budget_book_parameter_description" = "Το σχετικό βιβλίο προϋπολογισμού.";
 "budget_book_parameter_dialog" = "Τι είναι το σχετικό βιβλίο προϋπολογισμού;";
+
 "category_group_parameter_title" = "Φάκελος";
 "category_group_parameter_description" = "Ο συσχετισμένος φάκελος.";
 "category_group_parameter_dialog" = "Τι είναι ο σχετικός φάκελος;";

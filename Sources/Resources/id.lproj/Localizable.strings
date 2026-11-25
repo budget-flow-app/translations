@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Zona Waktu";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan informasi lainnya di dynamic island serta layar kunci.";
+"advanced_setting_show_new_features_title" = "Tampilkan Fitur Baru";
+"advanced_setting_show_new_features_description" = "Tampilkan fitur baru secara otomatis setelah pembaruan aplikasi.";
 "advanced_setting_ask_for_feedback_title" = "Minta Masukan";
 "advanced_setting_ask_for_feedback_description" = "Izinkan aplikasi sesekali meminta masukan dari Anda.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Buku Anggaran";
 "budget_book_parameter_description" = "Buku anggaran terkait.";
 "budget_book_parameter_dialog" = "Apa buku anggaran yang terkait?";
+
 "category_group_parameter_title" = "Folder";
 "category_group_parameter_description" = "Folder terkait.";
 "category_group_parameter_dialog" = "Apa folder yang terkait?";

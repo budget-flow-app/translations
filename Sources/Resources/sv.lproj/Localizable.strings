@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Tidszon";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se ditt nuvarande saldo och mer på den dynamiska ön samt låsskärmen.";
+"advanced_setting_show_new_features_title" = "Visa nya funktioner";
+"advanced_setting_show_new_features_description" = "Visa automatiskt nyheter efter en uppdatering av appen.";
 "advanced_setting_ask_for_feedback_title" = "Be om feedback";
 "advanced_setting_ask_for_feedback_description" = "Tillåt att appen ibland ber dig om feedback.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Budgetbok";
 "budget_book_parameter_description" = "Den associerade budgetboken.";
 "budget_book_parameter_dialog" = "Vad är den associerade budgetboken?";
+
 "category_group_parameter_title" = "Mapp";
 "category_group_parameter_description" = "Den associerade mappen.";
 "category_group_parameter_dialog" = "Vad är den associerade mappen?";

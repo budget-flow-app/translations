@@ -924,6 +924,8 @@
 "advanced_setting_time_zone_title" = "Tijdzone";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
 "advanced_setting_enable_live_activities_description" = "Bekijk je huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
+"advanced_setting_show_new_features_title" = "Nieuwe functies tonen";
+"advanced_setting_show_new_features_description" = "Toon automatisch wat er nieuw is na een app-update.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";
 "advanced_setting_ask_for_feedback_description" = "Sta toe dat de app je af en toe om feedback vraagt.";
 
@@ -2234,6 +2236,7 @@
 "budget_book_parameter_title" = "Budgetboek";
 "budget_book_parameter_description" = "Het bijbehorende budgetboek.";
 "budget_book_parameter_dialog" = "Wat is het bijbehorende budgetboek?";
+
 "category_group_parameter_title" = "Map";
 "category_group_parameter_description" = "De bijbehorende map.";
 "category_group_parameter_dialog" = "Wat is de bijbehorende map?";
