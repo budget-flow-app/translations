@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Roční";
 "date_repetition_frequency_custom" = "Vlastní";
 
+"date_repetition_monthly_day_format" = "%d.";
+"date_repetition_monthly_days_format" = "%@ den v měsíci";
+"date_repetition_monthly_days_separator_format" = "%@ a %@";
+"date_repetition_monthly_weekday_format" = "%@ %@ v měsíci";
+"date_repetition_monthly_last_weekday_format" = "Poslední %@ v měsíci";
+
 "csv_transaction_type_automatic" = "Automaticky";
 "csv_transaction_type_income" = "Příjem";
 "csv_transaction_type_expenses" = "Výdaje";

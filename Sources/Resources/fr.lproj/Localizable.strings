@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Annuel";
 "date_repetition_frequency_custom" = "Personnalisé";
 
+"date_repetition_monthly_day_format" = "%d";
+"date_repetition_monthly_days_format" = "Le %@ de chaque mois";
+"date_repetition_monthly_days_separator_format" = "%@ et %@";
+"date_repetition_monthly_weekday_format" = "%@ %@ de chaque mois";
+"date_repetition_monthly_last_weekday_format" = "Dernier %@ de chaque mois";
+
 "csv_transaction_type_automatic" = "Automatique";
 "csv_transaction_type_income" = "Revenu";
 "csv_transaction_type_expenses" = "Dépenses";

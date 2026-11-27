@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "매년";
 "date_repetition_frequency_custom" = "사용자 정의";
 
+"date_repetition_monthly_day_format" = "%d일";
+"date_repetition_monthly_days_format" = "매월 %@";
+"date_repetition_monthly_days_separator_format" = "%@, %@";
+"date_repetition_monthly_weekday_format" = "매월 %@ %@";
+"date_repetition_monthly_last_weekday_format" = "매월 마지막 %@";
+
 "csv_transaction_type_automatic" = "자동";
 "csv_transaction_type_income" = "수입";
 "csv_transaction_type_expenses" = "비용";

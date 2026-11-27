@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Yıllık";
 "date_repetition_frequency_custom" = "Özel";
 
+"date_repetition_monthly_day_format" = "%d.";
+"date_repetition_monthly_days_format" = "Her ayın %@ günü";
+"date_repetition_monthly_days_separator_format" = "%@ ve %@";
+"date_repetition_monthly_weekday_format" = "Her ayın %@ %@ günü";
+"date_repetition_monthly_last_weekday_format" = "Her ayın son %@ günü";
+
 "csv_transaction_type_automatic" = "Otomatik";
 "csv_transaction_type_income" = "Gelir";
 "csv_transaction_type_expenses" = "Giderler";
