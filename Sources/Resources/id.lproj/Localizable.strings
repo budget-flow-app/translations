@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Tahunan";
 "date_repetition_frequency_custom" = "Kustom";
 
+"date_repetition_monthly_day_format" = "%d";
+"date_repetition_monthly_days_format" = "Tanggal %@ setiap bulan";
+"date_repetition_monthly_days_separator_format" = "%@ dan %@";
+"date_repetition_monthly_weekday_format" = "%2$@ %1$@ setiap bulan";
+"date_repetition_monthly_last_weekday_format" = "%@ terakhir setiap bulan";
+
 "csv_transaction_type_automatic" = "Otomatis";
 "csv_transaction_type_income" = "Pendapatan";
 "csv_transaction_type_expenses" = "Pengeluaran";

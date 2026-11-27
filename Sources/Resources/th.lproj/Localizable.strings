@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "รายปี";
 "date_repetition_frequency_custom" = "กำหนดเอง";
 
+"date_repetition_monthly_day_format" = "%d";
+"date_repetition_monthly_days_format" = "วันที่ %@ ของทุกเดือน";
+"date_repetition_monthly_days_separator_format" = "%@ และ %@";
+"date_repetition_monthly_weekday_format" = "%2$@ลำดับ%1$@ของทุกเดือน";
+"date_repetition_monthly_last_weekday_format" = "%@สุดท้ายของทุกเดือน";
+
 "csv_transaction_type_automatic" = "อัตโนมัติ";
 "csv_transaction_type_income" = "รายได้";
 "csv_transaction_type_expenses" = "ค่าใช้จ่าย";

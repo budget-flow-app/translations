@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "毎年";
 "date_repetition_frequency_custom" = "カスタム";
 
+"date_repetition_monthly_day_format" = "%d日";
+"date_repetition_monthly_days_format" = "毎月%@";
+"date_repetition_monthly_days_separator_format" = "%@、%@";
+"date_repetition_monthly_weekday_format" = "毎月%@%@";
+"date_repetition_monthly_last_weekday_format" = "毎月最後の%@";
+
 "csv_transaction_type_automatic" = "自動";
 "csv_transaction_type_income" = "収入";
 "csv_transaction_type_expenses" = "支出";

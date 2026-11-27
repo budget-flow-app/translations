@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Vuotuinen";
 "date_repetition_frequency_custom" = "Muokattu";
 
+"date_repetition_monthly_day_format" = "%d.";
+"date_repetition_monthly_days_format" = "Kuukauden %@ päivä";
+"date_repetition_monthly_days_separator_format" = "%@ ja %@";
+"date_repetition_monthly_weekday_format" = "Kuukauden %@ %@";
+"date_repetition_monthly_last_weekday_format" = "Kuukauden viimeinen %@";
+
 "csv_transaction_type_automatic" = "Automaattinen";
 "csv_transaction_type_income" = "Tulot";
 "csv_transaction_type_expenses" = "Kulut";

@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Årlig";
 "date_repetition_frequency_custom" = "Brugerdefineret";
 
+"date_repetition_monthly_day_format" = "%d.";
+"date_repetition_monthly_days_format" = "Den %@ i måneden";
+"date_repetition_monthly_days_separator_format" = "%@ og %@";
+"date_repetition_monthly_weekday_format" = "%@ %@ i måneden";
+"date_repetition_monthly_last_weekday_format" = "Sidste %@ i måneden";
+
 "csv_transaction_type_automatic" = "Automatisk";
 "csv_transaction_type_income" = "Indkomst";
 "csv_transaction_type_expenses" = "Udgifter";

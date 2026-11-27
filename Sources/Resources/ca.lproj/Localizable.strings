@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Anual";
 "date_repetition_frequency_custom" = "Personalitzat";
 
+"date_repetition_monthly_day_format" = "%d";
+"date_repetition_monthly_days_format" = "Cada mes: %@";
+"date_repetition_monthly_days_separator_format" = "%@ i %@";
+"date_repetition_monthly_weekday_format" = "%@ %@ de cada mes";
+"date_repetition_monthly_last_weekday_format" = "Últim %@ de cada mes";
+
 "csv_transaction_type_automatic" = "Automàtic";
 "csv_transaction_type_income" = "Ingressos";
 "csv_transaction_type_expenses" = "Despeses";

@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "Éves";
 "date_repetition_frequency_custom" = "Egyéni";
 
+"date_repetition_monthly_day_format" = "%d.";
+"date_repetition_monthly_days_format" = "Havonta: %@";
+"date_repetition_monthly_days_separator_format" = "%@ és %@";
+"date_repetition_monthly_weekday_format" = "Minden hónap %@ %@";
+"date_repetition_monthly_last_weekday_format" = "Minden hónap utolsó %@";
+
 "csv_transaction_type_automatic" = "Automatikus";
 "csv_transaction_type_income" = "Jövedelem";
 "csv_transaction_type_expenses" = "Kiadások";

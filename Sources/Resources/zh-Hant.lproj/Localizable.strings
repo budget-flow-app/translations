@@ -104,6 +104,12 @@
 "date_repetition_frequency_yearly" = "每年";
 "date_repetition_frequency_custom" = "自訂";
 
+"date_repetition_monthly_day_format" = "%d日";
+"date_repetition_monthly_days_format" = "每月%@";
+"date_repetition_monthly_days_separator_format" = "%@和%@";
+"date_repetition_monthly_weekday_format" = "每月%@個%@";
+"date_repetition_monthly_last_weekday_format" = "每月最後一個%@";
+
 "csv_transaction_type_automatic" = "自動";
 "csv_transaction_type_income" = "收入";
 "csv_transaction_type_expenses" = "費用";
